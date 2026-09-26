@@ -1,0 +1,325 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 18.297
+  },
+  {
+   "id": "title",
+   "start": 18.297,
+   "end": 42.461
+  },
+  {
+   "id": "margins",
+   "start": 42.461,
+   "end": 69.628
+  },
+  {
+   "id": "practice",
+   "start": 69.628,
+   "end": 92.734
+  },
+  {
+   "id": "unending",
+   "start": 92.734,
+   "end": 129.833
+  },
+  {
+   "id": "same",
+   "start": 129.833,
+   "end": 155.769
+  },
+  {
+   "id": "buddha",
+   "start": 155.769,
+   "end": 175.749
+  },
+  {
+   "id": "net",
+   "start": 175.749,
+   "end": 199.581
+  },
+  {
+   "id": "upaya",
+   "start": 199.581,
+   "end": 220.296
+  },
+  {
+   "id": "together",
+   "start": 220.296,
+   "end": 253.41
+  },
+  {
+   "id": "care",
+   "start": 253.41,
+   "end": 278.398
+  },
+  {
+   "id": "prayer",
+   "start": 278.398,
+   "end": 304.142
+  },
+  {
+   "id": "self",
+   "start": 304.142,
+   "end": 328.21
+  },
+  {
+   "id": "finale",
+   "start": 328.21,
+   "end": 354.493
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 6.45,
+   "en": "Truth has shape, and cannot be exhausted.",
+   "zh": "真理有形，而无法穷尽。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 7.05,
+   "end": 17.297,
+   "en": "Religions, philosophies, the sciences, even this theory: all finite responses to one source. That is an assumption, stated up front, and never proved.",
+   "zh": "诸宗教、哲学、科学，连同这套理论本身，都是对同一源头的有限回应。这是一项假设，开宗明义，从未被证明。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 19.497,
+   "end": 29.168,
+   "en": "Math is the language of objects, relations and transformations. Myth is the tradition that carries meaning, and here it is never defined as false.",
+   "zh": "Math，是对象、关系与变换的语言。Myth，是承载意义的传统；在这里，它从不被定义为虚假。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 29.768,
+   "end": 41.061,
+   "en": "Match is a correspondence that states, item by item, what it keeps and where it distorts. And mathematics enters the comparison as one more member. It is not the referee.",
+   "zh": "Match，是逐项说明保留什么、在哪里失真的对应。数学本身也作为一员加入比较，它不是裁判。"
+  },
+  {
+   "i": 4,
+   "scene": "margins",
+   "start": 43.261,
+   "end": 50.819,
+   "en": "Two traditions, each able to say yes or no. Here are three joint worlds: free, always the same, always opposite.",
+   "zh": "两个传统，各自能说是或否。这里有三个联合世界：自由、永远相同、永远相反。"
+  },
+  {
+   "i": 5,
+   "scene": "margins",
+   "start": 51.419,
+   "end": 59.507,
+   "en": "Look at either tradition alone, and the three worlds are identical. Listing what each can say tells you nothing about how they relate.",
+   "zh": "单看任何一个传统，三个世界一模一样。列出各自能说什么，不能告诉你它们之间是什么关系。"
+  },
+  {
+   "i": 6,
+   "scene": "margins",
+   "start": 60.107,
+   "end": 68.228,
+   "en": "Worse: three bridges, each fine, any two fine, all three impossible. Two good analogies do not have to fit into one meaning.",
+   "zh": "更糟的是：三座桥，各自可行，任意两座可行，三座一起却不可能。两个好的类比，不必能装进同一个意义。"
+  },
+  {
+   "i": 7,
+   "scene": "practice",
+   "start": 70.428,
+   "end": 77.767,
+   "en": "So what would a real common source be? Not a name. Every stated reading and every practice must be realizable together.",
+   "zh": "那么，一个真正的共同源头是什么？不是一个名字。每一个声明的读数、每一种实践，都必须能够共同实现。"
+  },
+  {
+   "i": 8,
+   "scene": "practice",
+   "start": 78.367,
+   "end": 91.334,
+   "en": "Take two doctrines that always agree on paper. Now add one shared practice that changes one side, not the other. Keep applying it, and nothing survives. Static agreement is broken by practice.",
+   "zh": "取两套在纸面上永远一致的教义。加上一种共同实践，它只改变其中一方。反复施行，什么都留不下。静态的一致，被实践推翻。"
+  },
+  {
+   "i": 9,
+   "scene": "unending",
+   "start": 93.534,
+   "end": 105.447,
+   "en": "The Dao that can be spoken is not the constant Dao. Take a sequence of zeros. Say the first is zero, the first two, the first thousand. Every statement is true, and the list keeps growing.",
+   "zh": "道可道，非常道。取一串全是零的序列。说第一位是零，前两位，前一千位。每一句都真，清单不断增长。"
+  },
+  {
+   "i": 10,
+   "scene": "unending",
+   "start": 106.047,
+   "end": 120.134,
+   "en": "Yet no finite list pins it down. Finite expression can be true, can accumulate, and still not exhaust. But the theory is careful: one formula, for every n, does pin it down. Expression does not always fail.",
+   "zh": "然而没有哪份有限清单能确定它。有限表达可以真实、可以累积，却仍不能穷尽。但理论很谨慎：一个“对一切 n”的公式，确实能确定它。表达并非总是失败。"
+  },
+  {
+   "i": 11,
+   "scene": "unending",
+   "start": 120.734,
+   "end": 128.433,
+   "en": "And every finite layer can agree, while the whole is still missing. Agreement at every depth is not a proof of a common source.",
+   "zh": "而且每一个有限层都可以一致，整体却仍然缺席。每一层的一致，不是共同源头的证明。"
+  },
+  {
+   "i": 12,
+   "scene": "same",
+   "start": 130.633,
+   "end": 142.338,
+   "en": "Are they all saying the same thing? First ask which sameness: a shared question, a shared practice, a local identity, a structural match, or one ultimate source. Five different claims.",
+   "zh": "它们都在说一回事吗？先问是哪一种“相同”：共同的问题、共同的实践、局部的同一、结构的同构，还是同一个终极源头。五种不同的主张。"
+  },
+  {
+   "i": 13,
+   "scene": "same",
+   "start": 142.938,
+   "end": 154.369,
+   "en": "Drop the absolute origin, and relations stay exact. Zero to one is the same gap as five to six; zero to two is not. Form is not emptiness written as a void.",
+   "zh": "抛弃绝对原点，关系依然精确。零到一，与五到六是同一个间隔；零到二则不是。色不异空，不是把空画成一片虚无。"
+  },
+  {
+   "i": 14,
+   "scene": "buddha",
+   "start": 156.569,
+   "end": 164.803,
+   "en": "All beings are Buddha. The theory splits the sentence in three: all share a nature; all can reach the goal; all have already arrived.",
+   "zh": "众生皆佛。理论把这句话拆成三句：众生共有一种本性；众生都能到达；众生已经到达。"
+  },
+  {
+   "i": 15,
+   "scene": "buddha",
+   "start": 165.403,
+   "end": 174.349,
+   "en": "Two states are enough to separate them. And even if every state can arrive, state n may need exactly n steps. There is no single bound for all.",
+   "zh": "两个状态就足以把它们分开。而即使每个状态都能到达，第 n 个状态也可能恰好需要 n 步。不存在一个对所有人通用的上限。"
+  },
+  {
+   "i": 16,
+   "scene": "net",
+   "start": 176.549,
+   "end": 185.026,
+   "en": "One in all, all in one. Here is a net of three positions, counting modulo three. From any single position, you can recover the whole.",
+   "zh": "一即一切，一切即一。这是一张三个位置的网，按模三计数。从任何一个位置出发，都能恢复整体。"
+  },
+  {
+   "i": 17,
+   "scene": "net",
+   "start": 185.626,
+   "end": 198.181,
+   "en": "Yet the three positions stay different. One and many coexist, without collapsing into sameness. But holding the whole is not reading it: a full state can live inside you while you can read only one bit.",
+   "zh": "然而三个位置依然各不相同。一与多并存，没有坍缩成同一。但含有整体，不等于读出整体：完整的状态可以住在你里面，而你只能读出一位。"
+  },
+  {
+   "i": 18,
+   "scene": "upaya",
+   "start": 200.381,
+   "end": 204.97,
+   "en": "Skillful means. A message can be always true, and still fail its purpose.",
+   "zh": "方便法门。一条消息可以永远为真，却达不到目的。"
+  },
+  {
+   "i": 19,
+   "scene": "upaya",
+   "start": 205.57,
+   "end": 218.896,
+   "en": "Another can be always false, and still produce the right action every time. Truthfulness and sufficiency are independent. The burning house: the father promised carts, and the sutra still says: this was not a lie.",
+   "zh": "另一条消息可以永远为假，却每一次都引出正确的行动。真实性与充分性相互独立。火宅喻：父亲许诺了车，经文仍然说：这不是虚妄。"
+  },
+  {
+   "i": 20,
+   "scene": "together",
+   "start": 221.096,
+   "end": 228.914,
+   "en": "Two people. One sees the first bit, one sees the second. Pooled, they know everything. As common knowledge, they know nothing.",
+   "zh": "两个人。一个看见第一位，一个看见第二位。合起来，他们知道一切。作为共同知识，他们一无所知。"
+  },
+  {
+   "i": 21,
+   "scene": "together",
+   "start": 229.514,
+   "end": 240.283,
+   "en": "Then each announces what they see, truthfully and in public. Now the whole state is common knowledge, and they are still two different people. Unity does not have to grow emptier.",
+   "zh": "然后，每个人真实地、公开地宣告自己所见。此刻完整状态成了共同知识，而他们仍是两个不同的人。统一，不必越来越空泛。"
+  },
+  {
+   "i": 22,
+   "scene": "together",
+   "start": 240.883,
+   "end": 252.01,
+   "en": "But agreement is not truth. Everyone can believe something, believe that everyone believes it, at every level, and it can still be false. A thousand may agree, and still be wrong.",
+   "zh": "但一致不是真理。人人可以相信一件事，相信人人都相信它，层层如此，它仍然可以是假的。一千人赞同，仍可能是错的。"
+  },
+  {
+   "i": 23,
+   "scene": "care",
+   "start": 254.21,
+   "end": 265.874,
+   "en": "Care, as a number. Weigh another's gain by lambda. With these payoffs, giving becomes worthwhile once lambda reaches one half. And the theory insists: lambda is not a measure of love.",
+   "zh": "把关怀写成一个数。给他人的收益加上权重 lambda。在这组收益下，一旦 lambda 达到二分之一，付出就变得值得。而理论坚持：lambda 不是爱的度量。"
+  },
+  {
+   "i": 24,
+   "scene": "care",
+   "start": 266.474,
+   "end": 276.998,
+   "en": "Some goods need everyone. All give, or none give: both are stable. No amount of caring moves the first person who gives alone. Good will still needs coordination.",
+   "zh": "有些善需要所有人。人人付出，或无人付出：两者都是稳定的。再多的关怀，也推不动那个独自先付出的人。善意仍然需要协调。"
+  },
+  {
+   "i": 25,
+   "scene": "prayer",
+   "start": 279.198,
+   "end": 289.613,
+   "en": "Prayer and outcome appear together. Did prayer change the outcome, or did the outcome bring the prayer? The observations are identical. Only an intervention can tell.",
+   "zh": "祈祷与结果一起出现。是祈祷改变了结果，还是结果引来了祈祷？观察完全相同。只有干预能够分辨。"
+  },
+  {
+   "i": 26,
+   "scene": "prayer",
+   "start": 290.213,
+   "end": 302.742,
+   "en": "In one illustrative model, practice raises success from seven in twenty to thirteen in twenty, and all of it runs through what people then do. These are model parameters, not a measurement of any prayer.",
+   "zh": "在一个说明性模型里，实践把成功率从二十分之七提高到二十分之十三，而全部效果都经由人们随后的行动。这些是模型参数，不是对任何祈祷的测量。"
+  },
+  {
+   "i": 27,
+   "scene": "self",
+   "start": 304.942,
+   "end": 311.783,
+   "en": "Who continues through change? If a memory can pass to two different successors, memory cannot be strict identity.",
+   "zh": "谁在变化中相续？如果一份记忆可以传给两个不同的后继者，记忆就不可能是严格的同一。"
+  },
+  {
+   "i": 28,
+   "scene": "self",
+   "start": 312.383,
+   "end": 326.81,
+   "en": "The mirror and the sun. What we see is the source, and the channel. Close the channel, and a living source and an ended one look the same. The vanishing of a manifestation proves neither that the source is gone, nor that it lives on.",
+   "zh": "镜与日。我们所见，是源头与通道的合取。关上通道，存续的源头与终结的源头看起来一模一样。表现的消失，既不能推出源头消失，也不能推出源头继续存在。"
+  },
+  {
+   "i": 29,
+   "scene": "finale",
+   "start": 329.21,
+   "end": 338.397,
+   "en": "Neither a proof that God exists, nor a proof that God does not. The unit of progress is a relation that passed its checks, never a final name.",
+   "zh": "既不是神存在的证明，也不是神不存在的证明。会通积累的单位，是通过检查的关系，不是任何一个最后的名称。"
+  },
+  {
+   "i": 30,
+   "scene": "finale",
+   "start": 338.997,
+   "end": 345.493,
+   "en": "Such a common study holds relations that accumulate, and disagreements that cannot honestly be erased.",
+   "zh": "这样的共同研究，包含可以积累的关系，也容纳不能被诚实抹去的分歧。"
+  }
+ ],
+ "duration": 354.493
+}

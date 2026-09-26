@@ -16,6 +16,7 @@ outputs, published only as [Releases](../../releases).
 | 003 | [INFORMATION ESCAPE](films/003-information-escape/) · 信息逃逸 | 4:38 | EN (AI) / music-only | ZH + EN |
 | 004 | [FIXED POINT](films/004-fixed-point/) · 不动点 | 5:13 | EN (AI) / music-only | ZH + EN |
 | 005 | [INDRA'S NET](films/005-indra-net/) · 因陀罗网 | 5:12 | EN (AI) / music-only | ZH + EN |
+| 006 | [MATH · MYTH · MATCH](films/006-math-myth-match/) · 真理有形而无法穷尽 | 5:55 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 
