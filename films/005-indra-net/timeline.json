@@ -1,0 +1,323 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 17.588
+  },
+  {
+   "id": "title",
+   "start": 17.588,
+   "end": 31.053
+  },
+  {
+   "id": "net",
+   "start": 31.053,
+   "end": 58.395
+  },
+  {
+   "id": "origination",
+   "start": 58.395,
+   "end": 88.59
+  },
+  {
+   "id": "empty",
+   "start": 88.59,
+   "end": 109.188
+  },
+  {
+   "id": "dao",
+   "start": 109.188,
+   "end": 135.937
+  },
+  {
+   "id": "still",
+   "start": 135.937,
+   "end": 163.908
+  },
+  {
+   "id": "karma",
+   "start": 163.908,
+   "end": 196.287
+  },
+  {
+   "id": "god",
+   "start": 196.287,
+   "end": 233.46
+  },
+  {
+   "id": "faith",
+   "start": 233.46,
+   "end": 261.02
+  },
+  {
+   "id": "myth",
+   "start": 261.02,
+   "end": 288.744
+  },
+  {
+   "id": "finale",
+   "start": 288.744,
+   "end": 311.897
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 7.559,
+   "en": "Every tradition has pointed at something that words cannot hold.",
+   "zh": "每一种传统，都曾指向某种言语装不下的东西。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 8.159,
+   "end": 16.588,
+   "en": "This project does not preach, and it does not debunk. It asks a narrower question: which of these old shapes survive contact with proof?",
+   "zh": "这个项目不布道，也不拆台。它只问一个更窄的问题：这些古老的形状里，哪些经得起证明的触碰？"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 18.788,
+   "end": 27.671,
+   "en": "The project's founding image is borrowed from Huayan Buddhism: Indra's net. A net of jewels, where every pearl reflects every other.",
+   "zh": "这个项目的奠基意象借自华严宗：因陀罗网。一张珠网，每一颗珠都映照所有其他的珠。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 28.271,
+   "end": 29.654,
+   "en": "Here the pearls are proofs.",
+   "zh": "在这里，珠，就是证明。"
+  },
+  {
+   "i": 4,
+   "scene": "net",
+   "start": 31.854,
+   "end": 39.978,
+   "en": "Each proof node is addressed by the hashes of everything it rests on. Change one pearl, and every image downstream changes with it.",
+   "zh": "每个证明节点，都以它所依赖的一切的哈希为地址。改动一颗珠，下游的每一个映像都随之改变。"
+  },
+  {
+   "i": 5,
+   "scene": "net",
+   "start": 40.578,
+   "end": 50.236,
+   "en": "But the project corrects its own metaphor. A pearl holds only its ancestors, not the whole net. Change an unconnected pearl, and nothing here moves.",
+   "zh": "但项目修正了自己的比喻。一颗珠只含它的祖先，而不是整张网。改动一颗不相连的珠，这里什么都不会动。"
+  },
+  {
+   "i": 6,
+   "scene": "net",
+   "start": 50.836,
+   "end": 56.995,
+   "en": "And within one ledger, the reflections are finite: depth is at most the number of nodes minus one.",
+   "zh": "而在一本账本之内，重重映现是有尽的：深度至多是节点数减一。"
+  },
+  {
+   "i": 7,
+   "scene": "origination",
+   "start": 59.195,
+   "end": 67.179,
+   "en": "Dependent origination: this exists, because that exists. Read as a ledger, a condition is simply what a proof refers to.",
+   "zh": "缘起：此有故彼有。当作账本来读，缘，就是一个证明所引用的东西。"
+  },
+  {
+   "i": 8,
+   "scene": "origination",
+   "start": 67.779,
+   "end": 77.525,
+   "en": "Conditions have no fixed pattern. With three tautologies, the theory shows that no single dependency graph captures every way a truth can arise.",
+   "zh": "缘无定法。理论用三个重言式证明：没有任何单一的依赖图，能捕获一个真理产生的全部方式。"
+  },
+  {
+   "i": 9,
+   "scene": "origination",
+   "start": 78.125,
+   "end": 87.19,
+   "en": "And one piece is proved in Lean: the fewest sources whose removal destroys every proof equals the fewest sources that touch every minimal support.",
+   "zh": "有一块在 Lean 中得到了证明：删掉后能摧毁全部证明的最少来源数，恰好等于触及每个最小支持的最少来源数。"
+  },
+  {
+   "i": 10,
+   "scene": "empty",
+   "start": 89.39,
+   "end": 97.688,
+   "en": "Emptiness is also empty. Build two proof checkers, both sound, both consistent, both proving exactly the same statements.",
+   "zh": "空亦复空。造两台证明核验器，都可靠，都一致，证出的命题一模一样。"
+  },
+  {
+   "i": 11,
+   "scene": "empty",
+   "start": 98.288,
+   "end": 107.788,
+   "en": "Yet a statement can be empty of independent ground under one, and not under the other. Which proofs a kernel accepts is a parameter that cannot be dropped.",
+   "zh": "然而，同一个命题在一台之下“依缘而空”，在另一台之下却不是。核接受哪些证明，是一个不可省略的参数。"
+  },
+  {
+   "i": 12,
+   "scene": "dao",
+   "start": 109.988,
+   "end": 112.898,
+   "en": "The Dao that can be spoken is not the constant Dao.",
+   "zh": "道可道，非常道。"
+  },
+  {
+   "i": 13,
+   "scene": "dao",
+   "start": 113.498,
+   "end": 123.537,
+   "en": "In Lean: if every expression lives inside a horizon and always leaves a remainder, then the name Dao is a proper part of that horizon. It cannot exhaust it.",
+   "zh": "在 Lean 中：如果每一种表达都位于一个视界之内，并且总留下余项，那么“道”这个名字就是这个视界的真部分。它无法穷尽它。"
+  },
+  {
+   "i": 14,
+   "scene": "dao",
+   "start": 124.137,
+   "end": 134.537,
+   "en": "The conclusion is only as strong as its premises. The project's own gloss: the constant Dao cannot be spoken, but the law of the constant Dao can be proved.",
+   "zh": "结论只和它的前提一样强。项目自己的注解：常道不可道，而常道之律可证。"
+  },
+  {
+   "i": 15,
+   "scene": "still",
+   "start": 136.737,
+   "end": 145.609,
+   "en": "Suffering, read as bookkeeping, is an account that does not balance. The shortest repair is exactly as long as the list of floating claims.",
+   "zh": "苦，当作记账来读，就是一本不平的账。最短的修复，恰好等于浮账的条数。"
+  },
+  {
+   "i": 16,
+   "scene": "still",
+   "start": 146.209,
+   "end": 152.432,
+   "en": "And being good does not guarantee repair: an agent can do no harm, and never fix a single entry.",
+   "zh": "而善不保证修复：一个主体可以从不作恶，却从不修好一笔账。"
+  },
+  {
+   "i": 17,
+   "scene": "still",
+   "start": 153.032,
+   "end": 162.508,
+   "en": "Stillness: a statement no permitted change can move. Proved in Lean, the fixed set is exactly what is frozen, together with what can never be proved.",
+   "zh": "寂静：任何许可的变化都动不了的命题。在 Lean 中证明：不动集恰好是已冻结的，加上永远证不出的。"
+  },
+  {
+   "i": 18,
+   "scene": "karma",
+   "start": 164.708,
+   "end": 172.329,
+   "en": "Karma, read as an action on the ledger: every permitted change leaves the old record as a prefix. Nothing is lost.",
+   "zh": "业，当作对账本的动作来读：每一次许可的变化，都把旧记录保留为前缀。业不失。"
+  },
+  {
+   "i": 19,
+   "scene": "karma",
+   "start": 172.929,
+   "end": 184.027,
+   "en": "Not-self, read as a verdict that ignores who is asking. Proved in Lean: structural values survive swapping every role. A privilege reserved for one name does not.",
+   "zh": "无我，当作不看提问者是谁的判决来读。在 Lean 中证明：结构性的价值经得起一切角色互换，为某个名字保留的特权经不起。"
+  },
+  {
+   "i": 20,
+   "scene": "karma",
+   "start": 184.627,
+   "end": 194.887,
+   "en": "But the text holds its limit. Karmic result with no doer cannot be shrunk into the author has nothing to do with the hash. The model has no variable for intention.",
+   "zh": "但文本守住了边界。“有业报而无作者”，不能被截成“作者与哈希无关”。这个模型里，没有“思”这个变量。"
+  },
+  {
+   "i": 21,
+   "scene": "god",
+   "start": 197.087,
+   "end": 207.537,
+   "en": "Take a checklist of divine attributes, and test an all-knowing mathematical object against it. Omniscient. Everywhere. Eternal. Unfathomable. One.",
+   "zh": "拿一张神性属性的核对表，去检验一个全知的数学对象。全知。无处不在。永恒。不可测透。唯一。"
+  },
+  {
+   "i": 22,
+   "scene": "god",
+   "start": 208.137,
+   "end": 221.049,
+   "en": "Self-knowing: fails. Tarski's theorem forbids arithmetic from defining its own truth. So mathematics does not judge theology. It turns theology into a taxonomy of chosen axioms.",
+   "zh": "自知：不通过。塔斯基定理禁止算术定义它自己的真。所以数学不裁判神学，它把神学变成一张公理选择的分类表。"
+  },
+  {
+   "i": 23,
+   "scene": "god",
+   "start": 221.649,
+   "end": 232.06,
+   "en": "And one discipline for any argument: a type named God does not produce an inhabitant. You cannot write existence into a definition and then report it as a proof.",
+   "zh": "对任何论证都有一条纪律：一个名叫“神”的类型，并不产生它的一个元素。不能把存在写进定义，再把它当作证明上报。"
+  },
+  {
+   "i": 24,
+   "scene": "faith",
+   "start": 234.26,
+   "end": 243.801,
+   "en": "Where does faith appear? In the tower of formal systems, each climb to the next level requires trusting a consistency that cannot be proved from inside.",
+   "zh": "信仰出现在哪里？在形式系统之塔中，每向上爬一层，都需要信任一个从内部无法证明的一致性。"
+  },
+  {
+   "i": 25,
+   "scene": "faith",
+   "start": 244.401,
+   "end": 249.396,
+   "en": "Its exact counterpart in proof theory has a name: adopting a reflection principle.",
+   "zh": "它在证明论中的精确对应物有一个名字：采纳反射原理。"
+  },
+  {
+   "i": 26,
+   "scene": "faith",
+   "start": 249.996,
+   "end": 259.42,
+   "en": "Never fully confirmed is a theorem. Always getting closer is also a theorem. Together, they are exactly the situation of a finite being.",
+   "zh": "“永远无法完全确认”是定理，“永远在接近”同样是定理。两者合起来，恰是有限者的处境。"
+  },
+  {
+   "i": 27,
+   "scene": "myth",
+   "start": 261.82,
+   "end": 267.644,
+   "en": "Math, Myth, Match. Here myth is not defined as false. It is the tradition that carries meaning.",
+   "zh": "Math，Myth，Match。在这里，神话不被定义为虚假。它是承载意义的传统。"
+  },
+  {
+   "i": 28,
+   "scene": "myth",
+   "start": 268.244,
+   "end": 278.319,
+   "en": "The Trinity is not reduced to three equals one. A language that only says there is exactly one source cannot tell a personal God from an impersonal order.",
+   "zh": "三位一体不被化简为“三等于一”。一门只会说“恰有一个来源”的语言，分不清人格之神与非人格之序。"
+  },
+  {
+   "i": 29,
+   "scene": "myth",
+   "start": 278.919,
+   "end": 287.344,
+   "en": "Everything leaves a trace: that is not superstition, it is thermodynamics. But reading every trace for free would break the second law.",
+   "zh": "凡发生皆留痕：这不是迷信，是热力学。但零成本地读取一切痕迹，违反第二定律。"
+  },
+  {
+   "i": 30,
+   "scene": "finale",
+   "start": 289.744,
+   "end": 296.925,
+   "en": "Analogy may pose the question. It may not supply the proof. Structural parallel, never mutual proof of doctrines.",
+   "zh": "类比可出题，不可出证。结构同构，非学说互证。"
+  },
+  {
+   "i": 31,
+   "scene": "finale",
+   "start": 297.525,
+   "end": 302.897,
+   "en": "Played forward, it is creation. Played backward, it is forgetting. The same reel of film.",
+   "zh": "正放是创世，倒放是遗忘，胶片同一卷。"
+  }
+ ],
+ "duration": 311.897
+}

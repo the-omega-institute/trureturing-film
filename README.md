@@ -15,6 +15,7 @@ outputs, published only as [Releases](../../releases).
 | 002 | [HOLOGRAM OF TRUTH](films/002-hologram-of-truth/) · 真理全息 | 6:03 | EN (AI) / music-only | ZH + EN |
 | 003 | [INFORMATION ESCAPE](films/003-information-escape/) · 信息逃逸 | 4:38 | EN (AI) / music-only | ZH + EN |
 | 004 | [FIXED POINT](films/004-fixed-point/) · 不动点 | 5:13 | EN (AI) / music-only | ZH + EN |
+| 005 | [INDRA'S NET](films/005-indra-net/) · 因陀罗网 | 5:12 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

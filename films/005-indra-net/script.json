@@ -1,0 +1,62 @@
+{
+  "voice": "af_heart",
+  "speed": 0.94,
+  "scenes": [
+    {"id": "open", "lead": 4.0, "tail": 1.0, "lines": [
+      ["Every tradition has pointed at something that words cannot hold.", "每一种传统，都曾指向某种言语装不下的东西。"],
+      ["This project does not preach, and it does not debunk. It asks a narrower question: which of these old shapes survive contact with proof?", "这个项目不布道，也不拆台。它只问一个更窄的问题：这些古老的形状里，哪些经得起证明的触碰？"]
+    ]},
+    {"id": "title", "lead": 1.2, "tail": 1.4, "lines": [
+      ["The project's founding image is borrowed from Huayan Buddhism: Indra's net. A net of jewels, where every pearl reflects every other.", "这个项目的奠基意象借自华严宗：因陀罗网。一张珠网，每一颗珠都映照所有其他的珠。"],
+      ["Here the pearls are proofs.", "在这里，珠，就是证明。"]
+    ]},
+    {"id": "net", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Each proof node is addressed by the hashes of everything it rests on. Change one pearl, and every image downstream changes with it.", "每个证明节点，都以它所依赖的一切的哈希为地址。改动一颗珠，下游的每一个映像都随之改变。"],
+      ["But the project corrects its own metaphor. A pearl holds only its ancestors, not the whole net. Change an unconnected pearl, and nothing here moves.", "但项目修正了自己的比喻。一颗珠只含它的祖先，而不是整张网。改动一颗不相连的珠，这里什么都不会动。"],
+      ["And within one ledger, the reflections are finite: depth is at most the number of nodes minus one.", "而在一本账本之内，重重映现是有尽的：深度至多是节点数减一。"]
+    ]},
+    {"id": "origination", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Dependent origination: this exists, because that exists. Read as a ledger, a condition is simply what a proof refers to.", "缘起：此有故彼有。当作账本来读，缘，就是一个证明所引用的东西。"],
+      ["Conditions have no fixed pattern. With three tautologies, the theory shows that no single dependency graph captures every way a truth can arise.", "缘无定法。理论用三个重言式证明：没有任何单一的依赖图，能捕获一个真理产生的全部方式。"],
+      ["And one piece is proved in Lean: the fewest sources whose removal destroys every proof equals the fewest sources that touch every minimal support.", "有一块在 Lean 中得到了证明：删掉后能摧毁全部证明的最少来源数，恰好等于触及每个最小支持的最少来源数。"]
+    ]},
+    {"id": "empty", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Emptiness is also empty. Build two proof checkers, both sound, both consistent, both proving exactly the same statements.", "空亦复空。造两台证明核验器，都可靠，都一致，证出的命题一模一样。"],
+      ["Yet a statement can be empty of independent ground under one, and not under the other. Which proofs a kernel accepts is a parameter that cannot be dropped.", "然而，同一个命题在一台之下“依缘而空”，在另一台之下却不是。核接受哪些证明，是一个不可省略的参数。"]
+    ]},
+    {"id": "dao", "lead": 0.8, "tail": 1.4, "lines": [
+      ["The Dao that can be spoken is not the constant Dao.", "道可道，非常道。"],
+      ["In Lean: if every expression lives inside a horizon and always leaves a remainder, then the name Dao is a proper part of that horizon. It cannot exhaust it.", "在 Lean 中：如果每一种表达都位于一个视界之内，并且总留下余项，那么“道”这个名字就是这个视界的真部分。它无法穷尽它。"],
+      ["The conclusion is only as strong as its premises. The project's own gloss: the constant Dao cannot be spoken, but the law of the constant Dao can be proved.", "结论只和它的前提一样强。项目自己的注解：常道不可道，而常道之律可证。"]
+    ]},
+    {"id": "still", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Suffering, read as bookkeeping, is an account that does not balance. The shortest repair is exactly as long as the list of floating claims.", "苦，当作记账来读，就是一本不平的账。最短的修复，恰好等于浮账的条数。"],
+      ["And being good does not guarantee repair: an agent can do no harm, and never fix a single entry.", "而善不保证修复：一个主体可以从不作恶，却从不修好一笔账。"],
+      ["Stillness: a statement no permitted change can move. Proved in Lean, the fixed set is exactly what is frozen, together with what can never be proved.", "寂静：任何许可的变化都动不了的命题。在 Lean 中证明：不动集恰好是已冻结的，加上永远证不出的。"]
+    ]},
+    {"id": "karma", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Karma, read as an action on the ledger: every permitted change leaves the old record as a prefix. Nothing is lost.", "业，当作对账本的动作来读：每一次许可的变化，都把旧记录保留为前缀。业不失。"],
+      ["Not-self, read as a verdict that ignores who is asking. Proved in Lean: structural values survive swapping every role. A privilege reserved for one name does not.", "无我，当作不看提问者是谁的判决来读。在 Lean 中证明：结构性的价值经得起一切角色互换，为某个名字保留的特权经不起。"],
+      ["But the text holds its limit. Karmic result with no doer cannot be shrunk into the author has nothing to do with the hash. The model has no variable for intention.", "但文本守住了边界。“有业报而无作者”，不能被截成“作者与哈希无关”。这个模型里，没有“思”这个变量。"]
+    ]},
+    {"id": "god", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Take a checklist of divine attributes, and test an all-knowing mathematical object against it. Omniscient. Everywhere. Eternal. Unfathomable. One.", "拿一张神性属性的核对表，去检验一个全知的数学对象。全知。无处不在。永恒。不可测透。唯一。"],
+      ["Self-knowing: fails. Tarski's theorem forbids arithmetic from defining its own truth. So mathematics does not judge theology. It turns theology into a taxonomy of chosen axioms.", "自知：不通过。塔斯基定理禁止算术定义它自己的真。所以数学不裁判神学，它把神学变成一张公理选择的分类表。"],
+      ["And one discipline for any argument: a type named God does not produce an inhabitant. You cannot write existence into a definition and then report it as a proof.", "对任何论证都有一条纪律：一个名叫“神”的类型，并不产生它的一个元素。不能把存在写进定义，再把它当作证明上报。"]
+    ]},
+    {"id": "faith", "lead": 0.8, "tail": 1.6, "lines": [
+      ["Where does faith appear? In the tower of formal systems, each climb to the next level requires trusting a consistency that cannot be proved from inside.", "信仰出现在哪里？在形式系统之塔中，每向上爬一层，都需要信任一个从内部无法证明的一致性。"],
+      ["Its exact counterpart in proof theory has a name: adopting a reflection principle.", "它在证明论中的精确对应物有一个名字：采纳反射原理。"],
+      ["Never fully confirmed is a theorem. Always getting closer is also a theorem. Together, they are exactly the situation of a finite being.", "“永远无法完全确认”是定理，“永远在接近”同样是定理。两者合起来，恰是有限者的处境。"]
+    ]},
+    {"id": "myth", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Math, Myth, Match. Here myth is not defined as false. It is the tradition that carries meaning.", "Math，Myth，Match。在这里，神话不被定义为虚假。它是承载意义的传统。"],
+      ["The Trinity is not reduced to three equals one. A language that only says there is exactly one source cannot tell a personal God from an impersonal order.", "三位一体不被化简为“三等于一”。一门只会说“恰有一个来源”的语言，分不清人格之神与非人格之序。"],
+      ["Everything leaves a trace: that is not superstition, it is thermodynamics. But reading every trace for free would break the second law.", "凡发生皆留痕：这不是迷信，是热力学。但零成本地读取一切痕迹，违反第二定律。"]
+    ]},
+    {"id": "finale", "lead": 1.0, "tail": 9.0, "lines": [
+      ["Analogy may pose the question. It may not supply the proof. Structural parallel, never mutual proof of doctrines.", "类比可出题，不可出证。结构同构，非学说互证。"],
+      ["Played forward, it is creation. Played backward, it is forgetting. The same reel of film.", "正放是创世，倒放是遗忘，胶片同一卷。"]
+    ]}
+  ]
+}
