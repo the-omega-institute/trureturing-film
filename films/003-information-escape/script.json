@@ -1,0 +1,62 @@
+{
+  "voice": "af_heart",
+  "speed": 0.94,
+  "scenes": [
+    {"id": "open", "lead": 4.0, "tail": 1.0, "lines": [
+      ["Every description of the world leaves something out.", "对世界的每一种描述，都会漏掉一些东西。"],
+      ["Two different things look the same through your lens, and the difference slips away. That is information escape.", "两个不同的东西，透过你的镜头看起来一模一样，差别就此溜走。这，就是信息逃逸。"],
+      ["Most theories hide their leaks. This project measures them.", "大多数理论把漏洞藏起来。这个项目，去测量它们。"]
+    ]},
+    {"id": "title", "lead": 1.2, "tail": 1.4, "lines": [
+      ["Where did information escape? How was it handled? What new information emerged? And where does it keep escaping?", "信息从哪里逃逸？逃逸被如何处理？出现了什么新信息？它又在哪里继续逃逸？"]
+    ]},
+    {"id": "arena", "lead": 0.8, "tail": 1.2, "lines": [
+      ["Start with an arena: four states, two switches. Twelve ordered pairs of different states.", "从一个竞技场开始：四个状态，两个开关。不同状态的有序对，一共十二个。"],
+      ["Read both switches, and every pair is told apart. Nothing escapes.", "同时读两个开关，每一对都被区分开。没有任何东西逃逸。"],
+      ["Forget one switch, and four of the twelve pairs collapse into sameness. The escape rate jumps from zero to one third. Proved in Lean, as an exact fraction.", "忘掉一个开关，十二对里有四对坍缩成相同。逃逸率从零跳到三分之一。在 Lean 中证明，是一个精确的分数。"]
+    ]},
+    {"id": "capture", "lead": 0.8, "tail": 1.2, "lines": [
+      ["So what is a theorem worth? Remove it from the catalog, and count the pairs that only it could separate. Those are its unique captures.", "那么，一条定理值多少？把它从目录里拿走，数一数只有它才能区分的状态对。那就是它的独占捕获。"],
+      ["A theorem strictly lowers escape exactly when it has a unique capture, exactly when no other theorem can reconstruct what it sees.", "一条定理严格降低逃逸，当且仅当它有独占捕获，当且仅当其余定理都无法重建它所看见的东西。"],
+      ["But zero unique capture is not worthlessness. Three readouts can each be redundant, while any one of them still does real work.", "但独占捕获为零，不等于没有价值。三个读数可以各自冗余，而其中任何一个仍在做真实的工作。"]
+    ]},
+    {"id": "ladder", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Climb a ladder of knowing, in one Lean model. Forty-eight states, two thousand two hundred fifty-six pairs.", "爬一架认知的梯子，在一个 Lean 模型里。四十八个状态，两千二百五十六个状态对。"],
+      ["Watching the world leaves one hundred thirty-six pairs indistinguishable. Intervening on it leaves forty-four. Asking what would have happened otherwise leaves zero.", "观察世界，仍有一百三十六对无法区分。干预世界，剩下四十四对。追问“否则会怎样”，剩下零。"],
+      ["Seeing, doing, imagining. Each rung catches what the one below let escape.", "看、做、设想。每一级阶梯，都接住了下一级放走的东西。"]
+    ]},
+    {"id": "blind", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Some escape can be cut away by a better definition, like an auxiliary line in geometry.", "有些逃逸可以被更好的定义切掉，就像几何里的一条辅助线。"],
+      ["Some cannot. The residual splits exactly into removable confusion, and a blind core that no definition in your language can reach.", "有些不能。残差恰好分解为两部分：可移除的混淆，和一个盲核——你的语言里没有任何定义能触及它。"],
+      ["If the blind core is not empty, no family of definitions, of any size, recovers the target. Even the strongest search inside the language will not succeed. You need a new language.", "只要盲核非空，无论多大的定义族，都无法恢复目标。语言内部再强的搜索也不会成功。你需要一门新的语言。"]
+    ]},
+    {"id": "budget", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Spend more, and the leak shrinks, but only toward a floor. Returns diminish.", "投入更多，漏洞会缩小，但只会趋向一个底线。收益递减。"],
+      ["And there are stranger worlds. In one proved counter-model, no single pair is blind, yet every finite budget leaves the full leak open. Forever.", "还有更奇异的世界。在一个已证明的反模型里，没有任何一对是盲的，可是每一份有限的预算，都让漏洞完整地敞开。永远。"],
+      ["When more effort brings no gain, stop grinding. Change the frame.", "当更多努力不再带来收益，别再死磨。换一个框架。"]
+    ]},
+    {"id": "diagonal", "lead": 0.8, "tail": 1.6, "lines": [
+      ["Now the oldest escape of all. Write any catalog as a grid. Walk down its diagonal, and twist every entry.", "现在，最古老的逃逸。把任何一个目录写成网格。沿着对角线走下去，把每一格都扭转一下。"],
+      ["The result differs from every row. It cannot be in the catalog. Cantor saw it; here it is a kernel-checked theorem.", "结果与每一行都不同。它不可能在目录之中。康托尔看见了它；在这里，它是一条经内核核验的定理。"],
+      ["No fixed catalog is complete. Diagonalization generates escape; observation decides whether that escape stays visible.", "没有哪个固定的目录是完备的。对角化制造逃逸；观察决定这逃逸是否仍然可见。"]
+    ]},
+    {"id": "create", "lead": 0.8, "tail": 1.4, "lines": [
+      ["So how does anything new get discovered? The object does not change. The fiber structure describing it does.", "那么，新东西是如何被发现的？对象没有改变。描述对象的纤维结构改变了。"],
+      ["A new definition cuts the fibers. The pairs that survive are exactly those the old concept merged, and the new cut cannot tell apart.", "一个新定义切开纤维。幸存下来的状态对，恰好是旧概念合并、而新切口也分不开的那些。"],
+      ["Creation is structural escape, plus low-cost recovery.", "创造，就是结构性逃逸，加上低成本回收。"]
+    ]},
+    {"id": "copier", "lead": 0.8, "tail": 1.4, "lines": [
+      ["A warning for every learning machine. Copy a table of past answers, and your error on the past is exactly zero.", "给每一台学习机器的警告：复制一张过去答案的表，你在过去上的误差恰好为零。"],
+      ["It is proved that this copier fails the test of not peeking. Perfect hindsight is not foresight.", "已经证明：这个复制器无法通过“不偷看未来”的检验。完美的后见之明，不是预见。"]
+    ]},
+    {"id": "judge", "lead": 0.8, "tail": 1.4, "lines": [
+      ["So the project built a judge. Every new theorem registers four slots: where information escaped, how it was read, what it realizes, and where it continues to escape.", "于是项目建造了一位判官。每一条新定理都要登记四个槽位：信息从哪里逃逸、如何被读出、实现了什么、又在哪里继续逃逸。"],
+      ["Ninety-five registrations so far. In fifty of them, the last slot simply says: open. An honest unknown, not a claim of impossibility.", "目前已有九十五条登记。其中五十条，最后一个槽位只写着：open。一个诚实的未知，而不是不可能的断言。"],
+      ["Others carry a witness: a concrete pair that still cannot be told apart, checked by the kernel. The judge is still being built, and it only warns. It never blocks.", "另一些带着见证：一对仍然无法区分的具体状态，由内核核验。判官仍在建设中，它只警告，从不阻断。"]
+    ]},
+    {"id": "finale", "lead": 1.0, "tail": 9.0, "lines": [
+      ["On a finite arena, refinement must stop: at most n minus one strict steps. But any fixed catalog still leaks along its diagonal.", "在有限的竞技场上，细化必然停止：至多 n 减一步严格细化。但任何固定的目录，仍会沿着对角线泄漏。"],
+      ["Where does information continue to escape? That is not a failure. That is the direction of the next discovery.", "信息还在哪里继续逃逸？这不是失败。这正是下一次发现的方向。"]
+    ]}
+  ]
+}
