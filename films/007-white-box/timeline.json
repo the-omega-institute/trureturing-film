@@ -1,0 +1,341 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 18.444
+  },
+  {
+   "id": "title",
+   "start": 18.444,
+   "end": 38.977
+  },
+  {
+   "id": "future",
+   "start": 38.977,
+   "end": 66.275
+  },
+  {
+   "id": "width",
+   "start": 66.275,
+   "end": 86.783
+  },
+  {
+   "id": "hidden",
+   "start": 86.783,
+   "end": 122.392
+  },
+  {
+   "id": "state",
+   "start": 122.392,
+   "end": 150.607
+  },
+  {
+   "id": "memory",
+   "start": 150.607,
+   "end": 176.337
+  },
+  {
+   "id": "skill",
+   "start": 176.337,
+   "end": 198.401
+  },
+  {
+   "id": "grok",
+   "start": 198.401,
+   "end": 227.344
+  },
+  {
+   "id": "copier",
+   "start": 227.344,
+   "end": 252.47
+  },
+  {
+   "id": "budget",
+   "start": 252.47,
+   "end": 280.003
+  },
+  {
+   "id": "switch",
+   "start": 280.003,
+   "end": 314.55
+  },
+  {
+   "id": "unknown",
+   "start": 314.55,
+   "end": 340.288
+  },
+  {
+   "id": "finale",
+   "start": 340.288,
+   "end": 369.352
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 6.268,
+   "en": "A trained network is called a black box.",
+   "zh": "训练好的网络，被称为黑盒。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 6.868,
+   "end": 17.444,
+   "en": "This project asks a sharper question. For a given task, what is the smallest thing you must know to explain it exactly? And what can no amount of compute ever recover?",
+   "zh": "这个项目问一个更锋利的问题：对一个给定的任务，要精确解释它，最少必须知道什么？又有什么，是再多算力也永远找不回的？"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 19.644,
+   "end": 28.79,
+   "en": "Explanation is always relative to a task. A summary explains a model only if every question the task needs can be answered from the summary.",
+   "zh": "解释永远相对于任务。一个摘要能解释模型，当且仅当任务需要的每一个问题，都能从这个摘要里回答。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 29.39,
+   "end": 37.577,
+   "en": "Being consistent is not enough. A constant summary never contradicts itself, and it explains nothing. That one is checked in Lean.",
+   "zh": "自洽还不够。一个常值摘要永远不自相矛盾，却什么也解释不了。这一条在 Lean 中得到了核验。"
+  },
+  {
+   "i": 4,
+   "scene": "future",
+   "start": 39.777,
+   "end": 47.199,
+   "en": "So what is the exact answer? Merge two internal states exactly when no future input can ever tell them apart.",
+   "zh": "那么精确的答案是什么？当且仅当没有任何未来的输入能区分两个内部状态时，才把它们合并。"
+  },
+  {
+   "i": 5,
+   "scene": "future",
+   "start": 47.799,
+   "end": 56.035,
+   "en": "That quotient is the smallest exact representation, and every other exact representation maps onto it. Proved in Lean.",
+   "zh": "这个商，是最小的精确表示；其他每一个精确表示，都能映射到它上面。在 Lean 中证明。"
+  },
+  {
+   "i": 6,
+   "scene": "future",
+   "start": 56.635,
+   "end": 64.875,
+   "en": "In one small arithmetic machine, the numbers nine and eighteen look identical for three steps. Four doublings finally separate them.",
+   "zh": "在一台小小的算术机器里，九和十八在三步之内看起来完全一样。连续四次加倍，才终于把它们分开。"
+  },
+  {
+   "i": 7,
+   "scene": "width",
+   "start": 67.075,
+   "end": 71.621,
+   "en": "Now take a two-layer linear network. Give it ten neurons, or ten million.",
+   "zh": "现在取一个两层线性网络。给它十个神经元，或者一千万个。"
+  },
+  {
+   "i": 8,
+   "scene": "width",
+   "start": 72.221,
+   "end": 85.383,
+   "en": "Its entire gradient-descent training is captured exactly by two numbers: the product w, and the size s. At any width. And the pair always satisfies s at least twice the size of w.",
+   "zh": "它的整个梯度下降训练，被两个数精确捕获：乘积 w，与规模 s。任意宽度都是如此。而这对数永远满足：s 至少是 w 大小的两倍。"
+  },
+  {
+   "i": 9,
+   "scene": "hidden",
+   "start": 87.583,
+   "end": 92.921,
+   "en": "Here is why the second number matters. Two networks make exactly the same prediction today.",
+   "zh": "这就是第二个数为什么重要。两个网络今天做出完全相同的预测。"
+  },
+  {
+   "i": 10,
+   "scene": "hidden",
+   "start": 93.521,
+   "end": 108.405,
+   "en": "One step later, one predicts 0.81, the other 0.585. Same prediction, different learning. Anything that reads only the prediction must be off by at least 0.1125.",
+   "zh": "一步之后，一个预测 0.81，另一个预测 0.585。预测相同，学习不同。任何只读取预测的东西，误差都至少是 0.1125。"
+  },
+  {
+   "i": 11,
+   "scene": "hidden",
+   "start": 109.005,
+   "end": 120.992,
+   "en": "And a quantity conserved by continuous gradient flow is broken by one real step: nine becomes 5184 over 625, about 8.29.",
+   "zh": "而连续梯度流守恒的一个量，被真实的一步打破：九，变成了 5184/625，约 8.29。"
+  },
+  {
+   "i": 12,
+   "scene": "state",
+   "start": 123.192,
+   "end": 135.094,
+   "en": "An output is not a state. Two parameters give the same output and the same neural tangent kernel, yet the kernel is changing at plus forty-eight in one, and minus forty-eight in the other.",
+   "zh": "输出不是状态。两个参数给出相同的输出、相同的神经正切核，然而一个的核正以正四十八变化，另一个以负四十八变化。"
+  },
+  {
+   "i": 13,
+   "scene": "state",
+   "start": 135.694,
+   "end": 149.207,
+   "en": "Attention too. Two sets of keys both output one half. Change the query, and one stays at one half while the other moves to e over one plus e. The theory makes no claim about any real Transformer's cache.",
+   "zh": "注意力也一样。两组键都输出二分之一。换一个查询，一组仍是二分之一，另一组变成 e 比一加 e。理论不对任何真实 Transformer 的缓存作断言。"
+  },
+  {
+   "i": 14,
+   "scene": "memory",
+   "start": 151.407,
+   "end": 161.847,
+   "en": "When does a model need memory? It depends on timing. If the question arrives after the data is summarized, you need n bits. If it arrives first, one bit is enough.",
+   "zh": "模型什么时候需要记忆？取决于时序。如果问题在数据被概括之后才到达，你需要 n 比特。如果问题先到，一比特就够了。"
+  },
+  {
+   "i": 15,
+   "scene": "memory",
+   "start": 162.447,
+   "end": 174.937,
+   "en": "And storing the right bit is not using it. Use it correctly, and accuracy is one. Use the same bit backwards, and accuracy is zero. Memory, explanation and correct use are different things.",
+   "zh": "而存对了那一位，不等于会用它。用对了，正确率是一；把同一位反着用，正确率是零。记忆、解释与正确使用，是不同的东西。"
+  },
+  {
+   "i": 16,
+   "scene": "skill",
+   "start": 177.137,
+   "end": 185.769,
+   "en": "Learning from examples, in context. A hidden rule over d bits. Each independent demonstration adds exactly one bit of rank.",
+   "zh": "从示例中学习，在上下文里。一个 d 位的隐藏规则。每一个独立的示范，恰好增加一位秩。"
+  },
+  {
+   "i": 17,
+   "scene": "skill",
+   "start": 186.369,
+   "end": 197.001,
+   "en": "With rank r, accuracy on a new question is one half plus one half times two to the r minus d. Skill, measured as rank, not as a single intelligence score.",
+   "zh": "秩为 r 时，对新问题的正确率是二分之一，加上二分之一乘以二的 r 减 d 次方。技能，用秩来度量，而不是一个单一的智能分数。"
+  },
+  {
+   "i": 18,
+   "scene": "grok",
+   "start": 199.201,
+   "end": 204.848,
+   "en": "Grokking: the training loss flattens early, and generalization arrives much later. Why?",
+   "zh": "顿悟：训练损失早早就平了，泛化却很晚才到来。为什么？"
+  },
+  {
+   "i": 19,
+   "scene": "grok",
+   "start": 205.448,
+   "end": 217.617,
+   "en": "Two starting points with identical training curves, both zero forever. Yet their test error enters tolerance at different times. Generalization time is invisible to the whole training curve.",
+   "zh": "两个起点，训练曲线完全相同，永远为零。然而它们的测试误差进入容差的时刻不同。泛化的时刻，对整条训练曲线都不可见。"
+  },
+  {
+   "i": 20,
+   "scene": "grok",
+   "start": 218.217,
+   "end": 225.944,
+   "en": "What the loss cannot see, the regularizer decides. A white box can read the fiber. A black box sees only the image.",
+   "zh": "损失看不见的部分，由正则项裁决。白盒能读出纤维，黑盒只能读出像。"
+  },
+  {
+   "i": 21,
+   "scene": "copier",
+   "start": 228.144,
+   "end": 234.484,
+   "en": "A warning, checked in Lean. Copy a table of past answers, and your training loss is exactly zero.",
+   "zh": "一条警告，在 Lean 中核验。复制一张过去答案的表，训练损失恰好为零。"
+  },
+  {
+   "i": 22,
+   "scene": "copier",
+   "start": 235.084,
+   "end": 243.398,
+   "en": "But every copied record is contaminated: none of it counts as a fair test. And zero loss does not imply any gain on the future.",
+   "zh": "但每一条被复制的记录都被污染了：没有一条能算作公平的检验。而零损失，不蕴含对未来的任何增益。"
+  },
+  {
+   "i": 23,
+   "scene": "copier",
+   "start": 243.998,
+   "end": 251.07,
+   "en": "Worse: the same observed data can come from two worlds where the same improvement generalizes with opposite signs.",
+   "zh": "更糟的是：同样的观测数据，可以来自两个世界，同一个改进在其中的泛化符号恰好相反。"
+  },
+  {
+   "i": 24,
+   "scene": "budget",
+   "start": 253.27,
+   "end": 259.718,
+   "en": "Spend more budget, and the best error you can buy never rises. It falls toward a floor, proved in Lean.",
+   "zh": "投入更多预算，你能买到的最好误差永不上升。它降向一个底线，在 Lean 中证明。"
+  },
+  {
+   "i": 25,
+   "scene": "budget",
+   "start": 260.318,
+   "end": 274.937,
+   "en": "The remaining error splits exactly: a blind core that no definition in your language can remove, and a part that others could. And in one proved countermodel, nothing is blind, yet every finite budget leaves the whole error.",
+   "zh": "剩余的误差恰好分成两部分：一个盲核，你的语言里没有任何定义能移除它；以及另一些定义可以移除的部分。在一个已证明的反模型里，什么都不盲，每一份有限预算却都留下全部误差。"
+  },
+  {
+   "i": 26,
+   "scene": "budget",
+   "start": 275.537,
+   "end": 278.403,
+   "en": "When more budget stops helping, change the language.",
+   "zh": "当更多预算不再有用，就换一门语言。"
+  },
+  {
+   "i": 27,
+   "scene": "switch",
+   "start": 280.803,
+   "end": 296.706,
+   "en": "A finite observer upgrades its precision. At the instant of switching, the old label merges two histories that need different answers. The error is at least one over four hundred fifty-six. No storage, no compute fixes that instantly.",
+   "zh": "一个有限观察者升级它的精度。在切换的瞬间，旧标签合并了两个需要不同答案的历史。误差至少是四百五十六分之一。再多存储、再多计算，都无法瞬间修复。"
+  },
+  {
+   "i": 28,
+   "scene": "switch",
+   "start": 297.306,
+   "end": 313.15,
+   "en": "Yet eight new reports restore it. And to reach error epsilon, the number of new reports grows like the logarithm of one over epsilon, even with adaptive stopping. Instant impossibility and delayed availability hold at the same time.",
+   "zh": "然而八份新报告就能恢复它。要达到误差 epsilon，需要的新报告数随一除以 epsilon 的对数增长，自适应停止也无法更快。即时的不可能，与延迟的可用，同时成立。"
+  },
+  {
+   "i": 29,
+   "scene": "unknown",
+   "start": 315.35,
+   "end": 325.54,
+   "en": "Now the model itself is unknown: a coin with bias one quarter, or one third. Even keeping the full history, no predictor is accurate on every history.",
+   "zh": "现在模型本身是未知的：一枚偏向四分之一或三分之一的硬币。即使保留完整历史，也没有任何预测者能在每一段历史上都准确。"
+  },
+  {
+   "i": 30,
+   "scene": "unknown",
+   "start": 326.14,
+   "end": 338.888,
+   "en": "Yet a finite machine can identify the model with high probability, and after that, stay accurate at every later time. Correct identification is sufficient for good prediction, not necessary.",
+   "zh": "然而一台有限的机器能以高概率辨识出模型，此后在每一个时刻都保持准确。正确辨识是预测成功的充分条件，不是必要条件。"
+  },
+  {
+   "i": 31,
+   "scene": "finale",
+   "start": 341.288,
+   "end": 354.438,
+   "en": "Latent structure, storage, explanation and correct use are four different conditions. Most of this theory is paper mathematics, and the hardest questions about real attention models are marked open.",
+   "zh": "潜在结构、存储容量、解释充分与正确使用，是四个不同的条件。这套理论大部分是纸面数学，关于真实注意力模型的最难问题，被标为 open。"
+  },
+  {
+   "i": 32,
+   "scene": "finale",
+   "start": 355.038,
+   "end": 360.352,
+   "en": "A white box is not a model you can see through. It is a question you can answer exactly.",
+   "zh": "白盒，不是一个你能看穿的模型。它是一个你能精确回答的问题。"
+  }
+ ],
+ "duration": 369.352
+}
