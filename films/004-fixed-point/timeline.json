@@ -1,0 +1,307 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 16.686
+  },
+  {
+   "id": "title",
+   "start": 16.686,
+   "end": 29.973
+  },
+  {
+   "id": "concept",
+   "start": 29.973,
+   "end": 60.6
+  },
+  {
+   "id": "dialectic",
+   "start": 60.6,
+   "end": 90.221
+  },
+  {
+   "id": "identity",
+   "start": 90.221,
+   "end": 114.671
+  },
+  {
+   "id": "dialogue",
+   "start": 114.671,
+   "end": 146.914
+  },
+  {
+   "id": "justice",
+   "start": 146.914,
+   "end": 176.591
+  },
+  {
+   "id": "freedom",
+   "start": 176.591,
+   "end": 205.331
+  },
+  {
+   "id": "triad",
+   "start": 205.331,
+   "end": 239.871
+  },
+  {
+   "id": "unmoved",
+   "start": 239.871,
+   "end": 261.619
+  },
+  {
+   "id": "thinkers",
+   "start": 261.619,
+   "end": 291.819
+  },
+  {
+   "id": "finale",
+   "start": 291.819,
+   "end": 313.316
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 6.631,
+   "en": "When everything changes, what stays the same?",
+   "zh": "当一切都在变化，什么保持不变？"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 7.231,
+   "end": 15.686,
+   "en": "Philosophers have asked this for two and a half thousand years. This project answers it with theorems, and marks exactly where the theorems stop.",
+   "zh": "哲学家问了两千五百年。这个项目用定理来回答，并精确标出定理在哪里止步。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 17.886,
+   "end": 22.469,
+   "en": "A good coordinate system is a frame that stays fixed under transformation.",
+   "zh": "好的坐标系，是变换之下保持不动的标架。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 23.069,
+   "end": 28.573,
+   "en": "That single idea, the fixed point, runs from geometry to truth, to justice, to beauty.",
+   "zh": "这一个想法——不动点——从几何贯穿到真理、正义与美。"
+  },
+  {
+   "i": 4,
+   "scene": "concept",
+   "start": 30.773,
+   "end": 37.644,
+   "en": "Start with the smallest unit of thought. A concept is not a word. It is a map that sorts states into classes.",
+   "zh": "从思想的最小单位开始。概念不是一个词，而是一张把状态分进各类的映射。"
+  },
+  {
+   "i": 5,
+   "scene": "concept",
+   "start": 38.244,
+   "end": 47.396,
+   "en": "Every concept splits the world into fibers, and objects are what a fiber collects. Proved in Lean: the world is exactly the sum of its fibers.",
+   "zh": "每个概念都把世界切分成纤维，对象就是一条纤维所收集的东西。在 Lean 中证明：世界恰好等于它的纤维之和。"
+  },
+  {
+   "i": 6,
+   "scene": "concept",
+   "start": 47.996,
+   "end": 59.4,
+   "en": "And defining a concept does not make its object exist. Being definable, being constructed, having a model, being realized: four separate notions, each separated by a proof.",
+   "zh": "而定义一个概念，并不使它的对象存在。可定义、可构造、有模型、被实现——四个不同的概念，每一对都由证明分开。"
+  },
+  {
+   "i": 7,
+   "scene": "dialectic",
+   "start": 61.4,
+   "end": 69.293,
+   "en": "How do concepts move? Two states look the same today, but their futures differ. That pair is a counterexample to your concept.",
+   "zh": "概念如何运动？两个状态今天看起来一样，未来却不同。这一对，就是你概念的反例。"
+  },
+  {
+   "i": 8,
+   "scene": "dialectic",
+   "start": 69.893,
+   "end": 75.946,
+   "en": "Negation is not P and not P. It is a concept's claim of closure, broken by a witness.",
+   "zh": "否定不是“P 且非 P”。否定是一个概念自称封闭的主张，被一个见证击穿。"
+  },
+  {
+   "i": 9,
+   "scene": "dialectic",
+   "start": 76.546,
+   "end": 88.821,
+   "en": "The repair is to join the old concept with what the future needs. Lean proves it is the least repair that keeps every old distinction. Affirmation, negation, sublation, as a theorem.",
+   "zh": "修复的办法，是把旧概念与未来所需的东西合并。Lean 证明：这是保留全部旧区分的最小修复。肯定、否定、扬弃——成为一条定理。"
+  },
+  {
+   "i": 10,
+   "scene": "identity",
+   "start": 91.021,
+   "end": 99.775,
+   "en": "What makes you, you? If memories can be inherited by two successors at once, then memory inheritance cannot be identity. Branching breaks it.",
+   "zh": "是什么让你成为你？如果记忆可以同时被两个后继者继承，那么记忆继承就不可能是同一性。分叉打破了它。"
+  },
+  {
+   "i": 11,
+   "scene": "identity",
+   "start": 100.375,
+   "end": 113.271,
+   "en": "And meaning? Keep the same text and the same rule of interpretation. Change the reader, the background, the goal, and a different stable meaning can emerge. Interpretation has more than one fixed point.",
+   "zh": "那么意义呢？文本不变，诠释规则不变。换一个读者、换一个背景、换一个目的，就能浮现出另一个稳定的意义。诠释有不止一个不动点。"
+  },
+  {
+   "i": 12,
+   "scene": "dialogue",
+   "start": 115.471,
+   "end": 130.932,
+   "en": "Why do people still disagree when they know the same facts? Proved: complete information can still leave norms divided. Shared facts align decisions under a shared rule; different rules can still disagree after everything is disclosed.",
+   "zh": "为什么人们知道同样的事实，却仍然分歧？已证明：完备的信息依然可能让规范分裂。共享的事实能在同一规则下让决策一致；不同的规则，即使一切都已公开，仍可能分歧。"
+  },
+  {
+   "i": 13,
+   "scene": "dialogue",
+   "start": 131.532,
+   "end": 139.059,
+   "en": "And the echo chamber, in one line: repeating messages from a single source can never resolve what that source cannot see.",
+   "zh": "回音室，一行就能说清：重复同一个来源的消息，永远无法解决那个来源看不见的东西。"
+  },
+  {
+   "i": 14,
+   "scene": "dialogue",
+   "start": 139.659,
+   "end": 145.514,
+   "en": "No audit from inside a classification can find the differences that classification deleted.",
+   "zh": "从一个分类内部进行的任何审计，都找不到这个分类自己删掉的差异。"
+  },
+  {
+   "i": 15,
+   "scene": "justice",
+   "start": 147.714,
+   "end": 157.524,
+   "en": "Justice. When an event is perfectly symmetric among n people, there is no fair single culprit. Each share of responsibility is exactly one over n.",
+   "zh": "正义。当一个事件在 n 个人之间完全对称，就不存在公平的唯一罪魁。每一份责任恰好是 n 分之一。"
+  },
+  {
+   "i": 16,
+   "scene": "justice",
+   "start": 158.124,
+   "end": 166.296,
+   "en": "A procedure can be complete and fair, and still produce a wrong outcome. A rule can be fully explainable, and still not contestable.",
+   "zh": "一个程序可以完整而公正，却仍然产出错误的结果。一条规则可以完全可解释，却仍然无法申诉。"
+  },
+  {
+   "i": 17,
+   "scene": "justice",
+   "start": 166.896,
+   "end": 175.191,
+   "en": "And the test of a universal value: it survives swapping who plays which role. A privilege reserved for one named party does not.",
+   "zh": "普遍价值的检验：它经得起角色互换。为某个具名者保留的特权，经不起。"
+  },
+  {
+   "i": 18,
+   "scene": "freedom",
+   "start": 177.391,
+   "end": 183.584,
+   "en": "Freedom. A future that is a total function of the present is exactly a future that never branches.",
+   "zh": "自由。一个完全由现在决定的未来，恰好是一个从不分叉的未来。"
+  },
+  {
+   "i": 19,
+   "scene": "freedom",
+   "start": 184.184,
+   "end": 195.136,
+   "en": "Whether a choice is yours depends on the interface. If the observer's view recovers the decision, the control is internal. If the view hides it, the control looks external.",
+   "zh": "一个选择是否属于你，取决于界面。如果观察者的视角能恢复这个决定，控制就是内在的；如果视角遮蔽了它，控制就显得是外来的。"
+  },
+  {
+   "i": 20,
+   "scene": "freedom",
+   "start": 195.736,
+   "end": 203.931,
+   "en": "In the project's philosophy, freedom has a precise address: the frontier. It is the part that logic has not decided for us.",
+   "zh": "在这个项目的哲学里，自由有一个精确的地址：前沿。它是逻辑尚未替我们决定的那一部分。"
+  },
+  {
+   "i": 21,
+   "scene": "triad",
+   "start": 206.131,
+   "end": 217.008,
+   "en": "Truth, goodness, beauty. Truth is what has been frozen. Goodness is the class of transformations that preserve it. Beauty is the order by which we choose at the frontier.",
+   "zh": "真、善、美。真，是已被冻结的东西。善，是保持它的那一类变换。美，是我们在前沿上做选择的先验次序。"
+  },
+  {
+   "i": 22,
+   "scene": "triad",
+   "start": 217.608,
+   "end": 227.704,
+   "en": "Beauty proposes. Goodness checks honestly. Truth freezes. And beauty is not a function of truth: no state of the ledger can choose the next question for you.",
+   "zh": "美提出，善诚实地检验，真冻结。而美不是真的函数：账本的任何状态，都无法替你选择下一个问题。"
+  },
+  {
+   "i": 23,
+   "scene": "triad",
+   "start": 228.304,
+   "end": 238.471,
+   "en": "Two ethical laws are adopted, not derived: the account must balance, and admission must not depend on who is asking. Ought is never smuggled out of is.",
+   "zh": "两条伦理律是被采纳的，而不是被推导的：账必须平；准入不取决于提问的是谁。“应当”从未被偷偷从“是”里推出。"
+  },
+  {
+   "i": 24,
+   "scene": "unmoved",
+   "start": 240.671,
+   "end": 247.581,
+   "en": "So what can no transformation move? Exactly two things: what is already frozen, and what can never be frozen.",
+   "zh": "那么，什么是任何变换都动不了的？恰好两种：已经冻结的，和永远冻不了的。"
+  },
+  {
+   "i": 25,
+   "scene": "unmoved",
+   "start": 248.181,
+   "end": 260.019,
+   "en": "Everything else is the frontier. Mathematics is not the greatest fixed point. It is an endless ladder, climbing a gap it cannot close. The width of that gap is called incompleteness.",
+   "zh": "其余一切，都是前沿。数学不是最大的不动点。它是一架无尽的阶梯，攀爬在一道无法闭合的沟里。那道沟的宽度，叫作不完备性。"
+  },
+  {
+   "i": 26,
+   "scene": "thinkers",
+   "start": 262.419,
+   "end": 281.44,
+   "en": "Old ideas take on new edges. Leibniz: things that no readout can tell apart. Kant: identical evidence can leave a hidden coordinate undetermined. Wittgenstein: the same sentence acts differently in different contexts. Spinoza: sharing a source does not make contents the same.",
+   "zh": "古老的思想有了新的棱角。莱布尼茨：没有任何读数能区分的东西。康德：完全相同的证据，可以留下一个未被决定的隐藏坐标。维特根斯坦：同一句话，在不同语境里起不同的作用。斯宾诺莎：共享一个来源，并不使内容相同。"
+  },
+  {
+   "i": 27,
+   "scene": "thinkers",
+   "start": 282.04,
+   "end": 290.419,
+   "en": "These are structural readings, not claims about what the philosophers meant. And a statement is not false merely because it is incomplete.",
+   "zh": "这些是结构性的解读，而不是对哲学家原意的断言。而一种表述，并不因为不完整就是错的。"
+  },
+  {
+   "i": 28,
+   "scene": "finale",
+   "start": 292.819,
+   "end": 298.947,
+   "en": "What can be proved will one day emigrate into mathematics. Philosophy keeps watch over what cannot.",
+   "zh": "能证明的，终将移民成数学。哲学，是为不可移民者守夜的职务。"
+  },
+  {
+   "i": 29,
+   "scene": "finale",
+   "start": 299.547,
+   "end": 304.316,
+   "en": "Beauty is the compass. Logic is the ratchet. And the account must balance.",
+   "zh": "美是罗盘，逻辑是棘轮。而账，必须平。"
+  }
+ ],
+ "duration": 313.316
+}

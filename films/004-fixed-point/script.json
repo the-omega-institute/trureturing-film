@@ -1,0 +1,60 @@
+{
+  "voice": "af_heart",
+  "speed": 0.94,
+  "scenes": [
+    {"id": "open", "lead": 4.0, "tail": 1.0, "lines": [
+      ["When everything changes, what stays the same?", "当一切都在变化，什么保持不变？"],
+      ["Philosophers have asked this for two and a half thousand years. This project answers it with theorems, and marks exactly where the theorems stop.", "哲学家问了两千五百年。这个项目用定理来回答，并精确标出定理在哪里止步。"]
+    ]},
+    {"id": "title", "lead": 1.2, "tail": 1.4, "lines": [
+      ["A good coordinate system is a frame that stays fixed under transformation.", "好的坐标系，是变换之下保持不动的标架。"],
+      ["That single idea, the fixed point, runs from geometry to truth, to justice, to beauty.", "这一个想法——不动点——从几何贯穿到真理、正义与美。"]
+    ]},
+    {"id": "concept", "lead": 0.8, "tail": 1.2, "lines": [
+      ["Start with the smallest unit of thought. A concept is not a word. It is a map that sorts states into classes.", "从思想的最小单位开始。概念不是一个词，而是一张把状态分进各类的映射。"],
+      ["Every concept splits the world into fibers, and objects are what a fiber collects. Proved in Lean: the world is exactly the sum of its fibers.", "每个概念都把世界切分成纤维，对象就是一条纤维所收集的东西。在 Lean 中证明：世界恰好等于它的纤维之和。"],
+      ["And defining a concept does not make its object exist. Being definable, being constructed, having a model, being realized: four separate notions, each separated by a proof.", "而定义一个概念，并不使它的对象存在。可定义、可构造、有模型、被实现——四个不同的概念，每一对都由证明分开。"]
+    ]},
+    {"id": "dialectic", "lead": 0.8, "tail": 1.4, "lines": [
+      ["How do concepts move? Two states look the same today, but their futures differ. That pair is a counterexample to your concept.", "概念如何运动？两个状态今天看起来一样，未来却不同。这一对，就是你概念的反例。"],
+      ["Negation is not P and not P. It is a concept's claim of closure, broken by a witness.", "否定不是“P 且非 P”。否定是一个概念自称封闭的主张，被一个见证击穿。"],
+      ["The repair is to join the old concept with what the future needs. Lean proves it is the least repair that keeps every old distinction. Affirmation, negation, sublation, as a theorem.", "修复的办法，是把旧概念与未来所需的东西合并。Lean 证明：这是保留全部旧区分的最小修复。肯定、否定、扬弃——成为一条定理。"]
+    ]},
+    {"id": "identity", "lead": 0.8, "tail": 1.4, "lines": [
+      ["What makes you, you? If memories can be inherited by two successors at once, then memory inheritance cannot be identity. Branching breaks it.", "是什么让你成为你？如果记忆可以同时被两个后继者继承，那么记忆继承就不可能是同一性。分叉打破了它。"],
+      ["And meaning? Keep the same text and the same rule of interpretation. Change the reader, the background, the goal, and a different stable meaning can emerge. Interpretation has more than one fixed point.", "那么意义呢？文本不变，诠释规则不变。换一个读者、换一个背景、换一个目的，就能浮现出另一个稳定的意义。诠释有不止一个不动点。"]
+    ]},
+    {"id": "dialogue", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Why do people still disagree when they know the same facts? Proved: complete information can still leave norms divided. Shared facts align decisions under a shared rule; different rules can still disagree after everything is disclosed.", "为什么人们知道同样的事实，却仍然分歧？已证明：完备的信息依然可能让规范分裂。共享的事实能在同一规则下让决策一致；不同的规则，即使一切都已公开，仍可能分歧。"],
+      ["And the echo chamber, in one line: repeating messages from a single source can never resolve what that source cannot see.", "回音室，一行就能说清：重复同一个来源的消息，永远无法解决那个来源看不见的东西。"],
+      ["No audit from inside a classification can find the differences that classification deleted.", "从一个分类内部进行的任何审计，都找不到这个分类自己删掉的差异。"]
+    ]},
+    {"id": "justice", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Justice. When an event is perfectly symmetric among n people, there is no fair single culprit. Each share of responsibility is exactly one over n.", "正义。当一个事件在 n 个人之间完全对称，就不存在公平的唯一罪魁。每一份责任恰好是 n 分之一。"],
+      ["A procedure can be complete and fair, and still produce a wrong outcome. A rule can be fully explainable, and still not contestable.", "一个程序可以完整而公正，却仍然产出错误的结果。一条规则可以完全可解释，却仍然无法申诉。"],
+      ["And the test of a universal value: it survives swapping who plays which role. A privilege reserved for one named party does not.", "普遍价值的检验：它经得起角色互换。为某个具名者保留的特权，经不起。"]
+    ]},
+    {"id": "freedom", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Freedom. A future that is a total function of the present is exactly a future that never branches.", "自由。一个完全由现在决定的未来，恰好是一个从不分叉的未来。"],
+      ["Whether a choice is yours depends on the interface. If the observer's view recovers the decision, the control is internal. If the view hides it, the control looks external.", "一个选择是否属于你，取决于界面。如果观察者的视角能恢复这个决定，控制就是内在的；如果视角遮蔽了它，控制就显得是外来的。"],
+      ["In the project's philosophy, freedom has a precise address: the frontier. It is the part that logic has not decided for us.", "在这个项目的哲学里，自由有一个精确的地址：前沿。它是逻辑尚未替我们决定的那一部分。"]
+    ]},
+    {"id": "triad", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Truth, goodness, beauty. Truth is what has been frozen. Goodness is the class of transformations that preserve it. Beauty is the order by which we choose at the frontier.", "真、善、美。真，是已被冻结的东西。善，是保持它的那一类变换。美，是我们在前沿上做选择的先验次序。"],
+      ["Beauty proposes. Goodness checks honestly. Truth freezes. And beauty is not a function of truth: no state of the ledger can choose the next question for you.", "美提出，善诚实地检验，真冻结。而美不是真的函数：账本的任何状态，都无法替你选择下一个问题。"],
+      ["Two ethical laws are adopted, not derived: the account must balance, and admission must not depend on who is asking. Ought is never smuggled out of is.", "两条伦理律是被采纳的，而不是被推导的：账必须平；准入不取决于提问的是谁。“应当”从未被偷偷从“是”里推出。"]
+    ]},
+    {"id": "unmoved", "lead": 0.8, "tail": 1.6, "lines": [
+      ["So what can no transformation move? Exactly two things: what is already frozen, and what can never be frozen.", "那么，什么是任何变换都动不了的？恰好两种：已经冻结的，和永远冻不了的。"],
+      ["Everything else is the frontier. Mathematics is not the greatest fixed point. It is an endless ladder, climbing a gap it cannot close. The width of that gap is called incompleteness.", "其余一切，都是前沿。数学不是最大的不动点。它是一架无尽的阶梯，攀爬在一道无法闭合的沟里。那道沟的宽度，叫作不完备性。"]
+    ]},
+    {"id": "thinkers", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Old ideas take on new edges. Leibniz: things that no readout can tell apart. Kant: identical evidence can leave a hidden coordinate undetermined. Wittgenstein: the same sentence acts differently in different contexts. Spinoza: sharing a source does not make contents the same.", "古老的思想有了新的棱角。莱布尼茨：没有任何读数能区分的东西。康德：完全相同的证据，可以留下一个未被决定的隐藏坐标。维特根斯坦：同一句话，在不同语境里起不同的作用。斯宾诺莎：共享一个来源，并不使内容相同。"],
+      ["These are structural readings, not claims about what the philosophers meant. And a statement is not false merely because it is incomplete.", "这些是结构性的解读，而不是对哲学家原意的断言。而一种表述，并不因为不完整就是错的。"]
+    ]},
+    {"id": "finale", "lead": 1.0, "tail": 9.0, "lines": [
+      ["What can be proved will one day emigrate into mathematics. Philosophy keeps watch over what cannot.", "能证明的，终将移民成数学。哲学，是为不可移民者守夜的职务。"],
+      ["Beauty is the compass. Logic is the ratchet. And the account must balance.", "美是罗盘，逻辑是棘轮。而账，必须平。"]
+    ]}
+  ]
+}
