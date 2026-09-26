@@ -1,0 +1,23 @@
+models/
+fonts/
+tts/
+shots/
+qa/
+tst/
+*.wav
+seg_*.mp4
+video_only.mp4
+v720.mp4
+v1080.mp4
+index.html
+*.log
+p720*
+p1080*
+segs.txt
+node_modules/
+# rendered outputs are never committed
+*.mp4
+*.jpg
+*.png
+media/
+cover.jpg

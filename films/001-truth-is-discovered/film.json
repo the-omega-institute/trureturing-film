@@ -1,0 +1,26 @@
+{
+  "id": "001-truth-is-discovered",
+  "title": "TRURETURING — Truth Is Discovered",
+  "title_zh": "真理回返 · 真理是被发现的",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "460435f5d",
+  "released": "2026-09-26",
+  "duration": "6:54",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_1080p_narrated.mp4",
+    "music_only": "TRURETURING_1080p_music_only.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}

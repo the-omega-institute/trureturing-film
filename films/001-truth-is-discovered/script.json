@@ -1,0 +1,83 @@
+{
+  "voice": "af_heart",
+  "speed": 0.94,
+  "scenes": [
+    {"id": "boot", "lead": 5.0, "tail": 1.2, "lines": [
+      ["What if truth is not invented, but discovered?", "如果真理不是被发明的，而是被发现的呢？"],
+      ["What if every proof a machine checks becomes a coordinate: a fixed point, in a space that no one can see all at once?", "如果机器核验的每一个证明，都成为一个坐标——一个不动点，处在一个没有人能一眼看全的空间里？"]
+    ]},
+    {"id": "title", "lead": 1.4, "tail": 1.4, "lines": [
+      ["This is trureturing. True. Return. Turing.", "这就是 trureturing。真理 · 回返 · 图灵。"],
+      ["An open experiment in giving machines a scientific method: to ask questions, test their own conjectures, and return what they verify to a library that only grows.", "一个开放的实验：给机器一套科学方法——提出问题，检验自己的猜想，再把验证过的东西交还给一座只增不减的图书馆。"]
+    ]},
+    {"id": "dao", "lead": 1.0, "tail": 1.2, "lines": [
+      ["It begins with a philosophical bet. Truth is not created by the act of computing it.", "它始于一个哲学赌注：真理，不是被计算这一行为创造出来的。"],
+      ["Call the whole network of truths, and all their logical relations, the Dao. Or God.", "把全部真理及其逻辑关系构成的那张网，称为“道”，或者“神”。"],
+      ["A finite observer never sees that network whole. It discovers the connections, one at a time.", "有限的观察者永远看不到这张网的全貌，只能一条一条地发现其中的连接。"],
+      ["And the project is careful to say: this is an orientation, not a theorem. It proves nothing about God, or the universe.", "项目也说得很清楚：这是一种方向，不是定理。它没有证明任何关于神或宇宙的事。"]
+    ]},
+    {"id": "kernel", "lead": 1.0, "tail": 1.2, "lines": [
+      ["So who is allowed to say what is true? Here, exactly one thing: code that passes the Lean four kernel.", "那么，谁有资格说什么是真的？在这里只有一样东西：通过 Lean 4 内核检验的代码。"],
+      ["Not prose. Not intuition. Not a confident model. Declarations, proof terms, and their axiom closure. Nothing else carries truth.", "不是散文，不是直觉，也不是一个自信的模型。只有声明、证明项和它们的公理闭包承载真值。"],
+      ["Today that is more than five thousand Lean files. Nearly a million lines. Almost thirty thousand theorems and lemmas.", "今天，这里有五千多个 Lean 文件，将近一百万行，接近三万条定理与引理。"],
+      ["Any extra axiom must be declared in the open, or it is rejected.", "任何额外的公理都必须公开登记，否则一律拒收。"]
+    ]},
+    {"id": "dag", "lead": 1.0, "tail": 1.2, "lines": [
+      ["Every verified result becomes a node in a directed acyclic graph of truth.", "每一个被验证的结果，都成为“真理有向无环图”上的一个节点。"],
+      ["Once the kernel accepts it, the node is frozen. Permanently. It is never unfrozen. The graph can only grow.", "一旦内核接受，这个节点就被冻结。永久冻结，永不解冻。这张图只能生长。"],
+      ["Each node is addressed by the hashes of everything beneath it. Change one pearl, and every reflection above it changes. Indra's net, rebuilt out of cryptography.", "每个节点都由它下方一切内容的哈希来寻址。动一颗珍珠，它之上所有的映像都随之改变——用密码学重建的因陀罗网。"],
+      ["Nearly five thousand modules are already frozen. The only place where work happens is the frontier: the open edge, where no proof exists yet.", "已有近五千个模块被冻结。唯一有工作可做的地方是前沿：那条还没有证明存在的开放边界。"]
+    ]},
+    {"id": "golden", "lead": 1.0, "tail": 1.4, "lines": [
+      ["One thread runs through the golden ratio.", "其中一条线索，贯穿黄金比例。"],
+      ["Every natural number has exactly one way to be written as a sum of non-adjacent Fibonacci numbers. Forty-two is thirty-four, plus eight.", "每个自然数都恰好有一种方式，写成互不相邻的斐波那契数之和。42 = 34 + 8。"],
+      ["Now replace each Fibonacci weight with a power of phi. Call the result beta of n. Does this new coordinate preserve addition?", "把每个斐波那契权重换成 φ 的幂，得到 β(n)。这个新坐标保持加法吗？"],
+      ["Not quite. But the error is trapped. For every pair of natural numbers, forever, the deficit is minus one, zero, or one.", "并不完全。但误差被困住了：对任意一对自然数，永远，亏量只能是 −1、0 或 1。"],
+      ["Three values. Proved for all inputs, not just the ones anyone happened to test.", "三个值。对所有输入成立，而不只是碰巧被测试过的那些。"]
+    ]},
+    {"id": "refute", "lead": 1.0, "tail": 1.4, "lines": [
+      ["Machines can also kill conjectures.", "机器也能终结猜想。"],
+      ["In twenty twelve, a closed formula was conjectured for the OEIS sequence A, one seven five, four oh six.", "2012 年，有人为 OEIS 数列 A175406 猜想了一个闭式公式。"],
+      ["Then, at one particular sixteen-digit number, it is off by exactly one.", "然而在一个特定的十六位数上，它恰好差了 1。"],
+      ["The refutation is not a numerical hunch. It is a Lean theorem, named result, whose type is: not claim. It rests on certified bounds for the logarithm of two.", "这个反驳不是数值直觉，而是一条 Lean 定理：名为 result，类型是“¬ claim”，建立在 log 2 的认证界之上。"],
+      ["More than four hundred dossiers of published conjectures and questions are tracked this way, each with its sources and a literature check.", "四百多份已发表猜想与问题的卷宗按这种方式追踪，每一份都附有出处和文献核查。"]
+    ]},
+    {"id": "quantum", "lead": 1.0, "tail": 1.4, "lines": [
+      ["The deepest thread is about blindness: what observations cannot tell you.", "最深的一条线索关于“盲区”：观察告诉不了你的东西。"],
+      ["Take two qubits. One pair is an entangled Bell state. The other is a plain classical coin flip, between zero zero and one one.", "取两个量子比特：一对处于纠缠的贝尔态；另一对只是经典地掷硬币，在 00 与 11 之间随机。"],
+      ["Look at each qubit alone, and they are identical. Exactly the same local description. Yet the wholes are different.", "单独看每个量子比特，两者完全相同，局部描述一模一样。但整体不同。"],
+      ["For finite systems, the theorem measures precisely what the local views omit: a hidden correlation sector, of dimension m squared minus one, times n squared minus one.", "对有限维系统，定理精确量出局部视角遗漏的部分：一个维数为 (m²−1)(n²−1) 的隐藏关联扇区。"],
+      ["And one criterion ties it together: a target can be recovered from an observation exactly when the target is constant on every fiber, every set of states that look the same.", "一个判据把这一切串起来：目标能从观察中恢复，当且仅当它在每一条“纤维”——每一组看起来相同的状态——上都是常数。"]
+    ]},
+    {"id": "spacetime", "lead": 1.0, "tail": 1.4, "lines": [
+      ["This is where the holography begins.", "全息，从这里开始。"],
+      ["Imagine one history, seen through many windows. Each window shows only a part. Some of them overlap.", "想象同一段历史，透过许多扇窗去看。每扇窗只露出一部分，有些窗彼此重叠。"],
+      ["Which windows, and which relations, are enough to reconstruct the whole? At what resolution? At what cost?", "哪些窗、哪些关系，足以重建整体？在什么分辨率下？代价是多少？"],
+      ["In one finite model, adding a single inactive event leaves the present spatial snapshot untouched, yet makes a temporal composition illegal. A snapshot is not a history.", "在一个有限模型里，加入一个不活跃的事件，当前的空间快照纹丝不动，却让一次时间上的组合变得不合法。快照不等于历史。"],
+      ["And the boundary is stated honestly: these are models of observation. Not a derivation of physical spacetime.", "边界也被诚实地写明：这些是观察的模型，不是对物理时空的推导。"]
+    ]},
+    {"id": "escape", "lead": 1.0, "tail": 1.2, "lines": [
+      ["Every new theorem is asked four questions.", "每一条新定理，都要回答四个问题。"],
+      ["Where did information escape? How was that escape handled? What new information emerged? And where does it keep escaping?", "信息从哪里逃逸？逃逸如何被处理？出现了什么新信息？它又在哪里继续逃逸？"],
+      ["The judge is still under construction. Its aim is not to reward sounding smart, but to show which distinctions became visible, and which remain in the dark.", "这个判官仍在建设中。它不奖励“听起来聪明”，只标出哪些区分变得可见，哪些仍在黑暗里。"]
+    ]},
+    {"id": "trust", "lead": 1.0, "tail": 1.2, "lines": [
+      ["So who decides what is true? Not a human. Not a confident model.", "那么，谁来决定什么是真的？不是人，也不是一个自信的模型。"],
+      ["Proofs go to the kernel. Arguments go to adversarial reviewers from different model families. Every merge passes the same machine checks, whether it comes from a maintainer, a stranger, or an AI.", "证明交给内核；论证交给来自不同模型家族的对抗评审。每一次合并都要通过同样的机器检查——无论来自维护者、陌生人，还是 AI。"],
+      ["Any gate that ends in 'awaiting human review' is treated as a bug. Humans choose directions, and authorize the irreversible. Machines judge right and wrong.", "任何以“等待人工审核”结束的门，都被视为 bug。人选择方向、授权不可逆的动作；对与错，由机器判定。"]
+    ]},
+    {"id": "hearts", "lead": 1.0, "tail": 1.6, "lines": [
+      ["At the center sit two open hearts.", "在中心，有两颗开放的心脏。"],
+      ["One, O six, states Weil's positivity criterion: a classical doorway to the Riemann hypothesis. The statement is written. Its proof is not.", "一颗叫 O-6，写下了韦伊正性判据——通往黎曼猜想的一扇经典之门。陈述已经写好，证明还没有。"],
+      ["The other, O five, has a proof body of a single deliberate word: sorry.", "另一颗叫 O-5，它的证明体只有一个刻意留下的词：sorry。"],
+      ["The project says it plainly: it has not solved the Riemann hypothesis. What is not proved is marked open. Not hidden. Not faked.", "项目明白地说：它没有解决黎曼猜想。没有证明的，就标为 open。不隐藏，不伪造。"],
+      ["Gödel proved that every consistent formal system strong enough for arithmetic leaves some truths unprovable. The repository can run unattended. Honesty cannot.", "哥德尔证明：任何足以表达算术的一致形式系统，都有无法证明的真命题。仓库可以无人值守，诚实不能。"]
+    ]},
+    {"id": "finale", "lead": 1.0, "tail": 9.0, "lines": [
+      ["Primes never run out. Neither does the frontier.", "素数永远不会用尽，前沿也一样。"],
+      ["This is a search for the primes of truth: irreducible, verified, fixed in place, one node at a time.", "这是一场对“真理素数”的搜寻：不可约，被验证，固定在原位，一次一个节点。"],
+      ["The last line of the ledger is always the first line of the next round.", "账本的最后一行，永远是下一轮的第一行。"],
+      ["And if thou gaze long into an abyss, the abyss will also gaze into thee.", "当你长久凝视深渊，深渊也在凝视你。"]
+    ]}
+  ]
+}
