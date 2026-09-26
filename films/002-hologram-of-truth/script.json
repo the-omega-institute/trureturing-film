@@ -1,0 +1,69 @@
+{
+  "voice": "af_heart",
+  "speed": 0.94,
+  "scenes": [
+    {"id": "open", "lead": 4.0, "tail": 1.0, "lines": [
+      ["Can a part hold the whole?", "部分，能承载整体吗？"],
+      ["An old image says yes. Indra's net: every jewel reflects every other jewel. Break off one pearl, and the whole net is still inside it.", "一个古老的意象说：能。因陀罗网——每一颗宝珠都映照着其余所有宝珠。取下一颗，整张网仍在其中。"],
+      ["Physics has its own version: the hologram, where a boundary encodes a volume.", "物理学也有自己的版本：全息图——边界编码了体积。"]
+    ]},
+    {"id": "title", "lead": 1.2, "tail": 1.4, "lines": [
+      ["But an image is not a proof. So this project asks the question exactly: which parts hold which wholes, and where does the reflection break?", "但意象不是证明。所以这个项目把问题问得精确：哪些部分承载哪些整体？映照又在哪里破碎？"]
+    ]},
+    {"id": "fiber", "lead": 0.8, "tail": 1.2, "lines": [
+      ["Start with one law, proved in Lean. Every observation folds the world into fibers: sets of states that look the same.", "从一条在 Lean 中证明的定律开始：每一次观察，都把世界折叠成纤维——一组组看起来相同的状态。"],
+      ["A hidden target can be recovered from what you see exactly when it is constant on every fiber.", "一个隐藏的目标能从所见之中恢复，当且仅当它在每一条纤维上都是常数。"],
+      ["That is the whole hologram question, in one line. Everything else in this film is about where that line is crossed.", "这就是全息问题的全部，浓缩成一行。本片其余的一切，都关于这条线在哪里被越过。"]
+    ]},
+    {"id": "glue", "lead": 0.8, "tail": 1.2, "lines": [
+      ["Sometimes local views do glue into a whole. Arrange local records on a tree. If every variable lives on a connected branch, and neighbours agree exactly on their overlap, then every local record extends to a global one.", "有时，局部视图确实能拼成整体。把局部记录排在一棵树上：只要每个变量都落在连通的一枝上，相邻者在重叠处完全一致，那么每一份局部记录都能延拓成全局记录。"],
+      ["Existence is proved. Uniqueness, the original history, and the cost are not. The project says so.", "存在性已被证明。唯一性、原始历史、计算代价——尚未。项目如实写明。"]
+    ]},
+    {"id": "blind", "lead": 0.8, "tail": 1.2, "lines": [
+      ["And sometimes the parts lie by omission. An entangled Bell pair and a classical coin flip look identical qubit by qubit.", "而有时，部分以沉默撒谎。一对纠缠的贝尔态，和一次经典的掷硬币，逐个量子比特看完全相同。"],
+      ["The whole lives in a hidden correlation sector, orthogonal to every local view. For two qubits, nine dimensions of it.", "整体藏在一个隐藏的关联扇区里，与每一个局部视角都正交。对两个量子比特，它有九个维度。"]
+    ]},
+    {"id": "records", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Now the frontier. These newest results were derived on paper in the last few days, and are not yet machine-checked.", "现在进入前沿。以下最新结果是最近几天在纸面上推导的，尚未经过机器核验。"],
+      ["First: a system leaves traces in its environment. Can it be restored? In one explicit four-path model, a single record gives zero chance of exact recovery.", "第一：一个系统在环境中留下痕迹。它还能被复原吗？在一个明确的四路径模型里，只留一份记录，精确复原的机会是零。"],
+      ["Two records, with full joint access, and recovery becomes certain. The threshold is exactly two. The certificate is a cube of ten phase vectors.", "两份记录、完整的联合访问——复原就成了确定的事。阈值恰好是二。证书是十个相位向量组成的立方。"]
+    ]},
+    {"id": "real", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Second: can quantum states be stored in real numbers alone, with the imaginary part thrown away?", "第二：量子态能否只用实数存储，把虚部丢掉？"],
+      ["There is a price. Recovery error plus the leftover non-real part can never fall below a gap, delta. For six states on the three axes, that gap is exactly a third of their radius.", "这有代价。恢复误差，加上残余的非实部分，永远不能低于一个间隙 δ。对三条轴上的六个态，这个间隙恰好是半径的三分之一。"],
+      ["And a hidden triangle decides everything: real storage costs nothing extra exactly when the reciprocals of the three radii form a triangle.", "一个隐藏的三角形决定一切：实数存储不付额外代价，当且仅当三个半径的倒数能构成三角形。"],
+      ["Squeeze one axis toward zero, and the best error does not fade away. It stays at one quarter, then jumps to zero at the very end. A discontinuity in reality itself.", "把一条轴压向零，最佳误差不会渐渐消失。它停在四分之一，直到最后一刻才跳到零。这是“实在”本身的一次断裂。"]
+    ]},
+    {"id": "phase", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Third: recovery has phase boundaries. Through a noisy channel, the best error starts at three quarters, and crosses that line at exactly one threshold.", "第三：恢复有相边界。穿过一条带噪声的信道，最佳误差从四分之三出发，恰在唯一一个阈值处越过这条线。"],
+      ["Inside the math, a point slides across a quarter disc until it touches the edge. At that contact, the optimal decoder changes shape, from three operators to two.", "在数学内部，一个点在四分之一圆盘里滑行，直到触碰边缘。在那个接触点，最优解码器改变了形态——从三个算子变成两个。"],
+      ["Capacity, smoothness, and visible error turn out to be three different things. The world does not bend where you expect.", "容量、光滑性、可见误差，原来是三种不同的东西。世界并不在你预期的地方弯折。"]
+    ]},
+    {"id": "rh", "lead": 0.8, "tail": 1.6, "lines": [
+      ["Fourth: the deepest question in number theory, recast as a phase transition.", "第四：数论中最深的问题，被重铸为一次相变。"],
+      ["Suppose the Riemann hypothesis were false. Then there is a first height where a zero leaves the critical line, and it cannot leave alone: a mirror zero appears beside it.", "假设黎曼猜想不成立。那么必有一个最早的高度，零点在那里离开临界线——而且它不能独自离开：一个镜像零点在它身旁出现。"],
+      ["At that height, an order parameter jumps from zero. On the Lee-Yang circle, two roots split apart, to r and one over r. The zeros would undergo an instantaneous phase transition.", "在那个高度，一个序参量从零跳起。在李-杨圆上，两个根分裂开来，一个到 r，一个到 1/r。零点将经历一次瞬时相变。"],
+      ["This is conditional. It proves nothing about the hypothesis. One load-bearing bridge is still open, and it is named. Either way, the work produces truth.", "这是有条件的。它没有证明任何关于猜想的事。仍有一座承重之桥是开放的，并且被点了名。无论真假，这项工作都在产出真理。"]
+    ]},
+    {"id": "settled", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Meanwhile, the machine keeps settling what others left open. Every result here passed the Lean kernel.", "与此同时，机器不断了结别人留下的开放问题。以下每一条都通过了 Lean 内核。"],
+      ["A March twenty twenty-six conjecture on rotating three letters in binary words: diameter L times N minus L, over two, rounded up. Proved for all sizes.", "2026 年 3 月的一个猜想：在二进制词里旋转三个相邻字母，图的直径是 L(N−L)/2 向上取整。对所有规模证明。"],
+      ["The generalized Petersen graphs: zero forcing number eight, for every n from thirteen on. The paper had only checked up to twenty.", "广义彼得森图：从 13 起的每一个 n，零强迫数都是 8。原论文只验证到 20。"],
+      ["A quantum walk conjecture from August: refuted on a graph with thirty vertices. An OEIS formula from nuclear magnetic resonance: it breaks at n equals nineteen.", "八月的一个量子行走猜想：在一个 30 个顶点的图上被推翻。一个来自核磁共振的 OEIS 公式：在 n = 19 处断裂。"],
+      ["Four hundred and eleven dossiers. No priority claimed. Only kernel-checked.", "四百一十一份卷宗。不声称优先权。只认内核核验。"]
+    ]},
+    {"id": "returns", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Some truths are about returning. Watch any continuous reading of a rotation on a torus, even with an error that fades away: it comes back to every open window it can reach, again and again, with bounded gaps.", "有些真理关于回返。观察环面上一次旋转的任意连续读数，即使带着逐渐消失的误差：它会一次又一次回到它能抵达的每一扇开窗，间隔有界。"],
+      ["Proved, and frozen. A small theorem about eternal return.", "已证明，已冻结。一条关于永恒回返的小定理。"]
+    ]},
+    {"id": "mirror", "lead": 0.8, "tail": 1.4, "lines": [
+      ["So is the library itself a hologram? Each frozen node is addressed by the hashes of all its ancestors. It carries its whole past.", "那么，这座图书馆本身是全息的吗？每一个冻结的节点，都由它全部祖先的哈希来寻址。它携带着自己的全部过去。"],
+      ["But not its future, and not its siblings. Depending on your ancestors is not the same as containing the whole net. The project draws that line explicitly.", "但不携带未来，也不携带兄弟。依赖祖先，并不等于包含整张网。项目明确划出了这条线。"],
+      ["That is the honest hologram: not every part holds the whole. Finding exactly which parts do is the frontier.", "这是诚实的全息：并非每个部分都承载整体。精确找出哪些部分承载，正是前沿。"]
+    ]},
+    {"id": "finale", "lead": 1.0, "tail": 9.0, "lines": [
+      ["Five thousand files. Nearly thirty thousand theorems. Nearly five thousand frozen truths, each one a mirror facing the dark.", "五千个文件。近三万条定理。近五千条冻结的真理，每一条都是一面朝向黑暗的镜子。"],
+      ["Where does information still escape? Follow it. That is where the next truth is waiting.", "信息还在哪里逃逸？追随它。下一条真理，就在那里等待。"]
+    ]}
+  ]
+}

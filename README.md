@@ -12,6 +12,7 @@ outputs, published only as [Releases](../../releases).
 | # | Film | Length | Narration | Subtitles |
 | --- | --- | --- | --- | --- |
 | 001 | [TRURETURING — Truth Is Discovered](films/001-truth-is-discovered/) · 真理是被发现的 | 6:54 | EN (AI) / music-only | ZH + EN |
+| 002 | [HOLOGRAM OF TRUTH](films/002-hologram-of-truth/) · 真理全息 | 6:03 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 
