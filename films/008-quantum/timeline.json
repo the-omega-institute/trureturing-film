@@ -1,0 +1,317 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 21.551
+  },
+  {
+   "id": "title",
+   "start": 21.551,
+   "end": 35.07
+  },
+  {
+   "id": "chsh",
+   "start": 35.07,
+   "end": 63.032
+  },
+  {
+   "id": "ks",
+   "start": 63.032,
+   "end": 92.149
+  },
+  {
+   "id": "clone",
+   "start": 92.149,
+   "end": 117.078
+  },
+  {
+   "id": "uncert",
+   "start": 117.078,
+   "end": 138.327
+  },
+  {
+   "id": "coin",
+   "start": 138.327,
+   "end": 161.608
+  },
+  {
+   "id": "records",
+   "start": 161.608,
+   "end": 184.841
+  },
+  {
+   "id": "decohere",
+   "start": 184.841,
+   "end": 210.69
+  },
+  {
+   "id": "secret",
+   "start": 210.69,
+   "end": 230.927
+  },
+  {
+   "id": "memory",
+   "start": 230.927,
+   "end": 253.654
+  },
+  {
+   "id": "mub6",
+   "start": 253.654,
+   "end": 283.972
+  },
+  {
+   "id": "rh",
+   "start": 283.972,
+   "end": 311.622
+  },
+  {
+   "id": "finale",
+   "start": 311.622,
+   "end": 336.102
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 6.939,
+   "en": "Quantum mechanics is usually told as a mystery.",
+   "zh": "量子力学通常被讲成一个谜。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 7.539,
+   "end": 20.551,
+   "en": "This project tells it as a ledger: what gets recorded, what an observer can read, and what can never be read at all. The quantum rules themselves are assumed, not derived. That is stated on the first page.",
+   "zh": "这个项目把它讲成一本账：什么被记录下来，观察者能读出什么，又有什么永远读不出来。量子规则本身是假设，不是推导。这一点写在第一页。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 22.751,
+   "end": 28.414,
+   "en": "The quantum library holds two hundred ninety-four Lean files, nearly all frozen by the kernel.",
+   "zh": "量子库里有两百九十四个 Lean 文件，几乎全部已被内核冻结。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 29.014,
+   "end": 33.67,
+   "en": "Here is what a proof checker will sign about the quantum world, and where it refuses.",
+   "zh": "这里是一台证明核验机愿意为量子世界签字的内容，以及它拒绝签字的地方。"
+  },
+  {
+   "i": 4,
+   "scene": "chsh",
+   "start": 35.87,
+   "end": 44.406,
+   "en": "Two players, two settings each, one shared score. Any classical hidden answer sheet scores at most two. Proved in Lean, and two is reached.",
+   "zh": "两个玩家，各有两种设置，共享一个分数。任何经典的隐藏答案表，最多得二分。在 Lean 中证明，并且二分可以达到。"
+  },
+  {
+   "i": 5,
+   "scene": "chsh",
+   "start": 45.006,
+   "end": 51.861,
+   "en": "The Bell state scores exactly two root two, and for this game no two-qubit state does better. Also checked.",
+   "zh": "贝尔态恰好得到二倍根号二，而在这个游戏里，没有任何两量子比特态能做得更好。同样经过核验。"
+  },
+  {
+   "i": 6,
+   "scene": "chsh",
+   "start": 52.461,
+   "end": 61.632,
+   "en": "And the gap has a cause. If either player's two settings commute, the score's square is exactly four. No incompatibility, no quantum advantage.",
+   "zh": "而这个差距有原因。只要任一玩家的两种设置对易，分数的平方就恰好是四。没有不相容，就没有量子优势。"
+  },
+  {
+   "i": 7,
+   "scene": "ks",
+   "start": 63.832,
+   "end": 75.112,
+   "en": "Can every measurement have a pre-written answer? Take eighteen directions in four-dimensional space, arranged in nine contexts of four. Each direction sits in exactly two contexts.",
+   "zh": "每一次测量都能有一个预先写好的答案吗？取四维空间中的十八个方向，排成九个四元情境。每个方向恰好属于两个情境。"
+  },
+  {
+   "i": 8,
+   "scene": "ks",
+   "start": 75.712,
+   "end": 90.749,
+   "en": "Each context needs exactly one yes. Count the yeses two ways: nine is odd, but every direction is counted twice. No answer sheet exists. Remove any one context, and one does. Kernel-checked, for this configuration.",
+   "zh": "每个情境恰好需要一个“是”。用两种方式数“是”：九是奇数，而每个方向都被数了两次。答案表不存在。去掉任意一个情境，它就存在。经内核核验，针对这一构型。"
+  },
+  {
+   "i": 9,
+   "scene": "clone",
+   "start": 92.949,
+   "end": 105.169,
+   "en": "Can you copy an unknown quantum state? If one machine copies two states, their overlap must equal its own square. So they are identical, or perfectly distinguishable. Nothing in between.",
+   "zh": "你能复制一个未知的量子态吗？如果一台机器能复制两个态，它们的重叠就必须等于自身的平方。所以它们要么相同，要么完全可区分。没有中间地带。"
+  },
+  {
+   "i": 10,
+   "scene": "clone",
+   "start": 105.769,
+   "end": 115.678,
+   "en": "The best universal copier gives each copy a spectrum of exactly one third and two thirds. A copy is always a blurred copy. Both proved in Lean.",
+   "zh": "最好的通用复制机，给每个副本的谱恰好是三分之一和三分之二。副本永远是模糊的副本。两者都在 Lean 中证明。"
+  },
+  {
+   "i": 11,
+   "scene": "uncert",
+   "start": 117.878,
+   "end": 126.971,
+   "en": "Uncertainty, as a theorem. For any two observables and any state, the product of the spreads is at least half the size of the expected commutator.",
+   "zh": "不确定性，作为一条定理。对任意两个可观测量与任意状态，两者离散程度的乘积，至少是其对易子期望大小的一半。"
+  },
+  {
+   "i": 12,
+   "scene": "uncert",
+   "start": 127.571,
+   "end": 136.927,
+   "en": "And the simplest case: the X and Z spins of a qubit share no common eigenvector at all. There is no state that is sharp in both. Kernel-checked.",
+   "zh": "最简单的情形：一个量子比特的 X 自旋与 Z 自旋，没有任何共同的本征向量。不存在在两者上都确定的态。经内核核验。"
+  },
+  {
+   "i": 13,
+   "scene": "coin",
+   "start": 139.127,
+   "end": 149.558,
+   "en": "Now a subtle point. Know a state perfectly, measure it, and the outcome can still be a fair coin. Predicting the distribution is not predicting the single outcome.",
+   "zh": "现在是一个微妙之处。完全知道一个态，去测量它，结果仍可以是一枚公平的硬币。能预测分布，不等于能预测单次结果。"
+  },
+  {
+   "i": 14,
+   "scene": "coin",
+   "start": 150.158,
+   "end": 160.208,
+   "en": "And the same probabilities can hide opposite states: two states give identical odds, yet are perfectly orthogonal. The odds are a readout, not the reality.",
+   "zh": "而相同的概率可以藏着相反的态：两个态给出完全相同的概率，却彼此完全正交。概率是读数，不是实在。"
+  },
+  {
+   "i": 15,
+   "scene": "records",
+   "start": 162.408,
+   "end": 172.147,
+   "en": "What is a measurement? In this theory, a reversible coupling that writes a record. There is no need for a non-unitary collapse button in the basic dynamics.",
+   "zh": "什么是测量？在这套理论里，它是一个写下记录的可逆耦合。基本演化中，不需要一个非酉的坍缩按钮。"
+  },
+  {
+   "i": 16,
+   "scene": "records",
+   "start": 172.747,
+   "end": 183.441,
+   "en": "The better the record distinguishes the paths, the less interference survives: distinguishability squared plus visibility squared equals one, exactly. Proved in Lean.",
+   "zh": "记录对路径区分得越清楚，存活的干涉就越少：可区分度的平方加上可见度的平方，恰好等于一。在 Lean 中证明。"
+  },
+  {
+   "i": 17,
+   "scene": "decohere",
+   "start": 185.641,
+   "end": 201.171,
+   "en": "Decoherence is not deletion. Copy a qubit onto another, and locally two different states look identical. But the whole is still reversible: undo the coupling, and everything comes back. Irreversibility here is about access. Kernel-checked.",
+   "zh": "去相干不是删除。把一个量子比特拷贝到另一个上，在局部，两个不同的态看起来一模一样。但整体仍然可逆：撤销耦合，一切都回来了。这里的不可逆，是关于能否访问。经内核核验。"
+  },
+  {
+   "i": 18,
+   "scene": "decohere",
+   "start": 201.771,
+   "end": 209.29,
+   "en": "In one model, three links each destroy the phase completely. Go around the full loop, and the coherence returns exactly.",
+   "zh": "在一个模型里，三条链路各自都完全摧毁相位。沿整个闭环走一圈，相干性精确地回来了。"
+  },
+  {
+   "i": 19,
+   "scene": "secret",
+   "start": 211.49,
+   "end": 220.952,
+   "en": "A secret split across three qutrits. Any single share is perfectly random, carrying nothing. Any two shares recover the whole. Both checked in Lean.",
+   "zh": "一个秘密分在三个量子三态上。任何单独一份都完全随机，不携带任何信息。任意两份就能恢复全部。两者都在 Lean 中核验。"
+  },
+  {
+   "i": 20,
+   "scene": "secret",
+   "start": 221.552,
+   "end": 229.527,
+   "en": "And the three-party GHZ state is entangled across every possible cut, with exactly one bit of entanglement each way.",
+   "zh": "而三方 GHZ 态在每一种可能的切分下都是纠缠的，每个方向恰好一比特的纠缠。"
+  },
+  {
+   "i": 21,
+   "scene": "memory",
+   "start": 231.727,
+   "end": 239.08,
+   "en": "An observer is finite. A d-dimensional memory can perfectly tell apart at most d histories. Proved in Lean.",
+   "zh": "观察者是有限的。一个 d 维的记忆，至多能完美区分 d 段历史。在 Lean 中证明。"
+  },
+  {
+   "i": 22,
+   "scene": "memory",
+   "start": 239.68,
+   "end": 252.254,
+   "en": "To pin down an unknown state, a single measurement needs at least d squared outcomes. Or use d plus one mutually unbiased bases, and every state is determined. Both kernel-checked.",
+   "zh": "要确定一个未知的态，单次测量至少需要 d 的平方个结果。或者使用 d 加一组互不偏的基，每一个态就都被确定。两者都经内核核验。"
+  },
+  {
+   "i": 23,
+   "scene": "mub6",
+   "start": 254.454,
+   "end": 262.571,
+   "en": "But in dimension six, a famous question is still open: do four mutually unbiased bases exist at all? Only three are known.",
+   "zh": "但在六维，一个著名的问题仍然开放：四组互不偏的基究竟是否存在？目前只知道三组。"
+  },
+  {
+   "i": 24,
+   "scene": "mub6",
+   "start": 263.171,
+   "end": 275.212,
+   "en": "The project proves pieces. An order-three unitary cannot split across two complementary bases, kernel-frozen. It even refuted one of its own proof routes with an exact counterexample.",
+   "zh": "项目证明了若干局部。一个三阶酉算子不能在两组互补的基之间分裂，已被内核冻结。它甚至用一个精确反例，推翻了自己的一条证明路线。"
+  },
+  {
+   "i": 25,
+   "scene": "mub6",
+   "start": 275.812,
+   "end": 282.372,
+   "en": "And it writes on the gate: local certificates must not be described as solving the six-dimensional problem.",
+   "zh": "它在门上写着：局部证书不得被表述为已经解决了六维问题。"
+  },
+  {
+   "i": 26,
+   "scene": "rh",
+   "start": 284.772,
+   "end": 301.098,
+   "en": "The boldest line connects quantum systems to the Riemann Hypothesis. The Hypothesis is equivalent to finding a positive quantum model at every order. A Fibonacci-constrained chain forces its zeros onto a line: that step is proved in Lean.",
+   "zh": "最大胆的一条线，把量子系统与黎曼猜想相连。黎曼猜想等价于：在每一阶都找到一个正的量子模型。一条斐波那契约束的链，迫使它的零点落在一条线上：这一步在 Lean 中证明。"
+  },
+  {
+   "i": 27,
+   "scene": "rh",
+   "start": 301.698,
+   "end": 310.222,
+   "en": "These chains cannot simply grow, also proved. The last step, for every order, is not proved. The document says so in every round.",
+   "zh": "这些链不能简单地生长，同样已证明。最后一步，对所有阶成立，没有被证明。文档在每一轮都这样写。"
+  },
+  {
+   "i": 28,
+   "scene": "finale",
+   "start": 312.622,
+   "end": 319.367,
+   "en": "Whether quantum probability itself can be derived from the structure of escape is left as an open problem.",
+   "zh": "量子概率本身能否由逃逸结构推出，被保留为一个开放问题。"
+  },
+  {
+   "i": 29,
+   "scene": "finale",
+   "start": 319.967,
+   "end": 327.102,
+   "en": "Nothing is erased. A record is only out of reach. And a proof checker signs exactly as far as the proofs go.",
+   "zh": "什么都没有被删除，记录只是够不着了。而证明核验机签字的范围，恰好就是证明所及之处。"
+  }
+ ],
+ "duration": 336.102
+}

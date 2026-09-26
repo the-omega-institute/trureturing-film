@@ -1,0 +1,64 @@
+{
+  "voice": "af_heart",
+  "speed": 0.94,
+  "scenes": [
+    {"id": "open", "lead": 4.0, "tail": 1.0, "lines": [
+      ["Quantum mechanics is usually told as a mystery.", "量子力学通常被讲成一个谜。"],
+      ["This project tells it as a ledger: what gets recorded, what an observer can read, and what can never be read at all. The quantum rules themselves are assumed, not derived. That is stated on the first page.", "这个项目把它讲成一本账：什么被记录下来，观察者能读出什么，又有什么永远读不出来。量子规则本身是假设，不是推导。这一点写在第一页。"]
+    ]},
+    {"id": "title", "lead": 1.2, "tail": 1.4, "lines": [
+      ["The quantum library holds two hundred ninety-four Lean files, nearly all frozen by the kernel.", "量子库里有两百九十四个 Lean 文件，几乎全部已被内核冻结。"],
+      ["Here is what a proof checker will sign about the quantum world, and where it refuses.", "这里是一台证明核验机愿意为量子世界签字的内容，以及它拒绝签字的地方。"]
+    ]},
+    {"id": "chsh", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Two players, two settings each, one shared score. Any classical hidden answer sheet scores at most two. Proved in Lean, and two is reached.", "两个玩家，各有两种设置，共享一个分数。任何经典的隐藏答案表，最多得二分。在 Lean 中证明，并且二分可以达到。"],
+      ["The Bell state scores exactly two root two, and for this game no two-qubit state does better. Also checked.", "贝尔态恰好得到二倍根号二，而在这个游戏里，没有任何两量子比特态能做得更好。同样经过核验。"],
+      ["And the gap has a cause. If either player's two settings commute, the score's square is exactly four. No incompatibility, no quantum advantage.", "而这个差距有原因。只要任一玩家的两种设置对易，分数的平方就恰好是四。没有不相容，就没有量子优势。"]
+    ]},
+    {"id": "ks", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Can every measurement have a pre-written answer? Take eighteen directions in four-dimensional space, arranged in nine contexts of four. Each direction sits in exactly two contexts.", "每一次测量都能有一个预先写好的答案吗？取四维空间中的十八个方向，排成九个四元情境。每个方向恰好属于两个情境。"],
+      ["Each context needs exactly one yes. Count the yeses two ways: nine is odd, but every direction is counted twice. No answer sheet exists. Remove any one context, and one does. Kernel-checked, for this configuration.", "每个情境恰好需要一个“是”。用两种方式数“是”：九是奇数，而每个方向都被数了两次。答案表不存在。去掉任意一个情境，它就存在。经内核核验，针对这一构型。"]
+    ]},
+    {"id": "clone", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Can you copy an unknown quantum state? If one machine copies two states, their overlap must equal its own square. So they are identical, or perfectly distinguishable. Nothing in between.", "你能复制一个未知的量子态吗？如果一台机器能复制两个态，它们的重叠就必须等于自身的平方。所以它们要么相同，要么完全可区分。没有中间地带。"],
+      ["The best universal copier gives each copy a spectrum of exactly one third and two thirds. A copy is always a blurred copy. Both proved in Lean.", "最好的通用复制机，给每个副本的谱恰好是三分之一和三分之二。副本永远是模糊的副本。两者都在 Lean 中证明。"]
+    ]},
+    {"id": "uncert", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Uncertainty, as a theorem. For any two observables and any state, the product of the spreads is at least half the size of the expected commutator.", "不确定性，作为一条定理。对任意两个可观测量与任意状态，两者离散程度的乘积，至少是其对易子期望大小的一半。"],
+      ["And the simplest case: the X and Z spins of a qubit share no common eigenvector at all. There is no state that is sharp in both. Kernel-checked.", "最简单的情形：一个量子比特的 X 自旋与 Z 自旋，没有任何共同的本征向量。不存在在两者上都确定的态。经内核核验。"]
+    ]},
+    {"id": "coin", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Now a subtle point. Know a state perfectly, measure it, and the outcome can still be a fair coin. Predicting the distribution is not predicting the single outcome.", "现在是一个微妙之处。完全知道一个态，去测量它，结果仍可以是一枚公平的硬币。能预测分布，不等于能预测单次结果。"],
+      ["And the same probabilities can hide opposite states: two states give identical odds, yet are perfectly orthogonal. The odds are a readout, not the reality.", "而相同的概率可以藏着相反的态：两个态给出完全相同的概率，却彼此完全正交。概率是读数，不是实在。"]
+    ]},
+    {"id": "records", "lead": 0.8, "tail": 1.4, "lines": [
+      ["What is a measurement? In this theory, a reversible coupling that writes a record. There is no need for a non-unitary collapse button in the basic dynamics.", "什么是测量？在这套理论里，它是一个写下记录的可逆耦合。基本演化中，不需要一个非酉的坍缩按钮。"],
+      ["The better the record distinguishes the paths, the less interference survives: distinguishability squared plus visibility squared equals one, exactly. Proved in Lean.", "记录对路径区分得越清楚，存活的干涉就越少：可区分度的平方加上可见度的平方，恰好等于一。在 Lean 中证明。"]
+    ]},
+    {"id": "decohere", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Decoherence is not deletion. Copy a qubit onto another, and locally two different states look identical. But the whole is still reversible: undo the coupling, and everything comes back. Irreversibility here is about access. Kernel-checked.", "去相干不是删除。把一个量子比特拷贝到另一个上，在局部，两个不同的态看起来一模一样。但整体仍然可逆：撤销耦合，一切都回来了。这里的不可逆，是关于能否访问。经内核核验。"],
+      ["In one model, three links each destroy the phase completely. Go around the full loop, and the coherence returns exactly.", "在一个模型里，三条链路各自都完全摧毁相位。沿整个闭环走一圈，相干性精确地回来了。"]
+    ]},
+    {"id": "secret", "lead": 0.8, "tail": 1.4, "lines": [
+      ["A secret split across three qutrits. Any single share is perfectly random, carrying nothing. Any two shares recover the whole. Both checked in Lean.", "一个秘密分在三个量子三态上。任何单独一份都完全随机，不携带任何信息。任意两份就能恢复全部。两者都在 Lean 中核验。"],
+      ["And the three-party GHZ state is entangled across every possible cut, with exactly one bit of entanglement each way.", "而三方 GHZ 态在每一种可能的切分下都是纠缠的，每个方向恰好一比特的纠缠。"]
+    ]},
+    {"id": "memory", "lead": 0.8, "tail": 1.4, "lines": [
+      ["An observer is finite. A d-dimensional memory can perfectly tell apart at most d histories. Proved in Lean.", "观察者是有限的。一个 d 维的记忆，至多能完美区分 d 段历史。在 Lean 中证明。"],
+      ["To pin down an unknown state, a single measurement needs at least d squared outcomes. Or use d plus one mutually unbiased bases, and every state is determined. Both kernel-checked.", "要确定一个未知的态，单次测量至少需要 d 的平方个结果。或者使用 d 加一组互不偏的基，每一个态就都被确定。两者都经内核核验。"]
+    ]},
+    {"id": "mub6", "lead": 0.8, "tail": 1.6, "lines": [
+      ["But in dimension six, a famous question is still open: do four mutually unbiased bases exist at all? Only three are known.", "但在六维，一个著名的问题仍然开放：四组互不偏的基究竟是否存在？目前只知道三组。"],
+      ["The project proves pieces. An order-three unitary cannot split across two complementary bases, kernel-frozen. It even refuted one of its own proof routes with an exact counterexample.", "项目证明了若干局部。一个三阶酉算子不能在两组互补的基之间分裂，已被内核冻结。它甚至用一个精确反例，推翻了自己的一条证明路线。"],
+      ["And it writes on the gate: local certificates must not be described as solving the six-dimensional problem.", "它在门上写着：局部证书不得被表述为已经解决了六维问题。"]
+    ]},
+    {"id": "rh", "lead": 0.8, "tail": 1.4, "lines": [
+      ["The boldest line connects quantum systems to the Riemann Hypothesis. The Hypothesis is equivalent to finding a positive quantum model at every order. A Fibonacci-constrained chain forces its zeros onto a line: that step is proved in Lean.", "最大胆的一条线，把量子系统与黎曼猜想相连。黎曼猜想等价于：在每一阶都找到一个正的量子模型。一条斐波那契约束的链，迫使它的零点落在一条线上：这一步在 Lean 中证明。"],
+      ["These chains cannot simply grow, also proved. The last step, for every order, is not proved. The document says so in every round.", "这些链不能简单地生长，同样已证明。最后一步，对所有阶成立，没有被证明。文档在每一轮都这样写。"]
+    ]},
+    {"id": "finale", "lead": 1.0, "tail": 9.0, "lines": [
+      ["Whether quantum probability itself can be derived from the structure of escape is left as an open problem.", "量子概率本身能否由逃逸结构推出，被保留为一个开放问题。"],
+      ["Nothing is erased. A record is only out of reach. And a proof checker signs exactly as far as the proofs go.", "什么都没有被删除，记录只是够不着了。而证明核验机签字的范围，恰好就是证明所及之处。"]
+    ]}
+  ]
+}

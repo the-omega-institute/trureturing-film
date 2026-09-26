@@ -18,6 +18,7 @@ outputs, published only as [Releases](../../releases).
 | 005 | [INDRA'S NET](films/005-indra-net/) · 因陀罗网 | 5:12 | EN (AI) / music-only | ZH + EN |
 | 006 | [MATH · MYTH · MATCH](films/006-math-myth-match/) · 真理有形而无法穷尽 | 5:55 | EN (AI) / music-only | ZH + EN |
 | 007 | [WHITE BOX](films/007-white-box/) · 白盒 | 6:09 | EN (AI) / music-only | ZH + EN |
+| 008 | [QUANTUM LEDGER](films/008-quantum/) · 量子账本 | 5:36 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 
