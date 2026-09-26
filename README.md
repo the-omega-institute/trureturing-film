@@ -20,6 +20,7 @@ outputs, published only as [Releases](../../releases).
 | 007 | [WHITE BOX](films/007-white-box/) · 白盒 | 6:09 | EN (AI) / music-only | ZH + EN |
 | 008 | [QUANTUM LEDGER](films/008-quantum/) · 量子账本 | 5:36 | EN (AI) / music-only | ZH + EN |
 | 009 | [BOUNDARY / BULK](films/009-boundary/) · 边界与体 | 5:08 | EN (AI) / music-only | ZH + EN |
+| 010 | [CRITICAL LINE](films/010-riemann/) · 临界线 | 5:07 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

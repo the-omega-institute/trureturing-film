@@ -1,0 +1,280 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 24.436
+  },
+  {
+   "id": "title",
+   "start": 24.436,
+   "end": 40.954
+  },
+  {
+   "id": "zeros",
+   "start": 40.954,
+   "end": 67.122
+  },
+  {
+   "id": "symmetry",
+   "start": 67.122,
+   "end": 89.38
+  },
+  {
+   "id": "hearts",
+   "start": 89.38,
+   "end": 111.563
+  },
+  {
+   "id": "weil",
+   "start": 111.563,
+   "end": 137.361
+  },
+  {
+   "id": "li",
+   "start": 137.361,
+   "end": 163.646
+  },
+  {
+   "id": "cayley",
+   "start": 163.646,
+   "end": 186.581
+  },
+  {
+   "id": "robin",
+   "start": 186.581,
+   "end": 211.299
+  },
+  {
+   "id": "break",
+   "start": 211.299,
+   "end": 234.412
+  },
+  {
+   "id": "golden",
+   "start": 234.412,
+   "end": 260.209
+  },
+  {
+   "id": "atlas",
+   "start": 260.209,
+   "end": 280.073
+  },
+  {
+   "id": "finale",
+   "start": 280.073,
+   "end": 306.872
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 14.58,
+   "en": "In 1859, Bernhard Riemann guessed that every nontrivial zero of the zeta function lies on a single line: real part one half.",
+   "zh": "1859 年，黎曼猜测：zeta 函数的每一个非平凡零点，都落在同一条直线上，实部为二分之一。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 15.18,
+   "end": 23.436,
+   "en": "It is still unproved. This project does not prove it either. This is what a proof machine has built around it, and exactly where it stops.",
+   "zh": "至今无人证明。这个项目也没有证明它。这里是一台证明机器围绕它建造的一切，以及它精确的止步之处。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 25.636,
+   "end": 31.149,
+   "en": "The zeta function listens to the primes. Its zeros are where all the prime waves cancel.",
+   "zh": "zeta 函数聆听素数。它的零点，是所有素数之波相互抵消的地方。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 31.749,
+   "end": 39.554,
+   "en": "Over a hundred Lean files in one folder alone, each one checked by the kernel. None of them says the hypothesis is true.",
+   "zh": "仅一个文件夹里就有一百多个 Lean 文件，每一个都经内核核验。没有一个说这个猜想为真。"
+  },
+  {
+   "i": 4,
+   "scene": "zeros",
+   "start": 41.754,
+   "end": 53.975,
+   "en": "What is proved, unconditionally. There is a complete list of every nontrivial zero, each at exactly one index. It is infinite, and the reflection s to one minus s permutes it.",
+   "zh": "无条件证明的部分。存在一张完整的清单，列出每一个非平凡零点，每个恰好出现一次。它是无限的，而反射 s 到一减 s 置换这张清单。"
+  },
+  {
+   "i": 5,
+   "scene": "zeros",
+   "start": 54.575,
+   "end": 65.722,
+   "en": "Above some height, a zero lies within a fixed distance of every height. And the Weil explicit formula, linking zeros to primes, is proved with no hypothesis at all.",
+   "zh": "超过某个高度之后，每一个高度附近固定距离内都有一个零点。而把零点与素数连在一起的 Weil 显式公式，在没有任何假设的情况下被证明。"
+  },
+  {
+   "i": 6,
+   "scene": "symmetry",
+   "start": 67.922,
+   "end": 78.717,
+   "en": "Can symmetry alone force the zeros onto the line? No. A small polynomial has every symmetry of zeta, and all four of its zeros sit off the line. Kernel-checked.",
+   "zh": "对称性能单独把零点逼到这条线上吗？不能。一个小多项式拥有 zeta 的全部对称性，而它的四个零点全都离开这条线。经内核核验。"
+  },
+  {
+   "i": 7,
+   "scene": "symmetry",
+   "start": 79.317,
+   "end": 87.98,
+   "en": "And local is not global: at minus two, every prime factor and every finite product is nonzero, yet zeta itself is zero.",
+   "zh": "局部也不等于整体：在负二处，每一个素数因子、每一个有限乘积都不为零，而 zeta 本身却等于零。"
+  },
+  {
+   "i": 8,
+   "scene": "hearts",
+   "start": 90.18,
+   "end": 99.021,
+   "en": "At the center of the project sit two open hearts. One is a golden Euler germ. The other is Weil positivity. Neither is proved.",
+   "zh": "项目的中心有两颗敞开的心脏。一颗是黄金欧拉胚芽，另一颗是 Weil 正性。两者都没有被证明。"
+  },
+  {
+   "i": 9,
+   "scene": "hearts",
+   "start": 99.621,
+   "end": 109.963,
+   "en": "The owner wrote beside them: although I think off-line zeros exist, it is fine to try to prove the hypothesis, because the process produces a great deal of truth.",
+   "zh": "主人在旁边写道：虽然我认为二分之一离线零点存在，但我们去证明黎曼猜想没问题，因为这个过程会产生大量真理。"
+  },
+  {
+   "i": 10,
+   "scene": "weil",
+   "start": 112.363,
+   "end": 122.178,
+   "en": "Weil's criterion, now kernel-checked: the hypothesis holds exactly when a certain sum over primes is nonnegative on every convolution square.",
+   "zh": "Weil 判据，如今经内核核验：猜想成立，当且仅当某个关于素数的和，在每一个卷积平方上都非负。"
+  },
+  {
+   "i": 11,
+   "scene": "weil",
+   "start": 122.778,
+   "end": 135.961,
+   "en": "And the separator: any single off-line zero produces a test function that drives the sum negative. The difficulty has been moved, not removed. This positivity is as hard as the hypothesis.",
+   "zh": "还有分离器：任何一个离线零点，都会产生一个让这个和变负的测试函数。困难被移动了，而不是被移除。这个正性与猜想本身同样困难。"
+  },
+  {
+   "i": 12,
+   "scene": "li",
+   "start": 138.161,
+   "end": 150.095,
+   "en": "The Li coefficients. The first is exactly one plus gamma over two, minus the log of two root pi, about 0.023. Its positivity is proved in Lean.",
+   "zh": "李系数。第一个恰好是一加欧拉常数的一半，减去二倍根号 pi 的对数，约为 0.023。它的正性在 Lean 中被证明。"
+  },
+  {
+   "i": 13,
+   "scene": "li",
+   "start": 150.695,
+   "end": 162.246,
+   "en": "If every Li coefficient is nonnegative, the hypothesis follows, also proved. Feed in four fake zeros just off the line, and the thirty-first Li sum turns negative.",
+   "zh": "如果每一个李系数都非负，猜想就成立，这同样已证明。放入四个略离开临界线的假零点，第三十一个李和就变成负的。"
+  },
+  {
+   "i": 14,
+   "scene": "cayley",
+   "start": 164.446,
+   "end": 174.781,
+   "en": "Change coordinates, and the critical line becomes the unit circle. The hypothesis says every zero has one minus one over rho of size exactly one.",
+   "zh": "换一个坐标，临界线就变成单位圆。猜想说：每一个零点的一减一除以 rho，大小恰好为一。"
+  },
+  {
+   "i": 15,
+   "scene": "cayley",
+   "start": 175.381,
+   "end": 185.181,
+   "en": "Split it in two halves. The even half, closure under reflection, already holds. What remains is purely relative: that all zeros share one real part.",
+   "zh": "把它拆成两半。偶数的一半，即在反射下封闭，已经成立。剩下的纯粹是相对的：所有零点共享同一个实部。"
+  },
+  {
+   "i": 16,
+   "scene": "robin",
+   "start": 187.381,
+   "end": 196.273,
+   "en": "Robin's classical criterion: the hypothesis holds exactly when no number beyond 5040 is too rich in divisors.",
+   "zh": "Robin 的经典判据：猜想成立，当且仅当 5040 之后没有任何数的因子过于丰富。"
+  },
+  {
+   "i": 17,
+   "scene": "robin",
+   "start": 196.873,
+   "end": 209.899,
+   "en": "In Lean: every number built only from 2, 3, 5 and 7 beyond 5040 passes the test. But the margin creeps arbitrarily close to zero. There is no safety margin, ever.",
+   "zh": "在 Lean 中：5040 之后，每一个只由 2、3、5、7 构成的数都通过了检验。但余量会任意地逼近零。永远没有安全余量。"
+  },
+  {
+   "i": 18,
+   "scene": "break",
+   "start": 212.099,
+   "end": 220.697,
+   "en": "Suppose it failed. Then there is a first height where an off-line zero appears, proved in Lean. At that height, a mirror twin appears too.",
+   "zh": "假设它失败了。那么就存在一个出现离线零点的第一高度，在 Lean 中证明。在那个高度上，一个镜像双胞胎也同时出现。"
+  },
+  {
+   "i": 19,
+   "scene": "break",
+   "start": 221.297,
+   "end": 233.012,
+   "en": "The Mahler measure jumps from zero to positive, kernel-checked. Yet the first-order ledger cancels exactly. The break would be a sudden phase transition, invisible to a first glance.",
+   "zh": "马勒测度从零跳到正值，经内核核验。然而一阶账本恰好相消。这次破裂会是一次突然的相变，第一眼看不见。"
+  },
+  {
+   "i": 20,
+   "scene": "golden",
+   "start": 235.212,
+   "end": 243.9,
+   "en": "The golden route. Rescaling by the golden ratio squared sends a structural line onto the critical line. The factorization is proved.",
+   "zh": "黄金路线。用黄金比的平方重新缩放，把一条结构线送到临界线上。这个分解已被证明。"
+  },
+  {
+   "i": 21,
+   "scene": "golden",
+   "start": 244.5,
+   "end": 258.809,
+   "en": "But the machine found a certified off-line zero of the local factor at the prime two, within ten to the minus eight. The naive golden equivalence is false as designed, and a beautiful bridge conjecture was refuted by the kernel.",
+   "zh": "但机器在素数二的局部因子上，找到了一个经认证的离线零点，精度在十的负八次方之内。朴素的黄金等价，按原设计是假的；一个美丽的桥梁猜想，被内核推翻。"
+  },
+  {
+   "i": 22,
+   "scene": "atlas",
+   "start": 261.009,
+   "end": 271.856,
+   "en": "Dozens of equivalent pictures: Herglotz functions, scattering poles on one quarter, a squared shadow on the negative axis, a positive quantum chain at every order.",
+   "zh": "几十幅等价的图景：Herglotz 函数，落在四分之一线上的散射极点，负实轴上的平方投影，每一阶都为正的量子链。"
+  },
+  {
+   "i": 23,
+   "scene": "atlas",
+   "start": 272.456,
+   "end": 278.673,
+   "en": "Along the way, published conjectures were refuted and kernel-frozen. Truth accumulates either way.",
+   "zh": "一路上，已发表的猜想被推翻并由内核冻结。无论哪个方向，真理都在积累。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 281.073,
+   "end": 289.156,
+   "en": "Every road ends at the same missing bridge: from the primes to positivity. The channel is known. The positivity is not.",
+   "zh": "每一条路都止于同一座缺失的桥：从素数到正性。通道已知，正性未知。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 289.756,
+   "end": 297.872,
+   "en": "The two hearts are two faces of one wall. The door is still marked open, and the machine will record the truth, whichever way it falls.",
+   "zh": "两颗心脏本是一堵墙的两面。门上仍标着 open，而无论真相落向哪一边，机器都会把它记下来。"
+  }
+ ],
+ "duration": 306.872
+}
