@@ -1,0 +1,72 @@
+name: release-film
+# Build a film from source and publish the rendered videos as a GitHub Release.
+# Trigger: push a tag `film-<NNN>-<version>` (e.g. film-001-v1), or run manually.
+on:
+  push:
+    tags: ['film-*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag, film-<NNN>-<version>'
+        required: true
+        default: 'film-001-v1'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve film directory
+        id: film
+        run: |
+          TAG="${{ github.event.inputs.tag || github.ref_name }}"
+          NUM=$(echo "$TAG" | sed -E 's/^film-([0-9]{3})-.*/\1/')
+          DIR=$(ls -d films/${NUM}-*/ | head -n 1)
+          test -f "$DIR/film.json"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "dir=${DIR%/}" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: Install Playwright + Chromium
+        working-directory: ${{ steps.film.outputs.dir }}
+        run: |
+          npm init -y >/dev/null
+          npm install playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Fetch fonts, TTS model, Python deps
+        working-directory: ${{ steps.film.outputs.dir }}
+        run: ./setup.sh
+      - name: Narration, score, mixes
+        working-directory: ${{ steps.film.outputs.dir }}
+        run: |
+          python3 tts.py
+          python3 music.py
+          python3 mix.py
+      - name: Render frames
+        working-directory: ${{ steps.film.outputs.dir }}
+        run: ./render_all.sh
+      - name: Encode
+        working-directory: ${{ steps.film.outputs.dir }}
+        run: |
+          ./mux.sh
+          ./small.sh
+      - name: Publish release
+        working-directory: ${{ steps.film.outputs.dir }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE=$(python3 -c "import json;print(json.load(open('film.json'))['title'])")
+          {
+            echo "Rendered from \`${{ steps.film.outputs.dir }}\` at ${GITHUB_SHA}."
+            echo
+            echo "- \`*_narrated_*\`: English AI narration + score, burned-in Chinese/English subtitles"
+            echo "- \`*_music_only_*\`: score only, same picture and subtitles"
+            echo "- 1080p masters (x264 CRF 17) and 720p compact copies (~28 MB)"
+          } > notes.md
+          gh release create "${{ steps.film.outputs.tag }}" --target "$GITHUB_SHA" --title "$TITLE" --notes-file notes.md \
+            TRURETURING_narrated_EN_subs_ZH-EN.mp4 TRURETURING_music_only_subs_ZH-EN.mp4 \
+            TRURETURING_720p_narrated.mp4 TRURETURING_720p_music_only.mp4 cover.jpg

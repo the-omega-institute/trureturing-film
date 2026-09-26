@@ -11,8 +11,10 @@ an irreversible DAG of frozen results, and the open frontier.
 
 ## Outputs · 产物
 
-Rendered films are **not** stored in this repository; build them from source (see *Rebuild*).
-成片不入库，按下方步骤从源码生成。
+Rendered films are **not** stored in this repository. They are published as GitHub
+[Releases](../../../../releases) by `.github/workflows/release-film.yml` (tag `film-001-<version>`),
+or built locally (see *Rebuild*).
+成片不入库：推送标签 `film-001-<版本>` 后由 CI 从源码构建并发布到 Releases，也可本地复现。
 
 | Command | Output |
 | --- | --- |

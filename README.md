@@ -3,9 +3,9 @@
 Source code for films about [trureturing](https://github.com/the-omega-institute/trureturing).
 Every film is generated entirely by code — procedural Canvas animation, local TTS narration,
 synthesized score — so this repository holds **source only**. Rendered videos are build
-outputs and are never committed.
+outputs, published only as [Releases](../../releases).
 
-关于 [trureturing](https://github.com/the-omega-institute/trureturing) 的影片源码。每部影片完全由代码生成（程序化动画、本地 TTS 旁白、合成配乐），本仓库**只存源码**，成片是构建产物，不入库。
+关于 [trureturing](https://github.com/the-omega-institute/trureturing) 的影片源码。每部影片完全由代码生成（程序化动画、本地 TTS 旁白、合成配乐），本仓库**只存源码**，成片由 CI 构建后发布到 Releases，不入库。
 
 ## Films · 影片
 
@@ -35,6 +35,8 @@ README's *Rebuild* steps). Dependencies such as fonts and TTS models are fetched
    `film.json` (`subject_commit`); state the scope of every claim in the README.
 3. Add a row to the table above.
 4. Commit source only — `.gitignore` excludes videos, images, audio and caches.
+5. Publish: push a tag `film-<NNN>-<version>`; `release-film.yml` builds the film on CI
+   and attaches the videos to a GitHub Release.
 
 ## License
 
