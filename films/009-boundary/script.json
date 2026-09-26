@@ -1,0 +1,62 @@
+{
+  "voice": "af_heart",
+  "speed": 0.94,
+  "scenes": [
+    {"id": "open", "lead": 4.0, "tail": 1.0, "lines": [
+      ["Holography. The famous idea that everything inside a region is written on its boundary.", "全息。一个著名的想法：一个区域内部的一切，都写在它的边界上。"],
+      ["This project strips that idea down to what can actually be proved, and keeps an exact list of what it does not claim.", "这个项目把这个想法剥到真正可以证明的部分，并精确地列出它不主张的一切。"]
+    ]},
+    {"id": "title", "lead": 1.2, "tail": 1.4, "lines": [
+      ["Here, a boundary is not a surface in space. It is a summary of the inside that is sufficient for every declared future experiment.", "在这里，边界不是空间里的一个曲面。它是内部的一个摘要，对每一个声明过的未来实验都充分。"],
+      ["The boundary keeps the interior's effect on what can happen next, not every microscopic detail.", "边界保存的，是内部对接下来可能发生之事的作用，而不是内部每一个微观细节。"]
+    ]},
+    {"id": "minimal", "lead": 0.8, "tail": 1.4, "lines": [
+      ["What is the smallest boundary that still works? Merge two interior states exactly when no allowed future experiment can tell them apart.", "仍然有效的最小边界是什么？当且仅当没有任何允许的未来实验能区分两个内部状态时，把它们合并。"],
+      ["Every other exact boundary maps onto that one, uniquely. Proved in Lean.", "其他每一个精确边界，都唯一地映射到它上面。在 Lean 中证明。"]
+    ]},
+    {"id": "totals", "lead": 0.8, "tail": 1.4, "lines": [
+      ["A single number is not a boundary. Two histories both have eight realizations: three and five, or four and four. Attach a block that only allows the first channel, and you get three versus four.", "一个数字不是边界。两段历史都有八种实现：三加五，或四加四。接上一个只允许第一条通道的模块，得到的是三对四。"],
+      ["Phase is part of the boundary too. Two paths with equal probabilities can add up to four, or cancel to zero.", "相位也是边界的一部分。两条概率相同的路径，可以相加得到四，也可以相消为零。"]
+    ]},
+    {"id": "build", "lead": 0.8, "tail": 1.4, "lines": [
+      ["But a boundary does not reveal how the inside is built. Doing nothing, and doing something then undoing it, look identical from outside. Only a peek in the middle can tell.", "但边界不会揭示内部是如何搭建的。什么都不做，与做了一件事再撤销它，从外面看完全一样。只有在中途偷看一眼，才能分辨。"],
+      ["Gluing two regions multiplies their boundary responses, but only if every correlation between them passes through the shared boundary. A hidden shared seed breaks it.", "把两个区域粘起来，就是把它们的边界响应相乘，但前提是它们之间的每一个关联都经过共享的边界。一个隐藏的共同种子，就能让它失效。"]
+    ]},
+    {"id": "code", "lead": 0.8, "tail": 1.4, "lines": [
+      ["The toy model of holographic error correction: one qutrit hidden in three shares. Any single share is exactly one third of the identity, pure noise. Any two shares rebuild the whole. Proved in Lean.", "全息纠错的玩具模型：一个量子三态藏在三份之中。任何单独一份都恰好是三分之一的单位矩阵，纯粹的噪声。任意两份就能重建全部。在 Lean 中证明。"],
+      ["Collect the shares one by one: the entropy rises, then falls, while the recoverable information jumps from zero to everything at the second share.", "一份一份地收集：熵先升后降，而可恢复的信息，在第二份时从零跃升到全部。"]
+    ]},
+    {"id": "tree", "lead": 0.8, "tail": 1.4, "lines": [
+      ["There is a place where boundary and bulk are literal. The p-adic integers are exactly the boundary of an infinite tree. Depth in the tree plays the role of scale.", "有一个地方，边界与体是字面意义上的。p 进整数恰好就是一棵无限树的边界。树的深度，扮演尺度的角色。"],
+      ["How deep two boundary points share a path equals how many digits they share. In Lean: distance is the p-adic valuation. The gravity version is not claimed.", "两个边界点共享路径的深度，等于它们共享的数位个数。在 Lean 中：距离就是 p 进赋值。引力的版本，不被认领。"]
+    ]},
+    {"id": "holonomy", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Local consistency is not global. Three patches, every edge legal, but the product around the loop is minus one.", "局部一致，不等于全局一致。三块补丁，每一条边都合法，但沿闭环一圈的乘积是负一。"],
+      ["So there is no global frame. That failure lives on the loop, and no edge-by-edge check can find it. Kernel-checked.", "所以不存在全局标架。这个失败住在闭环上，任何逐边检查都找不到它。经内核核验。"]
+    ]},
+    {"id": "limit", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Every finite layer can agree with the next, and still no whole exists behind them. Take vectors of one, one, one, then zeros. Each is the projection of the next.", "每一个有限层都可以与下一层一致，而它们背后仍然没有整体。取一，一，一，然后是零的向量。每一个都是下一个的投影。"],
+      ["Their lengths grow like the square root of n. No vector realizes the family. A consistent boundary does not guarantee an interior. Proved in Lean.", "它们的长度像根号 n 一样增长。没有任何向量实现这一族。一致的边界，不保证存在内部。在 Lean 中证明。"]
+    ]},
+    {"id": "cone", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Where does geometry come from? In Lean: any quadratic form that vanishes on the whole light cone is a multiple of the Minkowski form. The light cone fixes the metric, up to scale.", "几何从哪里来？在 Lean 中：任何在整个光锥上为零的二次型，都是闵可夫斯基形式的倍数。光锥确定了度规，直到一个尺度。"],
+      ["In theory, an observer's own clock rates can determine a Lorentzian metric. In four dimensions, ten readings. But the quantum Fisher metric can never be Lorentzian.", "在理论中，观察者自己的钟速可以确定一个洛伦兹度规。在四维，十个读数。但量子费舍尔度规永远不可能是洛伦兹的。"]
+    ]},
+    {"id": "horizon", "lead": 0.8, "tail": 1.4, "lines": [
+      ["A black hole, read as a boundary. The rate of a hovering clock and whether light can escape outward are the same number.", "把黑洞当作边界来读。悬停时钟的走速，与光能否向外逃逸，是同一个数。"],
+      ["Time does not stop at the horizon. What stops is the possibility of hovering: the acceleration required grows without bound. This is standard relativity, reorganized, not a new discovery.", "时间不会在视界上停止。停止的，是悬停的可能：所需的加速度无界增长。这是标准的相对论，被重新组织，不是新发现。"]
+    ]},
+    {"id": "radiation", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Hot radiation is not information coming out. Every piece can look perfectly thermal, while the pieces together carry everything.", "炽热的辐射，不等于信息的流出。每一片都可以看起来完全是热的，而所有片合在一起却携带了一切。"],
+      ["What is recoverable is a conditional mutual information, not the radiation's entropy. And in Lean: a finite energy store cannot radiate at constant power forever.", "可恢复的，是一个条件互信息，而不是辐射的熵。而在 Lean 中：有限的能量储存，不能永远以恒定功率辐射。"]
+    ]},
+    {"id": "time", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Time order at the boundary has a price. Forcing a static description into a causal one can cost strictly more than its defect. For one explicit family, the sharp ratio is exactly nine eighths.", "边界上的时间次序有代价。把一个静态描述强行变成因果描述，代价可以严格大于它的缺陷。对一个明确的族，精确的比率恰好是八分之九。"],
+      ["And what is not shown still exists: an archived event hidden from the current view can still change which futures are allowed. Kernel-checked.", "而没有显示的，仍然存在：一个从当前视图中隐藏的归档事件，仍然能改变哪些未来是允许的。经内核核验。"]
+    ]},
+    {"id": "finale", "lead": 1.0, "tail": 9.0, "lines": [
+      ["Space, time, boundary and memory are different projections of one relational process. Gravity, real entanglement entropy and strings are not claimed.", "空间、时间、边界与记忆，是同一个关系过程的不同投影。引力、真实的纠缠熵与弦，不被认领。"],
+      ["Coordinates are not more information about a point. They are information about how to read it.", "坐标不是关于一个点的更多信息。它们是关于如何读它的信息。"]
+    ]}
+  ]
+}
