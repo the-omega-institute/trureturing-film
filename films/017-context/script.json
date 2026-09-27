@@ -1,0 +1,66 @@
+{
+  "voice": "af_heart",
+  "speed": 0.94,
+  "scenes": [
+    {"id": "open", "lead": 4.0, "tail": 1.0, "lines": [
+      ["When are two situations the same? Not when they look the same now. When no experiment you are allowed to run can ever tell them apart.", "两个情形什么时候算相同？不是此刻看起来相同，而是任何你被允许做的实验，永远都分不开它们。"],
+      ["And how far apart are they? Take the biggest difference any allowed experiment can reveal, divided by how much that experiment amplifies. That is the context distance.", "那它们相距多远？取任何允许的实验所能揭示的最大差别，再除以这个实验的放大倍数。这就是上下文距离。"]
+    ]},
+    {"id": "title", "lead": 1.2, "tail": 1.4, "lines": [
+      ["Context geometry. Gluing in space, continuing in time, and updating memory are all operations with inputs and outputs.", "上下文几何。空间里的拼接，时间上的接续，记忆的更新，都是有输入有输出的操作。"],
+      ["One geometry measures them all, as long as you first fix which contexts are really allowed to run.", "只要先固定哪些上下文真的允许执行，一种几何就能度量它们全部。"]
+    ]},
+    {"id": "failure", "lead": 0.8, "tail": 1.4, "lines": [
+      ["First rule: a failure is an outcome. Suppose an experiment reads zero on a, one on c, and simply fails on b.", "第一条规则：失败也是一种结果。假设一个实验在 a 上读出零，在 c 上读出一，而在 b 上直接失败。"],
+      ["Compare only the experiments that succeed on both, and a is at distance zero from b, b at zero from c, yet a and c are one apart. The triangle inequality breaks. Keep failure as a result, and it heals.", "只比较两边都成功的实验，a 与 b 距离为零，b 与 c 距离为零，a 与 c 却相距一。三角不等式破裂了。把失败保留为结果，它就愈合了。"]
+    ]},
+    {"id": "fixedpoint", "lead": 0.8, "tail": 1.4, "lines": [
+      ["The distance builds itself. Depth zero sees only what you can read now. Each extra step asks what can be read after one more allowed move, divided by that move's gain.", "这个距离会自己生长。深度零只看此刻能读到的。每多一步，就问再走一步允许的操作之后还能读到什么，再除以这一步的增益。"],
+      ["The full distance is the least fixed point of that rule. And you cannot buy finiteness: demand that doing nothing shrinks distance, and two readable states end up infinitely far apart.", "完整的距离，是这条规则的最小不动点。而有限性是买不来的：如果要求什么都不做也要缩小距离，两个可以区分的状态就会相距无穷远。"]
+    ]},
+    {"id": "nextstep", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Two bit pairs, zero zero and zero one. You read only the first bit, so they look identical. Then the update copies the second bit forward.", "两对比特，零零和零一。你只读第一位，所以它们看起来一模一样。然后更新把第二位挪到前面。"],
+      ["One step later, they are one apart. That is why local errors must be charged against the full context distance: each defect is multiplied by every gain above it, and all the charges add up.", "一步之后，它们相距一。这就是为什么局部误差必须按完整的上下文距离来计：每个缺陷都要乘上它上方每一级的增益，所有的代价加在一起。"]
+    ]},
+    {"id": "xor", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Two worlds. In one, a fair coin is copied into both slots. In the other, the second slot gets the opposite side. Each slot alone is a fair coin in both worlds.", "两个世界。一个世界里，一枚公平硬币被复制到两个槽里。另一个世界里，第二个槽得到反面。在两个世界里，每个槽单独看都是公平硬币。"],
+      ["Now combine them with exclusive-or. The outputs are always zero and always one: distance one, from identical marginals. And re-drawing a shared coin instead of reusing it changes the answer too.", "现在用异或把它们合起来。输出一个恒为零，一个恒为一：边缘完全相同，距离却是一。而把共享的硬币重新抽一次、而不是复用它，同样会改变答案。"]
+    ]},
+    {"id": "golden", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Forbid a run of k ones in a binary history. What is left is a fractal. Its dimension is log lambda k over log two, where lambda k is fixed by one equation.", "在二进制历史里禁止连续出现 k 个一。剩下的是一个分形。它的维数是 log lambda k 除以 log 二，而 lambda k 由一个方程确定。"],
+      ["For k equal to two, lambda is the golden ratio and the dimension is about zero point six nine four. As k grows, it climbs toward one.", "当 k 等于二时，lambda 就是黄金比例，维数约为零点六九四。随着 k 增大，它逐渐逼近一。"]
+    ]},
+    {"id": "bell", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Two entangled pairs with a plus or a minus sign. On each side, the local state is identical: a perfectly mixed qubit.", "两对纠缠态，符号分别是正和负。在每一侧，局部状态都完全相同：一个完全混合的量子比特。"],
+      ["Undo the coupling first and you can tell them apart perfectly. Measure first and the difference is gone forever. What you can recover depends on the order of access, not only on what is there.", "先解开耦合，就能完美地区分它们。先测量，差别就永远消失。能恢复什么，取决于访问的顺序，而不只取决于那里有什么。"]
+    ]},
+    {"id": "order", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Two operations on one bit: A flips it, B resets it to zero. Doing A then B, or B then A, costs the same two units.", "一个比特上的两个操作：A 把它翻转，B 把它清零。先 A 后 B，或者先 B 后 A，代价都是两个单位。"],
+      ["The results differ: zero, or one. A clock that only counts cost cannot tell the order. An endpoint clock exists exactly when every square of costs commutes.", "结果却不同：一个是零，一个是一。一只只计代价的钟分不出顺序。终点时钟存在，当且仅当每一个代价方块都可交换。"]
+    ]},
+    {"id": "odometer", "lead": 0.8, "tail": 1.4, "lines": [
+      ["A p-adic odometer adds one each tick. You may watch only a single digit. Waiting alone never reveals the digits below it, until a carry arrives.", "一个 p 进里程表，每一拍加一。你只能看其中一位。单纯等待，永远看不见它下面的数位，直到进位到来。"],
+      ["The moment that digit first changes tells you the hidden remainder exactly: it is P minus the waiting time. P readings suffice, and fewer never do.", "那一位第一次变化的时刻，精确地告诉你隐藏的余数：它等于 P 减去等待的时间。P 个读数就够了，更少永远不够。"]
+    ]},
+    {"id": "triangle", "lead": 0.8, "tail": 1.4, "lines": [
+      ["A recursive rule builds a whole triangle of numbers from one boundary column, with integer arithmetic and no division. Start with one, two, six, twenty-four, and the top row comes out all ones.", "一条递归规则，从一列边界数，建出整个数字三角形，只用整数运算，从不除法。从一、二、六、二十四开始，顶行出来全是一。"],
+      ["Set every boundary value to minus one, and each row runs minus one, two, five, thirteen, thirty-four: every other Fibonacci number. That column is the worst case for how large the triangle can grow.", "把每个边界值都设成负一，每一行就依次是负一、二、五、十三、三十四：隔一个取一个的斐波那契数。这一列，正是三角形能长多大的最坏情形。"]
+    ]},
+    {"id": "sparse", "lead": 0.8, "tail": 1.4, "lines": [
+      ["How much of the boundary do you need to stay as close as possible to that worst case? With the volume's weight four fifths, a contiguous prefix needs eight entries.", "要尽可能贴近这个最坏情形，需要多少边界数？在这卷所用的权重五分之四下，一段连续的前缀需要八个数。"],
+      ["But five scattered entries, at positions zero, one, two, three and eleven, already reach the same minimum distance, and no four can. How many you read and how far you read are different resources.", "但五个分散的位置，零、一、二、三和十一，就已经达到同样的最小距离，而任何四个都做不到。读多少个，和读多远，是两种不同的资源。"]
+    ]},
+    {"id": "dial", "lead": 0.8, "tail": 1.4, "lines": [
+      ["An unknown number sits on a twenty-five position dial. You can only wait, which turns the dial by one, or read its top digit. A fixed machine must name the original number, and every state it uses costs one.", "一个未知数放在一个二十五格的表盘上。你只能等待，让表盘转一格，或者读它的最高位。一台固定的机器必须说出原来的数，而它用的每一个状态都要花一个单位。"],
+      ["Four adaptive reads are optimal, and the smallest such machine has exactly fifty-one states. Follow thirteen: read two, wait two, read three, wait two, read three, wait two, read three, and halt on thirteen.", "四次自适应读取是最优的，而这样最小的机器恰好有五十一个状态。跟着十三走：读出二，等二，读出三，等二，读出三，等二，读出三，停在十三。"]
+    ]},
+    {"id": "nine", "lead": 0.8, "tail": 1.4, "lines": [
+      ["On a twenty-seven position dial with ternary digits, five reads are optimal, and the answer is squeezed between ninety-six and one hundred five states.", "在一个二十七格、三进制数位的表盘上，五次读取是最优的，而答案被夹在九十六和一百零五个状态之间。"],
+      ["One hundred five is proved optimal for every machine with at most one collision of waiting chains. Whether two or more collisions can go lower is still open.", "对所有等待链至多碰撞一次的机器，一百零五已被证明是最优的。两次或更多碰撞能不能更低，仍然是开放的。"]
+    ]},
+    {"id": "finale", "lead": 1.0, "tail": 9.0, "lines": [
+      ["Space, time and memory, measured by one rule: what can an allowed context still tell apart, and at what gain?", "空间、时间和记忆，由同一条规则度量：一个允许的上下文还能分开什么，以什么增益？"],
+      ["Sameness is not a fact about things. It is a fact about the experiments you are allowed to run.", "相同，不是关于事物的事实。它是关于你被允许做哪些实验的事实。"]
+    ]}
+  ]
+}
