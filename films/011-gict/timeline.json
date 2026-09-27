@@ -1,0 +1,280 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 21.88
+  },
+  {
+   "id": "title",
+   "start": 21.88,
+   "end": 40.295
+  },
+  {
+   "id": "axes",
+   "start": 40.295,
+   "end": 64.764
+  },
+  {
+   "id": "even",
+   "start": 64.764,
+   "end": 83.69
+  },
+  {
+   "id": "five",
+   "start": 83.69,
+   "end": 108.766
+  },
+  {
+   "id": "word",
+   "start": 108.766,
+   "end": 135.749
+  },
+  {
+   "id": "frame",
+   "start": 135.749,
+   "end": 161.045
+  },
+  {
+   "id": "fates",
+   "start": 161.045,
+   "end": 184.602
+  },
+  {
+   "id": "constants",
+   "start": 184.602,
+   "end": 210.502
+  },
+  {
+   "id": "costume",
+   "start": 210.502,
+   "end": 235.469
+  },
+  {
+   "id": "assassin",
+   "start": 235.469,
+   "end": 263.807
+  },
+  {
+   "id": "kernel",
+   "start": 263.807,
+   "end": 291.017
+  },
+  {
+   "id": "finale",
+   "start": 291.017,
+   "end": 319.014
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 11.028,
+   "en": "Start with one equation. x squared equals x plus one. Its positive root is the golden ratio, phi.",
+   "zh": "从一个方程开始：x 的平方等于 x 加一。它的正根，就是黄金比 phi。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 11.628,
+   "end": 20.88,
+   "en": "This project grew a whole theory from it, and promised one thing: to walk six domains of mathematics, and mark honestly the two points it cannot reach.",
+   "zh": "这个项目从它长出了一整套理论，并承诺了一件事：走遍数学的六个疆域，并诚实标出它到不了的两个点。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 23.08,
+   "end": 31.322,
+   "en": "Its central claim is about coordinates. A good coordinate system is the frame that stays fixed when the structure acts on itself.",
+   "zh": "它的核心主张关于坐标。好的坐标系，是结构作用于自身时保持不动的那个标架。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 31.922,
+   "end": 38.895,
+   "en": "Golden Invariant Coordinate Theory. Not a claim that the universe runs on phi. A claim about how to read.",
+   "zh": "黄金不动坐标理论。它不主张宇宙以 phi 运行。它主张的是：如何读。"
+  },
+  {
+   "i": 4,
+   "scene": "axes",
+   "start": 41.095,
+   "end": 53.832,
+   "en": "Every number gets three readings. Scale: which power of phi it sits between. Digits: its unique Zeckendorf sum of Fibonacci numbers. Phase: where n times phi lands on a circle.",
+   "zh": "每个数得到三种读法。尺度：它落在 phi 的哪两个幂之间。数位：它唯一的 Zeckendorf 斐波那契和。相位：n 乘 phi 落在圆上的哪里。"
+  },
+  {
+   "i": 5,
+   "scene": "axes",
+   "start": 54.432,
+   "end": 63.364,
+   "en": "Drop thirteen points at steps of phi around a circle. They cut it into gaps of exactly two lengths. Root two, e and pi each leave three.",
+   "zh": "以 phi 为步长，在圆上放十三个点。它们把圆切成恰好两种长度的间隙。根号二、e 和 pi，都留下三种。"
+  },
+  {
+   "i": 6,
+   "scene": "even",
+   "start": 65.564,
+   "end": 72.207,
+   "en": "Why phi? Because it is the number hardest to approximate by fractions. Its continued fraction is all ones.",
+   "zh": "为什么是 phi？因为它是最难被分数逼近的数。它的连分数全是一。"
+  },
+  {
+   "i": 7,
+   "scene": "even",
+   "start": 72.807,
+   "end": 82.29,
+   "en": "So its points never clump. The theory says it in one line: the most continuous number and the most discrete ruler are two faces of the same extreme.",
+   "zh": "所以它的点永远不会结块。理论用一句话说：最连续的数与最离散的尺，是同一个极值的两面。"
+  },
+  {
+   "i": 8,
+   "scene": "five",
+   "start": 84.49,
+   "end": 95.779,
+   "en": "Its arithmetic has a surname: five. A prime stays prime in the golden integers exactly when it leaves remainder two or three after division by five. Proved in Lean.",
+   "zh": "它的算术有一个姓氏：五。一个素数在黄金整数里仍然是素数，当且仅当它除以五余二或余三。在 Lean 中证明。"
+  },
+  {
+   "i": 9,
+   "scene": "five",
+   "start": 96.379,
+   "end": 107.366,
+   "en": "And five is the smallest discriminant of any real quadratic field. The theory's verdict: five is the eldest son, not the father; phi is the champion, not the king.",
+   "zh": "而五是最小的判别式。理论的判词：五是长子，不是父亲；phi 是冠军，不是国王。"
+  },
+  {
+   "i": 10,
+   "scene": "word",
+   "start": 109.566,
+   "end": 122.329,
+   "en": "Slice a two-dimensional lattice with a line of slope phi, and read off a word of zeros and ones. Read in one dimension, it looks disordered. It contains cubes, but never a fourth power, kernel-checked.",
+   "zh": "用一条斜率为 phi 的直线切二维格点，读出一串零和一。在一维里读，它看起来是无序的。它含有三次方，却永远没有四次方，经内核核验。"
+  },
+  {
+   "i": 11,
+   "scene": "word",
+   "start": 122.929,
+   "end": 134.349,
+   "en": "Add one hidden coordinate, and every letter becomes a simple window test. The theory calls this decompression: dimension is a format for unpacking non-local information.",
+   "zh": "加上一个隐藏的坐标，每一个字母都变成一个简单的窗口检验。理论称之为解压：维度，是非局域信息的解压格式。"
+  },
+  {
+   "i": 12,
+   "scene": "frame",
+   "start": 136.549,
+   "end": 146.05,
+   "en": "Now the fixed frame. The rule that grows this word is a two by two matrix. Its eigen-directions have factors phi and minus one over phi.",
+   "zh": "现在是不动标架。生成这个词的规则，是一个二乘二矩阵。它的本征方向，因子分别是 phi 和负的 phi 分之一。"
+  },
+  {
+   "i": 13,
+   "scene": "frame",
+   "start": 146.65,
+   "end": 159.645,
+   "en": "One axis stretches, one axis flips sign. These two directions do not move when the rule acts. That is theorem seven point three: a good coordinate system is a fixed frame under transformation.",
+   "zh": "一条轴伸缩，一条轴翻号。规则作用时，这两个方向不动。这就是定理七点三：好的坐标系，是变换下的不动标架。"
+  },
+  {
+   "i": 14,
+   "scene": "fates",
+   "start": 161.845,
+   "end": 170.336,
+   "en": "Why this equation? Take every rule that feeds x back into itself, with coefficients zero or one. There are exactly four fates.",
+   "zh": "为什么是这个方程？取所有把 x 喂回自身、系数为零或一的规则。命运恰好只有四种。"
+  },
+  {
+   "i": 15,
+   "scene": "fates",
+   "start": 170.936,
+   "end": 183.202,
+   "en": "Empty. Dead, with no solution. Collapsed, returning after two steps. Or alive, never reaching the bottom. Only the phi family is alive. It was not chosen. It was what remained.",
+   "zh": "空：什么都没发生。死：无解。塌：两步回到原地。或者活：代入自身，永不见底。只有 phi 家族是活的。它不是被挑中的，而是被剩下的。"
+  },
+  {
+   "i": 16,
+   "scene": "constants",
+   "start": 185.402,
+   "end": 198.002,
+   "en": "The theory measures its own constants, to eight digits or in closed form. One constant was read by five instruments at once, and matched fifty-seven minus twenty-five root five, over twenty-four.",
+   "zh": "理论测量它自己的常数，精确到八位，或给出闭式。有一个常数由五台仪器同时读出，吻合二十四分之，五十七减二十五倍根号五。"
+  },
+  {
+   "i": 17,
+   "scene": "constants",
+   "start": 198.602,
+   "end": 209.102,
+   "en": "A cotangent sum almost equals minus one fifth, missing by three millionths. The volume logs that near miss as a trap, and gives the exact value instead.",
+   "zh": "一个余切和几乎等于负五分之一，只差百万分之三。卷中把这个险些吻合登记为陷阱，并给出精确值。"
+  },
+  {
+   "i": 18,
+   "scene": "costume",
+   "start": 211.302,
+   "end": 222.87,
+   "en": "Here is the anti-numerology wall. The fine-structure constant can be written in powers of phi to eleven digits. So can a random number. So can it in powers of root two.",
+   "zh": "这是防命理之墙。精细结构常数可以用 phi 的幂写到十一位。一个随机数也可以。用根号二的幂也可以。"
+  },
+  {
+   "i": 19,
+   "scene": "costume",
+   "start": 223.47,
+   "end": 234.069,
+   "en": "The alphabet can dress any number. The costume is not evidence. The theory does not claim the universe runs on phi. In physics, phi is selected, not written in.",
+   "zh": "字母表能给任何数穿衣，衣服不是证据。理论不主张宇宙以 phi 运行。在物理中，phi 是被选出的，不是被写入的。"
+  },
+  {
+   "i": 20,
+   "scene": "assassin",
+   "start": 236.269,
+   "end": 248.255,
+   "en": "It also kills its own conjectures. Nearly ten thousand cases supported one; then a single counterexample appeared at level four hundred sixty-eight, just outside the old search box.",
+   "zh": "它也处决自己的猜想。近一万个案例支持过一个猜想；然后，一个反例出现在第四百六十八级，恰好在旧搜索框之外。"
+  },
+  {
+   "i": 21,
+   "scene": "assassin",
+   "start": 248.855,
+   "end": 262.407,
+   "en": "The verdict: ten thousand cases with zero counterexamples was sampling bias. The lemmas survived; the universal claim died. And a golden fix for transformers gave a gain of exactly one: nothing.",
+   "zh": "判词：近万例零反例，是采样偏倚。引理存活，全称命题死亡。而一个用于 transformer 的黄金修补，增益恰好是一倍：什么都没有。"
+  },
+  {
+   "i": 22,
+   "scene": "kernel",
+   "start": 264.607,
+   "end": 275.088,
+   "en": "Some results went all the way to the kernel. Pick any fourteen speeds from one to twenty: there is a moment when every runner is at least one fifteenth of a lap from the start.",
+   "zh": "有些结果一路走到了内核。从一到二十里任选十四个速度：总有一个时刻，每个跑者离起点都至少十五分之一圈。"
+  },
+  {
+   "i": 23,
+   "scene": "kernel",
+   "start": 275.688,
+   "end": 289.617,
+   "en": "Every denominator up to one thousand twenty-four has a fraction with continued-fraction digits at most five. And on a thin seventeen by seventeen board, at most twenty-six points avoid three in a line. All frozen.",
+   "zh": "一千零二十四以内的每个分母，都有一个连分数数字不超过五的分数。在一张十七乘十七的稀疏棋盘上，至多二十六个点能避免三点共线。全部冻结。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 292.017,
+   "end": 302.812,
+   "en": "Mathematics, the theory says, is not the largest fixed point. It is an endless ladder climbing toward one it cannot reach. The width of that gap is called incompleteness.",
+   "zh": "理论说，数学不是最大的不动点。它是一架无尽的阶梯，攀向一个到不了的不动点。那道沟的宽度，叫作不完备性。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 303.412,
+   "end": 310.014,
+   "en": "The two points on the map are still unreached. This is not a record of failure. It is the progress of a survey.",
+   "zh": "地图上的两个点，仍然没有抵达。这不是失败的记录，而是测绘的进度。"
+  }
+ ],
+ "duration": 319.014
+}
