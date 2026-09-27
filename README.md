@@ -3,9 +3,10 @@
 Source code for films about [trureturing](https://github.com/the-omega-institute/trureturing).
 Every film is generated entirely by code — procedural Canvas animation, local TTS narration,
 synthesized score — so this repository holds **source only**. Rendered videos are build
-outputs, published only as [Releases](../../releases).
+outputs, published only as [Releases](../../releases). Release asset names carry the film
+number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 
-关于 [trureturing](https://github.com/the-omega-institute/trureturing) 的影片源码。每部影片完全由代码生成（程序化动画、本地 TTS 旁白、合成配乐），本仓库**只存源码**，成片由 CI 构建后发布到 Releases，不入库。
+关于 [trureturing](https://github.com/the-omega-institute/trureturing) 的影片源码。每部影片完全由代码生成（程序化动画、本地 TTS 旁白、合成配乐），本仓库**只存源码**，成片由 CI 构建后发布到 Releases，不入库；Release 文件名带影片编号（如 `TRURETURING_010_720p_narrated.mp4`）。
 
 ## Films · 影片
 

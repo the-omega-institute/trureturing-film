@@ -26,6 +26,7 @@ jobs:
           DIR=$(ls -d films/${NUM}-*/ | head -n 1)
           test -f "$DIR/film.json"
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "num=$NUM" >> "$GITHUB_OUTPUT"
           echo "dir=${DIR%/}" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
@@ -60,6 +61,14 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TITLE=$(python3 -c "import json;print(json.load(open('film.json'))['title'])")
+          N="${{ steps.film.outputs.num }}"
+          # release asset names carry the film number, e.g. TRURETURING_010_720p_narrated.mp4
+          mkdir -p release
+          for f in TRURETURING_narrated_EN_subs_ZH-EN.mp4 TRURETURING_music_only_subs_ZH-EN.mp4 \
+                   TRURETURING_720p_narrated.mp4 TRURETURING_720p_music_only.mp4; do
+            cp "$f" "release/TRURETURING_${N}_${f#TRURETURING_}"
+          done
+          cp cover.jpg "release/TRURETURING_${N}_cover.jpg"
           {
             echo "Rendered from \`${{ steps.film.outputs.dir }}\` at ${GITHUB_SHA}."
             echo
@@ -67,6 +76,4 @@ jobs:
             echo "- \`*_music_only_*\`: score only, same picture and subtitles"
             echo "- 1080p masters (x264 CRF 17) and 720p compact copies (~28 MB)"
           } > notes.md
-          gh release create "${{ steps.film.outputs.tag }}" --target "$GITHUB_SHA" --title "$TITLE" --notes-file notes.md \
-            TRURETURING_narrated_EN_subs_ZH-EN.mp4 TRURETURING_music_only_subs_ZH-EN.mp4 \
-            TRURETURING_720p_narrated.mp4 TRURETURING_720p_music_only.mp4 cover.jpg
+          gh release create "${{ steps.film.outputs.tag }}" --target "$GITHUB_SHA" --title "$TITLE" --notes-file notes.md release/*

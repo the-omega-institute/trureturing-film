@@ -1,0 +1,45 @@
+name: rename-release-assets
+# One-off maintenance: give the assets of already-published film releases numbered names
+# (TRURETURING_<NNN>_...), matching what release-film.yml now publishes. No re-render.
+on:
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Space-separated release tags; empty = every film-* release'
+        required: false
+        default: ''
+permissions:
+  contents: write
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Rename assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          TAGS: ${{ github.event.inputs.tags }}
+        run: |
+          set -euo pipefail
+          if [ -z "$TAGS" ]; then
+            TAGS=$(gh release list --limit 200 --json tagName --jq '.[].tagName' | grep '^film-[0-9]\{3\}-' || true)
+          fi
+          for TAG in $TAGS; do
+            N=$(echo "$TAG" | sed -E 's/^film-([0-9]{3})-.*/\1/')
+            echo "== $TAG ($N)"
+            for A in $(gh release view "$TAG" --json assets --jq '.assets[].name'); do
+              case "$A" in
+                TRURETURING_[0-9][0-9][0-9]_*) echo "  keep $A"; continue ;;
+                TRURETURING_*) NEW="TRURETURING_${N}_${A#TRURETURING_}" ;;
+                cover.jpg) NEW="TRURETURING_${N}_cover.jpg" ;;
+                *) echo "  skip $A"; continue ;;
+              esac
+              rm -rf work && mkdir work
+              gh release download "$TAG" --pattern "$A" --dir work
+              mv "work/$A" "work/$NEW"
+              gh release upload "$TAG" "work/$NEW" --clobber
+              gh release delete-asset "$TAG" "$A" --yes
+              echo "  $A -> $NEW"
+            done
+          done
