@@ -1,0 +1,201 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "What is a boundary? Not a wall in space. Not the edge of a region.",
+     "什么是边界？不是空间里的一堵墙，也不是某个区域的边缘。"
+    ],
+    [
+     "In this theory volume, a boundary is a summary of the inside that is exactly enough for every future experiment you declared in advance. It keeps what the inside does to the outside, and nothing more.",
+     "在这卷理论里，边界是对内部的一份摘要，它恰好足以应对你事先声明的每一个未来实验。它保存的是内部对外部的作用，仅此而已。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Boundary dynamics. How an observer inside a process can hold a boundary, update it, and still act on it.",
+     "边界动力学。一个身处过程内部的观察者，如何持有一个边界，更新它，并且仍然依据它行动。"
+    ],
+    [
+     "Sixteen thousand lines of paper argument, many open claims, and a habit of correcting itself in public.",
+     "一万六千行纸面论证，许多仍未决的断言，还有一个习惯：公开地更正自己。"
+    ]
+   ]
+  },
+  {
+   "id": "criterion",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Compress every configuration to a boundary label. When is that label a real state? The rule is short: inside each label, every step must be legal or illegal together, give the same reading, and lead to the same next label.",
+     "把每个配置压缩成一个边界标签。这个标签什么时候算一个真正的状态？规则很简短：在同一个标签内部，每一步必须同时合法或同时非法，给出相同的读数，并通向相同的下一个标签。"
+    ],
+    [
+     "If the observer also chooses its actions from the label, the choice must agree too. And the smallest exact boundary is simply future equivalence. The pieces behind this are frozen in Lean.",
+     "如果观察者还要根据这个标签选择动作，选择也必须一致。而最小的精确边界，恰好就是未来等价。支撑这一点的各个部件，已冻结在 Lean 中。"
+    ]
+   ]
+  },
+  {
+   "id": "totals",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Gluing two regions along a shared boundary is matrix multiplication: the boundary kernels compose. But a total count is not a boundary.",
+     "沿着共同边界把两个区域粘起来，就是矩阵乘法：边界核相互复合。但总数不是边界。"
+    ],
+    [
+     "Two histories both have eight realizations: three plus five, and four plus four. Attach a block that only accepts boundary zero, and the totals become three and four. Same total, different future.",
+     "两段历史都有八种实现：三加五，和四加四。接上一个只接受边界零的块，总数就变成了三和四。总数相同，未来不同。"
+    ]
+   ]
+  },
+  {
+   "id": "xor",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Take a secret bit X and a key bit K. The record shows only X exclusive-or K. Right now it carries exactly zero information about X.",
+     "取一个秘密比特 X 和一个密钥比特 K。记录只显示 X 异或 K。此刻，它关于 X 的信息恰好是零。"
+    ],
+    [
+     "But once the key can be read later, that same record decodes X completely. Zero information now is not zero future use. Throw the record away, and the future is lost.",
+     "但只要之后能读到密钥，同一条记录就能完整解出 X。此刻零信息，不等于未来零作用。把记录丢掉，未来就丢了。"
+    ]
+   ]
+  },
+  {
+   "id": "coarsen",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Coarse-graining can invent compatibility. The left side allows only boundary zero, the right side only boundary one. Glued exactly, nothing fits.",
+     "粗粒化会凭空造出相容性。左边只允许边界零，右边只允许边界一。精确粘合，什么也对不上。"
+    ],
+    [
+     "Now blur zero and one into a single star. Both sides accept the star, and a joint history appears that never existed. Coarsening must commute with gluing, or it lies.",
+     "现在把零和一模糊成一个星号。两边都接受这个星号，于是出现了一段从未存在过的联合历史。粗化必须与粘合交换，否则它就在说谎。"
+    ]
+   ]
+  },
+  {
+   "id": "depth",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three states. A and b read the same now. But a stays at zero forever, while b reads zero, then one, one, one. Look one step deeper and they split.",
+     "三个状态。a 和 b 此刻读数相同。但 a 永远停在零，而 b 先读零，然后是一，一，一。多看一步，它们就分开了。"
+    ],
+    [
+     "In any finite system, refinement stops after at most the number of new classes it creates. Here that is one step, the bound is tight, and every exact memory needs at least three states.",
+     "在任何有限系统里，细化最多经过它新增类数那么多步就会停止。这里只需一步，界是紧的，而每一个精确记忆至少需要三个状态。"
+    ]
+   ]
+  },
+  {
+   "id": "fourviews",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Four ways to describe the same two bits u and v. Space reads u. Time reads v. Boundary reads u exclusive-or v. Memory reads u and v.",
+     "用四种方式描述同样的两个比特 u 和 v。空间读 u。时间读 v。边界读 u 异或 v。记忆读 u 与 v。"
+    ],
+    [
+     "Each view alone merges some states. Together they separate all four. And space plus time is already a minimal family: they are one quotient seen from different sides.",
+     "每一种视角单独看，都会合并一些状态。合起来，四个状态全部分开。而空间加时间就已经是一个最小族：它们是同一个商，从不同的侧面去看。"
+    ]
+   ]
+  },
+  {
+   "id": "holonomy",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three patches, each overlap glued by a sign flip. Every edge is locally legal.",
+     "三块补丁，每一处重叠都用一次符号翻转粘合。每一条边在局部都合法。"
+    ],
+    [
+     "Go around the triangle, and the product is minus one, not plus one. No global frame exists. The failure lives in the loop, and checking edges one at a time will never find it.",
+     "绕三角形走一圈，乘积是负一，而不是正一。不存在全局坐标系。失败住在这个圈里，一条边一条边地检查，永远找不到它。"
+    ]
+   ]
+  },
+  {
+   "id": "ghost",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The future remembers; the past forgets. Let both states flow to zero. Forward threads keep them apart. Backward, only one thread survives.",
+     "未来记得，过去遗忘。让两个状态都流向零。向前的线程把它们分开。向后看，只剩一条线程。"
+    ],
+    [
+     "And completion can add ghosts. A countdown from k reads k ones, then zeros. Every finite window allows all ones, but no real start produces it. The completed limit gains a point at infinity that never had a source.",
+     "而完备化会添加幽灵。从 k 开始倒数，先读出 k 个一，然后是零。每一个有限窗口都允许全是一，却没有任何真实起点能产生它。完备后的极限多出一个无穷远点，而它从来没有来源。"
+    ]
+   ]
+  },
+  {
+   "id": "sharedbit",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Two ends share a three-bit state. How should they split the memory? The Pareto front is exactly eight and one, four and four, or one and eight.",
+     "两端共享一个三比特的状态。它们该如何分配记忆？Pareto 前沿恰好是八和一，四和四，或者一和八。"
+    ],
+    [
+     "Four and four is forced if neither side may hold everything, and it works by duplicating one control bit. Asking adaptively helps too: two questions chosen in sequence identify what a fixed set needs three sensors for. That one is kernel-checked.",
+     "如果哪一边都不许存下全部，就只能是四加四，而它的做法是复制一个控制比特。自适应地提问也有帮助：按顺序挑选的两个问题，就能认出固定套件需要三个传感器才能认出的东西。这一条经内核核验。"
+    ]
+   ]
+  },
+  {
+   "id": "quantum",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now a quantum table whose early output depends on a later input. Repair it into a causal process, where the early output cannot see the future. For a minimal interface, the best repair error equals the table's defect exactly.",
+     "现在考虑一张量子表，它较早的输出依赖于较晚的输入。把它修复成一个因果过程，让较早的输出看不见未来。对最小接口，最优修复误差恰好等于这张表的缺陷。"
+    ],
+    [
+     "Keep coherence in the last output, and repair costs strictly more. As the defect epsilon shrinks, the ratio tends to exactly nine over eight, with the next correction proportional to epsilon to the three halves.",
+     "在最后的输出里保留相干性，修复就严格更贵。当缺陷 epsilon 缩小时，这个比值趋向恰好八分之九，下一阶修正正比于 epsilon 的二分之三次方。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "The volume corrects itself in the open. Four sections exist only to retract or narrow earlier claims, appended, never erased. Ten frozen Lean modules carry the local bridges; the volume's own combinations are paper math.",
+     "这卷理论公开地更正自己。有四节专门用来撤回或收窄先前的断言，以追加的方式，从不抹去。十个冻结的 Lean 模块承担局部的桥梁；这卷自己的组合论证，仍是纸面数学。"
+    ],
+    [
+     "A boundary is not where space ends. It is what the future still needs.",
+     "边界不是空间终止的地方。它是未来仍然需要的东西。"
+    ]
+   ]
+  }
+ ]
+}
