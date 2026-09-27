@@ -30,6 +30,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 016 | [RECOVERY GEOMETRY](films/016-recovery/) · 边界恢复几何 | 5:09 | EN (AI) / music-only | ZH + EN |
 | 017 | [CONTEXT GEOMETRY](films/017-context/) · 可执行上下文几何 | 6:03 | EN (AI) / music-only | ZH + EN |
 | 018 | [TRANSPORT · MEMORY · COMPLETION](films/018-transport/) · 运输·任务记忆·完备化 | 5:27 | EN (AI) / music-only | ZH + EN |
+| 019 | [EFFECTIVE RESOLUTION](films/019-resolution/) · 算术编码与有效分辨率 | 6:29 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

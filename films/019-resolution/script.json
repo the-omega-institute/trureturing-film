@@ -1,0 +1,231 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Write a number in binary, in Fibonacci digits, or as a list of remainders. The object is the same. What changes is what you can read, recover, certify and compute.",
+     "用二进制写一个数，用斐波那契数码写，或者写成一串余数。对象是同一个。改变的是：你能读到什么、恢复什么、认证什么、计算什么。"
+    ],
+    [
+     "This volume carries one object between congruences, digits, blocks, prefixes and probabilities, and asks what every move costs.",
+     "这卷理论把同一个对象在同余、数码、回返块、前缀和概率之间运输，并追问每一次运输的代价。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Arithmetic coding and effective resolution.",
+     "算术编码与有效分辨率。"
+    ],
+    [
+     "Expressible, identifiable, obtainable, certifiable: four different conditions, each with its own price.",
+     "可表达、可识别、可取得、可认证：四个不同的条件，各有各的代价。"
+    ]
+   ]
+  },
+  {
+   "id": "summary",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with the residues mod nine. Remove the class zero, or remove the class one. Either way eight survive, under the same modulus. The summaries are identical.",
+     "从模九的余数开始。删掉零这一类，或者删掉一这一类。两种情况都剩八个，模数也一样。摘要完全相同。"
+    ],
+    [
+     "Now remove zero mod three. The first leaves six, the second leaves five. A single count is not enough memory to continue.",
+     "现在再删掉模三余零。第一种剩六个，第二种剩五个。一个计数，不足以支撑下一步。"
+    ]
+   ]
+  },
+  {
+   "id": "digits",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Zeckendorf digits use the weights one, two, three, five, eight. Three is written one zero zero, so its last two digits look exactly like zero. In binary, three ends in one one.",
+     "Zeckendorf 数码的权重是一、二、三、五、八。三写作一零零，末两位看上去和零一模一样。而在二进制里，三的末两位是一一。"
+    ],
+    [
+     "Along the weights, parity repeats with period three, so no fixed number of low Fibonacci digits can tell you whether a number is even. Same integers, different readable resolution.",
+     "沿着权重，奇偶以三为周期重复，所以任何固定位数的低位斐波那契数码，都判断不了一个数的奇偶。同样的整数，可读的分辨率不同。"
+    ]
+   ]
+  },
+  {
+   "id": "machine",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "To test divisibility by L on k-bonacci words, a machine needs exactly k times L to the k states. For Fibonacci digits and L equal to three, that is eighteen. Binary needs three.",
+     "在 k 步斐波那契数码上检验能否被 L 整除，机器恰好需要 k 乘 L 的 k 次方个状态。斐波那契数码、L 等于三时是十八个。二进制只要三个。"
+    ],
+    [
+     "The gap grows without bound in L, so no finite machine converts one code into the other. A bijection between words does not preserve the cost of reading their prefixes.",
+     "这个差距随 L 无界增长，所以没有有限机器能把一种编码转换成另一种。词之间的双射，不保持读取前缀的代价。"
+    ]
+   ]
+  },
+  {
+   "id": "cover",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "List every integer. Cover the n-th one with a single class modulo three to the n. Every integer is hit.",
+     "把所有整数排成一列。第 n 个整数，用模三的 n 次方的一个同余类盖住。每个整数都被盖到了。"
+    ],
+    [
+     "Yet the classes have total size one half. In the three-adic completion at least half the space survives, and every finite stage keeps at least three to the n plus one, over two, candidates.",
+     "可是这些类的总大小只有二分之一。在三进完备化里，至少一半的空间幸存；每个有限阶段都至少保留三的 n 次方加一、再除以二个候选。"
+    ]
+   ]
+  },
+  {
+   "id": "ghost",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now let the constraints come from programs: for every program that halts, forbid one class. The survivors still have mass at least one half, yet they contain no integer and no computable point.",
+     "现在让约束来自程序：每有一个程序停机，就禁掉一个同余类。幸存者的测度仍然至少二分之一，但其中没有整数，也没有任何可计算的点。"
+    ],
+    [
+     "Every survivor is a boundary point. A random guess lands inside with probability at least one half, but no finite digit test can ever certify the hit. Exclusion has a finite witness. Membership does not.",
+     "每个幸存者都是边界点。随机猜一个点，至少以二分之一的概率落在里面，但没有任何有限的数码检验能认证这次命中。排除有有限见证，属于却没有。"
+    ]
+   ]
+  },
+  {
+   "id": "binary",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "In binary the safety margin disappears. Forbid the cylinders zero to the n, then one. Also forbid the cylinder zero, but only if a certain machine halts.",
+     "在二进制里，安全余量消失了。禁掉柱集「n 个零接一」。再禁掉柱集「零」，但只在某台机器停机时才禁。"
+    ],
+    [
+     "The surviving mass is one half either way, because one half is also the sum of two to the minus h, from h equal two on. Same number, two expansions: the mass cannot tell you whether that cylinder survives.",
+     "两种情况下幸存测度都是二分之一，因为二分之一也等于从 h 等于二开始、二的负 h 次方之和。同一个数，两种展开：测度无法告诉你那个柱集是否幸存。"
+    ]
+   ]
+  },
+  {
+   "id": "comb",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Draw random words from a fixed source where every letter has positive probability. At each depth you may forbid c words. When is some probability guaranteed to survive?",
+     "从一个固定来源抽随机词，每个字母的概率都为正。每一层你可以禁掉 c 个词。什么时候一定会有概率幸存？"
+    ],
+    [
+     "Exactly when the alphabet has at least c plus two letters. With one word per level, the binary comb, zeros then a one, sweeps away everything but a single path of probability zero. Three letters cannot be swept.",
+     "恰好当字母表至少有 c 加二个字母时。每层一个词，二进制的梳子「一串零接一个一」扫掉了一切，只剩一条概率为零的路径。三个字母扫不干净。"
+    ]
+   ]
+  },
+  {
+   "id": "envelope",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A biased coin shows zero nine times in ten. You may stop on one word of length one; the best is zero, catching nine tenths. Delay that stop to depth three, and its true image is four words, still nine tenths.",
+     "一枚偏置硬币，十次有九次是零。你可以在一个长度为一的词上停下；最好选零，抓住十分之九。把这次停止推迟到第三层，它的真实像是四个词，仍然是十分之九。"
+    ],
+    [
+     "But if you carry only the count, four words of length three, you may pick the four heaviest and catch two hundred forty-three out of two hundred fifty. A count forgets which words share an ancestor.",
+     "但如果你只带着计数——第三层的四个词——你就可以挑最重的四个，抓住二百五十分之二百四十三。计数忘记了哪些词共享同一个祖先。"
+    ]
+   ]
+  },
+  {
+   "id": "wait",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Flip a fair coin and stop at the first zero. The average wait is two flips. Now look only at depths zero, one, two, four, sixteen, sixty-five thousand five hundred thirty-six, each two to the power of the last.",
+     "抛一枚公平硬币，在第一个零处停下。平均等待两次。现在只看第零、一、二、四、十六、六万五千五百三十六层，每一层是二的上一层次方。"
+    ],
+    [
+     "The stopping event is exactly the same, and on average you wait at most two stages. But the raw waiting time now has infinite mean. Thinning resolution is lossless for truth, not for time.",
+     "停止事件完全相同，平均也至多等两个阶段。但原始等待时间的均值变成了无穷。抽稀分辨率，对真值无损，对时间却不是。"
+    ]
+   ]
+  },
+  {
+   "id": "shapes",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Take zero and one mod fifteen, and take six and ten. Their counts mod three and mod five are identical. Delete zero mod five, then zero mod three: one point survives, against none.",
+     "取模十五的零和一，再取六和十。它们模三、模五的计数完全一样。删掉模五余零，再删掉模三余零：一边剩一个点，另一边一个不剩。"
+    ],
+    [
+     "If you only ask whether anything is left, the memory collapses. Every set falls into one of seven shapes, and for moduli three and five there are just one hundred classes among thirty-two thousand seven hundred sixty-eight sets.",
+     "如果你只问还有没有剩余，记忆会大幅坍缩。每个集合都落入七种形状之一；模数三和五时，三万二千七百六十八个集合只分成一百个类。"
+    ]
+   ]
+  },
+  {
+   "id": "noise",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A probability on a three by three grid is seen through sixteen readings, each off by at most epsilon. The best real-valued recovery has error exactly two epsilon.",
+     "一个三乘三格子上的概率，通过十六个读数来观察，每个读数误差至多 epsilon。最好的实值恢复，误差恰好是二倍 epsilon。"
+    ],
+    [
+     "Demand that the answer be a probability, summing to one, and the sharp error becomes twenty ninths of epsilon. Nine real sources share one observation, and some cell of any answer must fall to one ninth or below.",
+     "要求答案是一个概率、总和为一，精确误差就变成九分之二十倍 epsilon。九个真实来源共享同一个观察，而任何答案总有一个格子不超过九分之一。"
+    ]
+   ]
+  },
+  {
+   "id": "memory",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A phase mod twelve is doubled. If the old port read mod two, nothing extra must be kept. If it read mod four, phases zero and six collide, and one extra bit is needed.",
+     "一个模十二的相位被加倍。如果旧端口读的是模二，什么都不必额外保留。如果读的是模四，相位零和六会撞在一起，就需要多保留一个比特。"
+    ],
+    [
+     "Keep doubling. To recover the full starting phase after one, two, three steps, you need two, four, four extra labels. One new bit per step would promise eight; four are enough. Memory saturates.",
+     "继续加倍。一步、两步、三步之后，要恢复完整的初始相位，分别需要二、四、四个附加标签。每步记一个新比特会许诺八个；四个就够了。记忆会饱和。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Same count, different future. Positive mass, no computable point. Same truth, infinite wait. Asking for a probability costs one ninth more.",
+     "计数相同，未来不同。测度为正，却没有可计算的点。真值相同，等待无穷。要求答案是概率，要多付九分之一。"
+    ],
+    [
+     "Resolution is not how finely you look. It is what you can still legally do with what you kept.",
+     "分辨率不是你看得多细，而是你保留下来的东西，还能让你合法地做什么。"
+    ]
+   ]
+  }
+ ]
+}
