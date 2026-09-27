@@ -1,0 +1,280 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 22.451
+  },
+  {
+   "id": "title",
+   "start": 22.451,
+   "end": 40.436
+  },
+  {
+   "id": "clock",
+   "start": 40.436,
+   "end": 60.068
+  },
+  {
+   "id": "click",
+   "start": 60.068,
+   "end": 80.959
+  },
+  {
+   "id": "records",
+   "start": 80.959,
+   "end": 107.286
+  },
+  {
+   "id": "dark",
+   "start": 107.286,
+   "end": 132.141
+  },
+  {
+   "id": "zeno",
+   "start": 132.141,
+   "end": 155.118
+  },
+  {
+   "id": "certainclick",
+   "start": 155.118,
+   "end": 171.848
+  },
+  {
+   "id": "certify",
+   "start": 171.848,
+   "end": 196.688
+  },
+  {
+   "id": "latebranch",
+   "start": 196.688,
+   "end": 219.155
+  },
+  {
+   "id": "radius",
+   "start": 219.155,
+   "end": 245.369
+  },
+  {
+   "id": "recursive",
+   "start": 245.369,
+   "end": 266.431
+  },
+  {
+   "id": "finale",
+   "start": 266.431,
+   "end": 296.748
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 9.249,
+   "en": "Is light a wave or a particle? This theory volume refuses the question as posed.",
+   "zh": "光是波，还是粒子？这卷理论拒绝以这种方式提问。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 9.849,
+   "end": 21.451,
+   "en": "There is no bare thing that is secretly one or the other. There is a relation: a transport, a clock, an instrument, and a record. What you call a particle is how that relation reads out.",
+   "zh": "并没有一个赤裸的东西，暗中是其中之一。只有一个关系：传输、时钟、仪器、记录。你所说的粒子，是这个关系的读出方式。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 23.651,
+   "end": 30.574,
+   "en": "Wave, particle, event. A particle event is a record written at a declared interface, at a declared time.",
+   "zh": "波，粒子，事件。一个粒子事件，是在声明的接口、声明的时刻写下的一条记录。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 31.174,
+   "end": 39.036,
+   "en": "Eighteen thousand lines of paper argument follow that one sentence into detectors, darkness, waiting times, and memory.",
+   "zh": "一万八千行的纸面论证，沿着这一句话，走进探测器、黑暗、等待时间和记忆。"
+  },
+  {
+   "i": 4,
+   "scene": "clock",
+   "start": 41.236,
+   "end": 49.797,
+   "en": "First, a clock is not a detector. Put a photon in an equal superposition of left and right, and condition on every tick of a clock.",
+   "zh": "首先，时钟不是探测器。让一个光子处于左和右的等权叠加，然后对时钟的每一次滴答做条件化。"
+  },
+  {
+   "i": 5,
+   "scene": "clock",
+   "start": 50.397,
+   "end": 58.668,
+   "en": "Each clock-conditioned state is still the full superposition, with coherence one half. Reading the clock alone is not reading a click.",
+   "zh": "每一个钟条件态仍然是完整的叠加，相干项是二分之一。只读取时钟，不等于读取了一次点击。"
+  },
+  {
+   "i": 6,
+   "scene": "click",
+   "start": 60.868,
+   "end": 71.776,
+   "en": "Now two detectors that report the same click, with exactly the same probabilities. One absorbs the photon and leaves the vacuum. The other leaves the photon in place.",
+   "zh": "现在有两个探测器，报告同样的点击，概率完全相同。一个吸收光子，留下真空；另一个把光子留在原处。"
+  },
+  {
+   "i": 7,
+   "scene": "click",
+   "start": 72.376,
+   "end": 79.559,
+   "en": "Their statistics are identical; their aftermath is not. The same click probability does not fix what comes next.",
+   "zh": "它们的统计一模一样，后果却不同。同一个点击概率，并不决定接下来发生什么。"
+  },
+  {
+   "i": 8,
+   "scene": "records",
+   "start": 81.759,
+   "end": 95.471,
+   "en": "Let a record copy which path was taken. The better the record tells the paths apart, the fainter the fringes: distinguishability squared plus visibility squared equals one. For pure records, that is frozen in Lean.",
+   "zh": "让一条记录复制光子走了哪条路。记录越能分辨路径，条纹就越淡：可区分度的平方加可见度的平方等于一。对纯态记录，这一点已冻结在 Lean 中。"
+  },
+  {
+   "i": 9,
+   "scene": "records",
+   "start": 96.071,
+   "end": 105.886,
+   "en": "Read the record in a mixed basis and sort the clicks by that result: the fringes come back inside each sorted subset, and cancel in the unsorted total.",
+   "zh": "在混合基底里读取记录，再按这个结果给点击分组：条纹在每个分组里重新出现，在不分组的总和里互相抵消。"
+  },
+  {
+   "i": 10,
+   "scene": "dark",
+   "start": 108.086,
+   "end": 118.539,
+   "en": "A detector watches the bright combination, left plus right. That state clicks at once. Left alone clicks only half the time. Left minus right never clicks at all.",
+   "zh": "一个探测器盯着明亮组合，左加右。这个态立刻点击。单独的左，只有一半概率点击。左减右，永远不会点击。"
+  },
+  {
+   "i": 11,
+   "scene": "dark",
+   "start": 119.139,
+   "end": 130.741,
+   "en": "This dark space is found by finite algebra: the kernel of one matrix built from d steps. And survival tends exactly to the projection onto it. Both are kernel-checked.",
+   "zh": "这个暗空间可以用有限代数找到：由 d 步构造的一个矩阵的核。而生存概率恰好收敛到对它的投影。两者都经内核核验。"
+  },
+  {
+   "i": 12,
+   "scene": "zeno",
+   "start": 132.941,
+   "end": 142.275,
+   "en": "Watching changes the wait. Let a state rotate toward the detector. Check only at the end, and it clicks with probability sine squared of omega T.",
+   "zh": "观看会改变等待。让一个态朝探测器转动。只在最后检查，它以 omega T 的正弦平方为概率点击。"
+  },
+  {
+   "i": 13,
+   "scene": "zeno",
+   "start": 142.875,
+   "end": 153.718,
+   "en": "Check N times along the way, and the chance of a click by time T goes to zero. The watched pot, made exact: finer looking is a different protocol, not a finer picture.",
+   "zh": "途中检查 N 次，到时刻 T 为止的点击概率趋于零。被盯着的锅，变成了精确陈述：更细地看，是另一个协议，而不是更细的图像。"
+  },
+  {
+   "i": 14,
+   "scene": "certainclick",
+   "start": 155.918,
+   "end": 164.419,
+   "en": "Here is a detector that clicks with certainty, eventually, for every input. The wait is geometric, and identical for every state.",
+   "zh": "这里有一个探测器，对每一个输入，最终都必然点击。等待是几何分布，而且对每一个态都完全相同。"
+  },
+  {
+   "i": 15,
+   "scene": "certainclick",
+   "start": 165.019,
+   "end": 170.448,
+   "en": "So it detects everything and learns nothing. Certain detection is not state information.",
+   "zh": "所以它探测到一切，却什么也学不到。必然探测，不等于态信息。"
+  },
+  {
+   "i": 16,
+   "scene": "certify",
+   "start": 172.648,
+   "end": 183.162,
+   "en": "Can you certify that a device is exactly dark? Compare it with one that clicks with a tiny probability gamma. Allow any adaptive quantum strategy, with m calls.",
+   "zh": "你能认证一个装置是精确黑暗的吗？把它和一个以微小概率 gamma 点击的装置比较。允许任何自适应量子策略，调用 m 次。"
+  },
+  {
+   "i": 17,
+   "scene": "certify",
+   "start": 183.762,
+   "end": 195.288,
+   "en": "The best possible error is exactly one half times one minus gamma, to the m. For every finite m, a small enough gamma leaves you guessing. Silence is never a certificate.",
+   "zh": "最优错误率恰好是二分之一乘以一减 gamma 的 m 次方。对每一个有限的 m，足够小的 gamma 都让你只能猜。沉默，从来不是证书。"
+  },
+  {
+   "i": 18,
+   "scene": "latebranch",
+   "start": 197.488,
+   "end": 206.523,
+   "en": "A qubit starts ready to click. With a small leak gamma, it misses the first round only with probability gamma, but then it waits one over gamma.",
+   "zh": "一个量子比特一开始就准备好点击。带着一个小泄漏 gamma，它只以 gamma 的概率错过第一轮，但错过之后要等一除以 gamma。"
+  },
+  {
+   "i": 19,
+   "scene": "latebranch",
+   "start": 207.123,
+   "end": 217.755,
+   "en": "The two cancel. The mean wait is exactly two, however small gamma gets, while at gamma zero it is one. A rare late branch can carry a whole unit of mean time.",
+   "zh": "两者相互抵消。无论 gamma 多小，平均等待恰好是二；而 gamma 等于零时，它是一。稀有的迟到分支，可以携带一个完整单位的平均时间。"
+  },
+  {
+   "i": 20,
+   "scene": "radius",
+   "start": 219.955,
+   "end": 232.69,
+   "en": "How far can a real detector drift from its design before the waiting budget fails? For the volume's model instrument, exactly phi to the five halves, over four: about zero point eight three two five.",
+   "zh": "一个真实探测器可以偏离设计多远，等待预算才会失效？对这卷的模型仪器，恰好是 phi 的二分之五次方除以四：约零点八三二五。"
+  },
+  {
+   "i": 21,
+   "scene": "radius",
+   "start": 233.29,
+   "end": 243.969,
+   "en": "Approach that edge at distance h, and the worst mean wait blows up like phi over sixteen, divided by h squared. The golden ratio sets the price of getting close.",
+   "zh": "在距离 h 处逼近这条边，最坏的平均等待像十六分之 phi 除以 h 平方那样爆炸。黄金比例，给逼近定了价。"
+  },
+  {
+   "i": 22,
+   "scene": "recursive",
+   "start": 246.169,
+   "end": 254.769,
+   "en": "Now let events repeat. Two devices can share exactly the same first waiting law, an exponential, whatever they leave behind.",
+   "zh": "现在让事件重复发生。两个装置可以共享完全相同的首次等待律，一个指数律，无论它们留下什么后继。"
+  },
+  {
+   "i": 23,
+   "scene": "recursive",
+   "start": 255.369,
+   "end": 265.031,
+   "en": "But the leftover state re-enters the next round. The two-event mean becomes one plus r. The same first wait does not give the same recursive wait.",
+   "zh": "但是留下的状态会重新进入下一轮。两次事件的平均总时间变成一加 r。相同的首个等待律，不保证相同的递归等待律。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 267.431,
+   "end": 275.425,
+   "en": "Wave and particle were never two things. They are two readings of one relation: what was recorded, where, when, and what was kept.",
+   "zh": "波和粒子从来不是两样东西。它们是同一个关系的两种读法：记录了什么，在哪里，在什么时候，保留了什么。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 276.025,
+   "end": 287.748,
+   "en": "One long paper volume, and eight frozen Lean modules on detection, darkness and complementarity. Keeping only the path that happened cannot tell you what an intervention would have done.",
+   "zh": "一卷很长的纸面论证，以及八个关于探测、黑暗与互补性的冻结 Lean 模块。只保存已经发生的路径，不能告诉你一次干预会带来什么。"
+  }
+ ],
+ "duration": 296.748
+}

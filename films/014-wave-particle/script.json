@@ -1,0 +1,58 @@
+{
+  "voice": "af_heart",
+  "speed": 0.94,
+  "scenes": [
+    {"id": "open", "lead": 4.0, "tail": 1.0, "lines": [
+      ["Is light a wave or a particle? This theory volume refuses the question as posed.", "光是波，还是粒子？这卷理论拒绝以这种方式提问。"],
+      ["There is no bare thing that is secretly one or the other. There is a relation: a transport, a clock, an instrument, and a record. What you call a particle is how that relation reads out.", "并没有一个赤裸的东西，暗中是其中之一。只有一个关系：传输、时钟、仪器、记录。你所说的粒子，是这个关系的读出方式。"]
+    ]},
+    {"id": "title", "lead": 1.2, "tail": 1.4, "lines": [
+      ["Wave, particle, event. A particle event is a record written at a declared interface, at a declared time.", "波，粒子，事件。一个粒子事件，是在声明的接口、声明的时刻写下的一条记录。"],
+      ["Eighteen thousand lines of paper argument follow that one sentence into detectors, darkness, waiting times, and memory.", "一万八千行的纸面论证，沿着这一句话，走进探测器、黑暗、等待时间和记忆。"]
+    ]},
+    {"id": "clock", "lead": 0.8, "tail": 1.4, "lines": [
+      ["First, a clock is not a detector. Put a photon in an equal superposition of left and right, and condition on every tick of a clock.", "首先，时钟不是探测器。让一个光子处于左和右的等权叠加，然后对时钟的每一次滴答做条件化。"],
+      ["Each clock-conditioned state is still the full superposition, with coherence one half. Reading the clock alone is not reading a click.", "每一个钟条件态仍然是完整的叠加，相干项是二分之一。只读取时钟，不等于读取了一次点击。"]
+    ]},
+    {"id": "click", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Now two detectors that report the same click, with exactly the same probabilities. One absorbs the photon and leaves the vacuum. The other leaves the photon in place.", "现在有两个探测器，报告同样的点击，概率完全相同。一个吸收光子，留下真空；另一个把光子留在原处。"],
+      ["Their statistics are identical; their aftermath is not. The same click probability does not fix what comes next.", "它们的统计一模一样，后果却不同。同一个点击概率，并不决定接下来发生什么。"]
+    ]},
+    {"id": "records", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Let a record copy which path was taken. The better the record tells the paths apart, the fainter the fringes: distinguishability squared plus visibility squared equals one. For pure records, that is frozen in Lean.", "让一条记录复制光子走了哪条路。记录越能分辨路径，条纹就越淡：可区分度的平方加可见度的平方等于一。对纯态记录，这一点已冻结在 Lean 中。"],
+      ["Read the record in a mixed basis and sort the clicks by that result: the fringes come back inside each sorted subset, and cancel in the unsorted total.", "在混合基底里读取记录，再按这个结果给点击分组：条纹在每个分组里重新出现，在不分组的总和里互相抵消。"]
+    ]},
+    {"id": "dark", "lead": 0.8, "tail": 1.4, "lines": [
+      ["A detector watches the bright combination, left plus right. That state clicks at once. Left alone clicks only half the time. Left minus right never clicks at all.", "一个探测器盯着明亮组合，左加右。这个态立刻点击。单独的左，只有一半概率点击。左减右，永远不会点击。"],
+      ["This dark space is found by finite algebra: the kernel of one matrix built from d steps. And survival tends exactly to the projection onto it. Both are kernel-checked.", "这个暗空间可以用有限代数找到：由 d 步构造的一个矩阵的核。而生存概率恰好收敛到对它的投影。两者都经内核核验。"]
+    ]},
+    {"id": "zeno", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Watching changes the wait. Let a state rotate toward the detector. Check only at the end, and it clicks with probability sine squared of omega T.", "观看会改变等待。让一个态朝探测器转动。只在最后检查，它以 omega T 的正弦平方为概率点击。"],
+      ["Check N times along the way, and the chance of a click by time T goes to zero. The watched pot, made exact: finer looking is a different protocol, not a finer picture.", "途中检查 N 次，到时刻 T 为止的点击概率趋于零。被盯着的锅，变成了精确陈述：更细地看，是另一个协议，而不是更细的图像。"]
+    ]},
+    {"id": "certainclick", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Here is a detector that clicks with certainty, eventually, for every input. The wait is geometric, and identical for every state.", "这里有一个探测器，对每一个输入，最终都必然点击。等待是几何分布，而且对每一个态都完全相同。"],
+      ["So it detects everything and learns nothing. Certain detection is not state information.", "所以它探测到一切，却什么也学不到。必然探测，不等于态信息。"]
+    ]},
+    {"id": "certify", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Can you certify that a device is exactly dark? Compare it with one that clicks with a tiny probability gamma. Allow any adaptive quantum strategy, with m calls.", "你能认证一个装置是精确黑暗的吗？把它和一个以微小概率 gamma 点击的装置比较。允许任何自适应量子策略，调用 m 次。"],
+      ["The best possible error is exactly one half times one minus gamma, to the m. For every finite m, a small enough gamma leaves you guessing. Silence is never a certificate.", "最优错误率恰好是二分之一乘以一减 gamma 的 m 次方。对每一个有限的 m，足够小的 gamma 都让你只能猜。沉默，从来不是证书。"]
+    ]},
+    {"id": "latebranch", "lead": 0.8, "tail": 1.4, "lines": [
+      ["A qubit starts ready to click. With a small leak gamma, it misses the first round only with probability gamma, but then it waits one over gamma.", "一个量子比特一开始就准备好点击。带着一个小泄漏 gamma，它只以 gamma 的概率错过第一轮，但错过之后要等一除以 gamma。"],
+      ["The two cancel. The mean wait is exactly two, however small gamma gets, while at gamma zero it is one. A rare late branch can carry a whole unit of mean time.", "两者相互抵消。无论 gamma 多小，平均等待恰好是二；而 gamma 等于零时，它是一。稀有的迟到分支，可以携带一个完整单位的平均时间。"]
+    ]},
+    {"id": "radius", "lead": 0.8, "tail": 1.4, "lines": [
+      ["How far can a real detector drift from its design before the waiting budget fails? For the volume's model instrument, exactly phi to the five halves, over four: about zero point eight three two five.", "一个真实探测器可以偏离设计多远，等待预算才会失效？对这卷的模型仪器，恰好是 phi 的二分之五次方除以四：约零点八三二五。"],
+      ["Approach that edge at distance h, and the worst mean wait blows up like phi over sixteen, divided by h squared. The golden ratio sets the price of getting close.", "在距离 h 处逼近这条边，最坏的平均等待像十六分之 phi 除以 h 平方那样爆炸。黄金比例，给逼近定了价。"]
+    ]},
+    {"id": "recursive", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Now let events repeat. Two devices can share exactly the same first waiting law, an exponential, whatever they leave behind.", "现在让事件重复发生。两个装置可以共享完全相同的首次等待律，一个指数律，无论它们留下什么后继。"],
+      ["But the leftover state re-enters the next round. The two-event mean becomes one plus r. The same first wait does not give the same recursive wait.", "但是留下的状态会重新进入下一轮。两次事件的平均总时间变成一加 r。相同的首个等待律，不保证相同的递归等待律。"]
+    ]},
+    {"id": "finale", "lead": 1.0, "tail": 9.0, "lines": [
+      ["Wave and particle were never two things. They are two readings of one relation: what was recorded, where, when, and what was kept.", "波和粒子从来不是两样东西。它们是同一个关系的两种读法：记录了什么，在哪里，在什么时候，保留了什么。"],
+      ["One long paper volume, and eight frozen Lean modules on detection, darkness and complementarity. Keeping only the path that happened cannot tell you what an intervention would have done.", "一卷很长的纸面论证，以及八个关于探测、黑暗与互补性的冻结 Lean 模块。只保存已经发生的路径，不能告诉你一次干预会带来什么。"]
+    ]}
+  ]
+}
