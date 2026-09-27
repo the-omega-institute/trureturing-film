@@ -27,6 +27,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 013 | [HIDDEN ARROW](films/013-parity-arrow/) · 奇偶隐藏时间箭头 | 4:44 | EN (AI) / music-only | ZH + EN |
 | 014 | [WAVE · PARTICLE · EVENT](films/014-wave-particle/) · 波粒整体 | 4:57 | EN (AI) / music-only | ZH + EN |
 | 015 | [BOUNDARY DYNAMICS](films/015-boundary/) · 动态充分边界 | 5:26 | EN (AI) / music-only | ZH + EN |
+| 016 | [RECOVERY GEOMETRY](films/016-recovery/) · 边界恢复几何 | 5:09 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

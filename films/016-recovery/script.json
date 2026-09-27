@@ -1,0 +1,201 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "You never see a state directly. You see readings: noisy, finite, and late. Recovery asks what can be rebuilt from them, how well, and at what price.",
+     "你从来看不到状态本身。你看到的是读数：带噪声，有限，而且总是迟到。恢复要问的是：能从读数里重建什么，重建得多好，代价是多少。"
+    ],
+    [
+     "This theory volume answers those questions with exact constants, sharp sample counts, and certificates a machine can check.",
+     "这卷理论用精确常数、尖锐的样本数，以及机器可以核验的证书，来回答这些问题。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Recovery geometry. Every result in this film is exact, and every one is backed by proofs frozen in the Lean kernel.",
+     "恢复几何。这部影片里的每一个结果都是精确的，每一个都有冻结在 Lean 内核中的证明作支撑。"
+    ],
+    [
+     "Ten scenes, ten answers to one question: what do the readings force?",
+     "十个场景，十个答案，回答同一个问题：读数迫使了什么？"
+    ]
+   ]
+  },
+  {
+   "id": "zerosum",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three numbers that must sum to zero. Each is read with error at most epsilon. Recover any one coordinate alone, and the error is just epsilon.",
+     "三个数，它们的和必须为零。每一个的读数误差至多为 epsilon。单独恢复任何一个坐标，误差就是 epsilon。"
+    ],
+    [
+     "But demand one answer that is itself legal, summing to zero, and the best worst-case error jumps to exactly four thirds epsilon, even for nonlinear methods. Subtracting the mean achieves it. Kernel-checked.",
+     "但如果要求给出一个本身合法、和为零的答案，最坏情况下的最优误差就跳到恰好三分之四 epsilon，即使允许非线性方法也一样。减去平均值就能达到它。经内核核验。"
+    ]
+   ]
+  },
+  {
+   "id": "prune",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "You are narrowing down a hidden world by asking questions. Some questions give the same answer for every candidate still left.",
+     "你在通过提问，逐步锁定一个隐藏的世界。有些问题，对仍然剩下的每个候选，都给出同样的答案。"
+    ],
+    [
+     "Delete every such question. Every outcome stays the same, the cost never rises, and no path needs more than the number of candidates minus one questions. Kernel-checked.",
+     "把这样的问题全部删掉。每一个结果都不变，代价不会上升，而且任何一条路径需要的问题数，都不超过候选数减一。经内核核验。"
+    ]
+   ]
+  },
+  {
+   "id": "five",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A detector's response is a constant plus two decaying exponentials, with unknown gain, unknown clock rate, and unknown shape. You read it at equally spaced times from the true start.",
+     "一个探测器的响应，是一个常数加上两个衰减的指数项，增益未知，钟率未知，形状也未知。你从真实起点开始，按等间隔时间读取它。"
+    ],
+    [
+     "Five readings determine all three parameters exactly. The engine underneath is Prony's method: a recurrence on a window of moments pins down the hidden nodes and weights. Those steps are frozen in Lean.",
+     "五个读数，就能精确确定全部三个参数。背后的引擎是 Prony 方法：矩序列窗口上的一个递推，锁定了隐藏的节点和权重。这些步骤已冻结在 Lean 中。"
+    ]
+   ]
+  },
+  {
+   "id": "four",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Four readings are not enough. There are two genuinely different detectors that agree at all four sample times, and only split at the fifth.",
+     "四个读数是不够的。存在两个真正不同的探测器，它们在全部四个采样时刻完全一致，直到第五个才分开。"
+    ],
+    [
+     "The proof does not trust floating point. It uses rational interval arithmetic, and the rule that accepted intervals really enclose the true values is itself proved in Lean. So the minimum is exactly five.",
+     "这个证明不信任浮点数。它使用有理区间算术，而被接受的区间确实包住真值这条规则，本身就在 Lean 中得到证明。所以最少恰好是五个。"
+    ]
+   ]
+  },
+  {
+   "id": "duality",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Collect every reading pattern that some real state could produce. It forms a compact convex shape. Any signature outside it is impossible.",
+     "把某个真实状态能够产生的全部读数模式收集起来。它们构成一个紧的凸形状。落在它外面的任何签名，都是不可能的。"
+    ],
+    [
+     "The distance to that shape equals the largest violation any single linear witness can find, and a finite list of protocols is always enough to prove the impossibility. Both are kernel-checked.",
+     "到这个形状的距离，等于任何单个线性见证能找到的最大违背量；而要证明这种不可能，总是只需要有限个协议。两者都经内核核验。"
+    ]
+   ]
+  },
+  {
+   "id": "descent",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "When does a coarse view get its own dynamics? Split the state into a visible part and a hidden part.",
+     "一个粗粒视角，什么时候拥有自己的动力学？把状态分成可见部分和隐藏部分。"
+    ],
+    [
+     "Three conditions turn out to be the same: a visible law exists; the hidden-to-visible block of the operator is zero; and the next visible state depends only on the current visible state. Kernel-checked.",
+     "结果是，三个条件完全等价：存在一个可见层面的规律；算子里从隐藏到可见的那一块为零；下一个可见状态只依赖当前的可见状态。经内核核验。"
+    ]
+   ]
+  },
+  {
+   "id": "fluid",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now a fluid on a doubly periodic square, the Navier–Stokes equations, starting from a field built from two cosine waves.",
+     "现在是一块双周期方形上的流体，纳维–斯托克斯方程，从一个由两道余弦波组成的场出发。"
+    ],
+    [
+     "The Fourier data reproduces that exact field, and the key product estimate holds with the explicit constant sixteen. Both are kernel-checked; they feed a solution kept with every frequency, never truncated.",
+     "傅里叶数据精确地重现了这个场，而关键的乘积估计以显式常数十六成立。两者都经内核核验；它们支撑起一个保留全部频率、从不截断的解。"
+    ]
+   ]
+  },
+  {
+   "id": "unique",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Why is that solution unique? The difference between two solutions obeys an inequality with a kernel that blows up like one over the square root of time.",
+     "为什么这个解是唯一的？两个解之间的差，服从一个不等式，它的核像时间平方根的倒数那样爆炸。"
+    ],
+    [
+     "A lemma frozen in Lean says: a continuous, nonnegative function bounded by such an integral must be zero everywhere. Changing the second wave by delta moves the flow by at most six delta.",
+     "一条冻结在 Lean 中的引理说：一个连续、非负、被这样的积分控制的函数，必定处处为零。把第二道波改变 delta，流动的变化至多是六倍 delta。"
+    ]
+   ]
+  },
+  {
+   "id": "floor",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A hidden initial layer is replaced by a static effective law. How wrong can that be, over all time?",
+     "一个隐藏的初始层，被一条静态的有效规律取代。在全部时间上，这会错得多离谱？"
+    ],
+    [
+     "One inequality carries the answer: if a symmetric matrix sits above c times the identity, its inverse is bounded by one over c. Frozen in Lean, it turns into an error bound that holds for every time, with no extra speed assumptions.",
+     "一个不等式承担了答案：如果一个对称矩阵位于 c 倍单位矩阵之上，它的逆就被一除以 c 控制住。这条已冻结在 Lean 中，它变成一个对所有时刻都成立的误差界，不需要额外的速度假设。"
+    ]
+   ]
+  },
+  {
+   "id": "limit",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Finally, refine forever. At each finite resolution, find the closest feasible law to your data. Those minimal distances are attained, and they only grow.",
+     "最后，无止境地细化。在每一个有限分辨率上，找出离你的数据最近的可行律。这些最小距离都能取到，而且只会增加。"
+    ],
+    [
+     "Their supremum is exactly the minimal distance at the infinite limit, and one single completed law attains it. Kernel-checked.",
+     "它们的上确界，恰好就是无穷极限处的最小距离，而且由同一个完备的律取到。经内核核验。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Legal outputs cost more than separate guesses. Five readings, not four. Distance equals the best witness. Visible laws need a vanishing hidden block. And limits are reached one finite step at a time.",
+     "合法输出比分开猜测更贵。五个读数，而不是四个。距离等于最好的见证。可见规律需要隐藏块为零。而极限，是一个有限步一个有限步地达到的。"
+    ],
+    [
+     "Recovery is not seeing the state. It is knowing exactly what the readings force.",
+     "恢复，不是看见状态。而是精确地知道，读数迫使了什么。"
+    ]
+   ]
+  }
+ ]
+}
