@@ -1,0 +1,201 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "What should an observer carry forward? Not everything it has seen. Only what the next legal step will still need.",
+     "一个观察者应该把什么带向未来？不是它见过的一切，只是下一个合法步骤仍然需要的东西。"
+    ],
+    [
+     "This volume studies three verbs: transport a phase along a path, remember only what a task demands, and complete finite readings into a limit, without pretending the limit was ever reached.",
+     "这卷理论研究三个动词：沿路径运输相位，只记住任务要求的东西，把有限读数完备成极限，而不假装那个极限曾被真正到达。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Transport, memory, completion. A mathematical inverse is not automatically an executable operation.",
+     "运输、记忆、完备化。数学上的逆，不自动是可执行的操作。"
+    ],
+    [
+     "And a geometric repair is not automatically a channel you may use again.",
+     "几何上的修复，也不自动是一条可以反复使用的合法通道。"
+    ]
+   ]
+  },
+  {
+   "id": "anchor",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One edge, two endpoints, a phase phi on the edge. There is no loop, so the usual wisdom says there is no invariant.",
+     "一条边，两个端点，边上一个相位 phi。没有环，所以通常的看法是：没有不变量。"
+    ],
+    [
+     "But fix the phase reference at both ends, and the reading one plus e to the i phi, squared, gives four or zero. Anchored references add invariants: m minus n plus k in all.",
+     "但把两端的相位参考都固定住，读数一加 e 的 i phi 次方的模平方，就会给出四或者零。锚定的参考会增加不变量：总共是 m 减 n 加 k 个。"
+    ]
+   ]
+  },
+  {
+   "id": "phase",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Can intensities recover a loop phase? With one reading, h equal to i and h equal to minus i both give two. Shift the reference by a quarter turn, and they give zero and four.",
+     "强度读数能恢复一个环的相位吗？只读一次，h 等于 i 和 h 等于负 i 都给出二。把参考转过四分之一圈，它们就分别给出零和四。"
+    ],
+    [
+     "Two readings per loop recover the whole phase transport. But no finite memory can track a phase of infinite order: after m repetitions, h and a phase within pi over m of it end up opposite, two apart.",
+     "每个环两次读数，就能恢复整个相位运输。但没有任何有限记忆能追踪一个无限阶的相位：重复 m 次之后，h 和一个与它相差 pi 除以 m 的相位，会走到正相反的位置，相距二。"
+    ]
+   ]
+  },
+  {
+   "id": "memory",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Walk around a circle whose fiber flips sign once per turn. If the task can read the branch, memory needs two states. If it reads only position, one is enough.",
+     "绕着一个圆走，它上面的纤维每转一圈就翻一次符号。如果任务能读分支，记忆需要两个状态。如果只读位置，一个就够了。"
+    ],
+    [
+     "Now three branches and two swaps. Six operations, but only three memory states. Doing a then b, or b then a, uses the same moves and lands on the same reading, yet one more a separates them. Counting windings is not enough.",
+     "现在是三个分支、两种交换。六种操作，却只需要三个记忆状态。先 a 后 b，或先 b 后 a，用的步数相同，落在相同的读数上，但再做一次 a 就把它们分开了。只数绕圈数是不够的。"
+    ]
+   ]
+  },
+  {
+   "id": "gluing",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three bits, but you only keep the exclusive-or of each pair. Every local pair looks fine: all eight triples of records pass the pairwise check.",
+     "三个比特，但你只保留每一对的异或。每一对局部看都没问题：全部八种记录三元组都通过逐对检查。"
+    ],
+    [
+     "Only four come from a real assignment, the ones whose three records sum to zero. One, one, one is locally legal and globally impossible. Compression can break gluing.",
+     "只有四种来自真实的赋值，也就是三条记录之和为零的那些。一一一在局部合法，在整体上却不可能。压缩会破坏拼接。"
+    ]
+   ]
+  },
+  {
+   "id": "star",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A star with n leaves, and a rule: at most one leaf may be on. Each edge's local statistics can be off by only one over n.",
+     "一个有 n 片叶子的星形图，规则是：至多一片叶子亮着。每条边的局部统计只差一除以 n。"
+    ],
+    [
+     "Yet the nearest consistent whole can be at distance one. The best repair constant is exactly n, even with no cycles. Measure the error as a sum over edges instead, and it drops to one.",
+     "然而最近的相容整体可以相距一。最优修复常数恰好是 n，即使图里没有环。如果改成把各边误差相加，它就降到一。"
+    ]
+   ]
+  },
+  {
+   "id": "grid",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A three by four grid of costs. Each cell adds its cost to the cheaper of its upper or left neighbor. The answer in the corner is eleven.",
+     "一个三乘四的代价网格。每个格子把自己的代价加到上方或左方较小的那个上。角落里的答案是十一。"
+    ],
+    [
+     "The same recurrence can run by rows, by columns, or in diagonal waves. Their peak memory is four, three, or up to six. Search all thirty-five possible finished regions, and the minimum peak is three.",
+     "同一个递推可以按行跑、按列跑，或者按对角波跑。它们的峰值记忆分别是四、三，或者高达六。搜遍全部三十五种可能的已完成区域，最小峰值是三。"
+    ]
+   ]
+  },
+  {
+   "id": "sampling",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Two bits must be produced one after the other, each step legal on its own. Aim for the outcomes zero zero or one one.",
+     "两个比特必须一个接一个地产生，每一步单独合法。目标是结果为零零或者一一。"
+    ],
+    [
+     "Step by step, the best you can reach is three quarters. A static table of capacities promises one. Order is a real constraint, and it does not go away with adaptive or random schedules.",
+     "一步一步地做，最好只能达到四分之三。一张静态的容量表承诺的是一。顺序是真实的约束，自适应或随机的调度也消除不了它。"
+    ]
+   ]
+  },
+  {
+   "id": "carry",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A hidden number sits in a two-digit counter. You see only the high digit and can only add one. The low digit leaks out through the carry: the first change at step tau means the low digit was p minus tau.",
+     "一个隐藏的数放在一个两位计数器里。你只看得见高位，只能加一。低位通过进位泄露出来：第一次变化出现在第 tau 步，意味着低位是 p 减 tau。"
+    ],
+    [
+     "Adaptive looking needs only log two of P reads; the shortest wait needs P minus one. You cannot have both. With the fewest reads, the sharp worst wait is j minus one times two to the j, plus one: seventeen when P is eight.",
+     "自适应地看，只需要 log 二 P 次读取；最短的等待需要 P 减一步。两者不可兼得。在读取次数最少时，尖锐的最坏等待是 j 减一乘以二的 j 次方再加一：当 P 等于八时是十七。"
+    ]
+   ]
+  },
+  {
+   "id": "clock",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Keep only the clock phase and the last reading. With a known schedule, j minus one bits of clock suffice. With a hidden schedule, two runs can end at times seven and fifteen: same phase, different sources.",
+     "只保留时钟相位和最后一次读数。调度已知时，时钟只需要 j 减一个比特。调度隐藏时，两次运行可以分别在时刻七和十五结束：相位相同，来源不同。"
+    ],
+    [
+     "One extra bit, the parity of full periods, fixes it. And if a fair coin picks the schedule, the phase and reading keep eleven quarters of the three bits: a quarter bit of the source is lost to clock randomness.",
+     "多一个比特，也就是完整周期数的奇偶，就能解决。而如果由一枚公平硬币选择调度，相位和读数只保留三个比特中的四分之十一：来源的四分之一比特，输给了时钟的随机性。"
+    ]
+   ]
+  },
+  {
+   "id": "labels",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the clock itself is noisy, off by up to epsilon around the circle. A stored label must disambiguate. The minimum number of labels is the chromatic number of a clash graph.",
+     "现在时钟本身带噪声，在圆周上最多偏 epsilon。一个存下来的标签必须消除歧义。所需标签的最小数目，就是一张冲突图的色数。"
+    ],
+    [
+     "In one worked case, any single reading has at most ten candidates, yet ten colors cover at most one hundred twenty of the one hundred twenty-one types. Eleven labels are required. Local ambiguity does not set global memory.",
+     "在一个具体例子里，任何一次读数至多有十个候选，然而十种颜色至多覆盖一百二十一种类型中的一百二十种。需要十一个标签。局部的歧义，不决定整体的记忆。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Transport needs anchors. Memory is set by the task, not by the loop. Completion names limits that no finite run reaches.",
+     "运输需要锚点。记忆由任务决定，而不是由环决定。完备化给出任何有限运行都到不了的极限。"
+    ],
+    [
+     "Carry forward exactly what the next legal step will need, and not one bit more.",
+     "只把下一个合法步骤需要的东西带向未来，一个比特也不多。"
+    ]
+   ]
+  }
+ ]
+}
