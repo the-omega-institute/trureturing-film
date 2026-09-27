@@ -1,0 +1,280 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 22.028
+  },
+  {
+   "id": "title",
+   "start": 22.028,
+   "end": 39.426
+  },
+  {
+   "id": "kernel",
+   "start": 39.426,
+   "end": 63.713
+  },
+  {
+   "id": "threshold",
+   "start": 63.713,
+   "end": 89.074
+  },
+  {
+   "id": "invisible",
+   "start": 89.074,
+   "end": 112.753
+  },
+  {
+   "id": "current",
+   "start": 112.753,
+   "end": 135.912
+  },
+  {
+   "id": "snapshots",
+   "start": 135.912,
+   "end": 155.361
+  },
+  {
+   "id": "orthogonal",
+   "start": 155.361,
+   "end": 174.121
+  },
+  {
+   "id": "search",
+   "start": 174.121,
+   "end": 195.882
+  },
+  {
+   "id": "sparse",
+   "start": 195.882,
+   "end": 215.544
+  },
+  {
+   "id": "golden",
+   "start": 215.544,
+   "end": 234.051
+  },
+  {
+   "id": "ladder",
+   "start": 234.051,
+   "end": 255.505
+  },
+  {
+   "id": "finale",
+   "start": 255.505,
+   "end": 283.289
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 8.604,
+   "en": "Film a system, then play the film backwards. Can you tell which way is forward?",
+   "zh": "拍下一个系统，再把影片倒着放。你能分辨哪个方向是正的吗？"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 9.204,
+   "end": 21.028,
+   "en": "Here is a system where every partial view is pure noise, yet the whole runs one way in time. Six theory volumes study where that hidden arrow lives, and how long you must watch to see it.",
+   "zh": "这里有一个系统：它的每一个局部视角都是纯噪声，而整体却在时间中朝一个方向走。六卷理论研究这支隐藏的箭头住在哪里，以及你要看多久才能看见它。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 23.228,
+   "end": 30.334,
+   "en": "Take d switches, each plus or minus one. The only thing the rule cares about is their product: the parity.",
+   "zh": "取 d 个开关，每个是正一或负一。规则唯一在乎的，是它们的乘积：奇偶性。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 30.934,
+   "end": 38.026,
+   "en": "The first volume's boundary statement says it plainly: white noise in the parts is not reversibility of the whole.",
+   "zh": "第一卷的边界声明说得很直白：边缘白噪声，不等于联合过程可逆。"
+  },
+  {
+   "i": 4,
+   "scene": "kernel",
+   "start": 40.226,
+   "end": 52.739,
+   "en": "The rule tilts only the parity of the next state, by an amount that depends on the current one. Watch any proper subset of switches: independent fair coins, forever. That is kernel-checked in Lean.",
+   "zh": "规则只根据当前状态，倾斜下一个状态的奇偶性。看任何一个真子集的开关：永远是独立的公平硬币。这一点在 Lean 中经内核核验。"
+  },
+  {
+   "i": 5,
+   "scene": "kernel",
+   "start": 53.339,
+   "end": 62.313,
+   "en": "And when the tilts average to zero within each parity class, two steps later the chain has forgotten everything. Its square is the uniform reset.",
+   "zh": "而当每个奇偶类内的倾斜平均为零时，两步之后，这条链就忘掉了一切。它的平方就是均匀重置。"
+  },
+  {
+   "i": 6,
+   "scene": "threshold",
+   "start": 64.513,
+   "end": 72.294,
+   "en": "Measure two things: how much one step tells you, the information, and how differently the path reads backwards, the irreversibility.",
+   "zh": "测量两样东西：一步能告诉你多少，也就是信息；以及路径倒着读有多不同，也就是不可逆率。"
+  },
+  {
+   "i": 7,
+   "scene": "threshold",
+   "start": 72.894,
+   "end": 87.674,
+   "en": "Below a critical information value, irreversibility stays bounded. Exactly at that value, it can be pushed to infinity while the information stays fixed. For three switches, the threshold is about zero point one zero eight.",
+   "zh": "在一个临界信息值以下，不可逆率有界。恰好在这个值上，它可以被推向无穷，而信息保持不变。对三个开关，这个阈值约为零点一零八。"
+  },
+  {
+   "i": 8,
+   "scene": "invisible",
+   "start": 89.874,
+   "end": 98.017,
+   "en": "But irreversibility is not visibility. Put a single peak in the rule: the arrow now lives in one rare jump into the peak state.",
+   "zh": "但是不可逆，不等于可见。在规则里放一个单峰：箭头现在住在一次稀有的跳跃里，跳进那个峰值状态。"
+  },
+  {
+   "i": 9,
+   "scene": "invisible",
+   "start": 98.617,
+   "end": 111.353,
+   "en": "Even when irreversibility per step grows without bound, watching fewer than about n steps leaves you guessing, with error one half. To reach five percent error you need about four point six n steps.",
+   "zh": "即使每一步的不可逆率无界增长，只要观察的步数远少于大约 n 步，你就只能猜，错误率是一半。要把错误率降到百分之五，大约需要四点六 n 步。"
+  },
+  {
+   "i": 10,
+   "scene": "current",
+   "start": 113.553,
+   "end": 123.439,
+   "en": "The whole path's evidence collapses to one number: a net current, the jumps into the peak minus the jumps back out, plus two endpoint terms. Kernel-checked.",
+   "zh": "整条路径的证据，塌缩成一个数：净电流，也就是跳入峰值的次数减去跳出的次数，再加上两个端点项。经内核核验。"
+  },
+  {
+   "i": 11,
+   "scene": "current",
+   "start": 124.039,
+   "end": 134.512,
+   "en": "And the expected wait for the first telltale jump is exactly two n, minus one, minus r steps. Also kernel-checked, with its exact generating function.",
+   "zh": "而等待第一次暴露方向的跳跃，期望恰好是二 n 减一再减 r 步。同样经内核核验，还有它的精确生成函数。"
+  },
+  {
+   "i": 12,
+   "scene": "snapshots",
+   "start": 136.712,
+   "end": 144.542,
+   "en": "A surprise. Compare one continuous movie with the same number of scattered, independent snapshots of consecutive pairs.",
+   "zh": "一个意外。比较一段连续的影片，和同样数量的、分散的、独立的相邻状态快照。"
+  },
+  {
+   "i": 13,
+   "scene": "snapshots",
+   "start": 145.142,
+   "end": 153.961,
+   "en": "The snapshots win, strictly, at every budget. At the same budget, the movie errs eighteen percent of the time, the snapshots only eleven.",
+   "zh": "快照严格胜出，在每一种预算下都是。同样的预算下，影片的错误率是百分之十八，快照只有百分之十一。"
+  },
+  {
+   "i": 14,
+   "scene": "orthogonal",
+   "start": 156.161,
+   "end": 164.657,
+   "en": "Forward and backward likelihoods in this family are orthogonal in a precise sense: their inner product is exactly one, whatever the kernels.",
+   "zh": "在这个族里，正向似然与反向似然在精确意义上正交：无论取什么核，它们的内积恰好是一。"
+  },
+  {
+   "i": 15,
+   "scene": "orthogonal",
+   "start": 165.257,
+   "end": 172.721,
+   "en": "Same-direction products grow like a power; opposite-direction products stay flat. Both identities are frozen in Lean.",
+   "zh": "同方向的乘积像幂一样增长；反方向的乘积保持平坦。两条恒等式都已冻结在 Lean 中。"
+  },
+  {
+   "i": 16,
+   "scene": "search",
+   "start": 174.921,
+   "end": 184.051,
+   "en": "Now suppose you do not know which state is the peak. You pay a logarithm: the sample size must pass log M divided by the per-sample information.",
+   "zh": "现在假设你不知道哪个状态是峰值。你要付出一个对数：样本量必须越过 log M 除以每个样本的信息。"
+  },
+  {
+   "i": 17,
+   "scene": "search",
+   "start": 184.651,
+   "end": 194.482,
+   "en": "Below the line, the direction is a coin flip and the peak is lost. Above it, both are found. Inside the window, the direction risk follows a normal curve.",
+   "zh": "在这条线以下，方向就是抛硬币，峰值也找不到。在线以上，两者都能找到。在窗口之内，方向风险服从一条正态曲线。"
+  },
+  {
+   "i": 18,
+   "scene": "sparse",
+   "start": 196.682,
+   "end": 204.562,
+   "en": "With many hidden peaks, three thresholds separate. First you can learn the arrow, while its sources remain completely unrecoverable.",
+   "zh": "有许多隐藏峰值时，三个阈值彼此分开。先是你能学到箭头的方向，而它的来源仍然完全无法恢复。"
+  },
+  {
+   "i": 19,
+   "scene": "sparse",
+   "start": 205.162,
+   "end": 214.144,
+   "en": "Then almost all sources can be found, then every one exactly. Knowing which way time runs is strictly easier than knowing where the arrow comes from.",
+   "zh": "接着几乎所有来源都能找到，再往后，每一个都能精确找到。知道时间朝哪个方向走，严格地比知道箭头从哪里来更容易。"
+  },
+  {
+   "i": 20,
+   "scene": "golden",
+   "start": 216.344,
+   "end": 222.961,
+   "en": "At the golden amplitude, one over phi, the exact recovery risk never settles as the dimension grows.",
+   "zh": "在黄金振幅，也就是 phi 分之一时，随着维数增长，精确恢复的风险永远不会稳定下来。"
+  },
+  {
+   "i": 21,
+   "scene": "golden",
+   "start": 223.561,
+   "end": 232.651,
+   "en": "It keeps jumping between two curves, because log two over log phi is irrational, and a phase keeps rotating around a circle it never repeats.",
+   "zh": "它在两条曲线之间不停跳动，因为 log 二除以 log phi 是无理数，一个相位在圆上不停旋转，永不重复。"
+  },
+  {
+   "i": 22,
+   "scene": "ladder",
+   "start": 234.851,
+   "end": 246.072,
+   "en": "Zoom into the critical window, and the posterior noise goes through phases. A single Gaussian jump. Then a finite random staircase. Then a continuous Brownian path.",
+   "zh": "放大临界窗口，后验噪声会经历一系列相。一次高斯跳跃。然后是有限的随机阶梯。然后是连续的布朗路径。"
+  },
+  {
+   "i": 23,
+   "scene": "ladder",
+   "start": 246.672,
+   "end": 254.105,
+   "en": "At the edge, a boundary layer shrinks but never vanishes. The outer law can approach the endpoint, but can never include it.",
+   "zh": "在边缘，一层边界层不断变窄，却永不消失。外部律可以逼近端点，但永远不能包含端点。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 256.505,
+   "end": 264.823,
+   "en": "The arrow was never in any part. It lived in the relation among all of them. And a large arrow is not the same as a visible one.",
+   "zh": "箭头从来不在任何一个部分里。它住在所有部分之间的关系里。而一支很大的箭头，不等于一支看得见的箭头。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 265.423,
+   "end": 274.289,
+   "en": "Six volumes, argued on paper. Six Lean modules frozen in the kernel. White noise in the parts is not reversibility of the whole.",
+   "zh": "六卷纸面论证。六个 Lean 模块冻结在内核中。边缘白噪声，不等于联合过程可逆。"
+  }
+ ],
+ "duration": 283.289
+}

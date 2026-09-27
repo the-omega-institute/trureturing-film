@@ -24,6 +24,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 010 | [CRITICAL LINE](films/010-riemann/) · 临界线 | 5:07 | EN (AI) / music-only | ZH + EN |
 | 011 | [FIXED FRAME](films/011-gict/) · 黄金不动坐标 | 5:19 | EN (AI) / music-only | ZH + EN |
 | 012 | [OBSERVATION QUOTIENT](films/012-rro/) · 递归关系观察 | 5:07 | EN (AI) / music-only | ZH + EN |
+| 013 | [HIDDEN ARROW](films/013-parity-arrow/) · 奇偶隐藏时间箭头 | 4:44 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

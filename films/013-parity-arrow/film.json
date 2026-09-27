@@ -1,0 +1,26 @@
+{
+  "id": "013-parity-arrow",
+  "title": "HIDDEN ARROW",
+  "title_zh": "奇偶隐藏时间箭头",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "a7731f1ea5",
+  "released": "2026-09-27",
+  "duration": "4:44",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_narrated_EN_subs_ZH-EN.mp4",
+    "music_only": "TRURETURING_music_only_subs_ZH-EN.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}
