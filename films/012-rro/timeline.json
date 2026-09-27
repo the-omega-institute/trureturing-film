@@ -1,0 +1,280 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 23.15
+  },
+  {
+   "id": "title",
+   "start": 23.15,
+   "end": 41.416
+  },
+  {
+   "id": "kernel",
+   "start": 41.416,
+   "end": 61.233
+  },
+  {
+   "id": "history",
+   "start": 61.233,
+   "end": 82.269
+  },
+  {
+   "id": "crt",
+   "start": 82.269,
+   "end": 104.694
+  },
+  {
+   "id": "parity",
+   "start": 104.694,
+   "end": 129.106
+  },
+  {
+   "id": "ghost",
+   "start": 129.106,
+   "end": 155.361
+  },
+  {
+   "id": "zeck",
+   "start": 155.361,
+   "end": 178.942
+  },
+  {
+   "id": "arrow",
+   "start": 178.942,
+   "end": 204.341
+  },
+  {
+   "id": "joint",
+   "start": 204.341,
+   "end": 226.797
+  },
+  {
+   "id": "capacity",
+   "start": 226.797,
+   "end": 254.385
+  },
+  {
+   "id": "lean",
+   "start": 254.385,
+   "end": 281.367
+  },
+  {
+   "id": "finale",
+   "start": 281.367,
+   "end": 306.173
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 9.334,
+   "en": "To observe is to forget. Every reading keeps some differences and throws the rest away.",
+   "zh": "观察就是遗忘。每一次读取，都保留一部分差别，丢掉其余的。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 9.934,
+   "end": 22.15,
+   "en": "Eleven volumes of this project ask one question, over and over: after you look, what survives? They are argued on paper. The first page says so: a theory reference, not a Lean receipt.",
+   "zh": "这个项目的十一卷，反复追问同一个问题：看过之后，什么留了下来？它们是纸面论证。第一页就写明：这是理论参考输入，不是 Lean 验证收据。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 24.35,
+   "end": 32.154,
+   "en": "Recursive relational observation. Relations built on relations, read through observations built on observations.",
+   "zh": "递归关系观察。建立在关系之上的关系，透过建立在观察之上的观察来读取。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 32.754,
+   "end": 40.016,
+   "en": "The questions: which structure survives the looking, and which ghosts appear when finite readings are completed into a limit?",
+   "zh": "问题是：哪些结构能在观察之后存活，而把有限读数完备成极限时，又会冒出哪些幽灵？"
+  },
+  {
+   "i": 4,
+   "scene": "kernel",
+   "start": 42.216,
+   "end": 52.733,
+   "en": "Merge every pair of states the reading cannot tell apart. An operation survives the merge only if it never separates two merged states. Any such pair is an escape.",
+   "zh": "把读数分不开的状态全部合并。一个运算能在合并后存活，当且仅当它从不把两个已合并的状态分开。任何这样的一对，就是一次逃逸。"
+  },
+  {
+   "i": 5,
+   "scene": "kernel",
+   "start": 53.333,
+   "end": 59.833,
+   "en": "And one rule holds everywhere: post-processing a reading can never recover a difference it has already lost.",
+   "zh": "还有一条处处成立的规则：对读数做后处理，永远找不回它已经丢掉的差别。"
+  },
+  {
+   "i": 6,
+   "scene": "history",
+   "start": 62.033,
+   "end": 70.321,
+   "en": "Two different paths can join the same two points. Keep only the fact that some path exists, and the difference between the paths is gone.",
+   "zh": "两条不同的路径可以连接同样的两个点。如果只保留存在一条路径这个事实，路径之间的差别就消失了。"
+  },
+  {
+   "i": 7,
+   "scene": "history",
+   "start": 70.921,
+   "end": 80.869,
+   "en": "So the theory's first rule: history must live in the data itself. A proof that the history was legal only constrains it; it cannot tell two histories apart.",
+   "zh": "所以理论的第一条规则：历史必须住在数据本身里。证明历史合法，只起约束作用；它分不开两段不同的历史。"
+  },
+  {
+   "i": 8,
+   "scene": "crt",
+   "start": 83.069,
+   "end": 92.691,
+   "en": "Read a number modulo two and modulo three. All six pairs of readings occur. Now read it modulo two and modulo four. Half the pairs never occur.",
+   "zh": "把一个数分别模二和模三来读。六种读数组合全部出现。现在改成模二和模四。一半的组合永远不会出现。"
+  },
+  {
+   "i": 9,
+   "scene": "crt",
+   "start": 93.291,
+   "end": 103.294,
+   "en": "Each reading is legal on its own, but the pair has no common witness. The readings are jointly free exactly when the moduli are coprime. Kernel-checked.",
+   "zh": "每个读数单独看都合法，但这一对没有共同的见证。两个读数联合自由，当且仅当模数互素。经内核核验。"
+  },
+  {
+   "i": 10,
+   "scene": "parity",
+   "start": 105.494,
+   "end": 115.319,
+   "en": "Which numbers count as the same depends on which operations you allow. Watch parity. With addition and multiplication, there are two classes: even and odd.",
+   "zh": "哪些数算作相同，取决于你允许哪些运算。看奇偶性。只有加法和乘法时，有两类：偶数和奇数。"
+  },
+  {
+   "i": 11,
+   "scene": "parity",
+   "start": 115.919,
+   "end": 127.706,
+   "en": "Add powers, and zero splits from the other even numbers, because zero to the zero is one. Add subtraction, and every number is distinguished. Two, three, then infinitely many.",
+   "zh": "加上幂运算，零就和其他偶数分开了，因为零的零次方是一。再加上减法，每个数都被区分开。两类，三类，然后无穷多类。"
+  },
+  {
+   "i": 12,
+   "scene": "ghost",
+   "start": 129.906,
+   "end": 139.873,
+   "en": "Now complete the finite readings into a limit. Stage by stage, a middle reading always seems to exist, yet no single actual element supplies it.",
+   "zh": "现在把有限读数完备成极限。每一层都似乎存在一个中间读数，但并没有同一个实际元素来提供它。"
+  },
+  {
+   "i": 13,
+   "scene": "ghost",
+   "start": 140.473,
+   "end": 153.961,
+   "en": "In one example, the only common middle witness of a completed composite is a point that was never in the original set. A ghost. Finite stages recover the closure of a relation, not the relation.",
+   "zh": "在一个例子里，完备复合唯一的共同中间见证，是一个从来不在原集合里的点。一个幽灵。有限阶段恢复的是关系的闭包，而不是关系本身。"
+  },
+  {
+   "i": 14,
+   "scene": "zeck",
+   "start": 156.161,
+   "end": 165.934,
+   "en": "Write natural numbers in Zeckendorf digits, sums of non-adjacent Fibonacci numbers, and close up the graph of addition. Every true sum survives.",
+   "zh": "用 Zeckendorf 数位写自然数，也就是不相邻斐波那契数之和，然后把加法的图取闭包。每一个真实的和都保留下来。"
+  },
+  {
+   "i": 15,
+   "scene": "zeck",
+   "start": 166.534,
+   "end": 177.542,
+   "en": "Yet adding zero can now give two different answers. And no continuous addition on infinite digit streams extends ordinary addition. That last fact is kernel-checked.",
+   "zh": "然而，加上零现在可以得到两个不同的答案。而且，在无限数位流上，不存在任何连续的加法能延拓普通加法。最后这一条经内核核验。"
+  },
+  {
+   "i": 16,
+   "scene": "arrow",
+   "start": 179.742,
+   "end": 190.005,
+   "en": "Is a process running forward or backward in time? For any stationary stream of bits, every window of one, two or three letters looks exactly the same reversed.",
+   "zh": "一个过程是在时间中正着走还是倒着走？对任何平稳的比特流，每一个一、二、三个字母的窗口，倒过来看都完全一样。"
+  },
+  {
+   "i": 17,
+   "scene": "arrow",
+   "start": 190.605,
+   "end": 202.941,
+   "en": "Walk around a six-cycle and read six labels. The arrow of time is invisible in three-letter windows, and first appears at four letters, with strength p cubed minus q cubed, over six.",
+   "zh": "在一个六元环上游走，读出六个标签。时间之箭在三字母窗口里不可见，要到四个字母才第一次显露，强度是 p 的立方减 q 的立方，再除以六。"
+  },
+  {
+   "i": 18,
+   "scene": "joint",
+   "start": 205.141,
+   "end": 215.088,
+   "en": "Two clocks each show a fair zero or one. In one world they share a source. In the other they are independent. One at a time, the two worlds look identical.",
+   "zh": "两只钟，各自公平地显示零或一。在一个世界里，它们共享同一个来源；在另一个世界里，它们彼此独立。单独看，两个世界一模一样。"
+  },
+  {
+   "i": 19,
+   "scene": "joint",
+   "start": 215.688,
+   "end": 225.397,
+   "en": "Now ask: do the clocks agree? Always, in the first world. Half the time, in the second. The same marginal clocks do not give the same joint protocol.",
+   "zh": "现在问：两只钟一致吗？第一个世界里，永远一致。第二个世界里，一半时间一致。相同的边缘时钟律，推不出相同的联合时钟协议。"
+  },
+  {
+   "i": 20,
+   "scene": "capacity",
+   "start": 227.597,
+   "end": 241.235,
+   "en": "How much memory does a receiver need to recover a stream that carries an unknown common phase? With five read-out terminals, a fixed receiver needs exactly seven dimensions. Six is proved impossible.",
+   "zh": "一个接收器要恢复一段带有未知共同相位的信号流，需要多少记忆？五个读出终端时，固定接收器恰好需要七维。六维被证明不可能。"
+  },
+  {
+   "i": 21,
+   "scene": "capacity",
+   "start": 241.835,
+   "end": 252.985,
+   "en": "And as one amplitude slides to zero, the exact capacity drops by N minus two, in a single jump at the endpoint. Memory is not a smooth function of the source.",
+   "zh": "而当一个振幅滑向零时，精确容量在端点处一下子下降 N 减二。记忆，不是信号源的光滑函数。"
+  },
+  {
+   "i": 22,
+   "scene": "lean",
+   "start": 255.185,
+   "end": 268.389,
+   "en": "Most of this is paper mathematics. A few results reach frozen Lean: the coprime law for joint residues, no continuous digit addition, and a memory lower bound for tracking the longest run of zeros.",
+   "zh": "这些大多是纸面数学。有少数结果进入了冻结的 Lean：联合剩余的互素律，不存在连续的数位加法，以及追踪最长零串所需的记忆下界。"
+  },
+  {
+   "i": 23,
+   "scene": "lean",
+   "start": 268.989,
+   "end": 279.967,
+   "en": "Also frozen: a certificate of lag m gives an explicit exchange chain of length at most two m minus one, and a golden lattice completion of index exactly two.",
+   "zh": "同样已冻结：一个滞后为 m 的证书，给出长度至多为二 m 减一的显式交换链；以及一个指数恰为二的黄金格完备化。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 282.367,
+   "end": 291.837,
+   "en": "Keeping old records makes what you can tell apart grow finer, and still leaves a remainder you cannot. Keep the raw event. Revise the interpretation.",
+   "zh": "保留旧记录，能让可分辨的差别不断细化，同时仍留下尚未分开的余项。保留原始事件，修正解释。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 292.437,
+   "end": 297.173,
+   "en": "To observe is to forget. The discipline is to know exactly what you forgot.",
+   "zh": "观察就是遗忘。纪律，是精确地知道自己忘了什么。"
+  }
+ ],
+ "duration": 306.173
+}

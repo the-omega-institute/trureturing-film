@@ -1,0 +1,26 @@
+{
+  "id": "012-rro",
+  "title": "OBSERVATION QUOTIENT",
+  "title_zh": "递归关系观察",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "0f7786da60",
+  "released": "2026-09-27",
+  "duration": "5:07",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_narrated_EN_subs_ZH-EN.mp4",
+    "music_only": "TRURETURING_music_only_subs_ZH-EN.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}

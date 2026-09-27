@@ -1,0 +1,58 @@
+{
+  "voice": "af_heart",
+  "speed": 0.94,
+  "scenes": [
+    {"id": "open", "lead": 4.0, "tail": 1.0, "lines": [
+      ["To observe is to forget. Every reading keeps some differences and throws the rest away.", "观察就是遗忘。每一次读取，都保留一部分差别，丢掉其余的。"],
+      ["Eleven volumes of this project ask one question, over and over: after you look, what survives? They are argued on paper. The first page says so: a theory reference, not a Lean receipt.", "这个项目的十一卷，反复追问同一个问题：看过之后，什么留了下来？它们是纸面论证。第一页就写明：这是理论参考输入，不是 Lean 验证收据。"]
+    ]},
+    {"id": "title", "lead": 1.2, "tail": 1.4, "lines": [
+      ["Recursive relational observation. Relations built on relations, read through observations built on observations.", "递归关系观察。建立在关系之上的关系，透过建立在观察之上的观察来读取。"],
+      ["The questions: which structure survives the looking, and which ghosts appear when finite readings are completed into a limit?", "问题是：哪些结构能在观察之后存活，而把有限读数完备成极限时，又会冒出哪些幽灵？"]
+    ]},
+    {"id": "kernel", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Merge every pair of states the reading cannot tell apart. An operation survives the merge only if it never separates two merged states. Any such pair is an escape.", "把读数分不开的状态全部合并。一个运算能在合并后存活，当且仅当它从不把两个已合并的状态分开。任何这样的一对，就是一次逃逸。"],
+      ["And one rule holds everywhere: post-processing a reading can never recover a difference it has already lost.", "还有一条处处成立的规则：对读数做后处理，永远找不回它已经丢掉的差别。"]
+    ]},
+    {"id": "history", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Two different paths can join the same two points. Keep only the fact that some path exists, and the difference between the paths is gone.", "两条不同的路径可以连接同样的两个点。如果只保留存在一条路径这个事实，路径之间的差别就消失了。"],
+      ["So the theory's first rule: history must live in the data itself. A proof that the history was legal only constrains it; it cannot tell two histories apart.", "所以理论的第一条规则：历史必须住在数据本身里。证明历史合法，只起约束作用；它分不开两段不同的历史。"]
+    ]},
+    {"id": "crt", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Read a number modulo two and modulo three. All six pairs of readings occur. Now read it modulo two and modulo four. Half the pairs never occur.", "把一个数分别模二和模三来读。六种读数组合全部出现。现在改成模二和模四。一半的组合永远不会出现。"],
+      ["Each reading is legal on its own, but the pair has no common witness. The readings are jointly free exactly when the moduli are coprime. Kernel-checked.", "每个读数单独看都合法，但这一对没有共同的见证。两个读数联合自由，当且仅当模数互素。经内核核验。"]
+    ]},
+    {"id": "parity", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Which numbers count as the same depends on which operations you allow. Watch parity. With addition and multiplication, there are two classes: even and odd.", "哪些数算作相同，取决于你允许哪些运算。看奇偶性。只有加法和乘法时，有两类：偶数和奇数。"],
+      ["Add powers, and zero splits from the other even numbers, because zero to the zero is one. Add subtraction, and every number is distinguished. Two, three, then infinitely many.", "加上幂运算，零就和其他偶数分开了，因为零的零次方是一。再加上减法，每个数都被区分开。两类，三类，然后无穷多类。"]
+    ]},
+    {"id": "ghost", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Now complete the finite readings into a limit. Stage by stage, a middle reading always seems to exist, yet no single actual element supplies it.", "现在把有限读数完备成极限。每一层都似乎存在一个中间读数，但并没有同一个实际元素来提供它。"],
+      ["In one example, the only common middle witness of a completed composite is a point that was never in the original set. A ghost. Finite stages recover the closure of a relation, not the relation.", "在一个例子里，完备复合唯一的共同中间见证，是一个从来不在原集合里的点。一个幽灵。有限阶段恢复的是关系的闭包，而不是关系本身。"]
+    ]},
+    {"id": "zeck", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Write natural numbers in Zeckendorf digits, sums of non-adjacent Fibonacci numbers, and close up the graph of addition. Every true sum survives.", "用 Zeckendorf 数位写自然数，也就是不相邻斐波那契数之和，然后把加法的图取闭包。每一个真实的和都保留下来。"],
+      ["Yet adding zero can now give two different answers. And no continuous addition on infinite digit streams extends ordinary addition. That last fact is kernel-checked.", "然而，加上零现在可以得到两个不同的答案。而且，在无限数位流上，不存在任何连续的加法能延拓普通加法。最后这一条经内核核验。"]
+    ]},
+    {"id": "arrow", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Is a process running forward or backward in time? For any stationary stream of bits, every window of one, two or three letters looks exactly the same reversed.", "一个过程是在时间中正着走还是倒着走？对任何平稳的比特流，每一个一、二、三个字母的窗口，倒过来看都完全一样。"],
+      ["Walk around a six-cycle and read six labels. The arrow of time is invisible in three-letter windows, and first appears at four letters, with strength p cubed minus q cubed, over six.", "在一个六元环上游走，读出六个标签。时间之箭在三字母窗口里不可见，要到四个字母才第一次显露，强度是 p 的立方减 q 的立方，再除以六。"]
+    ]},
+    {"id": "joint", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Two clocks each show a fair zero or one. In one world they share a source. In the other they are independent. One at a time, the two worlds look identical.", "两只钟，各自公平地显示零或一。在一个世界里，它们共享同一个来源；在另一个世界里，它们彼此独立。单独看，两个世界一模一样。"],
+      ["Now ask: do the clocks agree? Always, in the first world. Half the time, in the second. The same marginal clocks do not give the same joint protocol.", "现在问：两只钟一致吗？第一个世界里，永远一致。第二个世界里，一半时间一致。相同的边缘时钟律，推不出相同的联合时钟协议。"]
+    ]},
+    {"id": "capacity", "lead": 0.8, "tail": 1.4, "lines": [
+      ["How much memory does a receiver need to recover a stream that carries an unknown common phase? With five read-out terminals, a fixed receiver needs exactly seven dimensions. Six is proved impossible.", "一个接收器要恢复一段带有未知共同相位的信号流，需要多少记忆？五个读出终端时，固定接收器恰好需要七维。六维被证明不可能。"],
+      ["And as one amplitude slides to zero, the exact capacity drops by N minus two, in a single jump at the endpoint. Memory is not a smooth function of the source.", "而当一个振幅滑向零时，精确容量在端点处一下子下降 N 减二。记忆，不是信号源的光滑函数。"]
+    ]},
+    {"id": "lean", "lead": 0.8, "tail": 1.4, "lines": [
+      ["Most of this is paper mathematics. A few results reach frozen Lean: the coprime law for joint residues, no continuous digit addition, and a memory lower bound for tracking the longest run of zeros.", "这些大多是纸面数学。有少数结果进入了冻结的 Lean：联合剩余的互素律，不存在连续的数位加法，以及追踪最长零串所需的记忆下界。"],
+      ["Also frozen: a certificate of lag m gives an explicit exchange chain of length at most two m minus one, and a golden lattice completion of index exactly two.", "同样已冻结：一个滞后为 m 的证书，给出长度至多为二 m 减一的显式交换链；以及一个指数恰为二的黄金格完备化。"]
+    ]},
+    {"id": "finale", "lead": 1.0, "tail": 9.0, "lines": [
+      ["Keeping old records makes what you can tell apart grow finer, and still leaves a remainder you cannot. Keep the raw event. Revise the interpretation.", "保留旧记录，能让可分辨的差别不断细化，同时仍留下尚未分开的余项。保留原始事件，修正解释。"],
+      ["To observe is to forget. The discipline is to know exactly what you forgot.", "观察就是遗忘。纪律，是精确地知道自己忘了什么。"]
+    ]}
+  ]
+}
