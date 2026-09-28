@@ -1,0 +1,322 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 22.637
+  },
+  {
+   "id": "title",
+   "start": 22.637,
+   "end": 37.867
+  },
+  {
+   "id": "bell",
+   "start": 37.867,
+   "end": 57.212
+  },
+  {
+   "id": "hidden",
+   "start": 57.212,
+   "end": 86.552
+  },
+  {
+   "id": "repair",
+   "start": 86.552,
+   "end": 115.592
+  },
+  {
+   "id": "copies",
+   "start": 115.592,
+   "end": 140.163
+  },
+  {
+   "id": "kernel",
+   "start": 140.163,
+   "end": 165.677
+  },
+  {
+   "id": "alias",
+   "start": 165.677,
+   "end": 187.155
+  },
+  {
+   "id": "golden",
+   "start": 187.155,
+   "end": 219.608
+  },
+  {
+   "id": "shared",
+   "start": 219.608,
+   "end": 244.52
+  },
+  {
+   "id": "archive",
+   "start": 244.52,
+   "end": 269.642
+  },
+  {
+   "id": "glue",
+   "start": 269.642,
+   "end": 294.84
+  },
+  {
+   "id": "parity",
+   "start": 294.84,
+   "end": 322.192
+  },
+  {
+   "id": "window",
+   "start": 322.192,
+   "end": 346.736
+  },
+  {
+   "id": "finale",
+   "start": 346.736,
+   "end": 371.237
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 10.121,
+   "en": "Let a quantum system run for a random time. Then forget exactly when you stopped. What is left?",
+   "zh": "让一个量子系统运行一段随机的时间，然后忘掉你到底何时停下。还剩下什么？"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 10.721,
+   "end": 21.637,
+   "en": "This volume treats a clock not as a number line, but as a record the observer keeps: shared or independent, forgotten or retained. Each choice changes what can be known.",
+   "zh": "这卷理论不把时钟当成一条数轴，而是当成观察者保留的一份记录：共享的或独立的，忘记的或保留的。每一种选择，都会改变能够知道的东西。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 23.837,
+   "end": 26.988,
+   "en": "Joint sources, quantum relations, and finite clocks.",
+   "zh": "联合来源、量子关系与有限时钟。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 27.588,
+   "end": 36.467,
+   "en": "A shared phase copy is not an independent source. Forgetting a time is not obtaining it. A formal inverse is not a permitted reversal.",
+   "zh": "共享的相位副本不是独立来源。忘记时刻不是取得时刻。形式上的逆，不是被允许的反转。"
+  },
+  {
+   "i": 4,
+   "scene": "bell",
+   "start": 38.667,
+   "end": 46.522,
+   "en": "Two Bell states, phi plus and phi minus. Each side, looked at alone, sees exactly the same maximally mixed state.",
+   "zh": "两个 Bell 态，phi 正与 phi 负。单独看每一侧，看到的都是完全相同的最大混合态。"
+  },
+  {
+   "i": 5,
+   "scene": "bell",
+   "start": 47.122,
+   "end": 55.812,
+   "en": "Yet measure X on both sides and multiply: plus one for one state, minus one for the other. The difference lives only in the relation.",
+   "zh": "可是在两侧都测 X 再相乘：一个态给出正一，另一个给出负一。区别只存在于关系之中。"
+  },
+  {
+   "i": 6,
+   "scene": "hidden",
+   "start": 58.012,
+   "end": 71.018,
+   "en": "Now a family of two-qubit states with the same energy, the same one-sided states, and the same basis statistics: zero, one half, one half, zero. They differ only in a hidden coherence c.",
+   "zh": "现在看一族两比特态：能量相同，单侧态相同，基底统计也相同——零、二分之一、二分之一、零。它们只在一个隐藏的相干 c 上不同。"
+  },
+  {
+   "i": 7,
+   "scene": "hidden",
+   "start": 71.618,
+   "end": 85.152,
+   "en": "The state is entangled exactly when c is not zero. An energy-conserving gate turns c into a later local reading: two times the real part of c. No update rule on the summary can predict that.",
+   "zh": "当且仅当 c 不为零，这个态是纠缠的。一个守能的门会把 c 变成之后的局部读数：c 的实部的两倍。任何只作用于摘要的更新规则，都预测不了它。"
+  },
+  {
+   "i": 8,
+   "scene": "repair",
+   "start": 87.352,
+   "end": 99.55,
+   "en": "How far is a qubit from the nearest state with a prescribed occupation? For interior targets the answer is linear in the mismatch, with sharp constant one over two root p times one minus p.",
+   "zh": "一个量子比特离指定占据数的最近态有多远？对内部目标，答案与偏差成线性，精确常数是二倍根号 p 乘一减 p 分之一。"
+  },
+  {
+   "i": 9,
+   "scene": "repair",
+   "start": 100.15,
+   "end": 114.192,
+   "en": "At the poles it becomes a square root: a mismatch of one ten-thousandth needs a move of one hundredth. And the nearest-point map is not even a legal quantum channel: its Choi matrix has eigenvalue minus one half.",
+   "zh": "到了两极，它变成平方根：万分之一的偏差，需要百分之一的移动。而且最近点映射甚至不是合法的量子通道：它的 Choi 矩阵有一个负二分之一的本征值。"
+  },
+  {
+   "i": 10,
+   "scene": "copies",
+   "start": 116.392,
+   "end": 126.725,
+   "en": "With one unknown phase, the plus state and the maximally mixed state look alike. Take two copies sharing that phase, and a joint test gives one half versus one quarter.",
+   "zh": "在一个未知相位下，正态和最大混合态看起来一样。取共享这个相位的两份副本，一个联合检验就给出二分之一对四分之一。"
+  },
+  {
+   "i": 11,
+   "scene": "copies",
+   "start": 127.325,
+   "end": 138.763,
+   "en": "With energies zero, one and m, two states agree on every relation below m copies. For the hardest pairs, exactly two m minus one copies are needed, and never fewer.",
+   "zh": "当能量是零、一和 m 时，两个态在少于 m 份副本的所有关系上都一致。最难的一对，恰好需要二 m 减一份副本，一份都不能少。"
+  },
+  {
+   "i": 12,
+   "scene": "kernel",
+   "start": 140.963,
+   "end": 150.918,
+   "en": "Averaging over a random time multiplies each energy-gap coherence by the clock's resonance kernel. Equal energies survive. Different energies fade.",
+   "zh": "对随机时间取平均，会把每一个能隙相干乘上时钟的共振核。能量相同的保留下来，能量不同的逐渐消退。"
+  },
+  {
+   "i": 13,
+   "scene": "kernel",
+   "start": 151.518,
+   "end": 164.277,
+   "en": "With a uniform window of length T, the error is half the sinc of g T over two. It vanishes exactly at g T equal to two pi, then comes back. Waiting longer is not always better.",
+   "zh": "用长度为 T 的均匀窗口，误差是 g T 除以二的 sinc 的一半。它恰好在 g T 等于二 pi 时归零，然后又回来。等得更久，并不总是更好。"
+  },
+  {
+   "i": 14,
+   "scene": "alias",
+   "start": 166.477,
+   "end": 174.481,
+   "en": "Now a clock that fires at times zero, two tau and three tau. A gap of two pi over tau fits every one of them exactly.",
+   "zh": "现在换一个时钟，它只在零、二 tau、三 tau 时刻触发。二 pi 除以 tau 的能隙，恰好契合每一个时刻。"
+  },
+  {
+   "i": 15,
+   "scene": "alias",
+   "start": 175.081,
+   "end": 185.755,
+   "en": "That coherence is never erased, no matter how many times the clock is used. The kernel stays exactly one. Integer times alias; some gaps are simply invisible.",
+   "zh": "无论这个时钟用多少次，那个相干都不会被抹去，共振核始终精确等于一。整数时刻会产生别名；有些能隙就是看不见的。"
+  },
+  {
+   "i": 16,
+   "scene": "golden",
+   "start": 187.955,
+   "end": 202.833,
+   "en": "Use the golden ratio instead: times zero, tau and phi tau. Irrational, so every gap is eventually erased. But choose gaps at Fibonacci multiples, and phi tau misses a full turn by only phi to the minus N.",
+   "zh": "改用黄金比：零、tau 和 phi tau 三个时刻。无理数，所以每个能隙最终都会被抹去。但若把能隙取在斐波那契倍数上，phi tau 离整圈只差 phi 的负 N 次方。"
+  },
+  {
+   "i": 17,
+   "scene": "golden",
+   "start": 203.433,
+   "end": 218.208,
+   "en": "At Fibonacci two hundred thirty-three, after a hundred uses, the error is still zero point four nine nine. An exponential clock with the same mean wait drives it down fast. Same mean wait, completely different resolution.",
+   "zh": "在斐波那契数二百三十三处，用一百次之后，误差仍是零点四九九。平均等待相同的指数时钟，却能很快把它压下去。平均等待相同，分辨率截然不同。"
+  },
+  {
+   "i": 18,
+   "scene": "shared",
+   "start": 220.408,
+   "end": 233.406,
+   "en": "Two clocks can have identical marginals, heads or tails half the time each, and still differ jointly. Ask whether the two clocks agree: a shared source says always, independent coins say half the time.",
+   "zh": "两个时钟的边缘分布可以完全相同——正反各半——联合起来却不同。问一句两个时钟是否一致：共享来源说总是一致，独立硬币说一半时候一致。"
+  },
+  {
+   "i": 19,
+   "scene": "shared",
+   "start": 234.006,
+   "end": 243.12,
+   "en": "In quantum form, two atoms under one shared clock keep their exchange coherence forever. Under independent clocks it decays with every step.",
+   "zh": "换成量子形式：同一个共享时钟下的两个原子，永远保持它们的交换相干；在各自独立的时钟下，它每一步都在衰减。"
+  },
+  {
+   "i": 20,
+   "scene": "archive",
+   "start": 245.32,
+   "end": 256.622,
+   "en": "Can a record recover the time a path has taken? Pair every two runs that leave the same visible record. The clock is readable exactly when every reachable pair costs the same.",
+   "zh": "一份记录能否恢复一条路径所用的时间？把每两个留下相同可见记录的运行配成一对。当且仅当每一个可达的配对代价都相同，时钟才可读。"
+  },
+  {
+   "i": 21,
+   "scene": "archive",
+   "start": 257.222,
+   "end": 268.242,
+   "en": "If it fails, a witness appears within n squared steps, for n states. And a loop that returns to the same state cannot be timed by the state alone: you must remember the laps.",
+   "zh": "如果不可读，在 n 个状态下，n 的平方步之内必然出现证人。而一个回到同一状态的环，不能只靠状态来计时：你必须记住圈数。"
+  },
+  {
+   "i": 22,
+   "scene": "glue",
+   "start": 270.442,
+   "end": 281.636,
+   "en": "One real source with a mod four clock has eight states. Cut it into two parties by parity, and gluing local views that match gives sixteen: eight are ghosts that never happen.",
+   "zh": "一个带模四时钟的真实来源有八个状态。按奇偶把它切给两方，把相互吻合的局部视图粘起来，会得到十六个：其中八个是从不发生的幽灵。"
+  },
+  {
+   "i": 23,
+   "scene": "glue",
+   "start": 282.236,
+   "end": 293.44,
+   "en": "Cut along the sum instead, and the glue returns exactly the eight real states, using five bits instead of six. Where you cut space decides how much memory truth costs.",
+   "zh": "改沿和来切，粘合得到的就恰好是八个真实状态，只用五个比特而不是六个。在哪里切开空间，决定了真值要付多少记忆。"
+  },
+  {
+   "i": 24,
+   "scene": "parity",
+   "start": 295.64,
+   "end": 309.794,
+   "en": "With three parties, every pairwise check can pass while the full triple is impossible: two hundred fifty-six tuples look consistent, only one hundred twenty-eight are real. The obstruction is a parity spread over all three.",
+   "zh": "三方的时候，每一对的检验都能通过，整个三元组却不可能：看起来相容的有二百五十六组，真实的只有一百二十八组。障碍是一个遍布三方的奇偶。"
+  },
+  {
+   "i": 25,
+   "scene": "parity",
+   "start": 310.394,
+   "end": 320.792,
+   "en": "Changing the task afterwards costs exactly two r minus three bits of messages among r parties. A central helper with full access would need only one.",
+   "zh": "事后改变任务，在 r 方之间恰好要花二 r 减三个比特的消息。一个拥有全部访问权的中心助手，只需要一个。"
+  },
+  {
+   "i": 26,
+   "scene": "window",
+   "start": 322.992,
+   "end": 333.807,
+   "en": "Finally, how many states does it take to reproduce every output window? Two loops, printing zero zero zero one and zero zero one one, with windows of length three.",
+   "zh": "最后：重现每一个输出窗口需要多少状态？两个环，分别打印零零零一和零零一一，窗口长度为三。"
+  },
+  {
+   "i": 27,
+   "scene": "window",
+   "start": 334.407,
+   "end": 345.336,
+   "en": "Free machines need six. Reversible machines need seven. Commuting ones need eight. The same windows, three different prices, set by what the machine is allowed to do.",
+   "zh": "自由的机器需要六个。可逆的机器需要七个。交换的机器需要八个。同样的窗口，三种不同的价格，由机器被允许做什么来决定。"
+  },
+  {
+   "i": 28,
+   "scene": "finale",
+   "start": 347.736,
+   "end": 357.472,
+   "en": "Relations hide what sides cannot see. Shared clocks keep what independent clocks erase. Cuts, records and contracts set the price of every answer.",
+   "zh": "关系藏着各侧看不见的东西。共享的时钟保住独立时钟抹去的东西。切法、记录与合同，决定每一个答案的价格。"
+  },
+  {
+   "i": 29,
+   "scene": "finale",
+   "start": 358.072,
+   "end": 362.237,
+   "en": "A clock is not the time. It is the record you are still allowed to use.",
+   "zh": "时钟不是时间本身，而是你仍被允许使用的那份记录。"
+  }
+ ],
+ "duration": 371.237
+}

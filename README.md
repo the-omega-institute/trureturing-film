@@ -32,6 +32,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 018 | [TRANSPORT · MEMORY · COMPLETION](films/018-transport/) · 运输·任务记忆·完备化 | 5:27 | EN (AI) / music-only | ZH + EN |
 | 019 | [EFFECTIVE RESOLUTION](films/019-resolution/) · 算术编码与有效分辨率 | 6:29 | EN (AI) / music-only | ZH + EN |
 | 020 | [ODD COVERING SYSTEMS](films/020-erdos7/) · Erdős 第七问题 · 奇数覆盖系统 | 6:38 | EN (AI) / music-only | ZH + EN |
+| 021 | [JOINT RELATIONS · FINITE CLOCKS](films/021-clocks/) · 联合来源·量子关系·有限时钟 | 6:11 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 
