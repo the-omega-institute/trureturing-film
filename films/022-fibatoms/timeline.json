@@ -1,0 +1,343 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 24.844
+  },
+  {
+   "id": "title",
+   "start": 24.844,
+   "end": 35.897
+  },
+  {
+   "id": "rabbits",
+   "start": 35.897,
+   "end": 62.055
+  },
+  {
+   "id": "recipe",
+   "start": 62.055,
+   "end": 82.999
+  },
+  {
+   "id": "coins",
+   "start": 82.999,
+   "end": 106.712
+  },
+  {
+   "id": "balance",
+   "start": 106.712,
+   "end": 129.632
+  },
+  {
+   "id": "photos",
+   "start": 129.632,
+   "end": 154.54
+  },
+  {
+   "id": "lock",
+   "start": 154.54,
+   "end": 180.032
+  },
+  {
+   "id": "zip",
+   "start": 180.032,
+   "end": 204.871
+  },
+  {
+   "id": "shadows",
+   "start": 204.871,
+   "end": 236.555
+  },
+  {
+   "id": "tools",
+   "start": 236.555,
+   "end": 265.593
+  },
+  {
+   "id": "safe",
+   "start": 265.593,
+   "end": 294.386
+  },
+  {
+   "id": "odometer",
+   "start": 294.386,
+   "end": 319.076
+  },
+  {
+   "id": "whisper",
+   "start": 319.076,
+   "end": 344.705
+  },
+  {
+   "id": "clock",
+   "start": 344.705,
+   "end": 371.081
+  },
+  {
+   "id": "finale",
+   "start": 371.081,
+   "end": 401.099
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 14.6,
+   "en": "Begin with almost nothing. Two kinds of brick, alpha and beta, and one way to snap two things together, left and right. No numbers. No addition. Not even the number one.",
+   "zh": "从几乎一无所有开始。两种积木，alpha 和 beta，以及一种把两件东西左右扣在一起的方式。没有数，没有加法，甚至连一都还没有。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 15.2,
+   "end": 23.844,
+   "en": "This volume asks how arithmetic, primes and even golden geometry can grow out of that, using only relations we state out loud.",
+   "zh": "这卷理论追问：算术、素数，乃至黄金几何，怎样只凭我们明说的关系，从这里生长出来。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 26.044,
+   "end": 28.832,
+   "en": "Fibonacci atoms: generating relations.",
+   "zh": "Fibonacci 原子：关系的生成。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 29.432,
+   "end": 34.497,
+   "en": "The rule of the game: nothing is assumed. Every number must be earned from a relation.",
+   "zh": "游戏规则是：什么都不预设。每一个数，都必须从一条关系里挣出来。"
+  },
+  {
+   "i": 4,
+   "scene": "rabbits",
+   "start": 36.697,
+   "end": 45.838,
+   "en": "Here is the only growth rule. A young rabbit, alpha, grows up into an adult, beta. An adult becomes a pair: itself, followed by a newborn.",
+   "zh": "这是唯一的生长规则。一只幼兔 alpha 长成成年兔 beta。一只成年兔变成一对：它自己，后面跟着一只新生的幼兔。"
+  },
+  {
+   "i": 5,
+   "scene": "rabbits",
+   "start": 46.438,
+   "end": 60.655,
+   "en": "Apply it again and again, and the family tree obeys the Fibonacci rule as a shape: each tree is the previous two, snapped side by side. The golden ratio is not drawn in advance. It is the growth rate of the rule.",
+   "zh": "一遍又一遍地套用，家谱树就以形状本身遵守 Fibonacci 规则：每一棵树都是前两棵并排扣在一起。黄金比例不是事先画好的，而是这条规则的增长速率。"
+  },
+  {
+   "i": 6,
+   "scene": "recipe",
+   "start": 62.855,
+   "end": 70.353,
+   "en": "Now take a coarser look: just count the bricks of each kind. That is like reading the ingredient list instead of the recipe.",
+   "zh": "现在粗一点看：只数每种积木有几块。这就像只看配料表，而不看菜谱。"
+  },
+  {
+   "i": 7,
+   "scene": "recipe",
+   "start": 70.953,
+   "end": 81.599,
+   "en": "Alpha then beta, or beta then alpha: different recipes, the same list. Counting forgets order and brackets. Every observation keeps something, and forgets something.",
+   "zh": "先 alpha 后 beta，还是先 beta 后 alpha：菜谱不同，配料表一样。计数忘掉了次序和括号。每一种观察都保留一些东西，也忘掉一些东西。"
+  },
+  {
+   "i": 8,
+   "scene": "coins",
+   "start": 83.799,
+   "end": 92.811,
+   "en": "To get numbers, we declare one relation: two betas weigh the same as three alphas. Think of coins: alpha is worth two cents, beta three.",
+   "zh": "为了得到数，我们宣布一条关系：两个 beta 和三个 alpha 等重。把它们想成硬币：alpha 值两分，beta 值三分。"
+  },
+  {
+   "i": 9,
+   "scene": "coins",
+   "start": 93.41,
+   "end": 105.312,
+   "en": "And the single cent is born as a difference: beta minus alpha. From that unit, counting and multiplication are rebuilt from the inside, and turn out to be exactly the natural numbers.",
+   "zh": "于是一分钱作为差值诞生了：beta 减 alpha。从这个单位出发，计数和乘法在内部被重建，结果恰好就是自然数。"
+  },
+  {
+   "i": 10,
+   "scene": "balance",
+   "start": 107.512,
+   "end": 116.322,
+   "en": "But one number is too little memory. Three alphas and two betas both read six, like two purses holding the same amount in different coins.",
+   "zh": "可是一个数，记忆太少了。三个 alpha 和两个 beta 都读作六，就像两个钱包，钱数一样，硬币却不一样。"
+  },
+  {
+   "i": 11,
+   "scene": "balance",
+   "start": 116.922,
+   "end": 128.232,
+   "en": "One generation later, the first purse reads nine and the second reads ten. Same balance today, different balance tomorrow. No rule on the balance alone can predict the next one.",
+   "zh": "过了一代，第一个钱包读九，第二个读十。今天余额相同，明天余额不同。任何只看余额的规则，都预测不了下一个数。"
+  },
+  {
+   "i": 12,
+   "scene": "photos",
+   "start": 130.432,
+   "end": 137.511,
+   "en": "Take two readings instead: now, and after one step. Like two photographs of the same object from two angles.",
+   "zh": "那就读两次：现在一次，走一步之后再一次。就像从两个角度给同一个物体拍两张照片。"
+  },
+  {
+   "i": 13,
+   "scene": "photos",
+   "start": 138.111,
+   "end": 153.14,
+   "en": "Seven alphas and four betas read twenty-six, then forty-one. Five times twenty-six minus three times forty-one gives back the seven. The matrix has determinant one, so nothing is lost, and every future reading follows.",
+   "zh": "七个 alpha 和四个 beta，先读二十六，再读四十一。五乘二十六减三乘四十一，就还原出七。矩阵的行列式是一，所以什么都没丢，之后的每一次读数也都随之确定。"
+  },
+  {
+   "i": 14,
+   "scene": "lock",
+   "start": 155.34,
+   "end": 166.567,
+   "en": "Which weights make such a perfect pair of photos? The answer is a lock that opens only with neighbouring Fibonacci numbers: one and two, two and three, three and five, and so on.",
+   "zh": "哪些权重能拍出这样完美的一对照片？答案像一把锁，只有相邻的 Fibonacci 数才能打开：一和二，二和三，三和五，依此类推。"
+  },
+  {
+   "i": 15,
+   "scene": "lock",
+   "start": 167.167,
+   "end": 178.632,
+   "en": "If both weights must be prime, only two keys remain: two and three, or three and five. Skip a step, using five and thirteen, and a blind spot opens modulo seventy-nine.",
+   "zh": "如果两个权重都必须是素数，只剩两把钥匙：二和三，或三和五。跳过一级台阶，用五和十三，模七十九就会出现一个盲点。"
+  },
+  {
+   "i": 16,
+   "scene": "zip",
+   "start": 180.832,
+   "end": 191.278,
+   "en": "The trees read two, three, five, eight, thirteen. When a reading comes with a proof that it is prime, the tree can be zipped into a named atom, and unzipped back exactly.",
+   "zh": "这些树读出二、三、五、八、十三。当某个读数附带一份素性证明时，这棵树就可以被压缩成一个有名字的原子，还能原样解压回来。"
+  },
+  {
+   "i": 17,
+   "scene": "zip",
+   "start": 191.878,
+   "end": 203.471,
+   "en": "To keep the full tree, not just its counts, write it in a prefix-free code, like Morse code without ambiguous pauses. Reading every left and right path recovers the original tree.",
+   "zh": "若要保住整棵树，而不只是计数，就用无前缀码把它写下来，像一套没有歧义停顿的摩尔斯电码。读遍每一条左右路径，就能还原原来的树。"
+  },
+  {
+   "i": 18,
+   "scene": "shadows",
+   "start": 205.671,
+   "end": 217.202,
+   "en": "Counts live in the golden integers: a plus b times theta, where theta squared is theta plus one. Each one casts two shadows: one grows under the rule, the other shrinks and flips.",
+   "zh": "计数住在黄金整数里：a 加 b 乘 theta，其中 theta 的平方等于 theta 加一。每一个黄金整数都投下两个影子：一个随规则变长，另一个缩短并翻转。"
+  },
+  {
+   "i": 19,
+   "scene": "shadows",
+   "start": 217.802,
+   "end": 235.155,
+   "en": "Swapping the shadows is conjugation. Their product is the norm. Perfect photos come from units, norm plus or minus one. But unit is not prime: thirteen and eighty-nine are prime, twenty-one and four thousand one hundred eighty-one are not, yet all four come from units.",
+   "zh": "交换两个影子就是共轭，两个影子的乘积就是范数。完美的照片来自单位，也就是范数为正负一的元素。但单位不等于素数：十三和八十九是素数，二十一和四千一百八十一不是，可这四个数都来自单位。"
+  },
+  {
+   "i": 20,
+   "scene": "tools",
+   "start": 237.355,
+   "end": 250.018,
+   "en": "Give yourself three tools: step the rule, swap the shadows, read the second dial. The first two alone reach only one integer operation in five. The missing adapter is a square root of five.",
+   "zh": "给自己三件工具：推进规则，交换影子，读第二个刻度盘。只用前两件，只能够到整数操作的五分之一。缺的那个转接头，是根号五。"
+  },
+  {
+   "i": 21,
+   "scene": "tools",
+   "start": 250.618,
+   "end": 264.193,
+   "en": "With the full toolbox, primes become shapes. Modulo thirteen, the system cannot be snapped into smaller closed pieces. Modulo twenty-one, it breaks along three and seven, like a chocolate bar with score lines.",
+   "zh": "有了完整的工具箱，素数就变成了形状。模十三时，这个系统掰不成更小的封闭块。模二十一时，它沿着三和七断开，像一块带压痕的巧克力。"
+  },
+  {
+   "i": 22,
+   "scene": "safe",
+   "start": 266.393,
+   "end": 278.496,
+   "en": "Four readings, u, v, u plus v, u plus two v, make a safe with four keys where any two open it. As a quantum state it is a perfect tensor, exactly when the modulus is odd.",
+   "zh": "四个读数：u、v、u 加 v、u 加二 v，构成一个有四把钥匙的保险箱，任意两把就能打开。作为量子态，它恰好在模数为奇数时是完美张量。"
+  },
+  {
+   "i": 23,
+   "scene": "safe",
+   "start": 279.096,
+   "end": 292.986,
+   "en": "Close these relations into a ring road of odd length, and the last car must match the first. That global condition hides the greatest common divisor of n and two to the L plus one. A loop can cost information.",
+   "zh": "把这些关系首尾接成一条奇数长度的环路，最后一辆车必须和第一辆对上。这个整体条件藏掉了 n 与二的 L 次方加一的最大公约数。一个环，会耗掉信息。"
+  },
+  {
+   "i": 24,
+   "scene": "odometer",
+   "start": 295.186,
+   "end": 304.743,
+   "en": "Write numbers modulo nine as two ternary digits, like an odometer. The digits are independent as a list, but addition couples them through carries.",
+   "zh": "把模九的数写成两位三进制数字，就像里程表。作为一串数字，它们彼此独立；可一做加法，进位就把它们耦合在一起。"
+  },
+  {
+   "i": 25,
+   "scene": "odometer",
+   "start": 305.343,
+   "end": 317.676,
+   "en": "Throw away the high digit and the state looks noisy: four ninths, two ninths, two ninths, one ninth. Subtract the carries, and the blur disappears into two clean copies. The blur was bookkeeping.",
+   "zh": "丢掉高位，状态看起来就有了噪声：九分之四、九分之二、九分之二、九分之一。减去进位，模糊就消失，变成两个干净的副本。那层模糊，只是账目。"
+  },
+  {
+   "i": 26,
+   "scene": "whisper",
+   "start": 319.876,
+   "end": 329.293,
+   "en": "Three nodes in a loop, each sending itself plus twice its neighbour. At each precision a few interior differences hide: three, then nine, then nine.",
+   "zh": "三个节点连成一个环，每一个都把自己加上两倍的邻居传出去。在每一层精度上，都藏着几个内部差：三个，然后九个，然后九个。"
+  },
+  {
+   "i": 27,
+   "scene": "whisper",
+   "start": 329.893,
+   "end": 343.305,
+   "en": "But every hidden difference is heard two levels finer, like a whisper always audible two rooms away. In the limit nothing stays hidden inside; what survives is a single checksum modulo nine on the boundary.",
+   "zh": "可每一个藏起来的差，都会在精细两层之后被听见，就像一句耳语，总能在隔两个房间之外听到。取极限后，内部什么都藏不住；留下的，只是边界上一个模九的校验码。"
+  },
+  {
+   "i": 28,
+   "scene": "clock",
+   "start": 345.505,
+   "end": 359.123,
+   "en": "Finally, run the rabbit rule t steps and ask when it returns to where it started. The mismatch is a finite group: five at four steps, eleven at five, twenty-nine at seven, eleven by eleven at ten.",
+   "zh": "最后，把兔子规则跑 t 步，问它何时回到起点。那个错位是一个有限群：四步时是五，五步时是十一，七步时是二十九，十步时是十一乘十一。"
+  },
+  {
+   "i": 29,
+   "scene": "clock",
+   "start": 359.723,
+   "end": 369.681,
+   "en": "Because the rule has finite order modulo every prime, every prime shows up in some loop. Primes are not typed in. They appear where the rhythm fails to close.",
+   "zh": "因为这条规则在模任意素数时都有有限阶，每一个素数都会出现在某个环里。素数不是被输入的，它们出现在节奏合不拢的地方。"
+  },
+  {
+   "i": 30,
+   "scene": "finale",
+   "start": 372.081,
+   "end": 383.632,
+   "en": "Two bricks, one snap, one rabbit rule, one declared relation. From them: the unit, the natural numbers, golden integers, primes as unsplittable shapes, and checksums on loops.",
+   "zh": "两种积木，一种扣法，一条兔子规则，一条明说的关系。由此而来：单位、自然数、黄金整数、作为不可分形状的素数，以及环上的校验码。"
+  },
+  {
+   "i": 31,
+   "scene": "finale",
+   "start": 384.232,
+   "end": 392.099,
+   "en": "This is a paper theory, not yet checked in Lean, and every bridge to physics is marked open. But every number in it had to be earned.",
+   "zh": "这是一卷纸面理论，尚未经过 Lean 核验，通往物理的每一座桥都标着 open。但其中的每一个数，都是挣出来的。"
+  }
+ ],
+ "duration": 401.099
+}
