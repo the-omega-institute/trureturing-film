@@ -1,0 +1,322 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 24.935
+  },
+  {
+   "id": "title",
+   "start": 24.935,
+   "end": 41.332
+  },
+  {
+   "id": "density",
+   "start": 41.332,
+   "end": 70.267
+  },
+  {
+   "id": "known",
+   "start": 70.267,
+   "end": 101.833
+  },
+  {
+   "id": "sprint",
+   "start": 101.833,
+   "end": 124.798
+  },
+  {
+   "id": "lean",
+   "start": 124.798,
+   "end": 149.853
+  },
+  {
+   "id": "lcm",
+   "start": 149.853,
+   "end": 179.519
+  },
+  {
+   "id": "cutoff",
+   "start": 179.519,
+   "end": 204.277
+  },
+  {
+   "id": "graph",
+   "start": 204.277,
+   "end": 232.492
+  },
+  {
+   "id": "seven",
+   "start": 232.492,
+   "end": 262.292
+  },
+  {
+   "id": "marginal",
+   "start": 262.292,
+   "end": 291.171
+  },
+  {
+   "id": "hole",
+   "start": 291.171,
+   "end": 324.534
+  },
+  {
+   "id": "audit",
+   "start": 324.534,
+   "end": 345.799
+  },
+  {
+   "id": "frontier",
+   "start": 345.799,
+   "end": 374.96
+  },
+  {
+   "id": "finale",
+   "start": 374.96,
+   "end": 397.532
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 15.119,
+   "en": "Zero mod two. Zero mod three. One mod four. Five mod six. Seven mod twelve. Five arithmetic progressions, and together they catch every integer.",
+   "zh": "模二余零，模三余零，模四余一，模六余五，模十二余七。五条等差数列，合在一起，抓住了每一个整数。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 15.719,
+   "end": 23.935,
+   "en": "That is a covering system. Now take away the even moduli. Can distinct odd moduli, and nothing else, still catch everything?",
+   "zh": "这就是覆盖系统。现在拿走所有偶数模。只用互不相同的奇数模，还能抓住一切吗？"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 26.135,
+   "end": 29.465,
+   "en": "Erdős problem number seven: odd covering systems.",
+   "zh": "Erdős 第七问题：奇数覆盖系统。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 30.065,
+   "end": 39.932,
+   "en": "The question goes back to Erdős and Selfridge, and it is still open. This film follows one project's attack on it, and shows exactly where the attack stands.",
+   "zh": "这个问题可以追溯到 Erdős 和 Selfridge，至今仍未解决。这部影片跟随一个项目对它的进攻，并如实呈现这场进攻停在了哪里。"
+  },
+  {
+   "i": 4,
+   "scene": "density",
+   "start": 42.132,
+   "end": 54.149,
+   "en": "Counting alone does not decide it. The proper divisors of three hundred fifteen have reciprocals summing to one hundred three over one hundred five, less than one, so they can never cover.",
+   "zh": "光靠计数判断不了。三百一十五的真因子，倒数之和是一百零五分之一百零三，小于一，所以永远盖不满。"
+  },
+  {
+   "i": 5,
+   "scene": "density",
+   "start": 54.749,
+   "end": 68.867,
+   "en": "But the divisors of nine hundred forty-five sum to sixty-five over sixty-three, more than one. Enough material in principle. Yet the project certifies that at least one hundred ninety-one residues always escape.",
+   "zh": "而九百四十五的因子，倒数之和是六十三分之六十五，大于一。原则上材料够了。但项目证明：无论怎么摆，至少有一百九十一个余数总会逃脱。"
+  },
+  {
+   "i": 6,
+   "scene": "known",
+   "start": 71.067,
+   "end": 87.719,
+   "en": "Earlier work already fenced the problem. Balister, Bollobás, Morris, Sahasrabudhe and Tiba showed that distinct squarefree moduli must include an even one. Hough and Nielsen showed that every covering needs a modulus divisible by two or three.",
+   "zh": "前人的工作已经围起了篱笆。Balister、Bollobás、Morris、Sahasrabudhe 和 Tiba 证明：互不相同的无平方因子模，必须含有偶数。Hough 和 Nielsen 证明：每个覆盖系统都需要一个能被二或三整除的模。"
+  },
+  {
+   "i": 7,
+   "scene": "known",
+   "start": 88.319,
+   "end": 100.433,
+   "en": "Recent preprints by Schroeder rule out moduli with at most three prime factors, and argue that a cover needs at least nine primes. The project builds on these, and marks every borrowed premise.",
+   "zh": "Schroeder 最近的预印本排除了至多三个素因子的模，并论证覆盖至少需要九个素数。这个项目建立在这些结果之上，并标出了每一个借来的前提。"
+  },
+  {
+   "i": 8,
+   "scene": "sprint",
+   "start": 102.633,
+   "end": 113.65,
+   "en": "The project ran for thirteen days: nine hundred fifteen commits, seventy-nine problem write-ups, seven hundred two working notes, one hundred forty-five verifier scripts.",
+   "zh": "这个项目持续了十三天：九百一十五次提交，七十九篇问题报告，七百零二篇工作笔记，一百四十五个验证脚本。"
+  },
+  {
+   "i": 9,
+   "scene": "sprint",
+   "start": 114.25,
+   "end": 123.398,
+   "en": "And fourteen thousand one hundred forty certificate files, almost four hundred megabytes of exact rational arithmetic, each one checkable by a machine.",
+   "zh": "还有一万四千一百四十个证书文件，将近四百兆字节的精确有理数运算，每一个都可以由机器复核。"
+  },
+  {
+   "i": 10,
+   "scene": "lean",
+   "start": 125.598,
+   "end": 135.794,
+   "en": "One piece is proved inside Lean's kernel and frozen. If every modulus uses only two odd primes, at least one eighth of all residues stay uncovered.",
+   "zh": "有一块已经在 Lean 内核中证明并冻结：如果每个模只用两个奇素数，至少八分之一的余数不会被盖住。"
+  },
+  {
+   "i": 11,
+   "scene": "lean",
+   "start": 136.394,
+   "end": 148.453,
+   "en": "The reason fits on one line. The divisor densities are at most three halves times five fourths, which is fifteen eighths. Take away the trivial divisor one, and at most seven eighths can be covered.",
+   "zh": "理由只要一行：因子密度至多是二分之三乘以四分之五，也就是八分之十五。去掉平凡的因子一，最多只能盖住八分之七。"
+  },
+  {
+   "i": 12,
+   "scene": "lcm",
+   "start": 150.653,
+   "end": 159.985,
+   "en": "Next, a finite wall. Any odd cover must have least common multiple above eleven million four hundred eighty-six thousand four hundred seventy-four.",
+   "zh": "接下来是一道有限的墙：任何奇数覆盖，其最小公倍数都必须超过一千一百四十八万六千四百七十四。"
+  },
+  {
+   "i": 13,
+   "scene": "lcm",
+   "start": 160.585,
+   "end": 178.119,
+   "en": "Every one of twenty-three thousand seven hundred fifty-eight candidate periods below it is excluded by exact arithmetic; the last holdout falls to a two-block split. The first period not excluded is three cubed, five squared, seven, eleven, thirteen, seventeen.",
+   "zh": "在它之下的两万三千七百五十八个候选周期，全部被精确运算排除；最后一个顽固的周期被拆成两块后也倒下了。第一个没被排除的周期，是三的立方、五的平方、七、十一、十三、十七的乘积。"
+  },
+  {
+   "i": 14,
+   "scene": "cutoff",
+   "start": 180.319,
+   "end": 189.245,
+   "en": "Let three, five and seven appear to any power, and let every other prime be nineteen or larger. The family still fails, however long its tail.",
+   "zh": "让三、五、七以任意次幂出现，其余素数都不小于十九。无论尾巴多长，这个族依然盖不满。"
+  },
+  {
+   "i": 15,
+   "scene": "cutoff",
+   "start": 189.845,
+   "end": 202.877,
+   "en": "One thousand three hundred eighty-eight certified steps carry the budget from nineteen to eleven thousand five hundred ninety-three. So any odd cover must use at least one of eleven, thirteen, or seventeen.",
+   "zh": "一千三百八十八个认证步骤，把预算从十九一路推到一万一千五百九十三。所以任何奇数覆盖，都必须用到十一、十三、十七中的至少一个。"
+  },
+  {
+   "i": 16,
+   "scene": "graph",
+   "start": 205.077,
+   "end": 215.934,
+   "en": "Draw a graph: one vertex for each prime, and an edge whenever two primes divide the same modulus. Trees, single cycles and cacti of cycles can never cover.",
+   "zh": "画一张图：每个素数一个顶点，两个素数若同时整除某个模，就连一条边。树、单圈、以及由圈拼成的仙人掌，永远盖不满。"
+  },
+  {
+   "i": 17,
+   "scene": "graph",
+   "start": 216.534,
+   "end": 231.092,
+   "en": "The project pushes further: if every block of this graph has at most seven primes, the family leaves a hole, using Schroeder's nine-prime geometry as a stated premise. A cover would need a tightly knit block of eight primes or more.",
+   "zh": "项目推得更远：如果这张图的每个块至多有七个素数，这个族就会留下空洞——这里把 Schroeder 的九素数几何作为明确前提。一个覆盖，需要一个紧密交织、至少八个素数的块。"
+  },
+  {
+   "i": 18,
+   "scene": "seven",
+   "start": 233.292,
+   "end": 244.147,
+   "en": "Or count small primes instead of shape. If at most seven prime divisors lie below one hundred thousand, no cover exists, no matter how many larger primes join.",
+   "zh": "或者不看形状，只数小素数。如果不超过十万的素因子至多七个，就不存在覆盖——无论后面加入多少更大的素数。"
+  },
+  {
+   "i": 19,
+   "scene": "seven",
+   "start": 244.747,
+   "end": 260.892,
+   "en": "The seed is a seven-prime measure on three through nineteen, with mass above two over one hundred twenty-five; the entire tail costs less than twenty-nine over four thousand. A classical prime-product bound of Rosser and Schoenfeld is the premise here.",
+   "zh": "种子是三到十九上的七素数测度，质量大于一百二十五分之二；整条尾巴的消耗小于四千分之二十九。这里的前提，是 Rosser 和 Schoenfeld 的一个经典素数乘积界。"
+  },
+  {
+   "i": 20,
+   "scene": "marginal",
+   "start": 263.092,
+   "end": 275.432,
+   "en": "A cover must pass a local test: fix one prime and average over its whole coordinate. Every such average must reach one. With five primes or fewer, some average always falls short.",
+   "zh": "一个覆盖必须通过一项局部检验：固定一个素数，对它的整个坐标取平均。每一个这样的平均都必须达到一。只有五个或更少的素数时，总有某个平均达不到。"
+  },
+  {
+   "i": 21,
+   "scene": "marginal",
+   "start": 276.032,
+   "end": 289.771,
+   "en": "With exactly six primes, only seventeen prime sets survive the test: three, five, seven, eleven, thirteen and one more prime up to seventy-one, and three others. A necessary condition, not a construction.",
+   "zh": "恰好六个素数时，只有十七个素数集合能通过：三、五、七、十一、十三再加一个不超过七十一的素数，另外还有三个。这是必要条件，不是构造。"
+  },
+  {
+   "i": 22,
+   "scene": "hole",
+   "start": 291.971,
+   "end": 303.511,
+   "en": "But local tests are not enough. The project built four hundred sixty-three classes with distinct odd moduli, closed under divisors, every class holding its own private integer.",
+   "zh": "但局部检验是不够的。项目构造了四百六十三个同余类：奇数模互不相同，对因子封闭，每一个类都守着一个只属于自己的整数。"
+  },
+  {
+   "i": 23,
+   "scene": "hole",
+   "start": 304.111,
+   "end": 323.134,
+   "en": "It has every structural property a proof strategy hoped to use, and still the integer one hundred seventy billion, two hundred seventy-two million, nine hundred sixteen thousand, one hundred twenty-nine is covered by nothing. Add tails, and the hole shrinks below any positive density, but never closes.",
+   "zh": "它具备证明策略想要依靠的每一个结构性质，可一千七百零二亿七千二百九十一万六千一百二十九这个整数，没有被任何类盖住。再添上尾巴，空洞可以小于任何正密度，却永远合不上。"
+  },
+  {
+   "i": 24,
+   "scene": "audit",
+   "start": 325.334,
+   "end": 333.26,
+   "en": "Two claimed complete proofs were audited line by line. In one, a key renormalization inequality points the wrong way.",
+   "zh": "有两份声称完整的证明被逐行审计。其中一份，一个关键的重整化不等式方向反了。"
+  },
+  {
+   "i": 25,
+   "scene": "audit",
+   "start": 333.86,
+   "end": 344.399,
+   "en": "In the other, a gain bound demands seventy-nine thousand seven hundred twelve, while the true gain is only fifty-nine thousand four hundred two. Neither closes the problem.",
+   "zh": "另一份里，一个增益界要求七万九千七百一十二，而真实增益只有五万九千四百零二。两份都没能解决这个问题。"
+  },
+  {
+   "i": 26,
+   "scene": "frontier",
+   "start": 346.599,
+   "end": 363.246,
+   "en": "So here is the wanted poster for an odd cover. Least common multiple above eleven million. A prime among eleven, thirteen, seventeen. More than seven prime divisors below one hundred thousand. A prime graph with a dense block of at least eight.",
+   "zh": "于是，奇数覆盖的通缉令是这样的：最小公倍数超过一千一百万；用到十一、十三、十七之一；十万以下的素因子超过七个；素数图里有一个至少八个素数的稠密块。"
+  },
+  {
+   "i": 27,
+   "scene": "frontier",
+   "start": 363.846,
+   "end": 373.56,
+   "en": "What is missing is a bridge from local tests to the whole cover: an argument that uses exact coverage everywhere at once. That bridge is still open.",
+   "zh": "缺的是一座桥：从局部检验走到整体覆盖，一个同时在所有地方使用精确覆盖的论证。这座桥仍然没有建成。"
+  },
+  {
+   "i": 28,
+   "scene": "finale",
+   "start": 375.96,
+   "end": 382.454,
+   "en": "Not a solution. A map: every wall certified, every premise named, every claimed shortcut checked.",
+   "zh": "这不是解答，而是一张地图：每一道墙都经过认证，每一个前提都写明了出处，每一条声称的捷径都被检查过。"
+  },
+  {
+   "i": 29,
+   "scene": "finale",
+   "start": 383.054,
+   "end": 388.532,
+   "en": "Erdős problem seven remains open. Now we know much better where the answer has to live.",
+   "zh": "Erdős 第七问题仍未解决。但现在，我们清楚得多：答案必须藏在哪里。"
+  }
+ ],
+ "duration": 397.532
+}
