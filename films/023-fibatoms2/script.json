@@ -1,0 +1,246 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Last time: two bricks, one snap, one rabbit rule, and every number had to be earned. Since then the volume has grown five times over, to more than twelve thousand lines.",
+     "上一集：两种积木，一种扣法，一条兔子规则，每一个数都必须挣出来。此后这卷理论长了五倍，超过一万两千行。"
+    ],
+    [
+     "And this time, part of it has crossed the line from paper into Lean: theorems checked by a proof kernel and frozen. We will say which is which.",
+     "而这一次，其中一部分已经从纸面越过界线，进入了 Lean：由证明内核核验并冻结的定理。哪些是，哪些不是，我们都会说清楚。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Fibonacci atoms, part two: memory, time and the price of knowing.",
+     "Fibonacci 原子·第二部：记忆、时间与知道的代价。"
+    ],
+    [
+     "Same bricks. Harder questions: how much must you remember, how often must you look, and how many questions must you ask?",
+     "同样的积木，更难的问题：你必须记住多少，必须多常看一次，又必须问多少个问题？"
+    ]
+   ]
+  },
+  {
+   "id": "drawers",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Squeeze a lattice twice and twenty-five defect classes appear. But twenty-five can be one tall drawer with a drawer inside, or two separate drawers of five.",
+     "把一个格子挤压两次，会出现二十五个缺陷类。可是二十五，可以是一个里面套着抽屉的高抽屉，也可以是两个各装五格的独立抽屉。"
+    ],
+    [
+     "For the rabbit rule closing after two m steps, the drawers separate exactly when F m shares no factor with five. At m equal to four, six and eight they split. At ten, F ten is fifty-five, and they nest.",
+     "对兔子规则在二 m 步后闭合的情形，抽屉恰好在 F m 与五互素时分开。m 等于四、六、八时分开；到十，F 十是五十五，抽屉就套在了一起。"
+    ]
+   ]
+  },
+  {
+   "id": "diary",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now a diary that must update itself as precision coarsens, without peeking at the fine details. On a three-node loop, each level alone needs only three, then nine, nine, nine states.",
+     "现在是一本日记：精度变粗时，它必须自己更新，不许偷看细节。在一个三节点的环上，每一层单独看，只需要三个状态，然后九个、九个、九个。"
+    ],
+    [
+     "But the self-updating diary needs three, nine, twenty-seven, eighty-one: it grows at every level. This bound is proved in Lean and frozen, and a canonical diary meets it exactly.",
+     "可是能自己更新的日记，需要三、九、二十七、八十一个：每一层都在长。这个下界已经在 Lean 中证明并冻结，而一本规范的日记恰好达到它。"
+    ]
+   ]
+  },
+  {
+   "id": "strobe",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Read the system at a few chosen moments, like a strobe light. Whatever times you pick, the loss depends only on one number: the Fibonacci number at the greatest common divisor of the gaps.",
+     "在几个选定的时刻读取系统，就像频闪灯。无论选哪些时刻，损失只取决于一个数：各时间间隔最大公约数处的那个 Fibonacci 数。"
+    ],
+    [
+     "Modulo two hundred fifty-five, times zero, four and nine: each pair leaves a blind spot, of three, seventeen, or five. All three together see everything. The Smith form behind this is frozen in Lean.",
+     "在模二百五十五下，取时刻零、四、九：每一对都会留下盲点，分别是三、十七、五。三者合在一起，就什么都看得见。背后的 Smith 形已经在 Lean 中冻结。"
+    ]
+   ]
+  },
+  {
+   "id": "guests",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "How many moments can you choose so that any two of them already tell the whole story? Like dinner guests where any pair can reconstruct the evening.",
+     "最多能选多少个时刻，使其中任意两个就足以讲完整个故事？就像一桌客人，任意两位都能复原整晚的经过。"
+    ],
+    [
+     "The exact maximum is the smallest Fibonacci entry rank among the primes of the modulus. For five thousand and forty it is three; for three hundred fifteen, four. Proved and frozen in Lean.",
+     "精确的最大值，是模数各素因子中最小的 Fibonacci 进入秩。对五千零四十是三，对三百一十五是四。已在 Lean 中证明并冻结。"
+    ]
+   ]
+  },
+  {
+   "id": "albums",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Put two additive readouts into one quantum state and cut it in half. The shared information comes in equal-sized albums: every Schmidt weight is the same.",
+     "把两个加法读出放进同一个量子态，再把它切成两半。共享的信息以同样大小的相册出现：每一个 Schmidt 权重都相同。"
+    ],
+    [
+     "The blocks are cosets, and the entropy is log N minus log k A minus log k B. This finite theorem is also frozen in Lean.",
+     "分块是陪集，熵等于 log N 减 log k A 再减 log k B。这条有限定理同样已在 Lean 中冻结。"
+    ]
+   ]
+  },
+  {
+   "id": "recipe",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Five thousand and forty has four axes: two, three, five and seven. And seven can be read as a block, two plus five cooked together. Seven and ten have the same ingredients, one cooked together, one served apart.",
+     "五千零四十有四根轴：二、三、五、七。而七可以读作一个块，二和五一起下锅。七和十配料相同，一个一起煮，一个分开上。"
+    ],
+    [
+     "Its sixty divisors fall into forty-eight ingredient lists, twelve of them shared by two. One extra bit, cooked together or not, separates every one.",
+     "它的六十个因子，落进四十八张配料表，其中十二张由两个因子共用。多加一个比特——是否一起下锅——就能把每一个都分开。"
+    ]
+   ]
+  },
+  {
+   "id": "sculpture",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Some differences hide deeper. Two sculptures can agree in every shadow cast from one, two or three directions, and still differ.",
+     "有些区别藏得更深。两座雕塑，从一个、两个或三个方向投下的每一个影子都一样，却仍然不同。"
+    ],
+    [
+     "On the sixty divisor states, the Möbius function is exactly such a fourth-order relation: two positive distributions share all lower shadows, yet give plus and minus two fifteenths.",
+     "在六十个因子状态上，Möbius 函数恰好就是这样一个四阶关系：两个正分布共享所有低阶的影子，却分别给出正负十五分之二。"
+    ]
+   ]
+  },
+  {
+   "id": "window",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Pair every multiple of seven with the matching multiple of ten. Their Möbius coins cancel, except inside a thin window between seven r and ten r.",
+     "把七的每个倍数和相应的十的倍数配对。它们的 Möbius 硬币彼此抵消，只在七 r 和十 r 之间的窄窗口里不抵消。"
+    ],
+    [
+     "Lean now proves that bounding this window is exactly as strong as bounding the Mertens sum. Through the classical Mertens criterion, that is the Riemann Hypothesis. Nothing here proves it.",
+     "Lean 现在证明了：给这个窗口定界，恰好和给 Mertens 和定界一样强。借助经典的 Mertens 判据，那就是黎曼猜想。这里没有任何东西证明了它。"
+    ]
+   ]
+  },
+  {
+   "id": "tipjar",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Robin's criterion is a tip jar: each divisor d drops one over d. The Riemann Hypothesis holds exactly when, beyond five thousand and forty, the jar stays below e to the gamma times log log n.",
+     "Robin 判据像一只小费罐：每个因子 d 投进 d 分之一。黎曼猜想成立，当且仅当在五千零四十之后，罐里的钱始终低于 e 的 gamma 次方乘 log log n。"
+    ],
+    [
+     "At five thousand and forty the jar holds three point eight three eight, just over the line. Lean proves Robin for every number built only from two, three, five and seven. For all numbers, the volume gives equivalent forms and finite certificates, and marks the rest open.",
+     "在五千零四十，罐里是三点八三八，刚好越线。Lean 证明了：凡只由二、三、五、七构成的数，Robin 都成立。至于所有的数，这卷理论给出等价形式与有限证书，其余标为开放。"
+    ]
+   ]
+  },
+  {
+   "id": "toolbox",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Suppose a counter must always answer one question about five thousand and forty. How much must it remember? That depends on the toolbox it will be handed later.",
+     "假设一个计数器必须始终回答关于五千零四十的一个问题。它得记住多少？这取决于之后会交给它什么工具箱。"
+    ],
+    [
+     "Only multiplication: sixty states. Add seven: fourteen hundred forty. Add two: three thousand seven hundred eighty. Add thirteen: all five thousand and forty. Add twenty-five twenty: still sixty. The toolbox decides the notebook.",
+     "只有乘法：六十个状态。加上加七：一千四百四十。加上加二：三千七百八十。加上加十三：全部五千零四十。加上加二千五百二十：仍然是六十。工具箱决定笔记本。"
+    ]
+   ]
+  },
+  {
+   "id": "sips",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now read numbers three Fibonacci bits at a time. How far ahead must you look to tell two futures apart? Like a wine taster: two sips are not enough, three always are.",
+     "现在以每次三个 Fibonacci 位来读数。要把两种未来分开，得往前看多远？就像品酒师：两口不够，三口总够。"
+    ],
+    [
+     "The minimal memory climbs from sixty-one to forty-eight thousand, then five hundred thirty-five thousand, then six hundred four thousand eight hundred and one, and stops. This rests on finite certificates, rechecked for this film.",
+     "最小记忆从六十一，爬到四万八千多，再到五十三万五千多，然后到六十万四千八百零一，就此停住。这依赖有限证书，本片重新核对过。"
+    ]
+   ]
+  },
+  {
+   "id": "witness",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A hidden number, and a witness with amnesia: every question means a fresh interview. Each answer is a greatest common divisor with five thousand and forty.",
+     "一个隐藏的数，和一位失忆的证人：每个问题都要重新问一遍。每个回答，都是与五千零四十的最大公约数。"
+    ],
+    [
+     "One synchronized word turns all four prime dials at once, so the cost is the largest local cost: six questions. On paper the volume builds strategies for sixty of the eighty phases, and leaves twenty open.",
+     "一个同步的词同时转动四个素数刻度盘，所以代价是局部代价中最大的那个：六个问题。在纸面上，这卷理论为八十个相位中的六十个构造了策略，另外二十个留作开放。"
+    ]
+   ]
+  },
+  {
+   "id": "watch",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Watch every frame, and eight steps are exactly enough; if you already know the count, seven. Peek only at chosen moments, and seven questions suffice; knowing the count, six.",
+     "逐帧观看，恰好需要八步；若已知道数量，七步。只在选定时刻偷看，七个问题就够；知道数量，六个。"
+    ],
+    [
+     "One adaptive plan achieves the fewest questions and the shortest wait at the same time. Book every appointment in advance, and you need eight. Each order of 'for all' and 'there exists' has its own price.",
+     "同一个自适应方案，能同时做到问题最少、等待最短。若事先把所有预约都订好，就需要八个。'对所有'与'存在'的每一种次序，都有它自己的价格。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "In Lean and frozen: self-updating diaries, strobe blind spots, pairwise guests, flat albums, the Mertens window, and Robin for two, three, five and seven. On paper: the recipes, the toolboxes, the tastings and the questions.",
+     "已在 Lean 中冻结的：自更新日记、频闪盲点、两两可复原的客人、平坦的相册、Mertens 窗口，以及二、三、五、七上的 Robin。仍在纸面上的：配方、工具箱、品酒和提问。"
+    ],
+    [
+     "The Riemann Hypothesis is not proved here, and the volume says so again and again. What it offers is a sharper map of what memory, time and questions really cost.",
+     "这里没有证明黎曼猜想，这卷理论一再这样说明。它给出的，是一张更清晰的地图：记忆、时间和提问，真正要付多少代价。"
+    ]
+   ]
+  }
+ ]
+}
