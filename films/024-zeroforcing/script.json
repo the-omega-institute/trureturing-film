@@ -1,0 +1,246 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Twenty-six lamps on a ring, wired in a strange pattern. Light a few of them, and one simple rule spreads the light. How few lamps can light everything?",
+     "环上有二十六盏灯，连线方式很奇特。点亮其中几盏，一条简单的规则就会把光传开。最少要点几盏，才能点亮全部？"
+    ],
+    [
+     "For one family of graphs, a 2026 paper left this question open. It has now been settled for every size, and the proof is checked by the Lean kernel.",
+     "对一族图，一篇 2026 年的论文把这个问题留作开放。现在它对所有大小都已解决，证明由 Lean 内核核验。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Eight lights: the zero forcing number of P n three.",
+     "八个点点亮全图：P(n,3) 的零强迫数。"
+    ],
+    [
+     "A ring road, a subway that skips three stops, and a rule about the last one left in the dark.",
+     "一条环路，一条隔三站一停的地铁，以及一条关于'最后一个还在黑暗中的人'的规则。"
+    ]
+   ]
+  },
+  {
+   "id": "graph",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Take n stops on an outer ring road. Under each stop is a subway station, and each station connects to the one three stops ahead, drawing a star inside the ring.",
+     "外圈是一条有 n 个站的环路。每个站下面有一个地铁站，每个地铁站连到前方第三站，在环内画出一颗星。"
+    ],
+    [
+     "That is the generalized Petersen graph P n three. Every vertex has exactly three neighbours: two along its own ring, and one straight up or down.",
+     "这就是广义 Petersen 图 P(n,3)。每个顶点恰有三个邻居：自己那一圈上的两个，再加上正上方或正下方的一个。"
+    ]
+   ]
+  },
+  {
+   "id": "rule",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the rule. A lit vertex with exactly one dark neighbour lights that neighbour. Like gossip: if you know the news and only one of your friends does not, you tell that friend.",
+     "现在是规则。一个亮着的顶点，如果恰好只有一个邻居还是暗的，就把它点亮。就像传消息：你知道了，而你的朋友里只剩一个还不知道，你就告诉他。"
+    ],
+    [
+     "It is the logic of Minesweeper too: when only one unknown square is left, it is decided. Start from some lit vertices, apply the rule until nothing changes, and see whether everything is lit.",
+     "这也是扫雷的逻辑：只剩一个未知格时，它就确定了。从一些亮着的顶点出发，反复用这条规则直到不再变化，看是不是全亮了。"
+    ]
+   ]
+  },
+  {
+   "id": "eight",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Here is the upper bound. Light eight consecutive stops on the outer ring. First they light the stations below them, then the light walks around the ring.",
+     "先看上界。点亮外圈上连续的八个站。它们先点亮自己下面的地铁站，然后光沿着环一路走下去。"
+    ],
+    [
+     "For every n of at least nine, these eight lamps light the whole graph. This is proved in Lean for every n, not just checked on examples.",
+     "对所有不小于九的 n，这八盏灯都能点亮整张图。这在 Lean 中对每个 n 都有证明，而不只是在例子上检查。"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Can seven do it? For twelve stops, yes: seven consecutive lamps light all twenty-four vertices. An earlier paper had claimed eight were needed from twelve on.",
+     "七盏行不行？对十二个站，行：连续七盏灯能点亮全部二十四个顶点。更早的一篇论文曾断言，从十二开始需要八盏。"
+    ],
+    [
+     "Krishnan's 2026 note fixed that, computed every case up to twenty, and conjectured that from thirteen on the answer is eight forever. A proof for every n was left open.",
+     "Krishnan 在 2026 年的短文里纠正了这一点，把二十以内的情形全部算出，并猜想从十三起答案永远是八。对所有 n 的证明留作开放。"
+    ]
+   ]
+  },
+  {
+   "id": "fort",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "At thirteen, try the same seven lamps. The light spreads, then stops. Eight vertices stay dark, and together they form a fortress.",
+     "到了十三，试同样的七盏灯。光传开了，然后停住。八个顶点始终是暗的，它们合起来构成一座堡垒。"
+    ],
+    [
+     "In a fortress, every outsider touches it either not at all or at least twice. No outsider ever has exactly one dark neighbour inside, so the rule can never break in. A starting set must put a lamp inside every fortress.",
+     "在一座堡垒里，每个外人要么完全不碰它，要么至少碰到两次。没有哪个外人恰好只有一个暗邻居在里面，所以规则永远攻不进去。起始集合必须在每座堡垒里都放一盏灯。"
+    ]
+   ]
+  },
+  {
+   "id": "thirteen",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "So thirteen is settled by fortresses. Up to rotation, every seven-lamp start that can make a first move falls into one of six anchor families.",
+     "于是十三由堡垒来解决。在旋转意义下，每个能迈出第一步的七灯起点，都落在六个锚定族之一。"
+    ],
+    [
+     "For each family, explicit fortresses dodge the lamps, and the kernel checks every one. Seven lamps are not enough at thirteen; eight are. This case is frozen in Lean.",
+     "对每个族，都有明确的堡垒避开这些灯，内核逐一核验。在十三，七盏不够，八盏够。这一情形已在 Lean 中冻结。"
+    ]
+   ]
+  },
+  {
+   "id": "messengers",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Larger rings need a different idea. Watch who does the lighting. The first ten vertices that pass the light on are the messengers.",
+     "更大的环需要另一个想法。看看是谁在点灯。最先把光传出去的十个顶点，就是信使。"
+    ],
+    [
+     "A general lemma, proved for every finite graph: if a starting set makes at least ten moves, its first ten messengers have at most as many outside neighbours as there were starting lamps.",
+     "一条一般引理，对所有有限图都成立：如果一个起始集合至少走了十步，它的前十个信使在外面的邻居，最多和起始灯一样多。"
+    ]
+   ]
+  },
+  {
+   "id": "fence",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now picture ten sheep in a pen. The fence is every vertex just outside them. On P n three, with n at least fourteen, ten sheep always need at least eight fence posts.",
+     "现在把它想成圈里的十只羊。篱笆就是紧挨在它们外面的所有顶点。在 P(n,3) 上，只要 n 不小于十四，十只羊至少需要八根篱笆桩。"
+    ],
+    [
+     "Seven starting lamps would give ten messengers fenced by only seven posts. That is impossible. So seven lamps never suffice, and the answer is eight.",
+     "七盏起始灯会让十个信使只被七根桩围住。这不可能。所以七盏永远不够，答案是八。"
+    ]
+   ]
+  },
+  {
+   "id": "accordion",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "But n can be any size. How can finitely many checks cover them all? The trick is an accordion: if seven consecutive columns hold none of the ten sheep, fold one of those columns away.",
+     "可是 n 可以任意大，有限次检查怎么覆盖所有情形？诀窍是手风琴：如果连续七列里一只羊都没有，就把其中一列折叠掉。"
+    ],
+    [
+     "The pen keeps the same sheep and the same number of fence posts. Keep folding until no long empty gap is left, and only boundedly many patterns remain.",
+     "羊还是那些羊，篱笆桩的数目也不变。一直折叠，直到不再有长的空隙，剩下的图样就只有有界多种。"
+    ]
+   ]
+  },
+  {
+   "id": "tiles",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Those remaining patterns are coded column by column and covered by intervals, like tiling a floor. Every tile carries a certificate that the kernel checks.",
+     "剩下的图样逐列编码，再用区间覆盖，就像给地板铺瓷砖。每一块瓷砖都带着一张由内核核验的证书。"
+    ],
+    [
+     "Forty frozen Lean modules, nearly seventeen thousand lines, carry the whole argument: the rule, the fortresses, the messengers, the fence and the tiles.",
+     "四十个已冻结的 Lean 模块、近一万七千行，承载了整个论证：规则、堡垒、信使、篱笆和瓷砖。"
+    ]
+   ]
+  },
+  {
+   "id": "sat",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "An independent check agrees. A SAT solver finds no ten-vertex set with only seven fence posts for any n from fourteen to forty, but finds one at thirteen, which is why thirteen needed fortresses.",
+     "一个独立的检查结论一致。SAT 求解器在 n 从十四到四十时，都找不到只用七根桩就围住的十点集合；在十三却找得到，这正是十三需要堡垒的原因。"
+    ],
+    [
+     "With nine messengers the pen can always be fenced by seven, so ten is the smallest number that works. We recounted the fences at fourteen, fifteen and sixteen for this film.",
+     "只用九个信使，总能用七根桩围住，所以十是能起作用的最小数目。本片重新数过十四、十五和十六时的篱笆。"
+    ]
+   ]
+  },
+  {
+   "id": "prism",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The same family hides another story. A 2026 conjecture said the independence polynomial of these graphs has only real roots exactly when the skip is even.",
+     "同一族图里还藏着另一个故事。一个 2026 年的猜想说：这些图的独立多项式只有实根，当且仅当跳跃步长是偶数。"
+    ],
+    [
+     "The smallest case already breaks it: the triangular prism, skip one, gives one plus six x plus six x squared, and its roots are real. That refutation was already public; Lean formalizes it.",
+     "最小的情形就推翻了它：三棱柱，步长为一，给出一加六 x 加六 x 平方，它的根都是实的。这个反驳此前已经公开；Lean 把它形式化了。"
+    ]
+   ]
+  },
+  {
+   "id": "why",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Why care about lighting lamps? Zero forcing grew out of quantum control: which qubits must you touch to steer a whole network? It also limits how small the rank of a matrix shaped like the graph can be.",
+     "为什么要关心点灯？零强迫起源于量子控制：要操控整个网络，必须触碰哪些量子比特？它还限制了一个形状像这张图的矩阵，秩最小能有多小。"
+    ],
+    [
+     "Eight lamps on P n three is a small fact. But now it holds for every ring, not just the ones a computer could search.",
+     "P(n,3) 上的八盏灯是个小事实。但它现在对每一个环都成立，而不只是计算机能搜到的那些。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Frozen in Lean: eight lamps suffice for n at least nine, fortresses settle thirteen, and messengers and fences settle every larger ring. The answer is eight, for every n at least thirteen.",
+     "已在 Lean 中冻结：n 不小于九时八盏灯足够，堡垒解决了十三，信使和篱笆解决了所有更大的环。对每个不小于十三的 n，答案都是八。"
+    ],
+    [
+     "The literature check is bounded to the sources searched, and no worldwide priority is claimed. But the proof itself does not rest on anyone's word: the kernel checked it.",
+     "文献核对只限于检索过的来源，不主张全球首创。但证明本身不依赖任何人的一面之词：内核核验了它。"
+    ]
+   ]
+  }
+ ]
+}
