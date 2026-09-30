@@ -1,0 +1,259 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 29.987
+  },
+  {
+   "id": "title",
+   "start": 29.987,
+   "end": 39.427
+  },
+  {
+   "id": "method",
+   "start": 39.427,
+   "end": 62.25
+  },
+  {
+   "id": "eggs",
+   "start": 62.25,
+   "end": 92.313
+  },
+  {
+   "id": "digits",
+   "start": 92.313,
+   "end": 126.475
+  },
+  {
+   "id": "bags",
+   "start": 126.475,
+   "end": 158.549
+  },
+  {
+   "id": "wheel",
+   "start": 158.549,
+   "end": 195.555
+  },
+  {
+   "id": "fence",
+   "start": 195.555,
+   "end": 226.69
+  },
+  {
+   "id": "rooks",
+   "start": 226.69,
+   "end": 258.534
+  },
+  {
+   "id": "clock",
+   "start": 258.534,
+   "end": 286.485
+  },
+  {
+   "id": "puzzle",
+   "start": 286.485,
+   "end": 318.752
+  },
+  {
+   "id": "finale",
+   "start": 318.752,
+   "end": 356.722
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 15.887,
+   "en": "A conjecture is a bet about infinitely many cases, and one case is enough to lose it. This film follows eight such bets, each made in print, and the single example that broke each one.",
+   "zh": "猜想是对无穷多种情形下的赌注，只要一个情形就能输掉。本片追踪八个这样的赌注，每一个都白纸黑字地发表过，以及打破它们的那一个例子。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 16.487,
+   "end": 28.987,
+   "en": "Every counterexample here is more than a computation. The printed statement is written as a formal claim, and a Lean theorem proves the claim false. Each proof is checked by the kernel and frozen.",
+   "zh": "这里的每个反例都不只是一次计算。发表的陈述被写成形式化的断言，再由一条 Lean 定理证明这个断言是假的。每个证明都经内核核验并冻结。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 31.187,
+   "end": 32.677,
+   "en": "Counterexample hunter.",
+   "zh": "反例猎人。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 33.277,
+   "end": 38.027,
+   "en": "Eight printed guesses, eight witnesses, and one rule: a single case settles it.",
+   "zh": "八个发表过的猜测，八个见证，一条规则：一个例子就够了。"
+  },
+  {
+   "i": 4,
+   "scene": "method",
+   "start": 40.227,
+   "end": 49.513,
+   "en": "The method never changes. First, copy the printed statement faithfully, with every quantifier written out. That becomes a definition called claim.",
+   "zh": "方法从来不变。先把发表的陈述忠实地抄下来，把每个量词都写全。它成为一个名叫 claim 的定义。"
+  },
+  {
+   "i": 5,
+   "scene": "method",
+   "start": 50.113,
+   "end": 60.85,
+   "en": "Then prove a theorem whose type is simply: not claim. If the statement says 'for all', one witness is enough. The kernel checks the witness, and the refutation is frozen.",
+   "zh": "然后证明一条定理，它的类型就是：非 claim。如果陈述说的是'对所有'，一个见证就够了。内核核验这个见证，反驳随即冻结。"
+  },
+  {
+   "i": 6,
+   "scene": "eggs",
+   "start": 63.05,
+   "end": 74.252,
+   "en": "Case one: eggs. A 2025 paper on egg-drop puzzles conjectured how many drops you need to find a hidden point in a box of any dimension, using k eggs.",
+   "zh": "第一案：鸡蛋。一篇 2025 年关于扔鸡蛋谜题的论文猜想：用 k 个鸡蛋，在任意维数的盒子里找出一个隐藏点，需要扔多少次。"
+  },
+  {
+   "i": 7,
+   "scene": "eggs",
+   "start": 74.852,
+   "end": 90.913,
+   "en": "Take four dimensions, sides of five, and five eggs. The bound promises nine drops. But there are six hundred twenty-five possible points, and nine drops, each intact or broken, tell apart at most five hundred twelve. The pigeonholes win.",
+   "zh": "取四维、每边长五、五个鸡蛋。这个上界许诺九次就够。可是可能的点有六百二十五个，而九次投掷，每次非碎即完好，最多只能区分五百一十二种。抽屉原理赢了。"
+  },
+  {
+   "i": 8,
+   "scene": "digits",
+   "start": 93.113,
+   "end": 110.414,
+   "en": "Case two: light switches. Write a square in base k using only zeros and ones. Past base four, Mahler found one: seven cubed plus seven squared plus seven plus one is twenty squared. Erdős recalled in 1989 that perhaps there are no others.",
+   "zh": "第二案：电灯开关。在 k 进制里只用零和一写出一个平方数。在四进制以上，Mahler 找到一个：七的三次方加七的平方加七再加一，等于二十的平方。Erdős 在 1989 年回忆说，也许再没有别的了。"
+  },
+  {
+   "i": 9,
+   "scene": "digits",
+   "start": 111.014,
+   "end": 125.075,
+   "en": "There are. Five hundred twenty-one squared, written in base twelve, reads one, one, one, one, zero, one. And eleven thousand six hundred seventy-seven squared, in base eight, is also only zeros and ones.",
+   "zh": "有的。五百二十一的平方，用十二进制写出来是一、一、一、一、零、一。一万一千六百七十七的平方，用八进制写，也只有零和一。"
+  },
+  {
+   "i": 10,
+   "scene": "bags",
+   "start": 127.275,
+   "end": 143.742,
+   "en": "Case three: two bags. Multiply k consecutive numbers after x. Primes that appear exactly once go in one bag; prime powers that repeat go in the other. Erdős noticed that for x equal to twenty-three, the repeating bag always wins.",
+   "zh": "第三案：两个袋子。把 x 之后连续 k 个数乘起来。恰好出现一次的素数放进一个袋子，重复出现的素数幂放进另一个。Erdős 注意到：x 等于二十三时，重复的那个袋子总是更重。"
+  },
+  {
+   "i": 11,
+   "scene": "bags",
+   "start": 144.342,
+   "end": 157.149,
+   "en": "He wrote that he would not be surprised if twenty-three were the only such number. Forty-seven is another. Lean checks the first seventy-eight lengths directly, then a primorial bound handles every longer run.",
+   "zh": "他写道，如果二十三是唯一这样的数，他不会惊讶。四十七是另一个。Lean 直接检查前七十八个长度，然后用素数阶乘的上界处理所有更长的情形。"
+  },
+  {
+   "i": 12,
+   "scene": "wheel",
+   "start": 159.349,
+   "end": 175.396,
+   "en": "Case four: an epidemic on a bicycle wheel. Each vertex is healthy, infected or dead. Infection reaches healthy neighbours, the infected die, and a dead cell is replaced by an infected one only if at least R neighbours are infected.",
+   "zh": "第四案：自行车轮上的疫情。每个顶点是健康、感染或死亡。感染传给健康的邻居，感染者死亡，死亡的格子只有在至少 R 个邻居被感染时，才被一个感染者取代。"
+  },
+  {
+   "i": 13,
+   "scene": "wheel",
+   "start": 175.996,
+   "end": 194.155,
+   "en": "A 2026 paper conjectured which R make the virus always die out. On the wheel with eighteen vertices, the conjecture says R equal to four fails. Lean runs all two hundred sixty-two thousand starting states at once: every one is healthy within twenty-five steps.",
+   "zh": "一篇 2026 年的论文猜想了哪些 R 能让病毒总会灭绝。在十八个顶点的车轮上，猜想说 R 等于四不行。Lean 把全部二十六万两千多个初始状态同时跑一遍：每一个都在二十五步内恢复健康。"
+  },
+  {
+   "i": 14,
+   "scene": "fence",
+   "start": 196.355,
+   "end": 210.564,
+   "en": "Case five: a fence around a right-triangle garden. An OEIS comment conjectured that among Fibonacci numbers, only every sixth one, from F twelve on, can be the perimeter of a Pythagorean triangle.",
+   "zh": "第五案：直角三角形花园的篱笆。OEIS 上的一条评注猜想：在 Fibonacci 数中，只有从第十二项起每隔六项的那些，才能是勾股三角形的周长。"
+  },
+  {
+   "i": 15,
+   "scene": "fence",
+   "start": 211.164,
+   "end": 225.29,
+   "en": "F forty-five, just over a billion, is not on that list. Yet it is a perimeter: take the triangle three one four five, two nine two eight, four two nine seven, and scale it by one hundred nine thousand four hundred forty-one.",
+   "zh": "第四十五项，刚过十亿，不在那张名单上。可它就是一个周长：取三边为三一四五、二九二八、四二九七的三角形，再放大十万九千四百四十一倍。"
+  },
+  {
+   "i": 16,
+   "scene": "rooks",
+   "start": 227.49,
+   "end": 242.894,
+   "en": "Case six: rooks on a crossword. Black squares follow a permutation, and rooks attack only along white words. A 2026 paper conjectured which rook counts can occur, and that none leaves remainder three when divided by four.",
+   "zh": "第六案：字谜格上的车。黑格按一个排列摆放，车只沿着白色的单词攻击。一篇 2026 年的论文猜想了哪些摆法数可能出现，并断言没有一个除以四余三。"
+  },
+  {
+   "i": 17,
+   "scene": "rooks",
+   "start": 243.494,
+   "end": 257.134,
+   "en": "The permutation two, seven, four, eight, one, six, three, five gives fourteen across words, fourteen down words, and exactly one hundred fifty-five placements. One hundred fifty-five leaves remainder three.",
+   "zh": "排列二、七、四、八、一、六、三、五给出十四个横词、十四个竖词，恰好一百五十五种摆法。一百五十五除以四，余三。"
+  },
+  {
+   "i": 18,
+   "scene": "clock",
+   "start": 259.334,
+   "end": 274.312,
+   "en": "Case seven: a clock. Run a recurrence modulo a number, and it cycles. Count the zeros in one cycle. A 2025 conjecture said that for a certain family of rules, that count is always zero, one or two.",
+   "zh": "第七案：一只钟。让一个递推在模某个数下运行，它会循环。数一数一个周期里有几个零。一个 2025 年的猜想说：对某一族规则，这个数总是零、一或二。"
+  },
+  {
+   "i": 19,
+   "scene": "clock",
+   "start": 274.912,
+   "end": 285.085,
+   "en": "Take the rule: next equals three times the last, plus two times the one before, modulo thirteen. The cycle has length twelve, and zero appears three times.",
+   "zh": "取这样的规则：下一项等于上一项的三倍，加上前一项的两倍，模十三。周期长度是十二，零出现了三次。"
+  },
+  {
+   "i": 20,
+   "scene": "puzzle",
+   "start": 287.285,
+   "end": 302.368,
+   "en": "Case eight: a sliding puzzle. Thirteen tiles, four dark and nine light. A move rotates five neighbouring tiles by one place. A 2026 paper predicted a formula for the longest distance, giving eight at this size.",
+   "zh": "第八案：一个滑块谜题。十三块砖，四块暗、九块亮。一步把相邻的五块砖轮转一位。一篇 2026 年的论文给出了最远距离的公式，在这个规模下给出八。"
+  },
+  {
+   "i": 21,
+   "scene": "puzzle",
+   "start": 302.968,
+   "end": 317.352,
+   "en": "Count the disorder: pairs where a light tile sits before a dark one. The start has none; its reverse has thirty-six. One move changes the count by at most four, so reversing takes at least nine moves. Eight is too few.",
+   "zh": "数一数混乱度：亮砖排在暗砖前面的对数。起点是零，它的倒序是三十六。一步最多改变四，所以倒过来至少要九步。八步不够。"
+  },
+  {
+   "i": 22,
+   "scene": "finale",
+   "start": 319.752,
+   "end": 333.141,
+   "en": "Eight bets, eight witnesses: nine drops, a square in base twelve, forty-seven, a wheel of eighteen, F forty-five, one hundred fifty-five rooks, three zeros, nine moves. Each is a frozen Lean theorem.",
+   "zh": "八个赌注，八个见证：九次投掷、十二进制里的一个平方、四十七、十八个顶点的车轮、第四十五个 Fibonacci 数、一百五十五种车的摆法、三个零、九步。每一个都是冻结的 Lean 定理。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 333.741,
+   "end": 347.722,
+   "en": "A counterexample does not mean the authors were careless: each guess was stated clearly enough to be tested. Our literature searches were bounded, so we claim no priority. We claim only that each bet, as printed, is lost.",
+   "zh": "反例并不意味着作者粗心：每个猜测都表述得足够清楚，才能被检验。我们的文献检索范围有限，所以不主张优先权。我们只主张：每一个赌注，按照它发表的样子，都输了。"
+  }
+ ],
+ "duration": 356.722
+}

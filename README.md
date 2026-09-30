@@ -36,6 +36,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 022 | [FIBONACCI ATOMS](films/022-fibatoms/) · Fibonacci 原子关系生成 | 6:41 | EN (AI) / music-only | ZH + EN |
 | 023 | [FIBONACCI ATOMS II](films/023-fibatoms2/) · Fibonacci 原子·第二部 | 7:05 | EN (AI) / music-only | ZH + EN |
 | 024 | [EIGHT LIGHTS](films/024-zeroforcing/) · 八个点点亮全图 · P(n,3) 零强迫数 | 6:27 | EN (AI) / music-only | ZH + EN |
+| 025 | [COUNTEREXAMPLE HUNTER](films/025-counterexamples/) · 反例猎人 | 5:57 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 
