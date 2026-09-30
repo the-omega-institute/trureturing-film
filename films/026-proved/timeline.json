@@ -1,0 +1,259 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 31.244
+  },
+  {
+   "id": "title",
+   "start": 31.244,
+   "end": 41.216
+  },
+  {
+   "id": "method",
+   "start": 41.216,
+   "end": 64.705
+  },
+  {
+   "id": "pixels",
+   "start": 64.705,
+   "end": 96.142
+  },
+  {
+   "id": "rope",
+   "start": 96.142,
+   "end": 130.464
+  },
+  {
+   "id": "torpedo",
+   "start": 130.464,
+   "end": 166.428
+  },
+  {
+   "id": "inverse",
+   "start": 166.428,
+   "end": 198.357
+  },
+  {
+   "id": "arrows",
+   "start": 198.357,
+   "end": 232.498
+  },
+  {
+   "id": "spiral",
+   "start": 232.498,
+   "end": 266.638
+  },
+  {
+   "id": "cubes",
+   "start": 266.638,
+   "end": 299.73
+  },
+  {
+   "id": "ledger",
+   "start": 299.73,
+   "end": 334.649
+  },
+  {
+   "id": "finale",
+   "start": 334.649,
+   "end": 367.066
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 16.668,
+   "en": "Eight guesses from papers and from the OEIS. Each was checked by its authors on examples, and each was left without a proof. Now every one of them is a theorem, checked by the Lean kernel.",
+   "zh": "八个猜测，来自论文和 OEIS。每一个都被作者在例子上检验过，却都没有证明。现在，它们每一个都成了定理，由 Lean 内核核验。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 17.268,
+   "end": 30.244,
+   "en": "The reasons are the best part: a blinking centre, a river and a rope, a coloured grid, an exact inverse, a cubic equation, a spiral of triangles, six shapes of three cubes, and a ledger that balances.",
+   "zh": "最精彩的是理由：一个闪烁的中心，一条河和一根绳，一张着色的方格，一个精确的逆矩阵，一个三次方程，一圈三角形螺旋，三块积木的六种形状，还有一本收支平衡的账。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 32.444,
+   "end": 33.792,
+   "en": "From guess to theorem.",
+   "zh": "从猜想到定理。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 34.392,
+   "end": 39.816,
+   "en": "A counterexample needs one case. A proof needs a reason that works in every case.",
+   "zh": "反例只需要一个例子。证明需要一个对每个例子都成立的理由。"
+  },
+  {
+   "i": 4,
+   "scene": "method",
+   "start": 42.016,
+   "end": 52.934,
+   "en": "Last time, one example was enough to break a claim. Proving a claim is the opposite job: it must hold for every n, so the proof has to explain why, not just show that.",
+   "zh": "上一集，一个例子就足以推翻一个断言。证明一个断言是相反的工作：它必须对每个 n 都成立，所以证明要解释为什么，而不只是展示是什么。"
+  },
+  {
+   "i": 5,
+   "scene": "method",
+   "start": 53.534,
+   "end": 63.305,
+   "en": "Each result here takes the published statement, writes out all its quantifiers, and proves it in Lean. The kernel checks every step, and the theorem is frozen.",
+   "zh": "这里的每个结果，都取出发表的陈述，把所有量词写全，然后在 Lean 中证明。内核核验每一步，定理随即冻结。"
+  },
+  {
+   "i": 6,
+   "scene": "pixels",
+   "start": 65.505,
+   "end": 79.95,
+   "en": "Case one: pixels. Start a line of cells with a single lit pixel and apply Wolfram's rule two hundred one. Read each row as a binary number. In 2018, Hasler guessed a closed formula for those numbers.",
+   "zh": "第一案：像素。一行格子里只点亮一个像素，然后反复应用 Wolfram 规则二〇一。把每一行读成一个二进制数。2018 年，Hasler 猜出了这些数的通项公式。"
+  },
+  {
+   "i": 7,
+   "scene": "pixels",
+   "start": 80.55,
+   "end": 94.742,
+   "en": "The proof sees the pattern: from row one on, every cell is lit except the two beside the centre, and the centre blinks with the parity of the row. Induction turns that picture into the formula, and into Barker's recurrences too.",
+   "zh": "证明看出了规律：从第一行起，除了中心两旁的两格，其余格子全亮，而中心随着行数的奇偶一闪一灭。归纳法把这幅图变成了公式，也顺带证明了 Barker 的递推式。"
+  },
+  {
+   "i": 8,
+   "scene": "rope",
+   "start": 96.942,
+   "end": 113.245,
+   "en": "Case two: a rope and a river. The river flows from a spring. A single closed rope crosses it n times and may wind around the spring. An OEIS entry sorts these loops by winding, and guessed a formula for the second diagonal of its table.",
+   "zh": "第二案：一根绳和一条河。河从一处泉眼流出。一根闭合的绳穿过它 n 次，还可以绕着泉眼打转。OEIS 的一个条目按绕圈数给这些绳圈分类，并猜出了表中第二条对角线的公式。"
+  },
+  {
+   "i": 9,
+   "scene": "rope",
+   "start": 113.845,
+   "end": 129.064,
+   "en": "The count is n squared plus two n, plus one when n is odd, minus twenty, all halved: two, eight, fourteen, twenty-two, thirty, forty. Lean proves it for every n from four on, by cutting the picture at the middle and matching the halves.",
+   "zh": "计数是：n 的平方加两倍的 n，n 为奇数时再加一，减去二十，再除以二：二、八、十四、二十二、三十、四十。Lean 从中间切开图形、把两半配对，证明它对四以上的每个 n 都成立。"
+  },
+  {
+   "i": 10,
+   "scene": "torpedo",
+   "start": 131.264,
+   "end": 144.853,
+   "en": "Case three: a quantum game from 2020. Alice sees two numbers and may send Bob one symbol. Bob is then asked one of d plus one questions, and loses if he gives the single forbidden answer.",
+   "zh": "第三案：一个 2020 年的量子游戏。Alice 看到两个数，可以给 Bob 发一个符号。然后 Bob 被问到 d 加一个问题中的一个，如果给出那个唯一被禁止的答案，就输了。"
+  },
+  {
+   "i": 11,
+   "scene": "torpedo",
+   "start": 145.453,
+   "end": 165.028,
+   "en": "For d of two and three, the best classical play wins only three quarters and eleven twelfths of the time. The authors found perfect classical play up to twenty-three and conjectured it for every d from five. The proof builds it: pair the rows, colour each pair in two patterns, and Bob always has a safe answer.",
+   "zh": "当 d 为二和三时，最好的经典策略也只能赢四分之三和十二分之十一。作者找到了直到二十三的完美经典策略，并猜想从五起每个 d 都有。证明把它造了出来：把行两两配对，每对涂成两种图案，Bob 就总有一个安全的答案。"
+  },
+  {
+   "i": 12,
+   "scene": "inverse",
+   "start": 167.228,
+   "end": 182.804,
+   "en": "Case four: a measurement. With d squared outcomes, one measurement can pin down any quantum state in dimension d. For the orthocross measurement, the inverse of its overlap matrix looked strangely tidy: every entry an integer or a half.",
+   "zh": "第四案：一次测量。有 d 的平方个结果时，一次测量就能确定 d 维空间里的任意量子态。对于 orthocross 测量，它的重叠矩阵求逆后显得出奇整齐：每个元素都是整数或半整数。"
+  },
+  {
+   "i": 13,
+   "scene": "inverse",
+   "start": 183.404,
+   "end": 196.957,
+   "en": "For a qubit the entries are four and a half, one, minus two and a half, and eight. Lean proves the pattern in every dimension and every basis: it writes the inverse down exactly, and Gaussian integers keep the accounts.",
+   "zh": "对一个量子比特，这些元素是四点五、一、负二点五和八。Lean 在每个维数、每组基下证明了这一规律：它把逆矩阵精确地写出来，由高斯整数来记账。"
+  },
+  {
+   "i": 14,
+   "scene": "arrows",
+   "start": 199.157,
+   "end": 217.141,
+   "en": "Case five: arrows. Permutations can avoid patterns; arrow patterns also constrain how the permutation's cycles are linked. A 2026 paper, together with earlier work, settled every short arrow pattern except one, and posed that one as an open problem.",
+   "zh": "第五案：箭头。排列可以回避某种模式；箭头模式还额外约束排列的轮换如何相连。一篇 2026 年的论文连同此前的工作，解决了除一个以外的所有短箭头模式，并把剩下那个作为开放问题提出。"
+  },
+  {
+   "i": 15,
+   "scene": "arrows",
+   "start": 217.741,
+   "end": 231.098,
+   "en": "Its counts run one, one, two, five, fifteen, fifty-one, one hundred ninety. Lean proves that their generating function satisfies a cubic equation, and that it is the only branch starting one plus x.",
+   "zh": "它的计数是：一、一、二、五、十五、五十一、一百九十。Lean 证明了它们的生成函数满足一个三次方程，而且是唯一以一加 x 开头的那一支。"
+  },
+  {
+   "i": 16,
+   "scene": "spiral",
+   "start": 233.298,
+   "end": 248.959,
+   "en": "Case six: a round table. Seat n people so the seating forms one single cycle, and forbid one pattern in the seating and another in the cycle. A 2024 paper conjectured that the count is every third Padovan number.",
+   "zh": "第六案：一张圆桌。安排 n 个人入座，使座位构成单独一个轮换，并在座位和轮换中各禁止一种模式。一篇 2024 年的论文猜想：方法数是每隔两项取一个的 Padovan 数。"
+  },
+  {
+   "i": 17,
+   "scene": "spiral",
+   "start": 249.559,
+   "end": 265.238,
+   "en": "Padovan numbers grow a spiral of equilateral triangles, each new side the sum of two earlier ones. Every third one gives one, two, five, twelve, twenty-eight, sixty-five. Lean proves the match for every n, through a recurrence.",
+   "zh": "Padovan 数长出一圈等边三角形螺旋，每条新边是前面两条之和。每隔两项取一个：一、二、五、十二、二十八、六十五。Lean 借助一个递推，证明它们对每个 n 都吻合。"
+  },
+  {
+   "i": 18,
+   "scene": "cubes",
+   "start": 267.438,
+   "end": 280.794,
+   "en": "Case seven: cubes in a corner. Stack unit cubes into a corner so every cube rests on cubes or walls. Now add a second layer of three cubes that fits inside the first. How many two-layer stacks are there?",
+   "zh": "第七案：墙角的积木。把单位立方体堆进墙角，每块都靠在别的积木或墙上。再加上一层三块积木，它要放得进第一层里。这样的两层积木堆有多少种？"
+  },
+  {
+   "i": 19,
+   "scene": "cubes",
+   "start": 281.394,
+   "end": 298.33,
+   "en": "An OEIS comment guessed a formula built from three classic counts, tested up to twenty: six, twenty-one, fifty-seven, one hundred thirty-eight. Lean proves it for every n by sorting the top layer into six shapes: three straight rods and three corners.",
+   "zh": "OEIS 的一条评注猜出了一个由三种经典计数组成的公式，验证到了二十：六、二十一、五十七、一百三十八。Lean 把上层分成六种形状，三根直棒和三个拐角，对每个 n 证明了它。"
+  },
+  {
+   "i": 20,
+   "scene": "ledger",
+   "start": 300.53,
+   "end": 320.754,
+   "en": "Case eight: a physicist's identity. In 2021, two physicists computing the free energy of a field on hyperbolic space needed an identity mixing harmonic numbers, Bernoulli numbers and values of the zeta function. They checked it up to k of one hundred, and wrote: we do not know a proof.",
+   "zh": "第八案：一个物理学家的恒等式。2021 年，两位物理学家在计算双曲空间上一个场的自由能时，需要一个混合了调和数、Bernoulli 数和 zeta 函数值的恒等式。他们把它验证到 k 等于一百，然后写道：我们不知道怎么证明。"
+  },
+  {
+   "i": 21,
+   "scene": "ledger",
+   "start": 321.354,
+   "end": 333.249,
+   "en": "Lean now proves it for every k. The key is the Bernoulli polynomial at one half; after that, every term cancels against another, like a ledger that balances line by line.",
+   "zh": "Lean 现在对每个 k 证明了它。关键是 Bernoulli 多项式在二分之一处的值；此后每一项都和另一项抵消，就像一本逐行平衡的账。"
+  },
+  {
+   "i": 22,
+   "scene": "finale",
+   "start": 335.649,
+   "end": 348.101,
+   "en": "Eight guesses, eight proofs: pixels, a rope, a game, a measurement, arrows, a round table, stacked cubes and a physicist's identity. Each is now a frozen Lean theorem, true for every n.",
+   "zh": "八个猜测，八个证明：像素、绳子、游戏、测量、箭头、圆桌、积木和一位物理学家的恒等式。每一个都是冻结的 Lean 定理，对每个 n 都成立。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 348.701,
+   "end": 358.066,
+   "en": "Examples told us where to look; the proofs tell us why. A counterexample ends a guess. A proof turns it into a tool the next result can stand on.",
+   "zh": "例子告诉我们往哪里看，证明告诉我们为什么。反例终结一个猜测；证明把它变成一件工具，让下一个结果可以站在上面。"
+  }
+ ],
+ "duration": 367.066
+}
