@@ -1,0 +1,259 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 30.511
+  },
+  {
+   "id": "title",
+   "start": 30.511,
+   "end": 42.53
+  },
+  {
+   "id": "now",
+   "start": 42.53,
+   "end": 65.599
+  },
+  {
+   "id": "later",
+   "start": 65.599,
+   "end": 94.156
+  },
+  {
+   "id": "memory",
+   "start": 94.156,
+   "end": 132.677
+  },
+  {
+   "id": "record",
+   "start": 132.677,
+   "end": 160.207
+  },
+  {
+   "id": "ladder",
+   "start": 160.207,
+   "end": 186.291
+  },
+  {
+   "id": "classical",
+   "start": 186.291,
+   "end": 220.248
+  },
+  {
+   "id": "self",
+   "start": 220.248,
+   "end": 247.534
+  },
+  {
+   "id": "four",
+   "start": 247.534,
+   "end": 277.512
+  },
+  {
+   "id": "library",
+   "start": 277.512,
+   "end": 300.463
+  },
+  {
+   "id": "finale",
+   "start": 300.463,
+   "end": 324.702
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 17.045,
+   "en": "In this library, an observer is not a person. It is a readout: a rule that takes the full state of a system and returns what you get to see. Everything the rule sends to the same reading forms a fiber.",
+   "zh": "在这座库里，观察者不是一个人，而是一次读数：一条规则，拿走系统的完整状态，只还给你看得到的那一部分。被这条规则送到同一个读数上的全部状态，组成一根纤维。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 17.645,
+   "end": 29.511,
+   "en": "A fiber is where differences hide. This film follows four ways a real difference can stay unseen, each one pinned down by a tiny model that the Lean kernel has checked and frozen.",
+   "zh": "纤维就是差别藏身的地方。这部片子追踪一个真实的差别能以哪四种方式看不见，每一种都由一个极小的模型钉住，经 Lean 内核核验并冻结。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 31.71,
+   "end": 35.754,
+   "en": "Four ways to be unseen: now, later, on the record, and from within.",
+   "zh": "四种看不见：此刻、以后、在记录里，以及从内部。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 36.354,
+   "end": 41.13,
+   "en": "Every gap is a separation: one kind of existence holds, the next one fails.",
+   "zh": "每一道缝隙都是一次分离：一种存在成立，下一种却不成立。"
+  },
+  {
+   "i": 4,
+   "scene": "now",
+   "start": 43.33,
+   "end": 55.86,
+   "en": "The first way is the simplest. Two states really differ, but the readout gives them the same answer. Think of two coins under one cup: heads and tails are both real, yet the cup shows only a cup.",
+   "zh": "第一种最简单。两个状态确实不同，读数却给出同一个答案。想象一只杯子扣住两枚硬币：正面和反面都是真的，杯子露出来的却只是一只杯子。"
+  },
+  {
+   "i": 5,
+   "scene": "now",
+   "start": 56.46,
+   "end": 64.199,
+   "en": "Lean proves it with two Boolean states and a constant readout. Being different as things does not mean being different to an observer.",
+   "zh": "Lean 用两个布尔状态和一个常值读数证明了这一点。作为事物彼此不同，并不等于对观察者不同。"
+  },
+  {
+   "i": 6,
+   "scene": "later",
+   "start": 66.399,
+   "end": 80.852,
+   "en": "The second way runs the other direction. Two states look different right now, but the dynamics washes the difference away, so every future reading agrees. Footprints on a beach are sharp at noon; after the tide, the sand is smooth.",
+   "zh": "第二种方向相反。两个状态此刻看起来不同，但动力学把差别冲掉了，于是以后的每一次读数都一样。沙滩上的脚印中午清清楚楚，潮水一过，沙面平整如初。"
+  },
+  {
+   "i": 7,
+   "scene": "later",
+   "start": 81.452,
+   "end": 92.756,
+   "en": "In the frozen model, the readout sees everything, and the update sends every state to the same place. Visible now, gone from every future: that is distinguishable, but not causal.",
+   "zh": "在冻结的模型里，读数什么都看得见，而更新把每个状态送往同一处。此刻可见，却从每一个未来里消失：这就是可区分，但不是因果的。"
+  },
+  {
+   "i": 8,
+   "scene": "memory",
+   "start": 94.956,
+   "end": 109.322,
+   "en": "The reverse problem is hidden memory: states that look the same today and part ways tomorrow. Take a clock with six positions and one lamp, lit only at twelve. At first you can tell just two things: lamp on, lamp off.",
+   "zh": "反过来的难题是隐藏的记忆：今天看起来一样、明天却分道扬镳的状态。拿一只有六个位置、只在十二点亮一盏灯的钟。起初你只能分辨两件事：灯亮，灯灭。"
+  },
+  {
+   "i": 9,
+   "scene": "memory",
+   "start": 109.922,
+   "end": 131.277,
+   "en": "Wait one step and the state just before twelve splits off. Each step splits one more, and after four steps all six are apart: exactly six states minus two readings. Lean proves that a finite system always stabilizes, that one quiet step makes it permanent, and that the result is the least memory that makes the readout predict itself.",
+   "zh": "等一步，十二点前一格的状态分了出来。每走一步就再分出一个，走完四步，六个状态全部分开：恰好是六个状态减去两种读数。Lean 证明了有限系统总会稳定，一旦有一步不再细分就永远不再细分，而且得到的结果正是让读数能预测自己所需的最少记忆。"
+  },
+  {
+   "i": 10,
+   "scene": "record",
+   "start": 133.477,
+   "end": 145.25,
+   "en": "The third way is quieter. A difference can keep showing up in the readings forever and still leave no mark in a stable record. A river keeps flowing two ways, while the logbook on the bank stays blank.",
+   "zh": "第三种更隐蔽。一个差别可以在读数里永远不断出现，却在稳定的记录中不留下任何痕迹。河水一直沿着两条路流淌，岸边的航行日志却始终一片空白。"
+  },
+  {
+   "i": 11,
+   "scene": "record",
+   "start": 145.85,
+   "end": 158.807,
+   "en": "The Lean model uses the identity dynamics, so the difference persists at every time, and a record that never changes, so it is never written down. Causal existence does not imply record existence.",
+   "zh": "Lean 的模型用恒等动力学，所以差别在每个时刻都在；再配上一份从不改变的记录，所以它从未被写下。因果存在推不出记录存在。"
+  },
+  {
+   "i": 12,
+   "scene": "ladder",
+   "start": 161.007,
+   "end": 173.82,
+   "en": "Put the three together and you get a ladder of existence. A difference can exist as a fact about types, as something an observer can tell apart, as something that shows up in the future, and as something that is recorded.",
+   "zh": "把这三个放在一起，就得到一架存在的阶梯。一个差别可以作为关于类型的事实存在，作为观察者能分辨的东西存在，作为会在未来显现的东西存在，以及作为被记录下来的东西存在。"
+  },
+  {
+   "i": 13,
+   "scene": "ladder",
+   "start": 174.42,
+   "end": 184.891,
+   "en": "Each rung is a different claim, and each gap between rungs is a frozen theorem with a two-state counterexample. None of these words may silently stand in for another.",
+   "zh": "每一级都是不同的主张，相邻两级之间的每一道缝，都是一条带两状态反例的冻结定理。这些词谁也不能悄悄替代谁。"
+  },
+  {
+   "i": 14,
+   "scene": "classical",
+   "start": 187.091,
+   "end": 203.642,
+   "en": "There is another kind of blindness: the hope that behind every measurement sits a hidden table of answers. For a single qubit, the full algebra of observables contains a clock matrix and a shift matrix. Shift then clock differs from clock then shift by a phase.",
+   "zh": "还有一种盲区：希望每次测量背后都藏着一张答案表。对一个量子比特，全部可观测量组成的代数里有时钟矩阵和移位矩阵。先移位再计时，与先计时再移位，相差一个相位。"
+  },
+  {
+   "i": 15,
+   "scene": "classical",
+   "start": 204.242,
+   "end": 218.848,
+   "en": "Ordinary numbers commute, so no assignment of numbers can respect every relation at once. Add the Bell test, where any answer table stays at two while the Bell state reaches two root two, and Lean excludes such a table twice.",
+   "zh": "普通的数可以交换，所以没有任何赋数方式能同时守住全部关系。再加上 Bell 检验：任何答案表都停在二，而 Bell 态达到二倍根号二。Lean 两次排除了这样的答案表。"
+  },
+  {
+   "i": 16,
+   "scene": "self",
+   "start": 221.048,
+   "end": 231.315,
+   "en": "The fourth way is the deepest. Measure a qubit along three axes, and the readings pin down its state completely. Nothing about the state is hidden from this observer.",
+   "zh": "第四种最深。沿三个方向测量一个量子比特，读数就能完全确定它的状态。关于这个状态，没有什么能瞒过这个观察者。"
+  },
+  {
+   "i": 17,
+   "scene": "self",
+   "start": 231.915,
+   "end": 246.134,
+   "en": "Now let the states evaluate one another in a single table. Flip the diagonal, what each state says about itself, and you get a row the table never contains. Seeing the world completely does not include describing yourself completely.",
+   "zh": "现在让这些状态在同一张表里彼此评判。把对角线，也就是每个状态对自己的判断，整体翻转一下，就得到一行这张表里永远没有的内容。把世界看全，并不包括把自己描述全。"
+  },
+  {
+   "i": 18,
+   "scene": "four",
+   "start": 248.334,
+   "end": 263.433,
+   "en": "So an observer can miss a difference in four ways: now, because the reading merges it; later, because the dynamics erases it; on the record, because nothing stable writes it down; and from within, because no self-description is complete.",
+   "zh": "所以一个观察者可以用四种方式错过一个差别：此刻，因为读数把它合并了；以后，因为动力学把它抹去了；在记录里，因为没有稳定的东西把它写下；从内部，因为没有哪种自我描述是完整的。"
+  },
+  {
+   "i": 19,
+   "scene": "four",
+   "start": 264.033,
+   "end": 276.112,
+   "en": "When states look alike now but part later, there is a canonical repair: the least memory that restores prediction. The inner blind spot has no repair of any kind. It holds for every table.",
+   "zh": "当状态此刻看似相同、以后才分开时，有一种规范的修复：恢复预测所需的最少记忆。而内部的盲区没有任何修复，它对每一张表都成立。"
+  },
+  {
+   "i": 20,
+   "scene": "library",
+   "start": 278.312,
+   "end": 287.844,
+   "en": "Behind these scenes stand about six hundred thirty Lean files and a hundred thousand lines on observers and observer memory, all but four of them frozen.",
+   "zh": "这些画面背后，站着约六百三十个 Lean 文件、十万行关于观察者与观察者记忆的代码，除四个之外全部冻结。"
+  },
+  {
+   "i": 21,
+   "scene": "library",
+   "start": 288.444,
+   "end": 299.063,
+   "en": "The ideas echo control theory, automata, quantum foundations and the diagonal argument. Here they stand on one ladder, in one language, checked by one kernel.",
+   "zh": "这些想法与控制论、自动机、量子基础和对角线论证遥相呼应。在这里，它们站在同一架阶梯上，用同一种语言，由同一个内核核验。"
+  },
+  {
+   "i": 22,
+   "scene": "finale",
+   "start": 301.463,
+   "end": 308.486,
+   "en": "A cup over two coins, footprints under the tide, a blank logbook, and a table that cannot hold its own diagonal.",
+   "zh": "一只扣住两枚硬币的杯子，潮水下的脚印，一本空白的日志，以及一张装不下自己对角线的表。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 309.086,
+   "end": 315.702,
+   "en": "To observe is to choose what to merge. The kernel keeps count of what was merged, and of what can never be seen.",
+   "zh": "观察，就是选择把什么合并。内核记着合并了什么，也记着什么永远看不见。"
+  }
+ ],
+ "duration": 324.702
+}

@@ -39,6 +39,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 025 | [COUNTEREXAMPLE HUNTER](films/025-counterexamples/) · 反例猎人 | 5:57 | EN (AI) / music-only | ZH + EN |
 | 026 | [FROM GUESS TO THEOREM](films/026-proved/) · 猜想被证明 | 6:07 | EN (AI) / music-only | ZH + EN |
 | 027 | [NO NESTING](films/027-nonnesting/) · 不嵌套的排列 | 5:27 | EN (AI) / music-only | ZH + EN |
+| 028 | [FOUR WAYS TO BE UNSEEN](films/028-unseen/) · 一个观察者的四种看不见 | 5:25 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 
