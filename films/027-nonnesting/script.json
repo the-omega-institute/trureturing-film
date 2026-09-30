@@ -1,0 +1,186 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "A bus route. Every passenger boards once and leaves once, so each name appears twice on the log. One rule: nobody overtakes. Whoever boards first, leaves first.",
+     "一条公交线路。每位乘客上车一次、下车一次，所以日志上每个名字出现两次。只有一条规则：谁也不许超车，先上车的先下车。"
+    ],
+    [
+     "Logs like this are called nonnesting permutations. A 2024 paper counted them under extra restrictions and left one count as a conjecture. That count is now a theorem, proved in Lean for every n.",
+     "这样的日志叫作不嵌套排列。一篇 2024 年的论文在额外限制下为它们计数，并把其中一个计数留作猜想。这个计数现在已是定理，在 Lean 中对每个 n 都有证明。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "No nesting: a queue, four forbidden patterns, and a rational function.",
+     "不嵌套：一条队列，四个被禁止的模式，一个有理函数。"
+    ],
+    [
+     "Twenty-five frozen Lean modules, one conjecture, and every n.",
+     "二十五个冻结的 Lean 模块，一个猜想，对每一个 n。"
+    ]
+   ]
+  },
+  {
+   "id": "arches",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Draw each passenger as an arch from boarding to leaving. Two arches may sit side by side or cross, but one may never sit inside another. That forbidden shape is a nest: one two two one, or two one one two.",
+     "把每位乘客画成一道拱，从上车连到下车。两道拱可以并排，也可以交叉，但一道拱绝不能套在另一道里面。那个被禁止的形状叫作嵌套：一二二一，或二一一二。"
+    ],
+    [
+     "With no nests, the logs are exactly first-in first-out queues. For n passengers there are Catalan of n arch shapes times n factorial labellings: four, thirty, three hundred thirty-six, five thousand and forty.",
+     "没有嵌套时，这些日志恰好就是先进先出的队列。n 位乘客时，共有 Catalan(n) 种拱形乘以 n 的阶乘种标号：四、三十、三百三十六、五千零四十。"
+    ]
+   ]
+  },
+  {
+   "id": "patterns",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now forbid four more patterns: one two three one, one three one two, two two three one and three two two one, where equal letters must stay equal. Elizalde and Luo tabulated many such classes.",
+     "现在再禁止四个模式：一二三一、一三一二、二二三一和三二二一，相等的字母必须保持相等。Elizalde 和 Luo 把许多这样的类列成了表。"
+    ],
+    [
+     "For this class they conjectured a generating function, one minus three x plus two x squared, over one minus three x times one minus x minus x squared, checked up to n equal to eight. The counts run one, one, four, eleven, thirty-three, ninety-eight, two hundred ninety-three.",
+     "对这个类，他们猜想了一个生成函数：一减三 x 加二 x 平方，除以一减三 x 与一减 x 减 x 平方之积，验证到 n 等于八。计数依次是一、一、四、十一、三十三、九十八、二百九十三。"
+    ]
+   ]
+  },
+  {
+   "id": "cuts",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The proof starts by cutting. Sometimes a log splits cleanly: the first passengers all have smaller numbers than everyone after them. Split at every such cut, like uncoupling the cars of a train.",
+     "证明从切开开始。有时一份日志可以干净地断开：前面的乘客编号都比后面所有人小。在每一个这样的切口处断开，就像把火车的车厢一节节摘开。"
+    ],
+    [
+     "Cars that cannot be split further are called primitive, and joining cars always stays in the class. So the whole count is one over one minus D, where D counts the primitive cars.",
+     "无法再拆的车厢叫作本原的，而把车厢接起来总还留在这个类里。所以总计数就是一除以一减 D，其中 D 数的是本原车厢。"
+    ]
+   ]
+  },
+  {
+   "id": "blocks",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Next, the four patterns squeeze the boarding order. The first boardings must come in blocks: a large number k, then one, two, up to k minus one, in order.",
+     "接着，四个模式挤压了上车顺序。首次上车必须成块出现：先是一个较大的数 k，然后按顺序是一、二，直到 k 减一。"
+    ],
+    [
+     "And with three or more passengers, when the first one is the largest, that passenger must leave at once: the log begins with the same number twice. The patterns leave very little room.",
+     "而在三位以上乘客时，若首位乘客编号最大，这位乘客必须立刻下车：日志以同一个数连写两次开头。这些模式留下的余地非常小。"
+    ]
+   ]
+  },
+  {
+   "id": "families",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "That little room is exactly three families of primitive cars. First: the largest passenger boards and leaves at once, followed by a tail whose boarding order increases. There are two to the n minus two of these.",
+     "那一点余地恰好是三族本原车厢。第一族：最大编号的乘客上车后立刻下车，后面跟着一条上车顺序递增的尾巴。这一族有二的 n 减二次方个。"
+    ],
+    [
+     "Second: a single staircase, one two one three two four three, and so on. Third: a single chain beginning two one three two one. So there are two to the n minus two plus two primitive cars of size n.",
+     "第二族：唯一的一条阶梯，一二一三二四三，依此类推。第三族：唯一一条以二一三二一开头的链。所以大小为 n 的本原车厢共有二的 n 减二次方再加二个。"
+    ]
+   ]
+  },
+  {
+   "id": "doubling",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Why two to the n minus two? Each increasing tail can grow by one passenger in exactly two ways, so the choices double at every size, like a path that forks at every step.",
+     "为什么是二的 n 减二次方？每条递增的尾巴，每多一位乘客恰好有两种延伸方式，所以每长一步选择就翻一倍，就像一条每一步都分叉的路。"
+    ],
+    [
+     "Lean proves the two-way extension, that the staircase is the only primitive word with increasing boarding order, and that the chain beginning two one three two one is the only one of its kind.",
+     "Lean 证明了这种两路延伸，证明了阶梯是唯一上车顺序递增的本原词，也证明了以二一三二一开头的链是同类中唯一的一条。"
+    ]
+   ]
+  },
+  {
+   "id": "algebra",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the algebra writes itself. D is x, plus x squared over one minus two x, plus two x squared over one minus x. Then one over one minus D simplifies to exactly the conjectured function.",
+     "现在代数自然成形。D 等于 x，加上 x 平方除以一减二 x，再加上两倍 x 平方除以一减 x。于是一除以一减 D 化简后，恰好就是猜想中的那个函数。"
+    ],
+    [
+     "Its denominator hides two growth rates: one minus three x, so the counts grow like three to the n, and one minus x minus x squared, the Fibonacci polynomial, with the golden ratio inside.",
+     "它的分母里藏着两种增长率：一减三 x，所以计数像三的 n 次方那样增长；还有一减 x 减 x 平方，也就是 Fibonacci 多项式，里面藏着黄金比例。"
+    ]
+   ]
+  },
+  {
+   "id": "modules",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Lean proof is a small city of twenty-five modules and six thousand seven hundred lines: definitions, the order lemmas, cuts and direct sums, deletion, the block structure, and the three families.",
+     "Lean 的证明是一座由二十五个模块、六千七百行组成的小城：定义、顺序引理、切口与直和、删除、块结构，以及三族本原车厢。"
+    ],
+    [
+     "Each module is frozen, and the final theorem uses them all: the power series times one minus three x times one minus x minus x squared equals one minus three x plus two x squared.",
+     "每个模块都已冻结，最终定理用到了它们全部：这个幂级数乘以一减三 x、再乘以一减 x 减 x 平方，等于一减三 x 加二 x 平方。"
+    ]
+   ]
+  },
+  {
+   "id": "check",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The authors checked up to eight. The exhaustive search behind the dossier reached eleven, with twenty-three thousand six hundred twenty-nine and seventy thousand eight hundred seventy-four. For this film we recounted from scratch up to six.",
+     "作者验证到了八。卷宗背后的穷举搜索做到了十一，得到两万三千六百二十九和七万零八百七十四。为这部片子，我们从头重新数到了六。"
+    ],
+    [
+     "But no search reaches every n. The cuts, the three families and the doubling do, and the kernel checked each step.",
+     "但没有哪次搜索能覆盖每一个 n。切口、三族车厢和翻倍规律做到了，内核核验了每一步。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "A queue with no overtaking, four forbidden patterns, cars that split at cuts, three kinds of primitive car, and a choice that doubles. Together they give the conjectured function, now a frozen theorem.",
+     "一条不许超车的队列、四个被禁止的模式、在切口处断开的车厢、三种本原车厢，以及每步翻倍的选择。它们合在一起给出了猜想中的函数，如今已是冻结的定理。"
+    ],
+    [
+     "Eight cases were a hint. The structure is the reason, and the reason works for every n.",
+     "八个情形只是一条线索。结构才是理由，而这个理由对每一个 n 都成立。"
+    ]
+   ]
+  }
+ ]
+}
