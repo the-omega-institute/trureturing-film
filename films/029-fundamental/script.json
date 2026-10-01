@@ -1,0 +1,186 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "A permutation can be written two ways. As a line: who sits in seat one, seat two, seat three. Or as cycles: one points to three, three points to five, and you follow the arrows until you come home.",
+     "一个排列可以有两种写法。写成一行：一号座位坐谁，二号座位坐谁，三号座位坐谁。或者写成循环：一指向三，三指向五，顺着箭头一直走，直到回到起点。"
+    ],
+    [
+     "The fundamental bijection turns the second writing into the first. Write each cycle starting from its largest number, line the cycles up from small leader to large, and erase the brackets. What remains is a brand new line.",
+     "基本双射把第二种写法变成第一种。每个循环从它最大的数写起，把各个循环按领头的数从小到大排好，再擦掉括号。剩下的，就是一行全新的排列。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The fundamental bijection: a machine that turns cycles into lines, run again and again.",
+     "基本双射：一台把循环变成一行的机器，一遍又一遍地运转。"
+    ],
+    [
+     "Fifty-three frozen Lean modules, twenty-two thousand lines, and two conjectures from a 2024 paper.",
+     "五十三个冻结的 Lean 模块，两万两千行，以及来自一篇 2024 年论文的两个猜想。"
+    ]
+   ]
+  },
+  {
+   "id": "machine",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Take three one five two four. Seat one holds three, seat three holds five, seat five holds four, seat four holds two, seat two holds one. It is a single cycle, and its largest member is five.",
+     "取三一五二四。一号座位坐着三，三号座位坐着五，五号座位坐着四，四号座位坐着二，二号座位坐着一。这是单独一个循环，最大的成员是五。"
+    ],
+    [
+     "Start the cycle at five and read it: five, four, two, one, three. Erase the brackets, and that is the new line. The machine has turned three one five two four into five four two one three.",
+     "从五开始读这个循环：五、四、二、一、三。擦掉括号，这就是新的一行。机器把三一五二四变成了五四二一三。"
+    ]
+   ]
+  },
+  {
+   "id": "inverse",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The machine can be run backwards. Scan the new line from the left and cut just before every record, every number larger than all before it. Each piece is one cycle, already written from its largest member.",
+     "这台机器可以倒着运转。从左往右扫这一行，在每一个纪录之前切一刀，纪录就是比前面所有数都大的数。每一段就是一个循环，而且已经从它最大的成员写起。"
+    ],
+    [
+     "So nothing is lost: every line comes from exactly one permutation. That is why it is a bijection, and the Lean library proves that the record intervals rebuild the permutation from its cycles.",
+     "所以什么都没有丢：每一行都恰好来自一个排列。这就是它是双射的原因，Lean 库也证明了，按纪录切出的区间能从循环重建出原来的排列。"
+    ]
+   ]
+  },
+  {
+   "id": "orbit",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now feed the output back in. On three letters, one two three and two one three come out unchanged. But two three one becomes three one two, which becomes three two one, which turns back into two three one.",
+     "现在把输出再喂回去。三个字母时，一二三和二一三出来还是原样。但二三一变成三一二，三一二又变成三二一，三二一再转回二三一。"
+    ],
+    [
+     "Every permutation travels around a loop like this. A permutation that returns after three turns is fixed by the third iterate, theta cubed.",
+     "每个排列都沿着这样一个环在走。转三圈后回到原处的排列，被第三次迭代，也就是 θ 的三次方，固定。"
+    ]
+   ]
+  },
+  {
+   "id": "conjecture",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Archer and Laudone asked: how many permutations avoid the pattern two three one, or three one two, and come back after three turns? The counts begin one, one, two, five, nine, eighteen, thirty-seven, seventy-three.",
+     "Archer 和 Laudone 问：有多少个排列避开二三一这个模式，或者三一二，而且转三圈后回到原处？计数从一、一、二、五、九、十八、三十七、七十三开始。"
+    ],
+    [
+     "They conjectured the generating function one over one minus x minus x squared minus two x cubed, for both patterns. The Lean library now proves it for every n.",
+     "他们猜想，对这两个模式，生成函数都是一除以一减 x 减 x 平方减两倍 x 立方。如今 Lean 库对每一个 n 都证明了它。"
+    ]
+   ]
+  },
+  {
+   "id": "blocks",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The proof begins with building blocks. Many permutations are stacks: a small block below and to the left of a larger one. These avoiders split uniquely into blocks that cannot be split further.",
+     "证明从积木开始。许多排列是叠起来的：一块小积木在左下，一块大积木在右上。这些避开模式的排列可以唯一地拆成不能再拆的积木。"
+    ],
+    [
+     "And the machine works block by block: theta of a stack is the stack of the thetas. So the whole count is one over one minus the count of single blocks that come back after three turns.",
+     "而且这台机器按积木逐块运转：叠起来的东西经过 θ，等于每一块分别经过 θ 再叠起来。所以总计数就是一除以一减去转三圈后回到原处的单块积木数。"
+    ]
+   ]
+  },
+  {
+   "id": "chase",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Which single blocks come back? One, two one, and two blocks of size three: for two three one, they are three one two and three two one. Nothing larger.",
+     "哪些单块积木能回来？一、二一，以及两块大小为三的积木：对二三一来说，它们是三一二和三二一。没有更大的。"
+    ],
+    [
+     "For a larger block, follow it backwards two turns and write the successor equations. They force the number six into two different positions at once, which is impossible. So the block count is x plus x squared plus two x cubed, and the formula follows.",
+     "对更大的积木，把它倒着追两圈，写出后继方程。这些方程会逼着数字六同时坐进两个不同的位置，这不可能。所以单块计数是 x 加 x 平方加两倍 x 立方，公式随之成立。"
+    ]
+   ]
+  },
+  {
+   "id": "survival",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The second conjecture asks a different question. Start with a permutation avoiding one three two, and count how many turns it survives before the pattern appears. Call the survivors after k turns t of k.",
+     "第二个猜想问的是另一件事。从一个避开一三二的排列出发，数一数它能撑过几圈，模式才会出现。把撑过 k 圈的排列个数记作 t_k。"
+    ],
+    [
+     "After two turns the count is a cubic that depends on n modulo three. After three, four and five turns it is three n minus four, two n minus one, and n plus two. From six turns on, exactly five permutations survive forever.",
+     "撑过两圈的个数是一个随 n 模三而变的三次式。撑过三、四、五圈，分别是三 n 减四、二 n 减一和 n 加二。从第六圈起，永远恰好只有五个排列活下来。"
+    ]
+   ]
+  },
+  {
+   "id": "five",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The five eternal survivors are one two three, two one three, two three one, three one two and three two one, each followed by four, five, up to n. The machine only moves them among themselves.",
+     "这五个永远的幸存者是一二三、二一三、二三一、三一二和三二一，每个后面都接上四、五，一直到 n。机器只在它们之间来回挪动。"
+    ],
+    [
+     "Every other permutation drops out, one layer at a time. Lean proves both conjectures for every n, through a scan of records, a parametrization of each layer, and three explicit words that step out of the layers in turn.",
+     "其余的排列一层一层地掉队。Lean 对每一个 n 都证明了这两个猜想，靠的是对纪录的扫描、对每一层的参数化，以及三个依次走出各层的显式词。"
+    ]
+   ]
+  },
+  {
+   "id": "check",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For this film we recounted everything from scratch up to n equal to nine: the fixed avoiders, one through two hundred ninety-three, and every survival layer. All of them match.",
+     "为这部片子，我们从头重新数到了 n 等于九：被固定的避开者，从一到二百九十三，以及每一层幸存者。全部吻合。"
+    ],
+    [
+     "The same paper also predicts the cases of four and five turns. Those two are written down in the library as statements, and they remain open.",
+     "同一篇论文还预测了转四圈和转五圈的情形。这两条已作为陈述写进库里，仍然是开放的。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Cycles become a line, the line becomes cycles, and the machine keeps turning. Blocks, a successor chase, and five survivors that never leave.",
+     "循环变成一行，一行又变回循环，机器不停地转。积木、一场后继追踪，以及五个永不离开的幸存者。"
+    ],
+    [
+     "Two conjectures, checked by hand to nine, proved by the kernel for every n.",
+     "两个猜想，人手数到了九，内核对每一个 n 证明了它们。"
+    ]
+   ]
+  }
+ ]
+}
