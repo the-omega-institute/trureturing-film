@@ -1,0 +1,26 @@
+{
+  "id": "031-mirror",
+  "title": "AURIC FIB ATOM PYRAMID II",
+  "title_zh": "金字塔 II · 镜像与展开",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "3655cb5f3e",
+  "released": "2026-10-08",
+  "duration": "7:36",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_narrated_EN_subs_ZH-EN.mp4",
+    "music_only": "TRURETURING_music_only_subs_ZH-EN.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}

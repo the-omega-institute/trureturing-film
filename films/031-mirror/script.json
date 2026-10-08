@@ -1,0 +1,246 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Five legal patterns, three neighbours and one forbidden touch. In occupancy space they make a square pyramid, and Lean has frozen its shape.",
+     "五种合法模式，三个邻居，一条禁止相碰的规则。在占位空间里，它们围成一座方底金字塔，Lean 已经冻结了它的形状。"
+    ],
+    [
+     "This time we do two things to it. We hold it up to a mirror, and we put a magnifying glass on its corners.",
+     "这一次，我们对它做两件事：把它举到镜子前，再用放大镜去看它的每一个角。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part two: the mirror and the blow-up.",
+     "Auric FIB 原子金字塔，第二部：镜像与展开。"
+    ],
+    [
+     "Duality swaps points with faces. Expansion turns a point into every direction you could arrive from.",
+     "对偶让点与面交换角色。展开把一个点变成你可能从中到达它的全部方向。"
+    ]
+   ]
+  },
+  {
+   "id": "angles",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Begin with a flat regular polygon. Each inside angle is n minus two, times pi, over n. At each corner you also turn, by two pi over n. Inside angle plus turn is a straight line, and all the turns add up to one full circle.",
+     "从一个平面正多边形开始。每个内角等于 n 减二乘以 pi，再除以 n。走到每个角时你还要转一个弯，转角是二 pi 除以 n。内角加转角正好是一条直线，所有转角加起来恰好一整圈。"
+    ],
+    [
+     "So the triangle is sharp, the square is exactly square, and from the pentagon on, every corner is blunt. The right angle is the border.",
+     "所以三角形的角是锐角，正方形的角恰好是直角，而从五边形开始，每个角都是钝角。直角就是这条分界线。"
+    ]
+   ]
+  },
+  {
+   "id": "width",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Stand in a corner. The directions that lead inside form a wedge of width theta. The outward normals that can press against that corner form another wedge, of width pi minus theta.",
+     "站在一个角上。通往内部的方向组成一个张角为 theta 的楔形。能够从外面顶住这个角的外法向，组成另一个楔形，张角是 pi 减 theta。"
+    ],
+    [
+     "Do it twice and you are back. Only one width is its own mirror: the right angle. A pentagon's hundred and eight pairs with seventy-two. Among regular polygons, only two pairs fit: triangle with hexagon, and square with square.",
+     "做两次就回到原处。只有一个张角是它自己的镜像：直角。五边形的一百零八度配七十二度。在正多边形中只有两对能配上：三角形配六边形，正方形配正方形。"
+    ]
+   ]
+  },
+  {
+   "id": "schlafli",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now go up a dimension. Write p for the sides of each face and q for the faces around each corner. Point-face duality swaps them: p, q becomes q, p. The tetrahedron is its own dual; the cube pairs with the octahedron, the dodecahedron with the icosahedron.",
+     "现在升高一维。用 p 记每个面的边数，用 q 记每个顶点周围的面数。点面对偶把它们交换：p、q 变成 q、p。四面体是自己的对偶；立方体与八面体配对，十二面体与二十面体配对。"
+    ],
+    [
+     "One product decides where they can live. When p minus two, times q minus two, is less than four: the sphere, and exactly the five Platonic solids. Equal to four: the flat plane. Greater than four: the hyperbolic plane, where seven triangles can meet at every corner.",
+     "一个乘积决定它们能生活在哪里。当 p 减二乘以 q 减二小于四：球面，恰好是五种柏拉图立体。等于四：平坦的平面。大于四：双曲平面，那里每个顶点可以有七个三角形相会。"
+    ]
+   ]
+  },
+  {
+   "id": "mirror",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "To mirror the pyramid we need a centre inside it, because its origin is a corner. Pick the point one quarter, one quarter, one half, and stretch: the floor corners go to plus or minus one at height minus one, and the top to height one.",
+     "要给金字塔照镜子，需要在它内部选一个中心，因为它的原点是一个角。选取点四分之一、四分之一、二分之一，再拉伸：底面四个角变成高度负一处的正负一，顶点升到高度一。"
+    ],
+    [
+     "The polar body is every test that never reads more than one on the pyramid. It has one corner at the bottom and four at height one: an upside-down pyramid with a diamond on top. Take the polar again, and the original returns.",
+     "极体就是在金字塔上读数永远不超过一的全部测试。它最下面有一个顶点，高度为一处有四个：一座倒立的金字塔，顶上是一块菱形。再取一次极体，原来的金字塔就回来了。"
+    ]
+   ]
+  },
+  {
+   "id": "selfdual",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Corner and face trade places. The apex becomes the whole diamond face. Each floor corner becomes a triangular face. The floor itself shrinks to the single bottom point.",
+     "角与面交换位置。顶点变成整块菱形面。每个底角变成一个三角形面。底面本身缩成最下面的那一个点。"
+    ],
+    [
+     "One explicit linear map carries the pyramid onto its mirror image, so the pyramid is self-dual. But the map is not a rigid motion: the two volumes are eight thirds and sixteen thirds. Same pattern of faces, different ruler.",
+     "一个明确的线性映射把金字塔送到它的镜像上，所以金字塔是自对偶的。但这个映射不是刚体运动：两个体积分别是三分之八和三分之十六。面的组合方式相同，尺子不同。"
+    ]
+   ]
+  },
+  {
+   "id": "blowup",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the magnifying glass. A bare point has no shape, but you can record where you came from as you arrive. On a line, two directions. In the plane, a circle. In space, a sphere.",
+     "现在拿起放大镜。一个裸的点没有形状，但你可以在到达时记下自己从哪里来。在直线上，有两个方向。在平面上，是一个圆。在空间里，是一个球面。"
+    ],
+    [
+     "That is the blow-up. Replace the point by its sphere of arrival directions, and change nothing anywhere else. Collapse the sphere again, and the point comes back.",
+     "这就是吹起。把这个点换成它的到达方向球面，其他地方一概不变。再把球面压回去，点就回来了。"
+    ]
+   ]
+  },
+  {
+   "id": "apex",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "At the pyramid's apex, only some directions lead into the solid. Slice just below the tip and you get a small square. On the sphere, the arrival directions fill a square patch.",
+     "在金字塔的顶点，只有一部分方向通往实体内部。在尖端下方切一刀，得到一个小正方形。在方向球面上，到达方向填满一块方形区域。"
+    ],
+    [
+     "In fact the whole pyramid is a cone over that square: every point mixes a floor point with the apex, and Lean has frozen that too. Keep only the four side walls, and the directions shrink to a loop: topologically a circle, with four corners.",
+     "其实整座金字塔就是这个正方形上的锥：每一点都是一个底面点和顶点的混合，这一点 Lean 也已冻结。只保留四面侧墙，方向就缩成一条闭环：拓扑上是一个圆，带着四个角。"
+    ]
+   ]
+  },
+  {
+   "id": "corners",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "At the four floor corners, slice the same way, and every slice is a triangle. Two are equilateral. The other two are right triangles, with sides epsilon, root two epsilon, and root three epsilon.",
+     "在四个底角用同样的方法切开，每个切面都是三角形。其中两个是正三角形。另外两个是直角三角形，边长分别是 epsilon、根号二 epsilon 和根号三 epsilon。"
+    ],
+    [
+     "One square and four triangles. And in the mirror, the polar faces are one quadrilateral and four triangles too. The bridge is exact: the cone of entering directions, its normal cone, then the face at height one.",
+     "一个正方形，四个三角形。而在镜子里，极体的面也是一个四边形加四个三角形。这座桥是精确的：先取进入方向的锥，再取它的法锥，最后取高度为一的那张面。"
+    ]
+   ]
+  },
+  {
+   "id": "fibre",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "But direction is not everything. Take two floor laws with the same direction: half nothing and half both ends, or half two and half five. Their averages agree. The chance that both ends appear does not: one half, or zero.",
+     "但方向不是一切。取两个方向相同的底面律：一半什么都不选、一半两端都选，或者一半选二、一半选五。它们的平均值一致。两端同时出现的概率却不一致：一个是二分之一，一个是零。"
+    ],
+    [
+     "Slide toward the apex. The floor correlation delta shrinks like r squared, yet the conditional covariance stays at plus or minus one quarter. And a path can reach the apex while its direction swings forever, never settling.",
+     "向顶点滑去。底面关联 delta 像 r 的平方一样缩小，但条件协方差始终保持在正负四分之一。而且一条路径可以抵达顶点，方向却永远在摆动，从不停下。"
+    ]
+   ]
+  },
+  {
+   "id": "slack",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The native reader turns this geometry into a task. After one window, feed a five. The chance of rejection is one side test's slack, divided by four. The smallest of the four slacks, over four, is the width of the hidden fibre.",
+     "原生读者把这套几何变成一项任务。读完一个窗口后，再喂进一个五。被拒绝的概率，等于一个侧面测试的余量除以四。四个余量中最小的那个除以四，就是隐藏纤维的宽度。"
+    ],
+    [
+     "For the point two fifths, two fifths, one fifth, the rejection after an odd reading can be anything from zero to two thirds. The best guess is one third, and in the worst case it is still off by one third.",
+     "对于点五分之二、五分之二、五分之一，读到奇数之后的拒绝概率可以是零到三分之二之间的任何值。最好的猜测是三分之一，而在最坏的情况下，它仍然会差三分之一。"
+    ]
+   ]
+  },
+  {
+   "id": "blank",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Feed the reader a blank window. The native count jumps: two becomes eight, three becomes thirteen, five becomes twenty-one, seven becomes twenty-nine.",
+     "给读者喂一个空窗口。原生数量跳了起来：二变成八，三变成十三，五变成二十一，七变成二十九。"
+    ],
+    [
+     "Move the probe the opposite way, and the row zero, one reads back two, three, five, seven exactly. Add more blanks and the counts march on to thirty-four, fifty-five, eighty-nine, while seven runs through the Lucas numbers. The source moves one way, the probe the other, and the reading stays.",
+     "把探针反向移动，读口零、一就精确读回二、三、五、七。再加空窗口，数量继续前进到三十四、五十五、八十九，而七沿着 Lucas 数前进。来源往一个方向走，探针往另一个方向走，读数保持不变。"
+    ]
+   ]
+  },
+  {
+   "id": "budget",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The expected count is three, plus r times two u plus five v minus three. From the apex's three, it falls toward the empty corner and climbs toward two plus five.",
+     "数量的期望值等于三，加上 r 乘以二 u 加五 v 减三。从顶点的三出发，它朝空底角下降，朝二加五上升。"
+    ],
+    [
+     "A promise that the expected count never exceeds t becomes one membership test in the polar body. Seven passes, exactly on the boundary. Six fails: the pattern two plus five already counts seven.",
+     "“数量期望永远不超过 t”这个承诺，变成极体里的一次成员测试。七通过了，恰好落在边界上。六失败了：模式二加五本身就数到七。"
+    ]
+   ]
+  },
+  {
+   "id": "windows",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One more Fibonacci echo. Let a hand turn without changing its length, and add up its first F k positions, and its first F k plus one.",
+     "再来一个 Fibonacci 回声。让一根指针转动而长度不变，把它最初的 F k 个位置加起来，再把最初的 F k 加一个位置加起来。"
+    ],
+    [
+     "Those two window sums always recover the starting vector, and errors grow by at most the square root of F of two k minus three. A window of length A plus B splits into A, then B moved on by A. No inverse, no period, no Fourier: only Fibonacci, twice.",
+     "这两个窗口和总能恢复出起始向量，误差最多放大 F 二 k 减三的平方根倍。长度为 A 加 B 的窗口拆成 A，再接上向前移动了 A 的 B。不需要逆，不需要周期，不需要 Fourier：只需要两次 Fibonacci。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "The right angle is the only width that is its own mirror. The pyramid's mirror is a pyramid. A point, blown up, becomes every way of arriving, and what the average forgets is still a fibre.",
+     "直角是唯一一个是自己镜像的张角。金字塔的镜像还是一座金字塔。一个点被吹起之后，变成所有到达它的方式，而平均值遗忘的东西，仍然是一条纤维。"
+    ],
+    [
+     "The pyramid and its cone shape are frozen in Lean. Duality and expansion are argued in the new volume and recomputed for this film.",
+     "金字塔及其锥形结构已在 Lean 中冻结。对偶与展开在新卷中论证，并为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
