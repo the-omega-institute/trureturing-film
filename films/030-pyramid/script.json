@@ -1,0 +1,201 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Start with two atoms, alpha and beta, and one rule. Alpha becomes beta. Beta becomes the ordered pair beta, alpha. Apply the rule again and again, and a tree grows.",
+     "从两个原子开始，alpha 和 beta，再加一条规则。alpha 变成 beta。beta 变成有序的一对：beta、alpha。一遍又一遍地套用这条规则，一棵树就长了出来。"
+    ],
+    [
+     "Give alpha the weight two and beta the weight three. Then the trees weigh two, three, five, eight, thirteen: the Fibonacci numbers, each the sum of the two before.",
+     "给 alpha 记重量二，给 beta 记重量三。于是这些树依次重二、三、五、八、十三：正是 Fibonacci 数，每一个都是前两个之和。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid: three neighbours, one forbidden touch, and a shape with five corners.",
+     "Auric FIB 原子金字塔：三个邻居、一条禁止相碰的规则，以及一个有五个角的形状。"
+    ],
+    [
+     "A pyramid frozen in Lean, and four theory volumes that read everything it can and cannot remember.",
+     "一座在 Lean 中冻结的金字塔，以及四卷理论，读出它能记住的一切，和它记不住的东西。"
+    ]
+   ]
+  },
+  {
+   "id": "positions",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Take three neighbouring Fibonacci weights: two, three and five. The Zeckendorf rule says two neighbours may never both be chosen. So the middle three pushes away both of its neighbours.",
+     "取三个相邻的 Fibonacci 权重：二、三、五。Zeckendorf 规则说，两个相邻的位置永远不能同时被选。所以中间的三会把两边的邻居都推开。"
+    ],
+    [
+     "But two and five are not neighbours. They may appear together, as seven. That leaves exactly five legal patterns: nothing, two, three, five, and two plus five.",
+     "但二和五并不相邻，它们可以一起出现，合成七。这样恰好剩下五种合法模式：什么都不选、二、三、五，以及二加五。"
+    ]
+   ]
+  },
+  {
+   "id": "pyramid",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now give each pattern a point in space: one axis for the two, one for the five, one for the three. The four patterns without a three lie on the floor, at the corners of a unit square. The three alone sits above them.",
+     "现在给每种模式一个空间中的点：一根轴表示二，一根表示五，一根表示三。不含三的四种模式落在地面上，正好是一个单位正方形的四个角。单独的三悬在它们上方。"
+    ],
+    [
+     "Wrap these five points in the smallest convex shape, and you get a square pyramid. Lean proves it, and the shape is frozen: volume one third, surface two plus root two, five corners, eight edges, five faces.",
+     "用最小的凸形把这五个点包起来，得到的是一座方底金字塔。Lean 证明了这一点，而且这个形状已经冻结：体积三分之一，表面积二加根号二，五个顶点、八条棱、五个面。"
+    ]
+   ]
+  },
+  {
+   "id": "lattice",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Scale the pyramid up and count its whole-number points. You get one, five, fourteen, thirty, fifty-five, ninety-one: the square pyramidal numbers, cannonballs stacked in square layers.",
+     "把金字塔放大，数一数里面的整数点。得到一、五、十四、三十、五十五、九十一：正是平方金字塔数，就像炮弹一层一层堆成方形的塔。"
+    ],
+    [
+     "Count instead the full ways to share m tickets among the five patterns, and you get one, five, fifteen, thirty-five, seventy. The gap is one square relation: none plus both equals two plus five.",
+     "如果换成数一数把 m 张票分给五种模式的全部方式，得到的是一、五、十五、三十五、七十。两者的差距来自唯一一条正方形关系：什么都不选加上两端都选，等于选二加上选五。"
+    ]
+   ]
+  },
+  {
+   "id": "blind",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Here is what the pyramid forgets. A mixture of the five patterns is a point in four dimensions, but its average lands in three. Half nothing and half both, or half two and half five: both land on the same point.",
+     "下面是金字塔遗忘的东西。五种模式的一个混合是四维空间中的一点，但它的平均值落在三维里。一半什么都不选、一半两端都选，或者一半选二、一半选五：两者落在同一个点上。"
+    ],
+    [
+     "The lost number is kappa, the chance that both ends appear together. Inside the pyramid it can slide along a whole interval. Only on the four triangular sides does the interval shrink to a single value.",
+     "丢失的那个数是 kappa，也就是两端同时出现的概率。在金字塔内部，它可以沿着整整一个区间滑动。只有在四个三角形侧面上，这个区间才缩成唯一的一个值。"
+    ]
+   ]
+  },
+  {
+   "id": "determinant",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Put the four floor patterns into a two by two table. Its determinant, delta, is the hidden correlation of the two ends. It is r times kappa minus X times Y, where r is the weight left on the floor.",
+     "把地面上的四种模式排成一张二乘二的表。它的行列式 delta，就是两端隐藏的关联。它等于 r 乘 kappa 减去 X 乘 Y，其中 r 是留在地面上的权重。"
+    ],
+    [
+     "And delta can never exceed r squared over four. Climb toward the apex and the hidden budget shrinks like the area of the cross-section, until at the top nothing at all can hide.",
+     "而且 delta 的绝对值永远不超过 r 的平方除以四。越往顶点爬，隐藏的余地就像截面的面积一样缩小，到了顶点，什么也藏不住了。"
+    ]
+   ]
+  },
+  {
+   "id": "gluing",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Each side face is a view that sees the middle and one end. Glue the two views along their shared middle, assume nothing more, and you get the product completion. It is also the unique maximum-entropy law.",
+     "每个侧面都是一种视角，看得见中间和其中一端。把两个视角沿着共同的中间粘起来，不再多做任何假设，就得到乘积补全。它也是唯一的最大熵分布。"
+    ],
+    [
+     "Even then the ends are linked. For the uniform law, the floor correlation is zero, yet the two ends still covary by one twenty-fifth, because the apex switches both of them off at once.",
+     "即便如此，两端仍然有联系。对均匀分布，地面上的关联为零，但两端仍然有二十五分之一的协方差，因为顶点会把两端同时关掉。"
+    ]
+   ]
+  },
+  {
+   "id": "continuation",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Does the forgotten number matter? Run the native reader. Read one window, keep only whether the total is odd, then try to continue with a five. A two below the seam makes the five illegal, and the reader rejects.",
+     "被遗忘的那个数要紧吗？运行原生读者。先读一个窗口，只记下总数是不是奇数，再试着接上一个五。如果接缝下方有一个二，这个五就不合法，读者会拒绝。"
+    ],
+    [
+     "Two laws share the same pyramid point, the same side views and the same odd chance. Yet after an odd reading, one is rejected one time in six, the other one time in two. The product guess says one in three.",
+     "两种分布有相同的金字塔点、相同的侧面视角和相同的奇数概率。然而读到奇数之后，一个每六次被拒绝一次，另一个每两次就被拒绝一次。乘积补全的猜测是三次中一次。"
+    ]
+   ]
+  },
+  {
+   "id": "counts",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three sequences start with one and five. Full configurations: fifteen, thirty-five, seventy. Visible points: fourteen, thirty, fifty-five. Real window histories: twenty-one, eighty-nine, three hundred seventy-seven.",
+     "有三个数列都从一和五开始。完整配置：十五、三十五、七十。可见格点：十四、三十、五十五。真实的窗口历史：二十一、八十九、三百七十七。"
+    ],
+    [
+     "The last ones are Fibonacci numbers again, F of three L plus two, because a history is a legal word of length three L. Same start, three different questions.",
+     "最后这一列又是 Fibonacci 数，第三 L 加二项，因为一段历史就是一个长度为三 L 的合法词。开头相同，问的却是三个不同的问题。"
+    ]
+   ]
+  },
+  {
+   "id": "fractal",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Let the legal words run forever and read each one as an address in base three. The addresses form a fractal: one copy shrunk by three, and one shrunk by nine and shifted.",
+     "让合法词无限延长，把每一个读成三进制下的一个地址。这些地址组成一个分形：一份缩小到三分之一的副本，加上一份缩小到九分之一并平移的副本。"
+    ],
+    [
+     "Its dimension is the log of the golden ratio over the log of three, about zero point four four. So one source wears three dimensions: three for the pyramid, four for the full law, and point four four for its infinite addresses.",
+     "它的维数是黄金比的对数除以三的对数，大约零点四四。所以同一个来源有三种维数：金字塔是三维，完整分布是四维，无限地址是零点四四维。"
+    ]
+   ]
+  },
+  {
+   "id": "primes",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The same five-pattern algebra appears in the primes. For triples n, n plus two, n plus six, let the ends mean that a prime q divides n or n plus six, and the middle that it divides n plus two.",
+     "同样的五模式代数也出现在素数里。对三元组 n、n 加二、n 加六，让两端表示素数 q 整除 n 或 n 加六，中间表示 q 整除 n 加二。"
+    ],
+    [
+     "Modulo three, the pattern zero two six and the pattern zero two four have the same three averages. But kappa is one third versus zero, and so is the surviving fraction. The hidden number decides whether prime triplets of that shape can exist at all.",
+     "模三之下，零二六和零二四这两种模式的三个平均值完全相同。但它们的 kappa 分别是三分之一和零，存活比例也是如此。这个隐藏的数决定了这种形状的素数三胞胎究竟能不能存在。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Two atoms, a growth rule, three neighbours and one forbidden touch. Five corners make a pyramid, and one square relation is what it forgets.",
+     "两个原子、一条生长规则、三个邻居和一条禁止相碰的规则。五个角搭成一座金字塔，而一条正方形关系就是它遗忘的东西。"
+    ],
+    [
+     "The shape is frozen in Lean; the rest is argued in four volumes and recomputed for this film.",
+     "形状已在 Lean 中冻结；其余内容在四卷理论中论证，并为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}

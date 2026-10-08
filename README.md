@@ -41,6 +41,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 027 | [NO NESTING](films/027-nonnesting/) · 不嵌套的排列 | 5:27 | EN (AI) / music-only | ZH + EN |
 | 028 | [FOUR WAYS TO BE UNSEEN](films/028-unseen/) · 一个观察者的四种看不见 | 5:25 | EN (AI) / music-only | ZH + EN |
 | 029 | [THE FUNDAMENTAL BIJECTION](films/029-fundamental/) · 基本双射的循环 | 5:23 | EN (AI) / music-only | ZH + EN |
+| 030 | [AURIC FIB ATOM PYRAMID](films/030-pyramid/) · FIB 原子金字塔 | 5:54 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 
