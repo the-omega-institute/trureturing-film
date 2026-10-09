@@ -1,0 +1,250 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "In this series, one ordered atom gives five patterns. In its first window they carry the numbers zero, two, three, five and seven.",
+     "在这个系列里，一个有序原子给出五种模式。在它的第一个窗口里，它们带着数字零、二、三、五、七。"
+    ],
+    [
+     "They are the first four primes there are. This film asks why that happens exactly once, and what the atom still says about primes afterwards.",
+     "它们正是最前面的四个素数。这部片子问：为什么这件事只发生一次，以及之后这个原子还能告诉我们关于素数的什么。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part five: two, three, five, seven, only once.",
+     "Auric FIB 原子金字塔，第五部：二、三、五、七，只出现一次。"
+    ],
+    [
+     "Fibonacci and Lucas numbers decide which primes can appear, where they land, and who lands together.",
+     "Fibonacci 数与 Lucas 数决定了哪些素数能出现、落在哪里、以及谁和谁一起落下。"
+    ]
+   ]
+  },
+  {
+   "id": "windows",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Each new window multiplies by the Fibonacci matrix cubed. Window j carries zero, three consecutive Fibonacci numbers, and the Lucas number at index three j plus four.",
+     "每一个新窗口都乘以 Fibonacci 矩阵的三次方。第 j 个窗口带着零、三个相邻的 Fibonacci 数，以及下标为三 j 加四的 Lucas 数。"
+    ],
+    [
+     "Window zero: two, three, five, seven. Window one: eight, thirteen, twenty-one, twenty-nine. Window four: six hundred ten, nine eighty-seven, fifteen ninety-seven, twenty-two oh seven.",
+     "零号窗口：二、三、五、七。一号窗口：八、十三、二十一、二十九。四号窗口：六百一十、九百八十七、一千五百九十七、二千二百零七。"
+    ]
+   ]
+  },
+  {
+   "id": "once",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "From window one on, the low value has an index divisible by three, so it is even, and it is never two again. One position is lost for good.",
+     "从一号窗口开始，低端值的下标能被三整除，所以它是偶数，而且再也不会是二。一个位置永远失去了。"
+    ],
+    [
+     "Then parity takes another. In odd windows the high value is composite; in even windows the middle one is. Four primes at once can only happen in window zero.",
+     "然后奇偶性再拿走一个。奇数窗口里高端值是合数；偶数窗口里中间值是合数。四个同时为素数，只可能发生在零号窗口。"
+    ]
+   ]
+  },
+  {
+   "id": "coprime",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Inside every window, no two values share a factor: a Fibonacci number and the Lucas number of the same index have greatest common divisor one or two, and here always one.",
+     "在每个窗口内部，任意两个值都没有公因子：同下标的 Fibonacci 数和 Lucas 数，最大公约数只能是一或二，而这里总是一。"
+    ],
+    [
+     "Two identities bind them: F of two n is F n times L n, and L squared minus five F squared is plus or minus four. Every window lies on this pair of hyperbolas.",
+     "两条恒等式把它们绑在一起：F 的二 n 等于 F n 乘 L n，而 L 的平方减五倍 F 的平方等于正负四。每个窗口都落在这一对双曲线上。"
+    ]
+   ]
+  },
+  {
+   "id": "fermat",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A Fibonacci prime needs a prime index, or four; a Lucas prime needs a prime index, or a power of two. So in an even window, the high value and the Lucas value are both prime only when the index is two to a power of two, one less than a Fermat prime.",
+     "Fibonacci 素数需要素数下标，或者四；Lucas 素数需要素数下标，或者二的幂。所以在偶数窗口里，高端值和 Lucas 值要同时是素数，下标必须是二的二的幂次方，比一个 Fermat 素数小一。"
+    ],
+    [
+     "Index sixteen works: fifteen ninety-seven and twenty-two oh seven are both prime. At index two fifty-six, two fifty-seven is a Fermat prime, yet both values have small factors.",
+     "下标十六成立：一千五百九十七和二千二百零七都是素数。在下标二百五十六处，二百五十七是 Fermat 素数，但两个值都有小因子。"
+    ]
+   ]
+  },
+  {
+   "id": "mersenne",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Mersenne primes enter through the Lucas values. When two to the s, minus one, is prime and s is three mod four, it divides the Lucas number at index two to the s minus one.",
+     "Mersenne 素数从 Lucas 值进入。当二的 s 次方减一是素数、且 s 模四余三时，它整除下标为二的 s 减一次方的 Lucas 数。"
+    ],
+    [
+     "At s equal to seven, one hundred twenty-seven divides L sixty-four, the Lucas value of window twenty, and the cofactor is a twelve-digit prime.",
+     "当 s 等于七时，一百二十七整除 L 六十四，也就是二十号窗口的 Lucas 值，而余下的因子是一个十二位素数。"
+    ]
+   ]
+  },
+  {
+   "id": "collide",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Read the first window as an observer does, modulo a prime: two patterns collide when their values agree. The ten differences of zero, two, three, five, seven multiply to fifty thousand four hundred, ten times seven factorial.",
+     "像观察者那样读第一个窗口，对一个素数取模：两个模式的值一致，就发生碰撞。零、二、三、五、七的十个差乘起来是五万零四百，十乘以七的阶乘。"
+    ],
+    [
+     "Its prime factors are exactly two, three, five and seven, the only primes that can make patterns collide. The depth of a collision is the power of the prime in the difference: three and seven agree modulo four, not eight.",
+     "它的素因子恰好是二、三、五、七，只有这些素数能让模式碰撞。碰撞的深度，就是该素数在差中的幂次：三和七在模四下相同，在模八下不同。"
+    ]
+   ]
+  },
+  {
+   "id": "ranks",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Every prime first divides a Fibonacci number at an index called its rank. It divides F a exactly when the rank divides a, and an odd prime divides L a exactly when the rank is even and a is half the rank, modulo the rank.",
+     "每个素数都在某个下标第一次整除 Fibonacci 数，这个下标叫作它的秩。它整除 F a 当且仅当秩整除 a；奇素数整除 L a 当且仅当秩是偶数，并且 a 模秩等于秩的一半。"
+    ],
+    [
+     "So rank assigns roles. When three divides the rank, as for two, seventeen and nineteen, the prime only hits the low value. Odd ranks, like five and thirteen, never hit the Lucas value. Even ranks, like three, seven and forty-one, can hit all four.",
+     "于是秩分配了角色。当三整除秩时，比如二、十七、十九，这个素数只命中低端值。奇数秩，比如五和十三，永远不命中 Lucas 值。偶数秩，比如三、七、四十一，四个都能命中。"
+    ]
+   ]
+  },
+  {
+   "id": "closure",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Follow ranks downward. Fifty-nine has rank fifty-eight, which brings in twenty-nine. Twenty-nine has rank fourteen, bringing seven. Seven has rank eight, bringing two.",
+     "沿着秩往下走。五十九的秩是五十八，带来二十九。二十九的秩是十四，带来七。七的秩是八，带来二。"
+    ],
+    [
+     "Start from any finite set of primes, add two, three and five, and close under rank factors. The result is finite, never exceeds your largest prime, and is the smallest such set. This is frozen in Lean.",
+     "从任意有限个素数出发，加入二、三、五，再对秩的素因子取闭包。结果是有限的，从不超过你最大的那个素数，而且是这样的集合中最小的。这一点已在 Lean 中冻结。"
+    ]
+   ]
+  },
+  {
+   "id": "beats",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "When an odd prime divides L a, the power of two in its rank is one more than the power of two in a. So primes can share a Lucas value only if their ranks carry the same power of two.",
+     "当奇素数整除 L a 时，它的秩中二的幂次比 a 中二的幂次多一。所以几个素数要共享同一个 Lucas 值，它们的秩必须带着相同的二的幂次。"
+    ],
+    [
+     "Three has rank four, seven has rank eight: they never meet. Forty-one has rank twenty, like three, and wherever forty-one divides, three does too. Across windows, three strikes every fourth, seven every eighth, forty-one every twentieth, and they are not independent.",
+     "三的秩是四，七的秩是八：它们永不相遇。四十一的秩是二十，和三一样，凡是四十一整除的地方，三也整除。在窗口之间，三每四个命中一次，七每八个一次，四十一每二十个一次，而它们并不独立。"
+    ]
+   ]
+  },
+  {
+   "id": "clock",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Modulo five thousand and forty, seven factorial again, the Fibonacci matrix returns after two hundred forty steps, so window values repeat every eighty windows. Exact periods at prime powers above five are frozen in Lean.",
+     "在模五千零四十下，又是七的阶乘，Fibonacci 矩阵经过二百四十步回到原处，所以窗口数值每八十个窗口重复一次。大于五的素数的幂上的精确周期已在 Lean 中冻结。"
+    ],
+    [
+     "Residues repeat; primality does not. Window eighty matches window zero, yet its low value is a huge even number. A residue clock can only sieve: the middle and Lucas values avoid two, three, five and seven for four fifteenths of all indices.",
+     "余数会重复，素性不会。八十号窗口与零号窗口的余数相同，但它的低端值是一个巨大的偶数。余数时钟只能做筛子：中间值和 Lucas 值避开二、三、五、七的下标，占全部下标的十五分之四。"
+    ]
+   ]
+  },
+  {
+   "id": "chance",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now let the atom choose its pattern at random. The law is described by three averages, X, Y and Z, plus one hidden correlation, kappa, the chance of the joint pattern.",
+     "现在让原子随机选择模式。这个分布由三个平均值 X、Y、Z 描述，外加一个隐藏的关联 kappa，也就是联合模式的概率。"
+    ],
+    [
+     "The chance of a prime depends on kappa. In window zero, a fair coin on zero or seven and a fair coin on two or five share all three averages, yet one gives a prime half the time and the other always does.",
+     "得到素数的概率取决于 kappa。在零号窗口里，在零和七之间抛的公平硬币，与在二和五之间抛的公平硬币，三个平均值完全相同，可一个只有一半时间给出素数，另一个总是给出素数。"
+    ]
+   ]
+  },
+  {
+   "id": "seven",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One extra reading recovers kappa: before the exact value is discarded, test whether seven divides it. Seven divides only zero and seven, so the test averages one minus X minus Y minus Z, plus twice kappa.",
+     "一个额外的读数就能找回 kappa：在精确值被丢掉之前，先测试七是否整除它。七只整除零和七，所以这个测试的平均值是一减 X 减 Y 减 Z，再加两倍 kappa。"
+    ],
+    [
+     "Two laws with identical averages show why. After an odd value, the next step is rejected one time in six under one law, one time in two under the other. Independence predicts one in three for both.",
+     "两个平均值完全相同的分布说明了原因。在一个奇数值之后，下一步被拒绝的概率，一个分布是六分之一，另一个是二分之一。独立性假设对两者都预测三分之一。"
+    ]
+   ]
+  },
+  {
+   "id": "every",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Finally, the whole integer line. Six windows plus one unit bit write every number below ten thousand nine hundred forty-six exactly once, in Zeckendorf form.",
+     "最后，整条整数线。六个窗口加上一个单位位，以 Zeckendorf 形式，把小于一万零九百四十六的每个数恰好写一次。"
+    ],
+    [
+     "Three, five, seven is the only prime run spaced by two. For the shape n, n plus two, n plus six, a sieve by two, three, five and seven leaves four hundred eighteen candidates below that bound.",
+     "三、五、七是唯一一组间隔为二的素数。对于 n、n 加二、n 加六这个形状，用二、三、五、七去筛，在这个界以下留下四百一十八个候选。"
+    ],
+    [
+     "A candidate is not a triplet: one hundred forty-three is eleven times thirteen. Whether prime triplets go on forever is the Hardy–Littlewood conjecture, and it is still open.",
+     "候选不等于三胞胎：一百四十三是十一乘十三。素数三胞胎是否无穷无尽，是 Hardy–Littlewood 猜想，至今仍未解决。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Two, three, five and seven appear together once, and then the windows scatter them. Rank decides where a prime can land, powers of two decide who lands together, and a clock of seven factorial can only sieve.",
+     "二、三、五、七只同时出现一次，然后窗口把它们打散。秩决定一个素数能落在哪里，二的幂次决定谁能一起落下，而七的阶乘这个时钟只能做筛子。"
+    ],
+    [
+     "The rank closure, the prime-power periods and the collision depth are frozen in Lean; the classical index rules are cited; the window results are argued in the volume; and every number was recomputed for this film.",
+     "秩闭包、素数幂周期和碰撞深度已在 Lean 中冻结；经典的下标规则引自文献；窗口结论在理论卷中论证；每个数字都为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
