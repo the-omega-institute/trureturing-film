@@ -53,6 +53,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 039 | [AURIC FIB ATOM PYRAMID X](films/039-resolution/) · 金字塔 X：秩、体积与算术分辨率 | 7:00 | EN (AI) / music-only | ZH + EN |
 | 040 | [AURIC FIB ATOM PYRAMID XI](films/040-markov/) · 金字塔 XI：局部规则的反演与闭环修正 | 5:55 | EN (AI) / music-only | ZH + EN |
 | 041 | [AURIC FIB ATOM PYRAMID XII](films/041-selection/) · 金字塔 XII：选择项演算 | 6:50 | EN (AI) / music-only | ZH + EN |
+| 042 | [AURIC FIB ATOM PYRAMID XIII](films/042-update/) · 金字塔 XIII：观察更新如何暴露隐藏关系 | 6:19 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

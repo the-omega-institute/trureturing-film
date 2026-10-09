@@ -1,0 +1,322 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 24.38
+  },
+  {
+   "id": "title",
+   "start": 24.38,
+   "end": 38.729
+  },
+  {
+   "id": "fiber",
+   "start": 38.729,
+   "end": 61.725
+  },
+  {
+   "id": "slice",
+   "start": 61.725,
+   "end": 89.632
+  },
+  {
+   "id": "closure",
+   "start": 89.632,
+   "end": 116.581
+  },
+  {
+   "id": "tilt",
+   "start": 116.581,
+   "end": 145.964
+  },
+  {
+   "id": "covariance",
+   "start": 145.964,
+   "end": 166.972
+  },
+  {
+   "id": "knowledge",
+   "start": 166.972,
+   "end": 192.312
+  },
+  {
+   "id": "depth",
+   "start": 192.312,
+   "end": 219.149
+  },
+  {
+   "id": "rise",
+   "start": 219.149,
+   "end": 250.861
+  },
+  {
+   "id": "move",
+   "start": 250.861,
+   "end": 272.035
+  },
+  {
+   "id": "finite",
+   "start": 272.035,
+   "end": 296.624
+  },
+  {
+   "id": "kernel",
+   "start": 296.624,
+   "end": 320.43
+  },
+  {
+   "id": "quantum",
+   "start": 320.43,
+   "end": 344.038
+  },
+  {
+   "id": "finale",
+   "start": 344.038,
+   "end": 378.998
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 18.197,
+   "en": "Part twelve asked which relations a task still uses. Part thirteen watches an observer read one position, update, and come back. A reading changes what the observer knows, and what it knows decides what must be kept.",
+   "zh": "第十二部问的是任务仍在使用哪些关系。第十三部看一个观察者读取一个位置、更新、再回到原处。读取改变观察者知道的东西，而它知道什么，决定了必须保留什么。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 18.797,
+   "end": 23.38,
+   "en": "Coming back to the same place is not the same as coming back to the same knowledge.",
+   "zh": "回到同一个位置，并不等于回到同一份知识。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 25.58,
+   "end": 32.467,
+   "en": "The Auric FIB atom pyramid, part thirteen: how an observation update exposes hidden relations.",
+   "zh": "Auric FIB 原子金字塔，第十三部：观察更新如何暴露隐藏关系。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 33.067,
+   "end": 37.329,
+   "en": "Conditional slices, a four-corner tilt, and returns that keep teaching.",
+   "zh": "条件切面、四角倾斜，以及不断带来新知识的返回。"
+  },
+  {
+   "i": 4,
+   "scene": "fiber",
+   "start": 39.529,
+   "end": 54.424,
+   "en": "A pyramid point records three means: low, high and middle. The joint chance kappa of low with high is left free, anywhere from the larger of zero and X plus Y plus Z minus one, up to the smaller of X and Y.",
+   "zh": "金字塔上的一个点记录三个均值：低端、高端与中间。低端与高端同时出现的概率 kappa 没有被确定，可以取从零与 X+Y+Z−1 中较大者，到 X 与 Y 中较小者之间的任何值。"
+  },
+  {
+   "i": 5,
+   "scene": "fiber",
+   "start": 55.024,
+   "end": 60.325,
+   "en": "So a pyramid point is a summary of readings, not the whole source the observer holds.",
+   "zh": "所以金字塔上的点只是读数的摘要，而不是观察者手里的完整来源。"
+  },
+  {
+   "i": 6,
+   "scene": "slice",
+   "start": 62.525,
+   "end": 75.414,
+   "en": "Now read the low position. If it is occupied, the middle must be empty, and the high mean becomes kappa over X. If it is empty, the high mean becomes Y minus kappa, over one minus X.",
+   "zh": "现在读取低端位置。若它被占，中间必定为空，高端均值变为 kappa 除以 X；若它为空，高端均值变为 Y 减 kappa，再除以 1 减 X。"
+  },
+  {
+   "i": 7,
+   "scene": "slice",
+   "start": 76.014,
+   "end": 88.232,
+   "en": "Take two sources with the same three means: empty with joint, and low with high, half each. Reading low gives the same odds, yet after a one, the first is surely joint and the second surely low.",
+   "zh": "取两个三均值相同的来源：空与联合各占一半，低与高各占一半。读取低端给出相同的结果概率；可是读到一以后，前者必定是联合，后者必定是低端。"
+  },
+  {
+   "i": 8,
+   "scene": "closure",
+   "start": 90.432,
+   "end": 102.13,
+   "en": "Which summaries survive an update? Keep a space of functions. Their means after any result can be recovered exactly when multiplying by the reading's likelihood stays inside that space.",
+   "zh": "哪些摘要能挺过一次更新？保留一个函数空间。当且仅当乘上读口的似然后仍留在这个空间里，结果之后这些函数的均值才能被精确恢复。"
+  },
+  {
+   "i": 9,
+   "scene": "closure",
+   "start": 102.73,
+   "end": 115.181,
+   "en": "Reading the middle keeps one, x, y and z closed. Reading low and then predicting high needs the product x y, and with it the space already holds every function on the five patterns.",
+   "zh": "只读中间位置时，1、x、y、z 保持闭合。读取低端再预测高端，就需要乘积 xy；加上它，这个空间已经包含五种模式上的全部函数。"
+  },
+  {
+   "i": 10,
+   "scene": "tilt",
+   "start": 117.381,
+   "end": 129.716,
+   "en": "A product of activities balances the four square corners: empty times joint equals low times high. After a reading, this balance survives only if the likelihood is balanced in the same way.",
+   "zh": "活动权乘积模型让正方形四角保持平衡：空乘联合等于低乘高。一次读取之后，只有当似然也以同样方式平衡时，这个平衡才能保持。"
+  },
+  {
+   "i": 11,
+   "scene": "tilt",
+   "start": 130.316,
+   "end": 144.564,
+   "en": "Even a reading with no joint term can tilt it. Start uniform and accept with chance one plus x plus y, over three. The acceptance chance is three fifths, and the corner balance moves to minus one over eighty-one.",
+   "zh": "即使读口本身没有联合项，也能让它倾斜。从均匀律出发，以 (1+x+y)/3 的概率接受：接受的概率是五分之三，而四角平衡移到负八十一分之一。"
+  },
+  {
+   "i": 12,
+   "scene": "covariance",
+   "start": 146.764,
+   "end": 153.182,
+   "en": "Total covariance splits into the average covariance within each result, plus the spread of the result means.",
+   "zh": "总协方差分解为各结果内部协方差的平均，加上各结果均值之间的离散。"
+  },
+  {
+   "i": 13,
+   "scene": "covariance",
+   "start": 153.782,
+   "end": 165.572,
+   "en": "Reading low makes that spread a single direction, rank one. Observation turns part of the uncertainty into separation between outcomes, without promising that every variance falls.",
+   "zh": "读取低端时，这部分离散只有一个方向，秩为一。观察把一部分内部不确定性转成了结果之间的分离，但并不保证每个方差都下降。"
+  },
+  {
+   "i": 14,
+   "scene": "knowledge",
+   "start": 167.772,
+   "end": 175.669,
+   "en": "Now follow the observer's history. Updating on a history multiplies the weight of each hidden parameter by its likelihood.",
+   "zh": "现在跟随观察者的历史。按一段历史更新，就是把每个隐藏参数的权重乘上它的似然。"
+  },
+  {
+   "i": 15,
+   "scene": "knowledge",
+   "start": 176.269,
+   "end": 190.912,
+   "en": "The posterior is unchanged exactly when that likelihood is the same for every parameter. A controller back at the same node has returned in control flow; the observer has returned in knowledge only if the history taught nothing.",
+   "zh": "当且仅当该似然对每个参数都相同，后验才保持不变。控制器回到同一个节点，只是在控制流上回来了；只有当这段历史什么也没教会观察者时，它才在知识上回来。"
+  },
+  {
+   "i": 16,
+   "scene": "depth",
+   "start": 193.112,
+   "end": 209.942,
+   "en": "In the project's native return model, a hidden depth k is shared by the whole process, and the next letter is alpha with chance F k plus one over F k plus three: one third, two fifths, three eighths, five thirteenths, closing in on one over phi squared.",
+   "zh": "在项目的原生返回模型里，一个隐藏深度 k 由整个过程共享，下一个字母是 alpha 的概率为 F(k+1) 除以 F(k+3)：三分之一、五分之二、八分之三、十三分之五，逐渐逼近 φ 平方的倒数。"
+  },
+  {
+   "i": 17,
+   "scene": "depth",
+   "start": 210.542,
+   "end": 217.749,
+   "en": "Every letter actually read, including those in rejected or unfinished pairs, enters the posterior over depth.",
+   "zh": "每一个实际读到的字母，包括被拒绝或未完成配对中的字母，都进入关于深度的后验。"
+  },
+  {
+   "i": 18,
+   "scene": "rise",
+   "start": 219.949,
+   "end": 233.387,
+   "en": "A return word, beta then alpha, has likelihood r times one minus r. After it, the predicted chance of alpha rises by a covariance over a mean, strictly, as long as two depths remain possible.",
+   "zh": "返回词「先 beta 后 alpha」的似然是 r 乘 1−r。读完它，预测下一个是 alpha 的概率上升，升幅等于一个协方差除以一个均值；只要还有两个深度可能，就严格上升。"
+  },
+  {
+   "i": 19,
+   "scene": "rise",
+   "start": 233.987,
+   "end": 249.461,
+   "en": "With depths one and two at even odds, each return multiplies their relative weight by twenty-seven over twenty-five. The prediction starts at eleven thirtieths, rises by one over seven hundred eighty, and keeps climbing toward two fifths.",
+   "zh": "若深度一与深度二各占一半，每次返回都把它们的相对权重乘以二十五分之二十七。预测从三十分之十一出发，第一步上升七百八十分之一，并持续向五分之二攀升。"
+  },
+  {
+   "i": 20,
+   "scene": "move",
+   "start": 251.661,
+   "end": 264.084,
+   "en": "So the control point came back, but the true future did not. A predictor that wants to stay accurate must move its own prediction at least as far as the target moved, less its errors before and after.",
+   "zh": "所以控制点回来了，真实的未来却没有回来。想保持准确的预测器，必须把自己的预测至少移动目标移动的距离，再减去前后两次的误差。"
+  },
+  {
+   "i": 21,
+   "scene": "move",
+   "start": 264.684,
+   "end": 270.635,
+   "en": "Here the target moves by at least the rise in the alpha chance, so standing still is never exact.",
+   "zh": "在这里，目标至少移动了 alpha 概率的那段升幅，所以原地不动永远不会精确。"
+  },
+  {
+   "i": 22,
+   "scene": "finite",
+   "start": 272.835,
+   "end": 284.587,
+   "en": "Repeat the return again and again. Every prediction in the sequence is different, so an observer that must be exactly right after each history needs a separate configuration for each one.",
+   "zh": "一次又一次地重复返回。序列中的每个预测都不相同，所以要在每段历史之后都精确无误的观察者，必须为每段历史准备一个单独的配置。"
+  },
+  {
+   "i": 23,
+   "scene": "finite",
+   "start": 285.187,
+   "end": 295.224,
+   "en": "No finite set of configurations can do it. The bound is about exact prediction only; how well a finite observer can approximate is a different question.",
+   "zh": "任何有限的配置集都做不到。这个界只针对精确预测；有限观察者能近似到什么程度，是另一个问题。"
+  },
+  {
+   "i": 24,
+   "scene": "kernel",
+   "start": 297.424,
+   "end": 308.318,
+   "en": "In general, an update applies a nonnegative kernel to the law. A summary is sufficient exactly when the transposed kernel maps the kept functions back into themselves.",
+   "zh": "一般地，一次更新是对概率律施加一个非负核。当且仅当转置核把保留的函数映回它们自身，摘要才是充分的。"
+  },
+  {
+   "i": 25,
+   "scene": "kernel",
+   "start": 308.918,
+   "end": 319.03,
+   "en": "Close the space round by round. Five patterns close within five dimensions, but a shared depth with unbounded histories does not close in any finite one.",
+   "zh": "逐轮扩大这个空间直到闭合。五种模式在五维之内就闭合了，而共享深度加上无界的历史，在任何有限维里都不会闭合。"
+  },
+  {
+   "i": 26,
+   "scene": "quantum",
+   "start": 321.23,
+   "end": 330.028,
+   "en": "The same discipline holds for a qubit. The two states with Y equal to plus one and minus one give identical X and Z readings.",
+   "zh": "同样的纪律也适用于量子位。Y 取正一与负一的两个态，X 与 Z 的读数完全相同。"
+  },
+  {
+   "i": 27,
+   "scene": "quantum",
+   "start": 330.628,
+   "end": 342.638,
+   "en": "A quarter turn about Z sends Y to minus X, and the hidden difference appears. A classical kappa and a quantum phase are different objects, but neither can be dropped if a later step will read it.",
+   "zh": "绕 Z 转四分之一圈，把 Y 送到负 X，隐藏的差别便显现出来。经典的 kappa 与量子相位是不同的对象，但只要后续步骤会读到它，二者都不能被丢掉。"
+  },
+  {
+   "i": 28,
+   "scene": "finale",
+   "start": 345.038,
+   "end": 354.292,
+   "en": "An observation is an update, and an update can read relations the summary had dropped. Return to the same node, and you may still know more than before.",
+   "zh": "观察就是一次更新，而更新会读到摘要已经丢掉的关系。回到同一个节点，你知道的可能已经比从前更多。"
+  },
+  {
+   "i": 29,
+   "scene": "finale",
+   "start": 354.892,
+   "end": 369.998,
+   "en": "No frozen Lean declaration states these results for this model. The slices, the closure criteria, the four-corner tilt and the return predictions are argued in the theory volume, and every number here was recomputed for this film.",
+   "zh": "这一模型上的这些结论，目前没有对应的 Lean 冻结声明。条件切面、闭包判据、四角倾斜与返回预测在理论卷中论证，这里的每个数字都为这部片子重新计算过。"
+  }
+ ],
+ "duration": 378.998
+}
