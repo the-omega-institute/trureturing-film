@@ -1,0 +1,231 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part eleven rebuilt a local rule from averages. Part twelve goes back to the five patterns themselves and asks what is actually being chosen. The answer is positions on a growing chain, not numbers.",
+     "第十一部从平均值重建了局部规则。第十二部回到五种模式本身，追问到底在选择什么。答案是：选的是一条生长链上的位置，而不是数。"
+    ],
+    [
+     "Two plus three makes five. But generating a third tree from two, and occupying two places at once, are different acts.",
+     "二加三等于五。但由两棵树生成第三棵，和同时占用两个位置，是两种不同的操作。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part twelve: the selection calculus.",
+     "Auric FIB 原子金字塔，第十二部：选择项演算。"
+    ],
+    [
+     "Generation, selection, and the relations a task still uses.",
+     "生成、选择，以及任务仍在使用的关系。"
+    ]
+   ]
+  },
+  {
+   "id": "tree",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start from two leaves, alpha and beta. Replace alpha by beta, and beta by the ordered pair beta, alpha. Each tree in the orbit is the previous two side by side.",
+     "从两片叶子 alpha 与 beta 出发。把 alpha 换成 beta，把 beta 换成有序对 beta、alpha。轨道上的每棵树，都是前两棵并排拼成。"
+    ],
+    [
+     "Cut the orbit into windows of three trees: low, middle and high, where high is built from middle and low. A legal selection takes positions with no two neighbors. There are exactly five: none, low, middle, high, and low with high.",
+     "把轨道切成三棵树一组的窗口：低、中、高，其中高由中与低拼成。合法选择只取互不相邻的位置，恰有五种：不选、低、中、高，以及低加高。"
+    ]
+   ]
+  },
+  {
+   "id": "order",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Low with high compiles to the pair high, low, worth seven. The next tree in the orbit is worth eight, so a joint selection is not the next Fibonacci term. Order matters too: high then low, and low then high, have the same composition but are different trees.",
+     "低加高编译成有序对「高、低」，数量是七。轨道上的下一棵树数量是八，所以联合选择不是下一个 Fibonacci 项。次序同样重要：先高后低与先低后高组成相同，却是两棵不同的树。"
+    ],
+    [
+     "Choices can also merge. Low merged with high gives the joint pattern, but low with middle is not allowed. Yet high is generated from middle and low, and its value is two plus three. A generation equation is not a license to occupy together.",
+     "选择也可以合并。低与高合并得到联合模式，低与中却不允许。可是高正是由中与低生成的，数量是二加三。生成等式不等于同时占位的许可。"
+    ]
+   ]
+  },
+  {
+   "id": "scale",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three replacements move every chosen tree one window up, and the shape of the choice is kept. The values become eight, thirteen, twenty-one and twenty-nine, then thirty-four, fifty-five, eighty-nine and one hundred twenty-three.",
+     "三次替换把每棵被选的树整体上移一个窗口，选择的形状保持不变。数量变为八、十三、二十一、二十九，再变为三十四、五十五、八十九、一百二十三。"
+    ],
+    [
+     "Each value is a sum of Fibonacci numbers, one for each chosen position. A single replacement walks low to middle to high, and then on to the next window's low, never back.",
+     "每个数量都是 Fibonacci 数之和，每个被选位置贡献一项。单次替换从低走到中、再到高，然后走向下一个窗口的低，从不回头。"
+    ]
+   ]
+  },
+  {
+   "id": "relations",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Two different relations live on the five patterns. In occupation space, empty plus joint equals low plus high: the square base of the pyramid. In composition space, empty plus high equals low plus middle, because high is made of the other two.",
+     "五种模式上有两条不同的关系。在占位空间里，空加联合等于低加高，这就是金字塔的正方形底面。在组成空间里，空加高等于低加中，因为高由另外两个拼成。"
+    ],
+    [
+     "Lean has frozen the pyramid: the convex hull of all legal three-position words is exactly the solid with a square base and the middle as its apex. Composition flattens it into a trapezoid with corners zero zero, one zero, two one, and zero one.",
+     "Lean 已冻结这座金字塔：全部合法三位词的凸包，恰好是以正方形为底、以中间位置为顶点的立体。组成读出把它压成一个梯形，四个角是零零、一零、二一和零一。"
+    ]
+   ]
+  },
+  {
+   "id": "fibers",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A law on the five patterns has four free numbers. The pyramid's three means keep three of them, and the trapezoid's two means keep two. Each projection hides one more direction.",
+     "五模式上的概率律有四个自由参数。金字塔的三个均值保留其中三个，梯形的两个均值只保留两个。每一次投影都多藏起一个方向。"
+    ],
+    [
+     "The square direction hides at the first step, and the Fibonacci direction at the second. Inside the trapezoid the hidden fiber is two-dimensional; on the top edge it is a segment; on the other edges, a single point.",
+     "第一步藏起正方形方向，第二步藏起 Fibonacci 方向。梯形内部的隐藏纤维是二维的；上边上是一条线段；其余各边上只剩一个点。"
+    ]
+   ]
+  },
+  {
+   "id": "targets",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Which averages survive? Any target splits into its empty value, two slopes for the composition means, and two relation coefficients, gamma and lambda.",
+     "哪些平均目标能保住？任何目标都可拆成空模式的值、对两个组成均值的两个斜率，以及两个关系系数 gamma 与 lambda。"
+    ],
+    [
+     "Gamma tests the generation relation, and lambda tests the square. The composition means are enough for every law exactly when both coefficients vanish.",
+     "gamma 检验生成关系，lambda 检验正方形关系。当且仅当两个系数都为零，组成均值才对所有概率律都足够。"
+    ]
+   ]
+  },
+  {
+   "id": "moments",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Write each pattern's composition as two counts, xi and eta, and keep two second-order readings from the same sample: the averages of xi times xi minus one, and of xi times eta. With the two means, these four numbers return all five probabilities exactly.",
+     "把每种模式的组成写成两个计数 xi 与 eta，并在同一样本上保留两个二阶读数：xi 乘 xi 减一的平均，以及 xi 乘 eta 的平均。连同两个均值，这四个数精确返回全部五个概率。"
+    ],
+    [
+     "Two half-and-half mixtures make the point. Empty with joint, and low with high, share both means. Their second moments are one and one, against zero and one half.",
+     "两个各占一半的混合说明了这一点。空加联合，与低加高，两个均值完全相同；它们的二阶矩却分别是一与一，对零与二分之一。"
+    ]
+   ]
+  },
+  {
+   "id": "infinite",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Could more means help? Reading the same law at every Fibonacci scale gives an infinite sequence, but it obeys the Fibonacci recursion and is fixed by its first two terms.",
+     "更多均值能帮忙吗？在每一个 Fibonacci 尺度上读取同一律，会得到一条无限序列，但它服从 Fibonacci 递推，由前两项完全决定。"
+    ],
+    [
+     "So the whole infinite sequence knows only two numbers. Sampling more is not the same as reading a richer relation.",
+     "所以整条无限序列只知道两个数。采样更多，不等于读到更丰富的关系。"
+    ]
+   ]
+  },
+  {
+   "id": "seam",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now chain windows from high to low. The only rule across windows is that the old low and the new high cannot both be occupied, so a single seam bit carries everything the future needs.",
+     "现在从高到低把窗口串起来。跨窗口的唯一规则是：旧窗口的低位与新窗口的高位不能同时被占，所以一个接缝位就携带了未来所需的全部许可信息。"
+    ],
+    [
+     "Of the twenty-five pairs of patterns, four collide at the seam, leaving twenty-one. The counts run one, five, twenty-one, eighty-nine. Lean has frozen the reason: binary words with no two adjacent ones are counted by Fibonacci numbers.",
+     "两窗口的二十五个模式对中，有四个在接缝处冲突，剩下二十一个。计数依次是一、五、二十一、八十九。Lean 已冻结其原因：没有两个相邻 1 的二进制词，个数正是 Fibonacci 数。"
+    ]
+   ]
+  },
+  {
+   "id": "consume",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The native reader then feeds the high position at once. Empty gives five, middle eighteen, high twenty-six, and low or joint is rejected at the seam.",
+     "原生读者接着立刻输入高位置。空给出五，中给出十八，高给出二十六，低与联合则在接缝处被拒绝。"
+    ],
+    [
+     "Now the two mixtures differ: one gives five or reject, the other reject or twenty-six. The four moments give this whole reply law, and after an odd first count, the chance of rejection is S over two V.",
+     "这时两个混合不再相同：一个给出五或拒绝，另一个给出拒绝或二十六。四个矩给出这整条回复律；在首次计数为奇数的条件下，拒绝的概率是 S 除以 2V。"
+    ]
+   ]
+  },
+  {
+   "id": "empty",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A second path inserts an empty window first. It clears the seam and lifts the scale, so every branch is legal: five, thirty-nine, sixty, ninety-four, and one hundred twenty-eight.",
+     "第二条路径先输入一个空窗口。它清零接缝并抬高尺度，于是每个分支都合法：五、三十九、六十、九十四，以及一百二十八。"
+    ],
+    [
+     "The first two counts, and the averages of their squares, already return all four moments. For the two mixtures the mean squared first count is forty-nine halves against twenty-nine halves.",
+     "前两次计数及其平方的平均，已经返回全部四个矩。对这两个混合，首次计数平方的平均分别是二分之四十九与二分之二十九。"
+    ]
+   ]
+  },
+  {
+   "id": "crosswin",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Still, one window's moments are not a history. Take two windows that each hold empty or middle with equal chance, and tie them together, or apart.",
+     "不过，一个窗口的矩还不是一段历史。取两个窗口，各自以相同概率取空或中，再让它们同步，或者相反。"
+    ],
+    [
+     "Every single-window moment is the same, and both final means are eight. But one law ends at zero or sixteen, the other at three or thirteen.",
+     "每个单窗口矩都一样，两条律的终值均值也都是八。但一条律终止于零或十六，另一条终止于三或十三。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Generation builds the sources, selection decides which positions may appear together, and four moments keep the relations a task still uses.",
+     "生成负责构造来源，选择决定哪些位置可以一起出现，而四个矩保留了任务仍在使用的关系。"
+    ],
+    [
+     "The pyramid as a convex hull, and the Fibonacci count of legal words, are frozen in Lean. The selection calculus, the fibers, the moment inversion and the native replies are argued in the theory volume, and every number here was recomputed for this film.",
+     "金字塔作为凸包，以及合法词的 Fibonacci 计数，已在 Lean 中冻结。选择项演算、纤维、矩的反演与原生回复在理论卷中论证，这里的每个数字都为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
