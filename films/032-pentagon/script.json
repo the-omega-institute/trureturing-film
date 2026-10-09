@@ -1,0 +1,231 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Three positions, two forbidden touches, five legal patterns. Part one built the pyramid from them; part two held it up to a mirror.",
+     "三个位置，两处禁止相碰，五种合法模式。第一部用它们搭起了金字塔，第二部把金字塔举到了镜子前。"
+    ],
+    [
+     "Now we bend the chain until its two ends meet. A line of positions becomes a ring, and a new kind of impossibility appears.",
+     "现在我们把这条链弯过来，直到首尾相接。一排位置变成一个环，一种新的不可能随之出现。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part three: the golden pentagon.",
+     "Auric FIB 原子金字塔，第三部：黄金五环。"
+    ],
+    [
+     "Every piece can fit while the whole still fails, and the golden ratio marks exactly where.",
+     "每一块都能拼上，整体却仍可能失败，而黄金比例恰好标出失败的界线。"
+    ]
+   ]
+  },
+  {
+   "id": "ring",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Close three positions into a triangle, and only one pattern dies: two plus five, because its two ends now touch. Four survive.",
+     "把三个位置闭成三角形，只有一种模式死去：二加五，因为它的两端现在碰在了一起。剩下四种。"
+    ],
+    [
+     "Close five positions into a pentagon. The empty ring, five single choices, and five pairs that do not touch: eleven configurations. You can never choose three, because three chosen spots would need six seats.",
+     "把五个位置闭成五边形。空环、五种单选，加上五种互不相邻的成对选择：一共十一种配置。永远选不出三个，因为三个被选的位置需要六个座位。"
+    ]
+   ]
+  },
+  {
+   "id": "parity",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Count the empty seams, where two neighbours are both unchosen. Every position touches two seams, so the empty seams number N minus twice the chosen.",
+     "数一数空接缝，也就是两个相邻位置都没被选的地方。每个位置挨着两条接缝，所以空接缝的数目等于 N 减去被选数目的两倍。"
+    ],
+    [
+     "On an odd ring that number is odd, so it can never be zero: an odd ring can never alternate perfectly. The fullest pentagon patterns each leave exactly one gap, and there are five of them.",
+     "在奇数环上，这个数是奇数，所以永远不可能是零：奇数环无法完美交替。五边形里最满的那些模式各自恰好留下一个缺口，这样的模式正好有五个。"
+    ]
+   ]
+  },
+  {
+   "id": "local",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now give every position the probability one half. Each edge on its own is perfectly legal: half the time the left end, half the time the right, never both.",
+     "现在给每个位置都赋上概率二分之一。每条边单独看都完全合法：一半时间选左端，一半时间选右端，从不同时选。"
+    ],
+    [
+     "Yet no single source can produce all five edges at once. A source fills at most two of the five positions, but these averages demand two and a half. Every piece fits; the whole does not exist.",
+     "但没有任何一个共同来源能同时给出这五条边。一个来源最多填满五个位置中的两个，而这些平均值要求二点五个。每一块都拼得上，整体却不存在。"
+    ]
+   ]
+  },
+  {
+   "id": "gap",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "How much is lost? In seam coordinates, the region that passes every local check but fails globally is a simplex.",
+     "损失有多大？在接缝坐标中，那块通过所有局部检查、却在整体上失败的区域，是一个单纯形。"
+    ],
+    [
+     "Its volume is one over two N factorial: one twelfth for the triangle, one two-hundred-fortieth for the pentagon. On its outer face the source is forced: a unique mix of the five one-gap patterns.",
+     "它的体积是二乘 N 阶乘分之一：三角形是十二分之一，五边形是二百四十分之一。在它的外侧面上，来源被唯一确定：五种单缺口模式的唯一混合。"
+    ]
+   ]
+  },
+  {
+   "id": "lucas",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Weigh each chosen position by lambda and add up the ring. The total is the trace of the same two-by-two kernel, multiplied once per position: one plus five lambda plus five lambda squared for the pentagon.",
+     "给每个被选位置记一个权重 lambda，把整个环加起来。总和就是同一个二乘二核每个位置乘一次之后的迹：对五边形是一加五 lambda 加五 lambda 平方。"
+    ],
+    [
+     "At lambda one the rings count four, seven, eleven, eighteen: Lucas numbers, phi to the N plus negative one over phi, to the N. Drop that small second term, and the pentagon would grow like lambda to the five halves instead of lambda squared.",
+     "在 lambda 等于一时，各个环分别数出四、七、十一、十八：正是 Lucas 数，phi 的 N 次方加上负 phi 分之一的 N 次方。丢掉那个小的第二项，五边形就会像 lambda 的二分之五次方那样增长，而不是 lambda 的平方。"
+    ]
+   ]
+  },
+  {
+   "id": "ceilings",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now ask the five positions a single question: how large can the sum of their probabilities be? A classical source, sharing one hidden configuration, reaches two.",
+     "现在向五个位置问一个问题：它们的概率之和最大能有多大？一个经典来源，共享同一个隐藏配置，最多达到二。"
+    ],
+    [
+     "Five quantum projectors, each orthogonal to its neighbours, reach root five, about two point two three six. Five arrows on a cone, aimed as a five-pointed star, each fire with probability one over root five. Checking only the edges would allow two and a half.",
+     "五个量子投影，每个都与它的邻居正交，能达到根号五，约二点二三六。五支箭排在一个圆锥面上，指向一颗五角星，每支被触发的概率是根号五分之一。如果只检查每条边，上限会放宽到二点五。"
+    ]
+   ]
+  },
+  {
+   "id": "certificate",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Why can nothing beat root five? One five-by-five matrix certifies it, built from the ring itself. Its eigenvalues are zero, zero, zero, and twice five halves of root five minus one: never negative.",
+     "为什么没有什么能超过根号五？一个由五环本身构造的五乘五矩阵给出了证书。它的特征值是零、零、零，以及两个二分之五乘以根号五减一：永远不是负的。"
+    ],
+    [
+     "So the bound holds in every dimension. The triangle and the square show no gap between classical and quantum. The pentagon is the first ring where they split: two, then root five, then five halves.",
+     "所以这个上界在任何维数中都成立。三角形和正方形上，经典与量子之间没有差距。五边形是第一个让它们分开的环：二，然后是根号五，然后是二点五。"
+    ]
+   ]
+  },
+  {
+   "id": "records",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Turn from events to records. Line up four records, each overlapping only its neighbours. The determinant of their overlaps is one, minus three squared overlaps, plus one product.",
+     "从事件转向记录。把四份记录排成一排，每份只与相邻的记录重叠。它们重叠矩阵的行列式是一，减去三个重叠的平方，再加上一个乘积。"
+    ],
+    [
+     "Those are the five patterns again: nothing, each single edge, and the two outer edges together, because two swaps may never share a record. Along longer chains the determinants follow Fibonacci, and to allow every length the overlap must stay at or below one half.",
+     "这又是那五种模式：什么都不选、每一条单边，以及两条外侧边一起，因为两次交换永远不能共用一份记录。沿着更长的链，这些行列式遵循 Fibonacci 递推；要让任意长度都成立，重叠必须不超过二分之一。"
+    ]
+   ]
+  },
+  {
+   "id": "disc",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Close five records into a ring, knowing four overlaps of three fifths, but not the last one, c. Positivity confines c to a disc, centred at eighty-one over one seventy-five, with radius thirty-one over one seventy-five.",
+     "把五份记录闭成一个环，已知四个重叠都是五分之三，最后一个 c 未知。正性把 c 限制在一个圆盘里，圆心是一百七十五分之八十一，半径是一百七十五分之三十一。"
+    ],
+    [
+     "So c can never be zero: its size is at least two sevenths. Writing zero for the unmeasured overlap makes the determinant negative. Not yet measured is not the same as zero.",
+     "所以 c 永远不可能是零：它的大小至少是七分之二。把尚未测量的重叠写成零，会让行列式变成负数。尚未测量，不等于等于零。"
+    ]
+   ]
+  },
+  {
+   "id": "templates",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now close the ring with plus three fifths, or with minus three fifths. Delete any one record, and the two reports look identical: every part positive, every spectrum the same.",
+     "现在用正五分之三，或者负五分之三来闭合这个环。删去任意一份记录，两份报告看起来完全相同：每个部分都是正的，每个谱都一样。"
+    ],
+    [
+     "But only the plus ring can exist. In the minus ring, the alternating combination of all five records would have squared length minus one. The smallest repair moves every overlap by one tenth.",
+     "但只有正的那个环能够存在。在负的那个环里，五份记录的交替组合会有负一的长度平方。最小的修复需要把每个重叠都移动十分之一。"
+    ]
+   ]
+  },
+  {
+   "id": "phase",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The full determinant is the pentagon's pattern polynomial, plus two more terms for walking the whole loop, forward and back: two r to the fifth, times the cosine of the loop phase.",
+     "完整的行列式是五边形的模式多项式，再加上沿整个环走一圈的两项，一正一反：二乘 r 的五次方，再乘以环相位的余弦。"
+    ],
+    [
+     "At overlap three fifths, the loop phase must stay within about zero point two one radians of zero. Stronger overlap squeezes this window; below one half, every phase is allowed.",
+     "在重叠为五分之三时，环相位必须保持在离零约零点二一弧度以内。重叠越强，这个窗口就越窄；低于二分之一时，所有相位都被允许。"
+    ]
+   ]
+  },
+  {
+   "id": "golden",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Push the overlap up. The window closes at one over phi, about zero point six one eight, because twice the cosine of pi over five equals phi, a fact frozen in Lean. There the phase locks at zero, and five records fit into just three dimensions.",
+     "把重叠继续推高。窗口在 phi 分之一处关闭，约零点六一八，因为二倍的 cos 五分之 pi 等于 phi，这一事实已在 Lean 中冻结。在那里相位锁定为零，五份记录只需要三维空间就能装下。"
+    ],
+    [
+     "They are five arrows on a cone. Walk them as a pentagon, and neighbours overlap by one over phi. Walk them as a star, and neighbours are perpendicular: the same five arrows that carry the root five bound.",
+     "它们是圆锥面上的五支箭。按五边形走，相邻的箭重叠为 phi 分之一。按五角星走，相邻的箭互相垂直：正是承载根号五上界的那同样五支箭。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Three kinds of hidden relation: one unknown but completable, one phase that was never supplied, and one that cannot exist at all.",
+     "三种隐藏关系：一种未知但可以补全，一种相位从未被供应，还有一种根本不可能存在。"
+    ],
+    [
+     "Five patterns build the ring, and the golden ratio marks where it locks. The pentagon cosines are frozen in Lean; the ring theory is argued in the volume and recomputed for this film.",
+     "五种模式搭起这个环，黄金比例标出它锁死的位置。五边形余弦已在 Lean 中冻结；环的理论在理论卷中论证，并为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
