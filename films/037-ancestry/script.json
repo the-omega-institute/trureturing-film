@@ -1,0 +1,246 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part seven asked which records keep a simple source simple. But some relations hide below any record of which patterns occur. They live in how the source was built.",
+     "第七部问的是：哪些记录能让简单的来源保持简单。但有些关系藏得更深，不在任何「哪些模式出现」的记录里，而在来源是怎样搭起来的。"
+    ],
+    [
+     "The same atoms can carry three relations: which ones occur together, in what order they appear, and which ones were joined first, their common ancestor.",
+     "同一组原子可以带着三种关系：哪些同时出现，按什么次序出现，以及哪些先被组合在一起，也就是它们的共同祖先。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part eight: from co-occurrence to common ancestry.",
+     "Auric FIB 原子金字塔，第八部：从共同出现到共同祖先。"
+    ],
+    [
+     "Areas, brackets, depth, and the boundary of a complete observation.",
+     "面积、括号、递归深度，以及完整观察的边界。"
+    ]
+   ]
+  },
+  {
+   "id": "relations",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The joint pattern one-three records co-occurrence. Alpha beta against beta alpha records order. And a b, then c, against a, then b c, records ancestry: which parts formed one substructure first.",
+     "联合模式「一、三」记录共同出现。α β 与 β α 记录次序。而先 a b 再接 c，与先 b c 再接 a，记录的是祖先：哪些部分先组成了同一个子结构。"
+    ],
+    [
+     "Kappa, the joint probability, restores co-occurrence. It does not restore ancestry.",
+     "联合概率 kappa 补回的是共同出现，它补不回共同祖先。"
+    ]
+   ]
+  },
+  {
+   "id": "depth",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The FIB source is an ordered binary tree. The substitution rho turns alpha into beta, beta into the pair beta alpha, and acts on both children of every pair.",
+     "FIB 来源是一棵有序二叉树。替换 ρ 把 α 变成 β，把 β 变成配对「β, α」，并作用到每个配对的两个孩子上。"
+    ],
+    [
+     "The depth nu counts how many times rho can be undone. Rho never merges two trees of the same composition, and the trees with a alpha leaves and b beta leaves number a Catalan number times a binomial. Both facts are frozen in Lean.",
+     "深度 ν 计数 ρ 能被整体逆解多少次。ρ 从不合并组成相同的两棵树；含 a 片 α 叶、b 片 β 叶的树，共有卡塔兰数乘二项式系数那么多棵。这两件事都已在 Lean 中冻结。"
+    ]
+   ]
+  },
+  {
+   "id": "pairing",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Write T n for rho applied n times to alpha, the ray tree, and flag every tree that lies on this ray. A pair's depth is the smaller depth of its children, with one exception.",
+     "记 T n 为对 α 施加 n 次 ρ 得到的射线树，并给每棵落在这条射线上的树打上标志。配对的深度等于两个孩子中较小的深度，只有一个例外。"
+    ],
+    [
+     "If both children lie on the alpha ray and the left is exactly one deeper, the pair closes back onto the ray, two levels up. Two depths are not enough; you must also know whether they share one generating ray.",
+     "如果两个孩子都在 α 射线上，并且左孩子恰好深一层，这个配对就闭合回射线，再上升两层。只知道两个深度还不够，还要知道它们是否属于同一条生成射线。"
+    ]
+   ]
+  },
+  {
+   "id": "corner",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "In each window, low, middle and high are three consecutive ray trees, and the joint corner pairs high with low. Its depth equals the depth of low.",
+     "在每个窗口里，低端、中间、高端是三棵相继的射线树，联合角把高端与低端配对。它的深度与低端相同。"
+    ],
+    [
+     "Now place both after the middle tree. Low climbs two levels; the joint corner stays where it was. The ray flag is a one-bit record, and it is not kappa.",
+     "现在把二者都接在中间树之后。低端上升两层；联合角留在原处。射线标志是一位记录，而它不是 kappa。"
+    ]
+   ]
+  },
+  {
+   "id": "leafword",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Read only the leaves from left to right, and you keep the order but forget the brackets. Any associative product of the leaves merges trees with the same word.",
+     "只从左到右读叶子，就保留了次序，却忘掉了括号。叶子的任何结合乘积，都会把同叶词的树合并。"
+    ],
+    [
+     "Two trees with word beta alpha beta alpha share every count, the same path, the same five geometric quantities, and Pauli product minus the identity. Their depths are zero and two. Lean has frozen an instance: two different trees with word alpha alpha alpha give one Clifford product.",
+     "叶词同为 β α β α 的两棵树，计数全同，路径相同，五个几何量相同，Pauli 乘积都是负单位矩阵。它们的深度却是零和二。Lean 冻结了一个实例：叶词同为 α α α 的两棵不同的树，给出同一个 Clifford 乘积。"
+    ]
+   ]
+  },
+  {
+   "id": "rect",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now read the ancestors. Each gap between neighbouring leaves belongs to exactly one internal node, with left leaves on one side and right leaves on the other. Its rectangle has area l times r.",
+     "现在读祖先。相邻两片叶之间的每个间隙，恰好属于一个内部节点，一侧是左边的叶，一侧是右边的叶。它的矩形面积是 l 乘 r。"
+    ],
+    [
+     "Every pair of leaves meets exactly once, at its nearest common ancestor, so the areas always sum to m choose two. The total is fixed; the hidden brackets live in how it is shared.",
+     "每一对叶子恰好在它们最近的共同祖先处相遇一次，所以面积之和总是 m 选二。总量是固定的；隐藏的括号，藏在它的分配方式里。"
+    ]
+   ]
+  },
+  {
+   "id": "recover",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Over any run of k consecutive leaves, the areas add up to at least k choose two, with equality exactly when the run is the full leaf set of one subtree.",
+     "在任意连续 k 片叶上，面积之和至少是 k 选二，并且恰好在这段叶是一棵子树的全部叶子时取等号。"
+    ],
+    [
+     "So the area vector finds every subtree, and with the leaf word it rebuilds the whole tree. Nothing is free here: these areas are a new readout, and it depends on ancestry.",
+     "于是面积向量能找出每一棵子树，再配上叶词，就能重建整棵树。这里没有免费的信息：这些面积是一个新读口，而且它依赖祖先。"
+    ]
+   ]
+  },
+  {
+   "id": "pentagon",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Four leaves have five bracketings. Their area vectors are one two three, two one three, one four one, three one two, and three two one, all summing to six.",
+     "四片叶有五种括号方式。它们的面积向量是 1 2 3、2 1 3、1 4 1、3 1 2 和 3 2 1，和都是六。"
+    ],
+    [
+     "Their convex hull is a pentagon, the smallest associahedron, and only the balanced one, one four one, has depth two. This five counts bracketings, a Catalan number, not the five legal patterns.",
+     "它们的凸包是一个五边形，也就是最小的结合多面体；只有平衡的那一种「1 4 1」深度为二。这个五数的是括号，是卡塔兰数，不是五种合法模式。"
+    ]
+   ]
+  },
+  {
+   "id": "rotation",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A local rotation turns s t, then u, into s, then t u. If the three parts hold a, b and c leaves, one gap gains a times c, and its neighbour loses a times c.",
+     "一次局部旋转，把「先 s t 再 u」变成「先 s 再 t u」。若三部分分别有 a、b、c 片叶，一个间隙增加 a 乘 c，相邻的间隙减少 a 乘 c。"
+    ],
+    [
+     "The pairs between the first and third parts change owner. The middle part decides how they connect, but never enters the product. Total relation is conserved; ancestry moves.",
+     "第一部分与第三部分之间的叶对换了归属。中间部分决定它们怎样接续，却不出现在乘积里。关系总量守恒，祖先归属移动了。"
+    ]
+   ]
+  },
+  {
+   "id": "unstable",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Exact is not stable. The ray tree T n and a twin U n share one leaf word and differ by a single rotation deep inside. T n has depth n; U n has depth zero.",
+     "精确不等于稳定。射线树 T n 与它的孪生树 U n 叶词相同，只在深处差一次旋转。T n 的深度是 n，U n 的深度是零。"
+    ],
+    [
+     "Their area vectors differ by one unit in two places. Normalised by the total, the gap shrinks fast: at n equal to thirteen, with three hundred seventy-seven leaves, it is one part in seventy thousand eight hundred seventy-six, while the depth gap is thirteen.",
+     "它们的面积向量只在两处各差一个单位。按总面积归一化后，差距迅速缩小：n 等于十三时，共三百七十七片叶，差距只有七万零八百七十六分之一，而深度差是十三。"
+    ]
+   ]
+  },
+  {
+   "id": "adaptive",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "An experiment that only ever sees leaf words, however adaptive, gets the same record distribution from T n and U n. Any depth estimate built on it misses, on average, by at least n over two on one of them.",
+     "一个只看得到叶词的实验，不论多么自适应，从 T n 与 U n 得到的记录分布都相同。基于它的任何深度估计，至少在其中一棵树上平均偏差 n 的一半。"
+    ],
+    [
+     "More readouts of the same kind cannot help; the readout must change kind. And holding the full bracketing costs memory: at least three bits for four leaves, and thirty-three for twenty-one.",
+     "再多同类读口也无济于事；读口必须换种类。而保存完整括号要占容量：四片叶至少三比特，二十一片叶至少三十三比特。"
+    ]
+   ]
+  },
+  {
+   "id": "characters",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A different kind of hiding. Take the strings zero zero zero, zero one one, one zero one, and one one zero. Every single bit and every pair is perfectly uniform, yet the parity is always even.",
+     "另一种隐藏。取 000、011、101、110 四个串。每一位、每一对都完全均匀，可是奇偶性永远是偶的。"
+    ],
+    [
+     "A third-order character sees it at once: a law is uniform exactly when every nonconstant character averages to zero. Here the coordinates were still encoded. Once brackets are deleted, no character of the leaf word brings them back.",
+     "三阶特征一眼就能看出：一个分布均匀，当且仅当每个非恒定特征的平均都为零。这里坐标仍然编码在来源里。括号一旦删去，叶词的任何特征都找不回它们。"
+    ]
+   ]
+  },
+  {
+   "id": "task",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Sometimes less is enough. For future depth and geometry, the leaf word plus the depth suffices: the ray flag is one exactly when undoing nu Fibonacci steps on the leaf counts leaves a single alpha.",
+     "有时更少就够了。若只关心未来的深度与几何，叶词加深度就足够：把叶的计数逆推 ν 步 Fibonacci，恰好只剩一片 α 时，射线标志为一。"
+    ],
+    [
+     "But it cannot answer addresses. Alpha alpha, then alpha, and alpha, then alpha alpha, share word and depth zero. Ask for the left child: one is a pair, the other a leaf. The task decides the boundary.",
+     "但它回答不了地址。「先 αα 再 α」与「先 α 再 αα」叶词相同、深度都是零。问左孩子：一个是配对，一个是叶。充分的边界由任务决定。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Some relations are still encoded, merely unread: read higher-order events. Some were merged by associativity or projection: change the readout. And an exact readout must still be checked for stability, and paid for.",
+     "有些关系仍在编码里，只是还没读：去读更高阶的事件。有些已被结合律或投影合并：必须换读口。即便读口能精确恢复，也还要检查它是否稳定，并为它付出代价。"
+    ],
+    [
+     "The tree count, the one-to-one substitution and the Clifford instance are frozen in Lean. The depth law, the ancestor areas and the depth gap are argued in the volumes, and every number here was recomputed for this film.",
+     "树的计数、一对一的替换与 Clifford 实例已在 Lean 中冻结。深度合成律、祖先面积与深度落差在理论卷中论证，这里的每个数字都为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}

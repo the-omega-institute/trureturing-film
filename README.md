@@ -48,6 +48,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 034 | [AURIC FIB ATOM PYRAMID V](films/034-primes/) · 金字塔 V：二三五七只出现一次 | 7:44 | EN (AI) / music-only | ZH + EN |
 | 035 | [AURIC FIB ATOM PYRAMID VI](films/035-triangle/) · 金字塔 VI：星形、三角与记忆 | 6:38 | EN (AI) / music-only | ZH + EN |
 | 036 | [AURIC FIB ATOM PYRAMID VII](films/036-record/) · 金字塔 VII：读口与记录三角形 | 6:38 | EN (AI) / music-only | ZH + EN |
+| 037 | [AURIC FIB ATOM PYRAMID VIII](films/037-ancestry/) · 金字塔 VIII：从共同出现到共同祖先 | 7:14 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 
