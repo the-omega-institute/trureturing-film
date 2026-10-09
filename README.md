@@ -55,6 +55,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 041 | [AURIC FIB ATOM PYRAMID XII](films/041-selection/) · 金字塔 XII：选择项演算 | 6:50 | EN (AI) / music-only | ZH + EN |
 | 042 | [AURIC FIB ATOM PYRAMID XIII](films/042-update/) · 金字塔 XIII：观察更新如何暴露隐藏关系 | 6:19 | EN (AI) / music-only | ZH + EN |
 | 043 | [AURIC FIB ATOM PYRAMID XIV](films/043-ancestry-cube/) · 金字塔 XIV：祖先立方体与取得代价 | 6:26 | EN (AI) / music-only | ZH + EN |
+| 044 | [AURIC FIB ATOM PYRAMID XV](films/044-triangles/) · 金字塔 XV：关系三角形与反演精度 | 6:43 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

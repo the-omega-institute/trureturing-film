@@ -1,0 +1,322 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 25.854
+  },
+  {
+   "id": "title",
+   "start": 25.854,
+   "end": 38.659
+  },
+  {
+   "id": "freedom",
+   "start": 38.659,
+   "end": 63.621
+  },
+  {
+   "id": "posterior",
+   "start": 63.621,
+   "end": 95.434
+  },
+  {
+   "id": "twomoments",
+   "start": 95.434,
+   "end": 123.987
+  },
+  {
+   "id": "curve",
+   "start": 123.987,
+   "end": 152.753
+  },
+  {
+   "id": "triangle",
+   "start": 152.753,
+   "end": 180.107
+  },
+  {
+   "id": "gram",
+   "start": 180.107,
+   "end": 205.948
+  },
+  {
+   "id": "likelihood",
+   "start": 205.948,
+   "end": 232.793
+  },
+  {
+   "id": "jacobian",
+   "start": 232.793,
+   "end": 260.469
+  },
+  {
+   "id": "pyramid",
+   "start": 260.469,
+   "end": 284.468
+  },
+  {
+   "id": "fibonacci",
+   "start": 284.468,
+   "end": 315.436
+  },
+  {
+   "id": "lengthlaw",
+   "start": 315.436,
+   "end": 342.613
+  },
+  {
+   "id": "records",
+   "start": 342.613,
+   "end": 368.012
+  },
+  {
+   "id": "finale",
+   "start": 368.012,
+   "end": 403.324
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 15.254,
+   "en": "Part fourteen counted the evidence a single bit can cost. Part fifteen asks something finer: when a boundary recovers the interior uniquely, does it also recover it stably?",
+   "zh": "第十四部计算了一个比特可能要付出的证据。第十五部追问更细的问题：边界能唯一恢复内部，是否也能稳定地恢复？"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 15.854,
+   "end": 24.854,
+   "en": "The answer is no, and the gap is measured by triangles. The thinner the triangle three sources make, the more precision it takes to tell them apart.",
+   "zh": "答案是否定的，而这个差距可以用三角形来量。三个来源围出的三角形越瘦，把它们分开就越依赖精度。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 27.054,
+   "end": 33.09,
+   "en": "The Auric FIB atom pyramid, part fifteen: relation triangles and inverse precision.",
+   "zh": "Auric FIB 原子金字塔，第十五部：关系三角形与反演精度。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 33.69,
+   "end": 37.259,
+   "en": "Unique, stable, and acquirable are three different conditions.",
+   "zh": "唯一、稳定、可取得，是三个不同的条件。"
+  },
+  {
+   "i": 4,
+   "scene": "freedom",
+   "start": 39.459,
+   "end": 51.351,
+   "en": "Three pyramid means do not fix a five-pattern law; the joint chance kappa stays free. But if the source is known to be a product of activities, kappa becomes X Y over one minus Z.",
+   "zh": "金字塔的三个均值不能确定五模式的概率律，联合概率 kappa 仍是自由的。但若已知来源是活动权的乘积，kappa 就等于 XY 除以 1−Z。"
+  },
+  {
+   "i": 5,
+   "scene": "freedom",
+   "start": 51.951,
+   "end": 62.221,
+   "en": "The three means did not gain information. The generating rule ruled out every other consistent source, and a model constraint always carries information of its own.",
+   "zh": "三个均值并没有因此多出信息，是生成规则排除了其他所有相容来源。模型约束本身就承载着信息。"
+  },
+  {
+   "i": 6,
+   "scene": "posterior",
+   "start": 64.421,
+   "end": 81.928,
+   "en": "Return to the native model. One hidden depth k governs a whole run, and the next letter is alpha with chance F k plus one over F k plus three. After reading A alphas and B betas, the posterior weighs each depth by r to the A times one minus r to the B.",
+   "zh": "回到原生模型。一个隐藏深度 k 支配整次运行，下一个字母是 alpha 的概率为 F(k+1) 除以 F(k+3)。读到 A 个 alpha、B 个 beta 之后，后验按 r 的 A 次方乘以 1−r 的 B 次方给每个深度加权。"
+  },
+  {
+   "i": 7,
+   "scene": "posterior",
+   "start": 82.528,
+   "end": 94.034,
+   "en": "The first two entries of the remaining length law read off the first two moments, and their ranges, one third to two fifths against three fifths to two thirds, even reveal the active phase.",
+   "zh": "剩余长度律的前两项直接读出前两阶矩；它们的取值范围，三分之一到五分之二，对比五分之三到三分之二，还能识别当前的活动相位。"
+  },
+  {
+   "i": 8,
+   "scene": "twomoments",
+   "start": 96.234,
+   "end": 111.792,
+   "en": "Within one installed prior, two posteriors with the same first and second moments are the same posterior. Their log ratio changes sign at most twice, so a quadratic can match its sign, and equal moments then force the difference to vanish.",
+   "zh": "在同一个安装先验之下，前两阶矩相同的两个后验就是同一个后验。它们的对数比至多变号两次，所以能找到一个二次多项式与它同号，而矩相等就迫使差为零。"
+  },
+  {
+   "i": 9,
+   "scene": "twomoments",
+   "start": 112.392,
+   "end": 122.587,
+   "en": "So two exact numbers can pin down the whole posterior, but only on this restricted family. They are not two random draws, and they are not two cheap registers.",
+   "zh": "所以两个精确的数可以锁定整个后验，但只在这个受限的后验族上成立。它们不是两次随机结果，也不是两个廉价的寄存器。"
+  },
+  {
+   "i": 10,
+   "scene": "curve",
+   "start": 124.787,
+   "end": 136.622,
+   "en": "Lift each rate r to the point r, r squared on a parabola. A mixture of depths then reads as the weighted center of its points, so every reading lies inside the hull of the curve.",
+   "zh": "把每个响应率 r 提升为抛物线上的点 (r, r²)。深度的混合读出来，就是这些点的加权重心，所以每个读数都落在曲线的凸包之内。"
+  },
+  {
+   "i": 11,
+   "scene": "curve",
+   "start": 137.222,
+   "end": 151.353,
+   "en": "The height above the curve is the variance. With one shared depth, two alphas in a row have chance m two; redraw the depth each time and it would be m one squared. The difference is exactly what the common source left behind.",
+   "zh": "读数在曲线上方的高度就是方差。共享同一个深度时，连读两个 alpha 的概率是 m₂；若每次重抽深度，则是 m₁ 的平方。两者之差，正是共同来源留下的痕迹。"
+  },
+  {
+   "i": 12,
+   "scene": "triangle",
+   "start": 153.553,
+   "end": 164.89,
+   "en": "Three rates a, b, c make a triangle of area one half times b minus a, times c minus a, times c minus b. Bring any two together and the whole triangle thins.",
+   "zh": "三个响应率 a、b、c 围成的三角形，面积是 ½(b−a)(c−a)(c−b)。任意两个靠近，整个三角形就会变瘦。"
+  },
+  {
+   "i": 13,
+   "scene": "triangle",
+   "start": 165.49,
+   "end": 178.707,
+   "en": "Given the three rates, the two moments recover every weight exactly. But each weight is divided by a product of rate differences, so a thin triangle magnifies every error. Unique is not the same as stable.",
+   "zh": "已知三个响应率时，两阶矩能精确恢复每一个权重。可每个权重都要除以响应率之差的乘积，所以瘦三角形会放大一切误差。唯一，不等于稳定。"
+  },
+  {
+   "i": 14,
+   "scene": "gram",
+   "start": 180.907,
+   "end": 191.578,
+   "en": "With more sources, take the three by three Gram matrix of one, r and r squared. Its determinant is four times the weighted sum of every source triangle's area squared.",
+   "zh": "来源更多时，取 1、r、r² 的三阶 Gram 矩阵。它的行列式，等于每一组三来源三角形面积平方的加权和的四倍。"
+  },
+  {
+   "i": 15,
+   "scene": "gram",
+   "start": 192.178,
+   "end": 204.548,
+   "en": "It equals the determinant of the covariance of r and r squared, and it is positive exactly when at least three different rates carry weight. Three directions are independent, however many sources there are.",
+   "zh": "它也等于 r 与 r² 协方差矩阵的行列式；当且仅当至少三个不同响应率具有正权重时，它才大于零。无论来源有多少，这里说的是三个独立的关系方向。"
+  },
+  {
+   "i": 16,
+   "scene": "likelihood",
+   "start": 206.748,
+   "end": 217.287,
+   "en": "Now track how evidence moves the posterior. Plot the same three rates in a second plane, by log r and log of one minus r. They make a likelihood triangle.",
+   "zh": "现在追踪证据怎样推动后验。把同样三个响应率画进第二个平面，坐标是 log r 与 log(1−r)。它们围成一个似然三角形。"
+  },
+  {
+   "i": 17,
+   "scene": "likelihood",
+   "start": 217.887,
+   "end": 231.393,
+   "en": "Its orientation is always opposite to the reading triangle: its signed area is minus a double integral of a strictly positive function. The same rates, projected two ways, turn in opposite directions.",
+   "zh": "它的定向总是与读数三角形相反：其有向面积等于一个严格正函数的二重积分取负。同样的响应率，投到两个平面上，旋转方向相反。"
+  },
+  {
+   "i": 18,
+   "scene": "jacobian",
+   "start": 233.593,
+   "end": 247.617,
+   "en": "The local inverse area, minus the determinant of how the two moments respond to A and B, is a sum over triples of reading area times likelihood area. Every triple contributes with the same sign, so nothing cancels.",
+   "zh": "局部反演面积，也就是两阶矩对 A、B 的响应矩阵行列式取负，是一个对所有三元组求和的量：读数面积乘以似然面积。每个三元组的贡献同号，所以不会互相抵消。"
+  },
+  {
+   "i": 19,
+   "scene": "jacobian",
+   "start": 248.217,
+   "end": 259.069,
+   "en": "Because every rate lies between one third and two fifths, that inverse area is pinned between six hundred twenty-five seventy-seconds and eighty-one eighths of the Gram determinant.",
+   "zh": "由于每个响应率都在三分之一与五分之二之间，这个反演面积被夹在 Gram 行列式的七十二分之六百二十五倍与八分之八十一倍之间。"
+  },
+  {
+   "i": 20,
+   "scene": "pyramid",
+   "start": 261.269,
+   "end": 272.137,
+   "en": "The same calculus already lived in the pyramid. The covariance determinant of low, high and middle equals the middle probability times a sum of four triple products.",
+   "zh": "同一套计算早已出现在金字塔里。低端、高端与中间的协方差行列式，等于中间概率乘以四个三重乘积之和。"
+  },
+  {
+   "i": 21,
+   "scene": "pyramid",
+   "start": 272.737,
+   "end": 283.068,
+   "en": "The four base corners are coplanar and span no volume. Each tetrahedron of the apex with three base corners does, and the determinant adds up exactly those.",
+   "zh": "四个底角共面，围不出体积；顶点加任意三个底角构成的四面体则有体积，行列式加起来的恰好就是这些。"
+  },
+  {
+   "i": 22,
+   "scene": "fibonacci",
+   "start": 285.268,
+   "end": 300.566,
+   "en": "Neighbouring depths differ by one over a product of consecutive Fibonacci numbers, so three consecutive depths make a triangle of area one over twice the squared product F n plus three, F n plus four, F n plus five.",
+   "zh": "相邻深度的响应率之差，是一个连续 Fibonacci 数乘积的倒数；所以三个连续深度围成的三角形，面积是 1 除以 2 乘上 F(n+3)F(n+4)F(n+5) 的平方。"
+  },
+  {
+   "i": 23,
+   "scene": "fibonacci",
+   "start": 301.166,
+   "end": 314.036,
+   "en": "For depths one, two, three that is one over twenty-eight thousand eight hundred. For ten, eleven, twelve it is below ten to the minus fifteen. Never zero, but shrinking like phi to the minus six n.",
+   "zh": "对深度一、二、三，面积是两万八千八百分之一；对十、十一、十二，面积已小于十的负十五次方。永不为零，却以 φ 的负 6n 次方的速度缩小。"
+  },
+  {
+   "i": 24,
+   "scene": "lengthlaw",
+   "start": 316.236,
+   "end": 326.612,
+   "en": "Lean has frozen that the complete remaining length law is exact: equal laws mean the same phase and the same depth posterior, and the same residual transcript law.",
+   "zh": "Lean 已冻结：完整的剩余长度律是精确的——长度律相等，就意味着相位相同、深度后验相同，残余转录律也相同。"
+  },
+  {
+   "i": 25,
+   "scene": "lengthlaw",
+   "start": 327.212,
+   "end": 341.213,
+   "en": "Yet exact is not uniform. Across the rate interval the law moves by at most twelve sevenths of the rate change, so neighbouring depths give nearly identical futures, while the depths themselves remain entirely different.",
+   "zh": "可是精确不等于一致稳定。在整个响应区间里，长度律的变化至多是响应率变化的七分之十二倍，所以相邻深度给出几乎相同的未来，而深度本身却完全不同。"
+  },
+  {
+   "i": 26,
+   "scene": "records",
+   "start": 343.413,
+   "end": 354.99,
+   "en": "Three record vectors built from one, r and r squared have exactly the Gram matrix of the moments. With three depths in play they span three dimensions, yet their volume can approach zero.",
+   "zh": "由 1、r、r² 构造的三个记录向量，其 Gram 矩阵恰好就是矩矩阵。三个深度都在场时，它们张成三维，体积却可以趋于零。"
+  },
+  {
+   "i": 27,
+   "scene": "records",
+   "start": 355.59,
+   "end": 366.612,
+   "en": "Exactly independent directions are not the same as directions still distinguishable at finite precision. And the next update after an alpha already needs the third moment.",
+   "zh": "精确线性独立的方向数，不等于有限精度下仍可分辨的方向数。而读到一个 alpha 之后的下一次更新，已经需要第三阶矩。"
+  },
+  {
+   "i": 28,
+   "scene": "finale",
+   "start": 369.012,
+   "end": 377.833,
+   "en": "A boundary that recovers the interior must pass three separate tests: is the recovery unique, is it stable, and can it actually be acquired?",
+   "zh": "能推回内部的边界，必须分别通过三道检验：恢复是否唯一，是否稳定，能否实际取得。"
+  },
+  {
+   "i": 29,
+   "scene": "finale",
+   "start": 378.433,
+   "end": 394.324,
+   "en": "Lean has frozen the exact recovery from the complete length law. The two-moment theorem, the triangle and Gram identities, the inverse bounds and the Fibonacci areas are argued in the theory volume, and every number here was recomputed for this film.",
+   "zh": "Lean 已冻结由完整长度律的精确恢复。两矩定理、三角形与 Gram 恒等式、反演双边界和 Fibonacci 面积在理论卷中论证，这里的每个数字都为这部片子重新计算过。"
+  }
+ ],
+ "duration": 403.324
+}
