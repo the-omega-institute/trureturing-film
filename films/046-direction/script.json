@@ -1,0 +1,201 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part sixteen found the five modes in a polygon. Part seventeen follows one hidden depth through a stream of reads, and asks how a finite predictor must update its forecast when the next letter arrives.",
+     "第十六部在多边形里找到了五种模式。第十七部跟随一个隐藏深度穿过一串读数，追问：下一个字母到来时，一个有限预测器必须怎样更新自己的预报。"
+    ],
+    [
+     "The answer has a direction. After an alpha, the true chance of another alpha always rises, yet a nearly optimal predictor must sometimes let its own forecast fall.",
+     "答案带有方向。读到一个 alpha 之后，真实的下一个 alpha 概率总在上升；可一个接近最优的预测器，却必须在某些时候让自己的预报下降。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part seventeen: the direction of a forecast.",
+     "Auric FIB 原子金字塔，第十七部：预报的方向。"
+    ],
+    [
+     "The truth rises; the forecast must sometimes fall.",
+     "真相在上升，预报却必须有时下降。"
+    ]
+   ]
+  },
+  {
+   "id": "source",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One depth K is drawn once, before any read, and never reset. Every read is then alpha with chance r k, F k plus one over F k plus three: one third, two fifths, then always between three eighths and five thirteenths.",
+     "读数开始之前抽一次深度 K，此后永不重置。每次读数是 alpha 的概率为 r_k = F(k+1)/F(k+3)：三分之一、五分之二，之后总在八分之三与十三分之五之间。"
+    ],
+    [
+     "In the last segment, an alpha completes marker zero and a beta suspends. From suspension, an alpha returns and a beta completes marker one. Each completion ends in a single Stop.",
+     "在最后一段，alpha 完成标记零，beta 进入挂起；从挂起状态出发，alpha 返回，beta 完成标记一。每次完成都以唯一的一次 Stop 结束。"
+    ]
+   ]
+  },
+  {
+   "id": "stoppedlaw",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Lean has frozen the exact law of these stopped words. Beta alpha repeated j times, then alpha, has mass r times a to the j; the beta beta ending has one minus r squared times a to the j, where a is r times one minus r.",
+     "Lean 已冻结这些停止字的精确概率律：(βα) 重复 j 次再接 α，质量为 r·aʲ；以 ββ 结尾的，质量为 (1−r)²·aʲ，其中 a = r(1−r)。"
+    ],
+    [
+     "Lean has also frozen that never completing has probability zero. The infinite outcome stays in the carrier, but it carries no mass.",
+     "Lean 还冻结了：永不完成的概率为零。无限结果仍留在载体里，只是不带质量。"
+    ]
+   ]
+  },
+  {
+   "id": "endpoints",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The two endpoint depths sit a fixed distance apart: total variation about zero point zero nine eight at the payload, and zero point zero seven one at suspension. No forecast can be closer than half that distance to both endpoints at once.",
+     "两个端点深度之间的距离是固定的：在载荷处总变差约 0.098，在挂起处约 0.071。没有任何预报能同时离两个端点都比这距离的一半更近。"
+    ],
+    [
+     "And a middle depth is not between them. The word beta alpha three times, then beta beta, has mass r cubed times one minus r to the fifth, above both endpoints by at least eta, about four point five times ten to the minus five.",
+     "而中间深度并不夹在两端之间。(βα)³ββ 这个字的质量是 r³(1−r)⁵，比两个端点都高出至少 η，约 4.5×10⁻⁵。"
+    ]
+   ]
+  },
+  {
+   "id": "observer",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A predictor holds finite private labels. On each actual beta at the payload it moves by kernel B; on each actual alpha at suspension, by kernel A. Its forecast is the complete law of its own generator, run with the same kernels.",
+     "预测器持有有限的私有标签。在载荷处每读到一个实际 beta，它按核 B 移动；在挂起处每读到一个实际 alpha，按核 A 移动。它的预报，就是用同样的核运行自身生成器得到的完整概率律。"
+    ],
+    [
+     "Its next-alpha forecasts are u at the payload and v at suspension. The stationary rows obey pi B equals tau and tau A equals pi: two flows on one circulation.",
+     "它对下一个 alpha 的预报，在载荷处是 u，在挂起处是 v。平稳分布满足 πB = τ、τA = π：同一个循环上的两条流。"
+    ]
+   ]
+  },
+  {
+   "id": "energy",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Pair the predictor with a comparison whose alpha step changes nothing. Its endpoint score obeys a calibration inequality: a source polynomial, z times one minus z over sixteen, plus h times the energy of forecast changes around the loop.",
+     "把预测器与一个比较表配对，后者在 alpha 一步上不作任何改变。它的端点得分满足一条校准不等式：来源多项式 z(1−z)/16，加上 h 乘以预报沿循环变化的能量。"
+    ],
+    [
+     "The polynomial sign is exact: it factors as z times one minus z times a quartic that never drops below seventeen million six hundred thousand. Interior forecasts and moving forecasts both cost score.",
+     "多项式的符号是精确的：它分解为 z(1−z) 乘上一个四次式，而这个四次式在区间上从不低于一千七百六十万。内部的预报值和移动的预报，都要付出得分。"
+    ]
+   ]
+  },
+  {
+   "id": "change",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the first requirement. Let A measure how much the next-alpha forecast changes on actual alpha updates. On every prior with both endpoints and a middle depth, two hundred forty times the excess risk plus thirty times A exceeds kappa.",
+     "第一条要求。令 𝒜 度量在实际 alpha 更新上、下一个 alpha 预报变化的幅度。在每个同时含两个端点与一个中间深度的先验上，240 乘以超额风险，加上 30 乘以 𝒜，大于 κ。"
+    ],
+    [
+     "So to sit near both minima at once, the forecast must change on alpha by more than kappa over thirty. A predictor that never changes it stays at least kappa over two hundred forty away.",
+     "所以若要同时接近两个最小风险，预报在 alpha 上的变化必须超过 κ/30。从不改变它的预测器，至少差 κ/240。"
+    ]
+   ]
+  },
+  {
+   "id": "independence",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "This is not the same as a moving forecast. One persistent label with forecasts one third and two fifths has A equal to one fifteenth, yet its payload forecast never moves on a return.",
+     "这不同于“预报会移动”。一个持久标签，预报分别为三分之一和五分之二，𝒜 = 1/15，可它的载荷预报在返回时从不移动。"
+    ],
+    [
+     "Two labels swapped on every beta have A equal to zero, yet their payload forecasts differ by one fifteenth, so the forecast moves on every return. Each condition can hold without the other.",
+     "两个标签在每次 beta 时互换，𝒜 = 0，可它们的载荷预报相差十五分之一，所以每次返回预报都在移动。两个条件各自可以单独成立。"
+    ]
+   ]
+  },
+  {
+   "id": "truth",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the direction. After an alpha, the true posterior reweights each depth by its rate, so the true next-alpha chance rises by the posterior variance over the mean. While both endpoints stay possible, that rise is strictly positive.",
+     "再看方向。读到一个 alpha 后，真实后验按各深度的概率重新加权，所以真实的下一个 alpha 概率上升，增量等于后验方差除以均值。只要两个端点都还可能，这个上升就严格为正。"
+    ],
+    [
+     "A predictor might copy that motion and let every alpha forecast rise or stay. Increases are allowed, but they are not free.",
+     "预测器也许会照搬这种运动，让每个 alpha 预报都上升或不变。上升是允许的，但并不免费。"
+    ]
+   ]
+  },
+  {
+   "id": "direction",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Split the change into decreases, J plus, and increases, J minus. The calibration inequality charges increases with a positive constant c, while only decreases can pay the score back.",
+     "把变化拆成下降 J₊ 与上升 J₋。校准不等式对上升收取一个正常数 c 的代价，而只有下降才能把得分还回来。"
+    ],
+    [
+     "So two hundred forty times the excess, plus thirty times the decreases, exceeds kappa. Some actual alpha edge must lower the forecast, even though the truth rises on that same edge.",
+     "于是 240 乘以超额风险，加上 30 乘以下降量，大于 κ。必有某条实际的 alpha 边让预报下降，尽管在同一条边上，真相正在上升。"
+    ]
+   ]
+  },
+  {
+   "id": "private",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The requirement concerns private configurations, not the average forecast; rises elsewhere can keep the mean climbing. A lawful predictor whose alpha forecasts only rise, by one thirtieth on average, already sits in the excluded class.",
+     "这条要求关乎私有配置，而不是平均预报；别处的上升可以让平均值继续上涨。一个合法的预测器，若 alpha 预报只升不降、平均升三十分之一，就已经落在被排除的类别里。"
+    ],
+    [
+     "Whether these decreases can coexist with every endpoint box and interior loss in one exact finite generator remains open. No optimizer, vanishing family or positive gap is claimed.",
+     "这些下降能否在同一个精确有限生成器里，与所有端点约束和内部损失共存，仍是开放问题。这里不声称存在最优者、趋零族或正的间隙。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "One hidden depth, two acquired flows, two endpoint boxes and one interior word. Near the common optimum, the forecast must change on alpha, and some of that change must point down.",
+     "一个隐藏深度，两条已取得的流，两个端点约束，一个内部字。接近共同最优时，alpha 上的预报必须改变，而且其中一部分必须向下。"
+    ],
+    [
+     "Lean has frozen the exact stopped-word law and the zero mass of never completing. The calibration inequalities and both obstructions are argued in the theory volumes, and every number here was recomputed for this film.",
+     "Lean 已冻结精确的停止字概率律，以及永不完成的零质量。校准不等式与两条障碍在理论卷中论证，这里的每个数字都为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
