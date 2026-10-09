@@ -1,0 +1,322 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 22.237
+  },
+  {
+   "id": "title",
+   "start": 22.237,
+   "end": 37.385
+  },
+  {
+   "id": "graph",
+   "start": 37.385,
+   "end": 61.588
+  },
+  {
+   "id": "energy",
+   "start": 61.588,
+   "end": 84.764
+  },
+  {
+   "id": "star",
+   "start": 84.764,
+   "end": 112.523
+  },
+  {
+   "id": "invert",
+   "start": 112.523,
+   "end": 137.784
+  },
+  {
+   "id": "four",
+   "start": 137.784,
+   "end": 165.158
+  },
+  {
+   "id": "acute",
+   "start": 165.158,
+   "end": 192.787
+  },
+  {
+   "id": "fib",
+   "start": 192.787,
+   "end": 216.812
+  },
+  {
+   "id": "tetra",
+   "start": 216.812,
+   "end": 246.16
+  },
+  {
+   "id": "schur",
+   "start": 246.16,
+   "end": 271.19
+  },
+  {
+   "id": "memory",
+   "start": 271.19,
+   "end": 301.389
+  },
+  {
+   "id": "pole",
+   "start": 301.389,
+   "end": 328.195
+  },
+  {
+   "id": "ladder",
+   "start": 328.195,
+   "end": 361.952
+  },
+  {
+   "id": "finale",
+   "start": 361.952,
+   "end": 397.644
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 13.757,
+   "en": "In this series, one ordered atom has five legal patterns. Earlier films read them as the corners of a pyramid. This time we connect them with wires.",
+   "zh": "在这个系列里，一个有序原子有五种合法模式。前几部把它们读成一座金字塔的顶点。这一次，我们用导线把它们连起来。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 14.357,
+   "end": 21.237,
+   "en": "Then we stand outside, push currents in, and ask what an observer at the boundary can still learn about the inside.",
+   "zh": "然后我们站在外面注入电流，问一个边界上的观察者，还能对内部知道些什么。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 23.437,
+   "end": 28.511,
+   "en": "The Auric FIB atom pyramid, part six: stars, triangles and memory.",
+   "zh": "Auric FIB 原子金字塔，第六部：星形、三角与记忆。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 29.111,
+   "end": 35.985,
+   "en": "A hidden middle node turns into a triangle, a triangle can hide a star, and a hidden node with mass remembers.",
+   "zh": "一个隐藏的中间节点会变成三角形，三角形里可以藏着星形，而有质量的隐藏节点会记忆。"
+  },
+  {
+   "i": 4,
+   "scene": "graph",
+   "start": 38.185,
+   "end": 48.925,
+   "en": "Allow one bit to flip at a time, and keep only legal patterns. The empty pattern links to the low, high and middle patterns, and low and high both link to the joint one.",
+   "zh": "每次只允许翻转一位，并且只保留合法模式。空模式连向低、高和中间三种模式，低和高又都连向联合模式。"
+  },
+  {
+   "i": 5,
+   "scene": "graph",
+   "start": 49.525,
+   "end": 60.188,
+   "en": "That is a square with a stalk, five edges. The pyramid has eight edges, and the responses we compute next add a third kind. Three kinds of edge, three different meanings.",
+   "zh": "这是一个正方形加一根支柄，共五条边。金字塔有八条棱，而接下来算出的响应还会添上第三种边。三种边，三种不同的含义。"
+  },
+  {
+   "i": 6,
+   "scene": "energy",
+   "start": 62.388,
+   "end": 73.58,
+   "en": "Give every node a reading u and every edge a positive weight. The energy is half the weighted sum of squared differences, and the response is the graph Laplacian applied to u.",
+   "zh": "给每个节点一个读数 u，给每条边一个正权重。能量是加权平方差之和的一半，而响应就是图 Laplacian 作用在 u 上。"
+  },
+  {
+   "i": 7,
+   "scene": "energy",
+   "start": 74.18,
+   "end": 83.364,
+   "en": "Responses always sum to zero. Adding one constant to every reading changes nothing, and flipping every sign only reverses the responses.",
+   "zh": "响应之和永远为零。给所有读数加同一个常数什么也不改变，把所有符号翻过来只会让响应反向。"
+  },
+  {
+   "i": 8,
+   "scene": "star",
+   "start": 85.564,
+   "end": 95.724,
+   "en": "Now hide one node at the centre of a star with arm weights c one to c m, and let it settle to minimum energy. It settles at the weighted average of its neighbours.",
+   "zh": "现在把一个节点藏在星形中央，臂权为 c 一到 c m，让它落到能量最低处。它停在邻居的加权平均值上。"
+  },
+  {
+   "i": 9,
+   "scene": "star",
+   "start": 96.324,
+   "end": 111.123,
+   "en": "From outside, the star looks like direct wires between every pair of ends, with weight c i times c j over the total. Two ends give one edge, three give a triangle, four give six couplings. This is Kron elimination.",
+   "zh": "从外面看，这个星形就像每两端之间都直接连了一根导线，权重是 c i 乘 c j 除以总和。两端给出一条边，三端给出三角形，四端给出六个耦合。这就是 Kron 消元。"
+  },
+  {
+   "i": 10,
+   "scene": "invert",
+   "start": 113.323,
+   "end": 124.702,
+   "en": "Run it backwards. Any triangle with positive weights comes from exactly one three-armed star: each arm is its two adjacent weights plus their product over the opposite one.",
+   "zh": "反过来做。任何正权三角形都恰好来自一个三臂星形：每条臂等于两条相邻边权之和，再加上它们的乘积除以对边。"
+  },
+  {
+   "i": 11,
+   "scene": "invert",
+   "start": 125.302,
+   "end": 136.384,
+   "en": "Weights one, two and three become arms eleven thirds, eleven halves and eleven. So a static experiment at the boundary cannot tell a real triangle from a hidden centre.",
+   "zh": "边权一、二、三变成臂权三分之十一、二分之十一和十一。所以边界上的静态实验分不清真正的三角形和隐藏的中心。"
+  },
+  {
+   "i": 12,
+   "scene": "four",
+   "start": 138.584,
+   "end": 151.201,
+   "en": "With four ends, a hidden centre leaves a fingerprint: the three products of opposite couplings must agree. Arms one, two, three and six give six couplings whose opposite products are all one quarter.",
+   "zh": "有四个端点时，隐藏的中心会留下指纹：三组对边耦合的乘积必须相等。臂权一、二、三、六给出六个耦合，它们的对边乘积全都是四分之一。"
+  },
+  {
+   "i": 13,
+   "scene": "four",
+   "start": 151.801,
+   "end": 163.758,
+   "en": "In general, m arms make m times m minus one over two couplings, leaving m times m minus three over two constraints: none for three ends, two for four, five for five.",
+   "zh": "一般地，m 条臂产生 m 乘 m 减一除以二个耦合，留下 m 乘 m 减三除以二个约束：三端没有约束，四端两个，五端五个。"
+  },
+  {
+   "i": 14,
+   "scene": "acute",
+   "start": 165.958,
+   "end": 176.161,
+   "en": "Push a unit current in at one end and out at another. For a star, the effective resistance is r i plus r j, the two arm resistances in series.",
+   "zh": "在一端注入单位电流，从另一端取出。对星形来说，有效电阻就是 r i 加 r j，也就是两条臂的电阻串联。"
+  },
+  {
+   "i": 15,
+   "scene": "acute",
+   "start": 176.761,
+   "end": 191.387,
+   "en": "Take square roots of resistances as lengths. Each corner's cosine then has numerator r i, which is positive, so every star triangle is acute, and four times its area squared is the sum of the pairwise products of the r's.",
+   "zh": "把电阻的平方根当作长度。每个角的余弦分子就是 r i，它是正的，所以每个星形三角形都是锐角三角形，而面积平方的四倍等于各 r 两两乘积之和。"
+  },
+  {
+   "i": 16,
+   "scene": "fib",
+   "start": 193.587,
+   "end": 201.99,
+   "en": "Back to the five patterns, with every action edge of weight one. Hide the empty pattern. It settles at the average of low, high and middle.",
+   "zh": "回到五种模式，每条动作边权重为一。把空模式藏起来。它停在低、高、中三者的平均值上。"
+  },
+  {
+   "i": 17,
+   "scene": "fib",
+   "start": 202.59,
+   "end": 215.412,
+   "en": "From the boundary, three new edges of weight one third now join low, high and middle, while the two wires to the joint pattern stay. The response is unchanged, but the graph now has two loops instead of one.",
+   "zh": "从边界看，低、高、中之间多出三条权重三分之一的新边，通向联合模式的两根导线保持不变。响应没有改变，但图从一个闭环变成了两个。"
+  },
+  {
+   "i": 18,
+   "scene": "tetra",
+   "start": 217.612,
+   "end": 228.874,
+   "en": "Measure all six effective resistances: one between low and high, three quarters from each of them to the joint, seven quarters from each to the middle, and two from joint to middle.",
+   "zh": "测出全部六个有效电阻：低与高之间为一，二者到联合各为四分之三，二者到中间各为四分之七，联合到中间为二。"
+  },
+  {
+   "i": 19,
+   "scene": "tetra",
+   "start": 229.474,
+   "end": 244.76,
+   "en": "With their square roots as edge lengths, they span a response tetrahedron whose volume squared is one forty-eighth. The occupancy pyramid, whose shape is frozen in Lean, has volume one third. Same patterns, two readouts, two different spaces.",
+   "zh": "以它们的平方根为棱长，张成一个响应四面体，体积平方为四十八分之一。占位金字塔的形状已在 Lean 中冻结，体积是三分之一。同样的模式，两种读口，两个不同的空间。"
+  },
+  {
+   "i": 20,
+   "scene": "schur",
+   "start": 246.96,
+   "end": 261.026,
+   "en": "In general, hiding any set of interior nodes is a Schur complement of the Laplacian, and the order does not matter. Hide the empty and joint patterns together or one after the other: the same three-node boundary appears.",
+   "zh": "一般地，隐藏任意一组内部节点就是对 Laplacian 取 Schur 补，顺序无关。把空模式和联合模式一起藏起，或者先后藏起：得到的是同一个三节点边界。"
+  },
+  {
+   "i": 21,
+   "scene": "schur",
+   "start": 261.626,
+   "end": 269.79,
+   "en": "There is a precondition. A seam variable that must still be shared, or a relation that will be read later, cannot be eliminated away.",
+   "zh": "这条规则有前提。仍需共同满足的接缝变量，或之后还会被读取的关系，不能被消去。"
+  },
+  {
+   "i": 22,
+   "scene": "memory",
+   "start": 271.99,
+   "end": 285.476,
+   "en": "Static equivalence is not dynamic equivalence. Give the hidden centre a mass, so that it relaxes toward the weighted average with time constant m over C. Its value now carries a memory of past inputs.",
+   "zh": "静态等价不等于动态等价。给隐藏的中心一个质量，让它以时间常数 m 除以 C 向加权平均值弛豫。它的值现在带着过去输入的记忆。"
+  },
+  {
+   "i": 23,
+   "scene": "memory",
+   "start": 286.076,
+   "end": 299.989,
+   "en": "With three unit arms and a step on the first end, the response starts at one, zero, zero, and only later settles to two thirds, minus one third, minus one third. The equivalent triangle gives only the end state.",
+   "zh": "三条单位臂，在第一端加一个阶跃：响应从一、零、零开始，过一段时间才落到三分之二、负三分之一、负三分之一。等效三角形只给出最终状态。"
+  },
+  {
+   "i": 24,
+   "scene": "pole",
+   "start": 302.189,
+   "end": 313.411,
+   "en": "In frequency, the boundary response is the diagonal of arm weights minus a rank-one term over C plus m s. Every frequency shares one pole and one direction.",
+   "zh": "在频域中，边界响应等于臂权对角矩阵减去一个秩一项，分母是 C 加 m s。所有频率共享同一个极点和同一个方向。"
+  },
+  {
+   "i": 25,
+   "scene": "pole",
+   "start": 314.011,
+   "end": 326.795,
+   "en": "During the transient, the currents no longer sum to zero: their sum is the mass times the rate of change of the centre. The energy loss comes from the relaxation law we added, not from the geometry.",
+   "zh": "在暂态中，电流之和不再为零：它们的和等于质量乘以中心的变化率。能量损耗来自我们额外加入的弛豫方程，而不是来自几何。"
+  },
+  {
+   "i": 26,
+   "scene": "ladder",
+   "start": 328.995,
+   "end": 343.979,
+   "en": "Finally, build a ladder. Start with one unit resistor; put the ladder in parallel with a new unit, then add one in series. The resistances are one, three halves, eight fifths, twenty-one thirteenths: every other Fibonacci ratio.",
+   "zh": "最后，搭一架梯子。从一个单位电阻开始；把梯子与一个新的单位电阻并联，再串联一个。电阻依次为一、二分之三、五分之八、十三分之二十一：隔项的 Fibonacci 比值。"
+  },
+  {
+   "i": 27,
+   "scene": "ladder",
+   "start": 344.579,
+   "end": 360.552,
+   "en": "They converge to the golden ratio, because the update matrix is the Fibonacci matrix squared. Make the series and parallel units a and b, and the limit becomes a plus the root of a squared plus four a b, over two. The gold comes from the rule.",
+   "zh": "它们收敛到黄金比例，因为更新矩阵正是 Fibonacci 矩阵的平方。把串联与并联单位改为 a 和 b，极限就变成 a 加根号下 a 平方加四 a b，再除以二。黄金来自这条规则。"
+  },
+  {
+   "i": 28,
+   "scene": "finale",
+   "start": 362.952,
+   "end": 375.276,
+   "en": "Equal static responses do not mean equal inner geometry, and equal geometry does not mean equal dynamics. A hidden node that will act again cannot be swapped for a memoryless copy.",
+   "zh": "静态响应相同，不代表内部几何相同；几何相同，也不代表动力学相同。一个之后还会起作用的隐藏节点，不能换成没有记忆的新副本。"
+  },
+  {
+   "i": 29,
+   "scene": "finale",
+   "start": 375.876,
+   "end": 388.644,
+   "en": "The pyramid's shape is frozen in Lean. Kron elimination and the Schur complement are classical tools; the five-pattern results are argued in the volume, and every number here was recomputed for this film.",
+   "zh": "金字塔的形状已在 Lean 中冻结。Kron 消元与 Schur 补是经典工具；五模式上的结论在理论卷中论证，这里的每个数字都为这部片子重新计算过。"
+  }
+ ],
+ "duration": 397.644
+}
