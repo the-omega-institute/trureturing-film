@@ -1,0 +1,322 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 26.241
+  },
+  {
+   "id": "title",
+   "start": 26.241,
+   "end": 40.063
+  },
+  {
+   "id": "bracket",
+   "start": 40.063,
+   "end": 63.845
+  },
+  {
+   "id": "obstruction",
+   "start": 63.845,
+   "end": 89.538
+  },
+  {
+   "id": "family",
+   "start": 89.538,
+   "end": 116.86
+  },
+  {
+   "id": "depth",
+   "start": 116.86,
+   "end": 141.379
+  },
+  {
+   "id": "cube",
+   "start": 141.379,
+   "end": 169.887
+  },
+  {
+   "id": "shrink",
+   "start": 169.887,
+   "end": 196.179
+  },
+  {
+   "id": "parity",
+   "start": 196.179,
+   "end": 220.335
+  },
+  {
+   "id": "query",
+   "start": 220.335,
+   "end": 245.652
+  },
+  {
+   "id": "twentyone",
+   "start": 245.652,
+   "end": 272.044
+  },
+  {
+   "id": "random",
+   "start": 272.044,
+   "end": 300.465
+  },
+  {
+   "id": "quantum",
+   "start": 300.465,
+   "end": 328.083
+  },
+  {
+   "id": "records",
+   "start": 328.083,
+   "end": 351.15
+  },
+  {
+   "id": "finale",
+   "start": 351.15,
+   "end": 386.25
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 13.184,
+   "en": "Part thirteen showed that coming back is not the same as knowing. Part fourteen asks a sharper question: how much evidence does a single bit cost?",
+   "zh": "第十三部说明，回到原处不等于回到同一份知识。第十四部追问一个更尖锐的问题：一个比特的答案，要付出多少证据？"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 13.784,
+   "end": 25.241,
+   "en": "One Fibonacci leaf word of eighty-nine leaves hides more than two million different trees. Confirming that the true one is the canonical tree takes at least twenty-one separate reads.",
+   "zh": "一个八十九片叶子的 Fibonacci 叶词里，藏着两百多万棵不同的树。要确认真实来源就是规范的那一棵，至少需要二十一次互不重叠的读取。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 27.441,
+   "end": 33.605,
+   "en": "The Auric FIB atom pyramid, part fourteen: the ancestry cube and the cost of acquisition.",
+   "zh": "Auric FIB 原子金字塔，第十四部：祖先立方体与取得代价。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 34.205,
+   "end": 38.663,
+   "en": "Local brackets, an orthogonal cube, and evidence that must be paid for.",
+   "zh": "局部括号、正交立方体，以及必须付出的证据。"
+  },
+  {
+   "i": 4,
+   "scene": "bracket",
+   "start": 40.863,
+   "end": 51.113,
+   "en": "The five patterns choose positions; the source tree says what was chosen. Take B, the third tree of the orbit, and D, the same three leaves bracketed the other way.",
+   "zh": "五种模式选择位置，原树则规定被选中的是什么来源。取轨道上的第三棵树 B，以及把同样三片叶子换一种括号方式得到的 D。"
+  },
+  {
+   "i": 5,
+   "scene": "bracket",
+   "start": 51.713,
+   "end": 62.445,
+   "en": "Both read beta, alpha, beta from left to right. Yet B unwinds three substitutions, and D cannot unwind even one. Its intrinsic depth is zero.",
+   "zh": "两者从左到右都读作 beta、alpha、beta。可是 B 能逆解三次替换，D 一次也不能，它的内在深度为零。"
+  },
+  {
+   "i": 6,
+   "scene": "obstruction",
+   "start": 64.645,
+   "end": 77.152,
+   "en": "Why not? After one substitution, alpha only ever appears as the right leaf of a beta, alpha pair. A node whose left child is the single leaf alpha is proof that a tree is not an image.",
+   "zh": "为什么？一次替换之后，alpha 只会作为「beta、alpha」这一对的右叶出现。若某个节点的左孩子恰好是单叶 alpha，这就证明这棵树不是任何树的像。"
+  },
+  {
+   "i": 7,
+   "scene": "obstruction",
+   "start": 77.752,
+   "end": 88.138,
+   "en": "Lean has frozen this local law for every one-step image. D carries the forbidden left alpha, so the difference lives in which two parts became one subtree first.",
+   "zh": "Lean 已为每一个一步像冻结了这条局部规律。D 恰好带着被禁止的左 alpha，所以差别不在叶数，也不在叶序，而在哪两部分先合成同一棵子树。"
+  },
+  {
+   "i": 8,
+   "scene": "family",
+   "start": 90.338,
+   "end": 102.02,
+   "en": "Inside the canonical tree T n, the copies of B sit at F n minus two positions that never overlap. Each one can be flipped to D on its own, and the leaf word never changes.",
+   "zh": "在规范树 T(n) 里，B 的副本出现在 F(n−2) 个互不重叠的位置上。每一处都可以单独翻成 D，而叶词始终不变。"
+  },
+  {
+   "i": 9,
+   "scene": "family",
+   "start": 102.62,
+   "end": 115.46,
+   "en": "At depth ten that is eighty-nine leaves, twenty-one positions, and two to the twenty-first, more than two million different source trees. The positions make up a fixed share of the leaves, one over phi cubed.",
+   "zh": "在深度十，就是八十九片叶子、二十一个位置，以及 2 的 21 次方、两百多万棵不同的来源树。这些位置占叶子数的比例趋于固定值：φ 立方的倒数。"
+  },
+  {
+   "i": 10,
+   "scene": "depth",
+   "start": 117.66,
+   "end": 126.563,
+   "en": "With no defect the depth is n; with any defect at all it drops to zero. Depth is n times the product of one minus each defect bit.",
+   "zh": "没有缺陷时深度为 n；只要有任何一个缺陷，它就降为零。深度等于 n 乘以每个「1 减缺陷位」的乘积。"
+  },
+  {
+   "i": 11,
+   "scene": "depth",
+   "start": 127.163,
+   "end": 139.979,
+   "en": "Expanded, that product has a nonzero top coefficient. Confirming the canonical source is the joint condition that every local position is clean; denying it needs just one counterexample.",
+   "zh": "把乘积展开，最高阶项的系数不为零。确认规范来源，是「所有局部位置都没有缺陷」这一共同条件；否定它，只需要一个反例。"
+  },
+  {
+   "i": 12,
+   "scene": "cube",
+   "start": 142.179,
+   "end": 153.377,
+   "en": "Read each gap between neighbouring leaves at its lowest common ancestor, and multiply the leaf counts on the left and right. These ancestor areas always sum to M choose two.",
+   "zh": "在相邻两片叶子之间的每个间隙处，取它们的最近共同祖先，把左右两侧的叶数相乘。这些祖先面积之和恒为 M 选 2。"
+  },
+  {
+   "i": 13,
+   "scene": "cube",
+   "start": 153.977,
+   "end": 168.487,
+   "en": "Flipping B to D turns the local pair one, two into two, one: one unit of area moves, and the total stays. Distinct positions move along orthogonal directions, so the family forms a cube with edges root two.",
+   "zh": "把 B 翻成 D，局部的一、二变成二、一：只转移一单位面积，总面积不变。不同位置沿彼此正交的方向移动，于是整个族构成一个边长为根号二的立方体。"
+  },
+  {
+   "i": 14,
+   "scene": "shrink",
+   "start": 170.687,
+   "end": 180.241,
+   "en": "Every quantity computed from the leaf word, its path areas and its moments, is identical across the cube. Only the ancestor areas see the difference.",
+   "zh": "凡是从叶词算出的量，包括路径面积与各阶矩，在整个立方体上都完全相同。只有祖先面积看得出差别。"
+  },
+  {
+   "i": 15,
+   "scene": "shrink",
+   "start": 180.841,
+   "end": 194.779,
+   "en": "Normalize by the total and the whole cube shrinks, with diameter of order M to the minus three halves, yet it still holds depth n and depth zero. Being close in geometry is not the same as being close in answer.",
+   "zh": "按总面积归一化后，整个立方体缩小，直径的量级是 M 的负二分之三次方，但其中依然同时含有深度 n 与深度零的来源。几何上接近，不等于答案接近。"
+  },
+  {
+   "i": 16,
+   "scene": "parity",
+   "start": 196.979,
+   "end": 206.093,
+   "en": "Low-order statistics can agree completely. Spread one law evenly over the defect sets of even size, and another over the sets of odd size.",
+   "zh": "低阶统计可以完全一致。让一条律均匀分布在偶数个缺陷的子集上，另一条均匀分布在奇数个缺陷的子集上。"
+  },
+  {
+   "i": 17,
+   "scene": "parity",
+   "start": 206.693,
+   "end": 218.935,
+   "en": "Every joint marginal on fewer than all positions is the same for both. Yet the expected depth is n over two to the K minus one for the even law and exactly zero for the odd law.",
+   "zh": "在少于全部位置上的每一个联合边缘，两者都相同。可是偶数律的期望深度是 n 除以 2 的 K−1 次方，奇数律恰好为零。"
+  },
+  {
+   "i": 18,
+   "scene": "query",
+   "start": 221.135,
+   "end": 232.324,
+   "en": "The native reader asks one address at a time and hears alpha, beta, branch or absent. B and D differ on exactly six addresses below their position, and nowhere else.",
+   "zh": "原生读者一次只问一个地址，得到 alpha、beta、分支或缺席。B 与 D 只在其所在位置下方的恰好六个地址上回复不同，别处完全一样。"
+  },
+  {
+   "i": 19,
+   "scene": "query",
+   "start": 232.924,
+   "end": 244.252,
+   "en": "These supports never overlap. Each new hit fixes one defect bit and cuts the cube to a face; the consistent sources number two to the K minus the supports already hit.",
+   "zh": "这些支持彼此不相交。每命中一个新支持，就确定一个缺陷位，把立方体切成一个面；相容来源的个数是 2 的「K 减已命中支持数」次方。"
+  },
+  {
+   "i": 20,
+   "scene": "twentyone",
+   "start": 246.452,
+   "end": 258.108,
+   "en": "To confirm the canonical tree, every support must be hit, because each unread one still hides a consistent counterexample. At depth ten that is twenty-one reads for a single bit.",
+   "zh": "要确认规范树，每一个支持都必须命中，因为每个未读的位置都还藏着一个相容的反例。在深度十，这就是为一个比特付出二十一次读取。"
+  },
+  {
+   "i": 21,
+   "scene": "twentyone",
+   "start": 258.708,
+   "end": 270.644,
+   "en": "Finding one defect proves depth zero at once. Over the full same-word fiber, the certificate size lies between twenty-one and thirty-four, and the endpoints are not yet shown equal.",
+   "zh": "而找到一个缺陷，就能立刻证明深度为零。在完整的同叶词纤维上，证书大小介于二十一与三十四之间，两个端点尚未证明相等。"
+  },
+  {
+   "i": 22,
+   "scene": "random",
+   "start": 272.844,
+   "end": 285.672,
+   "en": "Randomness does not avoid the unread positions. Put half the prior on the clean tree and half on single defects; with at most q supports checked, the best success is one half plus q over two K.",
+   "zh": "随机选择也绕不开未读的位置。让一半先验落在无缺陷树上，另一半均匀落在单缺陷树上；最多检查 q 个支持时，最佳成功率是二分之一加上 q 除以 2K。"
+  },
+  {
+   "i": 23,
+   "scene": "random",
+   "start": 286.272,
+   "end": 299.065,
+   "en": "So keeping every error below delta needs q at least one minus two delta times K. And a one-number summary, the total area shift, would decide depth, but the reader is never handed that number for free.",
+   "zh": "因此要让每个错误都低于 δ，至少需要 (1−2δ) 乘以 K 次检查。总面积偏移这样一个数就能决定深度，但读者从来不会免费得到这个数。"
+  },
+  {
+   "i": 24,
+   "scene": "quantum",
+   "start": 301.265,
+   "end": 313.344,
+   "en": "A coherent version of the leaf-word encoding does not help: matrix products are associative, so every tree in the cube compiles to the same operator, and no experiment can tell them apart.",
+   "zh": "把叶词编码改成相干执行也无济于事：矩阵乘法满足结合律，立方体里的每棵树都编译成同一个算符，任何实验都区分不了。"
+  },
+  {
+   "i": 25,
+   "scene": "quantum",
+   "start": 313.944,
+   "end": 326.683,
+   "en": "Only a genuinely stronger address oracle changes the cost. Then Grover's search finds a single defect among twenty-one positions in three iterations, with probability above ninety-nine percent.",
+   "zh": "只有真正更强的相干地址读口才会改变代价。那时 Grover 搜索在二十一个位置中寻找唯一缺陷，三次迭代即可，成功概率超过百分之九十九。"
+  },
+  {
+   "i": 26,
+   "scene": "records",
+   "start": 328.883,
+   "end": 336.54,
+   "en": "Reading never moves the true source along the cube. It only shrinks the set of sources that remain consistent with the record.",
+   "zh": "读取从不让真实来源沿着立方体移动，它只是让与记录相容的来源集合逐步缩小。"
+  },
+  {
+   "i": 27,
+   "scene": "records",
+   "start": 337.14,
+   "end": 349.75,
+   "en": "Under a uniform prior, after only clean answers with r positions unread, the chance of the canonical tree is two to the minus r. Probably right is not the same as holding a certificate.",
+   "zh": "在均匀先验下，若读到的全是无缺陷、还剩 r 个位置未读，规范树的概率是 2 的负 r 次方。大概率正确，不等于手握一张排除了全部反例的证书。"
+  },
+  {
+   "i": 28,
+   "scene": "finale",
+   "start": 352.15,
+   "end": 362.623,
+   "en": "Every hidden relation here has its own evidence position. A short formula may decide the answer, but its inputs still have to be acquired, one support at a time.",
+   "zh": "这里的每一项隐藏关系，都有自己的证据位置。一个短公式也许能决定答案，但它的输入仍须一个支持一个支持地取得。"
+  },
+  {
+   "i": 29,
+   "scene": "finale",
+   "start": 363.223,
+   "end": 377.25,
+   "en": "Lean has frozen the local law of one-step images. The defect family, the ancestor cube, the query bounds and the success formula are argued in the theory volume, and every number here was recomputed for this film.",
+   "zh": "Lean 已冻结一步像的局部规律。缺陷族、祖先立方体、查询下界与成功率公式在理论卷中论证，这里的每个数字都为这部片子重新计算过。"
+  }
+ ],
+ "duration": 386.25
+}
