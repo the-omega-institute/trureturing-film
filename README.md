@@ -44,6 +44,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 030 | [AURIC FIB ATOM PYRAMID](films/030-pyramid/) · FIB 原子金字塔 | 5:54 | EN (AI) / music-only | ZH + EN |
 | 031 | [AURIC FIB ATOM PYRAMID II](films/031-mirror/) · 金字塔 II：镜像与展开 | 7:36 | EN (AI) / music-only | ZH + EN |
 | 032 | [AURIC FIB ATOM PYRAMID III](films/032-pentagon/) · 金字塔 III：黄金五环 | 6:46 | EN (AI) / music-only | ZH + EN |
+| 033 | [AURIC FIB ATOM PYRAMID IV](films/033-wheel/) · 金字塔 IV：五千零四十之轮 | 6:46 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

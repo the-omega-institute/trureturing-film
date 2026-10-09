@@ -1,0 +1,322 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 32.531
+  },
+  {
+   "id": "title",
+   "start": 32.531,
+   "end": 48.108
+  },
+  {
+   "id": "wheel",
+   "start": 48.108,
+   "end": 71.648
+  },
+  {
+   "id": "quotient",
+   "start": 71.648,
+   "end": 102.56
+  },
+  {
+   "id": "twins",
+   "start": 102.56,
+   "end": 126.659
+  },
+  {
+   "id": "five",
+   "start": 126.659,
+   "end": 149.369
+  },
+  {
+   "id": "seven",
+   "start": 149.369,
+   "end": 173.979
+  },
+  {
+   "id": "fano",
+   "start": 173.979,
+   "end": 193.363
+  },
+  {
+   "id": "heawood",
+   "start": 193.363,
+   "end": 222.586
+  },
+  {
+   "id": "product",
+   "start": 222.586,
+   "end": 249.861
+  },
+  {
+   "id": "table",
+   "start": 249.861,
+   "end": 284.135
+  },
+  {
+   "id": "engine",
+   "start": 284.135,
+   "end": 313.112
+  },
+  {
+   "id": "lattice",
+   "start": 313.112,
+   "end": 336.127
+  },
+  {
+   "id": "lift",
+   "start": 336.127,
+   "end": 368.346
+  },
+  {
+   "id": "finale",
+   "start": 368.346,
+   "end": 406.489
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 19.989,
+   "en": "Five thousand and forty is seven factorial: two to the fourth, three squared, five, seven. It is the largest known number where Robin's divisor inequality fails, and Robin showed that the Riemann hypothesis says it never fails again.",
+   "zh": "五千零四十是七的阶乘：二的四次方、三的平方、五、七。它是已知让 Robin 约数不等式失效的最大的数；Robin 证明了，黎曼猜想等价于这个不等式此后再也不失效。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 20.589,
+   "end": 31.531,
+   "en": "This film does not touch that conjecture. It asks a smaller question: put a sieve on a clock with five thousand and forty hours, and where does the golden ratio hide inside it?",
+   "zh": "这部片子不碰那个猜想。它问一个更小的问题：在一个有五千零四十个钟点的钟面上放一个筛子，黄金比例藏在它的哪里？"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 33.731,
+   "end": 38.806,
+   "en": "The Auric FIB atom pyramid, part four: the wheel of five thousand and forty.",
+   "zh": "Auric FIB 原子金字塔，第四部：五千零四十之轮。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 39.406,
+   "end": 46.708,
+   "en": "Five brings the golden ratio, seven brings a perfectly flat spectrum, and together they carry a Fibonacci engine.",
+   "zh": "五带来黄金比例，七带来完全平坦的谱，二者合在一起，装着一台 Fibonacci 引擎。"
+  },
+  {
+   "i": 4,
+   "scene": "wheel",
+   "start": 48.908,
+   "end": 63.843,
+   "en": "Call an hour r legal when r, r plus two, and r plus six are all coprime to five thousand and forty. That is the shape of a prime triplet, like five, seven, eleven. Its mirror shape uses zero, four, six.",
+   "zh": "如果 r、r 加二和 r 加六都与五千零四十互素，就把钟点 r 称为合法。这正是素数三胞胎的形状，比如五、七、十一。它的镜像形状用零、四、六。"
+  },
+  {
+   "i": 5,
+   "scene": "wheel",
+   "start": 64.443,
+   "end": 70.248,
+   "en": "Out of five thousand and forty hours, exactly one hundred ninety-two survive, for either shape.",
+   "zh": "五千零四十个钟点中，恰好有一百九十二个幸存，两种形状都一样。"
+  },
+  {
+   "i": 6,
+   "scene": "quotient",
+   "start": 72.448,
+   "end": 86.59,
+   "en": "Coprimality only sees which primes divide five thousand and forty, not how often. So the wheel is really a wheel of two hundred ten, two times three times five times seven, copied twenty-four times around the clock.",
+   "zh": "互素只看哪些素数整除五千零四十，不看整除几次。所以这个轮其实是二百一十的轮，也就是二乘三乘五乘七，绕着钟面复制了二十四次。"
+  },
+  {
+   "i": 7,
+   "scene": "quotient",
+   "start": 87.19,
+   "end": 101.16,
+   "en": "Every correlation sum is multiplied by exactly twenty-four, and every frequency that twenty-four does not divide is exactly zero. Of five thousand and forty frequencies, only two hundred ten are alive.",
+   "zh": "每个相关和都恰好乘以二十四，每个不被二十四整除的频率都恰好为零。五千零四十个频率中，只有二百一十个是活的。"
+  },
+  {
+   "i": 8,
+   "scene": "twins",
+   "start": 103.36,
+   "end": 111.475,
+   "en": "The two mirror wheels have identical pair statistics at every shift. Modulo thirty they are even the same wheel, only rotated.",
+   "zh": "两个镜像轮在每一个位移上的成对统计都完全相同。在模三十下，它们甚至就是同一个轮，只是转了一个角度。"
+  },
+  {
+   "i": 9,
+   "scene": "twins",
+   "start": 112.075,
+   "end": 125.259,
+   "en": "But no rotation matches them modulo two hundred ten, and a statistic of three points tells them apart. The reason is seven: the first prime where the two forbidden patterns stop being shifts of each other.",
+   "zh": "但在模二百一十下，没有任何旋转能让它们重合，而一个三点统计就能把它们区分开。原因在于七：它是第一个让两种禁止模式不再互为平移的素数。"
+  },
+  {
+   "i": 10,
+   "scene": "five",
+   "start": 127.459,
+   "end": 139.448,
+   "en": "Zoom in to five hours. The legal hours are one and two. The wheel's Fourier amplitudes are two, and then one plus a fifth root of unity: phi twice, and one over phi twice.",
+   "zh": "放大到五个钟点。合法的钟点是一和二。这个轮的 Fourier 振幅先是二，然后是一加一个五次单位根：两次 phi，两次 phi 分之一。"
+  },
+  {
+   "i": 11,
+   "scene": "five",
+   "start": 140.048,
+   "end": 147.969,
+   "en": "This is where the golden ratio enters the sieve: twice the cosine of pi over five equals phi, a fact frozen in Lean.",
+   "zh": "黄金比例正是从这里进入筛子的：二倍的 cos 五分之 pi 等于 phi，这一事实已在 Lean 中冻结。"
+  },
+  {
+   "i": 12,
+   "scene": "seven",
+   "start": 150.169,
+   "end": 160.07,
+   "en": "Now seven hours. Take the set zero, one, three. Its six differences, one, three, two, and their negatives, hit every nonzero hour exactly once.",
+   "zh": "现在是七个钟点。取集合零、一、三。它的六个差，一、三、二以及它们的相反数，恰好各命中每个非零钟点一次。"
+  },
+  {
+   "i": 13,
+   "scene": "seven",
+   "start": 160.67,
+   "end": 172.579,
+   "en": "That forces a perfectly flat spectrum: every nonzero frequency has amplitude root two. The sieve's forbidden hours modulo seven are this same set, multiplied by five.",
+   "zh": "这迫使谱完全平坦：每个非零频率的振幅都是根号二。筛子在模七下的禁止钟点，正是这个集合乘以五。"
+  },
+  {
+   "i": 14,
+   "scene": "fano",
+   "start": 174.779,
+   "end": 183.721,
+   "en": "Slide zero, one, three around the seven hours, and you get seven lines of three points each: the Fano plane, the smallest projective plane.",
+   "zh": "把零、一、三绕着七个钟点滑动，就得到七条各含三点的线：Fano 平面，最小的射影平面。"
+  },
+  {
+   "i": 15,
+   "scene": "fano",
+   "start": 184.321,
+   "end": 191.963,
+   "en": "Any two points share exactly one line, any two lines meet in exactly one point, and every point lies on three lines.",
+   "zh": "任意两点恰好共一条线，任意两条线恰好交于一点，每个点都在三条线上。"
+  },
+  {
+   "i": 16,
+   "scene": "heawood",
+   "start": 194.163,
+   "end": 202.987,
+   "en": "Join each point to the lines through it: fourteen vertices, three edges at each, and no cycle shorter than six. This is the Heawood graph.",
+   "zh": "把每个点与经过它的线连起来：十四个顶点，每个顶点三条边，没有比六更短的圈。这就是希伍德图。"
+  },
+  {
+   "i": 17,
+   "scene": "heawood",
+   "start": 203.587,
+   "end": 221.186,
+   "en": "Its eigenvalues are plus and minus three, and plus and minus root two, six times each. The incidence matrix B satisfies B times its transpose equals two I plus J, and the sieve's own seven-hour convolution is the complement, J minus B, relabelled.",
+   "zh": "它的特征值是正负三，以及各重复六次的正负根号二。关联矩阵 B 满足 B 乘以它的转置等于二 I 加 J，而筛子自己的七点卷积，正是换了标号的补矩阵 J 减 B。"
+  },
+  {
+   "i": 18,
+   "scene": "product",
+   "start": 223.386,
+   "end": 232.765,
+   "en": "The Chinese remainder theorem multiplies the local spectra together. The primes two and three contribute only permutations, with amplitude one.",
+   "zh": "中国剩余定理把各个局部谱乘在一起。素数二和三只贡献置换，振幅为一。"
+  },
+  {
+   "i": 19,
+   "scene": "product",
+   "start": 233.365,
+   "end": 248.461,
+   "en": "Five contributes two, phi, and one over phi; seven contributes four and root two. Their products give six distinct singular values on the wheel of two hundred ten, with multiplicities adding up to exactly two hundred ten.",
+   "zh": "五贡献二、phi 和 phi 分之一；七贡献四和根号二。它们的乘积在二百一十点的轮上给出六个不同的奇异值，重数加起来恰好是二百一十。"
+  },
+  {
+   "i": 20,
+   "scene": "table",
+   "start": 250.661,
+   "end": 267.387,
+   "en": "Lift to five thousand and forty and multiply by twenty-four: one ninety-two, ninety-six phi, forty-eight root two, ninety-six over phi, twenty-four root two phi, twenty-four root two over phi, and zero, four thousand eight hundred thirty times.",
+   "zh": "提升到五千零四十再乘以二十四：一百九十二，九十六 phi，四十八倍根号二，phi 分之九十六，二十四倍根号二乘 phi，二十四倍根号二除以 phi，以及零，出现四千八百三十次。"
+  },
+  {
+   "i": 21,
+   "scene": "table",
+   "start": 267.987,
+   "end": 282.735,
+   "en": "The rank is exactly two hundred ten. On directions that are constant along each fibre, the sieve is invertible, with condition number four root two phi, about nine point one five. In every other direction it is blind.",
+   "zh": "秩恰好是二百一十。在沿每条纤维恒定的方向上，这个筛子可逆，条件数是四倍根号二乘 phi，约九点一五。在其他所有方向上，它是盲的。"
+  },
+  {
+   "i": 22,
+   "scene": "engine",
+   "start": 284.935,
+   "end": 295.938,
+   "en": "Back at five hours, take the sieve's Gram matrix and subtract the identity. Call it A. Then A squared, minus A, minus the identity, equals J, the all-ones matrix.",
+   "zh": "回到五个钟点，取筛子的 Gram 矩阵再减去单位矩阵，记为 A。那么 A 的平方减去 A、再减去单位矩阵，等于 J，即全一矩阵。"
+  },
+  {
+   "i": 23,
+   "scene": "engine",
+   "start": 296.538,
+   "end": 311.712,
+   "en": "On vectors whose entries sum to zero, J vanishes, and A squared equals A plus one: the golden equation, as an operator. Its powers are Fibonacci numbers: A to the m equals F m times A, plus F m minus one.",
+   "zh": "在各坐标之和为零的向量上，J 消失，A 的平方等于 A 加一：作为算子的黄金方程。它的幂就是 Fibonacci 数：A 的 m 次方等于 F m 乘 A，再加 F m 减一。"
+  },
+  {
+   "i": 24,
+   "scene": "lattice",
+   "start": 313.912,
+   "end": 326.507,
+   "en": "This holds over the integers. An explicit change of coordinates turns A into two copies of the Fibonacci matrix, one one, one zero, on the whole lattice of integer vectors that sum to zero.",
+   "zh": "这在整数上就成立。一个显式的坐标变换，在所有坐标和为零的整数向量构成的整个格上，把 A 变成两份 Fibonacci 矩阵：一一，一零。"
+  },
+  {
+   "i": 25,
+   "scene": "lattice",
+   "start": 327.107,
+   "end": 334.727,
+   "en": "Its determinant is one, and its inverse is A minus one, so the engine also runs backward, with alternating signs.",
+   "zh": "它的行列式是一，逆是 A 减一，所以这台引擎也能倒着运转，带着交替的符号。"
+  },
+  {
+   "i": 26,
+   "scene": "lift",
+   "start": 336.927,
+   "end": 350.302,
+   "en": "Copy a five-hour pattern across all five thousand and forty hours, one thousand and eight copies of each hour. Each legal hour modulo five lifts to exactly ninety-six legal hours of the full wheel.",
+   "zh": "把一个五点模式复制到全部五千零四十个钟点上，每个钟点一千零八份。模五下的每个合法钟点，恰好提升为整个轮中的九十六个合法钟点。"
+  },
+  {
+   "i": 27,
+   "scene": "lift",
+   "start": 350.902,
+   "end": 366.946,
+   "en": "So the full Gram matrix acts on these copies as ninety-six squared, nine thousand two hundred sixteen, times the five-hour Gram. Apply it n plus one times, and out come the Fibonacci numbers of index two n plus one and two n plus two.",
+   "zh": "所以整个 Gram 矩阵作用在这些副本上，等于九十六的平方，也就是九千二百一十六，乘以五点的 Gram。把它作用 n 加一次，出来的就是下标为二 n 加一和二 n 加二的 Fibonacci 数。"
+  },
+  {
+   "i": 28,
+   "scene": "finale",
+   "start": 369.346,
+   "end": 381.161,
+   "en": "Two and three only permute. Five brings the golden ratio, seven brings the Fano plane and its flat spectrum, and the repeated prime factors copy everything twenty-four times.",
+   "zh": "二和三只做置换。五带来黄金比例，七带来 Fano 平面和它平坦的谱，而重复的素因子把一切复制二十四次。"
+  },
+  {
+   "i": 29,
+   "scene": "finale",
+   "start": 381.761,
+   "end": 397.489,
+   "en": "The wheel forgets the exponents, and Robin's inequality needs them, so none of this is a step toward the Riemann hypothesis. The pentagon cosines are frozen in Lean; the wheel spectra are argued in the volume and recomputed for this film.",
+   "zh": "这个轮忘掉了指数，而 Robin 不等式需要它们，所以这一切都不是通向黎曼猜想的一步。五边形余弦已在 Lean 中冻结；轮的谱在理论卷中论证，并为这部片子重新计算过。"
+  }
+ ],
+ "duration": 406.489
+}
