@@ -1,0 +1,301 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 25.068
+  },
+  {
+   "id": "title",
+   "start": 25.068,
+   "end": 38.691
+  },
+  {
+   "id": "fiber",
+   "start": 38.691,
+   "end": 68.937
+  },
+  {
+   "id": "chain",
+   "start": 68.937,
+   "end": 93.39
+  },
+  {
+   "id": "markov",
+   "start": 93.39,
+   "end": 113.41
+  },
+  {
+   "id": "activity",
+   "start": 113.41,
+   "end": 137.142
+  },
+  {
+   "id": "response",
+   "start": 137.142,
+   "end": 164.258
+  },
+  {
+   "id": "missed",
+   "start": 164.258,
+   "end": 189.252
+  },
+  {
+   "id": "parity",
+   "start": 189.252,
+   "end": 215.409
+  },
+  {
+   "id": "inverse",
+   "start": 215.409,
+   "end": 241.069
+  },
+  {
+   "id": "residuals",
+   "start": 241.069,
+   "end": 263.846
+  },
+  {
+   "id": "volume",
+   "start": 263.846,
+   "end": 293.647
+  },
+  {
+   "id": "boundary",
+   "start": 293.647,
+   "end": 315.393
+  },
+  {
+   "id": "finale",
+   "start": 315.393,
+   "end": 354.817
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 17.008,
+   "en": "Part ten asked when a new readout adds information. This part runs the other way, from averages back to a local rule. If you know only how often each position is occupied, which source should you rebuild?",
+   "zh": "第十部问的是新读口何时增加信息。这一部反过来，从平均值反推局部规则。如果只知道每个位置被占的频率，应该重建出哪个来源？"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 17.608,
+   "end": 24.068,
+   "en": "The answer is a chain that remembers only its neighbor. And the price of that choice can be measured exactly.",
+   "zh": "答案是一条只记得邻居的链。而这个选择的代价，可以精确地量出来。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 26.268,
+   "end": 32.282,
+   "en": "The Auric FIB atom pyramid, part eleven: inverting local rules, and correcting the loop.",
+   "zh": "Auric FIB 原子金字塔，第十一部：局部规则的反演与闭环修正。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 32.883,
+   "end": 37.291,
+   "en": "Means, activities, missing relations, and a tridiagonal skeleton.",
+   "zh": "均值、活动权、遗漏的关系，以及三对角的骨架。"
+  },
+  {
+   "i": 4,
+   "scene": "fiber",
+   "start": 39.491,
+   "end": 53.219,
+   "en": "On the pyramid, the three means of low, high and middle leave the joint probability kappa free. It can be anything from the larger of zero and X plus Y plus Z minus one, up to the smaller of X and Y.",
+   "zh": "在金字塔上，低端、高端、中间三个均值，并不确定联合概率 kappa。它可以取从零与 X+Y+Z−1 中较大者，到 X 与 Y 中较小者之间的任何值。"
+  },
+  {
+   "i": 5,
+   "scene": "fiber",
+   "start": 53.819,
+   "end": 67.537,
+   "en": "Both ends are reached by legal laws. For five equally likely patterns, kappa could be anywhere from zero to two fifths. A product of activities picks one point, X Y over one minus Z, here one fifth.",
+   "zh": "两端都能由合法分布达到。五种模式等可能时，kappa 可以是零到五分之二之间的任何值。活动权乘积模型只挑出一个点：XY 除以 1−Z，这里是五分之一。"
+  },
+  {
+   "i": 6,
+   "scene": "chain",
+   "start": 69.737,
+   "end": 81.663,
+   "en": "Stretch the pyramid into a chain of N positions where no two neighbors are both occupied. Knowing every mean fixes each neighboring pair completely, because occupied-occupied is forbidden.",
+   "zh": "把金字塔拉长成 N 个位置的链，相邻两个位置不能同时被占。知道全部均值，就完全确定了每一对相邻位置，因为两个都被占是禁止的。"
+  },
+  {
+   "i": 7,
+   "scene": "chain",
+   "start": 82.263,
+   "end": 91.99,
+   "en": "In the pair table, empty then occupied has the next mean, occupied then empty has the current mean, and empty-empty takes the remainder, one minus both.",
+   "zh": "在相邻表里，先空后占是下一个均值，先占后空是当前均值，两空则取余量：一减去两者。"
+  },
+  {
+   "i": 8,
+   "scene": "markov",
+   "start": 94.19,
+   "end": 103.533,
+   "en": "Glue the pair tables together, dividing once by each interior position that was counted twice. The result is a legal source with every mean right.",
+   "zh": "把相邻表粘在一起，对每个被两侧重复计入的内部位置除一次。结果是一个合法来源，每个均值都对。"
+  },
+  {
+   "i": 9,
+   "scene": "markov",
+   "start": 104.133,
+   "end": 112.01,
+   "en": "Among all sources whose next step depends only on the current position, it is the only one. This is the Markov completion.",
+   "zh": "在所有下一步只取决于当前位置的来源中，它是唯一的。这就是马尔可夫补全。"
+  },
+  {
+   "i": 10,
+   "scene": "activity",
+   "start": 114.21,
+   "end": 124.224,
+   "en": "The same source is a product of position activities, and each activity can be read off the means: u times one minus u, over the two neighboring remainders.",
+   "zh": "同一个来源，也是各位置活动权的乘积，而每个活动权都能从均值读出：u 乘 1−u，除以左右两个余量。"
+  },
+  {
+   "i": 11,
+   "scene": "activity",
+   "start": 124.824,
+   "end": 135.742,
+   "en": "Even the partition function is a ratio of means and remainders. For five equally likely patterns, every activity comes out one, and the partition function is five.",
+   "zh": "连配分函数也是均值与余量的比值。五种模式等可能时，每个活动权都等于一，配分函数是五。"
+  },
+  {
+   "i": 12,
+   "scene": "response",
+   "start": 137.942,
+   "end": 150.463,
+   "en": "Lean has frozen the calculus behind this, with one activity lambda for every position on any finite graph. A position is occupied with probability one minus Z without it, over Z.",
+   "zh": "这背后的微积分已在 Lean 中冻结，条件是任意有限图上所有位置共用一个活动权 λ。一个位置被占的概率，等于一减去「去掉它的 Z」与 Z 之比。"
+  },
+  {
+   "i": 13,
+   "scene": "response",
+   "start": 151.062,
+   "end": 162.858,
+   "en": "And lambda times the derivative of the mean occupancy equals its variance. With separate activities, the same calculus gives every mean and covariance as derivatives of log Z.",
+   "zh": "而 λ 乘平均占位数的导数，等于它的方差。若每个位置有各自的活动权，同样的微积分给出每个均值与协方差，都是 log Z 的导数。"
+  },
+  {
+   "i": 14,
+   "scene": "missed",
+   "start": 165.058,
+   "end": 175.601,
+   "en": "What does the Markov completion miss? Among sources with the same means, its entropy is the largest, and the gap is exactly the relative entropy from the true source.",
+   "zh": "马尔可夫补全遗漏了什么？在均值相同的来源中，它的熵最大，而差额恰好是真实来源相对于它的相对熵。"
+  },
+  {
+   "i": 15,
+   "scene": "missed",
+   "start": 176.201,
+   "end": 187.852,
+   "en": "That gap is a sum of conditional mutual informations: how much the past still says about the next position, once the current one is known. It vanishes only for a true Markov source.",
+   "zh": "这个差额是一组条件互信息之和：在知道当前位置之后，过去对下一个位置还说了多少。只有真正的马尔可夫来源才使它为零。"
+  },
+  {
+   "i": 16,
+   "scene": "parity",
+   "start": 190.052,
+   "end": 200.325,
+   "en": "Here is such a gap. On five positions, keep the second and fourth empty, and let the first, third and fifth hold an even number of ones. That gives four sources.",
+   "zh": "看一个具体的差额。在五个位置上，让第二、第四个空着，第一、三、五个位置合起来含偶数个一。这给出四个来源。"
+  },
+  {
+   "i": 17,
+   "scene": "parity",
+   "start": 200.925,
+   "end": 214.009,
+   "en": "Letting those three positions be independent gives eight. Every single position, every neighboring pair and every run of three look the same, yet the entropies differ by log two, hidden in a three-way parity.",
+   "zh": "让这三个位置相互独立，则有八个来源。每个位置、每对相邻位置、每段连续三位都一模一样，熵却相差 log 2，藏在一个三方奇偶关系里。"
+  },
+  {
+   "i": 18,
+   "scene": "inverse",
+   "start": 216.209,
+   "end": 226.389,
+   "en": "In the activity model, covariance is easy to misread. For five equally likely patterns, low and high are positively correlated, by one twenty-fifth.",
+   "zh": "在活动权模型里，协方差很容易读错。五种模式等可能时，低端与高端正相关，协方差是二十五分之一。"
+  },
+  {
+   "i": 19,
+   "scene": "inverse",
+   "start": 226.989,
+   "end": 239.669,
+   "en": "But invert the covariance and the low-high entry is exactly zero. The inverse is tridiagonal: it links only neighbors, with weight one over their remainder. The correlation travels through the middle.",
+   "zh": "可一旦把协方差求逆，低端与高端那一项恰好为零。逆矩阵是三对角的：它只连接相邻位置，权重是它们余量的倒数。关联是经由中间传过去的。"
+  },
+  {
+   "i": 20,
+   "scene": "residuals",
+   "start": 241.869,
+   "end": 254.051,
+   "en": "Subtract from each position what its left neighbor predicts. The residuals are pairwise orthogonal, and each has a simple variance: the mean times the remainder, over one minus the previous mean.",
+   "zh": "从每个位置减去左邻位置的预测。剩下的余量两两正交，每个的方差都很简单：均值乘余量，再除以 1 减去前一个均值。"
+  },
+  {
+   "i": 21,
+   "scene": "residuals",
+   "start": 254.651,
+   "end": 262.446,
+   "en": "The determinant of the covariance is the product of these variances, and it equals the product of the means over the partition function.",
+   "zh": "协方差的行列式就是这些方差之积，它等于各均值之积除以配分函数。"
+  },
+  {
+   "i": 22,
+   "scene": "volume",
+   "start": 264.646,
+   "end": 278.645,
+   "en": "With every activity one, the partition function is the Fibonacci number F N plus two, and position i is occupied with probability F i times F N minus i plus one, over F N plus two.",
+   "zh": "当所有活动权都为一时，配分函数是 Fibonacci 数 F(N+2)，位置 i 被占的概率是 F(i) 乘 F(N−i+1)，再除以 F(N+2)。"
+  },
+  {
+   "i": 23,
+   "scene": "volume",
+   "start": 279.245,
+   "end": 292.247,
+   "en": "The response volume is the square of the product of the first N Fibonacci numbers, over F N plus two to the power N plus one. For three positions it is four over six hundred twenty-five.",
+   "zh": "响应体积等于前 N 个 Fibonacci 数之积的平方，除以 F(N+2) 的 N+1 次方。三个位置时是六百二十五分之四。"
+  },
+  {
+   "i": 24,
+   "scene": "boundary",
+   "start": 294.447,
+   "end": 301.871,
+   "en": "Now squeeze a seam. As the remainder between two neighbors goes to zero, the response volume collapses toward zero.",
+   "zh": "现在挤压一条接缝。当两个相邻位置之间的余量趋于零时，响应体积也塌缩到零。"
+  },
+  {
+   "i": 25,
+   "scene": "boundary",
+   "start": 302.471,
+   "end": 313.993,
+   "en": "At the same time the inverse link between them, one over the remainder, blows up. A vanishing volume and an exploding sensitivity are two faces of the same boundary relation.",
+   "zh": "与此同时，它们之间的逆关系，也就是余量的倒数，急剧增大。体积消失与敏感度爆炸，是同一条边界关系的两面。"
+  },
+  {
+   "i": 26,
+   "scene": "finale",
+   "start": 316.393,
+   "end": 329.208,
+   "en": "From averages, the most natural local rule is the Markov completion: unique, explicit, and readable as activities. What it misses is a sum of conditional mutual informations, and nothing else.",
+   "zh": "从平均值出发，最自然的局部规则是马尔可夫补全：唯一、显式，并能读成活动权。它遗漏的，恰是一组条件互信息之和，别无其他。"
+  },
+  {
+   "i": 27,
+   "scene": "finale",
+   "start": 329.808,
+   "end": 345.817,
+   "en": "The single-activity occupancy and fluctuation identities are frozen in Lean. The inversion, the entropy gap, the tridiagonal inverse and the response volume are argued in the theory volume, and every number here was recomputed for this film.",
+   "zh": "单活动权下的占位公式与涨落响应恒等式已在 Lean 中冻结。反演、熵差、三对角逆与响应体积在理论卷中论证，这里的每个数字都为这部片子重新计算过。"
+  }
+ ],
+ "duration": 354.817
+}
