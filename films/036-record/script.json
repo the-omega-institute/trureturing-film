@@ -1,0 +1,246 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part five showed that the five patterns hide a fourth number. The three averages cannot see kappa, the chance of the joint pattern.",
+     "第五部讲过，五种模式藏着第四个数。三个平均值看不见 kappa，也就是联合模式的概率。"
+    ],
+    [
+     "This film asks the next question. Which observations keep a simple source simple, and what is the smallest record that can read two things at once?",
+     "这部片子问下一个问题：哪些观察能让简单的来源保持简单？能同时读取两件事的最小记录，是什么形状？"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part seven: readouts and the record triangle.",
+     "Auric FIB 原子金字塔，第七部：读口与记录三角形。"
+    ],
+    [
+     "Two outcomes make a segment, three make a triangle, four make a tetrahedron.",
+     "两个结果给出一条线段，三个给出三角形，四个给出四面体。"
+    ]
+   ]
+  },
+  {
+   "id": "model",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Take a simple source: one weight for low, one for middle, one for high, and the joint pattern weighted by low times high. Three parameters instead of four.",
+     "取一个简单来源：低端一个权重，中间一个，高端一个，联合模式的权重等于低端乘高端。三个参数，而不是四个。"
+    ],
+    [
+     "It is exactly the law whose four-corner product, empty times joint minus low times high, is zero. On the floor of the pyramid, low and high are then independent. Legality alone does not force this; it is a declared model.",
+     "它恰好是四角乘积为零的分布：空乘联合，减去低乘高，等于零。此时在金字塔底面上，低端与高端相互独立。合法性本身并不强制这一点；这是一个声明的模型。"
+    ]
+   ]
+  },
+  {
+   "id": "bayes",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A readout returns a record without changing the pattern. Weight each posterior by its outcome probability, and they average back exactly to the prior.",
+     "读口返回一条记录，但不改变模式。用结果概率给每个后验加权，它们恰好平均回到先验。"
+    ],
+    [
+     "Conversely, any such family of posteriors comes from a readout. Both directions are frozen in Lean. Checking the three averages is not enough: kappa must average back too.",
+     "反过来，任何这样的后验族都来自某个读口。这两个方向都已在 Lean 中冻结。只检查三个平均值还不够：kappa 也必须平均回去。"
+    ]
+   ]
+  },
+  {
+   "id": "two",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now ask a two-outcome readout to keep every posterior in the simple family. The four-corner rule must hold for both outcomes, which forces the sum rule and a product that must vanish.",
+     "现在要求一个两结果读口，让每个后验都留在简单族里。两个结果都必须满足四角规则，这就迫使一条和式成立，并让一个乘积必须为零。"
+    ],
+    [
+     "So it can read low with middle, or high with middle, but never both ends. With four likelihood levels per pattern, only one hundred twelve of one thousand twenty-four tables pass.",
+     "所以它可以读低端加中间，或者高端加中间，但永远不能同时读两端。每种模式取四个似然水平，一千零二十四张表里只有一百一十二张通过。"
+    ]
+   ]
+  },
+  {
+   "id": "saddle",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On the floor, independence is the surface k equals u times v, a saddle. Mix two independent sources, and the new correlation is t times one minus t times the signed rectangle between their means.",
+     "在底面上，独立性就是曲面 k 等于 u 乘 v，一张马鞍面。把两个独立来源混合，新增的关联等于 t 乘一减 t，再乘它们均值之间的带符号矩形面积。"
+    ],
+    [
+     "A two-outcome readout splits the prior along a single line. To stay on the saddle, that line must keep one end fixed.",
+     "两结果读口沿一条直线把先验分开。要留在马鞍面上，这条线必须保持一端不动。"
+    ]
+   ]
+  },
+  {
+   "id": "three",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three outcomes break the deadlock. In this table every column satisfies the four-corner rule, so every simple source stays simple after every record.",
+     "三个结果打破了僵局。这张表的每一列都满足四角规则，所以每个简单来源在每条记录之后都保持简单。"
+    ],
+    [
+     "From a uniform prior, each record has probability one third, and the floor posteriors are one quarter and two thirds, one half and one sixth, three quarters and two thirds. Both ends move, and each posterior stays independent.",
+     "从均匀先验出发，每条记录的概率都是三分之一，底面后验依次为四分之一与三分之二、二分之一与六分之一、四分之三与三分之二。两端都在变化，而每个后验仍然独立。"
+    ]
+   ]
+  },
+  {
+   "id": "minimal",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three is the minimum. Independence before and after forces the record changes of the two ends to be orthogonal.",
+     "三是最少的。观察前后都独立，迫使两端的记录变化彼此正交。"
+    ],
+    [
+     "With two outcomes their covariance is q zero q one times the product of the two changes, which vanishes only if one end stands still. Two outcomes give a line of record directions; three give the first plane.",
+     "只有两个结果时，它们的协方差等于 q 零乘 q 一再乘两个变化之积，只有一端不动时才为零。两个结果给出一条记录方向的直线；三个结果才给出第一个平面。"
+    ]
+   ]
+  },
+  {
+   "id": "area",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The three posteriors span a record triangle of area one eighth. The record variances are one twenty-fourth and one eighteenth, with zero covariance.",
+     "三个后验张成一个面积为八分之一的记录三角形。记录方差分别是二十四分之一和十八分之一，协方差为零。"
+    ],
+    [
+     "Their determinant, one over four hundred thirty-two, is four twenty-sevenths of the area squared. In pyramid coordinates the area is two twenty-fifths: a separation of beliefs, not a patch of physical space.",
+     "它们的行列式是四百三十二分之一，等于面积平方的二十七分之四。在金字塔坐标中，面积是二十五分之二：这是信念的分离，而不是物理空间的一块面积。"
+    ]
+   ]
+  },
+  {
+   "id": "coarse",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now forget part of the record. Merge outcomes zero and two: their high means agree, so the merged posterior stays independent, at the cost of the low difference.",
+     "现在忘掉一部分记录。把结果零和二合并：它们的高端均值相同，所以合并后的后验仍然独立，代价是丢掉了低端的差别。"
+    ],
+    [
+     "Merge zero and one instead, and a correlation of minus one thirty-second appears. Coarsening turns record differences into source correlation, without any force acting on the source.",
+     "改为合并零和一，就出现了负三十二分之一的关联。粗化把记录之间的差别变成了来源关联，而来源本身没有受到任何作用。"
+    ]
+   ]
+  },
+  {
+   "id": "graph",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On any exclusion graph, a two-outcome readout keeps the product family exactly when it reads a clique, a set of positions that exclude each other.",
+     "在任意排斥图上，两结果读口保持乘积族，当且仅当它读取的是一个团，也就是两两互斥的一组位置。"
+    ],
+    [
+     "On the FIB path the largest clique is one adjacent pair, so a two-outcome readout sees at most low with middle, or middle with high.",
+     "在 FIB 路径上，最大的团只是一对相邻位置，所以两结果读口最多看到低端加中间，或中间加高端。"
+    ]
+   ]
+  },
+  {
+   "id": "simplex",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "In general, m outcomes carry at most m minus one independent directions. Reading d independent bits while keeping them independent needs d plus one outcomes.",
+     "一般地，m 个结果最多承载 m 减一个独立方向。读取 d 个独立比特、同时保持它们独立，需要 d 加一个结果。"
+    ],
+    [
+     "A first-return protocol reaches the bound, and its records span a segment of length one half, a triangle of area one eighth, a tetrahedron of volume one forty-eighth: one over two to the d times d factorial.",
+     "首次返回协议达到这个下界，它的记录张成长度二分之一的线段、面积八分之一的三角形、体积四十八分之一的四面体：二的 d 次方乘 d 阶乘分之一。"
+    ]
+   ]
+  },
+  {
+   "id": "tetra",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For the full five patterns, read the middle first; if it is empty, run first return on low, then high. Four records arrive with probabilities one fifth, two fifths, one fifth and one fifth.",
+     "对完整的五种模式，先读中间；若中间为空，再对低端、然后高端做首次返回。四条记录的概率依次是五分之一、五分之二、五分之一、五分之一。"
+    ],
+    [
+     "Their posterior means span a record tetrahedron of volume one twenty-fourth, and their kappas average back to one fifth, so all four come from the same source.",
+     "它们的后验均值张成体积为二十四分之一的记录四面体，而它们的 kappa 平均回到五分之一，所以四条记录都来自同一个来源。"
+    ]
+   ]
+  },
+  {
+   "id": "symmetry",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Symmetry alone is not enough. Four posteriors on a regular tetrahedron around three fair bits get the first and second averages right.",
+     "只有对称是不够的。围绕三个公平比特、排成正四面体的四个后验，一阶和二阶平均都对。"
+    ],
+    [
+     "But the third average comes out one eighth plus epsilon cubed. At epsilon one quarter they predict nine sixty-fourths for all ones, where the source says eight. They cannot come from that source.",
+     "但三阶平均是八分之一加 epsilon 的三次方。当 epsilon 取四分之一时，它们预测全为一的概率是六十四分之九，而来源给出的是六十四分之八。它们不可能来自那个来源。"
+    ]
+   ]
+  },
+  {
+   "id": "quantum",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "With qubits, records can be subtler. Ask whether two qubits in the plus state agree, either by one joint projection or by reading each and reporting only agreement. Both answer yes half the time, with the same occupations.",
+     "有了量子比特，记录可以更微妙。问两个处于加态的量子比特是否一致：可以用一次联合投影，也可以分别读取、只报告是否一致。两者都有一半概率回答是，占位概率也完全相同。"
+    ],
+    [
+     "But the first leaves a Bell state with x x correlation one; the second leaves a mixture with zero. The same reported outcome can leave different successors.",
+     "但前者留下一个 x x 关联为一的 Bell 态；后者留下关联为零的混合态。同样报告的结果，可以留下不同的后继。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "One exclusion edge gives a triangle of legal events; two outcomes give one record direction; three give the first plane where two orthogonal changes fit; forgetting turns differences into correlation.",
+     "一条排斥边给出合法事件的三角形；两个结果给出一个记录方向；三个结果首次容纳两项正交变化；遗忘把差别变成关联。"
+    ],
+    [
+     "Bayes plausibility and its converse are frozen in Lean. The readout classification, the record triangle and the tetrahedra are argued in the volumes, and every number here was recomputed for this film.",
+     "Bayes 可行性及其逆命题已在 Lean 中冻结。读口分类、记录三角形与四面体在理论卷中论证，这里的每个数字都为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
