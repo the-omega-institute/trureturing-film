@@ -1,0 +1,343 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 22.473
+  },
+  {
+   "id": "title",
+   "start": 22.473,
+   "end": 36.673
+  },
+  {
+   "id": "ternary",
+   "start": 36.673,
+   "end": 60.021
+  },
+  {
+   "id": "codes",
+   "start": 60.021,
+   "end": 79.774
+  },
+  {
+   "id": "rank",
+   "start": 79.774,
+   "end": 103.332
+  },
+  {
+   "id": "corner",
+   "start": 103.332,
+   "end": 132.48
+  },
+  {
+   "id": "second",
+   "start": 132.48,
+   "end": 159.222
+  },
+  {
+   "id": "volume",
+   "start": 159.222,
+   "end": 181.712
+  },
+  {
+   "id": "lattice",
+   "start": 181.712,
+   "end": 214.322
+  },
+  {
+   "id": "fib",
+   "start": 214.322,
+   "end": 247.731
+  },
+  {
+   "id": "combine",
+   "start": 247.731,
+   "end": 276.547
+  },
+  {
+   "id": "parity",
+   "start": 276.547,
+   "end": 300.17
+  },
+  {
+   "id": "guard",
+   "start": 300.17,
+   "end": 329.19
+  },
+  {
+   "id": "tetra",
+   "start": 329.19,
+   "end": 361.628
+  },
+  {
+   "id": "quantum",
+   "start": 361.628,
+   "end": 388.096
+  },
+  {
+   "id": "finale",
+   "start": 388.096,
+   "end": 420.205
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 13.184,
+   "en": "Part nine found an arrow in paths that no single moment shows. This part asks a sharper question: when does a new readout really add information?",
+   "zh": "第九部在路径里找到了单个时刻看不见的箭头。这一部问一个更尖锐的问题：一个新的读口，什么时候才真正增加了信息？"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 13.784,
+   "end": 21.473,
+   "en": "Two readouts can obey the same rule and still add different amounts. What counts is rank, and whether the arithmetic can still see it.",
+   "zh": "两个读口可以满足同一条规则，却增加不同多的信息。真正算数的是秩，以及当前的算术还能不能看见它。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 23.673,
+   "end": 29.623,
+   "en": "The Auric FIB atom pyramid, part ten: rank, volume and arithmetic resolution.",
+   "zh": "Auric FIB 原子金字塔，第十部：秩、体积与算术分辨率。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 30.223,
+   "end": 35.273,
+   "en": "One hidden corner controls new dimensions, lifted volume and prime blind spots.",
+   "zh": "一个隐藏的四角关系，同时控制新增维数、提升体积与素数盲区。"
+  },
+  {
+   "i": 4,
+   "scene": "ternary",
+   "start": 37.473,
+   "end": 48.91,
+   "en": "Start on the nine-point plane over the field with three elements. Take f equal to u squared plus v squared, with a zero second coordinate, and g equal to u squared and v squared.",
+   "zh": "从三元域上的九点平面开始。取 f 等于 u 平方加 v 平方、第二个坐标为零，再取 g 等于 u 平方与 v 平方。"
+  },
+  {
+   "i": 5,
+   "scene": "ternary",
+   "start": 49.51,
+   "end": 58.621,
+   "en": "Along every line, both functions sum to something nonzero. They pass the same first-order sum-free rule, and Lean has checked it on every line.",
+   "zh": "沿每一条直线，两个函数的和都不为零。它们满足同一条一阶 sum-free 规则，这一点 Lean 已在每条直线上检查过。"
+  },
+  {
+   "i": 6,
+   "scene": "codes",
+   "start": 60.821,
+   "end": 69.214,
+   "en": "But against the old readouts one, u and v, f adds one new function while g adds two. The spans have dimension four and five.",
+   "zh": "但对已有的读数 1、u、v 来说，f 只新增一个函数，g 却新增两个。张成的维数分别是四和五。"
+  },
+  {
+   "i": 7,
+   "scene": "codes",
+   "start": 69.814,
+   "end": 78.374,
+   "en": "So their codes have dimension five and four. Lean has frozen this counterexample: the same legality does not fix the same dimension.",
+   "zh": "所以它们的码维数是五和四。Lean 已冻结这个反例：同样的合法性，不决定同样的维数。"
+  },
+  {
+   "i": 8,
+   "scene": "rank",
+   "start": 80.574,
+   "end": 91.25,
+   "en": "Define new information as rank relative to the old boundary. What a new readout removes from the hidden freedom is the rank of its image modulo what was already read.",
+   "zh": "把新增信息定义为相对于旧边界的秩。一个新读口从隐藏自由度中真正消掉的，是它模掉已有读数之后的秩。"
+  },
+  {
+   "i": 9,
+   "scene": "rank",
+   "start": 91.85,
+   "end": 101.932,
+   "en": "Repeating an old readout, changing its coordinates, or adding combinations of old ones removes nothing. The number of formulas is not the number of relations.",
+   "zh": "重复旧读数、给它换坐标、或加入旧读数的组合，都消不掉任何自由度。公式的数量，不等于关系的数量。"
+  },
+  {
+   "i": 10,
+   "scene": "corner",
+   "start": 104.132,
+   "end": 119.333,
+   "en": "On the pyramid, the old boundary is one, low, high and middle. Every function on the five patterns is an affine part plus J times x y, where J is the four-corner difference: empty plus joint, minus low, minus high.",
+   "zh": "在金字塔上，旧边界是 1、低端、高端和中间。五模式上的每个函数，都等于一个仿射部分加上 J 乘 x y；J 是四角差：空模式加联合，减低端，再减高端。"
+  },
+  {
+   "i": 11,
+   "scene": "corner",
+   "start": 119.933,
+   "end": 131.08,
+   "en": "So a new readout adds a dimension exactly when J is not zero. The hidden direction moves weight around four corners at once; no three patterns can compensate one another.",
+   "zh": "所以新读口恰在 J 不为零时增加一维。隐藏方向同时在四个角之间挪动权重；任何三个模式都无法互相补偿。"
+  },
+  {
+   "i": 12,
+   "scene": "second",
+   "start": 133.28,
+   "end": 143.676,
+   "en": "Second order is not automatically new. Low squared is still low, so squares add nothing. The product of two readouts adds only its cross term between the two ends.",
+   "zh": "二阶不等于自动新增。低端的平方仍是低端，所以平方什么也没加。两个读口的乘积，只有两端之间的交叉项是新增的。"
+  },
+  {
+   "i": 13,
+   "scene": "second",
+   "start": 144.276,
+   "end": 157.822,
+   "en": "Squaring one readout gives J equal to two a b. In characteristic two that vanishes for every readout, yet x y is still there, with J equal to one. What fails is the method, not the relation.",
+   "zh": "一个读口的平方给出 J 等于 2ab。在特征二中，它对每个读口都为零，可是 x y 仍在，J 等于一。失效的是方法，不是关系。"
+  },
+  {
+   "i": 14,
+   "scene": "volume",
+   "start": 160.022,
+   "end": 169.06,
+   "en": "Lift each pattern by the value of f into four dimensions. Without a new relation, the five lifted points stay in one three-dimensional slice.",
+   "zh": "把每个模式按 f 的值提升到四维。没有新增关系时，五个提升点仍停在同一个三维切片里。"
+  },
+  {
+   "i": 15,
+   "scene": "volume",
+   "start": 169.66,
+   "end": 180.312,
+   "en": "With one, they span a four-dimensional simplex of volume J over twenty-four. The same J sets the volume, but a bigger volume is still only one new dimension.",
+   "zh": "有了新增关系，它们张成一个四维单纯形，体积是 J 除以二十四。同一个 J 决定体积，但体积再大，也只增加一维。"
+  },
+  {
+   "i": 16,
+   "scene": "lattice",
+   "start": 182.512,
+   "end": 193.436,
+   "en": "Now count samples with integers. Two count vectors with the same old boundary differ by a multiple of the four-corner move, so the new readout sees J times that multiple.",
+   "zh": "现在用整数计数样本。旧边界相同的两个计数向量，相差四角移动的整数倍，所以新读口看到的是 J 乘这个倍数。"
+  },
+  {
+   "i": 17,
+   "scene": "lattice",
+   "start": 194.036,
+   "end": 212.922,
+   "en": "The reachable lattice has index J. Modulo m, each reachable boundary has the greatest common divisor of m and J preimages, so recovery is unique exactly when they are coprime. At finite p-adic precision, the p-adic valuation of J counts the digits lost.",
+   "zh": "可达格点的指数是 J。模 m 时，每个可达边界恰有 m 与 J 的最大公约数那么多个原像，所以恰在二者互素时能唯一恢复。在有限 p 进精度下，J 的 p 进赋值就是丢掉的位数。"
+  },
+  {
+   "i": 18,
+   "scene": "fib",
+   "start": 215.122,
+   "end": 230.437,
+   "en": "Bring in FIB quantities. The stage readouts are N zero equals two x plus five y plus three z, N one equals three x plus eight y plus five z, and N three equals eight x plus twenty-one y plus thirteen z.",
+   "zh": "代入 FIB 数量。阶段读数是 N0 等于 2x + 5y + 3z，N1 等于 3x + 8y + 5z，N3 等于 8x + 21y + 13z。"
+  },
+  {
+   "i": 19,
+   "scene": "fib",
+   "start": 231.037,
+   "end": 246.331,
+   "en": "Squaring N zero gives J equal to twenty, blind modulo two and five. Two samples, empty with joint against low with high, read forty-nine and twenty-nine: different over the integers, identical modulo two or five.",
+   "zh": "N0 的平方给出 J 等于二十，模二、模五时失明。两组样本，空模式加联合，对比低端加高端，读数是四十九和二十九：在整数里不同，模二或模五后完全相同。"
+  },
+  {
+   "i": 20,
+   "scene": "combine",
+   "start": 248.531,
+   "end": 259.736,
+   "en": "N one squared gives forty-eight and N three squared gives three hundred thirty-six. Together with N zero squared they still share the factor four, so a binary digit stays lost.",
+   "zh": "N1 的平方给出四十八，N3 的平方给出三百三十六。它们与 N0 的平方合在一起，仍共有因子四，所以仍丢掉一个二进位。"
+  },
+  {
+   "i": 21,
+   "scene": "combine",
+   "start": 260.336,
+   "end": 275.147,
+   "en": "The mixed product N zero times N one has J equal to thirty-one, coprime to twenty, and recovers x y with no division. But it needs both readings on the same source, and its large coefficients can amplify noise.",
+   "zh": "混合乘积 N0 乘 N1 的 J 是三十一，与二十互素，不用除法就能恢复 x y。但它需要同一来源上的两个读数，而且大系数可能放大噪声。"
+  },
+  {
+   "i": 22,
+   "scene": "parity",
+   "start": 277.347,
+   "end": 288.726,
+   "en": "Watch the native readout along its three-step stages. Fibonacci numbers repeat modulo two every three steps, so every stage reading, modulo two, equals y plus z.",
+   "zh": "沿原生的三步阶段观察读数。Fibonacci 数模二每三步重复一次，所以每个阶段读数模二都等于 y 加 z。"
+  },
+  {
+   "i": 23,
+   "scene": "parity",
+   "start": 289.326,
+   "end": 298.77,
+   "en": "Repeat it forever, process it however you like, and the x y relation never appears. Turning one distorted scalar around cannot add what it lost.",
+   "zh": "无论重复多少次、怎样加工，x y 关系都不会出现。反复摆弄一份已经失真的标量，补不回它丢掉的东西。"
+  },
+  {
+   "i": 24,
+   "scene": "guard",
+   "start": 300.97,
+   "end": 313.767,
+   "en": "But the native reader has another reply: rejection. Keep the current parity, then feed the high pattern. The guard rejects exactly when the seam left by the first window is one, and that seam is x.",
+   "zh": "但原生读者还有另一种回复：拒绝。保存当前的奇偶，再输入高端模式。守卫恰在第一个窗口留下的接缝为一时拒绝，而这个接缝就是 x。"
+  },
+  {
+   "i": 25,
+   "scene": "guard",
+   "start": 314.367,
+   "end": 327.79,
+   "en": "Remainder one followed by rejection happens only for the joint pattern: y plus z, times x, is x y. Keeping the guard's reply on the same source reads what more scalar processing never could.",
+   "zh": "余数为一、随后被拒绝，只发生在联合模式上：y 加 z 再乘 x，就是 x y。在同一来源上保留守卫的回复，就读到了再多标量加工也读不到的关系。"
+  },
+  {
+   "i": 26,
+   "scene": "tetra",
+   "start": 329.99,
+   "end": 345.875,
+   "en": "Compare two boundaries of rank four. The occupancy boundary, one, x, y and z, draws the familiar pyramid. The native parity behavior gives one, x, y plus z and x y, and draws a tetrahedron of volume one sixth.",
+   "zh": "比较两个秩都为四的边界。占位边界 1、x、y、z 画出熟悉的金字塔。原生奇偶行为给出 1、x、y+z 和 x y，画出一个体积六分之一的四面体。"
+  },
+  {
+   "i": 27,
+   "scene": "tetra",
+   "start": 346.475,
+   "end": 360.228,
+   "en": "They share only three directions. The pyramid separates middle from high but misses x y; the tetrahedron keeps x y but merges middle and high. Together they recover all five pattern probabilities.",
+   "zh": "它们只共享三个方向。金字塔区分中间与高端，却漏掉 x y；四面体保留 x y，却把中间与高端合并。二者合起来，恢复全部五模式概率。"
+  },
+  {
+   "i": 28,
+   "scene": "quantum",
+   "start": 362.428,
+   "end": 372.426,
+   "en": "Quantum readouts hide a similar trap. Any real combination of X and Y squares to a multiple of the identity, so its average never sees the state.",
+   "zh": "量子读口里也藏着类似的陷阱。X 与 Y 的任意实组合，平方都是单位矩阵的倍数，所以它的平均值永远看不见态。"
+  },
+  {
+   "i": 29,
+   "scene": "quantum",
+   "start": 373.026,
+   "end": 386.696,
+   "en": "Their order still matters: the commutator of X and Y, over two i, is Z. Here the cancellation comes from anticommutation, not from two equal to zero, and reading Z still needs an actual measurement.",
+   "zh": "可它们的次序仍然有关：X 与 Y 的对易子除以 2i 就是 Z。这里的抵消来自反对易，而不是二等于零；而且要读出 Z，仍需要实际的测量。"
+  },
+  {
+   "i": 30,
+   "scene": "finale",
+   "start": 389.096,
+   "end": 397.818,
+   "en": "Ask three questions of any new relation. Does it add rank? Can the current precision see it? And will an actual future operation read it again?",
+   "zh": "对任何一个新关系，都问三个问题：它增加秩了吗？当前精度看得见吗？实际的后续操作还会再读到它吗？"
+  },
+  {
+   "i": 31,
+   "scene": "finale",
+   "start": 398.418,
+   "end": 411.205,
+   "en": "The ternary counterexample is frozen in Lean. The four-corner analysis, the volumes, the lattices and the guard reading are argued in the theory volume, and every number here was recomputed for this film.",
+   "zh": "三元平面上的反例已在 Lean 中冻结。四角分析、体积、格点与守卫读出在理论卷中论证，这里的每个数字都为这部片子重新计算过。"
+  }
+ ],
+ "duration": 420.205
+}

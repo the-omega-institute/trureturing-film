@@ -1,0 +1,26 @@
+{
+  "id": "039-resolution",
+  "title": "AURIC FIB ATOM PYRAMID X",
+  "title_zh": "金字塔 X · 秩、体积与算术分辨率",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "d73782d7c2",
+  "released": "2026-10-09",
+  "duration": "7:00",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_narrated_EN_subs_ZH-EN.mp4",
+    "music_only": "TRURETURING_music_only_subs_ZH-EN.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}

@@ -50,6 +50,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 036 | [AURIC FIB ATOM PYRAMID VII](films/036-record/) · 金字塔 VII：读口与记录三角形 | 6:38 | EN (AI) / music-only | ZH + EN |
 | 037 | [AURIC FIB ATOM PYRAMID VIII](films/037-ancestry/) · 金字塔 VIII：从共同出现到共同祖先 | 7:14 | EN (AI) / music-only | ZH + EN |
 | 038 | [AURIC FIB ATOM PYRAMID IX](films/038-arrow/) · 金字塔 IX：金字塔上的时间箭头 | 6:57 | EN (AI) / music-only | ZH + EN |
+| 039 | [AURIC FIB ATOM PYRAMID X](films/039-resolution/) · 金字塔 X：秩、体积与算术分辨率 | 7:00 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 
