@@ -1,0 +1,231 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part fifteen measured inverse precision with triangles. Part sixteen starts from the polygon itself: cut one ear from a recorded boundary, and ask where the five pyramid modes come from.",
+     "第十五部用三角形度量反演精度。第十六部从多边形本身出发：从一条已记录的边界上切下一只耳朵，追问金字塔的五种模式从何而来。"
+    ],
+    [
+     "They come from a fight over shared edges. And every opposite in this film, a complement, a reflection, a sign flip, is a different operation on a different background.",
+     "它们来自对共享边的争用。而这部片子里出现的每一种“反面”，补集、反射、反号，都是不同论域上的不同操作。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part sixteen: intrinsic classes and polygon geometry.",
+     "Auric FIB 原子金字塔，第十六部：内生分类与多边形几何。"
+    ],
+    [
+     "Three points make an area, five vertices make a choice, and every class needs its background.",
+     "三个点围出面积，五个顶点生成选择，每一种分类都需要它的论域。"
+    ]
+   ]
+  },
+  {
+   "id": "triangle",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start from three distances. The inner product is half of a squared plus b squared minus c squared, and the signed area tau satisfies four tau squared equals a squared b squared minus that inner product squared.",
+     "从三条距离出发。内积等于 a²+b²−c² 的一半；有向面积 τ 满足 4τ² 等于 a²b² 减去内积的平方。"
+    ],
+    [
+     "Three sides fix a triangle up to its mirror image, and Heron's formula gives its area. Four equal sides do not: a rhombus of side one can have area one, or one half.",
+     "三条边把三角形确定到镜像为止，Heron 公式给出它的面积。四条等边却不行：边长为一的菱形，面积可以是一，也可以是二分之一。"
+    ]
+   ]
+  },
+  {
+   "id": "regular",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A regular N-gon has interior angle pi minus two pi over N: acute only for the triangle, right only for the square, obtuse beyond, yet always below pi, so no regular polygon is concave.",
+     "正 N 边形的内角是 π − 2π/N。只有三角形是锐角，只有正方形是直角，更大的都是钝角；但全都小于 π，所以不存在凹的正多边形。"
+    ],
+    [
+     "Reflecting across a line flips the inner product and keeps the area, turning sixty degrees into one hundred twenty. And the complement of the triangle class still contains the square, unless the square is first removed from the background.",
+     "沿一条直线反射，内积反号、面积不变，把六十度变成一百二十度。而三角形类的补集仍然包含正方形，除非先把正方形从论域里删掉。"
+    ]
+   ]
+  },
+  {
+   "id": "flip",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Split a convex polygon into triangles and add one response per triangle. Every split gives the same total exactly when each four-point flip keeps the sum. The shoelace kernel passes, with N minus two triangles and one area.",
+     "把凸多边形剖分成三角形，每块三角形加上一个响应。当且仅当每一次四点翻转都保持总和，所有剖分才给出同一结果。鞋带面积核通过检验：N−2 块三角形，同一个面积。"
+    ],
+    [
+     "Squared area passes on every square, yet fails on the quadrilateral zero zero, three zero, two one, zero two: both splits give area seven halves, but squared sums of twenty-five and thirty-seven quarters.",
+     "面积平方在所有正方形上都能通过，却在四边形 (0,0)、(3,0)、(2,1)、(0,2) 上失败。两种剖分的面积都是二分之七，平方和却分别是四分之二十五与四分之三十七。"
+    ]
+   ]
+  },
+  {
+   "id": "conflict",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now record five consecutive vertices and four edges. Cutting the ear at vertex one, two or three replaces two old edges by a chord, and no edge may be consumed twice in one round.",
+     "现在记录五个连续顶点、四条边。在第一、二、三个顶点处切耳，都是用一条弦替换两条旧边；同一轮里，一条旧边不能被消费两次。"
+    ],
+    [
+     "Cuts one and two share an edge, as do two and three; one and three do not. The legal choices are none, one, two, three, and one with three: exactly the five modes. N open edges give F N plus one schemes; a closed ring of four gives seven.",
+     "第一刀和第二刀共用一条边，第二刀和第三刀也共用一条，第一刀和第三刀不共用。合法选择只有不切、一、二、三，以及一与三同时切——正好是五种模式。N 条开放边共有 F(N+1) 种方案；四条边闭合成环，则有七种。"
+    ]
+   ]
+  },
+  {
+   "id": "moments",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Give each cut its area change tau. The expected change reads only the three means, but the second moment adds two tau one tau three times kappa, the chance of cutting both ends together.",
+     "给每一刀记下面积变化 τ。面积变化的期望只读三个均值；二阶矩却多出 2τ₁τ₃κ，κ 是两端同时切下的概率。"
+    ],
+    [
+     "On a parabola every ear has area one. Half none and half both, against half one and half three: same means, same mean change, yet second moments two and one. Fill a notch and cut an ear, and the cross term turns negative.",
+     "在抛物线上，每只耳朵面积都是一。一半不切、一半两端都切，对比一半切一、一半切三：均值相同，平均变化相同，二阶矩却分别是二和一。填一个凹口、再切一只耳朵，交叉项就变成负的。"
+    ]
+   ]
+  },
+  {
+   "id": "fibarea",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Walk the leaves of the canonical FIB tree, alpha one step and beta another. Joining two walks adds half the determinant of their endpoints: exactly the seam a chord forgets.",
+     "沿规范 FIB 树的叶子行走，alpha 走一步，beta 走另一步。两段路径拼接时，面积多出两段位移行列式的一半；这道接缝，正是换成弦时遗忘的东西。"
+    ],
+    [
+     "The endpoints follow the Fibonacci rule, and the areas obey A n equals d over two, times F n minus two plus minus one to the n. Keep the inner record, and the next cut can still be computed.",
+     "端点服从 Fibonacci 递推，面积满足 A_n = d/2 · (F(n−2) + (−1)ⁿ)。保留内部记录，下一刀才仍然能算。"
+    ]
+   ]
+  },
+  {
+   "id": "circle",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Inscribed in a fixed circle, the regular N-gon has area N R squared over two, times sine two pi over N. It grows toward pi R squared, and the gap is at most two pi cubed R squared over three N squared.",
+     "内接于固定圆的正 N 边形，面积是 NR²/2 · sin(2π/N)。它随 N 增大而逼近 πR²，差距不超过 2π³R²/(3N²)。"
+    ],
+    [
+     "With the perimeter fixed instead, the regular polygon holds the most area among all N-gons, yet always less than the circle.",
+     "若改为固定周长，在所有 N 边形中正多边形面积最大，但总小于圆。"
+    ]
+   ]
+  },
+  {
+   "id": "prime",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Step around an N-gon k vertices at a time, and you return after N over the gcd of N and k. Every nonzero step tours all vertices exactly when N is prime. A hexagon stepped by two is only a triangle.",
+     "在 N 边形上每次跳 k 个顶点，走 N/gcd(N,k) 步回到起点。当且仅当 N 是素数，每个非零步长都能走遍所有顶点。六边形每次跳两格，只走出一个三角形。"
+    ],
+    [
+     "For a prime p, the only rational weights that balance the vertices at the center are uniform, by Eisenstein's criterion. A composite has others, like thirds on alternate hexagon corners. Yet a prime polygon still splits into p minus two triangles.",
+     "对素数 p，能让顶点在中心平衡的有理权重只有均匀分配，这由 Eisenstein 判别法保证。合数就有别的方案，比如六边形上隔一个角放三分之一。但素数边形照样能剖成 p−2 个三角形。"
+    ]
+   ]
+  },
+  {
+   "id": "spectrum",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Star polygons on p points have scaled squared areas q k equals four sine squared of two pi k over p, and both their sum and their product equal p. For the pentagon, q solves Q squared minus five Q plus five, and the larger root minus two is the golden ratio.",
+     "p 个点上的星形多边形，规范化面积平方是 q_k = 4sin²(2πk/p)，它们的和与积都等于 p。对五边形，q 满足 Q² − 5Q + 5 = 0，较大的根减二正是黄金比。"
+    ],
+    [
+     "On a regular N-gon each ear takes two times one minus cosine two pi over N, over N, of the area: five minus root five, over ten, for the pentagon. One round loses zero, one or two ears, with chances one minus m plus kappa, m minus two kappa, and kappa.",
+     "在正 N 边形上，每只耳朵占总面积的 2(1−cos(2π/N))/N，五边形是 (5−√5)/10。一轮损失零、一只或两只耳朵，概率分别为 1−m+κ、m−2κ 与 κ。"
+    ]
+   ]
+  },
+  {
+   "id": "suffix",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Area alone merges the three single cuts. Now let the same mode feed the native reader, then request one more window in mode three. The replies are five, rejected, eighteen, twenty-six, rejected, so area and reply together give five signatures and recover the whole law.",
+     "单看面积，三种单刀会被合并。现在让同一次选定的模式也送进原生读者，再以模式三请求一个窗口。回复分别是五、拒绝、十八、二十六、拒绝；面积与回复合起来有五个不同签名，便恢复整个概率律。"
+    ],
+    [
+     "Lean has frozen the native side: at every fixed length, the reply after one appended null window separates all legal five-mode sources. Lengths one to four hold five, twenty-one, eighty-nine and three hundred seventy-seven sources, every reply different.",
+     "Lean 已冻结原生一侧：在每个固定长度上，追加一个空窗口后的回复能分开所有合法的五模式来源。长度一到四分别有五、二十一、八十九、三百七十七个来源，回复各不相同。"
+    ]
+   ]
+  },
+  {
+   "id": "cube",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Complementing the cut positions keeps only one pair legal: the middle cut and the two end cuts trade places. In the unit cube of means, the pyramid's mirror image is not its set difference.",
+     "对切点位置取补，只有一对仍然合法：中间一刀与两端两刀互换。在均值的单位立方体里，金字塔的镜像并不是它的集合差。"
+    ],
+    [
+     "The cube splits into the pyramid and its mirror, a third each, plus two mixed tetrahedra of one sixth, six order simplices in all. The true difference has volume two thirds: at least one constraint fails, not both reverse.",
+     "立方体分成金字塔与它的镜像，各占三分之一，再加两个各占六分之一的混合四面体，共六个次序单形。真正的集合差体积是三分之二：至少一个约束失败，而不是两个约束同时反向。"
+    ]
+   ]
+  },
+  {
+   "id": "certificates",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Reading every supporting line recovers only the convex hull: a square of area four and a notched pentagon of area three share every support, and so do a circle and its disk.",
+     "读遍所有方向的支撑线，也只能恢复凸包。面积为四的正方形和面积为三、带凹口的五边形，在每个方向上的支撑都相同；圆周和圆盘也是如此。"
+    ],
+    [
+     "In the plane, three convex constraints always suffice to certify a conflict. With the means fixed, four atomic inequalities give kappa its sharp range, and the lifted body of any target has volume absolute J over twenty-four.",
+     "在平面上，证明凸约束冲突永远只需要三个约束。固定均值后，四条原子不等式给出 κ 的精确范围，任何目标的提升体，四维体积都是 |J|/24。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Three points make a nonzero area, three sides make a rigid triangle, three cuts in conflict make five modes, and three constraints certify a conflict. Each smallest unit is smallest only for its own task.",
+     "三个点围出非零面积，三条边确定刚性三角形，三刀之间的冲突生成五种模式，三个约束足以证明冲突。每个最小单元，都只是相对于它自己的任务而言最小。"
+    ],
+    [
+     "Lean has frozen the native reply that separates every legal source. The ear calculus, the area spectrum, the complement cube and the sharp bounds are argued in the theory volume, and every number here was recomputed for this film.",
+     "Lean 已冻结能分开所有合法来源的原生回复。切耳计算、面积谱、补集立方体与精确上下界在理论卷中论证，这里的每个数字都为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
