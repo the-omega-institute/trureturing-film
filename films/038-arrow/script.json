@@ -1,0 +1,246 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part eight followed the ancestry hidden inside a tree. This part asks about time. Look at the pyramid at any single moment: every pattern is equally likely, and it stays that way forever.",
+     "第八部追踪了藏在树里的祖先。这一部问的是时间。在任何一个时刻看金字塔：每种模式都同样可能，而且永远如此。"
+    ],
+    [
+     "Nothing about a single moment ever changes. Yet a film of its history can still be told apart from the same film played backward.",
+     "单个时刻的一切都不会改变。可是它的历史录像，仍然能和倒放的同一段录像区分开。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part nine: the arrow of time on the pyramid.",
+     "Auric FIB 原子金字塔，第九部：金字塔上的时间箭头。"
+    ],
+    [
+     "Constant entropy, a strict arrow, and a phase that cannot see the difference.",
+     "熵恒定，箭头严格，而相位看不出方向。"
+    ]
+   ]
+  },
+  {
+   "id": "graph",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Flip one position at a time. The empty pattern, low, joint and high form a square on the floor of the pyramid, and middle hangs from the empty pattern alone.",
+     "每次只翻转一个位置。空模式、低端、联合、高端在金字塔底面围成一个方环，中间只挂在空模式上。"
+    ],
+    [
+     "These edges are configuration updates, a model added on top. They are not the native substitution rho.",
+     "这些边是配置更新，是额外加上的模型。它们不是原生的替换 ρ。"
+    ]
+   ]
+  },
+  {
+   "id": "chain",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now declare a random walk. Around the square it steps forward with probability p and backward with probability q. Along the branch it moves either way with probability r.",
+     "现在声明一个随机游走。沿方环向前走的概率是 p，向后是 q。沿支路，两个方向都是 r。"
+    ],
+    [
+     "Every row and every column sums to one. So if each pattern starts at one fifth, it stays at one fifth, and the entropy of a single moment is log five, forever.",
+     "每一行、每一列的和都是一。所以每种模式从五分之一出发，就一直是五分之一，单个时刻的熵永远是 log 5。"
+    ]
+   ]
+  },
+  {
+   "id": "sigma",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The arrow lives in paths, not in moments. Compare the chance of a path with the chance of the same path reversed, and average the log ratio per step.",
+     "箭头在路径里，不在时刻里。比较一条路径与它倒序的概率，对每一步的对数比取平均。"
+    ],
+    [
+     "The result is four fifths of p minus q, times log of p over q. It is positive exactly when p and q differ. With p one quarter and q one eighth, it is log two over ten per step. It is a path relative entropy, not heat.",
+     "结果是五分之四乘 p 减 q，再乘 p 比 q 的对数。它恰在 p 与 q 不同时为正。取 p 为四分之一、q 为八分之一，每步是十分之一 log 2。这是路径相对熵，不是热。"
+    ]
+   ]
+  },
+  {
+   "id": "winding",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Every path has a winding count W: forward steps around the square minus backward ones. The branch and the pauses count zero.",
+     "每条路径都有一个绕行数 W：方环上向前的步数减去向后的步数。支路和停留都记作零。"
+    ],
+    [
+     "The entire log likelihood of forward against backward is W times log of p over q. Over N steps, the two path laws separate by exactly N times the arrow rate.",
+     "正向对反向的全部对数似然比，就是 W 乘 p 比 q 的对数。走 N 步，两种路径分布的相对熵恰好是 N 乘箭头速率。"
+    ]
+   ]
+  },
+  {
+   "id": "fluctuation",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "So the chance of net winding w equals p over q to the w, times the chance of net winding minus w. Backward winding still happens, only exponentially less often.",
+     "于是净绕行为 w 的概率，等于 p 比 q 的 w 次方，乘以净绕行为负 w 的概率。反向绕行仍会发生，只是指数级地少。"
+    ],
+    [
+     "Weighted by p over q to the minus W, the average is exactly one. And W keeps everything a path says about direction: given W, the rest of the path is equally likely either way.",
+     "按 p 比 q 的负 W 次方加权，平均恰好等于一。W 保留了路径关于方向的全部信息：给定 W，路径的其余部分在两个方向下同样可能。"
+    ]
+   ]
+  },
+  {
+   "id": "merge",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now merge middle and joint into one type. From middle the walk can return to the empty pattern; from joint it cannot.",
+     "现在把中间与联合合并成一个类型。从中间可以回到空模式；从联合却不能。"
+    ],
+    [
+     "After low and then the merged type, empty is impossible next. After empty and then the merged type, empty comes next with probability r. The same present has two different futures, so four types are not a Markov state.",
+     "先低端、再合并类型，下一步不可能是空模式。先空模式、再合并类型，下一步是空模式的概率是 r。同一个现在有两种不同的未来，所以四个类型不是马尔可夫状态。"
+    ]
+   ]
+  },
+  {
+   "id": "phase",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Attach a qubit to every pattern, and give each edge a rotation: minus i X, i Z and their inverses around the square, and minus i Y along the branch.",
+     "给每个模式附上一个量子比特，并给每条边一个转动：沿方环依次是负 i X、i Z 及它们的逆，支路上是负 i Y。"
+    ],
+    [
+     "Around the square, forward or backward, the qubit returns multiplied by minus one. The phase is the same both ways, but the two loops have probabilities one in twelve hundred eighty and one in twenty thousand four hundred eighty.",
+     "沿方环绕一圈，不论向前还是向后，量子比特都乘上负一回来。两个方向的相位相同，但两个闭路的概率分别是一千二百八十分之一和两万零四百八十分之一。"
+    ]
+   ]
+  },
+  {
+   "id": "walk",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Let the walk itself be coherent. One step around the square is a unitary S, and four steps give minus one. Superpose forward and backward with amplitudes root p and root q.",
+     "让游走本身相干。绕方环一步是一个酉算子 S，四步得到负一。用振幅根号 p 和根号 q 叠加向前与向后。"
+    ],
+    [
+     "Because the loop sign is minus one, the crossing terms cancel and the step stays unitary; with plus one it would not. Two steps return to the start with probability four p q, but only two p q if every step is measured. At p one half, that is certainty against one half.",
+     "因为闭路符号是负一，交叉项相互抵消，这一步保持酉；若是正一就不行。两步回到起点的概率是 4pq，但若每一步都测量，只有 2pq。p 等于二分之一时，是必然回到起点，对比二分之一。"
+    ]
+   ]
+  },
+  {
+   "id": "records",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Can one operation carry the probabilities, the rotations and the records together? Then the records must pass a test across different inputs, not just one input at a time.",
+     "一个操作能否同时承载概率、转动与记录？那么记录必须通过跨不同输入的检验，而不只是逐个输入检查。"
+    ],
+    [
+     "Low and middle share only one successor, the empty pattern, and so do high and middle. Where two inputs meet at a single successor, their records must be orthogonal. Identical records leave a defect of at least root q r, one eighth here.",
+     "低端与中间只有一个共同后继，就是空模式；高端与中间也是。两个输入只在一个后继处汇合时，它们的记录必须正交。若记录全都相同，缺陷至少是根号 qr，这里是八分之一。"
+    ]
+   ]
+  },
+  {
+   "id": "instrument",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Give each of the fifteen allowed edges its own Kraus operator and its own orthogonal record. The result is a channel that preserves trace and also preserves the identity.",
+     "给十五条允许的边各一个 Kraus 算子和一个彼此正交的记录。得到的通道保持迹，也保持单位矩阵。"
+    ],
+    [
+     "Its Choi matrix has rank exactly fifteen, so this channel needs at least a fifteen-dimensional environment. Path weights, rotations and records now come from one instrument, not chosen separately.",
+     "它的 Choi 矩阵秩恰为十五，所以这个通道至少需要十五维的环境。路径权重、转动与记录现在出自同一个仪器，而不是分别挑选。"
+    ]
+   ]
+  },
+  {
+   "id": "signs",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Every path rotation factors into two endpoint frames and one sign. On a closed loop, the sign is minus one to the number of net turns.",
+     "每条路径的转动都分解为两端的框架和一个符号。在闭路上，这个符号是负一的净圈数次方。"
+    ],
+    [
+     "So the phase sees only whether the net turns are odd or even, while the probability sees p over q to the four k. Swap p and q and only the probability flips. At p equal to q, the phase can still be minus one.",
+     "所以相位只看净圈数的奇偶，而概率看的是 p 比 q 的 4k 次方。交换 p 与 q，只有概率翻转方向。p 等于 q 时，相位仍然可以是负一。"
+    ]
+   ]
+  },
+  {
+   "id": "protected",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Carry any two-by-two observable along each pattern's frame. The edge channel leaves this moving block exactly fixed, and the Pauli relations, X times Y equals i Z, survive intact.",
+     "把任意二乘二的观测量沿每个模式的框架携带。边通道让这个移动的块完全不变，Pauli 关系 X 乘 Y 等于 i Z 也完整保留。"
+    ],
+    [
+     "In the moving frame, the channel is a Markov step on positions times the identity on the qubit. The qubit and its references pass untouched; only the coherence between positions is lost.",
+     "在移动框架里，这个通道就是位置上的一步马尔可夫推进，乘以量子比特上的恒等。量子比特及其参考关联原样通过；丢掉的只有位置之间的相干。"
+    ]
+   ]
+  },
+  {
+   "id": "stationary",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Put it together and start uniform. The visible state, the identity over ten, never changes, and its von Neumann entropy stays log ten.",
+     "把这些合在一起，从均匀出发。可见态，即单位矩阵除以十，从不改变，它的 von Neumann 熵一直是 log 10。"
+    ],
+    [
+     "The logical Pauli relations are kept, and yet the record of paths has a strict arrow: N times four fifths of p minus q, times log of p over q. This compares path laws; without a heat bath it is not thermodynamic entropy production.",
+     "逻辑 Pauli 关系保持不变，路径记录却有严格的箭头：N 乘五分之四乘 p 减 q，再乘 p 比 q 的对数。这是在比较路径分布；没有热浴，它就不是热力学熵产生。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "A state can stand still while its history runs one way. Probability carries the arrow; the phase only counts loops; and where paths merge, records must be orthogonal.",
+     "一个状态可以静止不动，而它的历史朝一个方向走。概率承载箭头；相位只数圈数；在路径汇合处，记录必须正交。"
+    ],
+    [
+     "These results are argued in the theory volume with classical path entropy, fluctuation symmetry and channel representations, and every number here was recomputed for this film.",
+     "这些结论在理论卷中论证，用到经典的路径熵、涨落对称与通道表示，这里的每个数字都为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
