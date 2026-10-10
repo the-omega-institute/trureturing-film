@@ -1,0 +1,186 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Twenty-four parts began from two leaves, alpha and beta, and one rule: alpha becomes beta, and beta becomes the pair beta, alpha. Part twenty-five, the last, asks what it takes to complete the relations between two sources.",
+     "二十四部片子，都始于两片叶子 α 和 β，以及一条规则：α 变成 β，β 变成有序对 ⟨β, α⟩。第二十五部，也是最后一部，追问：要补全两个来源之间的关系，需要什么。"
+    ],
+    [
+     "The answer climbs in steps: two numbers for the sources, three for their pair relations, four for a phase, and then a sudden rigidity, the number three itself.",
+     "答案一级一级上升：来源要两个数，成对关系要三个，相位要四个；然后出现一种突然的刚性，就是数字三本身。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part twenty-five: completing second-order relations.",
+     "Auric FIB 原子金字塔，第二十五部：二阶关系的补全。"
+    ],
+    [
+     "Two sources, three relations.",
+     "两个来源，三种关系。"
+    ]
+   ]
+  },
+  {
+   "id": "recover",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A tree with a alphas and b betas reads quantity two a plus three b. Advance it once and it reads three a plus five b. These two readings have determinant one, so they return a and b exactly, with no denominators.",
+     "一棵有 a 个 α、b 个 β 的树，读出的数量是 2a + 3b。推进一次，读出 3a + 5b。这两个读数的行列式为一，所以能精确取回 a 和 b，无需任何分母。"
+    ],
+    [
+     "The third reading adds nothing new: five a plus eight b is the sum of the first two. Starting from one alpha the readings are two, three, five, eight, and no linear model with one state can produce them; two states are exactly enough.",
+     "第三个读数没有带来新东西：5a + 8b 正是前两个之和。从一个 α 出发，读数是 2、3、5、8；任何只有一个状态的线性模型都产生不了它们，两个状态恰好够用。"
+    ]
+   ]
+  },
+  {
+   "id": "squares",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now ask for the relations between the two sources: a squared, a b and b squared. These three are independent, so any linear readout of every quadratic needs at least three dimensions, and the FIB step acts on them as one three by three matrix.",
+     "现在问两个来源之间的关系：a²、ab 和 b²。这三者彼此独立，所以要线性读出每一个二次式，至少需要三个维度；FIB 步在它们上面作用为一个三乘三矩阵。"
+    ],
+    [
+     "The squares four, nine, twenty-five, sixty-four, one hundred sixty-nine obey z n plus three equals two z n plus two plus two z n plus one minus z n. Their three by three Hankel determinant is two, so three dimensions are exact. Cubes need four, and k-th powers need k plus one.",
+     "平方序列 4、9、25、64、169 满足 z_{n+3} = 2z_{n+2} + 2z_{n+1} − z_n。它们的三阶 Hankel 行列式是二，所以三个维度恰好。立方需要四个，k 次方需要 k + 1 个。"
+    ]
+   ]
+  },
+  {
+   "id": "moments",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For a random source, three squared responses recover all three second moments: the observation matrix four, twelve, nine, nine, thirty, twenty-five, twenty-five, eighty, sixty-four has determinant minus two, and U equals forty s zero plus twenty-four s one minus fifteen s two.",
+     "对随机来源，三次平方响应能恢复全部三个二阶矩：观察矩阵 [[4, 12, 9], [9, 30, 25], [25, 80, 64]] 的行列式为 −2，且 U = 40s₀ + 24s₁ − 15s₂。"
+    ],
+    [
+     "Read the moments as an inner product and they become geometry: a distance, U plus W minus two V, and an area whose square is the Gram determinant over four. Every real source must satisfy the triangle bound, and fifty random sources do.",
+     "把这些矩读成内积，它们就成了几何：一个距离 U + W − 2V，以及一个面积，其平方等于 Gram 行列式除以四。每一个真实来源都必须满足三角界，五十个随机来源都满足。"
+    ]
+   ]
+  },
+  {
+   "id": "lorentz",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The FIB step keeps the determinant of the moment matrix but flips oriented area, and no positive length is kept: the growth phi squared is not one. What survives is a Lorentz form, tau squared minus x squared minus z squared.",
+     "FIB 步保持矩矩阵的行列式，却翻转有向面积；任何正的长度都不被保持，因为增长率 φ² 不等于一。保留下来的是一个 Lorentz 形式：τ² − x² − z²。"
+    ],
+    [
+     "So the real positive relations fill a cone. Split off the scale and the shape lives on a hyperboloid, a hyperbolic plane, where the FIB steps keep the distance between two shapes exactly, even as both drift toward the same rank-one edge.",
+     "于是实的正关系填满一个锥。把尺度分离出去，形状就住在一个双曲面上，也就是双曲平面；在那里，FIB 步精确保持两个形状之间的距离，即使两者都漂向同一个秩一边界。"
+    ]
+   ]
+  },
+  {
+   "id": "bloch",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Real relations carry no phase. Declare one more variable, a phase y, with Hermitian positivity, and the determinant becomes s squared minus x squared minus y squared minus z squared over four. At trace one, positivity is exactly the unit ball: pure states on the sphere, mixtures inside.",
+     "实关系不带相位。再声明一个变量，即相位 y，并要求 Hermitian 正性，行列式就变成 (s² − x² − y² − z²)/4。在迹为一时，正性恰好就是单位球：纯态在球面上，混合态在球内。"
+    ],
+    [
+     "Close under the commutator bracket and the smallest space holding the FIB data is spanned by the identity and the three Pauli matrices. The phase is an added contract; the tree compositions never supply it for free.",
+     "在对易子括号下闭合，容纳 FIB 数据的最小空间由单位矩阵和三个 Pauli 矩阵张成。相位是一个附加的约定；树的组成从来不会免费提供它。"
+    ]
+   ]
+  },
+  {
+   "id": "three",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now complete a relation without any reference frame. Ask for a rule x star y that returns x on the diagonal, never returns either input otherwise, and commutes with every relabeling. Such a rule exists only on exactly three roles, and there it is unique: two different roles always give the third.",
+     "现在在没有任何参照标架的情况下补全一个关系。要求一条规则 x ⋆ y：在对角线上返回 x，其他时候从不返回任何一个输入，并且与每一次重新标号交换。这样的规则只在恰好三个角色上存在，并且在那里是唯一的：两个不同的角色，总给出第三个。"
+    ],
+    [
+     "Brute force over two, three and four roles confirms it. If a fourth role existed, swapping it with the output while fixing both inputs would move the answer, and that is forbidden.",
+     "对两个、三个和四个角色的穷举都确认了这一点。如果存在第四个角色，在固定两个输入的同时把它与输出交换，就会移动答案，而这是不允许的。"
+    ]
+   ]
+  },
+  {
+   "id": "fano",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Seven points can close locally too. On the nonzero vectors of the three-bit cube, x plus y gives the third point of each pair, and the seven points form the seven lines of the Fano plane, kept by a group of one hundred sixty-eight symmetries.",
+     "七个点也能局部闭合。在三比特立方体的非零向量上，x + y 给出每一对的第三个点；这七个点组成 Fano 平面的七条线，由一个含 168 个对称的群保持。"
+    ],
+    [
+     "But that group moves pairs, not everything, so the global rule fails. And every map from the seven points to three roles that keeps the operation is constant: all two thousand one hundred eighty-seven maps were checked, and only the three constant ones survive.",
+     "但这个群移动的是点对，而不是全部，所以整体规则失效。而且，每一个从七个点到三个角色、并保持该运算的映射，都是常量：全部 2187 个映射都检查过，只有三个常量映射留下。"
+    ]
+   ]
+  },
+  {
+   "id": "ruler",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three returns once more as a period. With omega a cube root of one, a cubed minus b cubed splits into a minus b, a minus omega b, and a minus omega squared b, and the phase-plane length a squared plus a b plus b squared is the one ruler that a three-step rotation keeps.",
+     "三作为周期再次回来。取 ω 为一的立方根，a³ − b³ 分解成 (a − b)(a − ωb)(a − ω²b)；而相位平面上的长度 a² + ab + b²，是三步旋转唯一保持的尺子。"
+    ],
+    [
+     "Two sources, three relations, three roles, a three-step phase: second-order completion keeps choosing three.",
+     "两个来源，三种关系，三个角色，一个三步相位：二阶补全一次又一次地选择了三。"
+    ]
+   ]
+  },
+  {
+   "id": "series",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Across twenty-five parts the pyramid grew from two leaves into windows, seams, cycles, divisors and phases, and each part kept only what its task required: a reference, a seam, a cut, a label, a phase.",
+     "二十五部片子里，金字塔从两片叶子长成了窗口、接缝、循环、约数和相位；每一部只保留它的任务所需要的东西：一个参照、一条接缝、一个切口、一个标签、一个相位。"
+    ],
+    [
+     "Lean has frozen all one hundred seven modules of the FIB atomic arithmetic tree in this repository, alongside the Robin results of the last three parts. The rest stays argued, published, or open, and each film says which.",
+     "Lean 已冻结本仓库中 FIB 原子算术树的全部 107 个模块，以及前三部中的 Robin 结果。其余的内容，有的经过论证，有的已经发表，有的仍然开放；每部片子都标明了是哪一种。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Two readings recover the sources, three coordinates hold their relations, a Lorentz cone holds their shapes, a declared phase opens the Bloch ball, and frame-free completion lands on exactly three roles.",
+     "两个读数取回来源，三个坐标容纳它们的关系，一个 Lorentz 锥容纳它们的形状，一个声明的相位打开 Bloch 球，而无参照的补全恰好落在三个角色上。"
+    ],
+    [
+     "The recovery, the dimension counts, the moment geometry, the phase closure and the three-role theorems are argued in the theory volume with classical linear algebra, Pauli matrices and the Fano plane; the FIB atomic modules are frozen in Lean; every number here was recomputed for this film. Thank you for climbing the pyramid.",
+     "恢复、维数计数、矩的几何、相位闭合与三角色定理在理论卷中论证，并用到经典的线性代数、Pauli 矩阵与 Fano 平面；FIB 原子模块已在 Lean 中冻结；这里的每个数字都为这部片子重新计算过。感谢你一起攀登这座金字塔。"
+    ]
+   ]
+  }
+ ]
+}
