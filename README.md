@@ -72,6 +72,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 058 | [AURIC FIB ATOM PYRAMID XXIX](films/058-instrumentclosure/) · 金字塔 XXIX：输出分辨闭包与接缝曲率 | 6:45 | EN (AI) / music-only | ZH + EN |
 | 059 | [AURIC FIB ATOM PYRAMID XXX](films/059-fillings/) · 金字塔 XXX：局部填充、软到刚与奇环障碍 | 6:33 | EN (AI) / music-only | ZH + EN |
 | 060 | [AURIC FIB ATOM PYRAMID XXXI](films/060-seamhierarchy/) · 金字塔 XXXI：对称混合、路径缺陷与 Fibonacci 层级 | 5:55 | EN (AI) / music-only | ZH + EN |
+| 061 | [AURIC FIB ATOM PYRAMID XXXII](films/061-clockkernels/) · 金字塔 XXXII：局部时钟核与接缝可见性 | 5:34 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

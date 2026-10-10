@@ -1,0 +1,222 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 24.58
+  },
+  {
+   "id": "title",
+   "start": 24.58,
+   "end": 35.11
+  },
+  {
+   "id": "kernel",
+   "start": 35.11,
+   "end": 63.27
+  },
+  {
+   "id": "rates",
+   "start": 63.27,
+   "end": 107.155
+  },
+  {
+   "id": "history",
+   "start": 107.155,
+   "end": 137.05
+  },
+  {
+   "id": "dynamics",
+   "start": 137.05,
+   "end": 178.67
+  },
+  {
+   "id": "erase",
+   "start": 178.67,
+   "end": 212.363
+  },
+  {
+   "id": "ray",
+   "start": 212.363,
+   "end": 237.594
+  },
+  {
+   "id": "holonomy",
+   "start": 237.594,
+   "end": 264.954
+  },
+  {
+   "id": "windows",
+   "start": 264.954,
+   "end": 289.897
+  },
+  {
+   "id": "finale",
+   "start": 289.897,
+   "end": 334.908
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 19.262,
+   "en": "Part thirty-one asked what kind of change the hidden relation is. Part thirty-two asks what a local clock can see: when a rate, a mean, a waiting law or a whole history reveals the seam, and whether a hidden seam has really been erased.",
+   "zh": "第三十一部追问隐藏关系是哪一种变化。第三十二部追问局部时钟能看见什么：一个速率、一个均值、一条等待律或一整段历史，什么时候能揭示接缝；以及一个看不见的接缝，是否真的已被消除。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 19.862,
+   "end": 23.58,
+   "en": "Time here is not one number but a family of waiting laws.",
+   "zh": "这里的时间不是一个数，而是一族等待律。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 25.78,
+   "end": 31.857,
+   "en": "The Auric FIB atom pyramid, part thirty-two: local clock kernels and seam visibility.",
+   "zh": "Auric FIB 原子金字塔，第三十二部：局部时钟核与接缝可见性。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 32.457,
+   "end": 33.71,
+   "en": "What a clock can see.",
+   "zh": "时钟能看见什么。"
+  },
+  {
+   "i": 4,
+   "scene": "kernel",
+   "start": 35.91,
+   "end": 49.232,
+   "en": "Give each of the five states a waiting law: how long until the next event. The mixed law is a baseline plus kappa times the four-corner difference of the kernels: null minus two minus five plus the joint mode.",
+   "zh": "给五个状态各一条等待律：距离下一个事件还要等多久。混合后的等待律等于一个基线，加上 κ 乘以这些核的四角差：null 减 [2]、减 [5]、再加联合模式。"
+  },
+  {
+   "i": 5,
+   "scene": "kernel",
+   "start": 49.832,
+   "end": 61.87,
+   "en": "So with known kernels a clock separates the hidden fibre exactly when that difference is nonzero. Keeping only the mean waiting time, the same holds with the four-corner difference of the means.",
+   "zh": "所以在核已知时，时钟能分开隐藏纤维，当且仅当这个差不为零。如果只保留平均等待时间，同样的判据换成均值的四角差。"
+  },
+  {
+   "i": 6,
+   "scene": "rates",
+   "start": 64.07,
+   "end": 85.586,
+   "en": "Take exponential waits with rate a plus b x plus c y plus d z. The rates have zero four-corner difference, so the initial hazard rate cannot see kappa. But the survival curve carries kappa times e to the minus a t, times one minus e to the minus b t, times one minus e to the minus c t, which is positive.",
+   "zh": "取指数等待，速率为 a + bx + cy + dz。这些速率的四角差为零，所以初始危险率看不见 κ。但生存曲线里 κ 的系数是 e^(−at)·(1 − e^(−bt))·(1 − e^(−ct))，它是正的。"
+  },
+  {
+   "i": 7,
+   "scene": "rates",
+   "start": 86.186,
+   "end": 105.755,
+   "en": "In this example the mean also sees kappa: its four-corner difference is b c times two a plus b plus c, over a positive product. A mean can still be blind: if null waits zero or two with equal chance and every other state waits exactly one, all means equal one, yet the full laws differ.",
+   "zh": "在这个例子里，均值也看得见 κ：它的四角差是 bc(2a + b + c) 除以一个正的乘积。但均值仍可能是盲的：如果 null 以相等机会等待 0 或 2，其他状态都恰好等待 1，所有均值都等于 1，而完整的等待律却不同。"
+  },
+  {
+   "i": 8,
+   "scene": "history",
+   "start": 107.955,
+   "end": 125.442,
+   "en": "Over longer histories, the resolution order is the first history length at which the kernel difference becomes nonzero, or infinity if it never does. A bounded prefix is not enough in general: two sequences can agree for any fixed number of steps and differ on the next.",
+   "zh": "在更长的历史上，分辨阶是核差第一次变得不为零的历史长度；若永远不变，就记为无穷。有界前缀一般不够：两条序列可以在任意固定步数内一致，下一步才不同。"
+  },
+  {
+   "i": 9,
+   "scene": "history",
+   "start": 126.042,
+   "end": 135.65,
+   "en": "But on one common path space, if every finite prefix law agrees, the whole infinite history law agrees, because finite cylinders determine the measure.",
+   "zh": "但在同一个路径空间上，如果每个有限前缀律都一致，整个无限历史律也一致，因为有限柱集决定了测度。"
+  },
+  {
+   "i": 10,
+   "scene": "dynamics",
+   "start": 137.85,
+   "end": 156.69,
+   "en": "Now let the states move under a mass-preserving linear generator L. On the five states, if the readout of L d vanishes, then L d is a multiple of d and the seam stays hidden forever. If it does not vanish, the seam becomes visible after any short time, at rate s times P L d.",
+   "zh": "现在让状态在一个保质量的线性生成元 L 下运动。在五个状态上，如果 Ld 的读数为零，Ld 就是 d 的倍数，接缝永远隐藏；如果不为零，任何短暂的时间之后接缝就可见，速率为 s·PLd。"
+  },
+  {
+   "i": 11,
+   "scene": "dynamics",
+   "start": 157.29,
+   "end": 177.27,
+   "en": "For one linear update and readout, Lean has frozen that what no reading up to step m can see is the orthogonal complement of the observable Krylov space. Nonlinear leaks need not recover kappa: an output of kappa minus one quarter, squared, varies with kappa yet reads the same at zero and one half.",
+   "zh": "对一个线性更新与一个读数，Lean 已冻结：到第 m 步为止任何读数都看不见的部分，恰好是可观测 Krylov 空间的正交补。非线性泄漏不一定能恢复 κ：输出 (κ − 1/4)² 随 κ 变化，但在 0 与 1/2 处读数相同。"
+  },
+  {
+   "i": 12,
+   "scene": "erase",
+   "start": 179.47,
+   "end": 194.066,
+   "en": "Hidden is not erased. For a linear readout there are three cases: the difference d T is zero, so the carrier erased it; d T is nonzero but its readout is zero, so it is kept but unobserved; or the readout sees it.",
+   "zh": "隐藏不等于消除。对线性读数，有三种情形：差 dT 为零，载体把它消除了；dT 不为零但读数为零，它被保留却未被观测；或者读数看见了它。"
+  },
+  {
+   "i": 13,
+   "scene": "erase",
+   "start": 194.666,
+   "end": 210.963,
+   "en": "And erasing the state does not erase the record. Let both output branches reset to null, with output one firing on the joint mode. The final state is always null, so d T is zero, yet output one fires with probability exactly kappa.",
+   "zh": "而且消除状态并不消除记录。让两个输出分支都重置到 null，输出 1 只在联合模式上触发。末态永远是 null，所以 dT 为零；但输出 1 的触发概率恰好是 κ。"
+  },
+  {
+   "i": 14,
+   "scene": "ray",
+   "start": 213.163,
+   "end": 236.194,
+   "en": "An occluded ray works the same way. Removing the ray from the accessible records does not make every other port blind: residues, recoil or outputs already emitted can still carry the difference. Conversely, all-zero responses do not prove the ray left: an identity process read only by constant tests sees nothing, with no ray leaving at all.",
+   "zh": "被遮挡的射线也是这样。把射线从可访问的记录中去掉，并不使其他读口都变盲：残余、反冲或已经发出的输出，仍可能携带这个差异。反过来，响应全为零也不证明射线已经离开：一个恒等过程，只用常数测试去读，什么也看不见，而根本没有射线离开。"
+  },
+  {
+   "i": 15,
+   "scene": "holonomy",
+   "start": 238.394,
+   "end": 249.879,
+   "en": "Around a loop of transports, a non-identity loop map need not move every state. Swapping two and five is not the identity, yet it fixes the uniform law and the state three.",
+   "zh": "沿着输运回路，非恒等的回路映射不必移动每个状态。交换 [2] 与 [5] 不是恒等映射，却固定了均匀律和状态 [3]。"
+  },
+  {
+   "i": 16,
+   "scene": "holonomy",
+   "start": 250.479,
+   "end": 263.554,
+   "en": "And a path difference can be blind to the seam while seen everywhere else: one path sends everything to null, the other to three. Their difference kills d, yet every law reads a visible gap of minus one in Z.",
+   "zh": "路径差也可以对接缝盲，同时在别处处处可见：一条路径把一切送到 null，另一条送到 [3]。它们的差把 d 消掉，但每条概率律都在 Z 上读出 −1 的可见差距。"
+  },
+  {
+   "i": 17,
+   "scene": "windows",
+   "start": 265.754,
+   "end": 288.497,
+   "en": "Two windows multiply what can hide. On the full pair carrier of twenty-five states, cross-window first-order moments see sixteen directions and hide nine; the two windows' separate means see only seven and hide eighteen; even both full marginals see nine and hide sixteen. Marginals cannot rebuild cross moments without an extra model such as independence.",
+   "zh": "两个窗口让能隐藏的东西成倍增加。在 25 个状态的完整配对载体上，跨窗口的一阶乘积矩看见 16 个方向、隐藏 9 个；两个窗口各自的均值只看见 7 个、隐藏 18 个；即使两个完整边际也只看见 9 个、隐藏 16 个。没有像独立性这样的额外模型，边际无法重建交叉矩。"
+  },
+  {
+   "i": 18,
+   "scene": "finale",
+   "start": 290.897,
+   "end": 306.43,
+   "en": "A clock is a family of waiting laws: rates can be blind where laws see, means can be blind where laws see, finite prefixes fix the whole history, linear dynamics either hide the seam forever or leak it at once, and hidden is not erased.",
+   "zh": "时钟是一族等待律：速率盲时等待律可能看见，均值盲时等待律也可能看见；有限前缀决定整段历史；线性动力学要么让接缝永远隐藏，要么立刻泄漏；隐藏不等于消除。"
+  },
+  {
+   "i": 19,
+   "scene": "finale",
+   "start": 307.03,
+   "end": 325.908,
+   "en": "Lean has frozen the Krylov duality for one linear readout. The clock, rate and mean examples, the erasure cases, the ray, the holonomy examples and the window counts are argued in the theory volumes, the cylinder argument is classical measure theory, and every number here was recomputed.",
+   "zh": "Lean 已冻结单个线性读数的 Krylov 对偶。时钟、速率与均值的例子、消除的三种情形、射线、holonomy 例子与窗口计数在理论卷中论证；柱集论证是经典测度论；这里的每个数字都重新计算过。"
+  }
+ ],
+ "duration": 334.908
+}
