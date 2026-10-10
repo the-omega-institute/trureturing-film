@@ -1,0 +1,183 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part nineteen built three axes out of relations. Part twenty follows one single leaf through the substitution, and asks what a unit interval can see of it.",
+     "第十九部用关系搭出了三根轴。第二十部只跟踪一片叶在替换中的后代，并追问：一条单位区间能看见它的什么？"
+    ],
+    [
+     "One line, cut again and again, carries five modes, the golden ratio, an entropy rate, and an honest frontier of what has actually been read.",
+     "一条线被一次次切开，承载着五种模式、黄金比例、一个熵率，以及一条如实标出“到底读到了什么”的前沿。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part twenty: single-lineage partition geometry.",
+     "Auric FIB 原子金字塔，第二十部：单支系分割几何。"
+    ],
+    [
+     "One leaf, one line.",
+     "一片叶，一条线。"
+    ]
+   ]
+  },
+  {
+   "id": "lineage",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Fix one leaf and follow only its descendants. Alpha has exactly one child, beta. Beta has two, a left beta and a right alpha. Write beta as zero and alpha as one, and every lineage is a code that never holds two ones in a row.",
+     "固定一片叶，只跟踪它的后代。alpha 恰有一个孩子 beta；beta 有两个：左边的 beta 和右边的 alpha。把 beta 记作零、alpha 记作一，每条支系都是一串从不出现两个相邻一的码。"
+    ],
+    [
+     "Three steps from beta give exactly five codes, the five canonical modes. Counted by start and end type, three steps give the matrix three, two, two, one, which is the cube of the one-step matrix.",
+     "从 beta 出发走三步，恰好得到五个码，也就是五种规范模式。按起点和终点类型计数，三步给出矩阵 (3, 2; 2, 1)，正是一步矩阵的立方。"
+    ],
+    [
+     "Lean has frozen a sharp count for these codes. Flipping one letter keeps a code legal exactly when it removes a one, or turns on a zero whose neighbours are both zero. A code of length n with k ones has at most n plus one minus k such flips, with equality only for one, zero, one, zero, and so on, ending in one.",
+     "Lean 已冻结这些码的一个精确计数：翻转一个字母后仍然合法，当且仅当它去掉一个一，或点亮一个两侧都是零的零。长度为 n、含 k 个一的码，至多有 n + 1 − k 种这样的翻转；等号只对 1010…1 这样以一结尾的交替码成立。"
+    ]
+   ]
+  },
+  {
+   "id": "intervals",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now draw it. Start from the unit interval and cut every pair at a fixed ratio s: the left child gets s, the right gets one minus s. For any fixed s, the labeled endpoints recover the whole bracketed tree.",
+     "现在把它画出来。从单位区间开始，每个配对都按固定比例 s 切开：左孩子得 s，右孩子得 1 − s。对任意固定的 s，带标签的端点都能恢复整棵带括号的树。"
+    ],
+    [
+     "Alpha beta alpha can be bracketed two ways. At s one half the leaf lengths are a quarter, a quarter, a half, against a half, a quarter, a quarter: the same leaf word with different geometry. Close the line into a circle and the root mark must stay.",
+     "alpha beta alpha 有两种加括号的方式。在 s = 1/2 时，叶长分别是 1/4、1/4、1/2 与 1/2、1/4、1/4：同一个叶词，不同的几何。把线首尾接成圆，根点标记就必须保留。"
+    ]
+   ]
+  },
+  {
+   "id": "refine",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Substitution acts in place. An alpha interval is relabeled beta with no cut. A beta interval splits into a left beta of ratio s and a right alpha. Lean has frozen that repeated substitution never merges two ordered trees of the same composition, and that compositions follow the Fibonacci step.",
+     "替换就地进行：alpha 区间改标为 beta，不切；beta 区间分成比例为 s 的左 beta 和右 alpha。Lean 已冻结：反复替换从不把同一组成的两棵有序树合并为一棵，而组成按 Fibonacci 步前进。"
+    ],
+    [
+     "Fix one reading point off every cut. Its labels trace a lineage, and the five three-step windows have lengths s cubed, s squared times one minus s, s times one minus s twice, and one minus s squared. Together they tile the start interval exactly.",
+     "固定一个避开所有切点的读点。它的标签描出一条支系，五个三步窗口的长度分别是 s³、s²(1 − s)、两个 s(1 − s)，以及 (1 − s)²。它们恰好铺满起始区间。"
+    ],
+    [
+     "Not every infinite code has a reading point. Always going left shrinks onto the boundary point zero, which every legal reading point must avoid.",
+     "并不是每个无限码都有读点。一直向左，区间会缩到边界点零上，而合法的读点必须避开它。"
+    ]
+   ]
+  },
+  {
+   "id": "golden",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "When do all windows with the same end type have the same length? The three beta-ending lengths agree exactly when s squared equals one minus s, and so do the two alpha-ending ones. The only solution between zero and one is one over phi.",
+     "什么时候末态相同的窗口长度都相等？三个以 beta 结尾的长度相等，当且仅当 s² = 1 − s；两个以 alpha 结尾的也是同一个条件。在零与一之间，唯一的解是 1/φ。"
+    ],
+    [
+     "Then three modes have length phi to the minus three, two have phi to the minus four, and three phi to the minus three plus two phi to the minus four is exactly one. In a unit square, the small square of side s and the strip of width one minus s have equal area.",
+     "于是三种模式长 φ⁻³，两种长 φ⁻⁴，而 3φ⁻³ + 2φ⁻⁴ 恰好等于一。在单位正方形里，边长为 s 的小正方形与宽为 1 − s 的条带面积相等。"
+    ],
+    [
+     "At this ratio each step cuts every longest interval and keeps the rest: the partition is the Kakutani refinement, step by step.",
+     "在这个比例下，每一步都切开所有最长的区间、保留其余：这个分割逐步就是 Kakutani 细分。"
+    ]
+   ]
+  },
+  {
+   "id": "telescope",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Give alpha length one and beta length phi. Then every lineage telescopes: its length is the end length over phi to the n times the start length. Same start, same time and same end type always give the same length.",
+     "给 alpha 长度一、beta 长度 φ。每条支系都会望远镜式消去：它的长度等于末态长度除以 φⁿ 乘起点长度。起点、时间、末态都相同，长度就一定相同。"
+    ],
+    [
+     "But length is not history. Zero zero one and one zero one both end in alpha with length phi to the minus four, at addresses left left right and right right: two disjoint intervals sharing one scale. And a zero window that was already certain shrinks the interval by phi cubed while carrying no surprise at all.",
+     "但长度不是历史。001 与 101 都以 alpha 结尾、长度都是 φ⁻⁴，地址却分别是 LLR 与 RR：两个不相交的区间，共享同一个尺度。而一个早已确定的零窗口，会把区间缩小 φ³ 倍，却不带任何惊奇。"
+    ]
+   ]
+  },
+  {
+   "id": "entropy",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Pick the reading point uniformly. The beta mass obeys b next equals one minus one minus s times b, and at each step the address entropy grows by exactly b times h two of s, the binary entropy of one cut.",
+     "均匀地选取读点。beta 质量满足 b′ = 1 − (1 − s)b，而每一步地址熵恰好增加 b·h₂(s)，也就是一次切割的二元熵。"
+    ],
+    [
+     "The long-run rate is h two of s over two minus s. It never exceeds log two of phi, about zero point six nine four bits per step, and it reaches it only at s equals one over phi. The scale condition and the entropy maximum pick the same point.",
+     "长期熵率是 h₂(s)/(2 − s)。它从不超过 log₂φ，大约每步 0.694 比特，并且只在 s = 1/φ 时达到。尺度相容与熵的极大值选中了同一个点。"
+    ]
+   ]
+  },
+  {
+   "id": "halves",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Cut in halves instead. Starting from alpha, the leaf counts are one, one, two, three, five, eight, thirteen, and the entropy runs zero, zero, one, three halves, nine quarters, twenty-three eighths, fifty-seven sixteenths. The rate is two thirds, strictly below the golden maximum.",
+     "改成对半切。从 alpha 出发，叶数是 1、1、2、3、5、8、13，熵依次是 0、0、1、3/2、9/4、23/8、57/16。熵率是 2/3，严格低于黄金的极大值。"
+    ],
+    [
+     "The gap between the uniform-leaf entropy log N and H is a relative entropy. Halves at three steps give log three minus three halves. At the golden ratio the gap stays below log phi forever, because no leaf is more than phi times another.",
+     "均匀叶熵 log N 与 H 之差是一个相对熵。对半切三步时，它是 log 3 − 3/2。在黄金比例下，这个差永远小于 log φ，因为没有一片叶比另一片长出 φ 倍以上。"
+    ]
+   ]
+  },
+  {
+   "id": "frontier",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the honest part: what has actually been read. A reader keeps leaf replies at some addresses, and their weights add up to mu. The unread leaves carry one minus mu, so the beta mass lies between b read and b read plus one minus mu, and compatible trees reach both ends.",
+     "现在是最诚实的部分：到底读到了什么。读者在一些地址上保留了叶的回复，它们的权重之和是 μ。未读的叶承载 1 − μ，于是 beta 质量落在 b_read 与 b_read + 1 − μ 之间，两端都由相容的树达到。"
+    ],
+    [
+     "The best guess is the midpoint, with worst error exactly one minus mu over two. Mu equals one exactly when every leaf is in hand, and then the tree is recovered. A small one minus mu is not recovery: one unread deep leaf can still flip and move the target by s to the m.",
+     "最好的估计是中点，最坏误差恰为 (1 − μ)/2。μ = 1 当且仅当每一片叶都在手里，这时树被完整恢复。1 − μ 很小并不等于恢复：一片未读的深层叶仍可翻转，使目标改变 sᵐ。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "One leaf traced through the substitution gives a code without adjacent ones, five modes in three steps, interval lengths that tile, one golden ratio where the scales agree and the entropy peaks, and a frontier that measures what has really been read.",
+     "一片叶在替换中被跟踪，给出一串没有相邻一的码、三步里的五种模式、恰好铺满的区间长度、一个让尺度相容且熵达到极大的黄金比例，以及一条衡量真正读到了什么的前沿。"
+    ],
+    [
+     "Lean has frozen that substitution never merges ordered trees of one composition, that compositions follow the Fibonacci step, and the sharp flip count for legal codes. The partition, the golden equivalences, the entropy rates and the frontier envelope are argued in the theory volume with classical entropy identities, and every number here was recomputed for this film.",
+     "Lean 已冻结：替换从不合并同一组成的有序树，组成按 Fibonacci 步前进，以及合法码的精确翻转计数。分割、黄金等价、熵率与前沿包络在理论卷中论证，并用到经典的熵恒等式；这里的每个数字都为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
