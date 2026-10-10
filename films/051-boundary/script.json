@@ -1,0 +1,205 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part twenty-one closed space into three dimensions. Part twenty-two asks how a boundary rebuilds what lies inside, from a line of numbers to the divisors of five thousand and forty.",
+     "第二十一部把空间闭合成三维。第二十二部追问：边界怎样重建内部，从一列数，一直到 5040 的约数。"
+    ],
+    [
+     "The rule is the same each time: a local law, a starting value, the seams, and a tail that has not vanished yet. Drop any one of them and the inside is no longer determined.",
+     "每一次规则都一样：局部规律、起始值、接缝，以及一个尚未消失的尾项。少了任何一个，内部就不再被确定。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part twenty-two: atomic boundary calculus.",
+     "Auric FIB 原子金字塔，第二十二部：原子边界演算。"
+    ],
+    [
+     "Keep the start, the seam and the tail.",
+     "留住起点、接缝和尾项。"
+    ]
+   ]
+  },
+  {
+   "id": "differences",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with a list of numbers. Its increments, plus the first value, rebuild every term. Without the first value you only know the list up to a constant.",
+     "从一列数开始。它的增量，加上第一个值，就能重建每一项。没有第一个值，只能确定到相差一个常数。"
+    ],
+    [
+     "Stack layers of known weight from zero. Rows of one, two, three give the triangle numbers, N times N plus one over two. Squares of one, four, nine give the pyramid, N times N plus one times two N plus one over six.",
+     "从零开始，一层层堆上已知权重的层。一、二、三的行给出三角形数 N(N+1)/2；一、四、九的方块给出方锥数 N(N+1)(2N+1)/6。"
+    ]
+   ]
+  },
+  {
+   "id": "corners",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On a grid, accumulate weights from the corner. Then one atom is four corners: take the big block, subtract the left and the lower blocks, and add back their overlap. In three dimensions it takes eight corners, and in r directions two to the r.",
+     "在格子上，从角上开始累计权重。于是一个原子等于四个角：取大块，减去左块和下块，再把它们的重叠加回来。三维要八个角，r 个方向要 2ʳ 个角。"
+    ],
+    [
+     "But the corners must carry accumulated values, not bare coordinates, and one set of corners returns one atom, not the whole box.",
+     "但这些角必须带着累计值，而不只是坐标；而且一组角只取回一个原子，不是整个盒子。"
+    ]
+   ]
+  },
+  {
+   "id": "cones",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Choose a point inside a convex shape and cut it into cones from that point. The area is one half the sum of height times edge length, and the volume is one third the sum of height times face area.",
+     "在凸形内部选一个点，从这个点把它切成锥。面积等于“高乘边长”之和的一半，体积等于“高乘面面积”之和的三分之一。"
+    ],
+    [
+     "Each moment needs its own weight: a moment of degree r divides by d plus r. A triangle with corners minus one minus one, three minus one, and minus one two has area six and first moment two; its mirror image has the same area and moment minus two.",
+     "每个矩都要自己的权重：r 次矩要除以 d + r。顶点为 (−1, −1)、(3, −1)、(−1, 2) 的三角形面积为六、一阶矩为二；它的镜像面积相同，一阶矩却是负二。"
+    ]
+   ]
+  },
+  {
+   "id": "windows",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Count legal FIB windows. With seams, the number of words of n windows is F of three n plus two: one, five, twenty-one, not five to the n. The finite generating sum obeys an exact identity with two end terms.",
+     "数一数合法的 FIB 窗口。带着接缝，n 个窗口的词数是 F₃ₙ₊₂：一、五、二十一，而不是 5ⁿ。有限生成和满足一个精确恒等式，带着两个末端项。"
+    ],
+    [
+     "Those end terms vanish only inside the disc of radius phi to the minus three; there, and only there, the sum is one plus z over one minus four z minus z squared. In the same way, the squares of Fibonacci numbers add up to the last rectangle, F N times F N plus one.",
+     "这两个末端项只在半径为 φ⁻³ 的圆盘内才消失；在那里，也只在那里，和等于 (1 + z)/(1 − 4z − z²)。同样，Fibonacci 数的平方加起来，正好是最后一个矩形 F_N·F_{N+1}。"
+    ]
+   ]
+  },
+  {
+   "id": "divisors",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the divisors. Five thousand and forty is two to the fourth times three squared times five times seven, so its sixty divisors form a five by three by two by two box. Accumulate one over d along divisibility and you get sigma of n over n.",
+     "现在看约数。5040 = 2⁴·3²·5·7，所以它的六十个约数组成一个 5×3×2×2 的盒子。沿着整除关系累计 1/d，就得到 σ(n)/n。"
+    ],
+    [
+     "The corner rule becomes Möbius inversion. Sixteen signed readings, one for each divisor of two hundred ten, return the top atom exactly: one over five thousand and forty.",
+     "角点规则变成了 Möbius 反演。十六个带符号的读数，每个对应 210 的一个约数，精确地取回顶端原子：1/5040。"
+    ]
+   ]
+  },
+  {
+   "id": "outer",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A different task uses sixteen other points. One minus x to the m along each axis gives sixteen outer endpoints, and with the box rule they rebuild all sixty terms of the support. These are jumps outside the box, not corners inside it.",
+     "另一个任务用的是另外十六个点。沿每根轴取 1 − x^m，得到十六个外端点；配合盒子规则，它们重建支撑的全部六十项。这些是盒子外的跳跃，而不是盒子内的角。"
+    ],
+    [
+     "Phases give a third view. Sample each prime direction on its own grid of five, three, two and two angles, and the average of the squared response is exactly sigma over n, four hundred three over one hundred five. One shared phase would keep five hundred forty-eight pairs instead of sixty.",
+     "相位给出第三种视角。每个素数方向在自己的格子上取五、三、二、二个角度，平方响应的平均恰好是 σ(n)/n = 403/105。若共用一个相位，会留下 548 对，而不是 60 对。"
+    ]
+   ]
+  },
+  {
+   "id": "strips",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Take logarithms and each prime becomes a labeled strip under one over one minus t, from p to the minus a plus one up to one over p. For five thousand and forty the four strips add up to log of four hundred three over one hundred five. They overlap, so the labels matter; the union would pay less.",
+     "取对数，每个素数就成了曲线 1/(1 − t) 下一条带标签的条带，从 p^{−(a+1)} 到 1/p。对 5040，四条条带加起来是 log(403/105)。它们彼此重叠，所以标签很重要；只算并集会付得更少。"
+    ],
+    [
+     "Expand the strips into atoms and the series has a positive tail. Every finite cut gives a strict lower bound, and a computable tail budget gives the upper bound, so the error is kept, never dropped.",
+     "把条带展开成原子，级数有一个正的尾项。每一个有限截断都给出严格的下界，可计算的尾项预算给出上界，于是误差被保留下来，从不丢弃。"
+    ]
+   ]
+  },
+  {
+   "id": "dirichlet",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Sum over every integer with weight n to the minus s. Where the double sum converges absolutely, for real part of s above one, it splits into zeta of s times zeta of s plus one.",
+     "对每个整数加权 n^{−s} 求和。在双重和绝对收敛的地方，也就是 s 的实部大于一时，它分解成 ζ(s)·ζ(s + 1)。"
+    ],
+    [
+     "At s equal to one the sum already diverges, because each term is at least one over n. The product formula says nothing by itself about zeros or about the sign questions that follow.",
+     "在 s = 1 处，这个和已经发散，因为每一项都不小于 1/n。这个乘积公式本身，对零点或接下来的符号问题都没有说什么。"
+    ]
+   ]
+  },
+  {
+   "id": "robin",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Robin's criterion: the Riemann hypothesis holds exactly when sigma of n over n stays below e to the gamma times log log n for every n above five thousand and forty. Write the margin as gamma plus log log log n minus log sigma over n, and bound every logarithm with exact rational intervals. Five thousand and forty itself has margin about minus zero point zero zero five five, and ten thousand and eighty about plus zero point zero one four.",
+     "Robin 判据：黎曼猜想成立，当且仅当对每个大于 5040 的 n，σ(n)/n 都小于 e^γ·log log n。把裕度写成 γ + log log log n − log(σ(n)/n)，并用精确的有理区间夹住每一个对数。5040 本身的裕度约为 −0.0055，10080 约为 +0.014。"
+    ],
+    [
+     "Lean has frozen the seven-smooth case: every product of powers of two, three, five and seven above five thousand and forty satisfies Robin's inequality.",
+     "Lean 已冻结七光滑的情形：每一个大于 5040、只由 2、3、5、7 的幂相乘得到的数，都满足 Robin 不等式。"
+    ],
+    [
+     "The volume gives an independent certificate. For these numbers sigma over n stays below thirty-five over eight, which is safe from one hundred twenty thousand on; below that, three segments with seventy-two, one hundred twenty-one and two hundred seventy numbers are checked exactly.",
+     "理论卷另给了一份独立证书。对这些数，σ(n)/n 始终小于 35/8，从 120000 起就安全；在此之下，分成三段，分别有 72、121、270 个数，逐一精确核验。"
+    ]
+   ]
+  },
+  {
+   "id": "gap",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For all integers the question stays open, since it is the Riemann hypothesis itself. The constant thirty-five over eight belongs to four primes only: seven hundred twenty thousand seven hundred twenty has sigma over n equal to three thousand two hundred twenty-four over seven hundred fifteen, above it.",
+     "对所有整数，这个问题仍然开放，因为它就是黎曼猜想本身。常数 35/8 只属于四个素数：720720 的 σ(n)/n 等于 3224/715，已经超过它。"
+    ],
+    [
+     "That is not a counterexample, only the edge of this method. A general certificate must pay at once for new primes, deeper exponents, the growth of log n, and the whole remaining tail.",
+     "这不是反例，只是这个方法的边界。一般的证书必须同时付清：新素数、更深的指数、log n 的增长，以及全部剩余的尾项。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "A boundary rebuilds the inside only with its local law, its start, its seams and its tail: differences with a reference, corners with accumulated values, cones with heights, windows inside their disc, divisors with Möbius signs, and margins with their errors kept.",
+     "边界要重建内部，必须带着局部规律、起点、接缝和尾项：差分带着参照，角带着累计值，锥带着高，窗口留在收敛盘里，约数带着 Möbius 符号，裕度带着保留下来的误差。"
+    ],
+    [
+     "Lean has frozen Robin's inequality for every seven-smooth number above five thousand and forty. The differences, the divisor bridges, the strips and the certificate are argued in the theory volume with classical Möbius inversion and zeta products, Robin's criterion is published, the general case is open, and every number here was recomputed for this film.",
+     "Lean 已冻结：每个大于 5040 的七光滑数都满足 Robin 不等式。差分、约数之桥、条带与证书在理论卷中论证，并用到经典的 Möbius 反演与 ζ 乘积；Robin 判据是已发表的结果；一般情形仍然开放；这里的每个数字都为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
