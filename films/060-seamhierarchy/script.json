@@ -1,0 +1,167 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part thirty asked when local pieces fill into one whole. Part thirty-one asks what kind of change the hidden relation is: a symmetric mixing of two changes, or a defect in their order. And it asks how the hidden part grows when the window grows.",
+     "第三十部追问局部什么时候能填成一个整体。第三十一部追问隐藏关系是哪一种变化：两个变化的对称混合，还是它们次序上的缺陷；还要追问窗口变长时，隐藏部分怎样增长。"
+    ],
+    [
+     "The answer is a Fibonacci hierarchy of hidden directions.",
+     "答案是一个由隐藏方向组成的 Fibonacci 层级。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part thirty-one: symmetric mixing, path defect and the Fibonacci hierarchy.",
+     "Auric FIB 原子金字塔，第三十一部：对称混合、路径缺陷与 Fibonacci 层级。"
+    ],
+    [
+     "Two kinds of second-order change.",
+     "两种二阶变化。"
+    ]
+   ]
+  },
+  {
+   "id": "split",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Write each action as a change: D equals U minus the identity. A product of two changes splits uniquely, under swapping the two actions, into a symmetric part S and an antisymmetric part H, and H is half the commutator of the two actions: the order defect.",
+     "把每个动作写成一个变化：D = U − I。两个变化的乘积，在交换两个动作时唯一地分成对称部分 S 与反对称部分 H；而 H 正是两个动作交换子的一半，也就是次序缺陷。"
+    ],
+    [
+     "On the five states the static seam is the symmetric kind. Multiplying by x and multiplying by y commute, so their commutator is zero, yet their symmetric product is multiplication by x y, and kappa is its expected value.",
+     "在五个状态上，静态接缝属于对称这一类。乘以 x 与乘以 y 彼此交换，所以交换子为零；但它们的对称乘积是乘以 xy，而 κ 正是它的期望。"
+    ]
+   ]
+  },
+  {
+   "id": "orders",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "An actual two-step response expands into the zero-order reading, two first-order changes, and then s plus h. The two orders have slopes s plus h and s minus h along the hidden direction, so their contrast is two h.",
+     "一个实际的两步响应，展开成零阶读数、两个一阶变化，再加上 s + h。两种次序沿隐藏方向的斜率分别是 s + h 与 s − h，所以两者之差是 2h。"
+    ],
+    [
+     "In the volume's example, action a sends null to two and the joint mode to five, and action b sends five to two; read the mass on five. Then s is minus one half and h is one half: one order cancels to zero, the other reads minus one, and the actual composite reads one.",
+     "在理论卷的例子里，动作 a 把 null 送到 [2]、把联合模式送到 [5]，动作 b 把 [5] 送到 [2]；读 [5] 上的质量。于是 s = −1/2，h = 1/2：一种次序相消为零，另一种读出 −1，而实际的复合读出 1。"
+    ]
+   ]
+  },
+  {
+   "id": "delay",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Delay needs no non-commutation. One map sends null, two and three to three, keeps five, and sends the joint mode to null. Reading the mass on three, the hidden direction reads zero now, zero after one step and one after two, and every word is a power of this one map.",
+     "延迟不需要非交换。一个映射把 null、[2]、[3] 送到 [3]，保持 [5]，把联合模式送到 null。读 [3] 上的质量，隐藏方向现在读 0，走一步还是 0，走两步变成 1；而所有动作词都只是这一个映射的幂。"
+    ],
+    [
+     "How long can it hide? For one linear update and a readout, Lean has frozen that the visible tower grows strictly at most n minus rank C times. The volume extends the same bound to several sub-kernels on one fixed carrier; with five states and the three means, that is a single step.",
+     "它能藏多久？对一个线性更新与一个读数，Lean 已冻结：可见塔严格增长的次数至多是 n 减去 C 的秩。理论卷把同一上界推广到同一固定载体上的多个子核；五个状态加上三个均值，就只有一步。"
+    ]
+   ]
+  },
+  {
+   "id": "labels",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now widen the window to n positions, weighted two, three, five, eight and onward by the Fibonacci numbers. Different legal sets always have different weighted sums: the largest legal sum using the first r positions is F r plus three, minus one or two, which never reaches the next weight.",
+     "现在把窗口加宽到 n 个位置，按 Fibonacci 数 2、3、5、8……加权。不同的合法集合，加权和总是不同：只用前 r 个位置的最大合法和是 F(r+3) 减去 1 或 2，永远够不到下一个权重。"
+    ],
+    [
+     "So the labels lose nothing. Hiding comes only from compressing the observation, not from the labels.",
+     "所以标签没有丢失任何东西。隐藏只来自观测的压缩，而不来自标签。"
+    ]
+   ]
+  },
+  {
+   "id": "basis",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Every function on the legal states is a unique combination of monomials, one for each legal set: the product of its occupations. The evaluation matrix is triangular with ones on the diagonal, and Möbius inversion turns joint moments back into probabilities.",
+     "合法状态上的每个函数，都是单项式的唯一组合，每个合法集合对应一个单项式，即它各个占据的乘积。取值矩阵是对角线全为 1 的三角矩阵；Möbius 反演把联合矩变回概率。"
+    ],
+    [
+     "Lean has frozen that the space of all linear relations between legal words of length n has dimension F n plus two, squared, and that the ratio of consecutive dimensions tends to the golden ratio squared.",
+     "Lean 已冻结：长度为 n 的合法词之间，全部线性关系构成的空间，维数是 F(n+2) 的平方；相邻维数之比趋于黄金比的平方。"
+    ]
+   ]
+  },
+  {
+   "id": "hierarchy",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Legal sets of size k number n minus k plus one, choose k. First-order readings span n plus one directions, so F n plus two minus n minus one stay hidden: one at three positions, three at four, seven at five, fourteen at six.",
+     "大小为 k 的合法集合，个数是 C(n − k + 1, k)。一阶读数张成 n + 1 个方向，所以有 F(n+2) − n − 1 个方向隐藏：三个位置时 1 个，四个时 3 个，五个时 7 个，六个时 14 个。"
+    ],
+    [
+     "Second-order readings first fail at five positions, where the set one, three, five leaves a single third-order seam. In general, readings of order r first fail at two r plus one positions, with exactly one hidden direction: the longer the window, the higher the order it needs.",
+     "二阶读数第一次失效是在五个位置，集合 {1, 3, 5} 留下唯一一个三阶接缝。一般地，r 阶读数第一次失效是在 2r + 1 个位置，恰好只隐藏一个方向：窗口越长，需要的阶就越高。"
+    ]
+   ]
+  },
+  {
+   "id": "identify",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A clock can read the seam. If each state carries a known waiting law, the mixture is A plus kappa times B. Whenever B gives some event a nonzero mass, kappa is the event's probability minus A of E, divided by B of E.",
+     "时钟可以读出接缝。如果每个状态都带着一条已知的等待律，混合律就是 A + κB。只要 B 给某个事件 E 非零的质量，κ 就等于事件概率减去 A(E)，再除以 B(E)。"
+    ],
+    [
+     "With several hidden directions, nonzero coefficients can still cancel. At four positions, a clock that reads kappa one three plus kappa one four plus kappa two four cannot see the difference e four minus e three plus e one three minus e one four: the means and the clock both stay fixed.",
+     "隐藏方向不止一个时，非零系数仍可能互相抵消。在四个位置上，一个只读 κ₁₃ + κ₁₄ + κ₂₄ 的时钟，看不见差异 e₄ − e₃ + e₁₃ − e₁₄：均值与时钟读数都不变。"
+    ]
+   ]
+  },
+  {
+   "id": "potential",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "And a waiting law is not an additive clock step. Even for additive increments, a potential exists exactly when every signed cycle sums to zero. A diamond whose two paths add up to two and to three has no directed cycle and a layered global time, yet no potential.",
+     "等待律也不是可加的时钟步长。即使增量可加，势也只在每个带符号环路之和为零时才存在。一个菱形的两条路径分别累计 2 和 3：它没有有向环，也有分层的全局时间，却没有势。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Two changes mix symmetrically or fail to commute, the static seam is symmetric, delay needs no non-commutation, Fibonacci labels lose nothing, and the hidden part climbs a hierarchy where order r first fails at two r plus one positions.",
+     "两个变化可以对称地混合，也可以不交换；静态接缝是对称的；延迟不需要非交换；Fibonacci 标签不丢任何信息；隐藏部分沿着一个层级攀升：r 阶读数在 2r + 1 个位置首次失效。"
+    ],
+    [
+     "Lean has frozen the relation-space dimension and its golden growth, and the growth bound for one linear readout. The order split, the five-state example, the hierarchy and the clock statements are argued in the theory volume with classical tools: counting, Möbius inversion, Zeckendorf sums and potentials. Every number here was recomputed.",
+     "Lean 已冻结关系空间的维数及其黄金比增长，以及单个线性读数的增长上界。次序分解、五态例子、层级与时钟命题在理论卷中论证，用到计数、Möbius 反演、Zeckendorf 和与势等经典工具。这里的每个数字都重新计算过。"
+    ]
+   ]
+  }
+ ]
+}

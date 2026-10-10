@@ -1,0 +1,26 @@
+{
+  "id": "060",
+  "title": "AURIC FIB ATOM PYRAMID XXXI",
+  "title_zh": "金字塔 XXXI · 对称混合、路径缺陷与 Fibonacci 层级",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "df1b914c1e",
+  "released": "2026-10-10",
+  "duration": "5:55",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_narrated_EN_subs_ZH-EN.mp4",
+    "music_only": "TRURETURING_music_only_subs_ZH-EN.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}
