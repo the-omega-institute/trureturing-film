@@ -64,6 +64,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 050 | [AURIC FIB ATOM PYRAMID XXI](films/050-closure/) · 金字塔 XXI：稳定关系与三维闭合 | 6:59 | EN (AI) / music-only | ZH + EN |
 | 051 | [AURIC FIB ATOM PYRAMID XXII](films/051-boundary/) · 金字塔 XXII：原子边界演算 | 7:24 | EN (AI) / music-only | ZH + EN |
 | 052 | [AURIC FIB ATOM PYRAMID XXIII](films/052-seams/) · 金字塔 XXIII：接缝、闭路与算术边界 | 8:10 | EN (AI) / music-only | ZH + EN |
+| 053 | [AURIC FIB ATOM PYRAMID XXIV](films/053-scales/) · 金字塔 XXIV：约数尺度与多边形关联 | 8:19 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

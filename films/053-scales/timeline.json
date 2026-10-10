@@ -1,0 +1,309 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 28.241
+  },
+  {
+   "id": "title",
+   "start": 28.241,
+   "end": 39.146
+  },
+  {
+   "id": "lattices",
+   "start": 39.146,
+   "end": 74.097
+  },
+  {
+   "id": "templates",
+   "start": 74.097,
+   "end": 109.401
+  },
+  {
+   "id": "boxes",
+   "start": 109.401,
+   "end": 148.372
+  },
+  {
+   "id": "phases",
+   "start": 148.372,
+   "end": 186.024
+  },
+  {
+   "id": "prism",
+   "start": 186.024,
+   "end": 228.055
+  },
+  {
+   "id": "continuation",
+   "start": 228.055,
+   "end": 266.389
+  },
+  {
+   "id": "samples",
+   "start": 266.389,
+   "end": 319.454
+  },
+  {
+   "id": "prices",
+   "start": 319.454,
+   "end": 355.725
+  },
+  {
+   "id": "ledger",
+   "start": 355.725,
+   "end": 391.854
+  },
+  {
+   "id": "concave",
+   "start": 391.854,
+   "end": 418.383
+  },
+  {
+   "id": "gap",
+   "start": 418.383,
+   "end": 447.975
+  },
+  {
+   "id": "finale",
+   "start": 447.975,
+   "end": 499.786
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 17.769,
+   "en": "Part twenty-three carried corners from seams to Robin's inequality. Part twenty-four gives every divisor a shape: a sublattice, a shrunken polygon, a box, a phase, and a point in a hexagonal prism.",
+   "zh": "第二十三部把角点从接缝一路带到 Robin 不等式。第二十四部给每个约数一个形状：一个子格、一个缩小的多边形、一个盒子、一个相位，以及六棱柱里的一个点。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 18.369,
+   "end": 27.241,
+   "en": "All of them read the same number, sigma of n over n. What changes is which question each shape can answer, and which questions it cannot.",
+   "zh": "它们读出的都是同一个数：σ(n)/n。变化的是每种形状能回答哪些问题，又不能回答哪些问题。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 29.441,
+   "end": 35.709,
+   "en": "The Auric FIB atom pyramid, part twenty-four: divisor scales and polygon association.",
+   "zh": "Auric FIB 原子金字塔，第二十四部：约数尺度与多边形关联。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 36.309,
+   "end": 37.746,
+   "en": "One number, many shapes.",
+   "zh": "一个数，许多形状。"
+  },
+  {
+   "i": 4,
+   "scene": "lattices",
+   "start": 39.946,
+   "end": 60.357,
+   "en": "Take the grid of pairs modulo n with two operations: the FIB step, u v to v, u plus v, and the shift, u v to v, zero. The subgroups closed under both are exactly d times the grid, one for each divisor d, and each has scale one over d. Brute force confirms this for every n up to eight.",
+   "zh": "取模 n 的数对网格，配上两个操作：FIB 步 (u, v) ↦ (v, u + v)，和移位 (u, v) ↦ (v, 0)。对两者都封闭的子群，恰好是网格的 d 倍，每个约数 d 一个，尺度为 1/d。对每个不超过 8 的 n，穷举都确认了这一点。"
+  },
+  {
+   "i": 5,
+   "scene": "lattices",
+   "start": 60.957,
+   "end": 72.697,
+   "en": "Both operations are needed. Modulo five the line through one, three is closed under the FIB step but not under the shift, and its size five matches no divisor scale.",
+   "zh": "两个操作缺一不可。模 5 时，过 (1, 3) 的直线对 FIB 步封闭，对移位却不封闭；它的大小是五，对不上任何约数尺度。"
+  },
+  {
+   "i": 6,
+   "scene": "templates",
+   "start": 74.897,
+   "end": 91.265,
+   "en": "Shrink any triangle, square, disc or ball by one over d. Its length ratio, the square root of its area ratio and the cube root of its volume ratio all read one over d, so the labeled sum over all divisors is sigma of n over n.",
+   "zh": "把任意三角形、正方形、圆盘或球缩小到 1/d。它的长度比、面积比的平方根、体积比的立方根，读出的都是 1/d；于是对全部约数的带标签求和，正是 σ(n)/n。"
+  },
+  {
+   "i": 7,
+   "scene": "templates",
+   "start": 91.865,
+   "end": 108.001,
+   "en": "The labels matter. For six the four scales add up to two, but the nested shapes fill only the original, with relative area one. Robin's criterion, which is published, compares exactly this labeled sum with e to the gamma times log log n.",
+   "zh": "标签很重要。对六，四个尺度加起来是二，但嵌套的图形只填满原图，相对面积为一。Robin 判据是已发表的结果，它比较的正是这个带标签的和与 e^γ·log log n。"
+  },
+  {
+   "i": 8,
+   "scene": "boxes",
+   "start": 110.201,
+   "end": 130.261,
+   "en": "Give each prime its own direction. Along prime p lay segments of length one, one over p, up to p to the minus a. The box they span has volume sigma of n over n: for twelve a seven-quarters by four-thirds rectangle of area seven thirds, for thirty a box of volume twelve fifths.",
+   "zh": "给每个素数一个自己的方向。沿素数 p，依次铺上长度为一、1/p、直到 p^(−a) 的线段。它们张成的盒子，体积正是 σ(n)/n：对 12，是 7/4 乘 4/3 的长方形，面积 7/3；对 30，是体积 12/5 的盒子。"
+  },
+  {
+   "i": 9,
+   "scene": "boxes",
+   "start": 130.861,
+   "end": 146.972,
+   "en": "Telescoping each direction leaves two endpoints, so the volume is a saturation times a truncation: for twelve, three times seven ninths. The perimeter, thirty-seven sixths, plays no part, and no fixed number of directions holds every integer.",
+   "zh": "把每个方向做望远镜式相消，只剩两个端点，于是体积等于饱和因子乘以截断因子：对 12，是 3 乘 7/9。周长 37/6 毫不相干；也没有固定的方向数能装下所有整数。"
+  },
+  {
+   "i": 10,
+   "scene": "phases",
+   "start": 149.172,
+   "end": 169.208,
+   "en": "Give each prime its own phase circle and amplitudes p to the minus k over two. The average squared response is again sigma of n over n, for five thousand and forty exactly four hundred three over one hundred five. One shared phase for two and three would give two plus two over root six instead of two.",
+   "zh": "给每个素数一个自己的相位圆，振幅为 p^(−k/2)。平均平方响应又是 σ(n)/n，对 5040 恰为 403/105。若 2 和 3 共用一个相位，得到的会是 2 + 2/√6，而不是二。"
+  },
+  {
+   "i": 11,
+   "scene": "phases",
+   "start": 169.808,
+   "end": 184.624,
+   "en": "With equal unit lengths, five steps close a pentagon, and its diagonal over its side is phi, the root of the same quadratic as the FIB matrix. That shared equation is all it shares; it does not supply e to the gamma.",
+   "zh": "若长度都取一，五步会闭合成一个五边形，它的对角线与边之比是 φ，正是 FIB 矩阵那个二次方程的根。共有的只有这一个方程；它并不提供 e^γ。"
+  },
+  {
+   "i": 12,
+   "scene": "prism",
+   "start": 186.824,
+   "end": 209.716,
+   "en": "Now read the sixty divisors of five thousand and forty through FIB windows. Each divisor is a block configuration; the joint block two-five has value seven. Counting window positions sends the sixty divisors onto exactly forty-eight integer points, all the lattice points of a hexagonal prism of area nine and volume eighteen.",
+   "zh": "现在透过 FIB 窗口来读 5040 的六十个约数。每个约数是一种块配置；联合块 [2+5] 的值是七。数窗口位置，会把六十个约数送到恰好四十八个整数点上，正是一个底面积为九、体积为十八的六棱柱的全部格点。"
+  },
+  {
+   "i": 13,
+   "scene": "prism",
+   "start": 210.316,
+   "end": 226.655,
+   "en": "Twelve points carry two divisors. At one, zero, one sit seven and ten, with true weight seventeen over seventy. Adding their amplitudes in one phase overshoots by two over root seventy, so each fiber needs its correct weight, not its count.",
+   "zh": "有十二个点各承载两个约数。在 (1, 0, 1) 处坐着七和十，真实权重为 17/70。若把它们的振幅放在同一相位相加，会多出 2/√70；所以每条纤维需要正确的权重，而不是计数。"
+  },
+  {
+   "i": 14,
+   "scene": "continuation",
+   "start": 228.855,
+   "end": 245.483,
+   "en": "Positions alone cannot say what comes next. Multiply by five: seven becomes thirty-five, a divisor, but ten becomes fifty, which is not. One association bit, kappa, restores the block configuration and decides every continuation.",
+   "zh": "单靠位置，说不出接下来会怎样。乘以五：七变成 35，是约数；十却变成 50，不是。一个关联比特 κ 就能恢复块配置，并决定每一种续接。"
+  },
+  {
+   "i": 15,
+   "scene": "continuation",
+   "start": 246.083,
+   "end": 264.989,
+   "en": "With kappa kept, the divisor complement becomes a central inversion with a flip: u v w kappa goes to five minus u, two minus v, two minus w, one minus kappa. If all sixty divisors are equally likely, the positions leave exactly two fifths of a bit unknown.",
+   "zh": "保留 κ 之后，约数互补就成了中心反演加一次翻转：(u, v, w; κ) ↦ (5 − u, 2 − v, 2 − w; 1 − κ)。若六十个约数等可能，位置只留下恰好五分之二比特的未知。"
+  },
+  {
+   "i": 16,
+   "scene": "samples",
+   "start": 267.189,
+   "end": 286.906,
+   "en": "Divide sigma over n by e to the gamma log log n and call it R. At five thousand and forty R is about one point zero zero five six, just over the line. At ten thousand and eighty it is zero point nine eight six, and at fifty-five thousand four hundred forty zero point nine eight three.",
+   "zh": "把 σ(n)/n 除以 e^γ·log log n，记为 R。在 5040，R 约为 1.0056，刚好越线。在 10080 它是 0.986，在 55440 是 0.983。"
+  },
+  {
+   "i": 17,
+   "scene": "samples",
+   "start": 287.506,
+   "end": 309.049,
+   "en": "Adding one more layer of p multiplies sigma over n by one plus p minus one over p times p to the a plus one minus one, a gain that shrinks with depth. With only two, three, five and seven, sigma over n stays below thirty-five over eight, so the danger ends by one hundred sixteen thousand one hundred forty-three.",
+   "zh": "给 p 再加一层，σ(n)/n 乘以 1 + (p − 1)/(p(p^(a+1) − 1))，这个收益随深度递减。若只用 2、3、5、7，σ(n)/n 始终小于 35/8，所以危险区在 116143 以内就结束了。"
+  },
+  {
+   "i": 18,
+   "scene": "samples",
+   "start": 309.649,
+   "end": 318.054,
+   "en": "Lean has frozen the whole seven-smooth family: every such number above five thousand and forty satisfies Robin's inequality.",
+   "zh": "Lean 已冻结整个七光滑族：每个这样的、大于 5040 的数都满足 Robin 不等式。"
+  },
+  {
+   "i": 19,
+   "scene": "prices",
+   "start": 320.254,
+   "end": 337.699,
+   "en": "Put each integer at the point log n, log of sigma over n. Lean has frozen that at price one twenty-fifth, five thousand and forty is the unique best of all positive integers, so every point lies under one line that touches only five thousand and forty.",
+   "zh": "把每个整数放到点 (log n, log(σ(n)/n)) 上。Lean 已冻结：在价格 1/25 下，5040 是全部正整数中唯一的最优者；于是每个点都在一条直线之下，而这条线只碰到 5040。"
+  },
+  {
+   "i": 20,
+   "scene": "prices",
+   "start": 338.299,
+   "end": 354.325,
+   "en": "Count divisors instead, at price three tenths, and Ramanujan's published highly composite thresholds again pick five thousand and forty, with sixty divisors. Seen through window positions only forty-eight remain, four fifths of the capacity.",
+   "zh": "若改数约数个数，价格取 3/10，Ramanujan 已发表的高度合成数阈值再次选中 5040，有六十个约数。透过窗口位置看，只剩四十八个，是容量的五分之四。"
+  },
+  {
+   "i": 21,
+   "scene": "ledger",
+   "start": 356.525,
+   "end": 375.616,
+   "en": "Write log R of five thousand and forty as three terms from the same integer: a prefix term of zero point two three three, minus a truncation of zero point one three one, minus a scale term of zero point zero nine six. The result is plus zero point zero zero five five.",
+   "zh": "把 log R(5040) 写成来自同一个整数的三项：前缀项 0.233，减去截断项 0.131，再减去尺度项 0.096。结果是 +0.0055。"
+  },
+  {
+   "i": 22,
+   "scene": "ledger",
+   "start": 376.216,
+   "end": 390.454,
+   "en": "The scale term can take either sign: it is negative for eleven and positive for two to the twentieth. And since R comes back arbitrarily close to one, a published fact, no fixed gap below one can hold for all large n.",
+   "zh": "尺度项可正可负：对 11 为负，对 2²⁰ 为正。而且 R 会任意接近一，这是已发表的事实；所以对所有大的 n，不可能有一个低于一的固定间隙。"
+  },
+  {
+   "i": 23,
+   "scene": "concave",
+   "start": 392.654,
+   "end": 405.601,
+   "en": "In the same plane the Robin boundary is gamma plus log log x, a concave curve. Tangent lines lie above it and chords lie below, so a point under a tangent line can still lie above the curve.",
+   "zh": "在同一个平面里，Robin 边界是 γ + log log x，一条凹曲线。切线在它上方，弦在它下方；所以一个在切线下方的点，仍可能在曲线上方。"
+  },
+  {
+   "i": 24,
+   "scene": "concave",
+   "start": 406.201,
+   "end": 416.983,
+   "en": "If every point between two safe endpoints were known to lie under their chord, the whole interval would be safe. But two safe endpoints alone prove nothing about the points between them.",
+   "zh": "若已知两个安全端点之间的每个点都在它们的弦下方，整个区间就是安全的。但仅有两个安全端点，对中间的点什么也证明不了。"
+  },
+  {
+   "i": 25,
+   "scene": "gap",
+   "start": 419.183,
+   "end": 434.56,
+   "en": "Every bridge in this film turns Robin's inequality into an equivalent statement, and none of them proves it. The remaining target is one joint gap for every n above five thousand and forty, which is the Riemann hypothesis and remains open.",
+   "zh": "这部片子里的每一座桥，都把 Robin 不等式变成一个等价的命题，却没有一座证明了它。剩下的目标，是对每个大于 5040 的 n 同时成立的一个联合缺口；它就是黎曼猜想，仍然开放。"
+  },
+  {
+   "i": 26,
+   "scene": "gap",
+   "start": 435.16,
+   "end": 446.575,
+   "en": "The missing primes, the truncation, the largest prime and log n must all come from one actual integer. Favorable values reached by different integers cannot be added together.",
+   "zh": "缺失的素数、截断、最大素因子和 log n，必须全部来自同一个实际的整数。由不同整数分别取到的有利值，不能拼在一起。"
+  },
+  {
+   "i": 27,
+   "scene": "finale",
+   "start": 448.975,
+   "end": 463.785,
+   "en": "Sublattices, similar shapes, prime boxes, independent phases and the window prism all read sigma of n over n. Labels, directions, independence and the association bit decide which questions each shape can answer.",
+   "zh": "子格、相似图形、素数盒子、独立相位和窗口棱柱，读出的都是 σ(n)/n。标签、方向、独立性和关联比特，决定了每种形状能回答哪些问题。"
+  },
+  {
+   "i": 28,
+   "scene": "finale",
+   "start": 464.385,
+   "end": 490.786,
+   "en": "Lean has frozen Robin's inequality for every seven-smooth number above five thousand and forty, and five thousand and forty as the unique optimum at price one twenty-fifth. The bridges, the prism and the ledger are argued in the theory volumes with classical geometry and Fourier tools, Robin's criterion and Ramanujan's thresholds are published, the general case is open, and every number here was recomputed for this film.",
+   "zh": "Lean 已冻结：每个大于 5040 的七光滑数都满足 Robin 不等式；在价格 1/25 下，5040 是唯一的最优者。这些桥、棱柱和账目在理论卷中论证，并用到经典的几何与 Fourier 工具；Robin 判据与 Ramanujan 的阈值是已发表的结果；一般情形仍然开放；这里的每个数字都为这部片子重新计算过。"
+  }
+ ],
+ "duration": 499.786
+}
