@@ -67,6 +67,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 053 | [AURIC FIB ATOM PYRAMID XXIV](films/053-scales/) · 金字塔 XXIV：约数尺度与多边形关联 | 8:19 | EN (AI) / music-only | ZH + EN |
 | 054 | [AURIC FIB ATOM PYRAMID XXV](films/054-completion/) · 金字塔 XXV：二阶关系的补全 | 6:35 | EN (AI) / music-only | ZH + EN |
 | 055 | [AURIC FIB ATOM PYRAMID XXVI](films/055-quotients/) · 金字塔 XXVI：关系商与递归恢复 | 7:25 | EN (AI) / music-only | ZH + EN |
+| 056 | [AURIC FIB ATOM PYRAMID XXVII](films/056-futurequotient/) · 金字塔 XXVII：动态未来商与未来闭合记忆 | 8:07 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

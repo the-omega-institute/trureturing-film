@@ -1,0 +1,235 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part twenty-six asked what a single view forgets. Part twenty-seven sets the pyramid in motion: a history of reads, its future law, and the smallest memory that predicts that law exactly.",
+     "第二十六部追问了单一看法会忘掉什么。第二十七部让金字塔动起来：一段读取的历史，它的未来律，以及能精确预测这条律的最小记忆。"
+    ],
+    [
+     "Forget the order, keep the counts: that rule decides which memories are safe and which are not.",
+     "忘掉顺序，留住计数：这条规则决定哪些记忆是安全的，哪些不是。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part twenty-seven: the dynamic future quotient and future-closed memory.",
+     "Auric FIB 原子金字塔，第二十七部：动态未来商与未来闭合记忆。"
+    ],
+    [
+     "What the future still needs.",
+     "未来仍然需要什么。"
+    ]
+   ]
+  },
+  {
+   "id": "reads",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A hidden Fibonacci depth k is drawn once. After that, every paid read returns alpha with probability r k, F k plus one over F k plus three, or beta with probability s k, F k plus two over F k plus three.",
+     "先抽取一次隐藏的 Fibonacci 深度 k。之后，每一次付费读取以概率 rₖ = Fₖ₊₁/Fₖ₊₃ 得到 α，以概率 sₖ = Fₖ₊₂/Fₖ₊₃ 得到 β。"
+    ],
+    [
+     "At depth one that is one third and two thirds, at depth two two fifths and three fifths, and r k tends to phi to the minus two, about 0.382. A history is a word of alphas and betas with a phase and a terminal label.",
+     "深度一时是 1/3 与 2/3，深度二是 2/5 与 3/5；rₖ 趋于 φ⁻² ≈ 0.382。一段历史就是由 α 与 β 组成的词，再加上它的相位和终止标记。"
+    ]
+   ]
+  },
+  {
+   "id": "quotient",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Call two histories equivalent when their complete future laws agree, down to every later letter, pending stop and delivered end. The volume argues this happens exactly when they share the phase and both letter counts.",
+     "如果两段历史的完整未来律相同——细到之后的每个字母、每个待定的 Stop 和最终的交付——就称它们等价。理论卷论证：这恰好发生在两者相位相同、两种字母计数都相同的时候。"
+    ],
+    [
+     "The order of the letters is forgotten; the counts are not. The reason is arithmetic: r i over r j to the u, times s i over s j to the v, equals one only when u and v are both zero. We checked every pair of depths up to forty.",
+     "字母的顺序被遗忘了，计数却没有。原因是算术的：(rᵢ/rⱼ)ᵘ·(sᵢ/sⱼ)ᵛ = 1 只在 u 与 v 都为零时成立。我们核对了四十以内的每一对深度。"
+    ]
+   ]
+  },
+  {
+   "id": "minimal",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Lean has frozen the general form of minimality: any statistic of the past that predicts the future law exactly factors uniquely onto the future-law quotient, and different future laws need different values.",
+     "Lean 已冻结极小性的一般形式：任何能精确预测未来律的过去统计量，都唯一地分解到未来律商上；不同的未来律需要不同的取值。"
+    ],
+    [
+     "Lean has also frozen that, once histories are identified by their complete future law, extending one by a symbol of positive probability descends to a single-valued update on the quotient.",
+     "Lean 还冻结了：一旦按完整未来律把历史等同起来，用一个概率为正的符号延伸历史，就下降为商上的一个单值更新。"
+    ],
+    [
+     "Here the update is concrete. Alpha adds one to A, beta adds one to B, and the phase moves between p and beta, or into a pending stop.",
+     "在这里，这个更新是具体的。α 让 A 加一，β 让 B 加一，相位在 p 与 β 之间切换，或者进入一个待定的 Stop。"
+    ]
+   ]
+  },
+  {
+   "id": "collision",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Remember only the length and futures collide. Five alphas and three betas, against three alphas and five betas: both have length eight.",
+     "如果只记住长度，未来就会碰撞。五个 α 加三个 β，对比三个 α 加五个 β：两者长度都是八。"
+    ],
+    [
+     "With a uniform prior on depths one and two, the first leaves posterior 0.355 and 0.645, the second 0.495 and 0.505. Same length, different beliefs, different futures.",
+     "在深度一与二上取均匀先验，前者的后验是 0.355 与 0.645，后者是 0.495 与 0.505。长度相同，信念不同，未来也不同。"
+    ]
+   ]
+  },
+  {
+   "id": "infinite",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Put two more alphas in front each time: counts five three, seven three, nine three, and on. Each leaves a different posterior, so a different future.",
+     "每次在前面再放两个 α：计数依次是 (5,3)、(7,3)、(9,3)……每一步都留下不同的后验，也就是不同的未来。"
+    ],
+    [
+     "With two or more possible depths, the future quotient is infinite, and by the pigeonhole principle no finite memory is exact. The summary is finite-dimensional, three numbers, but not finite-state. A static escape is a segment, the kappa fibre; a dynamic escape is an unbounded lattice of counts.",
+     "只要可能的深度不少于两个，未来商就是无限的；由鸽笼原理，任何有限记忆都不能精确。这个摘要是有限维的——三个数——却不是有限状态的。静态逸出是一段线段，即 κ 纤维；动态逸出是一张无界的计数晶格。"
+    ]
+   ]
+  },
+  {
+   "id": "singleton",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The exception is sharp. If the depth is known, the posterior never moves and different counts give the same law. Only phase and the terminal labels remain: pending zero and pending one must still stop, and delivered has nothing left to say.",
+     "例外是尖锐的。如果深度已知，后验就永远不动，不同的计数给出同一条律。只剩下相位与终止标记：pending₀ 与 pending₁ 仍须 Stop，而 delivered 已无话可说。"
+    ]
+   ]
+  },
+  {
+   "id": "forgetting",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Call a memory future-safe if equal memories always mean equal futures. It may forget the order of letters. It may not merge different counts, pending zero with pending one, active with delivered, or different kappa when the future's four-corner contrast is nonzero.",
+     "如果相同的记忆总意味着相同的未来，就称这个记忆是未来安全的。它可以忘掉字母的顺序。它不能合并不同的计数，不能把 pending₀ 与 pending₁ 合并，不能把 active 与 delivered 合并；当未来的四角对比不为零时，也不能合并不同的 κ。"
+    ],
+    [
+     "In this model the volume defines the direction of time as the order between forgettable details and distinctions that must be kept: a definition inside the model, not a theorem about physical time.",
+     "在这个模型里，理论卷把时间方向定义为：可以遗忘的细节与必须保留的区分之间的偏序。这是模型内部的一个定义，不是关于物理时间的定理。"
+    ]
+   ]
+  },
+  {
+   "id": "algebra",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Part two returns to a single window. The five states form an algebra in x, y, z, with each squared equal to itself and x z equal to y z equal to zero. Its basis is one, x, y, z and x y.",
+     "第二部分回到单个窗口。五个状态构成 x、y、z 的一个代数：每个变量的平方等于自身，且 xz = yz = 0。它的基是 1、x、y、z、xy。"
+    ],
+    [
+     "The means X, Y and Z fix a segment of laws. Moving along it, in the direction one, minus one, zero, minus one, one, changes only kappa, and the covariance of the two ends is kappa minus X Y.",
+     "均值 X、Y、Z 确定了一段概率律。沿着方向 (1, −1, 0, −1, 1) 在这段上移动，只改变 κ；两端的协方差就是 κ − XY。"
+    ]
+   ]
+  },
+  {
+   "id": "readout",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Write any readout f in this basis. Its x y coefficient is J f, f null plus f one-three minus f one minus f three, and given the three means, the mean of f recovers kappa exactly when J f is not zero.",
+     "把任何读数 f 写在这组基上。它的 xy 系数是 J_f = f_null + f₁₃ − f₁ − f₃；在三个均值已知时，f 的均值能精确恢复 κ，当且仅当 J_f 不为零。"
+    ],
+    [
+     "The quantity q equals two x plus five y plus three z has J equal to zero: it is blind. Its square has an x y coefficient of twenty, so kappa equals the mean of q squared, minus four X, twenty-five Y and nine Z, all over twenty.",
+     "数量 q = 2x + 5y + 3z 的 J = 0：它是盲的。它的平方的 xy 系数是 20，于是 κ = (E[q²] − 4X − 25Y − 9Z)/20。"
+    ],
+    [
+     "Arithmetic still matters. Modulo 5040, twenty is not invertible: joint counts n and n plus 252 look identical, so exact recovery modulo m needs a coefficient coprime to m.",
+     "算术仍然要紧。模 5040 时，20 不可逆：联合计数 n 与 n + 252 看起来完全一样。所以模 m 的精确恢复，需要一个与 m 互素的系数。"
+    ]
+   ]
+  },
+  {
+   "id": "memory",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "How much memory does the future need? Close the recorded functions under one step of every action: C of V is V plus the sum of U a of V. The minimal extra memory is the dimension of C of V over V.",
+     "未来需要多少记忆？把记录下来的函数在每个动作的一步下闭合：C(V) = V + Σ U_a V。最小附加记忆就是 C(V)/V 的维数。"
+    ],
+    [
+     "For one window, the record is one, x, y, z, the hidden direction is x y, and one scalar, kappa, is enough. For six positions with a second-order report, four third-order relations remain: one-three-five, one-three-six, one-four-six and two-four-six, the triples with no two neighbours.",
+     "对单个窗口，记录是 1、x、y、z，隐藏方向是 xy，一个标量 κ 就够了。对六个位置、二阶报告的情形，还剩下四个三阶关系：135、136、146、246，也就是没有两个相邻位置的三元组。"
+    ]
+   ]
+  },
+  {
+   "id": "contraction",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "If the expected error of a chosen relation contracts by a factor lambda below one, up to a noise epsilon, then it stays below lambda to the t times e zero, plus epsilon times one minus lambda to the t over one minus lambda. With lambda 0.8 and epsilon 0.1 the limit is 0.5.",
+     "如果某个选定关系的期望误差以小于一的因子 λ 收缩、外加噪声 ε，即 E[eₜ₊₁ | Sₜ] ≤ λeₜ + ε，那么误差始终不超过 λᵗe₀ + ε(1 − λᵗ)/(1 − λ)。取 λ = 0.8、ε = 0.1，极限是 0.5。"
+    ],
+    [
+     "The volume proposes, as an open model, to read this as life: a system that restores not everything forgotten, only what the future still needs, and keeps moving against drift in the space of relations. These are model proposals, not physical or biological laws.",
+     "理论卷提出一个开放模型，把这解读为生命：系统并不恢复所有被遗忘的东西，只恢复未来仍然需要的那部分，并在关系空间中逆着漂移前进。这些是模型提议，不是物理或生物定律。"
+    ]
+   ]
+  },
+  {
+   "id": "gram",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One more hidden coordinate lives on a cycle. For five unit vectors with neighbour overlaps of size r and total phase Phi, the Gram determinant is one minus five r squared plus five r to the fourth plus two r to the fifth cos Phi.",
+     "还有一个隐藏坐标住在环上。五个单位向量，相邻重叠的大小为 r、总相位为 Φ，它们的 Gram 行列式是 1 − 5r² + 5r⁴ + 2r⁵cosΦ。"
+    ],
+    [
+     "No single overlap sees Phi. At r equal to one over phi, phase zero gives determinant zero and rank three, while phase pi gives a negative eigenvalue, so no five vectors can realize it. Same local data; only the loop decides.",
+     "没有哪一个单独的重叠能看见 Φ。在 r = 1/φ 时，相位为零给出行列式为零、秩为三；相位为 π 则出现负特征值，因此任何五个向量都实现不了它。局部数据相同，只有回路做出决定。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Histories keep their counts and forget their order, the quotient is infinite unless the depth is known, safe memory forgets only what no future can see, and closure counts what the future needs.",
+     "历史保留计数、忘掉顺序；除非深度已知，未来商就是无限的；安全的记忆只忘掉任何未来都看不见的东西；闭包数出了未来所需的东西。"
+    ],
+    [
+     "Lean has frozen the general minimality and update of the future-law quotient. The count summary, the infinite quotient, the readout rule, the memory closure and the Gram cycle are argued in the theory volume, the life reading is an open model, and every number here was recomputed.",
+     "Lean 已冻结未来律商的一般极小性与更新。计数摘要、无限商、读数规则、记忆闭包与 Gram 环在理论卷中论证；生命解读是开放模型；这里的每个数字都重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
