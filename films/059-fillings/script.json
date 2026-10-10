@@ -1,0 +1,193 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Twenty-nine parts asked which relations a view forgets and where they come back. Part thirty asks when local pieces fill into one whole: when a soft filling is a mixture of rigid ones, when local windows stitch into a global law, and when a cycle forbids it.",
+     "二十九部片子追问了一种看法会忘掉哪些关系、它们又从哪里回来。第三十部追问局部什么时候能填成一个整体：软填充什么时候是刚性填充的混合，局部窗口什么时候能缝成全局律，而环路又在什么时候禁止这一切。"
+    ],
+    [
+     "Paths and bipartite graphs always fill; odd cycles do not.",
+     "路径与二部图总能填满；奇环不能。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part thirty: local fillings, soft to rigid, and odd cycles.",
+     "Auric FIB 原子金字塔，第三十部：局部填充、软到刚与奇环障碍。"
+    ],
+    [
+     "Where local becomes global.",
+     "局部在哪里变成整体。"
+    ]
+   ]
+  },
+  {
+   "id": "fillings",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three adjacent atoms carry the values two, three and five, and neighbours may not both be filled. The five legal fillings weigh zero, two, three, five and seven, so their generating function is one plus q squared plus q cubed plus q to the fifth plus q to the seventh.",
+     "三个相邻原子承载 2、3、5，相邻两个不能同时被填。五种合法填充的权重是 0、2、3、5、7，所以它们的生成函数是 1 + q² + q³ + q⁵ + q⁷。"
+    ],
+    [
+     "Lean has frozen the count for every length: the number of legal words of length m is the Fibonacci number F m plus two.",
+     "Lean 已冻结任意长度的计数：长度为 m 的合法词，个数恰好是 Fibonacci 数 Fₘ₊₂。"
+    ]
+   ]
+  },
+  {
+   "id": "rigid",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A soft filling gives each position a fraction between zero and one, with every neighbouring pair summing to at most one. Lean has frozen that on a path of any length, these soft fillings are exactly the mixtures of rigid ones: the convex hull of the legal words.",
+     "软填充给每个位置一个介于 0 与 1 之间的分数，每对相邻位置之和不超过 1。Lean 已冻结：在任意长度的路径上，这些软填充恰好就是刚性填充的混合，也就是合法词的凸包。"
+    ],
+    [
+     "The volume extends this to every bipartite conflict graph by total unimodularity: soft becomes rigid in law, though a single soft sample is rigid only if it is already zero or one.",
+     "理论卷借助全幺模性，把这推广到所有二部冲突图：软在概率律的意义上变成刚；不过单个软样本，只有本身就是 0 或 1 时才是刚性的。"
+    ]
+   ]
+  },
+  {
+   "id": "odd",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Odd cycles break this. On a cycle of length two k plus one, the point that puts one half on every vertex satisfies every edge, yet its total is k plus one half, while no independent set holds more than k.",
+     "奇环打破了这一点。在长度为 2k + 1 的环上，每个顶点都取 1/2 的点满足每一条边的约束，但它的总和是 k + 1/2，而任何独立集最多只有 k 个点。"
+    ],
+    [
+     "So it is a soft filling that is no mixture of rigid ones. The odd-cycle inequality, total at most k, cuts it away; on a triangle the bound is one.",
+     "所以它是一个软填充，却不是任何刚性填充的混合。奇环不等式——总和不超过 k——把它切掉；在三角形上，这个上界是 1。"
+    ]
+   ]
+  },
+  {
+   "id": "stitch",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Along a path, local pieces always glue. Windows of three atoms come from one global law exactly when neighbouring windows agree on the pair they share, and the glued law is a Markov chain built window by window.",
+     "沿着路径，局部总能粘起来。三原子窗口来自同一个全局律，当且仅当相邻窗口在它们共享的那一对上一致；粘出的全局律是一条逐窗构造的 Markov 链。"
+    ],
+    [
+     "In pyramid coordinates, the middle of one window is the low end of the next, and the high end of one is the middle of the next. The hidden kappa of a window is never shared, so each window keeps its own.",
+     "在金字塔坐标里，一个窗口的中间是下一个窗口的低端，一个窗口的高端是下一个窗口的中间。窗口隐藏的 κ 从不共享，所以每个窗口各自保留自己的 κ。"
+    ]
+   ]
+  },
+  {
+   "id": "c5",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Close the path into a five-cycle and gluing can fail. Give every window half one-zero-one and half zero-one-zero. Neighbours agree, and every atom is filled with probability one half.",
+     "把路径闭合成五元环，粘合就可能失败。让每个窗口一半是 101、一半是 010。相邻窗口彼此一致，每个原子被填的概率都是 1/2。"
+    ],
+    [
+     "Then the expected total is five halves, but a five-cycle holds at most two. Each step flips one-zero-one into zero-one-zero, so after five steps the phase is flipped and it only closes after ten: locally consistent, globally impossible.",
+     "于是期望总数是 5/2，但五元环最多只能容纳 2 个。每走一步，101 就翻成 010，走完五步相位已经翻转，要走十步才闭合：局部一致，整体不可能。"
+    ]
+   ]
+  },
+  {
+   "id": "transfer",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The transfer matrix counts it all. Chains of L windows number F L plus four, and closed cycles are counted by the trace, the Lucas numbers one, three, four, seven, eleven, eighteen, which count the independent sets of the L-cycle.",
+     "转移矩阵把这一切都数出来。L 个窗口串成的链有 F(L+4) 条；闭合的环由迹来数，即 Lucas 数 1、3、4、7、11、18，它们数出 L 元环上的独立集个数。"
+    ]
+   ]
+  },
+  {
+   "id": "shapes",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The volume links this to a geometric soft-to-rigid model: a regular k-gon blended with its inscribed disk, gamma times one minus tau times the polygon plus tau times the disk. Softer shapes nest inside harder ones.",
+     "理论卷把这联系到一个几何上的软到刚模型：正 k 边形与它的内切圆混合，γ[(1 − τ)P_k ⊕ τρ_k D]。越软的形状，嵌套在越硬的形状之内。"
+    ],
+    [
+     "Its area is gamma squared times A plus pi rho squared minus A times tau squared, so the linear term cancels. The relative loss at full softness is 0.395 for a triangle, 0.215 for a square and 0.093 for a hexagon. Mapping shapes to conflict graphs is an abstract adapter, not yet a proved bridge.",
+     "它的面积是 γ²[A + (πρ² − A)τ²]，线性项正好抵消。完全变软时的相对损失，三角形是 0.395，正方形是 0.215，六边形是 0.093。把形状映射成冲突图只是一个抽象接口，还不是已证明的桥梁。"
+    ]
+   ]
+  },
+  {
+   "id": "harden",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Fix a finite universe of candidate poses. Two poses conflict when their shapes overlap, and a rigid packing is an independent set of conflicts. Harden the shapes and each one grows: poses can leave the container and new overlaps appear, so the independent sets only shrink, and the harder polytope nests inside the softer one.",
+     "固定一个有限的候选姿态宇宙。两个姿态的形状重叠就算冲突，一个刚性装填就是冲突图的一个独立集。把形状变硬，每个形状都会变大：有的姿态会越出容器，新的重叠会出现，所以独立集只会变少，更硬的多面体嵌套在更软的那个之内。"
+    ],
+    [
+     "That nesting is a theorem in the fixed universe, but which local optimum a numerical search finds is not, so hardening is another search route, not a dominating one. And on a bipartite graph, a soft filling with compatible zero-one boundary values is a mixture of rigid fillings that keep the same boundary.",
+     "在固定的姿态宇宙里，这种嵌套是定理；但数值搜索最终找到哪个局部最优并不是定理，所以硬化只是另一条搜索路线，而不是占优的路线。另外，在二部图上，带有相容 0/1 边界值的软填充，是保持同一边界的刚性填充的混合。"
+    ]
+   ]
+  },
+  {
+   "id": "tensor",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Two windows multiply the hidden part. The five-state algebra splits into the visible span and the joint direction, so the pair algebra splits into sixteen, four, four and one dimensions. First-order pair readings see sixteen of twenty-five and miss nine.",
+     "两个窗口让隐藏部分成倍增加。五态代数分成可见空间与联合方向，所以成对代数分成 16、4、4、1 维。一阶成对读数只看见 25 维中的 16 维，漏掉 9 维。"
+    ]
+   ]
+  },
+  {
+   "id": "time",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Time enters when updates break a reading. Under the update a, b to b, a plus b, the reading two a plus three b gives six for both three, zero and zero, two, and then nine and ten. In this model the volume defines the direction of time as the direction in which legal updates break the current equivalence.",
+     "当更新打破一个读数时，时间就出现了。在更新 (a, b) → (b, a + b) 下，读数 2a + 3b 对 (3, 0) 与 (0, 2) 都给出 6，更新后却分别是 9 和 10。理论卷在这个模型里，把时间方向定义为：合法更新打破当前等价的方向。"
+    ],
+    [
+     "Static, future and maintenance quotients differ: a death map that sends every state to null is perfectly predictable, yet nothing it does can keep a target set alive.",
+     "静态商、未来商与维持商互不相同：一个把每个状态都送到 null 的死亡映射完全可预测，但它做什么都无法让目标集合保持存活。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Legal fillings count as Fibonacci numbers, soft fillings on paths and bipartite graphs are mixtures of rigid ones, odd cycles cut the half point away, hardening shrinks the independent sets of a fixed pose universe, path windows stitch while a five-cycle cannot close, and two windows hide nine directions.",
+     "合法填充按 Fibonacci 数计数；路径与二部图上的软填充都是刚性填充的混合；奇环把一半点切掉；在固定的姿态宇宙里，硬化让独立集收缩；路径窗口可以缝合，五元环却不能闭合；两个窗口藏着九个方向。"
+    ],
+    [
+     "Lean has frozen the Fibonacci count and the path polytope. The bipartite and odd-cycle results, the stitching rule, the shape area, the hardening nesting and the two-window count are argued in the theory volumes with classical polyhedral tools, the time reading is a model definition, and every number here was recomputed. This closes parts twenty-six to thirty.",
+     "Lean 已冻结 Fibonacci 计数与路径多面体。二部图与奇环结果、缝合规则、形状面积、硬化嵌套与双窗口计数在理论卷中论证，并用到经典的多面体工具；时间解读是模型内的定义；这里的每个数字都重新计算过。第二十六到第三十部到此结束。"
+    ]
+   ]
+  }
+ ]
+}
