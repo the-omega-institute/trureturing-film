@@ -69,6 +69,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 055 | [AURIC FIB ATOM PYRAMID XXVI](films/055-quotients/) · 金字塔 XXVI：关系商与递归恢复 | 7:25 | EN (AI) / music-only | ZH + EN |
 | 056 | [AURIC FIB ATOM PYRAMID XXVII](films/056-futurequotient/) · 金字塔 XXVII：动态未来商与未来闭合记忆 | 8:07 | EN (AI) / music-only | ZH + EN |
 | 057 | [AURIC FIB ATOM PYRAMID XXVIII](films/057-jointprojection/) · 金字塔 XXVIII：联合投影、多窗口次序与响应纤维 | 7:04 | EN (AI) / music-only | ZH + EN |
+| 058 | [AURIC FIB ATOM PYRAMID XXIX](films/058-instrumentclosure/) · 金字塔 XXIX：输出分辨闭包与接缝曲率 | 6:45 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

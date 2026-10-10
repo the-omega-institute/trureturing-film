@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 21.886
+  },
+  {
+   "id": "title",
+   "start": 21.886,
+   "end": 32.931
+  },
+  {
+   "id": "reaction",
+   "start": 32.931,
+   "end": 57.857
+  },
+  {
+   "id": "seam",
+   "start": 57.857,
+   "end": 98.986
+  },
+  {
+   "id": "action",
+   "start": 98.986,
+   "end": 136.735
+  },
+  {
+   "id": "horizon",
+   "start": 136.735,
+   "end": 165.269
+  },
+  {
+   "id": "instrument",
+   "start": 165.269,
+   "end": 198.725
+  },
+  {
+   "id": "cancel",
+   "start": 198.725,
+   "end": 232.066
+  },
+  {
+   "id": "bayes",
+   "start": 232.066,
+   "end": 255.687
+  },
+  {
+   "id": "memory",
+   "start": 255.687,
+   "end": 286.791
+  },
+  {
+   "id": "maintain",
+   "start": 286.791,
+   "end": 319.275
+  },
+  {
+   "id": "time",
+   "start": 319.275,
+   "end": 363.304
+  },
+  {
+   "id": "finale",
+   "start": 363.304,
+   "end": 405.906
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 16.149,
+   "en": "Part twenty-eight asked what one more reading buys. Part twenty-nine asks where a hidden relation shows itself: in a product, in an action, or only in the labels of what an instrument reports.",
+   "zh": "第二十八部追问多一个读数能换来什么。第二十九部追问隐藏关系在哪里显形：在一个乘积里，在一个动作里，还是只在仪器报告的标签里。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 16.749,
+   "end": 20.886,
+   "en": "An average can look perfectly closed while its branches still leak kappa.",
+   "zh": "一个平均可以看起来完美闭合，而它的各个分支仍在泄漏 κ。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 23.086,
+   "end": 29.311,
+   "en": "The Auric FIB atom pyramid, part twenty-nine: output-resolved closure and seam curvature.",
+   "zh": "Auric FIB 原子金字塔，第二十九部：输出分辨闭包与接缝曲率。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 29.911,
+   "end": 31.531,
+   "en": "Where the hidden relation leaks.",
+   "zh": "隐藏关系从哪里泄漏。"
+  },
+  {
+   "i": 4,
+   "scene": "reaction",
+   "start": 33.731,
+   "end": 46.011,
+   "en": "Read the hidden direction as a reaction. Null plus the joint mode exchanges with the two single ends: moving probability this way keeps X, Y and Z fixed and changes only kappa.",
+   "zh": "把隐藏方向读成一个反应：null 加联合模式，与两个单独的端点互换。沿这个方向移动概率，X、Y、Z 不变，只有 κ 改变。"
+  },
+  {
+   "i": 5,
+   "scene": "reaction",
+   "start": 46.611,
+   "end": 56.457,
+   "en": "So every function on the five states splits into an edge part, which the means can see, plus J of f times x y, where J is the four-corner difference.",
+   "zh": "于是五个状态上的每个函数，都分解成均值看得见的边部分，加上 J(f)·xy，其中 J 是四角差。"
+  },
+  {
+   "i": 6,
+   "scene": "seam",
+   "start": 58.657,
+   "end": 80.912,
+   "en": "The visible functions one, x, y and z are not closed under multiplication. Their product defect is a symmetric form: for f and g with end coefficients a one, a two and b one, b two, it equals a one b two plus a two b one. On the two ends its matrix is zero one, one zero, with eigenvalues plus and minus one.",
+   "zh": "可见函数 1、x、y、z 在乘法下并不封闭。它们的乘积缺陷是一个对称形式：对端点系数为 a₁、a₂ 与 b₁、b₂ 的 f 和 g，它等于 a₁b₂ + a₂b₁。在两个端点上，它的矩阵是 [[0, 1], [1, 0]]，特征值为 +1 与 −1。"
+  },
+  {
+   "i": 7,
+   "scene": "seam",
+   "start": 81.512,
+   "end": 97.586,
+   "en": "The volume calls it the seam curvature: the hidden relation is a cross-coupling of the two visible ends. One multiplication closes it: x plus z times y plus z equals x y plus z, so kappa is the mean of that product minus Z.",
+   "zh": "理论卷称之为接缝曲率：隐藏关系是两个可见端点之间的交叉耦合。一次乘法就能把它闭合：(x + z)(y + z) = xy + z，所以 κ 等于这个乘积的均值减去 Z。"
+  },
+  {
+   "i": 8,
+   "scene": "action",
+   "start": 99.786,
+   "end": 115.391,
+   "en": "Now let actions move the state. An action pulls each function back along its map, and it reveals kappa exactly when it pulls a visible function out of the visible span, that is, when the pulled-back function has a nonzero four-corner difference.",
+   "zh": "现在让动作移动状态。一个动作沿着它的映射把每个函数拉回；当它把某个可见函数拉出可见空间，也就是拉回后的函数四角差不为零时，它恰好揭示 κ。"
+  },
+  {
+   "i": 9,
+   "scene": "action",
+   "start": 115.991,
+   "end": 135.335,
+   "en": "One map sends null to two, two to null, three to itself, five to null and the joint mode to itself. Then x after the move takes the values one, zero, zero, zero, one, with J equal to two, and two laws with the same means give expected values 0.3 and 0.7.",
+   "zh": "一个映射把 null 送到 [2]，[2] 送到 null，[3] 送到自身，[5] 送到 null，联合模式送到自身。移动后的 x 取值 1、0、0、0、1，J = 2；均值相同的两条概率律，给出的期望分别是 0.3 和 0.7。"
+  },
+  {
+   "i": 10,
+   "scene": "horizon",
+   "start": 137.535,
+   "end": 150.696,
+   "en": "How long can kappa hide? Lean has frozen the general answer for one linear update and readout: what no reading up to step m can see is exactly the orthogonal complement of the observable Krylov space.",
+   "zh": "κ 能藏多久？对一个线性更新与一个读数，Lean 已冻结一般答案：到第 m 步为止任何读数都看不见的部分，恰好是可观测 Krylov 空间的正交补。"
+  },
+  {
+   "i": 11,
+   "scene": "horizon",
+   "start": 151.296,
+   "end": 163.869,
+   "en": "Lean has also frozen that this tower grows strictly at most n minus rank C times, and that once it stalls it never grows again. With five states and one record, that is at most four growth steps.",
+   "zh": "Lean 还冻结了：这个塔严格增长的次数至多是 n 减去 C 的秩，而且一旦停滞就再也不会增长。五个状态加一个记录，增长至多四步。"
+  },
+  {
+   "i": 12,
+   "scene": "instrument",
+   "start": 166.069,
+   "end": 183.642,
+   "en": "Real instruments report outputs. Split each action into sub-kernels, one for each output, so the averaged kernel is their sum. Take a two-step instrument: report x, jump to two if y is one and to null otherwise, then report x again, which now equals y.",
+   "zh": "真实的仪器会报告输出。把每个动作按输出拆成子核，平均核就是它们的和。考虑一个两步仪器：先报告 x，若 y 为 1 就跳到 [2]，否则跳到 null，再报告一次 x——此时它等于 y。"
+  },
+  {
+   "i": 13,
+   "scene": "instrument",
+   "start": 184.242,
+   "end": 197.325,
+   "en": "The four records have probabilities one minus X minus Y plus kappa, X minus kappa, Y minus kappa, and kappa itself. Seeing one, then one, happens with probability exactly kappa.",
+   "zh": "四种记录的概率分别是 1 − X − Y + κ、X − κ、Y − κ 和 κ 本身。先看到 1、再看到 1 的概率恰好就是 κ。"
+  },
+  {
+   "i": 14,
+   "scene": "cancel",
+   "start": 199.525,
+   "end": 216.965,
+   "en": "Yet the averaged kernel keeps the visible span closed: it sends one to one, x to y, and y and z to zero. Branch by branch, output one sends x to x y and output zero sends x to y minus x y. The hidden parts cancel in the sum.",
+   "zh": "然而平均核让可见空间保持闭合：它把 1 送到 1，x 送到 y，y 与 z 送到零。逐个分支看，输出 1 把 x 送到 xy，输出 0 把 x 送到 y − xy。隐藏部分在求和中互相抵消。"
+  },
+  {
+   "i": 15,
+   "scene": "cancel",
+   "start": 217.565,
+   "end": 230.666,
+   "en": "One step of records shows nothing; two steps expose kappa, as the record-only closure grows from one to two to four dimensions. Averaged future closure cannot replace output-labelled future closure.",
+   "zh": "一步记录什么也看不出；两步就暴露 κ，只看记录的闭包维数从 1 增长到 2 再到 4。平均的未来闭包不能代替按输出标记的未来闭包。"
+  },
+  {
+   "i": 16,
+   "scene": "bayes",
+   "start": 232.866,
+   "end": 254.287,
+   "en": "In Bayes form, an event whose probability is affine in kappa moves the belief exactly when its slope is nonzero, and the mean shifts by the slope times the variance over the event probability. With kappa equally likely 0.1 or 0.3, seeing one, one moves the mean from 0.2 to 0.25.",
+   "zh": "写成 Bayes 形式：一个概率关于 κ 为仿射的事件，恰在斜率不为零时改变信念，均值的移动等于斜率乘以方差，再除以事件概率。若 κ 等可能为 0.1 或 0.3，看到 (1, 1) 会把均值从 0.2 移到 0.25。"
+  },
+  {
+   "i": 17,
+   "scene": "memory",
+   "start": 256.487,
+   "end": 273.2,
+   "en": "Three layers decide sensitivity, and none replaces another: a single mean needs a nonzero four-corner difference, a paired product needs a nonzero cross coupling, and a future record needs a word whose pulled-back record is not killed by the hidden direction.",
+   "zh": "三层决定敏感性，彼此不能替代：单个均值需要非零的四角差，成对乘积需要非零的交叉耦合，未来记录需要某个输出词，其拉回的记录不被隐藏方向消掉。"
+  },
+  {
+   "i": 18,
+   "scene": "memory",
+   "start": 273.8,
+   "end": 285.391,
+   "en": "If no word sees it, kappa stays hidden forever and the three means are enough; if one does, kappa is identifiable at that depth, and one extra scalar of memory suffices.",
+   "zh": "如果没有任何输出词看见它，κ 就永远隐藏，三个均值就够了；只要有一个看见，κ 就能在那个深度被识别，而多一个标量的记忆就足够。"
+  },
+  {
+   "i": 19,
+   "scene": "maintain",
+   "start": 287.591,
+   "end": 301.55,
+   "en": "Predicting is not maintaining. Take two states that report the same x: the single end two and the joint mode. Action L keeps the first safe, action R keeps the second safe, and each wrong action falls to null.",
+   "zh": "预测不等于维持。取两个报告相同 x 的状态：单端 [2] 与联合模式。动作 L 让前者保持安全，动作 R 让后者保持安全，用错动作就会落到 null。"
+  },
+  {
+   "i": 20,
+   "scene": "maintain",
+   "start": 302.15,
+   "end": 317.875,
+   "en": "Each state alone is maintainable, but the merged belief has no common safe action: the greatest safe fixed point contains each singleton, not the pair. Forgetting is safe only when the merged states share an action that keeps the next belief safe.",
+   "zh": "每个状态单独都可以维持，但合并后的信念没有共同的安全动作：最大安全不动点包含两个单点，却不包含这一对。只有当被合并的状态共享一个让下一信念仍安全的动作时，遗忘才是安全的。"
+  },
+  {
+   "i": 21,
+   "scene": "time",
+   "start": 320.075,
+   "end": 347.921,
+   "en": "A strict time order exists exactly when the transition graph has no directed cycle; with cycles only a preorder remains. And the same hiding appears in 5040: reading u equals a two plus a seven, v equals a three, w equals a five plus a seven hides a seven, so 7 and 10 both read one, zero, one, and 7200, 5040 and 3528 all read five, two, two.",
+   "zh": "严格的时间次序存在，当且仅当转移图没有有向环；有环时只剩一个预序。同样的隐藏也出现在 5040 中：读数 u = a₂ + a₇、v = a₃、w = a₅ + a₇ 藏住了 a₇，所以 7 和 10 都读成 (1, 0, 1)，而 7200、5040、3528 都读成 (5, 2, 2)。"
+  },
+  {
+   "i": 22,
+   "scene": "time",
+   "start": 348.521,
+   "end": 361.904,
+   "en": "The volume also offers a candidate mathematical definition of life: a selective future quotient, an executable memory update and safe feasible control. It remains an open model, not a law.",
+   "zh": "理论卷还提出了生命的一个候选数学定义：选择性未来商，加上可执行的记忆更新，再加上安全可行的控制。它仍是开放模型，不是定律。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 364.304,
+   "end": 379.456,
+   "en": "The hidden relation is a cross-coupling of the two ends, one product closes it, actions reveal it through the four-corner difference, an averaged kernel can hide what its output branches leak, and keeping a system safe asks for more than predicting it.",
+   "zh": "隐藏关系是两个端点的交叉耦合，一次乘积就能闭合它；动作通过四角差揭示它；平均核可以藏住各输出分支泄漏的东西；而让系统保持安全，要求的比预测更多。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 380.056,
+   "end": 396.906,
+   "en": "Lean has frozen the observability duality and the growth bound for linear readouts. The seam form, the instrument counterexample, the three layers and the safety example are argued in the theory volumes, the life reading is open, and every number here was recomputed.",
+   "zh": "Lean 已冻结线性读数的可观测对偶与增长上界。接缝形式、仪器反例、三层判据与安全例子在理论卷中论证；生命解读是开放的；这里的每个数字都重新计算过。"
+  }
+ ],
+ "duration": 405.906
+}
