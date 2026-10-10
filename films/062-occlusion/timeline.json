@@ -1,0 +1,230 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 25.017
+  },
+  {
+   "id": "title",
+   "start": 25.017,
+   "end": 36.601
+  },
+  {
+   "id": "square",
+   "start": 36.601,
+   "end": 61.782
+  },
+  {
+   "id": "second",
+   "start": 61.782,
+   "end": 103.227
+  },
+  {
+   "id": "recover",
+   "start": 103.227,
+   "end": 136.064
+  },
+  {
+   "id": "outcomes",
+   "start": 136.064,
+   "end": 171.45
+  },
+  {
+   "id": "arrow",
+   "start": 171.45,
+   "end": 208.871
+  },
+  {
+   "id": "split",
+   "start": 208.871,
+   "end": 244.532
+  },
+  {
+   "id": "time",
+   "start": 244.532,
+   "end": 274.017
+  },
+  {
+   "id": "port",
+   "start": 274.017,
+   "end": 304.898
+  },
+  {
+   "id": "finale",
+   "start": 304.898,
+   "end": 354.831
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 19.966,
+   "en": "Part thirty-two asked what a clock can see. Part thirty-three asks what an obstacle does: when a blocked ray becomes a second projection, when two projections recover the whole law, and how a local change splits into a seen part and a hidden part.",
+   "zh": "第三十二部追问时钟能看见什么。第三十三部追问遮挡做了什么：被挡住的射线什么时候变成第二个投影，两个投影什么时候能恢复整条律，以及一个局部变化怎样分裂成看得见的部分与隐藏的部分。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 20.566,
+   "end": 24.017,
+   "en": "Recovery means one thing: the reading becomes injective.",
+   "zh": "恢复只意味着一件事：读数变成单射。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 26.217,
+   "end": 32.956,
+   "en": "The Auric FIB atom pyramid, part thirty-three: occlusion, second projection and local recovery.",
+   "zh": "Auric FIB 原子金字塔，第三十三部：遮挡、第二投影与局部恢复。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 33.556,
+   "end": 35.201,
+   "en": "Two views recover one law.",
+   "zh": "两个视角恢复一条律。"
+  },
+  {
+   "i": 4,
+   "scene": "square",
+   "start": 37.401,
+   "end": 60.382,
+   "en": "The base of the pyramid closes a square loop: null plus the joint mode equals two plus five. That loop generates the hidden direction d, along which X, Y and Z stay fixed while kappa moves; each fibre is a segment from max of zero and X plus Y plus Z minus one, to min of X and Y. The apex three lifts the base without removing the loop.",
+   "zh": "金字塔的底面闭合成一个正方形回路：null 加联合模式，等于 [2] 加 [5]。这个回路生成隐藏方向 d：沿着它，X、Y、Z 不变，只有 κ 移动；每条纤维都是一段线段，从 max(0, X + Y + Z − 1) 到 min(X, Y)。顶点 [3] 把底面抬成金字塔，却没有消掉这个回路。"
+  },
+  {
+   "i": 5,
+   "scene": "second",
+   "start": 62.582,
+   "end": 83.137,
+   "en": "An occlusion that records the joint mode adds a second projection: X, Y and W, where W is Z plus kappa. Its blind direction is e, two, minus one, minus one, minus one, one, while it reads d as zero, zero, one. On normalized differences the two blind directions meet only at zero.",
+   "zh": "一个记录联合模式的遮挡，会增加第二个投影：X、Y 与 W，其中 W = Z + κ。它的盲方向是 e = (2, −1, −1, −1, 1)，而它把 d 读成 (0, 0, 1)。在归一化的差异上，两个盲方向只在零点相交。"
+  },
+  {
+   "i": 6,
+   "scene": "second",
+   "start": 83.737,
+   "end": 101.827,
+   "en": "So X, Y, Z and W together invert exactly: kappa is W minus Z, and the other four probabilities follow. Both readings must come from the same law and the same period; a reading taken before an interaction cannot simply be spliced with one taken after.",
+   "zh": "所以 X、Y、Z、W 合在一起可以精确反解：κ = W − Z，另外四个概率随之确定。两个读数必须来自同一条律、同一个时期；交互之前取得的读数，不能直接与交互之后的读数拼接。"
+  },
+  {
+   "i": 7,
+   "scene": "recover",
+   "start": 104.027,
+   "end": 116.808,
+   "en": "In classical terms, a recovery map that undoes the readout on a target set exists exactly when the readout is injective there. Different histories in one observation fibre cannot be told apart.",
+   "zh": "用经典的语言说，在一个目标集合上能撤销读数的恢复映射，存在当且仅当读数在那里是单射。落在同一个观察纤维里的不同历史，无法被区分。"
+  },
+  {
+   "i": 8,
+   "scene": "recover",
+   "start": 117.408,
+   "end": 134.664,
+   "en": "Samples and laws differ. Each sample of the weight q is one of zero, two, three, five or seven, so a full sample record names every symbol, and only the average loses the joint part. Yet one sample of x y cannot tell kappa one eighth from one quarter.",
+   "zh": "样本与概率律不同。权重 q 的每个样本都是 0、2、3、5、7 之一，所以完整的逐次记录能认出每个符号，只有取平均才丢掉联合部分。但 xy 的一次样本，分不清 κ = 1/8 和 κ = 1/4。"
+  },
+  {
+   "i": 9,
+   "scene": "outcomes",
+   "start": 136.864,
+   "end": 155.783,
+   "en": "The volume lists five outcomes of occlusion. A ray that escapes freely leaves histories that differ only in the ray inside one fibre. A detector placed in advance needs no chase and adds the second projection. A coherent reflector moves the difference into a record it can read back.",
+   "zh": "理论卷列出遮挡的五种结果。自由逃逸的射线，让只在射线上不同的历史落进同一条纤维。预先放好的探测器不必追赶，直接增加第二个投影。相干反射体把差异搬进一个可以读回的记录。"
+  },
+  {
+   "i": 10,
+   "scene": "outcomes",
+   "start": 156.383,
+   "end": 170.05,
+   "en": "An absorber that thermalizes spreads the difference into a coarse temperature that is not injective. And if the difference sits in an inaccessible environment, equal local outputs stay equal under every local operation.",
+   "zh": "会热化的吸收体，把差异扩散进一个非单射的粗粒温度。而如果差异留在一个不可访问的环境里，相同的局部输出在任何局部操作下都依然相同。"
+  },
+  {
+   "i": 11,
+   "scene": "arrow",
+   "start": 172.25,
+   "end": 190.849,
+   "en": "Lean has frozen that one readout factors through another exactly when it merges every pair the other merges, and that whatever is known from a later readout that factors through an earlier one was already known before. So if each record is a function of the previous one, indistinguishability only grows.",
+   "zh": "Lean 已冻结：一个读数能经另一个读数因子化，当且仅当它合并另一个读数合并的每一对；而且如果后来的读数经先前的读数因子化，那么从后来读数知道的东西，先前就已经知道。所以，如果每个记录都是前一个记录的函数，不可区分性只会增长。"
+  },
+  {
+   "i": 12,
+   "scene": "arrow",
+   "start": 191.449,
+   "end": 207.471,
+   "en": "A new record from an obstacle can split a merged pair, though it can still lose other distinctions, and equality is allowed at every step. The volume reads this growing indistinguishability as an observer's effective arrow of time, not as a law of physics.",
+   "zh": "遮挡产生的新记录可以分开一对原本合并的历史，但它仍可能丢掉别的区别，而且每一步都允许相等。理论卷把这种不断增长的不可区分性，读作观察者的有效时间箭头，而不是物理定律。"
+  },
+  {
+   "i": 13,
+   "scene": "split",
+   "start": 209.671,
+   "end": 229.879,
+   "en": "Now split a local change v. With the section that keeps kappa fixed, v is its seen part plus its kappa derivative times d. Change the section and the hidden coefficient shifts by a linear function of the seen change: moving mass from null to two has zero kappa derivative, yet another section reports minus one.",
+   "zh": "现在分裂一个局部变化 v。用保持 κ 不变的截面，v 等于它看得见的部分，加上 κ 的导数乘以 d。换一个截面，隐藏系数就按看得见的变化平移一个线性函数：把质量从 null 移到 [2]，κ 的导数为零，换一个截面却报告 −1。"
+  },
+  {
+   "i": 14,
+   "scene": "split",
+   "start": 230.479,
+   "end": 243.132,
+   "en": "And a feasible change can split into two infeasible parts: at the joint mode, moving to two is allowed, but its seen part takes mass from five and its hidden part takes mass from null, both empty.",
+   "zh": "而且一个可行的变化可以分裂成两个不可行的部分：在联合模式上，移向 [2] 是允许的；但它看得见的部分要从 [5] 取质量，隐藏部分要从 null 取质量，而这两处都是空的。"
+  },
+  {
+   "i": 15,
+   "scene": "time",
+   "start": 245.332,
+   "end": 257.919,
+   "en": "A state statistic is not elapsed time. Along the loop p bar plus epsilon sine lambda times d, the expectation of x y rises and falls, and its integral around the loop is zero.",
+   "zh": "状态统计量不是流逝的时间。沿着回路 p̄ + ε·sin λ·d，xy 的期望忽升忽降，绕回路一周的积分为零。"
+  },
+  {
+   "i": 16,
+   "scene": "time",
+   "start": 258.519,
+   "end": 272.617,
+   "en": "Hidden and seen responses can also cancel: moving mass from null to the joint mode, the reading x minus x y gains one through the seen part and loses one through the hidden part, so its total change is zero.",
+   "zh": "隐藏响应与可见响应也会抵消：把质量从 null 移到联合模式，读数 x − xy 经可见部分增加 1，经隐藏部分减少 1，总变化为零。"
+  },
+  {
+   "i": 17,
+   "scene": "port",
+   "start": 274.817,
+   "end": 288.554,
+   "en": "On a nondegenerate fibre one exact reading K separates kappa exactly when its four-corner difference is nonzero, and an error epsilon in the expectation becomes at most epsilon over that difference.",
+   "zh": "在非退化纤维上，一个精确读数 K 能分开 κ，当且仅当它的四角差不为零；期望中的误差 ε，最多变成 ε 除以这个差。"
+  },
+  {
+   "i": 18,
+   "scene": "port",
+   "start": 289.154,
+   "end": 303.498,
+   "en": "But a response alone cannot fix both the source and the sensitivity: scaling the source by r and the sensitivities by one over r gives the same response. A known, calibrated reading is the price of recovery.",
+   "zh": "但只凭响应，无法同时确定源与灵敏度：把源放大 r 倍、灵敏度缩小为 1/r，响应完全相同。恢复的代价，是一个已知并已校准的读数。"
+  },
+  {
+   "i": 19,
+   "scene": "finale",
+   "start": 305.898,
+   "end": 324.894,
+   "en": "The hidden fibre comes from a square loop, a second projection with a different blind direction recovers the law, recovery is injectivity, occlusion can hide, record or spread a difference, factorized records only merge, and a local change splits into seen and hidden parts that depend on the section.",
+   "zh": "隐藏纤维来自一个正方形回路；盲方向不同的第二投影能恢复整条律；恢复就是单射；遮挡可以隐藏、记录或扩散一个差异；可因子化的记录只会合并；局部变化分裂成看得见与隐藏的部分，而这个分裂依赖截面。"
+  },
+  {
+   "i": 20,
+   "scene": "finale",
+   "start": 325.494,
+   "end": 345.831,
+   "en": "Lean has frozen the factorization criterion and the knowledge it preserves. The second projection, the five outcomes, the time reading and the source splitting are argued in the theory volumes, recovery by injectivity is classical, and every number here was recomputed. This closes parts thirty-one to thirty-three.",
+   "zh": "Lean 已冻结因子化判据及其保留的知识。第二投影、五种结果、时间解读与源分裂在理论卷中论证；以单射刻画恢复是经典结论；这里的每个数字都重新计算过。第三十一到第三十三部到此结束。"
+  }
+ ],
+ "duration": 354.831
+}
