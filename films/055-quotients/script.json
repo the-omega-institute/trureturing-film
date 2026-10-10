@@ -1,0 +1,216 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Twenty-five parts climbed the pyramid. Part twenty-six opens a new level and asks what each view of it forgets: which relations disappear when we read only a sum, a mean, or a single window.",
+     "二十五部片子攀上了金字塔。第二十六部打开新的一层，追问每一种看法会忘掉什么：只读一个和、一个均值或一个窗口时，哪些关系消失了。"
+    ],
+    [
+     "Three quotients, three hidden loops, and one coordinate called kappa that decides whether the past can be recovered.",
+     "三个商，三条隐藏的回路，以及一个叫 κ 的坐标：它决定过去能否被恢复。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The Auric FIB atom pyramid, part twenty-six: relational quotients and recovery.",
+     "Auric FIB 原子金字塔，第二十六部：关系商与递归恢复。"
+    ],
+    [
+     "What the boundary forgets.",
+     "边界忘掉了什么。"
+    ]
+   ]
+  },
+  {
+   "id": "index",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Fix the index once. Position one carries two, position two carries three, position three carries five, and positions one and three together carry the joint mode two-five. In standard windows these modes count F n minus one, F n, F n plus one, and the Lucas number L n: at the first window, two, three, five and seven.",
+     "先把索引固定下来。位置一承载 2，位置二承载 3，位置三承载 5，位置一与三同时选中，就是联合模式 [2,5]。在标准窗口里，这些模式的数量是 Fₙ₋₁、Fₙ、Fₙ₊₁ 和 Lucas 数 Lₙ：第一个窗口里是 2、3、5、7。"
+    ],
+    [
+     "So seven is a joint mode, not a fifth atom. The middle position conflicts with both ends, the ends do not conflict with each other, and the legal choices are the five independent sets of the path two, three, five.",
+     "所以 7 是联合模式，不是第五个原子。中间位置与两端冲突，两端彼此不冲突；合法选择恰好是路径 2、3、5 的五个独立集。"
+    ]
+   ]
+  },
+  {
+   "id": "loops",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Two loops hide among these five modes. Zero plus five equals two plus three: shift probability along that loop and the composition means do not move. Zero plus seven equals two plus five: shift along this second loop and even the three position means stay fixed.",
+     "这五个模式里藏着两条回路。0 + 5 = 2 + 3：沿这条回路移动概率，组成均值纹丝不动。0 + 7 = 2 + 5：沿第二条回路移动，连三个位置的均值都保持不变。"
+    ],
+    [
+     "The first loop belongs to generation, the second to selection. Composition forgets both; occupancy forgets only the second, and what it forgets is a single number.",
+     "第一条回路属于生成，第二条属于选择。组成同时忘掉两条；占位只忘掉第二条，而它忘掉的，只是一个数。"
+    ]
+   ]
+  },
+  {
+   "id": "pyramid",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Plot the three occupancy means. The five pure modes are the corners of a square pyramid: five vertices, eight edges, five faces, volume one third.",
+     "把三个占位均值画出来。五个纯模式正是一座方底金字塔的顶点：五个顶点、八条棱、五个面，体积三分之一。"
+    ],
+    [
+     "Lean has frozen that the convex hull of the five legal three-bit words is exactly this pyramid, with a square base and a single apex.",
+     "Lean 已冻结：五个合法三位词的凸包，恰好就是这座金字塔，一个方形底面，一个顶点。"
+    ],
+    [
+     "Each point of the pyramid hides a whole segment of laws. The joint mass kappa ranges from the larger of zero and X plus Y minus r up to the smaller of X and Y. On the side faces the segment shrinks to a point; inside the base it has positive length.",
+     "金字塔上的每一点，都藏着一整段概率律。联合质量 κ 的范围是从 max(0, X + Y − r) 到 min(X, Y)。在侧面上，这一段缩成一个点；在底面内部，它有正的长度。"
+    ]
+   ]
+  },
+  {
+   "id": "certificates",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Kappa has three faces. It is the probability that both ends are chosen. It is hidden in the base determinant, delta equals r times kappa minus X times Y, which is r squared times the covariance of the two ends once the middle is empty.",
+     "κ 有三副面孔。它是两端同时被选中的概率。它藏在底面行列式里：Δ = rκ − XY，也就是中间为空时，两端协方差的 r² 倍。"
+    ],
+    [
+     "And it appears in the future. Continue every mode with a five: the native reader answers five, rejected, eighteen, twenty-six, rejected. Among the odd modes only the joint mode is rejected, so the chance of an odd mode followed by a rejection is exactly kappa.",
+     "它还出现在未来里。给每个模式接上一个 [5]：原生读者依次回答 5、拒绝、18、26、拒绝。在奇数模式中，只有联合模式被拒绝；于是“奇数模式后接拒绝”的概率，恰好就是 κ。"
+    ]
+   ]
+  },
+  {
+   "id": "future",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The shortest proof that the boundary forgets: half zero plus half two-five, against half two plus half five. Both sit at the same pyramid point, one half, one half, zero. Yet one replies five or rejection, and the other replies rejection or twenty-six.",
+     "边界会遗忘，最短的证明是这样的：一半 0 加一半 [2,5]，对比一半 [2] 加一半 [5]。两者落在金字塔的同一点 (1/2, 1/2, 0)。可前者回答 5 或拒绝，后者回答拒绝或 26。"
+    ],
+    [
+     "Lean has frozen the general version: for every length from three on, two full-support native laws agree on every proper joint table, yet their actual future replies differ in total variation by exactly the mixing weight.",
+     "Lean 已冻结一般情形：对每个不小于三的长度，两条全支撑的原生概率律在每一个真子集联合表上都一致，但它们实际的未来回复，在全变差上恰好相差混合权重。"
+    ]
+   ]
+  },
+  {
+   "id": "closure",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now change coordinates. Keep the two ends and add the hidden edge: c equals z plus x y. The five modes become the five ways to partition three points: all apart, one pair joined in three ways, all together.",
+     "现在换一组坐标。保留两端，再补上那条隐藏的边：c = z + xy。五个模式变成三个点的五种划分方式：全部分开，三种方式各连一对，全部连在一起。"
+    ],
+    [
+     "Middle excludes both ends is the same algebra as relations must be transitive. Their relation matrices have rank three, two, two, two and one, with spectra one one one, two one zero, and three zero zero.",
+     "“中间排斥两端”与“关系必须传递”，是同一个代数。它们的关系矩阵秩依次是 3、2、2、2、1，谱分别是 {1,1,1}、{2,1,0}、{3,0,0}。"
+    ]
+   ]
+  },
+  {
+   "id": "spectral",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Mix those matrices with the law and square. The trace equals three plus twice the sum of X squared, Y squared and Z plus kappa squared. So one scalar moment returns kappa with no division, and three means plus this moment fix all five probabilities.",
+     "把这些矩阵按概率律混合，再平方。迹等于 3 + 2(X² + Y² + (Z + κ)²)。于是一个标量矩就能不做除法地取回 κ；三个均值加上这一个矩，就确定了全部五个概率。"
+    ],
+    [
+     "Every route back to kappa needs a real reading: a joint event, a determinant, a continuation, or a moment taken from the same source.",
+     "每一条通向 κ 的路，都需要一个真实的读数：一个联合事件，一个行列式，一次继续，或者取自同一来源的一个矩。"
+    ]
+   ]
+  },
+  {
+   "id": "quantity",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The quantity reading cannot help. Two x plus five y plus three z equals two u plus three v, and its mean never sees kappa; in the closed coordinates a correction of minus three a b cancels the hidden edge exactly.",
+     "数量读数帮不上忙。2x + 5y + 3z = 2u + 3v，它的均值永远看不见 κ；在闭包坐标里，一个 −3ab 的修正项恰好抵消了那条隐藏的边。"
+    ],
+    [
+     "Two future quantities do separate the modes: zero zero, two eight, three thirteen, five twenty-one, seven twenty-nine, because the three-step transport has determinant minus one. They recover the mode, not the leaf order, brackets or history of the tree.",
+     "两个未来数量确实能区分各模式：(0,0)、(2,8)、(3,13)、(5,21)、(7,29)，因为三步运输的行列式是 −1。它们恢复的是模式，而不是树的叶序、括号或历史。"
+    ]
+   ]
+  },
+  {
+   "id": "histories",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Across windows, seams cut the freedom. One, five, twenty-one, eighty-nine, three hundred seventy-seven native histories: two windows allow twenty-one, not twenty-five, and the counts obey a of L plus two equals four a of L plus one plus a of L.",
+     "跨越窗口时，接缝削减了自由度。原生历史数依次是 1、5、21、89、377：两个窗口只允许 21 种，而不是 25 种；这些数满足 a(L+2) = 4a(L+1) + a(L)。"
+    ],
+    [
+     "For words of length n the full algebra has dimension F n plus two, while first-order readings see only n plus one. The gap is one at length three, so one kappa is enough there, but three at length four and seven at length five.",
+     "对长度为 n 的词，完整代数的维数是 Fₙ₊₂，一阶读数只能看到 n + 1 个。长度为三时缺口只有一，所以一个 κ 就够了；可长度为四时缺口是三，长度为五时是七。"
+    ]
+   ]
+  },
+  {
+   "id": "tree",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Deeper still, the same leaf word beta alpha beta comes from two bracketings with different ancestry. At length ten an explicit family of independent addresses already gives two to the twenty-first bracketings; how far these address cubes reach is still open.",
+     "再往深处，同一个叶词 βαβ 来自两种括号，祖先关系各不相同。在长度十，一个明确的独立地址族就已给出 2²¹ 种括号；这些地址立方体能延伸多远，仍然开放。"
+    ]
+   ]
+  },
+  {
+   "id": "candidates",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The volume also offers candidate physical readings: five local relations as states, seams as the place where time gets a direction, kappa and delta as hidden relations, and delta as the smallest extra channel that would carry them to the boundary, a candidate meaning of light.",
+     "理论卷还提出了几种物理候选解读：五种局部关系是状态，接缝是时间获得方向的地方，κ 与 Δ 是隐藏关系，而 Δ 是把它们送到边界所需的最小额外通道，这是“光”的一种候选含义。"
+    ],
+    [
+     "These are candidate readings, not physical laws. What is proved here is finite and exact: which relations each quotient forgets, and which readings bring them back.",
+     "这些只是候选解读，不是物理定律。这里证明的东西，是有限而精确的：每个商忘掉了哪些关系，以及哪些读数能把它们带回来。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Composition forgets two loops, occupancy forgets one, kappa lives on a segment inside the pyramid, a transitive closure turns modes into partitions, one moment or one future reply recovers what the boundary lost, and seams and brackets carry what no single window can see.",
+     "组成忘掉两条回路，占位只忘掉一条；κ 住在金字塔内部的一段线段上；传递闭包把模式变成划分；一个矩或一次未来回复，就能找回边界丢失的东西；而接缝与括号承载着任何单个窗口都看不见的信息。"
+    ],
+    [
+     "Lean has frozen the occupancy pyramid and the separation of native laws by their future replies. The loops, the fibre, the closure algebra, the spectral moment and the history counts are argued in the theory volume with classical independent sets and poset polytopes, the physical readings are candidates, and every number here was recomputed for this film.",
+     "Lean 已冻结：占位金字塔，以及原生概率律被其未来回复分开。回路、纤维、闭包代数、谱矩与历史计数在理论卷中论证，并用到经典的独立集与偏序多面体；物理解读是候选；这里的每个数字都为这部片子重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
