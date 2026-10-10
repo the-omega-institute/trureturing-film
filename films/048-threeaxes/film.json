@@ -1,0 +1,26 @@
+{
+  "id": "048-threeaxes",
+  "title": "AURIC FIB ATOM PYRAMID XIX",
+  "title_zh": "金字塔 XIX · 观察者的三根轴",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "1c1f224301",
+  "released": "2026-10-10",
+  "duration": "5:09",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_narrated_EN_subs_ZH-EN.mp4",
+    "music_only": "TRURETURING_music_only_subs_ZH-EN.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}

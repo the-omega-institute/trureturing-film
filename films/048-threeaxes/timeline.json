@@ -1,0 +1,238 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 27.927
+  },
+  {
+   "id": "title",
+   "start": 27.927,
+   "end": 37.831
+  },
+  {
+   "id": "distances",
+   "start": 37.831,
+   "end": 67.606
+  },
+  {
+   "id": "residual",
+   "start": 67.606,
+   "end": 97.431
+  },
+  {
+   "id": "probes",
+   "start": 97.431,
+   "end": 124.233
+  },
+  {
+   "id": "cross",
+   "start": 124.233,
+   "end": 155.148
+  },
+  {
+   "id": "atoms",
+   "start": 155.148,
+   "end": 185.145
+  },
+  {
+   "id": "period",
+   "start": 185.145,
+   "end": 214.942
+  },
+  {
+   "id": "future",
+   "start": 214.942,
+   "end": 238.662
+  },
+  {
+   "id": "quantum",
+   "start": 238.662,
+   "end": 267.256
+  },
+  {
+   "id": "finale",
+   "start": 267.256,
+   "end": 309.419
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 14.682,
+   "en": "Part eighteen needed a third dimension to make Fibonacci flow. Part nineteen asks where three dimensions come from when an observer has no outside coordinates at all.",
+   "zh": "第十八部需要第三个维度，才能让 Fibonacci 流动起来。第十九部追问：当观察者根本没有外部坐标时，三个维度从何而来？"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 15.282,
+   "end": 26.927,
+   "en": "The answer is built from relations. Distances make a space, a lossless area with a cycle rule makes it exactly three-dimensional, and two FIB atoms produce the third axis.",
+   "zh": "答案由关系搭成：距离造出空间，无损面积加上循环律使它恰为三维，两个 FIB 原子生出第三根轴。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 29.127,
+   "end": 33.966,
+   "en": "The Auric FIB atom pyramid, part nineteen: the observer's three axes.",
+   "zh": "Auric FIB 原子金字塔，第十九部：观察者的三根轴。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 34.566,
+   "end": 36.431,
+   "en": "Relations first, then space.",
+   "zh": "先有关系，再有空间。"
+  },
+  {
+   "i": 4,
+   "scene": "distances",
+   "start": 38.631,
+   "end": 55.035,
+   "en": "Start with one reference event and distances only. Two squared distances to the reference, minus the squared distance between, halved, give a Gram matrix. If it is positive semidefinite it builds a space, and its rank is the smallest dimension that fits.",
+   "zh": "只从一个参照事件和距离出发。到参照点的两条距离平方之和，减去两点间距离平方，再取一半，得到 Gram 矩阵。若它半正定，就能搭出一个空间，而它的秩就是能容纳这些数据的最小维数。"
+  },
+  {
+   "i": 5,
+   "scene": "distances",
+   "start": 55.635,
+   "end": 66.206,
+   "en": "Distances one, one and three cannot share a Euclidean triangle: one combination has squared length minus five. What is rejected is the model, not the world.",
+   "zh": "距离一、一、三不能共处一个欧氏三角形：有一个组合的长度平方是负五。被拒绝的是这个模型，而不是世界。"
+  },
+  {
+   "i": 6,
+   "scene": "residual",
+   "start": 68.406,
+   "end": 78.484,
+   "en": "Three orthogonal unit axes keep a projection, and the squared length left over is the residual. It is zero exactly when the relation lies in their span.",
+   "zh": "三根正交单位轴保留一个投影，剩下的长度平方就是余量。当且仅当关系落在它们张成的空间里，余量为零。"
+  },
+  {
+   "i": 7,
+   "scene": "residual",
+   "start": 79.084,
+   "end": 96.031,
+   "en": "The points one, two, three, plus one and one, two, three, minus one have identical distances to the origin and to all three axis ends, yet differ by two along a fourth direction. The Gram determinant of the axes and the point equals that residual.",
+   "zh": "点 (1,2,3,1) 与 (1,2,3,−1) 到原点和三个轴端的距离完全相同，却在第四个方向上相差二。三根轴加上这个点的 Gram 行列式，正好等于余量。"
+  },
+  {
+   "i": 8,
+   "scene": "probes",
+   "start": 98.231,
+   "end": 109.357,
+   "en": "Why orthogonal? Read three unit probes and invert exactly. The worst error amplification is one over the square root of the smallest eigenvalue of their Gram matrix.",
+   "zh": "为什么要正交？读三个单位探针再精确反解，最坏的误差放大倍数，是它们 Gram 矩阵最小特征值平方根的倒数。"
+  },
+  {
+   "i": 9,
+   "scene": "probes",
+   "start": 109.957,
+   "end": 122.833,
+   "en": "The trace is three, so that eigenvalue is at most one, and the amplification equals one only when every eigenvalue is one: orthogonal probes. This explains efficiency, not the number three.",
+   "zh": "迹为三，所以这个特征值至多为一；放大倍数等于一，当且仅当所有特征值都是一，也就是探针两两正交。这解释了效率，却没有选出“三”这个数。"
+  },
+  {
+   "i": 10,
+   "scene": "cross",
+   "start": 125.033,
+   "end": 138.373,
+   "en": "The number comes from area. Ask for a bilinear product whose length is the area of the parallelogram, fully alternating, and obeying the Jacobi cycle rule. Then the space has exactly three dimensions.",
+   "zh": "“三”来自面积。要求一个双线性乘积：长度等于平行四边形面积，完全交错，并满足 Jacobi 循环律。那么空间恰好是三维的。"
+  },
+  {
+   "i": 11,
+   "scene": "cross",
+   "start": 138.973,
+   "end": 153.748,
+   "en": "In seven dimensions the octonion product keeps the area law but breaks Jacobi; on an outside direction the cycle misses by at least one. In three, the product is the cross product, up to a sign fixed by orientation.",
+   "zh": "在七维里，八元数乘积保留面积律，却打破了 Jacobi；在一个外部方向上，循环至少差一。在三维里，这个乘积就是叉积，只差一个由定向决定的符号。"
+  },
+  {
+   "i": 12,
+   "scene": "atoms",
+   "start": 155.948,
+   "end": 170.366,
+   "en": "Take the two FIB atoms as orthogonal unit directions a and b. Their ordered product, c equals b times a, is the third axis, and the cycle table closes: c times b is a, and a times c is b.",
+   "zh": "把两个 FIB 原子取作正交单位方向 a 和 b。它们的有序乘积 c = B(b, a) 就是第三根轴，循环表随之闭合：B(c, b) = a，B(a, c) = b。"
+  },
+  {
+   "i": 13,
+   "scene": "atoms",
+   "start": 170.966,
+   "end": 183.745,
+   "en": "Read every tree through this product, and substitution becomes a true rotation of order three. Every ordered tree reads out to just seven values: zero, and plus or minus a, b and c.",
+   "zh": "用这个乘积读出每一棵树，替换就成了一次真正的三阶旋转。每棵有序树的读出只有七个值：零，以及 ±a、±b、±c。"
+  },
+  {
+   "i": 14,
+   "scene": "period",
+   "start": 185.945,
+   "end": 198.861,
+   "en": "Three substitutions bring the readout back to a, yet the tree beta alpha, then beta, is not alpha: its composition is one alpha and two betas. The readout is periodic; the source is not.",
+   "zh": "三次替换让读出回到 a，可树 ⟨⟨β, α⟩, β⟩ 并不是 α：它的组成是一个 alpha、两个 beta。读出有周期，来源没有。"
+  },
+  {
+   "i": 15,
+   "scene": "period",
+   "start": 199.461,
+   "end": 213.542,
+   "en": "Lean has frozen the Clifford version: with A squared one and B squared minus one, the canonical source cycles through exactly six phases, and no rule on the readout alone predicts the substituted readout of every tree.",
+   "zh": "Lean 已冻结 Clifford 版本：取 A² = 1、B² = −1，规范来源恰好循环经过六个相位，而且没有任何只依赖读出的规则，能预测每棵树替换后的读出。"
+  },
+  {
+   "i": 16,
+   "scene": "future",
+   "start": 215.742,
+   "end": 226.166,
+   "en": "Do three current readings decide the whole future? Exactly when the adjoint of every operation keeps the span of the probes. Otherwise a hidden direction comes back.",
+   "zh": "当前三个读数能决定全部未来吗？当且仅当每个操作的伴随都保持探针张成的空间。否则，一个隐藏方向会回来。"
+  },
+  {
+   "i": 17,
+   "scene": "future",
+   "start": 226.766,
+   "end": 237.262,
+   "en": "States zero and e four both read zero, zero, zero. One orthogonal update later they read zero and one: the very next reading cuts the current fibre.",
+   "zh": "态 0 与 e₄ 都读出 (0,0,0)。一次正交更新之后，它们分别读出 0 和 1：下一次读数就切开了当前的纤维。"
+  },
+  {
+   "i": 18,
+   "scene": "quantum",
+   "start": 239.462,
+   "end": 252.575,
+   "en": "Pauli operators give a quantum block of three axes. X Y is i Z while Y X is minus i Z, so they are orthogonal yet do not commute, and their three variances always sum to at least two.",
+   "zh": "Pauli 算符给出一个三轴的量子块。XY = iZ，而 YX = −iZ，它们正交却不对易，三个方差之和总不小于二。"
+  },
+  {
+   "i": 19,
+   "scene": "quantum",
+   "start": 253.175,
+   "end": 265.856,
+   "en": "A CNOT into the same environment, applied twice, returns the plus state; with a fresh environment each time, the state stays fully mixed. Three parameters do not decide history or environment.",
+   "zh": "对同一个环境作两次 CNOT，系统回到 |+⟩；每次换一个新环境，系统就停在完全混合态。三个参数并不决定历史或环境。"
+  },
+  {
+   "i": 20,
+   "scene": "finale",
+   "start": 268.256,
+   "end": 282.931,
+   "en": "Distances build the space, area and Jacobi make it three, two atoms make the third axis, and closure under every operation lets three readings predict the future. Each conclusion holds on the stated common calibration.",
+   "zh": "距离搭出空间，面积与 Jacobi 使它恰为三维，两个原子生出第三根轴，所有操作下的闭合让三个读数预测未来。每个结论都在声明的共同标定下成立。"
+  },
+  {
+   "i": 21,
+   "scene": "finale",
+   "start": 283.531,
+   "end": 300.419,
+   "en": "Lean has frozen the six Clifford phases of the canonical source. The three-axis bridge, the dimension argument and the tree readout are argued in the theory volume with classical distance geometry and vector products, and every number here was recomputed for this film.",
+   "zh": "Lean 已冻结规范来源的六个 Clifford 相位。三轴之桥、维数论证与树的读出在理论卷中论证，并用到经典的距离几何与向量积；这里的每个数字都为这部片子重新计算过。"
+  }
+ ],
+ "duration": 309.419
+}
