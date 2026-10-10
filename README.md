@@ -58,6 +58,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 044 | [AURIC FIB ATOM PYRAMID XV](films/044-triangles/) · 金字塔 XV：关系三角形与反演精度 | 6:43 | EN (AI) / music-only | ZH + EN |
 | 045 | [AURIC FIB ATOM PYRAMID XVI](films/045-polygons/) · 金字塔 XVI：内生分类与多边形几何 | 7:40 | EN (AI) / music-only | ZH + EN |
 | 046 | [AURIC FIB ATOM PYRAMID XVII](films/046-direction/) · 金字塔 XVII：预报的方向 | 6:16 | EN (AI) / music-only | ZH + EN |
+| 047 | [AURIC FIB ATOM PYRAMID XVIII](films/047-hyperbolic/) · 金字塔 XVIII：双曲几何与相位边界 | 5:21 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 
