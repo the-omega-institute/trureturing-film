@@ -1,0 +1,259 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 28.794
+  },
+  {
+   "id": "title",
+   "start": 28.794,
+   "end": 41.542
+  },
+  {
+   "id": "probes",
+   "start": 41.542,
+   "end": 80.006
+  },
+  {
+   "id": "closure",
+   "start": 80.006,
+   "end": 116.453
+  },
+  {
+   "id": "calibrate",
+   "start": 116.453,
+   "end": 155.693
+  },
+  {
+   "id": "ruler",
+   "start": 155.693,
+   "end": 192.686
+  },
+  {
+   "id": "quaternion",
+   "start": 192.686,
+   "end": 227.923
+  },
+  {
+   "id": "trees",
+   "start": 227.923,
+   "end": 267.28
+  },
+  {
+   "id": "finite",
+   "start": 267.28,
+   "end": 302.735
+  },
+  {
+   "id": "monster",
+   "start": 302.735,
+   "end": 338.533
+  },
+  {
+   "id": "loops",
+   "start": 338.533,
+   "end": 375.733
+  },
+  {
+   "id": "finale",
+   "start": 375.733,
+   "end": 419.964
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 15.315,
+   "en": "Part twenty followed one leaf along a line. Part twenty-one asks what a response with three slots, two inputs and one probe, must look like if it treats every rotation fairly.",
+   "zh": "第二十部沿着一条线跟踪了一片叶。第二十一部追问：一个有三个槽的响应，两个输入加一个探针，如果对每一次旋转都一视同仁，它必须长成什么样？"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 15.915,
+   "end": 27.794,
+   "en": "The answer is a volume, and only in three dimensions. Calibrate it and it carries areas, rotations and the whole tree readout, while loops and seams keep what no single frame can erase.",
+   "zh": "答案是体积，而且只在三维。校准之后，它承载面积、旋转和整棵树的读出；而回路与接缝保留着任何单一标架都抹不掉的东西。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 29.994,
+   "end": 36.454,
+   "en": "The Auric FIB atom pyramid, part twenty-one: stable relations and three-dimensional closure.",
+   "zh": "Auric FIB 原子金字塔，第二十一部：稳定关系与三维闭合。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 37.054,
+   "end": 40.142,
+   "en": "Fair to every rotation, only volume survives.",
+   "zh": "对每次旋转都公平，只有体积留下。"
+  },
+  {
+   "i": 4,
+   "scene": "probes",
+   "start": 42.342,
+   "end": 62.192,
+   "en": "Give a metric g and a three-slot response T. Together they fix a unique product B: probe B of u and v with any w, and you read T of u, v and w. Drop the probe and the zero product and the cross product look the same, yet the triple e one, e two, e three reads zero against one.",
+   "zh": "给定度量 g 和三槽响应 T，二者唯一确定一个乘积 B：用任意 w 去探测 B(u, v)，读到的就是 T(u, v, w)。去掉探针，零乘积和叉积看起来一样；可三元组 (e₁, e₂, e₃) 分别读出零和一。"
+  },
+  {
+   "i": 5,
+   "scene": "probes",
+   "start": 62.792,
+   "end": 78.606,
+   "en": "A round sphere is not enough. In every dimension from two up, rotations carry any direction to any other. A response built on a fixed seed reads one at e one and zero at e two: each direction is fair, but the triple contract fails.",
+   "zh": "球形稳定还不够。从二维起的每一个维数，旋转都能把任一方向送到任一方向。建立在固定种子上的响应在 e₁ 读出一、在 e₂ 读出零：单个方向是公平的，三元合同却失败了。"
+  },
+  {
+   "i": 6,
+   "scene": "closure",
+   "start": 80.806,
+   "end": 96.889,
+   "en": "So demand full fairness: rotate all three inputs together and the response must not change. In two dimensions minus the identity is a rotation and kills everything. From four up, flipping two axes at once kills every coefficient.",
+   "zh": "于是要求完全的公平：三个输入一起旋转，响应不能变。在二维，负单位是一次旋转，它消灭一切。从四维起，每次同时翻转两根轴，就能消灭每一个系数。"
+  },
+  {
+   "i": 7,
+   "scene": "closure",
+   "start": 97.489,
+   "end": 115.053,
+   "en": "Only three dimensions survive, and only one shape: T is c times the volume, and B is c times the cross product. Antisymmetry was never assumed; it is forced. A reflection flips the sign, and the seven-dimensional cross product is not fair to every rotation.",
+   "zh": "只有三维幸存，而且只有一种形状：T = c × 体积，B = c × 叉积。反对称从未被假设，它是被迫的。反射会翻转符号；七维叉积并不对每次旋转公平。"
+  },
+  {
+   "i": 8,
+   "scene": "calibrate",
+   "start": 117.253,
+   "end": 132.662,
+   "en": "Divide by the signed constant c and the product C is the calibrated cross product. It is perpendicular to both inputs, its squared length is the Gram determinant, and it measures triangles by one half and tetrahedra by one sixth.",
+   "zh": "除以带符号的常数 c，乘积 C 就是校准后的叉积。它垂直于两个输入，长度平方是 Gram 行列式；用它量三角形要乘二分之一，量四面体要乘六分之一。"
+  },
+  {
+   "i": 9,
+   "scene": "calibrate",
+   "start": 133.262,
+   "end": 154.293,
+   "en": "Sum it around a closed polygon and you get the area vector from any origin. A disc has area r L over two and a ball has volume r S over three. And only in three dimensions do oriented areas and directions have the same count: in four, any linear squeeze loses at least two, and in seven at least fourteen.",
+   "zh": "沿闭合多边形求和，从任意原点都得到面积向量。圆盘面积是 rL/2，球体体积是 rS/3。而只有在三维，有向面积和方向的数目才相同：在四维，线性压缩至少丢掉二维；在七维，至少丢掉十四维。"
+  },
+  {
+   "i": 10,
+   "scene": "ruler",
+   "start": 156.493,
+   "end": 174.165,
+   "en": "The product also gives the rotation generators. L u sends w to u cross w; the trace of L u times L v is minus two g of u and v, and their commutator is L of u cross v. Every infinitesimal rotation is exactly one L u.",
+   "zh": "这个乘积还给出旋转的生成元。L_u 把 w 送到 u × w；L_u L_v 的迹等于 −2g(u, v)，它们的交换子是 L_{u×v}。每一个无穷小旋转恰好是某个 L_u。"
+  },
+  {
+   "i": 11,
+   "scene": "ruler",
+   "start": 174.765,
+   "end": 191.286,
+   "en": "But a volume is not a ruler. The identity metric and diag four, one quarter, one have the same volume form, yet the same two inputs give e one in one and e one over four in the other. The calibration must be supplied, not read off the volume.",
+   "zh": "但体积不是尺子。单位度量与 diag(4, 1/4, 1) 有相同的体积形式，同样的两个输入，却一个给出 e₁、另一个给出 e₁/4。校准必须另行供给，不能从体积里读出来。"
+  },
+  {
+   "i": 12,
+   "scene": "quaternion",
+   "start": 193.486,
+   "end": 211.118,
+   "en": "The cross product alone is not associative: e one cross e one, then cross e two, is zero, but grouping the other way gives minus e two. Keep the contracted term, s t minus g of u and v, beside the area term, and the product becomes the quaternions.",
+   "zh": "单独的叉积不满足结合律：先 e₁ × e₁ 再叉 e₂ 得零，换一种括法却得 −e₂。把收缩项 st − g(u, v) 和面积项放在一起，乘积就成了四元数。"
+  },
+  {
+   "i": 13,
+   "scene": "quaternion",
+   "start": 211.718,
+   "end": 226.523,
+   "en": "Now it is associative, the norm multiplies, and every nonzero element has an inverse. Conjugating by a unit quaternion is exactly the Rodrigues rotation, and q and minus q give the same rotation.",
+   "zh": "现在它满足结合律，范数相乘，每个非零元素都有逆。用单位四元数共轭，恰好就是 Rodrigues 旋转；q 与 −q 给出同一个旋转。"
+  },
+  {
+   "i": 14,
+   "scene": "trees",
+   "start": 228.723,
+   "end": 245.285,
+   "en": "Read every ordered tree in this algebra: alpha is i, beta is j, a pair is the product. Then substituting the tree is a single rotation R of order three on the readout, for every tree, and every value lies in the eight-element quaternion group.",
+   "zh": "在这个代数里读出每一棵有序树：alpha 是 i，beta 是 j，配对就是乘积。于是对每一棵树，替换都只是读出上的一个三阶旋转 R，而每个值都落在八元四元数群里。"
+  },
+  {
+   "i": 15,
+   "scene": "trees",
+   "start": 245.885,
+   "end": 265.88,
+   "en": "The readout forgets. Two bracketings of alpha alpha beta both give minus j, and alpha alpha and beta beta both give minus one, though their quantities are four and six. With chosen representatives the five modes read one, a, b, c and minus b, and the null window still moves two, one to four, seven.",
+   "zh": "读出会遗忘。alpha alpha beta 的两种括法都给出 −j；alpha alpha 与 beta beta 都给出 −1，可它们的数量是四和六。选定代表后，五种模式读出 1、a、b、c 和 −b；而空窗口依然把 (2, 1) 推到 (4, 7)。"
+  },
+  {
+   "i": 16,
+   "scene": "finite",
+   "start": 268.08,
+   "end": 282.911,
+   "en": "A finite check is enough for third order. Signed permutations of the axes with determinant one form a finite group, and its fixed three-slot tensors are zero in every dimension except three, where only the volume line remains.",
+   "zh": "对三阶来说，有限检查就够了。行列式为一的带符号坐标置换组成一个有限群，它的不动三槽张量除三维外全是零；在三维，只剩体积这一条线。"
+  },
+  {
+   "i": 17,
+   "scene": "finite",
+   "start": 283.511,
+   "end": 301.335,
+   "en": "Average over the group and the distance to the volume line is at most the largest defect. But the check stops at third order: x to the fourth plus y to the fourth plus z to the fourth passes every signed permutation and still reads one on an axis and one third on the diagonal.",
+   "zh": "对整个群取平均，到体积线的距离不超过最大缺陷。但这个检查止于三阶：x⁴ + y⁴ + z⁴ 通过每一个带符号置换，却在坐标轴上读出一、在对角线上读出三分之一。"
+  },
+  {
+   "i": 18,
+   "scene": "monster",
+   "start": 303.535,
+   "end": 317.76,
+   "en": "Compare a second real system. The first layer of the moonshine algebra has a positive metric and a symmetric cubic on one hundred ninety-six thousand eight hundred eighty-three dimensions, and the group keeping both is the Monster.",
+   "zh": "再比较另一个真实系统。月光代数的第一层，在 196883 维上有一个正定度量和一个对称三次型，同时保持二者的群正是 Monster。"
+  },
+  {
+   "i": 19,
+   "scene": "monster",
+   "start": 318.36,
+   "end": 337.133,
+   "en": "A symmetric cubic that is fair to every rotation must vanish, so this one is not rotation fair. One system is commutative but not associative with the Monster; the other is associative but not commutative with rotations. Two labels and a dimension count do not build the Monster.",
+   "zh": "一个对每次旋转都公平的对称三次型必须为零，所以它并不对旋转公平。一个系统交换却不结合，对应 Monster；另一个结合却不交换，对应旋转。两个标签加一个维数，搭不出 Monster。"
+  },
+  {
+   "i": 20,
+   "scene": "loops",
+   "start": 339.333,
+   "end": 359.836,
+   "en": "Invariant pieces joined along typed seams stay invariant; a volume node contracted twice gives twice the metric. But every closed walk is trivial exactly when one global frame turns every edge into the identity. Lean has frozen the additive version: zero on every loop means a difference of potentials.",
+   "zh": "沿着有类型的接缝拼接不变的部件，结果仍然不变；一个体积节点收缩两次，得到两倍度量。但所有闭合走法都平凡，当且仅当一个全局标架能把每条边变成单位。Lean 已冻结加法版本：每个回路都为零，就等于一个势的差。"
+  },
+  {
+   "i": 21,
+   "scene": "loops",
+   "start": 360.436,
+   "end": 374.333,
+   "en": "Two parallel edges, one plain and one turned by R, plus a self loop turned by R: every edge keeps metric and volume, yet the loop through both edges carries R inverse, and no change of frame removes it.",
+   "zh": "两条平行边，一条不转、一条转了 R，再加一个转 R 的自环：每条边都保度量与体积，可穿过两条边的回路携带 R⁻¹，任何标架变换都消不掉它。"
+  },
+  {
+   "i": 22,
+   "scene": "finale",
+   "start": 376.733,
+   "end": 392.219,
+   "en": "A response fair to every rotation chooses three dimensions and a volume. Calibrated, it measures areas, generates rotations, becomes the quaternions and reads every tree, while loops keep a record that local closure cannot erase.",
+   "zh": "一个对每次旋转都公平的响应，选择了三维和体积。校准之后，它量面积、生成旋转、成为四元数并读出每一棵树；而回路保留着局部闭合抹不掉的记录。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 392.819,
+   "end": 410.964,
+   "en": "Lean has frozen the additive loop law. The selection, calibration, tree readout, finite check and network bridges are argued in the theory volume with classical cross products and quaternions, the Monster identification is published, and every number here was recomputed for this film.",
+   "zh": "Lean 已冻结加法形式的回路律。维数选择、校准、树的读出、有限检查与网络之桥在理论卷中论证，并用到经典的叉积与四元数；Monster 的识别是已发表的结果；这里的每个数字都为这部片子重新计算过。"
+  }
+ ],
+ "duration": 419.964
+}
