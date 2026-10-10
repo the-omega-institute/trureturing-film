@@ -63,6 +63,7 @@ number, e.g. `TRURETURING_010_720p_narrated.mp4`, `TRURETURING_010_cover.jpg`.
 | 049 | [AURIC FIB ATOM PYRAMID XX](films/049-lineage/) · 金字塔 XX：单支系分割几何 | 6:49 | EN (AI) / music-only | ZH + EN |
 | 050 | [AURIC FIB ATOM PYRAMID XXI](films/050-closure/) · 金字塔 XXI：稳定关系与三维闭合 | 6:59 | EN (AI) / music-only | ZH + EN |
 | 051 | [AURIC FIB ATOM PYRAMID XXII](films/051-boundary/) · 金字塔 XXII：原子边界演算 | 7:24 | EN (AI) / music-only | ZH + EN |
+| 052 | [AURIC FIB ATOM PYRAMID XXIII](films/052-seams/) · 金字塔 XXIII：接缝、闭路与算术边界 | 8:10 | EN (AI) / music-only | ZH + EN |
 
 ## Layout · 结构
 

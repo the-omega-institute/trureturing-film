@@ -1,0 +1,309 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 28.118
+  },
+  {
+   "id": "title",
+   "start": 28.118,
+   "end": 39.432
+  },
+  {
+   "id": "corners",
+   "start": 39.432,
+   "end": 73.793
+  },
+  {
+   "id": "kernel",
+   "start": 73.793,
+   "end": 112.85
+  },
+  {
+   "id": "phases",
+   "start": 112.85,
+   "end": 144.413
+  },
+  {
+   "id": "coupling",
+   "start": 144.413,
+   "end": 178.874
+  },
+  {
+   "id": "glue",
+   "start": 178.874,
+   "end": 216.738
+  },
+  {
+   "id": "cycles",
+   "start": 216.738,
+   "end": 252.089
+  },
+  {
+   "id": "primitive",
+   "start": 252.089,
+   "end": 286.418
+  },
+  {
+   "id": "d5040",
+   "start": 286.418,
+   "end": 322.765
+  },
+  {
+   "id": "robin",
+   "start": 322.765,
+   "end": 365.125
+  },
+  {
+   "id": "certificate",
+   "start": 365.125,
+   "end": 415.036
+  },
+  {
+   "id": "limits",
+   "start": 415.036,
+   "end": 441.028
+  },
+  {
+   "id": "finale",
+   "start": 441.028,
+   "end": 490.6
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 17.941,
+   "en": "Part twenty-two rebuilt the inside of a box from its boundary. Part twenty-three glues boxes together along seams, closes them into cycles, and carries the same corners all the way to Robin's inequality.",
+   "zh": "第二十二部从边界重建了盒子的内部。第二十三部把盒子沿接缝粘起来，把它们闭合成环，再把同样的角点一路带到 Robin 不等式。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 18.541,
+   "end": 27.118,
+   "en": "Each step keeps what the next one needs: the guards, the cut, the direction and the shared scale. Lose one and the readout no longer comes back.",
+   "zh": "每一步都保留下一步所需的东西：守卫、切口、方向和共享尺度。丢掉一个，读出就再也回不来。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 29.318,
+   "end": 35.546,
+   "en": "The Auric FIB atom pyramid, part twenty-three: seams, cycles and arithmetic boundaries.",
+   "zh": "Auric FIB 原子金字塔，第二十三部：接缝、闭路与算术边界。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 36.146,
+   "end": 38.032,
+   "en": "Glue along the seam, keep the cut.",
+   "zh": "沿接缝粘合，留住切口。"
+  },
+  {
+   "i": 4,
+   "scene": "corners",
+   "start": 40.232,
+   "end": 53.566,
+   "en": "A response that is affine in each direction separately is fixed by its corners: two endpoints for a segment, four for a square, eight for a cube. Its average over the box is the plain average of those corners.",
+   "zh": "一个在每个方向上分别仿射的响应，由它的角点决定：线段要两个端点，方形要四个角，立方体要八个角。它在盒子上的平均，就是这些角点的普通平均。"
+  },
+  {
+   "i": 5,
+   "scene": "corners",
+   "start": 54.166,
+   "end": 72.393,
+   "en": "Change the model and the readout changes with it. On a simplex an affine response averages its vertices with weight volume over d plus one. And a bubble that vanishes on the whole boundary of the cube still integrates to one over two hundred sixteen, so corners alone never see it.",
+   "zh": "换了模型，读出也随之改变。在单纯形上，仿射响应按“体积除以 d + 1”的权重平均它的顶点。而一个在立方体整个边界上都为零的气泡，积分仍是 1/216，所以单靠角点永远看不见它。"
+  },
+  {
+   "i": 6,
+   "scene": "kernel",
+   "start": 74.593,
+   "end": 91.423,
+   "en": "Now the five FIB modes. A window has three places, weighted x, y and z; the legal modes are empty, two, three, five and the joint mode two-five with weight x z. Each place is a two by two block, B of t equals one, t, one, zero.",
+   "zh": "现在看 FIB 的五种模式。一个窗口有三个位置，权重分别是 x、y、z；合法模式是空、[2]、[3]、[5]，以及权重为 xz 的联合模式 [25]。每个位置是一个二乘二的块：B(t) = [[1, t], [1, 0]]。"
+  },
+  {
+   "i": 7,
+   "scene": "kernel",
+   "start": 92.023,
+   "end": 111.45,
+   "en": "Their product is the kernel: one plus x plus y, z plus x z, one plus y, and z, with determinant minus x y z. Every entry is affine in each weight, so eight corners rebuild it, and averaging over the cube gives eleven over four for the open readout and five over two for the trace.",
+   "zh": "它们的乘积就是核：1 + x + y、z + xz、1 + y 和 z，行列式为 −xyz。每个元素对每个权重都是仿射的，所以八个角点就能重建它；在立方体上取平均，开放读出得 11/4，迹得 5/2。"
+  },
+  {
+   "i": 8,
+   "scene": "phases",
+   "start": 113.65,
+   "end": 123.139,
+   "en": "Use the same weight twice and the rule breaks: B of t cubed carries t plus t squared, no longer affine. The parameters must stay independent.",
+   "zh": "同一个权重用两次，规则就失效了：B(t)³ 里出现 t + t²，不再是仿射的。参数必须保持独立。"
+  },
+  {
+   "i": 9,
+   "scene": "phases",
+   "start": 123.739,
+   "end": 143.013,
+   "en": "Independent signs recover everything. Eight sign patterns, one per corner of the cube, return every coefficient of every entry. A single shared phase does not: one plus U and one plus V agree whenever all phases are equal, yet at minus one, one, one they read zero against two.",
+   "zh": "独立的符号能恢复一切。八种符号组合，每种对应立方体的一个角，能取回每个元素的每个系数。单一的共享相位却不行：1 + U 与 1 + V 在所有相位都相同时一致，但在 (−1, 1, 1) 处分别读出 0 和 2。"
+  },
+  {
+   "i": 10,
+   "scene": "coupling",
+   "start": 145.213,
+   "end": 162.661,
+   "en": "Set every weight to one and a whole window becomes A equals Q cubed: three, two, two, one. Its determinant is minus one, so L windows have determinant minus one to the L. The seam couples both ends, and no product of one-sided responses can match it.",
+   "zh": "把每个权重都设为一，一整个窗口就变成 A = Q³：[[3, 2], [2, 1]]。它的行列式是 −1，所以 L 个窗口的行列式是 (−1)ᴸ。接缝同时耦合两端，任何单端响应的乘积都无法与之相符。"
+  },
+  {
+   "i": 11,
+   "scene": "coupling",
+   "start": 163.261,
+   "end": 177.474,
+   "en": "Divide by phi to the three L and the matrix converges to a rank-one projector. The determinant goes to zero, but every finite stack is still invertible, with an exact correction of size phi to the minus six L.",
+   "zh": "除以 φ³ᴸ，矩阵收敛到一个秩一投影。行列式趋于零，但每一个有限的堆叠仍然可逆，带着一个大小为 φ⁻⁶ᴸ 的精确修正。"
+  },
+  {
+   "i": 12,
+   "scene": "glue",
+   "start": 179.674,
+   "end": 197.969,
+   "en": "Cut and glue. An open chain of three places reads one plus x plus y plus z plus x z. Close it into a triangle and the trace reads one plus x plus y plus z: the word one zero one now puts two ones side by side across the seam, so it is excluded.",
+   "zh": "剪开与粘合。由三个位置组成的开放链读出 1 + x + y + z + xz。把它闭合成三角形，迹读出 1 + x + y + z：词 101 现在隔着接缝让两个一相邻，所以被排除。"
+  },
+  {
+   "i": 13,
+   "scene": "glue",
+   "start": 198.569,
+   "end": 215.338,
+   "en": "Twelve weighted sequences in the volume check this rule, from a single place up to five places weighing two, one, three, zero and two, which read thirty-nine open and twenty-three closed. The cut must be kept: the open number does not tell you the closed one.",
+   "zh": "卷中十二个带权序列检验了这条规则，从单个位置，一直到权重为 2、1、3、0、2 的五个位置：开放读出 39，闭合读出 23。切口必须保留：开放的数并不告诉你闭合的数。"
+  },
+  {
+   "i": 14,
+   "scene": "cycles",
+   "start": 217.538,
+   "end": 234.306,
+   "en": "Close a chain of N places with every weight one and count the legal cycles with a marked start. The answer is the trace of Q to the N, the Lucas numbers: one, three, four, seven, eleven, eighteen. Every case up to fourteen was enumerated for this film.",
+   "zh": "把 N 个位置闭合成环，所有权重为一，数一数带起点的合法循环。答案是 Q 的 N 次幂的迹，也就是 Lucas 数：1、3、4、7、11、18。直到 14 的每一种情形，都为这部片子逐一枚举过。"
+  },
+  {
+   "i": 15,
+   "scene": "cycles",
+   "start": 234.906,
+   "end": 250.689,
+   "en": "Package them as a zeta function, the exponential of the sum of C N t to the N over N. It equals one over one minus t minus t squared, the Fibonacci generating function, absolutely for t smaller than one over phi.",
+   "zh": "把它们打包成一个 ζ 函数：exp(Σ C_N tᴺ/N)。它等于 1/(1 − t − t²)，正是 Fibonacci 的生成函数；当 t 小于 1/φ 时绝对成立。"
+  },
+  {
+   "i": 16,
+   "scene": "primitive",
+   "start": 252.889,
+   "end": 269.765,
+   "en": "A cycle with a marked start may repeat a shorter cycle. Möbius inversion over the divisors of N removes the repeats and leaves P N, the cycles of exact period N; dividing by N removes the free rotation and leaves a N, the necklaces.",
+   "zh": "带起点的循环可能是更短循环的重复。对 N 的约数作 Möbius 反演，去掉这些重复，剩下 P_N，即恰好周期为 N 的循环；再除以 N 去掉自由旋转，剩下 a_N，即项链数。"
+  },
+  {
+   "i": 17,
+   "scene": "primitive",
+   "start": 270.365,
+   "end": 285.018,
+   "en": "The necklaces run one, one, one, one, two, two, four, five, eight, eleven, eighteen. Multiply one over one minus t to the d, raised to a d, over every d, and the Fibonacci numbers come back term by term.",
+   "zh": "项链数依次是 1、1、1、1、2、2、4、5、8、11、18。把每个 d 的 (1 − tᵈ)^(−a_d) 乘起来，Fibonacci 数就一项一项地回来了。"
+  },
+  {
+   "i": 18,
+   "scene": "d5040",
+   "start": 287.218,
+   "end": 307.939,
+   "en": "Five thousand and forty again. The same sixteen Möbius signs over the divisors of two hundred ten serve two different targets. Applied to cycle counts, they give the primitive cycles of period five thousand and forty: a positive integer with one thousand fifty-four digits, divisible by five thousand and forty.",
+   "zh": "又是 5040。210 的约数上的同一组十六个 Möbius 符号，服务两个不同的目标。用在循环计数上，它们给出周期为 5040 的本原循环：一个 1054 位的正整数，能被 5040 整除。"
+  },
+  {
+   "i": 19,
+   "scene": "d5040",
+   "start": 308.539,
+   "end": 321.365,
+   "en": "Applied to sigma over n, the same signs return the top divisor atom, exactly one over five thousand and forty. Same inversion, different target atom; the task decides what comes back.",
+   "zh": "用在 σ(n)/n 上，同样的符号精确地取回顶端约数原子：1/5040。同一个反演，不同的目标原子；取回什么，由任务决定。"
+  },
+  {
+   "i": 20,
+   "scene": "robin",
+   "start": 323.565,
+   "end": 343.554,
+   "en": "Now Robin's margin as a response on the integers: G of n is log of sigma over n, minus gamma, minus log log log n. Above five thousand and forty, Robin's inequality says G is negative. Multiply n by a prime p, by a prime q, by both: four corners from the same n.",
+   "zh": "现在把 Robin 裕度看成整数上的响应：G(n) = log(σ(n)/n) − γ − log log log n。在 5040 之上，Robin 不等式说的是 G 为负。把 n 乘以素数 p、乘以素数 q、或同时乘以两者：四个角，都来自同一个 n。"
+  },
+  {
+   "i": 21,
+   "scene": "robin",
+   "start": 344.154,
+   "end": 363.725,
+   "en": "The divisor part splits cleanly, because sigma over n is multiplicative. What is left of the four-corner gap is a positive rectangle integral of h, minus the second derivative of log log. With more primes the signs alternate: eight corners give a negative gap, sixteen a positive one.",
+   "zh": "约数部分干净地分开，因为 σ(n)/n 是积性的。四角缺口剩下的，是 h 的一个正的矩形积分，h 是 log log 的二阶导数取负。素数更多时，符号交替出现：八个角给出负缺口，十六个角给出正缺口。"
+  },
+  {
+   "i": 22,
+   "scene": "certificate",
+   "start": 365.925,
+   "end": 391.22,
+   "en": "So the corners give an upper certificate. Start at ten thousand and eighty, multiply by two and by three. The three boundary integers alone give sigma over n at sixty thousand four hundred eighty, two hundred fifty-four over sixty-three. Bound the rectangle by its largest height and the budget U is about minus zero point zero five seven, so G of sixty thousand four hundred eighty is negative.",
+   "zh": "于是这些角给出一份上界证书。从 10080 出发，分别乘以二和乘以三。单靠三个边界整数，就得到 60480 处的 σ(n)/n = 254/63。把矩形按它的最大高度来估，预算 U 约为 −0.057，所以 G(60480) 为负。"
+  },
+  {
+   "i": 23,
+   "scene": "certificate",
+   "start": 391.82,
+   "end": 403.61,
+   "en": "Lean has frozen the seven-smooth case of Robin's inequality, and sixty thousand four hundred eighty, two to the sixth times three cubed times five times seven, is one of those numbers.",
+   "zh": "Lean 已冻结 Robin 不等式的七光滑情形，而 60480 = 2⁶·3³·5·7 正是这样的数。"
+  },
+  {
+   "i": 24,
+   "scene": "certificate",
+   "start": 404.21,
+   "end": 413.636,
+   "en": "Robin's criterion itself is published: the inequality for every n above five thousand and forty is equivalent to the Riemann hypothesis.",
+   "zh": "Robin 判据本身是已发表的结果：对每个大于 5040 的 n 成立这一不等式，等价于黎曼猜想。"
+  },
+  {
+   "i": 25,
+   "scene": "limits",
+   "start": 415.836,
+   "end": 426.033,
+   "en": "A certificate is a sufficient bound for one integer, not an inversion of arithmetic history, and it gives no global sign. For all n the question stays open.",
+   "zh": "证书只是对一个整数的充分上界，不是对算术历史的反演，也不给出全局符号。对所有 n，这个问题仍然开放。"
+  },
+  {
+   "i": 26,
+   "scene": "limits",
+   "start": 426.633,
+   "end": 439.628,
+   "en": "Classical readouts also stop at coherence. Two quantum states with the same diagonal, one half and one half, read one half and one on the plus state. No count of corners or cycles tells them apart.",
+   "zh": "经典读出也止步于相干性。两个对角线相同、都是一半一半的量子态，在 + 态上分别读出 1/2 和 1。任何角点或循环的计数都无法把它们区分开。"
+  },
+  {
+   "i": 27,
+   "scene": "finale",
+   "start": 442.028,
+   "end": 457.154,
+   "en": "Corners rebuild affine responses, seams keep both ends, cuts separate open from closed, cycles count Lucas numbers, Möbius signs remove repeats, and the same corners bound Robin's margin with a positive rectangle.",
+   "zh": "角点重建仿射响应，接缝保住两端，切口把开放与闭合分开，循环数出 Lucas 数，Möbius 符号去掉重复，而同样的角点用一个正的矩形去约束 Robin 裕度。"
+  },
+  {
+   "i": 28,
+   "scene": "finale",
+   "start": 457.754,
+   "end": 481.6,
+   "en": "Lean has frozen Robin's inequality for every seven-smooth number above five thousand and forty. The kernel, the seams, the cycles and the corner certificate are argued in the theory volume with classical interpolation, trace formulas and Möbius inversion, Robin's criterion is published, the general case is open, and every number here was recomputed for this film.",
+   "zh": "Lean 已冻结：每个大于 5040 的七光滑数都满足 Robin 不等式。核、接缝、循环与角点证书在理论卷中论证，并用到经典的插值、迹公式与 Möbius 反演；Robin 判据是已发表的结果；一般情形仍然开放；这里的每个数字都为这部片子重新计算过。"
+  }
+ ],
+ "duration": 490.6
+}
