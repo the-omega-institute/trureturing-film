@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 24.999
+  },
+  {
+   "id": "title",
+   "start": 24.999,
+   "end": 36.502
+  },
+  {
+   "id": "completion",
+   "start": 36.502,
+   "end": 75.307
+  },
+  {
+   "id": "counts",
+   "start": 75.307,
+   "end": 92.542
+  },
+  {
+   "id": "blind",
+   "start": 92.542,
+   "end": 124.663
+  },
+  {
+   "id": "odds",
+   "start": 124.663,
+   "end": 156.453
+  },
+  {
+   "id": "same",
+   "start": 156.453,
+   "end": 197.57
+  },
+  {
+   "id": "windows",
+   "start": 197.57,
+   "end": 234.993
+  },
+  {
+   "id": "phase",
+   "start": 234.993,
+   "end": 274.442
+  },
+  {
+   "id": "response",
+   "start": 274.442,
+   "end": 312.877
+  },
+  {
+   "id": "depth",
+   "start": 312.877,
+   "end": 347.173
+  },
+  {
+   "id": "sufficiency",
+   "start": 347.173,
+   "end": 375.654
+  },
+  {
+   "id": "finale",
+   "start": 375.654,
+   "end": 424.172
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 18.879,
+   "en": "Part twenty-seven asked what the future needs. Part twenty-eight asks what one more reading buys: which single observation completes the pyramid, what two windows hide between them, and when a response can see the hidden joint mass kappa.",
+   "zh": "第二十七部追问未来需要什么。第二十八部追问多一个读数能换来什么：哪一个观测能补全金字塔，两个窗口之间藏着什么，以及一个响应什么时候能看见隐藏的联合质量 κ。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 19.479,
+   "end": 23.999,
+   "en": "One extra mean, twelve hidden cycles, and one four-corner number decide it.",
+   "zh": "一个额外的均值，十二个隐藏循环，以及一个四角数，决定了这一切。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 26.199,
+   "end": 33.427,
+   "en": "The Auric FIB atom pyramid, part twenty-eight: joint projection, multi-window order and response fibres.",
+   "zh": "Auric FIB 原子金字塔，第二十八部：联合投影、多窗口次序与响应纤维。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 34.027,
+   "end": 35.102,
+   "en": "One more reading.",
+   "zh": "再多一个读数。"
+  },
+  {
+   "i": 4,
+   "scene": "completion",
+   "start": 37.302,
+   "end": 53.378,
+   "en": "The three occupancy means X, Y and Z leave a segment of laws, along the direction one, minus one, zero, minus one, one. Add one more mean: W, the expected value of z plus x y, which equals Z plus kappa.",
+   "zh": "三个占位均值 X、Y、Z 留下一段概率律，沿方向 (1, −1, 0, −1, 1)。再加一个均值：W，即 z + xy 的期望，等于 Z + κ。"
+  },
+  {
+   "i": 5,
+   "scene": "completion",
+   "start": 53.978,
+   "end": 73.907,
+   "en": "Now X, Y, Z and W fix all five probabilities, through an affine map with determinant minus one, and kappa is W minus Z. The view X, Y, W has its own blind direction, two, minus one, minus one, minus one, one, and the two blind directions meet only at zero.",
+   "zh": "现在 X、Y、Z、W 确定了全部五个概率，这是一个行列式为 −1 的仿射映射，并且 κ = W − Z。读数 X、Y、W 也有自己的盲方向 (2, −1, −1, −1, 1)，两条盲方向只在零点相交。"
+  },
+  {
+   "i": 6,
+   "scene": "counts",
+   "start": 76.107,
+   "end": 91.142,
+   "en": "Because the determinant is minus one, the same map works on integer counts: its inverse has only integer entries. And an error delta in W moves the law exactly along the hidden direction, by total variation two delta.",
+   "zh": "因为行列式是 −1，同一个映射对整数计数也成立：它的逆矩阵只有整数元素。W 上大小为 δ 的误差，恰好让概率律沿隐藏方向移动，全变差为 2δ。"
+  },
+  {
+   "i": 7,
+   "scene": "blind",
+   "start": 93.342,
+   "end": 110.497,
+   "en": "Which single readout sees kappa? Its four-corner contrast J must be nonzero: null plus joint, minus the two ends. The quantity zero, two, three, five, seven has J equal to zero; the closure indicator z plus x y has J equal to one.",
+   "zh": "哪一个单一读数能看见 κ？它的四角对比 J 必须不为零：null 加联合，减去两端。数量 0、2、3、5、7 的 J 为零；闭包指示 z + xy 的 J 为一。"
+  },
+  {
+   "i": 8,
+   "scene": "blind",
+   "start": 111.097,
+   "end": 123.263,
+   "en": "The volume proves more: any additive quantity, zero on the null mode and with the joint value equal to the sum of the two ends, has J equal to zero. Adding things up never sees kappa.",
+   "zh": "理论卷证明了更多：任何可加的数量——在 null 上为零，联合模式的值等于两端之和——其 J 都为零。单纯相加永远看不见 κ。"
+  },
+  {
+   "i": 9,
+   "scene": "odds",
+   "start": 125.463,
+   "end": 142.883,
+   "en": "Can an update create the hidden relation? Multiply each mode by a main-effect likelihood, lambda times u to the x, v to the y, t to the z. The four-corner determinant is multiplied by lambda squared u v, and the odds ratio stays exactly the same.",
+   "zh": "一次更新能否制造出隐藏关系？给每个模式乘上主效应似然 λ·u^x·v^y·t^z。四角行列式被乘以 λ²uv，而优势比完全不变。"
+  },
+  {
+   "i": 10,
+   "scene": "odds",
+   "start": 143.483,
+   "end": 155.053,
+   "en": "Only a joint factor, eta to the x y, moves it, multiplying the odds ratio by eta. Main effects cannot create interaction; that needs a reading of the pair itself.",
+   "zh": "只有联合因子 η^(xy) 能移动它，把优势比乘以 η。主效应不能制造交互；那需要对这一对本身的读数。"
+  },
+  {
+   "i": 11,
+   "scene": "same",
+   "start": 157.253,
+   "end": 177.289,
+   "en": "Two laws make this concrete: one tenth, three tenths, one fifth, three tenths, one tenth, against three tenths, one tenth, one fifth, one tenth, three tenths. Both have X and Y equal to 0.4 and Z equal to 0.2, but kappa is 0.1 in one and 0.3 in the other.",
+   "zh": "两条概率律让这一点具体起来：(0.1, 0.3, 0.2, 0.3, 0.1) 对比 (0.3, 0.1, 0.2, 0.1, 0.3)。两者的 X、Y 都是 0.4，Z 都是 0.2，但 κ 一个是 0.1，一个是 0.3。"
+  },
+  {
+   "i": 12,
+   "scene": "same",
+   "start": 177.889,
+   "end": 196.17,
+   "en": "Both see the coarse record three, five or joint with probability 0.6. Continue with a five, and the chance of rejection is one sixth for the first and one half for the second. The independence guess, kappa star equals X Y over r, predicts one third for both.",
+   "zh": "两者看到粗记录“[3]、[5] 或联合”的概率都是 0.6。再接上一个 [5]，拒绝的概率前者是 1/6，后者是 1/2。独立性猜测 κ* = XY/r 对两者都预测 1/3。"
+  },
+  {
+   "i": 13,
+   "scene": "windows",
+   "start": 198.37,
+   "end": 219.455,
+   "en": "Now two windows side by side. The seam guard forbids a low end in the first window together with a high end in the second: twenty-five ordered pairs minus four illegal ones leaves twenty-one legal cells. With a the chance of that low end and b the chance of that high end, a joint law exists exactly when a plus b is at most one.",
+   "zh": "现在把两个窗口并排。接缝守卫禁止第一窗口的低端与第二窗口的高端同时出现：二十五个有序对减去四个非法对，剩下二十一个合法格。记 a 为该低端的概率、b 为该高端的概率，联合律存在当且仅当 a + b ≤ 1。"
+  },
+  {
+   "i": 14,
+   "scene": "windows",
+   "start": 220.055,
+   "end": 233.593,
+   "en": "Fix both window laws and the twenty-one cells still leave twelve free directions, twelve hidden cycles, each a four-corner swap with the null cell. The seam is not one bit; it is a twelve-dimensional space.",
+   "zh": "固定两个窗口的概率律后，二十一个格仍然留下十二个自由方向，即十二个隐藏循环，每一个都是与 null 格的一次四角交换。接缝不是一个比特，而是一个十二维空间。"
+  },
+  {
+   "i": 15,
+   "scene": "phase",
+   "start": 235.793,
+   "end": 255.663,
+   "en": "Give the end records coherent amplitudes and a new invariant appears: the phase Phi, theta null plus theta joint minus the two end phases. The squared determinant of the amplitude matrix splits into a classical part, which vanishes when delta is zero, plus a term in sine squared of Phi over two.",
+   "zh": "如果端点记录带有相干振幅，就会出现一个新的不变量：相位 Φ = θ_null + θ₁₃ − θ₁ − θ₃。振幅矩阵行列式的平方分解成一个经典部分（Δ = 0 时消失），加上一个含 sin²(Φ/2) 的项。"
+  },
+  {
+   "i": 16,
+   "scene": "phase",
+   "start": 256.263,
+   "end": 273.042,
+   "en": "Five probabilities cannot recover Phi; that needs interference or a common phase reference. For a normalized pure two-qubit state, twice the absolute determinant is Wootters' concurrence, so delta equal to zero is still not the same as no entanglement.",
+   "zh": "五个概率无法恢复 Φ；那需要干涉或共同的相位参考。对于归一化的纯两量子比特态，行列式绝对值的两倍就是 Wootters 的 concurrence，所以 Δ = 0 仍不等于没有纠缠。"
+  },
+  {
+   "i": 17,
+   "scene": "response",
+   "start": 275.242,
+   "end": 295.151,
+   "en": "The rule extends to whole futures. Give every mode a response vector, a list of event probabilities. The averaged response sees kappa through the vector J L, null plus joint minus the two ends: with the three means, the kernel has dimension zero when J L is nonzero and one when it vanishes.",
+   "zh": "这条规则可以推广到整个未来。给每个模式一个响应向量，即一列事件概率。平均响应通过向量 J_L（null 加联合减两端）看见 κ：与三个均值合在一起，J_L 不为零时核的维数为零，J_L 为零时为一。"
+  },
+  {
+   "i": 18,
+   "scene": "response",
+   "start": 295.751,
+   "end": 311.477,
+   "en": "So on a segment of positive width, the full future law recovers kappa exactly when some future event has a nonzero four-corner difference. Recovering the read counts is a different job: a future that pins the counts need not pin kappa.",
+   "zh": "因此在正宽度的线段上，完整未来律恢复 κ，当且仅当某个未来事件的四角差不为零。恢复读取计数是另一件事：能锁定计数的未来，未必能锁定 κ。"
+  },
+  {
+   "i": 19,
+   "scene": "depth",
+   "start": 313.677,
+   "end": 323.139,
+   "en": "Lean has frozen how the hidden depth updates: conditioning on a native history leaves the same model, with the depth prior replaced by its posterior.",
+   "zh": "Lean 已冻结隐藏深度如何更新：以一段原生历史为条件，得到的仍是同一个模型，只是深度先验被它的后验取代。"
+  },
+  {
+   "i": 20,
+   "scene": "depth",
+   "start": 323.739,
+   "end": 345.773,
+   "en": "Couple modes to depth, and the cross-ratio of two modes at two depths is r i over r j to the power A I minus A J, times s i over s j to the power B I minus B J. By the integer kernel, it equals one for every pair exactly when all modes carry the same read counts; otherwise mode and depth are tied.",
+   "zh": "把模式与深度耦合：两个模式在两个深度上的交比，等于 rᵢ/rⱼ 的 (A_I − A_J) 次幂，乘以 sᵢ/sⱼ 的 (B_I − B_J) 次幂。由整数核，它对每一对都等于一，当且仅当所有模式的读取计数相同；否则模式与深度就相互关联。"
+  },
+  {
+   "i": 21,
+   "scene": "sufficiency",
+   "start": 347.973,
+   "end": 359.931,
+   "en": "Three kinds of sufficiency must be kept apart: P and W recover the static law, the future recovers the read counts, and neither recovers the observer's full history or ancestry.",
+   "zh": "必须区分三种充分性：P 与 W 恢复静态概率律，未来恢复读取计数，而两者都恢复不了观察者的完整历史或祖先结构。"
+  },
+  {
+   "i": 22,
+   "scene": "sufficiency",
+   "start": 360.531,
+   "end": 374.254,
+   "en": "The volume closes with a conjectured chain of readouts, each level listing what it can still miss, and with candidate bridges to clocks, decay and light. These remain open; what is checked here is the finite algebra.",
+   "zh": "理论卷最后给出一条猜想中的读数链，每一层都列出它仍可能遗漏的东西，并提出通向时钟、衰变与光的候选桥梁。这些仍然开放；这里核对的，是有限的代数。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 376.654,
+   "end": 393.803,
+   "en": "One closure mean completes the pyramid, counts stay integral, additive quantities and main effects stay blind, two windows hide twelve cycles, a coherent phase hides behind the probabilities, and every response sees kappa only through its four-corner contrast.",
+   "zh": "一个闭包均值补全了金字塔，计数保持整数，可加数量与主效应始终是盲的，两个窗口藏着十二个循环，一个相干相位藏在概率背后，而每个响应都只能通过它的四角对比看见 κ。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 394.403,
+   "end": 415.172,
+   "en": "Lean has frozen the posterior update of the hidden depth. The completion, the blindness results, the window cycles, the response rule and the cross-ratio are argued in the theory volume with classical odds ratios, transportation polytopes and Wootters' concurrence; the bridges are open; and every number here was recomputed.",
+   "zh": "Lean 已冻结隐藏深度的后验更新。补全、盲性结果、窗口循环、响应规则与交比在理论卷中论证，并用到经典的优势比、运输多面体与 Wootters 的 concurrence；桥梁仍然开放；这里的每个数字都重新计算过。"
+  }
+ ],
+ "duration": 424.172
+}
