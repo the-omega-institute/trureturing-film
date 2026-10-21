@@ -79,6 +79,7 @@ Release page.
 | 060 | [AURIC FIB ATOM PYRAMID XXXI](films/060-seamhierarchy/) · 金字塔 XXXI：对称混合、路径缺陷与 Fibonacci 层级 | 5:55 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 163 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-060-v1/TRURETURING_060_narrated_EN_subs_ZH-EN.mp4) |
 | 061 | [AURIC FIB ATOM PYRAMID XXXII](films/061-clockkernels/) · 金字塔 XXXII：局部时钟核与接缝可见性 | 5:34 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 153 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-061-v1/TRURETURING_061_narrated_EN_subs_ZH-EN.mp4) |
 | 062 | [AURIC FIB ATOM PYRAMID XXXIII](films/062-occlusion/) · 金字塔 XXXIII：遮挡、第二投影与局部恢复 | 5:54 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 160 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-062-v1/TRURETURING_062_narrated_EN_subs_ZH-EN.mp4) |
+| 063 | [AURIC Ω I · TWO-SETTING PORT](films/063-omegaport/) · AURIC Ω 第一部：静态相融与两设置端口 | 5:55 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 162 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-063-v1/TRURETURING_063_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 

@@ -1,0 +1,171 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "A new series begins. Auric Omega takes the five-mode walk of the pyramid and asks a sharper question: what can a fixed menu of readings keep, compress or recover, for every possible input at once?",
+     "一个新系列开始了。AURIC Ω 把金字塔的五模式行走放进一个更锐利的问题：一张固定的读出菜单，对所有可能的输入同时，能保留、压缩或恢复什么？"
+    ],
+    [
+     "Part one answers with a single number: five.",
+     "第一部用一个数字回答：五。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric Omega, part one: static compatibility and the two-setting port.",
+     "AURIC Ω 第一部：静态相融与两设置端口。"
+    ],
+    [
+     "Two readings, one channel, no shortcut.",
+     "两个读数，一个通道，没有捷径。"
+    ]
+   ]
+  },
+  {
+   "id": "object",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Omega is one static object. Events carry a partial order; a configuration is a down-closed set of events, and two configurations are compatible when their union is again a configuration. Compatibility need not hold for every pair, and it need not be transitive.",
+     "Ω 是一个静态对象。事件带有偏序；配置是向下封闭的事件集合；两个配置相融，是指它们的并仍是配置。相融不必对每一对成立，也不必传递。"
+    ],
+    [
+     "A history adds one event at a time. An observer keeps only the part of a configuration below its own events, and its clock is a weighted count of them. History length, this clock and a waiting parameter are three different quantities.",
+     "历史一次添加一个事件。观察者只保留配置中位于自身事件之下的部分，它的时钟是这些事件的加权计数。历史长度、这个时钟和等待参数，是三个不同的量。"
+    ]
+   ]
+  },
+  {
+   "id": "walk",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Inside Omega sits the five-mode walk. Its modes are the legal three-bit words zero zero zero, one zero zero, zero one zero, zero zero one and one zero one, that is null, two, three, five and the joint mode. The generator K is the pyramid itself: the square null, two, joint, five, with the apex three attached to null.",
+     "Ω 里面是五模式行走。它的模式是长度三的合法字 000、100、010、001、101，即 null、[2]、[3]、[5] 与联合模式。生成元 K 就是金字塔本身：正方形 null、[2]、联合、[5]，顶点 [3] 挂在 null 上。"
+    ],
+    [
+     "The menu is strict: nonnegative waits under the same generator, a complete five-outcome read, Stop, finite feedback and input-independent randomness. No extra phases, no extra gates. A passive change of frame turns every wait into a real rotation.",
+     "菜单很严格：同一生成元下的非负等待、完整的五结果读出、停止、有限反馈与输入无关的随机控制。不加相位，不加门。一次被动换框，把每次等待都变成实转动。"
+    ]
+   ]
+  },
+  {
+   "id": "blind",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "In that real frame every reading is a real symmetric matrix. The whole menu spans fifteen of them, so a state shows only fourteen numbers: its real part. Twenty-four state dimensions leave ten blind directions, and two orthogonal states, null plus or minus i times two, can never be told apart.",
+     "在这个实框架里，每个读出都是实对称矩阵。整张菜单只张成十五个，所以一个态只露出十四个数：它的实部。二十四维态空间留下十个盲方向；两个正交态，null 加减 i 倍的 [2]，永远无法区分。"
+    ],
+    [
+     "Yet deleting the imaginary part is not a legal operation. The map X plus X transpose over two is positive and keeps the trace, but its Choi state has eigenvalue minus one tenth, so it is not completely positive. Readings factor; the state cannot be compressed this way.",
+     "但删掉虚部不是合法操作。映射 (X + X^T)/2 保正、保迹，可它的 Choi 态有特征值 −1/10，因此不是完全正的。读数可以因子化，态却不能这样压缩。"
+    ]
+   ]
+  },
+  {
+   "id": "port",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "So ask the port question. Send every input through a q-dimensional quantum block, with any number of classical flags, and decode with a fixed map before the later setting is chosen. Score the worst total-variation error over all complex inputs at two settings: no wait, and a wait of two thirds.",
+     "于是问端口问题。把每个输入送过一个 q 维量子块，可以附带任意多个经典标记；在后来的设置被选定之前，用一个固定映射解码。误差取所有复输入在两个设置下的最坏全变差：不等待，以及等待三分之二。"
+    ],
+    [
+     "Two thirds is a mathematical waiting parameter, not seconds. How small can q be?",
+     "三分之二是数学上的等待参数，不是秒。q 最小能是多少？"
+    ]
+   ]
+  },
+  {
+   "id": "rigidity",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Exact preservation of both settings preserves five probes: the four basis states two, three, five and joint, and the vector v that the two-thirds wait sends to null. A twelfth-order rational Taylor polynomial, with a tail below seven sixths of two to the thirteen over thirteen factorial, shows every coordinate of v exceeds nine twenty-fifths.",
+     "精确保留两个设置，就保留五个探针：四个基态 [2]、[3]、[5]、联合，以及三分之二等待送到 null 的向量 v。一个十二阶的有理 Taylor 多项式，加上小于 (7/6)·2^13/13! 的尾项，证明 v 的每个坐标都大于 9/25。"
+    ],
+    [
+     "So the five probes span the space and overlap in a connected star, and a connected spanning family forces the channel to be the identity. An exact port needs five dimensions. This is not tomography: the two settings span only nine of twenty-five real directions.",
+     "于是五个探针张成全空间，并以连通的星形相互重叠；连通且张成的探针族迫使通道就是恒等。精确端口需要五维。这不是层析：两个设置只张成二十五个实方向中的九个。"
+    ]
+   ]
+  },
+  {
+   "id": "bound",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Below five, the error has a floor. Six survival tests and the rank–trace bound give an error of at least mu times, d minus q, over, two plus mu, times, d plus one. With mu above one eighth, that is five minus q over one hundred and two.",
+     "低于五维，误差就有下限。六个生存率测试加上秩—迹界，给出误差至少 μ(d−q)/((2+μ)(d+1))；μ 大于 1/8 时，这就是 (5−q)/102。"
+    ],
+    [
+     "A spectral gap between the two bases sharpens it. At the two-thirds wait the overlap norm kappa stays below two thirds, so the floor rises to five minus q over thirty; a wait of one gives twenty-seven times five minus q over five hundred. The exact optimum below five is still open.",
+     "两组基之间的谱隙让它更紧。在三分之二等待处，重叠范数 κ 小于 2/3，下限于是升到 (5−q)/30；等待 1 给出 27(5−q)/500。五维以下的精确最优值仍未确定。"
+    ]
+   ]
+  },
+  {
+   "id": "coexist",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Two settings alone see only eight independent probabilities and leave a sixteen-dimensional blind kernel: many different states read the same.",
+     "仅两个设置，只看到八个独立概率，留下十六维盲核：许多不同的态读数相同。"
+    ],
+    [
+     "Both facts stand together. Some pair of states agrees on every reading, but no single channel can merge such pairs while keeping all readings for every input. One statement says there exists, the other says for all.",
+     "两件事同时成立。有一对态在每个读数上都一致，但没有一个通道能在对每个输入都保留全部读数的同时，把这样的态并在一起。一句话说的是存在，另一句说的是对一切。"
+    ]
+   ]
+  },
+  {
+   "id": "graph",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Every finite protocol, once its input-independent randomness is fixed, is a fixed causal graph of local instruments, and it keeps the joint law of the actual records. Independent nodes on different ports commute, so the order of a valid run does not change any probability.",
+     "每个有限协议，在固定输入无关的随机资料之后，都是由局部仪器组成的固定因果图，并保留实际记录的联合分布。不同端口上的独立节点可以交换，所以合法运行的次序不改变任何概率。"
+    ],
+    [
+     "Infinite runs need compatible local states and the GNS construction; an infinite history with equal weights has infinite norm and is not a state.",
+     "无限运行需要相容的局部态与 GNS 构造；等权的无限历史范数无穷，不是一个态。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "One static object, a strict menu, a blind real frame, and a port that cannot shrink below five dimensions, with an error floor of five minus q over thirty for the two settings.",
+     "一个静态对象，一张严格的菜单，一个看不见虚部的实框架，以及一个不能缩到五维以下的端口；两个设置下的误差下限是 (5−q)/30。"
+    ],
+    [
+     "Lean has frozen the exponential remainder bound, connected-probe rigidity, the flagged-port dimension bound and the sparse-probe error bound. The five-mode constants and the spectral gap are argued in the theory volume, and every number here was recomputed. Next: control, readouts and the golden ratio.",
+     "Lean 已冻结指数余项界、连通探针刚性、带标记端口的维数界与稀疏探针误差界。五模式常数与谱隙在理论卷中论证；这里的每个数字都重新计算过。下一部：控制、读口与黄金比例。"
+    ]
+   ]
+  }
+ ]
+}
