@@ -1,0 +1,217 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 23.348
+  },
+  {
+   "id": "title",
+   "start": 23.348,
+   "end": 32.476
+  },
+  {
+   "id": "encoder",
+   "start": 32.476,
+   "end": 65.05
+  },
+  {
+   "id": "gain",
+   "start": 65.05,
+   "end": 85.458
+  },
+  {
+   "id": "tradeoff",
+   "start": 85.458,
+   "end": 116.782
+  },
+  {
+   "id": "sameout",
+   "start": 116.782,
+   "end": 144.504
+  },
+  {
+   "id": "fiber",
+   "start": 144.504,
+   "end": 179.675
+  },
+  {
+   "id": "circle",
+   "start": 179.675,
+   "end": 213.221
+  },
+  {
+   "id": "record",
+   "start": 213.221,
+   "end": 240.528
+  },
+  {
+   "id": "finale",
+   "start": 240.528,
+   "end": 288.179
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 17.945,
+   "en": "Part two showed that one fixed phase completes control. Part three puts that phase to work on a qutrit and asks what it costs: how much phase can be read from an encoder, and how well can the whole input still be recovered?",
+   "zh": "第二部表明，一处固定相位就能补全控制。第三部让这处相位作用在一个三能级系统上，并追问代价：从一个编码器里能读出多少相位，整个输入又还能恢复到什么程度？"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 18.545,
+   "end": 22.348,
+   "en": "Seeing more phase and recovering more input pull against each other.",
+   "zh": "看见更多相位，与恢复更多输入，彼此牵制。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 24.548,
+   "end": 27.96,
+   "en": "Auric Omega, part three: phase gain and recovery.",
+   "zh": "AURIC Ω 第三部：相位增益与恢复。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 28.56,
+   "end": 31.076,
+   "en": "What you can read is not what you can return.",
+   "zh": "读得出的，不等于还得回的。"
+  },
+  {
+   "i": 4,
+   "scene": "encoder",
+   "start": 33.276,
+   "end": 52.882,
+   "en": "A qutrit with basis zero, one and two is encoded into the five-mode chain. Two candidate inputs, zero plus one and zero minus one over root two, leave outputs whose difference is purely imaginary, with spectrum a, beta, zero, minus beta, minus a, where a equals one minus beta.",
+   "zh": "基为 0、1、2 的三能级系统被编码进五模式链。两个候选输入 (|0⟩ ± |1⟩)/√2 的输出之差是纯虚的，谱为 a、β、0、−β、−a，其中 a = 1 − β。"
+  },
+  {
+   "i": 5,
+   "scene": "encoder",
+   "start": 53.482,
+   "end": 63.65,
+   "en": "So every real reading sees nothing: the two outputs share their whole real part, and beta, at most one half, measures how the difference is split between two planes.",
+   "zh": "所以任何实读出都看不见差别：两个输出的整个实部相同；β 不超过二分之一，衡量这份差别在两个平面之间如何分配。"
+  },
+  {
+   "i": 6,
+   "scene": "gain",
+   "start": 65.85,
+   "end": 77.924,
+   "en": "Now count calls of the one installed phase. With zero calls the readout bit sees no difference at all; one call reveals a contrast of one minus beta; two calls reveal everything.",
+   "zh": "现在数一数那一处已安装相位的调用次数。零次调用时，读出比特完全看不见差别；一次调用揭示 1 − β 的对比；两次调用揭示全部。"
+  },
+  {
+   "i": 7,
+   "scene": "gain",
+   "start": 78.524,
+   "end": 84.058,
+   "en": "The second call adds exactly beta. Call this the phase gain: gamma equals beta.",
+   "zh": "第二次调用恰好增加 β。把它叫作相位增益：γ = β。"
+  },
+  {
+   "i": 8,
+   "scene": "tradeoff",
+   "start": 86.258,
+   "end": 99.173,
+   "en": "The same encoder pays for its gain in recovery. For every encoder in the class and every recovery map, the full-input error is at least two beta over, three plus two root two times one minus beta.",
+   "zh": "同一个编码器要用恢复能力为它的增益买单。对类中每一个编码器、每一个恢复映射，全输入误差至少是 2β/(3 + 2√(2(1 − β)))。"
+  },
+  {
+   "i": 9,
+   "scene": "tradeoff",
+   "start": 99.773,
+   "end": 115.382,
+   "en": "An explicit encoder reaches one minus root of one minus beta, and that is its exact optimum. At beta one half, the best value over the class lies between one fifth and 0.293; the exact curve is still open.",
+   "zh": "一个显式编码器达到 1 − √(1 − β)，这正是它自身的精确最优值。β = 1/2 时，全类的最优值落在五分之一与 0.293 之间；精确曲线仍未确定。"
+  },
+  {
+   "i": 10,
+   "scene": "sameout",
+   "start": 117.582,
+   "end": 132.288,
+   "en": "Do the phase outputs decide recovery? No. Erase the coherence between the first two levels and the third, and the two candidate outputs stay exactly the same, with the same gain, yet the best recovery error jumps to one.",
+   "zh": "相位输出能决定恢复吗？不能。抹去前两个能级与第三个能级之间的相干，两个候选输出完全不变，增益也不变，最佳恢复误差却跳到一。"
+  },
+  {
+   "i": 11,
+   "scene": "sameout",
+   "start": 132.888,
+   "end": 143.104,
+   "en": "Even at zero gain, an isometric embedding recovers perfectly while its erased twin cannot. The whole channel, not two of its outputs, sets the recovery.",
+   "zh": "即使在零增益处，一个等距嵌入也能完美恢复，而它被抹去相干的孪生通道却做不到。决定恢复的是整个通道，而不是它的两个输出。"
+  },
+  {
+   "i": 12,
+   "scene": "fiber",
+   "start": 145.304,
+   "end": 162.17,
+   "en": "Fix everything the first two levels and the third level do separately. What remains is a ball of coherence vectors w; the channel distance is exactly the length of w minus w prime, and the best recovery error is one minus the length of w.",
+   "zh": "把前两个能级和第三个能级各自的行为全部固定。剩下的是相干向量 w 构成的一个球：通道距离恰好是 |w − w′|，最佳恢复误差是 1 − |w|。"
+  },
+  {
+   "i": 13,
+   "scene": "fiber",
+   "start": 162.77,
+   "end": 178.275,
+   "en": "One decoder serves several channels optimally exactly when their vectors point the same way. Two channels with orthogonal vectors each allow error one minus root beta, but a shared decoder can only reach one minus root of beta over two.",
+   "zh": "一个解码器能同时对多个通道达到最优，当且仅当它们的向量方向相同。两个向量正交的通道各自允许误差 1 − √β，共享一个解码器却只能做到 1 − √(β/2)。"
+  },
+  {
+   "i": 14,
+   "scene": "circle",
+   "start": 180.475,
+   "end": 193.15,
+   "en": "Rotate the coherence vector by a phase phi and the channels trace a circle. Two of them sit at chord distance two r times the sine of half their angle, while each alone is recoverable to one minus r.",
+   "zh": "把相干向量转过一个相位 φ，通道就描出一个圆。两个通道之间的弦距离是 2r·|sin(Δφ/2)|，而每一个单独都能恢复到 1 − r。"
+  },
+  {
+   "i": 15,
+   "scene": "circle",
+   "start": 193.75,
+   "end": 211.821,
+   "en": "If the phase is only known to lie on an arc of half-width alpha, one decoder must serve the whole arc. Its exact error rises from one minus r, through root of one plus r squared minus two r cos alpha, to sine alpha, and reaches one once the arc spans half the circle.",
+   "zh": "如果只知道相位落在半宽为 α 的弧上，一个解码器就必须服务整段弧。它的精确误差从 1 − r 出发，经过 √(1 + r^2 − 2r·cos α)，再到 sin α；弧覆盖半个圆时达到一。"
+  },
+  {
+   "i": 16,
+   "scene": "record",
+   "start": 214.021,
+   "end": 225.834,
+   "en": "Keep a classical record of which phase occurred, and recovery stays at one minus r. Discard it, and the error becomes one minus r times the modulus of the mean phase factor.",
+   "zh": "保留一份记下相位取值的经典记录，恢复误差保持 1 − r。丢掉这份记录，误差就变成 1 − r·|μ|，μ 是平均相位因子。"
+  },
+  {
+   "i": 17,
+   "scene": "record",
+   "start": 226.434,
+   "end": 239.128,
+   "en": "For a phase that diffuses like a Gaussian, that factor decays as e to the minus D t. Populations stay fixed; only the recoverable coherence fades. This is dephasing, not loss.",
+   "zh": "对于按高斯方式扩散的相位，这个因子按 e^(−Dt) 衰减。人口保持不变，只有可恢复的相干逐渐消退。这是退相，不是丢失。"
+  },
+  {
+   "i": 18,
+   "scene": "finale",
+   "start": 241.528,
+   "end": 263.505,
+   "en": "Zero calls see nothing, two calls see everything, and the gain beta of the second call forces a recovery floor. Equal phase outputs do not fix recovery; on the fixed fiber, recovery is one minus the length of the coherence vector, shared decoders need aligned vectors, and a lost phase record costs exactly the mean phase factor.",
+   "zh": "零次调用什么也看不见，两次调用看见全部，第二次调用的增益 β 迫使恢复误差有一个下限。相同的相位输出并不决定恢复；在固定纤维上，恢复误差是 1 减去相干向量的长度，共享解码器需要方向一致，丢失相位记录的代价恰好由平均相位因子给出。"
+  },
+  {
+   "i": 19,
+   "scene": "finale",
+   "start": 264.105,
+   "end": 279.179,
+   "en": "These results are argued in the theory volume, with published recovery duality and gluing as inputs, and every number here was recomputed, the recovery optima by semidefinite programming. Next: full-input recovery certificates.",
+   "zh": "这些结果在理论卷中论证，所用的已发表输入是恢复对偶与胶合定理；这里的每个数字都重新计算过，恢复最优值用半定规划核对。下一部：全输入恢复证书。"
+  }
+ ],
+ "duration": 288.179
+}
