@@ -1,0 +1,26 @@
+{
+  "id": "064",
+  "title": "AURIC Ω II · GOLDEN READOUT",
+  "title_zh": "AURIC Ω 第二部 · 控制、读口与黄金比例",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "d0c0a8cd10",
+  "released": "2026-10-22",
+  "duration": "5:02",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_narrated_EN_subs_ZH-EN.mp4",
+    "music_only": "TRURETURING_music_only_subs_ZH-EN.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}

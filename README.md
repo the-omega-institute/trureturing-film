@@ -80,6 +80,7 @@ Release page.
 | 061 | [AURIC FIB ATOM PYRAMID XXXII](films/061-clockkernels/) · 金字塔 XXXII：局部时钟核与接缝可见性 | 5:34 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 153 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-061-v1/TRURETURING_061_narrated_EN_subs_ZH-EN.mp4) |
 | 062 | [AURIC FIB ATOM PYRAMID XXXIII](films/062-occlusion/) · 金字塔 XXXIII：遮挡、第二投影与局部恢复 | 5:54 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 160 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-062-v1/TRURETURING_062_narrated_EN_subs_ZH-EN.mp4) |
 | 063 | [AURIC Ω I · TWO-SETTING PORT](films/063-omegaport/) · AURIC Ω 第一部：静态相融与两设置端口 | 5:55 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 162 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-063-v1/TRURETURING_063_narrated_EN_subs_ZH-EN.mp4) |
+| 064 | [AURIC Ω II · GOLDEN READOUT](films/064-omegacontrol/) · AURIC Ω 第二部：控制、读口与黄金比例 | 5:02 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 137 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-064-v1/TRURETURING_064_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 

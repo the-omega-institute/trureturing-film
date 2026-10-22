@@ -1,0 +1,171 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part one fixed a strict menu and found that a two-setting port cannot shrink below five dimensions. Part two asks what extra control buys, and what a single readout can still see.",
+     "第一部固定了一张严格的菜单，发现两设置端口不能缩到五维以下。第二部追问：额外的控制能换来什么，一个读口又还能看见什么。"
+    ],
+    [
+     "The answer runs from the pyramid to the golden ratio.",
+     "答案从金字塔一路通到黄金比例。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric Omega, part two: control, readouts and the golden ratio.",
+     "AURIC Ω 第二部：控制、读口与黄金比例。"
+    ],
+    [
+     "One phase, one bit, one constant.",
+     "一处相位，一个比特，一个常数。"
+    ]
+   ]
+  },
+  {
+   "id": "flips",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The pyramid generator K splits into three constrained flips. Each one flips a position only when its neighbours are zero, the open-chain PXP rule, and the three add up exactly to K.",
+     "金字塔生成元 K 分成三个受约束翻转。每个翻转只在邻位都为零时翻转一个位置，这是开链上的 PXP 规则；三者相加恰好是 K。"
+    ],
+    [
+     "A bare flip is not safe: flipping the first position of zero one zero gives one one zero, which is illegal. Knowing only that the state is not empty leaves no common legal bare flip, while the constrained exponentials are legal on every input.",
+     "裸翻转并不安全：翻转 010 的第一位会得到非法的 110。只知道状态非空，就找不到一个共同合法的裸翻转；而受约束的指数门对所有输入都合法。"
+    ]
+   ]
+  },
+  {
+   "id": "noinverse",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Can the fixed waiting menu undo a wait? K has characteristic polynomial lambda times, lambda to the fourth minus five lambda squared plus two, so its two frequencies satisfy omega squared equals five plus or minus root seventeen, over two.",
+     "固定的等待菜单能撤销一次等待吗？K 的特征多项式是 λ(λ^4 − 5λ^2 + 2)，所以两个频率满足 ω^2 = (5 ± √17)/2。"
+    ],
+    [
+     "Their ratio is irrational, so no later wait returns to the identity, and any read loses rank. No exact, deterministic, finite protocol inverts a nonzero wait on all inputs.",
+     "两个频率之比是无理数，所以没有后续等待能回到恒等，而任何读出都会丢失秩。没有精确、确定、有限的协议能在全部输入上撤销一次非零等待。"
+    ]
+   ]
+  },
+  {
+   "id": "control",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now grant three independent flip controls. In the real frame they generate so of five, all ten rotations; add one adjustable phase on null, and the algebra fills u of five, twenty-five dimensions.",
+     "现在授予三个独立的翻转控制。在实框架里它们生成 so(5)，全部十个旋转；再加一个作用于 null 的可调相位，代数就填满 u(5)，二十五维。"
+    ],
+    [
+     "Every step is legal, yet order still matters: flipping position one and then position two sends zero zero zero to one zero zero, while the other order sends it to zero one zero.",
+     "每一步都合法，次序却仍然重要：先翻第一位再翻第二位，000 变成 100；换一个次序，它变成 010。"
+    ]
+   ]
+  },
+  {
+   "id": "chain",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On a legal chain of length n there are F of n plus two basis words. For every length, the flips alone generate all of so in that Fibonacci dimension: ten, twenty-eight, seventy-eight, two hundred and ten.",
+     "长度为 n 的合法链有 F(n+2) 个基字。对每个长度，单靠翻转就生成该 Fibonacci 维数上的整个 so：十、二十八、七十八、二百一十。"
+    ],
+    [
+     "The proof splits the chain by its last bit and grows the algebra by induction; it does not extrapolate from small cases.",
+     "证明按末位把链分成两支，归纳地扩大代数，而不是从小尺寸外推。"
+    ]
+   ]
+  },
+  {
+   "id": "phase",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Flips alone stay real. Install one fixed quarter-turn phase on positions one and three, and the closure contains every special unitary; up to a global phase it reaches every gate, with the determinant restricted to powers of i.",
+     "单靠翻转只能停在实旋转里。在位置一和三上安装一处固定的四分之一圈相位，闭包就包含全部特殊酉；除去整体相位，它能达到每一个门，行列式则限于 i 的幂。"
+    ],
+    [
+     "Zero installs cannot do it. On the alternating code, every flip word stays at distance exactly root of two minus root two from the gate that multiplies one basis word by i. The minimum number of phase installs is one.",
+     "零处安装做不到。在交替码上，每个翻转字与“把一个基字乘以 i”的门之间的距离恰好是 √(2 − √2)。相位安装的最小数目是一。"
+    ]
+   ]
+  },
+  {
+   "id": "readout",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now read only the first position, a single bit. Its projector has rank F of n, and since any word can act first, the full table of bit probabilities determines the input state exactly.",
+     "现在只读第一个位置，一个比特。它的投影秩是 F(n)；由于任何字都能先作用，全部比特概率表精确地确定输入态。"
+    ],
+    [
+     "Determining the state from probabilities is not naming it from one copy; estimating those probabilities still needs repeated sources.",
+     "由概率确定态，不等于从一份样本叫出它的名字；估计这些概率仍然需要重复的来源。"
+    ]
+   ]
+  },
+  {
+   "id": "golden",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "How much of the trace distance does this one bit keep? At worst a fraction c n, equal to F of n plus one over F of n plus two minus one, and at best all of it. Both constants are sharp.",
+     "这一个比特保留多少迹距离？最坏情形下是比例 c_n = F(n+1)/(F(n+2) − 1)，最好情形下是全部。两个常数都是最佳的。"
+    ],
+    [
+     "Three quarters, five sevenths, two thirds, thirteen twentieths: the constants fall toward one over the golden ratio and always stay above it.",
+     "四分之三、七分之五、三分之二、二十分之十三：这些常数一路降向黄金比例的倒数，并始终停在它上方。"
+    ]
+   ]
+  },
+  {
+   "id": "budget",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "With one bit per copy, even two orthogonal states keep an error of one half beta to the M after M copies, where beta is q minus one over d minus one. At length three, an error of one in a million needs ten copies.",
+     "每份样本只读一个比特时，即使两个正交态，M 份之后的错误率仍是 ½·β^M，其中 β = (q − 1)/(d − 1)。长度为三时，要把错误率降到百万分之一需要十份。"
+    ],
+    [
+     "A fixed menu that keeps a uniform contrast chi below c n does exist, but it needs at least one half e to the two chi squared, d minus one cubed, over d squared settings, exponential in the Fibonacci dimension.",
+     "保持统一对比 χ（小于 c_n）的固定菜单确实存在，但它至少需要 ½·exp(2χ^2 (d − 1)^3 / d^2) 个设置，随 Fibonacci 维数指数增长。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Constrained flips add up to the pyramid, waiting cannot undo itself, flips fill so of the Fibonacci dimension, one fixed phase completes control, and one bit keeps a share of distance that falls toward one over the golden ratio.",
+     "受约束翻转之和就是金字塔，等待无法撤销自身，翻转填满 Fibonacci 维数上的 so，一处固定相位补全控制，一个比特保留的距离比例降向黄金比例的倒数。"
+    ],
+    [
+     "Lean has frozen the Fibonacci ratio limit. The control algebras, the exact distance and the contrast constants are argued in the theory volume, and every number here was recomputed. Next: phase gain and full-input recovery.",
+     "Lean 已冻结 Fibonacci 比值极限。控制代数、精确距离与对比常数在理论卷中论证；这里的每个数字都重新计算过。下一部：相位增益与全输入恢复。"
+    ]
+   ]
+  }
+ ]
+}
