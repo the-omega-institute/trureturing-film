@@ -82,6 +82,7 @@ Release page.
 | 063 | [AURIC Ω I · TWO-SETTING PORT](films/063-omegaport/) · AURIC Ω 第一部：静态相融与两设置端口 | 5:55 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 162 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-063-v1/TRURETURING_063_narrated_EN_subs_ZH-EN.mp4) |
 | 064 | [AURIC Ω II · GOLDEN READOUT](films/064-omegacontrol/) · AURIC Ω 第二部：控制、读口与黄金比例 | 5:02 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 137 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-064-v1/TRURETURING_064_narrated_EN_subs_ZH-EN.mp4) |
 | 065 | [AURIC Ω III · PHASE GAIN](films/065-omegaphase/) · AURIC Ω 第三部：相位增益与恢复 | 4:48 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 130 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-065-v1/TRURETURING_065_narrated_EN_subs_ZH-EN.mp4) |
+| 066 | [AURIC Ω IV · RECOVERY CERTIFICATES](films/066-omegacert/) · AURIC Ω 第四部：全输入恢复证书 | 4:01 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 110 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-066-v1/TRURETURING_066_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 

@@ -1,0 +1,141 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part three left a band. Every encoder pays a recovery error of at least L of beta, and an explicit encoder achieves one minus root of one minus beta, but the best value in between was open.",
+     "第三部留下了一条带子：每个编码器的恢复误差至少是 L(β)，一个显式编码器做到 1 − √(1 − β)，二者之间的最优值当时尚未确定。"
+    ],
+    [
+     "Part four closes that band for every real encoder.",
+     "第四部为所有实编码器合上这条带子。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric Omega, part four: full-input recovery certificates.",
+     "AURIC Ω 第四部：全输入恢复证书。"
+    ],
+    [
+     "Every input, every recovery, one exact curve.",
+     "每个输入，每个恢复，一条精确曲线。"
+    ]
+   ]
+  },
+  {
+   "id": "domain",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "First, describe the whole class. A real encoder is fixed by what it leaks to its environment: the environment state tau of a phase input, a coherence block C, and the state sigma of the third level. The remaining Schur residual has rank at most one, and every such block is an actual encoder, not a relaxation.",
+     "第一步，描述整个类。一个实编码器由它泄漏给环境的东西确定：相位输入的环境态 τ、一个相干块 C、第三能级的环境态 σ。剩下的 Schur 残差秩至多为一，而每一组这样的块数据都对应一个真实的编码器，不只是松弛。"
+    ],
+    [
+     "Every member has a real Kraus list of length at most nine, so the search is finite-dimensional, but still very large.",
+     "每个成员都有长度不超过九的实 Kraus 表，所以搜索空间是有限维的，但仍然很大。"
+    ]
+   ]
+  },
+  {
+   "id": "residual",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One number organizes the class: w, the weight that the third level sends outside the four-dimensional phase support. It equals the trace of the Schur residual.",
+     "一个数组织起整个类：w，即第三能级送到四维相位支撑之外的权重。它等于 Schur 残差的迹。"
+    ],
+    [
+     "Three inputs and one recovery measurement then give an error of at least two beta, times one minus w, over, beta plus two plus root of eight beta w. At beta one half and w zero, that is two fifths.",
+     "三个输入加一个恢复测量，就给出误差至少 2β(1 − w)/(β + 2 + √(8βw))。在 β = 1/2、w = 0 时，这是五分之二。"
+    ]
+   ]
+  },
+  {
+   "id": "threshold",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Set this bound equal to the explicit value, one minus root of one minus beta. The crossing is an exact threshold w c, about nine percent at beta one half: any encoder that leaks less than w c cannot beat the explicit encoder.",
+     "令这个界等于显式值 1 − √(1 − β)。两者的交点是一个精确阈值 w_c，在 β = 1/2 时约为百分之九：泄漏少于 w_c 的编码器都赢不了那个显式编码器。"
+    ],
+    [
+     "Encoders that leak more remain. Three volumes and more than one hundred and fifty sections build certificates for that region: filtered kernels, exact semidefinite duals and rational witnesses.",
+     "泄漏更多的编码器还剩着。三卷、一百五十多节为这片区域构造证书：滤波核、精确的半定对偶与有理见证。"
+    ]
+   ]
+  },
+  {
+   "id": "closure",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The closing argument starts from one cap. For every input in the phase plane, the environment state is at most a times the identity, for the same isometry and every third column.",
+     "收尾的论证从一个上限出发：对相位平面里的每个输入，环境态都不超过 a 倍的单位算子，对同一个等距、对每种第三列都成立。"
+    ],
+    [
+     "A common-projection exclusion forbids every phase direction and the third input from all exceeding root of one plus u over two. The minimax over inputs and contractions turns that into a fidelity cap, and recovery duality converts it into an error of at least one minus root of one minus beta.",
+     "公共投影排除定理禁止所有相位方向和第三个输入同时超过 √((1 + u)/2)。对输入与收缩取极小极大，得到保真度上限；恢复对偶再把它换成误差下界 1 − √(1 − β)。"
+    ]
+   ]
+  },
+  {
+   "id": "optimum",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "So for every real encoder, every third column, every Kraus rank up to nine, every complex recovery and every reference, the error is at least one minus root of one minus beta.",
+     "所以对每个实编码器、每种第三列、每个不超过九的 Kraus 秩、每个复恢复与每个参考系，误差至少是 1 − √(1 − β)。"
+    ],
+    [
+     "The explicit encoder from part three reaches it. The best value over the real class is exactly one minus root of one minus beta: the band collapses to a curve.",
+     "第三部的显式编码器恰好达到它。实类上的最优值精确等于 1 − √(1 − β)：带子收缩成一条曲线。"
+    ]
+   ]
+  },
+  {
+   "id": "scope",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The statement is about the class. It does not give each encoder its own optimum, and it does not settle the broader complex class, where the band between L of beta and the curve stays open.",
+     "这个结论关于整个类。它不给出每个编码器各自的最优值，也不解决更大的复类；在那里，L(β) 与这条曲线之间的带子仍然未定。"
+    ],
+    [
+     "Random real encoders agree numerically: every semidefinite optimum lands on or above the curve.",
+     "随机实编码器在数值上与之一致：每一个半定规划最优值都落在这条曲线上或其上方。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "One residual weight, one three-input bound with an exact threshold, a long chain of certificates and a closing cap: the real-class recovery curve is exactly one minus root of one minus beta.",
+     "一个残差权重，一个带精确阈值的三输入界，一长串证书，再加一个收尾的上限：实类的恢复曲线精确等于 1 − √(1 − β)。"
+    ],
+    [
+     "The closure is argued in the theory volumes, with recovery duality as a published input, and every number here was recomputed, including semidefinite optima for random encoders. Next: the bosonic excursion and phase correction.",
+     "这个闭合在理论卷中论证，所用的已发表输入是恢复对偶；这里的每个数字都重新计算过，包括随机编码器的半定规划最优值。下一部：玻色游程与相位校正。"
+    ]
+   ]
+  }
+ ]
+}
