@@ -1,0 +1,141 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part two installed one phase: S multiplies the two-particle state one zero one by i and leaves the other four states alone. Part five asks whether a plain bosonic exchange can produce that phase.",
+     "第二部安装了一处相位：S 把双粒子态 101 乘以 i，其余四个态保持不动。第五部追问：一个普通的玻色交换能不能产生这处相位？"
+    ],
+    [
+     "The answer runs through an excursion: the state leaves the five-state space and comes back.",
+     "答案要经过一次游程：态离开五态空间，再回来。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric Omega, part five: bosonic excursion and return.",
+     "AURIC Ω 第五部：玻色游程与回归。"
+    ],
+    [
+     "Leave the space, come back, and count the phase.",
+     "离开，回来，再数一数相位。"
+    ]
+   ]
+  },
+  {
+   "id": "carrier",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Embed the five states into three bosonic modes. The two-particle state one zero one now has two neighbours outside: two zero zero and zero zero two. Fix one Hamiltonian: exchange between the outer modes with strength g, plus an interaction J when both are occupied.",
+     "把五个态嵌进三个玻色模式。双粒子态 101 现在在外面多了两个邻居：200 和 002。固定一个哈密顿量：两个外侧模式之间强度为 g 的交换，再加两者都被占据时的相互作用 J。"
+    ],
+    [
+     "Because bosons pile up, exchange pushes one zero one out with amplitude root two. The outside pair splits into a bright state that couples back, and a dark state that never moves.",
+     "玻色子可以堆在同一模式里，所以交换以 √2 的振幅把 101 推出去。外面这一对态分成一个会耦合回来的亮态，和一个永远不动的暗态。"
+    ]
+   ]
+  },
+  {
+   "id": "leakage",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The leak has an exact formula for every input density: the weight on one zero one, times eta squared, times sine squared of Delta t over two h-bar. Only that one state ever leaves.",
+     "泄漏对每个输入密度都有精确公式：101 上的权重，乘以 η²，再乘以 sin²(Δt/2ħ)。只有这一个态会离开。"
+    ],
+    [
+     "Returns come on a lattice: at every multiple of two pi h-bar over Delta, every input is back. There the two-particle state carries a phase lambda, while the naive projected Hamiltonian would predict lambda squared. The excursion changes the phase.",
+     "回归落在一个格点上：在 2πħ/Δ 的每个整数倍时刻，所有输入都回到原处。此时双粒子态带着相位 λ，而朴素的投影哈密顿量会预言 λ²。游程改变了相位。"
+    ]
+   ]
+  },
+  {
+   "id": "correction",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Allow one real rotation before or after the pulse, in the fixed real frame. Then S is reached exactly at a return when lambda equals i and the one-particle block is already real.",
+     "允许在脉冲之前或之后加一个固定实帧中的实旋转。那么在某次回归时恰好得到 S，当且仅当 λ = i，并且单粒子块本身已经是实的。"
+    ],
+    [
+     "Lambda equals i only when d is a fraction with an even denominator. And the pulse alone never hits S: that would need four m squared to equal an odd square plus sixteen k squared, which is impossible modulo four.",
+     "λ = i 只在 d 是偶分母分数时出现。而单靠脉冲永远到不了 S：那需要 4m² 等于一个奇数的平方加 16k²，模 4 看这不可能。"
+    ]
+   ]
+  },
+  {
+   "id": "design",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Here is a design. Take g equal to i r and J equal to four r over root three. After one return the joint phase is exactly i, and a real rotation of the one-particle block finishes S.",
+     "下面是一个设计。取 g = ir，J = 4r/√3。一次回归之后，联合相位恰好是 i，再用一个实旋转修正单粒子块，就得到 S。"
+    ],
+    [
+     "Halfway through, three quarters of the two-particle weight is outside the five states. The naive projection would have predicted minus one. And an ordinary beam splitter cannot stand in for the correction: it would push one zero one out with probability about seventeen percent.",
+     "走到一半时，双粒子权重的四分之三在五态空间之外。朴素投影会预言 −1。普通的分束器也替代不了这个修正：它会以大约百分之十七的概率把 101 推出去。"
+    ]
+   ]
+  },
+  {
+   "id": "approximation",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Without an exact hit, wait longer. For a fixed ratio, the returns approach S exactly when every integer relation between the phase and the exchange angle has a first coefficient divisible by four.",
+     "如果没有精确命中，就等更久。对固定的比值，回归能逼近 S，当且仅当相位与交换角之间的每个整数关系，其第一个系数都能被四整除。"
+    ],
+    [
+     "Three ratios show the cases. At J over r equal to four over root three, everything converges. At four, the phase is dense, yet the error never drops below about one half. At one, the exchange block lands near minus the identity, so only a real sign correction finishes the approach.",
+     "三个比值展示了三种情形。J/r = 4/√3 时，一切都收敛。J/r = 4 时，相位是稠密的，误差却始终降不到约二分之一以下。J/r = 1 时，交换块落在负单位附近，只有一个实的符号修正才能完成逼近。"
+    ]
+   ]
+  },
+  {
+   "id": "boundary",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Near returns are stable: a small leak pins both the time and the whole unitary to an exact return. But the original rule of the five-state model forbids any excursion at all, and every positive pulse leaks at once.",
+     "近回归是稳定的：小泄漏把时间和整个酉算子都钉在一次精确回归附近。但五态模型原来的规则根本不允许游程，而任何正时长的脉冲都会立刻泄漏。"
+    ],
+    [
+     "Hard-core or fermion modes would never leak, but they are different algebras. And S is invisible to number-preserving readouts; seeing it needs a coherent superposition of zero zero zero and one zero one, which this Hamiltonian cannot prepare.",
+     "硬核或费米模式永远不会泄漏，但它们是不同的代数。而且 S 对保持粒子数的读出是看不见的；要看见它，需要 000 与 101 的相干叠加，而这个哈密顿量自己制备不出来。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "An exact leak formula, a return lattice, a return phase that differs from the naive projection, a corrected design with an exact quarter phase, and a divisibility test for long waits.",
+     "一个精确的泄漏公式，一个回归格点，一个不同于朴素投影的回归相位，一个带精确四分之一相位的修正设计，以及一个关于长时间等待的整除判据。"
+    ],
+    [
+     "These results are argued in the theory volume, with Kronecker's theorem as a classical input, and every number here was recomputed in an explicit Fock space. Next: full population elimination and the finite-root frontier.",
+     "这些结果在理论卷中论证，所用的经典输入是 Kronecker 定理；这里的每个数字都在显式的 Fock 空间里重新计算过。下一部：全人口消去与有限根前沿。"
+    ]
+   ]
+  }
+ ]
+}

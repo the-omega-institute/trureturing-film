@@ -1,0 +1,26 @@
+{
+  "id": "067",
+  "title": "AURIC Ω V · BOSONIC EXCURSION",
+  "title_zh": "AURIC Ω 第五部 · 玻色游程与相位校正",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "07ddb9c097",
+  "released": "2026-10-22",
+  "duration": "4:30",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_narrated_EN_subs_ZH-EN.mp4",
+    "music_only": "TRURETURING_music_only_subs_ZH-EN.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}
