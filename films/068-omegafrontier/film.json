@@ -1,0 +1,26 @@
+{
+  "id": "068",
+  "title": "AURIC Ω VI · FINITE-ROOT FRONTIER",
+  "title_zh": "AURIC Ω 第六部 · 全人口消去与有限根前沿",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "9f20f4efdb",
+  "released": "2026-10-23",
+  "duration": "4:42",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_narrated_EN_subs_ZH-EN.mp4",
+    "music_only": "TRURETURING_music_only_subs_ZH-EN.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}

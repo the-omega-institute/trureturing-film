@@ -1,0 +1,196 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 27.172
+  },
+  {
+   "id": "title",
+   "start": 27.172,
+   "end": 39.077
+  },
+  {
+   "id": "interface",
+   "start": 39.077,
+   "end": 67.694
+  },
+  {
+   "id": "candidate",
+   "start": 67.694,
+   "end": 107.08
+  },
+  {
+   "id": "construction",
+   "start": 107.08,
+   "end": 136.755
+  },
+  {
+   "id": "frontier",
+   "start": 136.755,
+   "end": 164.807
+  },
+  {
+   "id": "example",
+   "start": 164.807,
+   "end": 213.786
+  },
+  {
+   "id": "scope",
+   "start": 213.786,
+   "end": 245.686
+  },
+  {
+   "id": "finale",
+   "start": 245.686,
+   "end": 282.684
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 19.158,
+   "en": "Parts two and three read a hidden phase. Two states with the same five populations and the same real part differ only in a phase part with two weights, a and b. One call of the installed phase reads a; two calls read a plus b.",
+   "zh": "第二部和第三部读出的是一处隐藏的相位。两个人口相同、实部也相同的态，只在一个相位部分上不同，这个部分有两个权重 a 和 b。调用一次已安装的相位读出 a；调用两次读出 a + b。"
+  },
+  {
+   "i": 1,
+   "scene": "open",
+   "start": 19.758,
+   "end": 26.172,
+   "en": "Part six asks which pairs a, b can occur for given populations, and answers without any search.",
+   "zh": "第六部追问：给定人口，哪些 (a, b) 能真正出现？并且不经过任何搜索就给出答案。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 28.372,
+   "end": 34.068,
+   "en": "Auric Omega, part six: full population elimination and the finite-root frontier.",
+   "zh": "AURIC Ω 第六部：全人口消去与有限根前沿。"
+  },
+  {
+   "i": 3,
+   "scene": "title",
+   "start": 34.668,
+   "end": 37.677,
+   "en": "One candidate, two tests, finitely many roots.",
+   "zh": "一个候选，两个检验，有限个根。"
+  },
+  {
+   "i": 4,
+   "scene": "interface",
+   "start": 39.877,
+   "end": 54.803,
+   "en": "The original volume reduced the question to the spectrum of the shared real part: four numbers x, y, xi and w. Three population bounds and four product inequalities must all hold for one and the same spectrum.",
+   "zh": "原卷把问题化归到共同实部的谱：四个数 x、y、ξ、w。三个人口约束和四个乘积不等式，必须由同一个谱同时满足。"
+  },
+  {
+   "i": 5,
+   "scene": "interface",
+   "start": 55.403,
+   "end": 66.294,
+   "en": "Finding such a spectrum is a search in three dimensions. This volume replaces the search by a single candidate, computed directly from the populations and the two weights.",
+   "zh": "找到这样一个谱，是一次三维搜索。本卷用一个直接由人口和两个权重算出的候选，代替这次搜索。"
+  },
+  {
+   "i": 6,
+   "scene": "candidate",
+   "start": 68.494,
+   "end": 85.524,
+   "en": "The candidate's first coordinate X is the largest of three lower bounds: the top population P, a geometric bound h of a, and B over d, where d merges the two population caps. The other three coordinates follow by explicit maxima and minima.",
+   "zh": "候选的第一个坐标 X 取三个下界中最大的一个：最大人口 P、关于 a 的几何下界 h(a)，以及 B/d，其中 d 合并了两个人口上限。其余三个坐标由显式的最大与最小运算得到。"
+  },
+  {
+   "i": 7,
+   "scene": "candidate",
+   "start": 86.124,
+   "end": 105.68,
+   "en": "Membership then needs two inequalities only: X times one minus X at least A plus two B, and the product X Y Z W at least A B. The reason is monotone: along the first coordinate the best product never increases, so the smallest admissible first coordinate is always the best choice.",
+   "zh": "于是判定只需要两个不等式：X(1 − X) ≥ A + 2B，以及 XYZW ≥ AB。理由是单调性：沿着第一个坐标，可达到的最大乘积从不增加，所以最小的可行第一坐标总是最好的选择。"
+  },
+  {
+   "i": 8,
+   "scene": "construction",
+   "start": 107.88,
+   "end": 122.598,
+   "en": "Every admissible pair comes with explicit states. A real two by two matrix with singular values a over two and b over two is chosen in one of three branches: anti-diagonal, diagonal, or a scaled rotation.",
+   "zh": "每个可行的 (a, b) 都附带显式的态。一个奇异值为 a/2 和 b/2 的实 2×2 矩阵，从三个分支中选出：反对角、对角，或一个缩放的旋转。"
+  },
+  {
+   "i": 9,
+   "scene": "construction",
+   "start": 123.198,
+   "end": 135.355,
+   "en": "Placed between the square roots of the spectrum, it gives two positive density matrices with the same real part, and one real orthogonal rotation sets the five populations exactly.",
+   "zh": "把它夹在谱的平方根之间，就得到两个实部相同的半正密度矩阵；再用一个实正交旋转，把五个人口精确地调好。"
+  },
+  {
+   "i": 10,
+   "scene": "frontier",
+   "start": 137.555,
+   "end": 148.782,
+   "en": "Now fix the total distance s and ask for the largest second weight. Nineteen polynomials in x and t record every switch of the maxima and minima and both tests.",
+   "zh": "现在固定总距离 s，追问最大的第二权重。十九个关于 x 和 t 的多项式，记录了最大最小运算的每一次换支，以及两个检验的边界。"
+  },
+  {
+   "i": 11,
+   "scene": "frontier",
+   "start": 149.382,
+   "end": 163.407,
+   "en": "Four ways of eliminating x turn them into seventy-six polynomials in t of degree at most eight, so there are at most six hundred and ten candidates. Filter them with the two tests, and the frontier is the largest survivor.",
+   "zh": "用四种方式消去 x，得到七十六个关于 t 的多项式，次数都不超过八，所以候选至多六百一十个。用两个检验过滤，前沿就是留下来的最大候选。"
+  },
+  {
+   "i": 12,
+   "scene": "example",
+   "start": 165.607,
+   "end": 189.829,
+   "en": "Take a heavy population: three fifths, one fifth, one tenth, three fiftieths and one twenty-fifth, at distance nine tenths. The root table has twenty-nine distinct candidates and only five pass. The frontier is a root of twenty t squared plus twelve t minus three: two root six minus three, over ten, about zero point one nine. An independent search over spectra gives the same value.",
+   "zh": "取一组偏重的人口：3/5、1/5、1/10、3/50、1/25，总距离 9/10。根表有二十九个不同的候选，只有五个通过。前沿是 20t² + 12t − 3 的根：(2√6 − 3)/10，约为 0.19。对谱的独立搜索给出同一个值。"
+  },
+  {
+   "i": 13,
+   "scene": "example",
+   "start": 190.429,
+   "end": 212.386,
+   "en": "Sweeping the distance traces the whole domain. For the lighter populations three tenths, a quarter, a fifth, three twentieths and a tenth, the frontier at distance one is the smallest of one half, one minus two P, and twice V: zero point four. The heavy population never reaches distance one; its largest distance is about zero point nine eight.",
+   "zh": "让距离扫过整个范围，就描出完整的域。对较轻的人口 3/10、1/4、1/5、3/20、1/10，距离为 1 时的前沿是 1/2、1 − 2P 和 2V 中最小的一个：0.4。偏重的那组人口到不了距离 1，它的最大距离约为 0.98。"
+  },
+  {
+   "i": 14,
+   "scene": "scope",
+   "start": 214.586,
+   "end": 233.961,
+   "en": "With the original fixed menu, the two-call readouts are exactly the pairs s minus b and s, for every b up to the frontier. For rational populations every step is exact real algebra; for arbitrary real inputs, certified roots need exact real arithmetic as an extra resource.",
+   "zh": "在原来的固定菜单下，两次调用的读数恰好是 (s − b, s)，b 取到前沿为止。对有理人口，每一步都是精确的实代数运算；对任意实数输入，要得到有认证的根，还需要精确实数运算作为额外资源。"
+  },
+  {
+   "i": 15,
+   "scene": "scope",
+   "start": 234.561,
+   "end": 244.286,
+   "en": "These are existence statements. They supply matrices, not preparation procedures, pulse counts or costs, and they add nothing to the original menu.",
+   "zh": "这些都是存在性结论。它们给出矩阵，不给出制备程序、脉冲数或代价，也不给原菜单增加任何东西。"
+  },
+  {
+   "i": 16,
+   "scene": "finale",
+   "start": 246.686,
+   "end": 255.414,
+   "en": "One candidate instead of a search, two inequalities, an explicit three-branch construction, and a frontier read from finitely many roots.",
+   "zh": "用一个候选代替搜索，两个不等式，一个显式的三分支构造，以及从有限个根中读出的前沿。"
+  },
+  {
+   "i": 17,
+   "scene": "finale",
+   "start": 256.014,
+   "end": 273.684,
+   "en": "These results are derived in the theory volume from the original common-spectrum interface, with the real Schur–Horn theorem as a classical tool, and every number here was recomputed. Next: the Auric–Langlands volumes, beginning with structure acquisition and spectral extension.",
+   "zh": "这些结果在理论卷中由原卷的共同谱接口推导出来，所用的经典工具是实 Schur–Horn 定理；这里的每个数字都重新计算过。下一部：AURIC–Langlands 系列，从结构取得与谱延拓开始。"
+  }
+ ],
+ "duration": 282.684
+}
