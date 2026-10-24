@@ -86,7 +86,7 @@ Release page.
 | 067 | [AURIC Ω V · BOSONIC EXCURSION](films/067-omegaexcursion/) · AURIC Ω 第五部：玻色游程与相位校正 | 4:30 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 122 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-067-v1/TRURETURING_067_narrated_EN_subs_ZH-EN.mp4) |
 | 068 | [AURIC Ω VI · FINITE-ROOT FRONTIER](films/068-omegafrontier/) · AURIC Ω 第六部：全人口消去与有限根前沿 | 4:42 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 129 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-068-v1/TRURETURING_068_narrated_EN_subs_ZH-EN.mp4) |
 | 069 | [AURIC–LANGLANDS I · STRUCTURE ACQUISITION](films/069-langlandsacq/) · AURIC–Langlands 第一部：结构取得与谱延拓 | 5:45 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 161 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-069-v1/TRURETURING_069_narrated_EN_subs_ZH-EN.mp4) |
-| 070 | [AURIC–LANGLANDS II · CONTEXT AND SPECTRAL RECONSTRUCTION](films/070-langlandsctx/) · AURIC–Langlands 第二部：语境与谱重构 | 6:00 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 165 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-070-v1/TRURETURING_070_narrated_EN_subs_ZH-EN.mp4) |
+| 070 | [AURIC–LANGLANDS II · CONTEXT AND SPECTRAL RECONSTRUCTION](films/070-langlandsctx/) · AURIC–Langlands 第二部：语境与谱重构 | 6:00 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 164 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-070-v1/TRURETURING_070_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
