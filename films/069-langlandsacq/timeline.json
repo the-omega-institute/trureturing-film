@@ -1,0 +1,209 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 20.782
+  },
+  {
+   "id": "title",
+   "start": 20.782,
+   "end": 32.614
+  },
+  {
+   "id": "growth",
+   "start": 32.614,
+   "end": 66.609
+  },
+  {
+   "id": "catalog",
+   "start": 66.609,
+   "end": 101.747
+  },
+  {
+   "id": "twocopy",
+   "start": 101.747,
+   "end": 139.455
+  },
+  {
+   "id": "reference",
+   "start": 139.455,
+   "end": 173.121
+  },
+  {
+   "id": "splitting",
+   "start": 173.121,
+   "end": 214.517
+  },
+  {
+   "id": "hecke",
+   "start": 214.517,
+   "end": 258.485
+  },
+  {
+   "id": "sphere",
+   "start": 258.485,
+   "end": 302.795
+  },
+  {
+   "id": "finale",
+   "start": 302.795,
+   "end": 345.597
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 19.782,
+   "en": "The Auric Omega films asked what a fixed menu of controls and readouts can recover. This volume asks when acquiring structure really adds predictive power, and how the five-mode relation bundle meets a spectral interface of Langlands type.",
+   "zh": "AURIC Ω 系列追问的是：一套固定的控制与读口能恢复什么。本卷追问：取得新结构何时真正增加预测能力，五模式关系丛又怎样接上朗兰兹型的谱接口。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 21.982,
+   "end": 26.526,
+   "en": "Auric–Langlands, part one: structure acquisition and spectral extension.",
+   "zh": "AURIC–Langlands 第一部：结构取得与谱延拓。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 27.126,
+   "end": 31.214,
+   "en": "New readouts, two copies, and a five-dimensional spectral splitting.",
+   "zh": "新读口、两份副本，以及五维谱分裂。"
+  },
+  {
+   "i": 3,
+   "scene": "growth",
+   "start": 33.414,
+   "end": 54.086,
+   "en": "A protocol that only recomputes from the old summary can never split an old fiber, because its output law depends on that summary alone. Growth needs a new readout; its whole future gain is the observable system on the old blind space, which stabilises after finitely many word-length layers, at M infinity.",
+   "zh": "只从旧摘要重新计算的协议永远切不开旧纤维，因为它的输出律只依赖旧摘要。增长需要新读口；它带来的全部未来增量，就是旧盲空间上的可观测系统，这个系统在有限个词长层之后稳定于 M∞。"
+  },
+  {
+   "i": 4,
+   "scene": "growth",
+   "start": 54.686,
+   "end": 65.209,
+   "en": "The gain need not split along the dynamics. Already a stochastic channel on three classical states gives an exact sequence with no section that commutes with the dynamics.",
+   "zh": "这一增量不必沿着动力学分裂。仅仅三个经典状态上的随机通道，就给出一个正合列，它没有与动力学交换的截面。"
+  },
+  {
+   "i": 5,
+   "scene": "catalog",
+   "start": 67.409,
+   "end": 81.873,
+   "en": "For a fixed readout catalog, the number of separated pairs is a monotone submodular capture function, so greedy selection at equal cost reaches one minus one over e of the optimum; both facts are kernel-checked in Lean.",
+   "zh": "对固定的读口目录，被分开的来源对数是一个单调次模的捕获函数，所以等成本下的贪心选择至少达到最优值的 1 − 1/e；这两条结论都经过 Lean 内核核验。"
+  },
+  {
+   "i": 6,
+   "scene": "catalog",
+   "start": 82.473,
+   "end": 100.347,
+   "en": "Controls behave differently: on four states, one transposition alone adds nothing, another reaches ten pairs, and together they separate all twelve. And exact separation says nothing about sample cost: a bias of two to the minus L needs about four to the L samples.",
+   "zh": "控制则不同：在四个状态上，一个对换单独加入毫无增益，另一个达到十对，两个合在一起，十二对全部分开。而精确分辨并不说明样本成本：偏差为 2^(−L) 时，需要约 4^L 个样本。"
+  },
+  {
+   "i": 7,
+   "scene": "twocopy",
+   "start": 102.547,
+   "end": 116.537,
+   "en": "Now a quantum source with a designated real structure. Real two-copy statistics record S tensor S minus A tensor A: a partial trace gives the real part S, and A tensor A gives A up to sign.",
+   "zh": "现在换成一个带指定实结构的量子来源。实二拷贝统计记录的是 S⊗S − A⊗A：部分迹给出实部 S，而 A⊗A 给出相差一个符号的 A。"
+  },
+  {
+   "i": 8,
+   "scene": "twocopy",
+   "start": 117.137,
+   "end": 138.055,
+   "en": "So two independent copies determine any mixed state up to complex conjugation, and more copies do no better; in five modes the orbit quotient has twenty-four dimensions, against fourteen for one copy. This is kernel-checked in Lean. Independence is needed: a correlated source can show the same real statistics.",
+   "zh": "所以两份独立副本把任意混态确定到复共轭为止，更多副本也不会更好；在五模式中，轨道商是二十四维，而单拷贝只有十四维。这经过 Lean 内核核验。独立性不可缺少：相关的来源可以给出相同的实统计。"
+  },
+  {
+   "i": 9,
+   "scene": "reference",
+   "start": 140.255,
+   "end": 156.564,
+   "en": "To remove the last ambiguity, add a calibrated non-real reference: contracting the joint statistics with its real and imaginary parts recovers S and A linearly. Real sources and real instruments can never produce such a reference for free.",
+   "zh": "要消除最后这个歧义，需要加入一个校准过的非实参考：把联合统计分别与它的实部和虚部收缩，就线性地恢复 S 和 A。实来源和实仪器永远不能免费造出这样的参考。"
+  },
+  {
+   "i": 10,
+   "scene": "reference",
+   "start": 157.164,
+   "end": 171.721,
+   "en": "One phase qubit is enough: every unitary becomes a real rotation of twice the dimension. In the five-mode example, two copies read one twenty-fifth minus a squared, while the reference reads one twenty-fifth minus a b.",
+   "zh": "一个相位量子位就够了：每个酉算子都变成两倍维数中的实旋转。在五模式的例子里，两份副本读出 1/25 − a²，而参考读出 1/25 − ab。"
+  },
+  {
+   "i": 11,
+   "scene": "splitting",
+   "start": 173.921,
+   "end": 192.778,
+   "en": "In five modes, two copies add the quadratic tensor A times A, in the fifty-five-dimensional symmetric square of so five. Three explicit covariants split it as one plus fourteen plus five, with a thirty-five-dimensional kernel, and fifty-five binary real settings read all of it.",
+   "zh": "在五模式中，两份副本新加的是二次张量 A⊙A，位于 so(5) 的五十五维对称平方中。三个显式的协变映射把它分裂为 1 + 14 + 5，核为三十五维；五十五个二元实测量设置可以读出全部坐标。"
+  },
+  {
+   "i": 12,
+   "scene": "splitting",
+   "start": 193.378,
+   "end": 213.117,
+   "en": "The full tensor carries more than the three covariants. With A equal to J one two plus J three four, and B equal to J one three minus J two four, both over ten, the strictly positive states have identical covariants, yet B is neither A nor minus A; the full tensor tells them apart.",
+   "zh": "完整张量比这三个协变量包含更多信息。取 A = (J₁₂ + J₃₄)/10、B = (J₁₃ − J₂₄)/10，两个严格正定的态三个协变量完全相同，但 B 既不是 A 也不是 −A；完整张量能把它们分开。"
+  },
+  {
+   "i": 13,
+   "scene": "hecke",
+   "start": 215.317,
+   "end": 232.836,
+   "en": "Glued over a curve, the splitting becomes a parallel splitting of local systems. The volume then uses published results as external inputs: geometric Satake for Sp four, whose dual group is SO five, and Hecke eigen-objects from geometric Langlands.",
+   "zh": "在曲线上粘合之后，这一分裂成为局部系统的平行分裂。接着，本卷把已发表的结果作为外部输入：Sp₄ 的几何 Satake（其对偶群为 SO₅），以及几何朗兰兹中的 Hecke 本征对象。"
+  },
+  {
+   "i": 14,
+   "scene": "hecke",
+   "start": 233.436,
+   "end": 257.085,
+   "en": "Each covariant is a morphism of representations, so it commutes with the Hecke eigen-isomorphisms. The chain runs from real two-copy statistics to the quadratic tensor, to one plus fourteen plus five, to a parallel local system and to Hecke naturality. It is a conditional statement about morphisms, not a claim that instruments are sheaves.",
+   "zh": "每个协变量都是表示之间的态射，所以与 Hecke 本征同构交换。整条链从实二拷贝统计，到二次张量，到 1 + 14 + 5，到平行局部系统，再到 Hecke 自然性。这是关于态射的条件结论，并不是说仪器本身就是层。"
+  },
+  {
+   "i": 15,
+   "scene": "sphere",
+   "start": 259.285,
+   "end": 280.201,
+   "en": "On the five-mode pyramid, each relation sphere has area two pi times its width, and the four parameter regions carry nonzero Chern vectors. The largest flattenable torus quotient removes only the direction c, and the sphere is simply connected, so every unramified flat SO five system on it is trivial.",
+   "zh": "在五模式金字塔上，每个关系球面的面积是 2π 乘以它的宽度，四个参数区域带有非零的 Chern 向量。最大可平坦环面商只消去 c 这一个方向；而球面单连通，所以其上每个无分歧的平坦 SO₅ 系统都是平凡的。"
+  },
+  {
+   "i": 16,
+   "scene": "sphere",
+   "start": 280.801,
+   "end": 301.395,
+   "en": "Punctures change this. Three controls at angle pi root two generate a dense subgroup, giving a Zariski dense SO five local system on a four-punctured sphere; no finite cover removes the irrational ramification. On a genus-three curve the same rotations give a dense unramified system.",
+   "zh": "穿孔改变了这一点。三个控制在角度 π√2 下生成一个稠密子群，在四穿孔球面上给出 Zariski 稠密的 SO₅ 局部系统，而任何有限覆叠都消不掉这个无理角分歧。在属三曲线上，同样的旋转给出稠密的无分歧系统。"
+  },
+  {
+   "i": 17,
+   "scene": "finale",
+   "start": 303.795,
+   "end": 320.838,
+   "en": "A new readout adds exactly what the residual system sees; two copies reach the conjugation orbit, a reference removes it, and the hidden quadratic tensor splits as one plus fourteen plus five, Hecke natural under external Satake and Langlands inputs.",
+   "zh": "新读口增加的恰好是残余系统看到的东西。两份副本达到复共轭轨道，参考消除它；隐藏的二次张量分裂为 1 + 14 + 5，在外部 Satake 与朗兰兹输入下满足 Hecke 自然性。"
+  },
+  {
+   "i": 18,
+   "scene": "finale",
+   "start": 321.438,
+   "end": 336.597,
+   "en": "Submodularity, the greedy bound and the two-copy classification are kernel-checked in Lean; the rest is argued in the theory volume, and the finite computations were redone for this film. Next: context and spectral reconstruction.",
+   "zh": "次模性、贪心界和二拷贝分类经过 Lean 内核核验；其余结论在理论卷中论证，有限计算都为本片重新做过。下一部：语境与谱重构。"
+  }
+ ],
+ "duration": 345.597
+}
