@@ -1,0 +1,230 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 20.285
+  },
+  {
+   "id": "title",
+   "start": 20.285,
+   "end": 33.006
+  },
+  {
+   "id": "clock",
+   "start": 33.006,
+   "end": 72.716
+  },
+  {
+   "id": "labels",
+   "start": 72.716,
+   "end": 102.173
+  },
+  {
+   "id": "selection",
+   "start": 102.173,
+   "end": 137.647
+  },
+  {
+   "id": "budget",
+   "start": 137.647,
+   "end": 170.021
+  },
+  {
+   "id": "cover",
+   "start": 170.021,
+   "end": 206.202
+  },
+  {
+   "id": "hankel",
+   "start": 206.202,
+   "end": 238.075
+  },
+  {
+   "id": "domain",
+   "start": 238.075,
+   "end": 278.409
+  },
+  {
+   "id": "anchor",
+   "start": 278.409,
+   "end": 314.965
+  },
+  {
+   "id": "finale",
+   "start": 314.965,
+   "end": 359.587
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 19.285,
+   "en": "Parts one and two built spectral data from structure and boundaries. Part three asks what it costs to acquire a source, which labels survive noise, how one candidate is selected on a cover, and how the critical Green domain is classified.",
+   "zh": "第一、二部从结构和边界中造出谱数据。第三部追问：取得一个来源要付出多少，哪些标签经得起噪声，怎样在覆盖上选出一个候选，以及临界 Green 域如何分类。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 21.485,
+   "end": 25.987,
+   "en": "Auric–Langlands, part three: acquisition, cover and the critical domain.",
+   "zh": "AURIC–Langlands 第三部：取得、覆盖与临界域。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 26.587,
+   "end": 31.606,
+   "en": "Seventeen readings, one selected sheet, and a domain the threshold cannot see.",
+   "zh": "十七个读数，一张选出的层，以及阈值看不见的域。"
+  },
+  {
+   "i": 3,
+   "scene": "clock",
+   "start": 33.806,
+   "end": 53.067,
+   "en": "Each gate J or M advances a literal clock and records one reading. The word M to the eight, J, M to the seven decodes a cubic gain, a constant drift and the source matrix from seventeen readings; the observation determinant is a power of five times factorials, never zero.",
+   "zh": "每个门 J 或 M 都让字面时钟前进一格，并记下一个读数。门词 M⁸ J M⁷ 用十七个读数解出三次增益、常数漂移和来源矩阵；观测行列式是 5 的幂乘以阶乘，永不为零。"
+  },
+  {
+   "i": 4,
+   "scene": "clock",
+   "start": 53.667,
+   "end": 71.316,
+   "en": "Seventeen is optimal in the enlarged affine environment: an adaptive strategy with fewer queries leaves a direction it never sees. Normalising by the trace is stable only with a lower bound on the gain; shrinking the gain makes different sources indistinguishable.",
+   "zh": "在扩大的仿射环境里，十七是最优的：查询更少的自适应策略，总留下一个它看不见的方向。用迹来归一化，只有在增益有下界时才稳定；把增益缩小，不同的来源就无法分辨。"
+  },
+  {
+   "i": 5,
+   "scene": "labels",
+   "start": 73.516,
+   "end": 92.034,
+   "en": "On a tiny rectangle of readings every actual subdomain holds exactly three worlds, and the terminal J reading separates them. Two thresholds, two sixty-six point two and three thirteen point five two, sort the worlds correctly whenever the reading error is below one point eight eight eight.",
+   "zh": "在一个极小的读数矩形上，每个实际子域恰好有三个世界，终端 J 读数把它们分开。两个阈值 266.2 和 313.52，只要读数误差小于 1.888，就能把三个世界正确归类。"
+  },
+  {
+   "i": 6,
+   "scene": "labels",
+   "start": 92.634,
+   "end": 100.773,
+   "en": "So a fixed parameter needs exactly three predictive states, and inside this rectangle no pair of different worlds collides on J.",
+   "zh": "所以固定参数时恰好需要三个预测状态；并且在这个矩形内，没有两个不同的世界在 J 上碰撞。"
+  },
+  {
+   "i": 7,
+   "scene": "selection",
+   "start": 102.973,
+   "end": 116.114,
+   "en": "Over the good base the eighteen candidates form a finite étale algebra. Its connection transports the trace reconstruction, and a primitive reading can be horizontal only when the cover splits completely.",
+   "zh": "在良好基底上，十八个候选构成一个有限 étale 代数。它的联络输运迹重构；而一个原始读数只有在覆盖完全分裂时才可能水平。"
+  },
+  {
+   "i": 8,
+   "scene": "selection",
+   "start": 116.714,
+   "end": 136.247,
+   "en": "Choosing one candidate needs one root: a Lagrange idempotent then evaluates every reading by a trace. On a curve, a horizontal choice exists only after a cover whose degree is a multiple of the orbit size m, and if the orbit can be executed, exactly m memory states are needed.",
+   "zh": "选出一个候选需要一个根：然后一个 Lagrange 幂等元用迹给出每个读数。在曲线上，只有经过一个次数是轨道大小 m 倍数的覆盖，才存在水平的选择；如果这个轨道可以执行，就恰好需要 m 个记忆状态。"
+  },
+  {
+   "i": 9,
+   "scene": "budget",
+   "start": 138.447,
+   "end": 154.657,
+   "en": "Information has a price. If each report carries at most kappa nats per unit of cost, the total information gathered is bounded by kappa times the expected cost; for a binary task the cost is at least twice the squared risk reduction over kappa.",
+   "zh": "信息是有价格的。如果每个报告每单位成本至多携带 κ 奈特的信息，那么收集到的总信息不超过 κ 乘以期望成本；对二元任务，成本至少是风险降低量平方的两倍除以 κ。"
+  },
+  {
+   "i": 10,
+   "scene": "budget",
+   "start": 155.257,
+   "end": 168.621,
+   "en": "Fano's inequality turns this into a cost for identifying one of m candidates. And a seed that was independent at the start can still leak: given the history S xor Z, revealing Z gives away S.",
+   "zh": "Fano 不等式把它变成辨认 m 个候选之一的成本。而一个起初独立的种子仍然可能泄漏：在历史 S ⊕ Z 之下，公开 Z 就交出了 S。"
+  },
+  {
+   "i": 11,
+   "scene": "cover",
+   "start": 170.821,
+   "end": 191.63,
+   "en": "To meet the spectral side, pull the candidates back to an open part of the genus-four curve. Every branch of degree d compactifies to a curve of genus at least three d plus one; the SO five system stays dense and unramified, and the published geometric Langlands results give a nonzero Hecke eigen-object there.",
+   "zh": "为了接上谱的一侧，把候选拉回到属四曲线的一个开子集上。每个次数为 d 的分支紧化后，亏格至少为 3d + 1；SO₅ 系统仍然稠密且无分歧，已发表的几何朗兰兹结果在那里给出非零的 Hecke 本征对象。"
+  },
+  {
+   "i": 12,
+   "scene": "cover",
+   "start": 192.23,
+   "end": 204.802,
+   "en": "Only part of the central data survives: the inherited lifts number two hundred fifty-six over a power of two dividing d, so all of them for odd d and at least half for d equal to eighteen.",
+   "zh": "中心数据只保留一部分：继承下来的提升数是 256 除以一个整除 d 的二的幂；所以 d 为奇数时全部保留，d = 18 时至少保留一半。"
+  },
+  {
+   "i": 13,
+   "scene": "hankel",
+   "start": 207.002,
+   "end": 220.572,
+   "en": "A linear prediction code has a minimal size. For a self-adjoint compression the full future is determined by the Krylov closure, and the minimal realisation dimension is the rank of the Hankel Gram matrices.",
+   "zh": "线性预测编码有最小尺寸。对自伴压缩，全部未来由 Krylov 闭包决定，最小实现维数就是 Hankel Gram 矩阵的秩。"
+  },
+  {
+   "i": 14,
+   "scene": "hankel",
+   "start": 221.172,
+   "end": 236.675,
+   "en": "For the Omega model this gives six: five visible states plus the bright vector, with one-dimensional leakage and an invisible dark vector. Finite noisy moments still certify a lower bound by counting eigenvalues above the noise.",
+   "zh": "对 Ω 模型，这个维数是六：五个可见状态加上亮向量，泄漏是一维的，暗向量永远看不见。有限的含噪矩仍能给出维数下界：数一数高于噪声的特征值。"
+  },
+  {
+   "i": 15,
+   "scene": "domain",
+   "start": 238.875,
+   "end": 258.766,
+   "en": "Now the critical Green coupling. It equals pi times the source density times the determinant of the covariance times lambda zero over r, where lambda zero, about zero point six two six, is the lowest eigenvalue of an angular profile. At the threshold the form needs a specific completion.",
+   "zh": "现在看临界 Green 耦合。它等于 π 乘以源点密度、乘以协方差的行列式、再乘以 λ₀ 除以 r；其中 λ₀ 约为 0.626，是一个角剖面的最低特征值。在阈值处，二次型需要一个特定的完成。"
+  },
+  {
+   "i": 16,
+   "scene": "domain",
+   "start": 259.366,
+   "end": 277.009,
+   "en": "Two completions coincide exactly when the covariances at the source are proportional, so the identity and diag sigma, one over sigma share the threshold but not the domain. Under a trace budget, the largest threshold is reached when the covariance is proportional to the reference.",
+   "zh": "两个完成域相同，当且仅当源点处的协方差成比例；所以单位矩阵和 diag(σ, 1/σ) 阈值相同，域却不同。在迹预算下，协方差与参考矩阵成比例时，阈值达到最大。"
+  },
+  {
+   "i": 17,
+   "scene": "anchor",
+   "start": 279.209,
+   "end": 300.149,
+   "en": "Finally the pieces combine around an actual anchor. A recovered source fixes one point on one candidate sheet; the branch through it has degree m equal to the anchor's orbit, a horizontal idempotent evaluates the actual reading, and the compactified branch carries the dense local system and its Hecke eigen-object.",
+   "zh": "最后，各部分围绕一个实际锚点组合起来。一个恢复出的来源固定了某张候选层上的一个点；经过它的分支次数 m 等于锚点轨道的大小，一个水平幂等元给出实际读数，而紧化后的分支带着稠密局部系统及其 Hecke 本征对象。"
+  },
+  {
+   "i": 18,
+   "scene": "anchor",
+   "start": 300.749,
+   "end": 313.565,
+   "en": "What stays open is listed explicitly: a common implementation of the four blocks, the full exceptional layers, the actual monodromy, the noisy acquisition cost and the automorphic base change.",
+   "zh": "尚未解决的部分被明确列出：四个块的共同实现、完整的异常层、实际的单值、含噪取得的成本，以及自守侧的基变换。"
+  },
+  {
+   "i": 19,
+   "scene": "finale",
+   "start": 315.965,
+   "end": 330.118,
+   "en": "Seventeen readings decode a world, two thresholds label it, one root selects a sheet, information has a price, every branch keeps a Hecke eigen-object, and the critical domain is classified by the source covariance.",
+   "zh": "十七个读数解出一个世界，两个阈值给它贴上标签，一个根选出一张层，信息有价格，每个分支都保有 Hecke 本征对象，而临界域由源点协方差分类。"
+  },
+  {
+   "i": 20,
+   "scene": "finale",
+   "start": 330.718,
+   "end": 350.587,
+   "en": "Geometric Satake and geometric Langlands are published inputs, the clock, three-world and Green inputs come from other project volumes, the rest is argued in the theory volume, and the finite computations were redone for this film. Next: degeneration, ramification and stable recovery.",
+   "zh": "几何 Satake 与几何朗兰兹是已发表的输入，时钟、三世界与 Green 输入来自项目的其他理论卷，其余结论在本卷中论证，有限计算都为本片重新做过。下一部：退化、分歧与稳定恢复。"
+  }
+ ],
+ "duration": 359.587
+}
