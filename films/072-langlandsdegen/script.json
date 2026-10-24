@@ -1,0 +1,182 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part three acquired sources and selected a sheet. Part four goes where things degenerate: where data stop separating sources, where readings collide, where sources ramify, and where an observation turns critical.",
+     "第三部取得了来源并选出一张层。第四部走到退化之处：数据不再分开来源的地方、读数碰撞的地方、来源分歧的地方，以及观测变得临界的地方。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric–Langlands, part four: degeneration, ramification and stable recovery.",
+     "AURIC–Langlands 第四部：退化、分歧与稳定恢复。"
+    ],
+    [
+     "A blind circle, seven readings, a sign that lives on a cover, and a first step that never goes away.",
+     "一个盲圈，七个读数，一个住在覆盖上的符号，以及一个永远不会消失的第一步。"
+    ]
+   ]
+  },
+  {
+   "id": "fiber",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with the quadratic covariants q of an antisymmetric source in five dimensions. Their differential is injective almost everywhere, but on the equal-weight rank-four layer it has a two-dimensional kernel, exactly the tangent plane of the sphere of sources that share the same data.",
+     "从五维反对称来源的二次协变量 q 出发。它的微分几乎处处单射，但在等重秩四层上有二维核，恰好是共享同一数据的来源球面的切平面。"
+    ],
+    [
+     "Away from that layer the inverse is Lipschitz on every compact set. Yet two strictly legal sources at distance delta from the layer have a condition ratio of about one over two delta: legal, and ever harder to tell apart.",
+     "离开这一层，在每个紧集上逆都是 Lipschitz 的。但离这一层距离为 δ 的两个严格合法来源，条件比约为 1/(2δ)：合法，却越来越难以分辨。"
+    ]
+   ]
+  },
+  {
+   "id": "depth",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A calibrated filter measured at depths zero, one and two recovers the source through a panel of fifty numbers. The panel has rank forty-five and a ten-dimensional kernel, but that kernel contains no tensor of rank two or less.",
+     "一个校准滤波器在深度 0、1、2 上测量，通过五十个数的面板恢复来源。面板的秩是四十五，核是十维的，但核里没有秩不超过二的张量。"
+    ],
+    [
+     "Depth one is not enough: a whole circle of strictly legal sources gives identical original, success and failure readings. Any two fixed depths fail the same way.",
+     "只用深度一是不够的：一整个圆的严格合法来源给出完全相同的原始、成功和失败读数。任意两个固定深度都以同样方式失败。"
+    ]
+   ]
+  },
+  {
+   "id": "hecke",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The quadratic data are a twenty-dimensional quotient of the symmetric square of so five, with a thirty-five-dimensional kernel W. The panel sees a difference inside W, but its fixed filter is not equivariant.",
+     "二次数据是 so₅ 对称平方的一个二十维商，核 W 为三十五维。面板能看到 W 内的差别，但它的固定滤波器不是等变的。"
+    ],
+    [
+     "So it cannot replace the Hecke functors, which need the full eigen-structure and its naturality, as supplied by the published geometric Langlands results.",
+     "所以它不能代替 Hecke 函子；Hecke 函子需要完整的本征结构及其自然性，由已发表的几何朗兰兹结果提供。"
+    ]
+   ]
+  },
+  {
+   "id": "ramify",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A reading collision is not a source ramification. A reading's discriminant is its index squared times the source discriminant, so over an étale source collisions vanish to even order; yet even order proves nothing: t cubed equals s has discriminant minus twenty-seven s squared.",
+     "读数碰撞不是来源分歧。读数的判别式等于其指标的平方乘以来源判别式，所以在 étale 来源上，碰撞的消失阶是偶数；但偶数阶什么也证明不了：t³ = s 的判别式是 −27s²。"
+    ],
+    [
+     "For two sources the residue is k plus eta over two, and the monodromy is minus one exactly when the source ramifies. Where readings collide but sources stay apart, a combination m plus lambda j changes the chart, avoiding at most n choose two bad values.",
+     "对两个来源，留数是 k + η/2，而单值恰在来源分歧时为 −1。在读数碰撞但来源仍分开的地方，组合 m + λj 换一张图，最多避开 n 选 2 个坏值。"
+    ]
+   ]
+  },
+  {
+   "id": "orientation",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The sign of the source permutation is a character epsilon. Twisting the dense Sp four lift by epsilon keeps the SO five system and its eigenvalues but changes the spinor system; selecting a source and killing the sign together costs a cover of degree m or 2 m.",
+     "来源置换的符号是一个特征 ε。用 ε 扭曲稠密的 Sp₄ 提升，SO₅ 系统及其本征值不变，但旋量系统改变了；同时选出一个来源并消去符号，需要次数为 m 或 2m 的覆盖。"
+    ],
+    [
+     "Extending the twisted lift without ramification is a different goal: it needs only even discriminant order at the branch points, and leaves a class of order two in the Picard group, trivial exactly when the discriminant is a square.",
+     "无分歧地延拓扭曲后的提升是另一个目标：它只需要分支点处判别式的阶为偶数，并在 Picard 群里留下一个二阶类，它平凡当且仅当判别式是平方。"
+    ]
+   ]
+  },
+  {
+   "id": "seven",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Back to the literal clock. The six atoms J J J J M J with seven readings give a full-rank Jacobian: at r one third, b two thirds, unit gain and zero drift its determinant is forty-eight, so the source is recovered locally.",
+     "回到字面时钟。六个原子 J J J J M J 加七个读数给出满秩 Jacobian：在 r = 1/3、b = 2/3、单位增益、零漂移处，它的行列式是 48，所以来源可以局部恢复。"
+    ],
+    [
+     "That is a local inverse, not a decoder. The common-history bound still demands eight readings to decode every source in the class, and on a fixed degenerate fibre at least two extra readings are needed.",
+     "这是局部逆，不是解码器。共同历史下界仍然要求八个读数才能解出这一类里的每个来源；而在固定的退化纤维上，至少还需要两个额外读数。"
+    ]
+   ]
+  },
+  {
+   "id": "switch",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "When couplings may be switched mid-word, the minimal self-adjoint realisation has dimension five plus the span of the bright vectors: six if all coupling ratios are real, seven as soon as one ratio is genuinely complex.",
+     "当耦合可以在词的中途切换时，最小自伴实现的维数是五加亮向量张成的维数：所有耦合比都是实数时为六，只要有一个比值真正是复数就是七。"
+    ],
+    [
+     "But the seventh dimension unlocks weakly. The old dark vector leaks with probability eta squared sine squared tau sine squared alpha, and the smallest Gram eigenvalue vanishes like sine squared alpha. An exact rank jump is not uniform stability.",
+     "但第七维解锁得很弱。旧的暗向量以概率 η² sin²τ sin²α 泄漏，最小 Gram 特征值像 sin²α 一样趋于零。精确的秩跃迁并不等于一致稳定。"
+    ]
+   ]
+  },
+  {
+   "id": "occupation",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the Green side. A random command with step one over n accumulates expected occupation of a radial observation. For any cap M n, the capped mean converges exactly when one over n times H of M n tends to zero, where H integrates the capped profile.",
+     "现在看 Green 一侧。步长为 1/n 的随机命令累积径向观测的期望占用。对任意截断 M_n，截断均值收敛，当且仅当 (1/n) 乘以 H(M_n) 趋于零；这里 H 是截断剖面的积分。"
+    ],
+    [
+     "The deciding term is the first step: it leaves the source along a straight chord, and its contribution is comparable to that quantity. Power profiles recover the known thresholds: any cap below one half, log M n little o of n at one half, and a power law above.",
+     "起决定作用的是第一步：它沿一条直弦离开源点，贡献与这个量可比。幂次剖面重现了已知阈值：p < 1/2 时任何截断都行，p = 1/2 时要求 log M_n = o(n)，更大时是幂律。"
+    ]
+   ]
+  },
+  {
+   "id": "critical",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "At the logarithmic critical profile, one over r squared times log to the minus beta, the target is finite but every uncapped mean is infinite. The capped mean converges exactly when M n over log M n to the beta is little o of n squared.",
+     "在对数临界剖面 r⁻² (log 1/r)^−β 上，目标有限，但每个不截断的均值都是无穷。截断均值收敛，当且仅当 M_n/(log M_n)^β = o(n²)。"
+    ],
+    [
+     "At the borderline cap the first step alone contributes the square root of kappa C, so the limit overshoots the target by at least that. The profile is the square of a finite-energy state in the original domain, yet no general path readout follows.",
+     "在临界截断处，仅第一步就贡献 √(κC)，所以极限至少超出目标这么多。这个剖面是原始域中一个有限能量态的平方，但并不由此得到一般的路径读出。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "A sphere makes the inverse blow up, one depth leaves a circle blind, a collision is not a ramification, a sign lives on a cover, seven readings invert locally, a complex phase adds a dimension, and a first step decides the critical mean.",
+     "一个球面让逆发散，一个深度留下一个盲圈，碰撞不是分歧，符号住在覆盖上，七个读数只能局部求逆，复相位多加一维，第一步决定临界均值。"
+    ],
+    [
+     "Geometric Satake and geometric Langlands are published inputs, the fibre classification, clock and Green inputs come from other project volumes, the rest is argued in the theory volume, and the finite computations were redone for this film. This completes the four-part series.",
+     "几何 Satake 与几何朗兰兹是已发表的输入，纤维分类、时钟与 Green 输入来自项目的其他理论卷，其余结论在本卷中论证，有限计算都为本片重新做过。四部系列到此完结。"
+    ]
+   ]
+  }
+ ]
+}
