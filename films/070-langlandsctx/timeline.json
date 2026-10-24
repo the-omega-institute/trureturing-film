@@ -1,0 +1,230 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 21.843
+  },
+  {
+   "id": "title",
+   "start": 21.843,
+   "end": 33.574
+  },
+  {
+   "id": "futures",
+   "start": 33.574,
+   "end": 70.075
+  },
+  {
+   "id": "context",
+   "start": 70.075,
+   "end": 107.243
+  },
+  {
+   "id": "sources",
+   "start": 107.243,
+   "end": 144.465
+  },
+  {
+   "id": "spectral",
+   "start": 144.465,
+   "end": 179.351
+  },
+  {
+   "id": "boundary",
+   "start": 179.351,
+   "end": 214.326
+  },
+  {
+   "id": "transfer",
+   "start": 214.326,
+   "end": 247.974
+  },
+  {
+   "id": "lifts",
+   "start": 247.974,
+   "end": 286.365
+  },
+  {
+   "id": "green",
+   "start": 286.365,
+   "end": 317.436
+  },
+  {
+   "id": "finale",
+   "start": 317.436,
+   "end": 360.728
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 20.843,
+   "en": "Part one asked when new structure adds prediction. Part two asks what a legal future is, which data can be rebuilt from finite readings, and how an explicit boundary model becomes a five-dimensional spectral local system, with every resource kept in view.",
+   "zh": "第一部追问新结构何时增加预测。第二部追问：什么是合法的未来，哪些数据能从有限读数中重建，以及一个显式的边界模型怎样变成五维谱局部系统，并且每一项资源都记在账上。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 23.043,
+   "end": 27.292,
+   "en": "Auric–Langlands, part two: context and spectral reconstruction.",
+   "zh": "AURIC–Langlands 第二部：语境与谱重构。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 27.892,
+   "end": 32.174,
+   "en": "Legal futures, boundary responses, and a genus-four local system.",
+   "zh": "合法未来、边界响应，以及一个属四局部系统。"
+  },
+  {
+   "i": 3,
+   "scene": "futures",
+   "start": 34.374,
+   "end": 50.887,
+   "en": "Operations come with permissions: a finite automaton decides which gate words are legal. Propagating effects through all permission states at once gives the full legal future, and it stabilises within a bound set by states, dimension and readout rank.",
+   "zh": "操作带着权限：一个有限自动机决定哪些门词合法。把效应同时传过所有权限状态，就得到完整的合法未来，并且它在一个由状态数、维数和读口秩决定的步数内稳定。"
+  },
+  {
+   "i": 4,
+   "scene": "futures",
+   "start": 51.487,
+   "end": 68.675,
+   "en": "Watching only the start is not enough: a chain of length L shows nothing for L steps. Memory has floors: a native task with eleven future classes needs eleven states, kernel-checked in Lean, while one latched bit survives any reading error below two point one two.",
+   "zh": "只盯着起点是不够的：长度为 L 的链在 L 步之内什么也不显示。记忆也有下限：一个有十一类未来的原生任务需要十一个记忆状态，这经过 Lean 内核核验；而一个锁存的比特，能承受任何小于 2.12 的读数误差。"
+  },
+  {
+   "i": 5,
+   "scene": "context",
+   "start": 70.875,
+   "end": 90.907,
+   "en": "Blind spots must respect composition. The context blind kernel, everything that no allowed context can detect, is the largest tensor ideal inside the old blind space, so the quotient keeps its tensor structure. Real one-copy readings miss an imaginary part that a two-copy context sees.",
+   "zh": "盲区必须与组合相容。语境盲核，也就是任何许可语境都探测不到的部分，是旧盲空间里最大的张量理想，所以商仍然保留张量结构。实的单拷贝读数会漏掉虚部，而两拷贝语境能看到它。"
+  },
+  {
+   "i": 6,
+   "scene": "context",
+   "start": 91.507,
+   "end": 105.843,
+   "en": "A representation category resists compression: tensor functors keep every dimension, semisimple categories have no proper tensor ideals, and sub-normalised operations admit duals only in dimension one.",
+   "zh": "表示范畴不能被压缩：张量函子保持每一个维数，半单范畴没有真张量理想，而亚归一化操作只有一维对象才有对偶。"
+  },
+  {
+   "i": 7,
+   "scene": "sources",
+   "start": 108.043,
+   "end": 124.883,
+   "en": "With two independent sources, real joint statistics give S, T and A tensor B. On a graph of joint observations only the scales remain: a global sign when some cycle is odd, a free scale t against one over t when the graph is bipartite.",
+   "zh": "有两个独立来源时，实联合统计给出 S、T 和 A⊗B。在一张联合观察图上，只剩下尺度：图中有奇环时是一个全局符号；图是二分图时，是一个自由尺度 t 对 1/t。"
+  },
+  {
+   "i": 8,
+   "scene": "sources",
+   "start": 125.483,
+   "end": 143.065,
+   "en": "Reading phase is not controlling it: exact non-real unitaries from real processors need a reference orthogonal to its own conjugate, such as the phase qubit. A reference with nonzero overlap with its conjugate never gets there, however many copies.",
+   "zh": "读出相位不等于控制相位：要用实处理器精确实现非实的酉算子，参考态必须与自己的共轭正交，比如相位量子位。与共轭有非零重叠的参考态，无论多少份都做不到。"
+  },
+  {
+   "i": 9,
+   "scene": "spectral",
+   "start": 145.265,
+   "end": 160.696,
+   "en": "If an element of a finite spectral algebra has nonzero discriminant, its powers form a basis, and every other reading is rebuilt from traces. The trace matrix has determinant equal to the discriminant, and no roots are ever chosen.",
+   "zh": "在有限谱代数中，若一个元素的判别式非零，它的幂就构成一组基，其他每个读数都能由迹重建。迹矩阵的行列式恰好等于判别式，整个过程不需要选取任何根。"
+  },
+  {
+   "i": 10,
+   "scene": "spectral",
+   "start": 161.296,
+   "end": 177.951,
+   "en": "Invertible is not stable: with z equal to zero and epsilon, the coefficient grows like one over epsilon. And the project's exact collision of two different worlds extends to an analytic family, confined to an explicit exceptional layer.",
+   "zh": "可逆不等于稳定：取 z = (0, ε)，系数像 1/ε 那样增长。项目中两个不同世界的精确碰撞，可以延拓为一个解析族，而这个族被限制在一个显式的异常层里。"
+  },
+  {
+   "i": 11,
+   "scene": "boundary",
+   "start": 180.151,
+   "end": 194.673,
+   "en": "Boundaries compose by Schur elimination: the response is the minimum energy over the interior, staged elimination agrees with a single step, and gluing two networks at a common port is a Lagrangian composition.",
+   "zh": "边界通过 Schur 消元来组合：响应是对内部取能量最小值，分阶段消元与一次消元结果相同，把两个网络在公共端口粘合，就是一次 Lagrangian 组合。"
+  },
+  {
+   "i": 12,
+   "scene": "boundary",
+   "start": 195.273,
+   "end": 212.926,
+   "en": "On trees, products of port determinants obey a four-point law: among the three pairings, the minimum is attained twice. In logarithms this is the tropical Grassmann relation, and a measured violation is a certificate: the data are off by at least a quarter of the gap.",
+   "zh": "在树上，端口行列式的乘积满足四点律：三种配对中，最小值至少取到两次。取对数后，这就是热带 Grassmann 关系；测得的违背就是一张证书：数据至少偏离了间隔的四分之一。"
+  },
+  {
+   "i": 13,
+   "scene": "transfer",
+   "start": 215.126,
+   "end": 231.035,
+   "en": "Now a two-channel boundary. Each block D gives a transfer matrix that preserves the standard symplectic form, and four explicit blocks, zero, the two diagonal units and the swap, generate a Zariski dense subgroup of Sp four.",
+   "zh": "现在看一个二通道边界。每个块 D 给出一个保持标准辛形式的转移矩阵；四个显式的块，零、两个对角单位和交换块，生成 Sp₄ 中一个 Zariski 稠密的子群。"
+  },
+  {
+   "i": 14,
+   "scene": "transfer",
+   "start": 231.635,
+   "end": 246.574,
+   "en": "The primitive exterior square of four-space is five-dimensional with signature three, two, so Sp four maps onto SO five with kernel plus or minus one: a non-compact real form, and one sign of central data lost.",
+   "zh": "四维空间的原始外平方是五维的，符号为 (3, 2)，于是 Sp₄ 映满 SO₅，核为 ±1：这是一个非紧的实形式，并且丢掉了一个中心符号。"
+  },
+  {
+   "i": 15,
+   "scene": "lifts",
+   "start": 248.774,
+   "end": 270.596,
+   "en": "On a genus-four curve, send four generators to the four blocks and the rest to the identity. This gives a Zariski dense SO five local system; with geometric Satake and geometric Langlands as published inputs it carries a nonzero Hecke eigen-object, and the explicit covariant maps are Hecke natural.",
+   "zh": "在一条属四曲线上，把四个生成元送到四个块，其余送到单位元。这给出一个 Zariski 稠密的 SO₅ 局部系统；以几何 Satake 和几何朗兰兹作为已发表的输入，它带有非零的 Hecke 本征对象，而显式的协变映射满足 Hecke 自然性。"
+  },
+  {
+   "i": 16,
+   "scene": "lifts",
+   "start": 271.196,
+   "end": 284.965,
+   "en": "The lost sign is counted exactly: lifts back to Sp four form a torsor under H one with sign coefficients, two hundred fifty-six classes, invisible to every five-dimensional representation.",
+   "zh": "丢掉的符号被精确清点：回到 Sp₄ 的提升构成一个以符号为系数的 H¹ 挠子，共二百五十六类，任何五维表示都看不出它们的差别。"
+  },
+  {
+   "i": 17,
+   "scene": "green",
+   "start": 287.165,
+   "end": 303.747,
+   "en": "Finally stability. For a fixed Green model the critical coupling is the inverse of the best high-energy ratio of potential to kinetic energy: below it the form is bounded below with a ground state, above it the energy runs to minus infinity.",
+   "zh": "最后是稳定性。对一个固定的 Green 模型，临界耦合是势能与动能在高能端最佳比值的倒数：低于它，二次型有下界并取到基态；高于它，能量趋于负无穷。"
+  },
+  {
+   "i": 18,
+   "scene": "green",
+   "start": 304.347,
+   "end": 316.036,
+   "en": "Scaling the covariance by c and the density by d multiplies the critical coupling by c squared times d, so no universal positive threshold exists without fixing both.",
+   "zh": "把协方差乘以 c、密度乘以 d，临界耦合就乘以 c²d；所以不同时固定两者，就不存在统一的正阈值。"
+  },
+  {
+   "i": 19,
+   "scene": "finale",
+   "start": 318.436,
+   "end": 333.706,
+   "en": "Legal futures from permission states, tensor-respecting blind kernels, references that read but do not control, trace reconstruction, tropical certificates, and a boundary model that becomes a Hecke natural SO five local system.",
+   "zh": "由权限状态得到的合法未来，与张量相容的盲核，能读不能控的参考态，迹重建，热带证书，以及一个变成 Hecke 自然的 SO₅ 局部系统的边界模型。"
+  },
+  {
+   "i": 20,
+   "scene": "finale",
+   "start": 334.306,
+   "end": 351.728,
+   "en": "The eleven-state memory bound is kernel-checked in Lean, Satake and geometric Langlands are published inputs, the rest is argued in the theory volume, and the finite computations were redone for this film. Next: acquisition, cover and the critical domain.",
+   "zh": "十一状态的记忆下界经过 Lean 内核核验，Satake 与几何朗兰兹是已发表的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。下一部：取得、覆盖与临界域。"
+  }
+ ],
+ "duration": 360.728
+}
