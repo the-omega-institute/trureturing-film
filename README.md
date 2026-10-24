@@ -87,6 +87,7 @@ Release page.
 | 068 | [AURIC Ω VI · FINITE-ROOT FRONTIER](films/068-omegafrontier/) · AURIC Ω 第六部：全人口消去与有限根前沿 | 4:42 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 129 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-068-v1/TRURETURING_068_narrated_EN_subs_ZH-EN.mp4) |
 | 069 | [AURIC–LANGLANDS I · STRUCTURE ACQUISITION](films/069-langlandsacq/) · AURIC–Langlands 第一部：结构取得与谱延拓 | 5:45 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 161 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-069-v1/TRURETURING_069_narrated_EN_subs_ZH-EN.mp4) |
 | 070 | [AURIC–LANGLANDS II · CONTEXT AND SPECTRAL RECONSTRUCTION](films/070-langlandsctx/) · AURIC–Langlands 第二部：语境与谱重构 | 6:00 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 164 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-070-v1/TRURETURING_070_narrated_EN_subs_ZH-EN.mp4) |
+| 071 | [AURIC–LANGLANDS III · ACQUISITION, COVER AND CRITICAL DOMAIN](films/071-langlandscover/) · AURIC–Langlands 第三部：取得、覆盖与临界域 | 6:00 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 165 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-071-v1/TRURETURING_071_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
