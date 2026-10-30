@@ -1,0 +1,26 @@
+{
+  "id": "073",
+  "title": "AURIC Ω VII · SO5 PATHS, FOURTEEN-DIMENSIONAL RECOVERY AND HECKE",
+  "title_zh": "AURIC Ω 第七部 · SO₅ 路径、十四维恢复与 Hecke",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "d013e5a679",
+  "released": "2026-10-30",
+  "duration": "7:17",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_narrated_EN_subs_ZH-EN.mp4",
+    "music_only": "TRURETURING_music_only_subs_ZH-EN.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}

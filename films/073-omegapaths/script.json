@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part four found the optimal recovery error over the real class, and part five followed an excursion that returns. Part seven first finishes both threads, then takes the same five modes onto a curve, where loops become rotations and a fourteen-dimensional system records them.",
+     "第四部求出了实类上的最优恢复误差，第五部跟踪了一次会回返的游程。第七部先把这两条线收尾，再把同样的五个模式放到一条曲线上：闭路变成旋转，一个十四维系统把它们记录下来。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric Omega, part seven: SO five paths, fourteen-dimensional recovery and Hecke.",
+     "AURIC Ω 第七部：SO₅ 路径、十四维恢复与 Hecke。"
+    ],
+    [
+     "Three gates, two tensors, two references, one sign, and a jump from sixteen to one.",
+     "三枚门，两个张量，两个参考，一个符号，以及从十六到一的跳变。"
+    ]
+   ]
+  },
+  {
+   "id": "complex",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with the complex class. The two phase inputs give outputs at trace distance two, so their supports are orthogonal, and every phase input leaves the environment with weight at most one minus beta in each direction.",
+     "先看复类。两个相位输入的输出迹距离为二，所以支撑正交；于是每个相位输入留给环境的态，在每个方向上的权重都不超过 1 − β。"
+    ],
+    [
+     "With that cap, the common-projection exclusion and the minimax go through unchanged. Fidelity is at most the square root of one plus root one minus beta, over two, so every complex recovery has error at least one minus root one minus beta, the same optimum as the real class.",
+     "有了这个上限，公共投影排除和极小极大原样成立。保真度至多为 √((1 + √(1 − β))/2)，所以每个复恢复的误差都至少为 1 − √(1 − β)，与实类的最优值相同。"
+    ]
+   ]
+  },
+  {
+   "id": "leak",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the excursion. Compress the evolution to the five kept states: the norm the compression loses is exactly the squared amplitude sent out, eta squared sine squared tau along the fourth state, with short-time coefficient four r squared.",
+     "再看游程。把演化压缩到保留的五个态上：压缩损失的范数恰好等于送出去的振幅平方，即沿第四个态的 η² sin²τ，短时系数为 4r²。"
+    ],
+    [
+     "Two steps are not the square of one. Amplitude that leaves through the bright state in the first interval comes back in the second, a term minus eta squared, e to the minus two i chi, sine squared tau, which vanishes only at the return times.",
+     "两步不等于一步的平方。第一段时间里经亮态离开的振幅，会在第二段时间里回来，多出一项 −η² e^(−2iχ) sin²τ，只在回返时刻才消失。"
+    ]
+   ]
+  },
+  {
+   "id": "paths",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the curve. Fix a genus-three surface and three gates, rotations by pi root two in SO five whose Lie algebra is all of so five, so they generate a dense group. Send the a-loops to the gates, the first b-loop to the n-th power of the first gate, and the other b-loops to the identity.",
+     "现在到曲线上。固定一个亏格三曲面和三枚门：SO(5) 中转角为 π√2 的旋转，它们的 Lie 代数是整个 so(5)，所以生成稠密群。把 a 圈送到三枚门，第一个 b 圈送到第一枚门的 n 次方，其余 b 圈送到恒等。"
+    ],
+    [
+     "The traces one plus four cosine n theta are all different, so these local systems are pairwise non-isomorphic. Yet they all have the same abstract tensor data: the representations of SO five, the forgetful functor, and the fourteen-dimensional representation. What is lost is the path.",
+     "迹 1 + 4cos(nθ) 两两不同，所以这些局部系统两两不同构。但它们的抽象张量数据全都相同：SO(5) 的表示范畴、忘却函子和十四维表示。丢掉的是路径。"
+    ]
+   ]
+  },
+  {
+   "id": "tensors",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Keep the path. The fourteen-dimensional space is the traceless symmetric matrices. For dense monodromy, every intertwiner is a scalar c times the image of a unique group element, so the vector system decides the principal one, up to that scalar.",
+     "保留路径。十四维空间是迹零对称矩阵。单值稠密时，每个交织映射都是一个标量 c 乘以唯一群元的像，所以向量系统决定主系统，只差这个标量。"
+    ],
+    [
+     "Two parallel tensors remove it. The trace of S T forces c squared to be one, the trace of S T U forces c cubed to be one, so c is one, and their joint stabiliser is exactly SO five. Without density this fails: the trivial system has symmetry of dimension one hundred ninety-six, not eleven.",
+     "两个平行张量消除它。tr(ST) 迫使 c² = 1，tr(STU) 迫使 c³ = 1，于是 c = 1，二者的共同稳定子恰为 SO(5)。没有稠密性就不成立：平凡系统的对称维数是 196，而不是 11。"
+    ]
+   ]
+  },
+  {
+   "id": "hecke",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On the automorphic side the dual group is Sp four. For each of these dense systems, the published geometric Langlands equivalence gives a Hecke eigen-object, the one matching C shifted by minus forty in genus three.",
+     "自守侧的对偶群是 Sp(4)。对这些稠密系统中的每一个，已发表的几何朗兰兹等价都给出一个 Hecke 本征对象，在亏格三时对应 C[−40]。"
+    ],
+    [
+     "Minus forty is minus twenty for Bun Sp four plus minus twenty for the unipotent stack, whose Euler sums are two, two, six and ten; in general the shift is minus twenty times g minus one. Since the automorphism group is trivial, the forgotten sheaf is one nonzero simple object.",
+     "−40 等于 Bun_Sp4 的 −20 加上幂幺丛堆的 −20，后者的 Euler 数之和为 2 + 2 + 6 + 10；一般亏格时移位为 −20(g − 1)。由于自同构群平凡，忘却后的层是一个非零的简单对象。"
+    ]
+   ]
+  },
+  {
+   "id": "acquire",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "To read a rotation, send two known reference states through it, with spectra point one six to point two four, and point two eight with four point one eights. Together they pin it: two rotations differ by at most sixteen hundred times the output error.",
+     "要读出一个旋转，就让两个已知参考态穿过它，谱分别是 0.16 到 0.24，以及 0.28 加四个 0.18。两者合起来钉住旋转：两个旋转之差至多为输出误差的一千六百倍。"
+    ],
+    [
+     "One reference is not enough: flipping two coordinates in its own eigenbasis fixes it. With N preparations for each of thirty settings, the fitted rotation is within sixteen hundred times two zeta plus tau, with confidence one minus delta.",
+     "一个参考不够：在它自己的本征基里同时翻转两个坐标就能固定它。三十个设置各制备 N 次，拟合出的旋转误差在 1600(2ζ + τ) 以内，置信度为 1 − δ。"
+    ]
+   ]
+  },
+  {
+   "id": "correct",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Measured matrices are never exact. If the commutator map has a spectral gap s, and the relation is off by r below s squared over sixty-four g, then an exact flat tuple lies within sixteen g r over s, with gap still above s over two.",
+     "测得的矩阵从来不精确。若交换子映射有谱隙 s，而关系偏差 r 小于 s²/(64g)，那么在 16gr/s 之内存在一个精确平坦元组，其谱隙仍大于 s/2。"
+    ],
+    [
+     "The gap matters. Near the trivial representation, tuples that keep both tensors exactly have relation defect of order t squared, yet stay at distance of order t from every exact tuple.",
+     "谱隙是关键。在平凡表示附近，精确保持两个张量的元组，关系缺陷是 t² 阶，到精确元组的距离却仍是 t 阶。"
+    ]
+   ]
+  },
+  {
+   "id": "spin",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Lifting to Spin five, which is Sp four, has one obstruction: lift the generators and multiply their commutators to get a sign kappa. A lift exists exactly when kappa is plus one, and then there are two to the two g of them; for the genus-three family, sixty-four.",
+     "提升到 Spin(5)，也就是 Sp(4)，只有一个障碍：提升各生成元，把交换子乘起来，得到符号 κ。κ = +1 时恰好存在提升，此时共有 2²ᵍ 个；对亏格三的那族是六十四个。"
+    ],
+    [
+     "Two extra half-turn gates lift to anticommuting Clifford pairs, which gives a dense representation with kappa minus one and no lift. Choosing a source, trivialising the orientation and lifting together costs a cover of degree m, or two m.",
+     "额外加两枚半周门，它们提升为反交换的 Clifford 对，给出一个 κ = −1、没有提升的稠密表示。同时选定来源、平凡化取向并完成提升，所需覆盖的次数是 m 或 2m。"
+    ]
+   ]
+  },
+  {
+   "id": "jump",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now an explicit family z of t on the same curve, with gap above one throughout. At t equal zero the complex commutant has dimension four, so the centraliser is mu two to the fourth, and the forgotten object has sixteen simple summands.",
+     "再看同一曲线上的显式族 z(t)，谱隙始终大于一。在 t = 0，复交换核的维数是四，中心化子是 μ₂⁴，忘却对象有十六个简单直和项。"
+    ],
+    [
+     "For every positive t the kernel is zero and the object is simple, while the complex gap grows only linearly. The characteristic cycle stays the same along the family, and none of the sixteen projections lifts to the full Hecke object.",
+     "对每个正的 t，交换核为零，对象是简单的，而复谱隙只线性增长。沿这一族特征循环保持不变，十六个投影中没有一个能提升到完整的 Hecke 对象。"
+    ]
+   ]
+  },
+  {
+   "id": "budget",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Finite tasks stay stable. For words of length at most L and tensor powers at most D, outputs differ by at most the minimum of two and D L delta, and a weighted sum over all budgets gives a complete metric, d fin at most four delta.",
+     "有限任务保持稳定。对长度不超过 L 的词和阶数不超过 D 的张量幂，输出差至多为 min{2, DLδ}；对所有预算加权求和，得到一个完备度量，d_fin ≤ 4δ。"
+    ],
+    [
+     "Without a budget there is no uniform bound. Rotate one generator by pi over n: the gate distance two sine pi over two n goes to zero, yet the word of length n and the n-th tensor power both stay at distance two.",
+     "没有预算就没有一致界。把一个生成元转 π/n：门距离 2sin(π/2n) 趋于零，但长度为 n 的词和 n 阶张量幂都保持距离二。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Complex recovery meets the same curve, the second step brings back what the first sent out, the path decides what tensors cannot, two tensors and two references pin the rotation, one sign decides the lift, and sixteen summands become one while the cycle stays.",
+     "复恢复达到同一条曲线，第二步带回第一步送出的振幅，路径决定张量决定不了的东西，两个张量和两个参考钉住旋转，一个符号决定提升，十六个直和项变成一个，而特征循环不变。"
+    ],
+    [
+     "Geometric Langlands, Tannakian reconstruction and recovery duality are published inputs, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+     "几何朗兰兹、Tannaka 重构与恢复对偶是已发表的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
