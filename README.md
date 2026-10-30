@@ -89,6 +89,7 @@ Release page.
 | 070 | [AURIC–LANGLANDS II · CONTEXT AND SPECTRAL RECONSTRUCTION](films/070-langlandsctx/) · AURIC–Langlands 第二部：语境与谱重构 | 6:00 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 164 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-070-v1/TRURETURING_070_narrated_EN_subs_ZH-EN.mp4) |
 | 071 | [AURIC–LANGLANDS III · ACQUISITION, COVER AND CRITICAL DOMAIN](films/071-langlandscover/) · AURIC–Langlands 第三部：取得、覆盖与临界域 | 6:00 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 165 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-071-v1/TRURETURING_071_narrated_EN_subs_ZH-EN.mp4) |
 | 072 | [AURIC–LANGLANDS IV · DEGENERATION, RAMIFICATION AND STABLE RECOVERY](films/072-langlandsdegen/) · AURIC–Langlands 第四部：退化、分歧与稳定恢复 | 6:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 177 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-072-v1/TRURETURING_072_narrated_EN_subs_ZH-EN.mp4) |
+| 073 | [AURIC Ω VII · SO5 PATHS](films/073-omegapaths/) · AURIC Ω 第七部：SO₅ 路径、十四维恢复与 Hecke | 7:17 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 197 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-073-v1/TRURETURING_073_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
