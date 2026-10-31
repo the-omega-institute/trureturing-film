@@ -100,6 +100,9 @@ Release page.
 | 081 | [AURIC PREDICTIVE WAVES I · POSITIVE KERNELS, LOOP PHASES AND LOCKED FUTURES](films/081-predwaves1/) · AURIC 相容预测波 第一部：正核、环相位与锁定的未来 | 7:25 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 203 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-081-v1/TRURETURING_081_narrated_EN_subs_ZH-EN.mp4) |
 | 082 | [AURIC PREDICTIVE WAVES II · EXACT RADII AND RECORD DEPTH](films/082-predwaves2/) · AURIC 相容预测波 第二部：精确半径与记录深度 | 7:26 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 205 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-082-v1/TRURETURING_082_narrated_EN_subs_ZH-EN.mp4) |
 | 083 | [AURIC PREDICTIVE WAVES III · POSITIVE REALIZATIONS AND REAL MEMORY](films/083-predwaves3/) · AURIC 相容预测波 第三部：正实现与实记忆 | 7:25 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 205 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-083-v1/TRURETURING_083_narrated_EN_subs_ZH-EN.mp4) |
+| 084 | [AURIC PREDICTIVE WAVES IV · FIXED ERROR, FINITE MEMORY AND THE RETURNED RECORD](films/084-predwaves4/) · AURIC 相容预测波 第四部：固定误差、有限记忆与回返记录 | 7:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 207 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-084-v1/TRURETURING_084_narrated_EN_subs_ZH-EN.mp4) |
+| 085 | [AURIC PREDICTIVE WAVES V · REFLECTED THRESHOLDS AND CERTIFIED GAPS](films/085-predwaves5/) · AURIC 相容预测波 第五部：反射阈值与认证间隙 | 7:30 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 204 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-085-v1/TRURETURING_085_narrated_EN_subs_ZH-EN.mp4) |
+| 086 | [AURIC V10 · COHERENT RELATIONS AND RECURSIVE OBSERVATION](films/086-auricv10/) · AURIC V10：相干关系与递归观测 | 7:29 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 205 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-086-v1/TRURETURING_086_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
