@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Measure the environment of a channel and every step leaves a label. How much of that label history must be kept to undo the channel exactly? The answer depends on how the environment is measured, not on the channel.",
+     "测量一个信道的环境，每一步都会留下一个标签。要精确撤销这个信道，标签历史必须保留多少？答案取决于环境怎样被测量，而不取决于信道本身。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric environment memory, part one: same channel, six values or n bits, and the erased history.",
+     "AURIC 环境记录记忆 第一部：同一信道、六个值或 n 比特，以及被擦除的历史。"
+    ],
+    [
+     "One dilation, two measurement bases, and a record that is either six values forever or every label.",
+     "一个扩张，两组测量基，记录要么永远只需六个值，要么必须保留每一个标签。"
+    ]
+   ]
+  },
+  {
+   "id": "two",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "At each step a five-level system meets a fresh qubit environment, which is then measured. Measure it in its own basis, or in a basis rotated by theta: the two averaged channels agree on every complex input, with any reference attached.",
+     "每一步，一个五能级系统遇到一个新的量子比特环境，随后环境被测量。在环境自己的基里测量，或者在转过 θ 的基里测量：两个平均信道在每个复输入上都相同，附加任何参考系也一样。"
+    ],
+    [
+     "On the embedded qutrit, each outcome has probability one half and acts by a unitary: the permutations U zero and U one, or V j equal to U j times e to the i theta W, with W a reflection.",
+     "在嵌入的三能级子空间上，每个结果的概率都是二分之一，作用是一个酉算子：置换 U₀ 和 U₁，或者 V_j = U_j e^(iθW)，其中 W 是一个反射。"
+    ]
+   ]
+  },
+  {
+   "id": "record",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A record is everything the decoder sees at the end. Exact recovery works if and only if each record value comes from histories with one projective word class, even with random compression and any decoder. The minimum alphabet is the class count m n.",
+     "记录是解码器最后能看到的全部信息。精确恢复成立，当且仅当每个记录值所来自的历史都属于同一个射影词类，即使允许随机压缩和任意解码器也是如此。最小字母表就是类数 m_n。"
+    ],
+    [
+     "In the native basis the words lie in S three: one, two, four, then six classes at every horizon from three on. One six-value register with twelve fixed transitions decodes every horizon, and six is necessary.",
+     "在原生基里，这些词都落在 S₃ 中：类数依次为一、二、四，从第三步起每个时长都是六。一个带十二条固定转移的六值寄存器能解码所有时长，而且六是必需的。"
+    ]
+   ]
+  },
+  {
+   "id": "parity",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Rotate by pi over six and nothing merges. In a skewed basis the scaled letters are integer matrices over Z of i root three, with determinants four and minus four. Reduce a plus b tau to a plus b modulo two: both become one idempotent E, and W times E is not E.",
+     "转过 π/6，就没有任何词合并。在一个斜基里，两个字母经缩放后变成 ℤ[i√3] 上的整矩阵，行列式分别为 4 和 −4。把 a + bτ 模二约化为 a + b：两个字母都变成同一个幂等元 E，而 W·E ≠ E。"
+    ],
+    [
+     "So all two to the n histories give different words, even across lengths. Exact recovery needs two to the n values, n bits and entropy n, even with a free shared seed, and a shift register attains it. The averaged channel is unchanged.",
+     "于是全部 2ⁿ 条历史给出互不相同的词，不同长度之间也不相同。精确恢复需要 2ⁿ 个值、n 比特和 n 比特的熵，即使有免费的共享种子也一样，移位寄存器就能达到。平均信道没有变。"
+    ]
+   ]
+  },
+  {
+   "id": "angles",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now let theta vary. The counts are even, repeat with period pi over two, and stay bounded exactly at its multiples: bounded counts would make minus cos theta an algebraic integer with all conjugates between minus one and one, forcing cos theta to be zero or plus or minus one.",
+     "现在让 θ 变化。类数总是偶数，以 π/2 为周期，并且恰好在其整数倍处有界：类数有界会使 −cos θ 成为一个所有共轭都在 −1 与 1 之间的代数整数，这迫使 cos θ 只能是 0 或 ±1。"
+    ],
+    [
+     "At every other angle the counts grow strictly, at least n plus one, and the rotation group is dense in SO three. At rational angles it is a Radin–Sadun group, yet never free on its letters: V zero inverse times V one is W, which squares to the identity.",
+     "在其他每个角度，类数严格增长，至少为 n + 1，旋转群在 SO(3) 中稠密。在有理角处它是一个 Radin–Sadun 群，但在这两个字母上从不自由：V₀⁻¹V₁ = W，而 W² 是恒等。"
+    ]
+   ]
+  },
+  {
+   "id": "growth",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "By Breuillard's strong Tits alternative, one constant beta above one gives at least beta to the n classes at every unbounded angle. Two to the n is exact when i tan theta is transcendental, or its polynomial is even at one, so at every rational unbounded angle.",
+     "由 Breuillard 的强 Tits 二择一定理，存在一个大于一的常数 β，使每个无界角处至少有 βⁿ 个类。当 i tan θ 是超越数，或其多项式在 1 处取偶数值时，类数恰为 2ⁿ，因此每个无界有理角都如此。"
+    ],
+    [
+     "Not everywhere. At theta star, the arcsine of root five minus one over two, a to the fifth commutes with b. Two length-six histories collide, m six is at most sixty-three, and the growth rate falls below one bit per step.",
+     "但并非处处如此。在 θ* = arcsin((√5 − 1)/2)，a⁵ 与 b 对易。两条长度为六的历史发生碰撞，m₆ ≤ 63，增长率低于每步一比特。"
+    ]
+   ]
+  },
+  {
+   "id": "simulate",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A different task: simulate the whole flagged instrument on all five levels, using only unitaries, projective measurements and classical feedback. Every such protocol misses by at least four over twenty-five in diamond norm, at every angle, even with unbounded stopping times.",
+     "换一个任务：只用酉算子、投影测量和经典反馈，在全部五个能级上模拟整个带标记的仪器。每个这样的协议在菱形范数下都至少差 4/25，对每个角度都如此，即使停止时间无界也一样。"
+    ],
+    [
+     "An explicit coin and measurement simulator misses by exactly one minus one over root two, attained by one state without a reference. The best distance lies between point one six and point two nine, and its exact value is open.",
+     "一个显式的抛币加测量模拟器恰好差 1 − 1/√2，用一个不带参考系的态就能达到。最优距离介于 0.16 与 0.29 之间，其精确值尚未确定。"
+    ]
+   ]
+  },
+  {
+   "id": "capacity",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The smaller tasks are exact: the outcome statistics, the averaged channel through a measurement of the two halves of a reflection, and the instrument on the encoded qutrit. The channel is not unital, so it is no mixture of unitaries.",
+     "较小的任务都能精确完成：结果统计、通过测量一个反射的两个半空间得到的平均信道，以及编码三能级上的仪器。这个信道不是保单位的，所以它不是酉算子的混合。"
+    ],
+    [
+     "Extra room fixes the full task. A qubit ancilla, ten dimensions in all, is the minimum in tensor form. One extra level, six in all, is the minimum as a direct sum, and every output returns to the qutrit.",
+     "额外的空间能解决完整任务。一个量子比特辅助系统，总维数为十，是张量形式的最小值。多加一个能级，总共六维，是直和形式的最小值，而且所有输出都回到三能级子空间。"
+    ]
+   ]
+  },
+  {
+   "id": "approx",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Back to records, now approximately. Near a multiple of pi over two, keep only the six-valued permutation state and apply one signed terminal unitary. The averaged error is at most two n delta squared over three, for every reference.",
+     "回到记录，这次允许近似。在 π/2 的整数倍附近，只保留六值的置换状态，最后施加一个带符号的终端酉算子。平均误差至多为 2nδ²/3，对任何参考系都成立。"
+    ],
+    [
+     "The sign matters: decoding with plus d at angle minus d gives error about four d. At theta equal pi over twenty-six with ten steps, exact recovery needs one thousand twenty-four values, while six states stay within one tenth.",
+     "符号很重要：在角度 −d 处用 +d 解码，误差约为 4d。在 θ = π/26、十步时，精确恢复需要 1024 个值，而六个状态的误差保持在十分之一以内。"
+    ]
+   ]
+  },
+  {
+   "id": "erase",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now erase the history and ask which observables one decoder can restore. The largest such algebra is all of M three with no step, the commutant of W after one step, and from two steps on only the spectator line and its complement.",
+     "现在擦除历史，问一个解码器能恢复哪些可观测量。最大的这样的代数，零步时是整个 M₃，一步后是 W 的交换子，从两步起只剩旁观者直线及其补。"
+    ],
+    [
+     "So for two or more steps the only nontrivial sharp question is whether the qutrit is in xi. Full support matters: a law on two histories with relative W still restores the whole commutant of W.",
+     "所以两步及以上，唯一非平凡的锐利问题是三能级系统是否处于 ξ。全支撑很关键：一个只落在两条相对差为 W 的历史上的分布，仍能恢复 W 的整个交换子。"
+    ]
+   ]
+  },
+  {
+   "id": "tasks",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "With the fair law, a rank-one task has one-step error the square root of r times one minus r, a floor that persists. Orientation matters: two tasks with no spectator weight have errors one minus tau over two and one half, three eighths against one half at three steps.",
+     "在公平分布下，秩一任务的一步误差是 √(r(1 − r))，这个下限一直保持。方向也重要：两个旁观者权重为零的任务，误差分别为 (1 − τ)/2 和 1/2，在三步时就是 3/8 对 1/2。"
+    ],
+    [
+     "Scalar observations are not enough. A separable partner has the same marginals and the same SIC and MUB correlation norms as the actual Choi state, yet the spectator task goes from zero error to two over twenty-five at three steps, and two sevenths in the limit.",
+     "标量观测也不够。一个可分的伙伴信道与实际 Choi 态有相同的边缘和相同的 SIC 与 MUB 关联范数，但旁观者任务的误差从零变成三步时的 2/25，极限时为 2/7。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "One channel, two measurements: six values or every label, a parity that separates all words, a lattice of bounded angles, a gap of four over twenty-five for simulation, six states that nearly suffice, and an erased history that keeps only the spectator.",
+     "一个信道，两种测量：六个值或每一个标签，一个区分所有词的奇偶性，一组有界角的格点，模拟的 4/25 间隙，几乎够用的六个状态，以及只保留旁观者的被擦除历史。"
+    ],
+    [
+     "The rotation-group classification, the strong Tits alternative and the error-correction criteria are published inputs, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "旋转群分类、强 Tits 二择一定理与纠错判据是已发表的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
