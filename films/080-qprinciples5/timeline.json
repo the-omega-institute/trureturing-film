@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 21.258
+  },
+  {
+   "id": "title",
+   "start": 21.258,
+   "end": 38.541
+  },
+  {
+   "id": "kernel",
+   "start": 38.541,
+   "end": 76.152
+  },
+  {
+   "id": "bath",
+   "start": 76.152,
+   "end": 115.12
+  },
+  {
+   "id": "tree",
+   "start": 115.12,
+   "end": 151.229
+  },
+  {
+   "id": "reset",
+   "start": 151.229,
+   "end": 186.292
+  },
+  {
+   "id": "square",
+   "start": 186.292,
+   "end": 223.37
+  },
+  {
+   "id": "concept",
+   "start": 223.37,
+   "end": 255.442
+  },
+  {
+   "id": "sign",
+   "start": 255.442,
+   "end": 288.559
+  },
+  {
+   "id": "rank",
+   "start": 288.559,
+   "end": 323.742
+  },
+  {
+   "id": "native",
+   "start": 323.742,
+   "end": 356.399
+  },
+  {
+   "id": "polar",
+   "start": 356.399,
+   "end": 389.601
+  },
+  {
+   "id": "finale",
+   "start": 389.601,
+   "end": 436.427
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 20.258,
+   "en": "After three continuations, part five returns to the second half of the main volume: static slices with no global clock, observers that keep their records, a balanced five-mode channel with a return instrument, and phases the native menu cannot read.",
+   "zh": "经过三部续卷，第五部回到主卷的后半部分：没有全局时钟的静态切面，保留自身记录的观察者，带返回仪器的五模式平衡通道，以及原生菜单读不到的相位。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 22.458,
+   "end": 28.518,
+   "en": "Auric quantum principles, part five: static slices, return records and phase readouts.",
+   "zh": "AURIC 量子原理第五部：静态切面、返回记录与相位读口。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 29.118,
+   "end": 37.141,
+   "en": "A positivity that fails globally, a segment of equilibria, a record tree, and a sign that hides from every real effect.",
+   "zh": "一种整体失效的正性，一段平衡态，一棵记录树，以及一个躲开所有实效果的符号。"
+  },
+  {
+   "i": 3,
+   "scene": "kernel",
+   "start": 39.341,
+   "end": 59.668,
+   "en": "Static slices are finite regions of one compatible configuration, and any two share an extension. Positive kernels build their Hilbert space, but pairwise checks are not enough: with off-diagonals minus three quarters, every two-by-two block is positive, yet the whole has eigenvalue minus one half.",
+   "zh": "静态切面是同一相容配置中的有限区域，任意两个都有共同扩张。正核构造出它们的 Hilbert 空间，但逐对检验不够：非对角元取 −3/4 时，每个二阶子块都是正的，整个矩阵却有本征值 −1/2。"
+  },
+  {
+   "i": 4,
+   "scene": "kernel",
+   "start": 60.268,
+   "end": 74.752,
+   "en": "Loops carry phase. Around a loop of unit vectors, one minus the product of the phases is at most the sum of root two times one minus each overlap, so a four-loop with one sign flip cannot keep every overlap above seven eighths.",
+   "zh": "闭路携带相位。沿一圈单位向量，1 减去相位乘积的模，不超过各重叠 r 的 √(2(1 − r)) 之和；所以带一次符号翻转的四环，不能让每个重叠都高于 7/8。"
+  },
+  {
+   "i": 5,
+   "scene": "bath",
+   "start": 76.952,
+   "end": 97.35,
+   "en": "Now a balanced channel on five modes. Two Kraus operators push every input into a three-dimensional code, with eigenvalues one twice, minus one half three times and zero four times; on all inputs the characteristic polynomial is t to the twentieth, t minus one squared, t plus one half cubed.",
+   "zh": "现在看五个模式上的一个平衡通道。两个 Kraus 算子把每个输入推进一个三维码，本征值为 1 二重、−1/2 三重、0 四重；在全部输入上，特征多项式是 t²⁰(t − 1)²(t + 1/2)³。"
+  },
+  {
+   "i": 6,
+   "scene": "bath",
+   "start": 97.95,
+   "end": 113.72,
+   "en": "So there is no single equilibrium but a segment, tau p. Every input converges to tau of trace J rho, with diamond error at most four thirds times two to the two minus n, yet the whole segment shows the same five populations.",
+   "zh": "所以没有唯一的平衡，而是一整段 τ_p。每个输入都收敛到 τ_Tr(Jρ)，diamond 误差至多 (4/3)·2^(2−n)；而这一整段显示的五个人口完全相同。"
+  },
+  {
+   "i": 7,
+   "scene": "tree",
+   "start": 115.92,
+   "end": 132.523,
+   "en": "The native record gives each label probability one half, for every angle and every code input, so it says nothing. A supplied environment readout instead gives one plus p over two and one minus p over two: balanced on average, broken in each branch.",
+   "zh": "原生记录对每个标签都给概率 1/2，对任意角度和任意码内输入都如此，所以它什么也没说。另供的环境读口则给出 (1 + p)/2 与 (1 − p)/2：平均是平衡的，每个分支却打破了平衡。"
+  },
+  {
+   "i": 8,
+   "scene": "tree",
+   "start": 133.123,
+   "end": 149.829,
+   "en": "Add a return channel and the records form an exact unbounded tree. All-plus words have probability p plus one minus p times two to the minus n, and the infinite law is p on the all-plus ray plus fair coin flips with weight one minus p.",
+   "zh": "再加一个返回通道，记录就构成一棵精确的无界树。全正字的概率为 p + (1 − p)·2⁻ⁿ；无穷记录律是全正射线上的 p，加上权重为 1 − p 的公平硬币序列。"
+  },
+  {
+   "i": 9,
+   "scene": "reset",
+   "start": 152.029,
+   "end": 169.912,
+   "en": "Mix in a reset to tau zero with weight epsilon. Then n steps are exactly one minus epsilon to the n times the channel plus the rest times the reset, and the diamond distance to the unperturbed channel is exactly twice one minus, one minus epsilon to the n.",
+   "zh": "混入一个权重为 ε、复位到 τ₀ 的扰动。于是 n 步恰好等于 (1 − ε)ⁿ 倍的原通道，加上其余部分乘以复位；它到未扰动通道的 diamond 距离恰为 2[1 − (1 − ε)ⁿ]。"
+  },
+  {
+   "i": 10,
+   "scene": "reset",
+   "start": 170.512,
+   "end": 184.892,
+   "en": "Every finite depth stays close, but the limits do not commute: depth first sends tau one to tau zero, epsilon first keeps tau one. Their difference has eigenvalue one minus epsilon, so there is no uniform gap.",
+   "zh": "每个有限深度都保持接近，但两个极限不交换：先取深度，τ₁ 被送到 τ₀；先令 ε → 0，τ₁ 保持不变。二者之差的本征值为 1 − ε，所以没有一致谱隙。"
+  },
+  {
+   "i": 11,
+   "scene": "square",
+   "start": 187.092,
+   "end": 203.857,
+   "en": "A relational spectrum needs more than eigenvalues. Two states with the same eigenvalues give one effect probability one and one half, and transposing everything keeps each commuting slice but turns the word moment X Y from i into minus i.",
+   "zh": "关系谱需要的不只是本征值。两个本征值相同的态，对同一个效果给出概率 1 与 1/2；同步转置一切，保持每个交换切面，却把词矩 XY 从 i 变成 −i。"
+  },
+  {
+   "i": 12,
+   "scene": "square",
+   "start": 204.457,
+   "end": 221.97,
+   "en": "Answer tables fail. In the Mermin–Peres square every row and the first two columns multiply to the identity and the last column to minus the identity, so no context-free table of signs exists; for CHSH, tables reach two and quantum two root two.",
+   "zh": "答案表失效。在 Mermin–Peres 方阵中，每一行和前两列的乘积都是恒等，末列乘积是负恒等，所以不存在与上下文无关的符号表；对 CHSH，答案表至多为 2，量子达到 2√2。"
+  },
+  {
+   "i": 13,
+   "scene": "concept",
+   "start": 224.17,
+   "end": 237.703,
+   "en": "Which concepts are stable under the channel? The fixed effects are exactly combinations of the identity and one effect J, with eigenvalues one, two thirds and zero, so every stable readout is two numbers.",
+   "zh": "哪些概念在这个通道下稳定？固定效果恰好是恒等与一个效果 J 的组合，J 的本征值为 1、2/3 和 0，所以每个稳定读出都只是两个数。"
+  },
+  {
+   "i": 14,
+   "scene": "concept",
+   "start": 238.303,
+   "end": 254.042,
+   "en": "J is not a projection: J squared minus J is minus two ninths d d dagger. The return rule multiplies instead, coordinate by coordinate on the pair a, a plus b, and an input outside the code still feeds weight two thirds.",
+   "zh": "J 不是投影：J² − J = −(2/9)dd†。返回规则给出另一种乘法，在数对 (a, a + b) 上逐分量相乘；码外的一个输入仍贡献权重 2/3。"
+  },
+  {
+   "i": 15,
+   "scene": "sign",
+   "start": 256.242,
+   "end": 272.038,
+   "en": "Two candidate worlds differ only by a sign. On every real effect, at every depth, they give identical operators, yet their diamond distance is four t root one minus t squared, and any common reconstruction errs by at least half of that.",
+   "zh": "两个候选世界只差一个符号。在每个实效果、每个深度上，它们给出完全相同的算子；但它们的 diamond 距离是 4t√(1 − t²)，任何共同重建的误差至少是它的一半。"
+  },
+  {
+   "i": 16,
+   "scene": "sign",
+   "start": 272.638,
+   "end": 287.159,
+   "en": "An effect with an imaginary cross term separates them, with probabilities one half plus or minus t root one minus t squared, one and zero at t equal one over root two. It lies outside the original real menu.",
+   "zh": "一个带虚交叉项的效果能把它们分开，概率为 1/2 ± t√(1 − t²)，在 t = 1/√2 时为 1 与 0。它在原来的实菜单之外。"
+  },
+  {
+   "i": 17,
+   "scene": "rank",
+   "start": 289.359,
+   "end": 306.719,
+   "en": "Responses also bound dimension. Effects and states from one d-dimensional model give a response matrix of rank at most d squared, so with entry errors epsilon, a k-th singular value above epsilon root m n forces d at least root k.",
+   "zh": "响应也能给出维数下界。来自同一个 d 维模型的效果与态，给出秩至多为 d² 的响应矩阵；所以每项误差为 ε 时，第 k 个奇异值若超过 ε√(mn)，就迫使 d ≥ √k。"
+  },
+  {
+   "i": 18,
+   "scene": "rank",
+   "start": 307.319,
+   "end": 322.342,
+   "en": "On the three-level code, nine supplied states and nine effects give a response with determinant one sixteenth to the eighth and smallest singular value at least gamma; entry errors below gamma over eighteen rule out every two-level model.",
+   "zh": "在三能级码上，另供的九个态与九个效果给出行列式为 (1/16)⁸、最小奇异值至少为 γ 的响应；每项误差低于 γ/18 时，所有二能级模型都被排除。"
+  },
+  {
+   "i": 19,
+   "scene": "native",
+   "start": 324.542,
+   "end": 339.791,
+   "en": "Can the native menu of waits, full reads and stop realise that effect? Not on all inputs: every permitted record has a real effect in the D frame, and two inputs with equal real parts differ on the target by root two over twenty-four.",
+   "zh": "由等待、完整读取与 Stop 构成的原生菜单，能实现这个效果吗？不能在全部输入上实现：每个许可记录在 D 帧中都是实效果，而两个实部相同的输入在目标效果上相差 √2/24。"
+  },
+  {
+   "i": 20,
+   "scene": "native",
+   "start": 340.391,
+   "end": 354.999,
+   "en": "Yet the sign worlds are still told apart. Wait one hundredth, read all five labels, stop: the empty-mode probabilities differ by more than three over two hundred fifty, times t root one minus t squared, for every t.",
+   "zh": "然而两个符号世界仍可区分。等待 1/100，读出全部五个标签，Stop：空模式概率之差大于 (3/250)·t√(1 − t²)，对每个 t 都成立。"
+  },
+  {
+   "i": 21,
+   "scene": "polar",
+   "start": 357.199,
+   "end": 372.914,
+   "en": "Last, the wait itself. Away from a dark line, its polar factor is a complex structure commuting with every wait, yet an immediate full read separates e N from its partner on the same internal complex ray with total variation one.",
+   "zh": "最后看等待本身。在一条暗线之外，它的极因子是与每次等待交换的复结构；但一次立即的完整读取，就以总变差 1 把 e_N 与同一内部复射线上的配对向量分开。"
+  },
+  {
+   "i": 22,
+   "scene": "polar",
+   "start": 373.514,
+   "end": 388.201,
+   "en": "So any model giving that ray one record law is off by at least one half, only constant effects descend, and a read can push half the mass onto the dark line. Whether native operations force a global complex structure is open.",
+   "zh": "所以任何给这条射线指定同一记录律的模型，误差至少为 1/2；只有常值效果能够下降，一次读取还能把一半质量推到暗线上。原生操作能否强制出全局复结构，仍是开放问题。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 390.601,
+   "end": 412.541,
+   "en": "Pairwise positivity is not global, the channel keeps a segment of equilibria, records grow an exact tree, a reset flips the limit, answer tables fail, stable concepts are two numbers, a sign hides from real effects, responses bound dimension, the native wait still tells the sign apart, and one read splits the wait's own polar ray.",
+   "zh": "逐对正性不等于整体正性，通道保留一段平衡态，记录长成精确的树，复位翻转了极限，答案表失效，稳定概念只是两个数，一个符号躲开实效果，响应给出维数下界，原生等待仍能分辨符号，而一次读取就拆开了等待自己的极射线。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 413.141,
+   "end": 427.427,
+   "en": "The Mermin–Peres square and the CHSH bound are classical tools, the channel package comes from other project volumes, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+   "zh": "Mermin–Peres 方阵与 CHSH 界是经典工具，通道包来自本项目的其他卷，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 436.427
+}
