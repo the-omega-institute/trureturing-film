@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "This volume types one pipeline: a five-state law, its hidden fiber, Fisher geometry, Fibonacci boundaries and cycles, and bridges to arithmetic, triangle networks and Riemann zeros, entered only as stated conditions.",
+     "本卷为一条管线标注类型：五态概率律、它的隐藏纤维、Fisher 几何、Fibonacci 边界与循环，以及通往算术、三角网络和黎曼零点的桥；这些桥只以写明的条件出现。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric typed bridges, part one: the hidden seam and the bridge ledger.",
+     "AURIC 类型化桥 第一部：隐藏缝与桥接账本。"
+    ],
+    [
+     "Three visible numbers, one hidden direction, and every bridge written down with its inputs, hypotheses and failure boundary.",
+     "三个可见数，一个隐藏方向；每座桥都写明输入、假设和失效边界。"
+    ]
+   ]
+  },
+  {
+   "id": "fiber",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Five states, zero, two, three, five and the joint state twenty-five, are read by three indicators. Their means X, Y and Z, plus kappa, the joint mass, rebuild the whole law linearly.",
+     "五个状态 0、2、3、5 和联合态 25 由三个指示函数读出。它们的均值 X、Y、Z，加上联合态的质量 κ，线性地重构整个概率律。"
+    ],
+    [
+     "So each visible point carries an interval of legal kappa, from the larger of zero and X plus Y plus Z minus one, to the smaller of X and Y. Five is three visible plus two invisible directions; normalising leaves one.",
+     "所以每个可见点都带着一段合法 κ 的区间：从 0 与 X + Y + Z − 1 中较大者，到 X 与 Y 中较小者。五等于三个可见方向加两个不可见方向；归一化后只剩一个。"
+    ]
+   ]
+  },
+  {
+   "id": "moment",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A function's mean is its visible part plus J f times kappa, where J f is the four-corner difference of its values at twenty-five, two, five and zero. The mean is visible exactly when J f vanishes.",
+     "一个函数的均值等于可见部分加上 J_f 乘以 κ，其中 J_f 是它在 25、2、5、0 处取值的四角差。均值可见，当且仅当 J_f = 0。"
+    ],
+    [
+     "Take W with values zero, two, three, five and seven. Its mean is blind to kappa, but W squared contains twenty x y, so kappa is the variance plus the squared mean, minus four X, nine Z and twenty-five Y, over twenty.",
+     "取 W，五态取值为 0、2、3、5、7。它的均值看不见 κ，但 W² 含有 20xy，所以 κ 等于方差加均值平方，减去 4X、9Z 和 25Y，再除以 20。"
+    ]
+   ]
+  },
+  {
+   "id": "entropy",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On the fiber, with r equal to one minus Z, the defect r kappa minus X Y equals p zero p twenty-five minus p two p five. Entropy is strictly concave, maximal exactly where the defect vanishes, at X Y over r.",
+     "沿纤维，记 r = 1 − Z，缺陷 rκ − XY 等于 p₀p₂₅ − p₂p₅。熵在纤维上严格凹，恰在缺陷为零处取到最大，即 κ* = XY/r。"
+    ],
+    [
+     "Its curvature is the Fisher information, the sum of one over p zero, p two, p five and p twenty-five, the Hessian of negative entropy along the seam. Added state energies keep free energy strictly convex.",
+     "它的曲率就是 Fisher 信息，即 1/p₀、1/p₂、1/p₅、1/p₂₅ 之和，也就是负熵沿缝方向的 Hessian。加入状态能量后，自由能仍严格凸。"
+    ]
+   ]
+  },
+  {
+   "id": "contract",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Send the state through any noisy readout. Fisher information along the seam can only shrink, and the loss is exactly the average conditional variance of the score, d over p, given the output.",
+     "让状态经过任意带噪读出。沿缝方向的 Fisher 信息只会减少，损失恰好等于给定输出时得分 d/p 的条件方差的平均。"
+    ],
+    [
+     "The same Cauchy–Schwarz step makes Fisher curvature monotone across layers: merging nodes with conditional weights, or deleting the last Fibonacci position, never raises it. Finer layers carry at least as much.",
+     "同一步 Cauchy–Schwarz 使 Fisher 曲率在层间单调：以条件权重合并节点，或删去最后一个 Fibonacci 位置，都不会使它增加。细层承载的曲率至少与粗层一样多。"
+    ]
+   ]
+  },
+  {
+   "id": "seam",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the five-edge graph: zero to two, two to twenty-five, twenty-five to five, five to zero, zero to three. It has one loop, and flows with invisible boundary form a plane mapping onto the seam d, with the loop as kernel.",
+     "再看五边图：0 到 2、2 到 25、25 到 5、5 到 0、0 到 3。它只有一个回路；边界不可见的边流构成一个平面，边界把它映满缝 d，核正是这个回路。"
+    ],
+    [
+     "On any connected graph, the lifts of one seam differ exactly by cycles, and a weighted minimal lift removes only that freedom. Here the minimal signed lift has squared norm one, while a nonnegative flow needs two.",
+     "在任意连通图上，同一条缝的各个提升恰好相差一个循环，加权最小提升只消去这部分自由度。这里最小带符号提升的范数平方是一，而非负流需要二。"
+    ]
+   ]
+  },
+  {
+   "id": "cycles",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "With n positions, no two neighbours occupied, there are F n plus two supports, n minus k plus one choose k of size k: two, three and five for n equal to one, two, three. The boundary sequence holds at every n.",
+     "n 个位置、相邻位置不同时占据时，合法支持共有 F_(n+2) 个，大小为 k 的有 C(n − k + 1, k) 个：n = 1、2、3 时分别是 2、3、5。边界正合列对每个 n 都成立。"
+    ],
+    [
+     "Seams have dimension F n plus two minus n minus one, cycles E minus V plus one. From n equal to five cycles strictly win, by a ratio growing like n over phi squared plus one.",
+     "缝的维数是 F_(n+2) − n − 1，循环的维数是 E − V + 1。从 n = 5 起循环严格占优，二者之比按 n/(φ² + 1) 增长。"
+    ]
+   ]
+  },
+  {
+   "id": "limits",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Stack finite layers with compatible maps. If every layer is nonempty, compact and convex and every map continuous, affine and onto, the inverse limit is nonempty. Graph Dirichlet energy contracts when gradients commute with contractive edge maps.",
+     "把有限层用相容映射叠起来。若每层非空、紧且凸，每个映射连续、仿射且满射，逆极限非空。当梯度与收缩的边映射交换时，图 Dirichlet 能量随粗粒化收缩。"
+    ],
+    [
+     "Nonempty is not unique, and compatibility alone gives no energy convergence without Mosco and recovery conditions. For the hidden coordinate, if fiber widths times products of affine slopes tend to zero, the limit has at most one point.",
+     "非空不等于唯一；没有 Mosco 与恢复条件，单靠相容性得不到能量收敛。对隐藏坐标，若纤维宽度乘以仿射斜率之积趋于零，逆极限至多只有一点。"
+    ]
+   ]
+  },
+  {
+   "id": "flow",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three spectra must stay apart: the static curvature of a Hessian, the decay rates of a gradient flow, and the frequencies of a symplectic flow that conserves energy. Only a quantisation rule makes frequencies energy levels.",
+     "三种谱必须分开：Hessian 的静态曲率、梯度流的衰减率，以及保持能量的辛流的频率。只有另加量子化规则，频率才会成为能级。"
+    ],
+    [
+     "The mass-action flow on the seam is a gradient flow of negative entropy for a rank-one Onsager operator along d. With visible data fixed, kappa relaxes to kappa star at rate gamma r and stays legal, but gamma is added data.",
+     "缝上的质量作用流，是负熵关于一个沿 d 方向的秩一 Onsager 算子的梯度流。可见数据固定时，κ 以速率 γr 弛豫到 κ* 并保持合法；但 γ 是新增的数据。"
+    ]
+   ]
+  },
+  {
+   "id": "bridges",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Arithmetic enters only through an explicit encoding of configurations, such as prime windows, as five-state laws. A linear record identifies kappa exactly when some input sends d to a nonzero value: the mean of W gives zero, its second moment twenty.",
+     "算术只能通过显式编码进入：把素数窗口之类的配置编码为五态概率律。线性记录能识别 κ，当且仅当某个输入把 d 送到非零值：W 的均值给出零，它的二阶矩给出二十。"
+    ],
+    [
+     "Every object is typed primitive, derived or bridge. A conclusion using bridge hypotheses holds only in models satisfying them, so it never becomes an unconditional primitive theorem, and if no model satisfies them it is vacuous.",
+     "每个对象都标为原生、导出或桥接。用到桥接假设的结论只在满足这些假设的模型中成立，因此永远不会成为无条件的原生定理；若没有模型满足它们，结论只是空真。"
+    ]
+   ]
+  },
+  {
+   "id": "triangle",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "In a triangle network, three independent sources feed three observers, each seeing two. The output is a probability law, so any event pushforward to five states is one; without the pushforward condition this fails, already for q equal to zero.",
+     "三角网络里，三个独立源喂给三个观察者，每人只看两个源。输出是概率律，所以到五态的任何事件推前都是五态律；去掉推前条件这就不成立，q = 0 就是反例。"
+    ],
+    [
+     "Conversely, a five-state law gives no independent sources by itself. Inflation gives finite certificates: an exact y with A transpose y nonnegative and y dot b negative proves a law is not triangle-local; passing one level proves no compatibility.",
+     "反过来，五态律本身给不出独立源。Inflation 给出有限证书：精确向量 y 满足 Aᵀy ≥ 0 且 y·b < 0，就证明该分布不是三角局部的；而通过某一级检验并不证明相容。"
+    ]
+   ]
+  },
+  {
+   "id": "rh",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For a zeta zero rho, the Cayley coefficient rho minus one over rho has unitarity defect one minus twice the real part, over modulus rho squared. With exhaustive zero data, the Riemann hypothesis is equivalent to a unitary diagonal Cayley operator.",
+     "对 zeta 零点 ρ，Cayley 系数 (ρ − 1)/ρ 的酉性缺陷 |c|² − 1 等于 (1 − 2Re ρ)/|ρ|²。在零点数据穷尽的条件下，黎曼猜想等价于对角 Cayley 算子是酉的。"
+    ],
+    [
+     "An equivalence is not a proof: matching spectra to imaginary parts, or unitarity on finitely many zeros, proves nothing; one needs a self-adjoint operator with an eigenvalue for every zero. No map from the five-state defect to zeros is given; it stays an analogy.",
+     "等价不是证明：让谱与虚部吻合，或在有限个零点上取得酉性，都证明不了什么；需要一个自伴算子，对每个零点都有相应的特征值。从五态缺陷到零点的映射并未给出；这仍只是类比。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Three visible numbers leave one hidden seam: the second moment recovers it, Fisher curvature shapes it, readouts only lose it, cycles outgrow it, limits can pin it, and the arithmetic, triangle and Riemann bridges stay typed conditions.",
+     "三个可见数留下一条隐藏缝：二阶矩恢复它，Fisher 曲率塑造它，读出只会损失它，循环多于它，极限可以钉住它；而算术、三角与黎曼之桥仍是类型化的条件。"
+    ],
+    [
+     "The Fibonacci counts, the boundary sequence and the Cayley equivalence are frozen Lean theorems, inflation is a published input, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "Fibonacci 计数、边界正合列与 Cayley 等价是冻结的 Lean 定理，inflation 是已发表的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
