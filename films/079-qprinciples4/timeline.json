@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 21.529
+  },
+  {
+   "id": "title",
+   "start": 21.529,
+   "end": 37.681
+  },
+  {
+   "id": "source",
+   "start": 37.681,
+   "end": 77.328
+  },
+  {
+   "id": "bridge",
+   "start": 77.328,
+   "end": 117.721
+  },
+  {
+   "id": "alphabet",
+   "start": 117.721,
+   "end": 154.46
+  },
+  {
+   "id": "oneevent",
+   "start": 154.46,
+   "end": 191.188
+  },
+  {
+   "id": "jumps",
+   "start": 191.188,
+   "end": 228.572
+  },
+  {
+   "id": "capacity",
+   "start": 228.572,
+   "end": 263.411
+  },
+  {
+   "id": "effects",
+   "start": 263.411,
+   "end": 299.782
+  },
+  {
+   "id": "reader",
+   "start": 299.782,
+   "end": 334.491
+  },
+  {
+   "id": "density",
+   "start": 334.491,
+   "end": 370.607
+  },
+  {
+   "id": "zero",
+   "start": 370.607,
+   "end": 403.926
+  },
+  {
+   "id": "finale",
+   "start": 403.926,
+   "end": 448.631
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 20.529,
+   "en": "The earlier parts built a complex Fibonacci path model and its coherent records. This part keeps one source of eighty-nine paths and asks which native statistical rules, readers and hidden histories make its record probabilities the squared amplitudes.",
+   "zh": "前几部建立了复 Fibonacci 路径模型及其相干记录。本部只保留一个八十九条路径的来源，追问：哪些原生统计规则、读器与隐藏历史，使它的记录概率恰为振幅的平方。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 22.729,
+   "end": 27.995,
+   "en": "Auric Quantum Principles, part four: conservation, readers and record histories.",
+   "zh": "AURIC 量子原理第四部：统计守恒、读器与记录历史。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 28.595,
+   "end": 36.281,
+   "en": "Two native duties fix every record weight, and explicit models show what each further assumption adds and what it leaves open.",
+   "zh": "两项原生统计职责确定全部记录权重；显式模型标出每条附加假设添加了什么、又留下了什么。"
+  },
+  {
+   "i": 3,
+   "scene": "source",
+   "start": 38.481,
+   "end": 55.842,
+   "en": "One source carries everything: eighty-nine legal paths, one ready path, eleven pre-read addresses and seven post-read addresses. The record bit b nine splits the carrier into sectors of fifty-five and thirty-four paths, and the first nine addresses never change it.",
+   "zh": "一个来源承载一切：八十九条合法路径、一条 ready 路径、十一个前读地址与七个后读地址。记录位 b₉ 把载体分成 55 与 34 条路径的两个扇区，前九个地址从不改变它。"
+  },
+  {
+   "i": 4,
+   "scene": "source",
+   "start": 56.442,
+   "end": 75.928,
+   "en": "By the joint density theorem of Freedman, Larsen and Wang, the same native words act densely on both sectors at once, so one finite word family separates any two conditional states by more than one half. For the prefix nine nine, a found word gives point eight seven against point zero seven.",
+   "zh": "由 Freedman–Larsen–Wang 的联合稠密定理，同一批原生字同时在两个扇区上稠密作用，因此一个有限字族能把任意两个条件态分开超过 1/2。对前缀 99，找到的一个字给出 0.87 对 0.07。"
+  },
+  {
+   "i": 5,
+   "scene": "bridge",
+   "start": 78.128,
+   "end": 95.414,
+   "en": "Now add two native duties. C: a control at any of those nine addresses, inserted before the reading, leaves the record marginal unchanged. D: inserting the reader leaves the probability of one old terminal event, b one equals one, unchanged.",
+   "zh": "现在加上两项原生职责。C：在读取前插入那九个地址中任一控制，记录边缘不变。D：插入读器不改变一个旧终端事件 b₁ = 1 的概率。"
+  },
+  {
+   "i": 6,
+   "scene": "bridge",
+   "start": 96.014,
+   "end": 116.321,
+   "en": "Together they force every record weight to equal the squared norm of the record projection, for every real prefix, whatever its history dependence. D says m minus t, times p zero minus p one, is zero, and a separating word makes the second factor exceed one half. Neither duty alone suffices.",
+   "zh": "二者合起来迫使每个记录权重等于记录投影的平方范数，对每个真实前缀成立，无论它怎样依赖历史。D 说 (m − t)(p₀ − p₁) = 0，而一个分离字使第二个因子超过 1/2。任一职责单独都不够。"
+  },
+  {
+   "i": 7,
+   "scene": "alphabet",
+   "start": 118.521,
+   "end": 136.735,
+   "en": "No finite classical alphabet predicts the native terminal statistics. For n hidden states, two to the n, plus one, native prefixes and continuations reproduce a table close to sine squared of pi times i minus j over m, which vanishes on the diagonal.",
+   "zh": "没有任何有限经典字母表能预测原生终端统计。对 n 个隐藏状态，2ⁿ + 1 个原生前缀与接续给出一张接近 sin²(π(i − j)/m) 的表，其对角线为零。"
+  },
+  {
+   "i": 8,
+   "scene": "alphabet",
+   "start": 137.335,
+   "end": 153.06,
+   "en": "A pigeonhole on the two to the n support sets makes every classical fit miss by more than gamma squared over thirty-two n, with gamma equal to sine squared of pi over m. For n equal to one, the best fit found still misses by three eighths.",
+   "zh": "对 2ⁿ 个支撑集用鸽巢原理，任何经典拟合的误差都大于 γ²/(32n)，其中 γ = sin²(π/m)。n = 1 时，找到的最好拟合仍差 3/8。"
+  },
+  {
+   "i": 9,
+   "scene": "oneevent",
+   "start": 155.26,
+   "end": 172.119,
+   "en": "Now drop the full terminal rule. Keep only one unknown continuous response q for the event b one equals one, calibrated at the ready and at one flipped path, and add relation E: the addresses two to ten leave that event probability unchanged.",
+   "zh": "现在去掉完整的终端规则。只保留事件 b₁ = 1 的一个未知连续响应 q，在 ready 与一条翻转路径上标定，再加上关系 E：地址 2 到 10 不改变该事件的概率。"
+  },
+  {
+   "i": 10,
+   "scene": "oneevent",
+   "start": 172.719,
+   "end": 189.788,
+   "en": "A bit reversal turns the record split into the event split, with blocks of thirty-four, twenty-one, twenty-one and thirteen. C, E and D then give a functional equation; midpoints force F of s equal to s, so q is the squared norm and the records are Born.",
+   "zh": "位反转把记录的划分变成事件的划分，交块为 34、21、21、13。C、E、D 于是给出一个函数方程；中点迫使 F(s) = s，所以 q 是平方范数，记录服从 Born。"
+  },
+  {
+   "i": 11,
+   "scene": "jumps",
+   "start": 191.988,
+   "end": 209.735,
+   "en": "A generative model: Bell-type minimal-rate jumps on the eighty-nine paths, each gate a fixed pulse of angle three pi over five. A gate makes at most two jumps, and two address-one calls from the ready give two jumps in the second call with probability point zero three one.",
+   "zh": "一个生成模型：八十九条路径上的 Bell 型最小速率跳跃，每个门是角度为 3π/5 的固定脉冲。一个门至多跳两次；从 ready 连续两次调用地址 1，第二次调用恰跳两次的概率为 0.031。"
+  },
+  {
+   "i": 12,
+   "scene": "jumps",
+   "start": 210.335,
+   "end": 227.172,
+   "en": "Given the readable history, the expected number of jumps per gate is at most one over the square root of phi, about point seven eight six, and this golden constant is sharp. Conditioning on the hidden past can exceed it: three x minus one, about point eight five four.",
+   "zh": "给定可读历史，每个门的期望跳数至多为 1/√φ，约 0.786，这个黄金常数是最佳的。以隐藏过去为条件则可以超过它：3x − 1，约 0.854。"
+  },
+  {
+   "i": 13,
+   "scene": "capacity",
+   "start": 229.372,
+   "end": 245.583,
+   "en": "Suppose instead that the event prediction rows span a finite-dimensional space, and that ten repeats of any address statistically return. Then one criterion decides everything: prefixes whose rays return to the ready ray must have returning rows.",
+   "zh": "另一种设定：假设事件的预测行张成有限维空间，且任一地址重复十次在统计上回返。于是一个判据决定一切：射线回到 ready 射线的前缀，其预测行也必须回返。"
+  },
+  {
+   "i": 14,
+   "scene": "capacity",
+   "start": 246.183,
+   "end": 262.011,
+   "en": "That criterion holds exactly when one continuous response q on rays reproduces every probability, and r minus one fixed futures already detect any failure. For the Born law the deviation is at most twice the ray distance.",
+   "zh": "这个判据成立，恰当存在射线上的一个连续响应 q 重现全部概率；r − 1 个固定未来就足以检出任何失败。对 Born 律，偏差至多为射线距离的两倍。"
+  },
+  {
+   "i": 15,
+   "scene": "effects",
+   "start": 264.211,
+   "end": 280.086,
+   "en": "After the record, the seven post-read addresses only see block-diagonal data. The real span of all actual effects is the full block algebra: one thousand fifty-one dimensions for record zero and six hundred ten for record one.",
+   "zh": "记录之后，七个后读地址只看到分块对角的数据。全部实际效果的实张成恰是完整的分块代数：记录 0 为 1051 维，记录 1 为 610 维。"
+  },
+  {
+   "i": 16,
+   "scene": "effects",
+   "start": 280.686,
+   "end": 298.382,
+   "en": "So a pure state can be predictively non-extreme: the prefix seven equals alpha times prefix seven seven plus one minus alpha times the ready, with alpha equal to one over one plus x squared, exactly on every future and label, although all three states are different.",
+   "zh": "于是纯态在预测上可以不是极点：前缀 7 等于 α 倍前缀 77 加 (1 − α) 倍 ready，α = 1/(1 + x²)，在每个未来、每个标签上精确成立，尽管这三个态互不相同。"
+  },
+  {
+   "i": 17,
+   "scene": "reader",
+   "start": 300.582,
+   "end": 318.489,
+   "en": "To generate the record, add four vacuum sites: six hundred ten paths, fifty-five times eight plus thirty-four times five. A fixed half twist of fifteen forward calls copies b nine into a new bit b thirteen for all eighty-nine source columns, keeping its garbage.",
+   "zh": "为了生成记录，加上四个真空位：610 条路径，即 55 × 8 + 34 × 5。一个由十五次正向调用组成的固定半扭转，对全部八十九条源列把 b₉ 复制到新位 b₁₃，并保留辅助垃圾。"
+  },
+  {
+   "i": 18,
+   "scene": "reader",
+   "start": 319.089,
+   "end": 333.091,
+   "en": "With Bell jumps on the whole carrier, the reader micro-history factors off the old source history given the record. The squared record weights and the projected pure successor follow, while the global wave function is never collapsed.",
+   "zh": "在整个载体上采用 Bell 跳跃，给定记录后，读器微历史与旧源历史分解开。平方记录权重与投影纯后继随之成立，而全局波函数从不塌缩。"
+  },
+  {
+   "i": 19,
+   "scene": "density",
+   "start": 335.291,
+   "end": 351.651,
+   "en": "Can native conservation alone select the square law? Among coherent quartic densities that vanish at nodes, conservation on every native component forces Born; a node-respecting deformation fails by minus epsilon x cubed sine squared.",
+   "zh": "仅凭原生守恒能否选出平方律？在节点处为零的相干四次密度中，每个原生分量上的守恒迫使 Born；一个尊重节点的变形以 −εx³sin² 的量失守。"
+  },
+  {
+   "i": 20,
+   "scene": "density",
+   "start": 352.251,
+   "end": 369.207,
+   "en": "In the full continuous class the answer is no. Thirty-two odd-site sectors with golden eigenvectors give a continuous, even smooth, non-Born density that conserves every component; at the witness it exceeds Born by x to the eighth over sixty-four.",
+   "zh": "在完整的连续类中，答案是否定的。三十二个奇位扇区与黄金本征向量给出一个连续、甚至光滑的非 Born 密度，它守恒每个分量；在见证点上它比 Born 多出 x⁸/64。"
+  },
+  {
+   "i": 21,
+   "scene": "zero",
+   "start": 371.407,
+   "end": 385.374,
+   "en": "The auxiliary start can be any fixed unknown vector in the plane B, with any configuration law on its support, even a non-Born one: the old source history keeps its law, and B is exactly the common interface.",
+   "zh": "辅助初态可以是平面 B 中任一固定未知向量，配置律可取其支撑上的任意分布，即使不是 Born：旧源历史的律保持不变，而 B 恰是共同接口。"
+  },
+  {
+   "i": 22,
+   "scene": "zero",
+   "start": 385.974,
+   "end": 402.526,
+   "en": "Finally, a deterministic reader: jump only when the current amplitude hits zero. Each call makes at most one jump, every report is correct and the old law is unchanged, yet in the second call Bell jumps with probability x and this rule never does.",
+   "zh": "最后是一个确定性读器：仅当当前振幅恰为零时跳。每次调用至多跳一次，报告全部正确，旧律不变；但在第二次调用中，Bell 以概率 x 跳，而这条规则从不跳。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 404.926,
+   "end": 425.881,
+   "en": "Two duties fix the records; no finite alphabet predicts the terminal; one event suffices; jumps obey a golden bound; ready return decides the response; effects fill block algebras; fifteen calls replace collapse; continuous densities need not be Born; and a zero-amplitude reader needs no randomness.",
+   "zh": "两项职责确定记录；有限字母表无法预测终端；一个事件就够；跳跃服从黄金界；ready 回返决定响应；效果填满分块代数；十五次调用取代塌缩；连续密度未必是 Born；零振幅读器无需随机性。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 426.481,
+   "end": 439.631,
+   "en": "The joint density theorem of Freedman, Larsen and Wang and the Bell jump-process theorems are published inputs, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+   "zh": "Freedman–Larsen–Wang 联合稠密定理与 Bell 跳跃过程定理是已发表的输入，其余内容在理论卷中论证，有限计算为本片重新完成。"
+  }
+ ],
+ "duration": 448.631
+}
