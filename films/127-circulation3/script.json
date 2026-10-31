@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Parts one and two followed a hidden joint coordinate from one loop to odd cycles glued at one vertex. Part three asks what a shared separator must remember, then glues odd cycles along one common edge and counts every canonical generator.",
+     "第一部和第二部追踪了一个隐藏的联合坐标，从一个环一直走到在一个顶点处粘合的奇圈。第三部先问一个共享分隔子必须记住什么，再把奇圈沿一条公共边粘合，并数出每一个典范生成元。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "AURIC circulation control, part three: the missing coordinate, one shared edge and the final module.",
+     "AURIC 环流控制第三部：缺失的坐标、一条共享边与末端模。"
+    ],
+    [
+     "One joint number to keep, one edge that synchronizes descent, and the last free module, counted exactly.",
+     "一个必须保留的联合数，一条让下降同步的边，以及被精确数出的最后一个自由模。"
+    ]
+   ]
+  },
+  {
+   "id": "joint",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three sites in a row allow five legal patterns. Row count and site totals fix the histogram up to one integer K, the rows with both ends lit, from the larger of zero and X plus Y plus Z minus m, to the smaller of X and Y.",
+     "一排三个位点允许五种合法图样。行数与位点总数把直方图确定到只差一个整数 K，即两端都点亮的行数，其范围从 0 与 X + Y + Z − m 中较大者，到 X 与 Y 中较小者。"
+    ],
+    [
+     "In general, a separator with q sites and D legal patterns needs exactly D minus q minus one more linear statistics to recover every law, and the joint moments suffice, by Möbius inversion. For three sites that is one coordinate, kappa.",
+     "一般地，有 q 个位点、D 种合法图样的分隔子，要恢复每一个分布，恰好还需要 D − q − 1 个线性统计量；联合矩就够了，由 Möbius 反演给出。对三个位点，这就是一个坐标：κ。"
+    ]
+   ]
+  },
+  {
+   "id": "mismatch",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Two branches may carry different separator laws. Over all couplings of the full laws, the least chance that their separator patterns disagree is the total variation distance; with equal site means it is twice the kappa gap, and for arrays twice the K gap.",
+     "两个分支可以带有不同的分隔子分布。在它们完整分布的所有耦合中，分隔子图样不一致的最小概率就是全变差距离。位点均值相同时，它等于 κ 之差的两倍；对阵列，则是 K 之差的两倍。"
+    ],
+    [
+     "A positive mismatch is a relaxation, not a gluing. Equal totals are not enough either: a path of length two puts both ends in one row, a path of length three in opposite rows, so the attainable joint counts, one and zero, never meet.",
+     "正的不一致只是一种松弛，不是粘合。总数相等也不够：长度为二的路径把两端放在同一行，长度为三的路径则放在相反的行，所以可达的联合计数 1 和 0 永不相交。"
+    ]
+   ]
+  },
+  {
+   "id": "edge",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now glue b labelled odd cycles of length two k plus one along one retained edge a b. It allows only three states, empty, a alone and b alone, with forced counts m minus t minus u, t and u, so local arrays line up row by row.",
+     "现在把 b 个带标号、长为 2k + 1 的奇圈沿一条保留边 ab 粘合。这条边只允许三种状态：空、只有 a、只有 b，其计数被强制为 m − t − u、t 和 u，于是各局部阵列可以逐行对齐。"
+    ],
+    [
+     "Each cycle splits into rows, because some edge always has slack: saturating them all would make twice the total two k plus one times m. The ring is a normal Cohen-Macaulay domain, its canonical module the strict interior.",
+     "每个圈都能拆成行，因为总有某条边留有余量：若所有边都饱和，总数的两倍将是 (2k + 1)m。这个环是正规的 Cohen–Macaulay 整环，其典范模就是严格内部。"
+    ]
+   ]
+  },
+  {
+   "id": "descent",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "An interior exponent is basic if nothing can be subtracted while staying interior. On one cycle these are nu j, degree two j plus one, every coordinate j. On the glued graph, an exponent is basic exactly when some branch equals some nu j.",
+     "若一个内部指数减去任何非零元后都不再留在内部，就称它为基本的。在单个圈上，它们是 ν_j：次数 2j + 1，每个坐标都是 j。在粘合图上，一个指数是基本的，当且仅当某个分支等于某个 ν_j。"
+    ],
+    [
+     "Otherwise one row comes off every branch at once. Every branch has m minus t minus u minus one empty-edge rows. If that is positive, remove an empty row; if not, a row with a alone when t is at least u, else b alone.",
+     "否则，就能从每个分支同时取下一行。每个分支都恰有 m − t − u − 1 个空边行。若它为正，就取下一个空行；否则，当 t ≥ u 时取下一个只含 a 的行，不然取只含 b 的行。"
+    ]
+   ]
+  },
+  {
+   "id": "type",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Degree two j plus one carries A to the b minus A minus one to the b canonical generators, with A a transfer-matrix entry. For seven-cycles A is one and forty-five: type one plus forty-five to the b minus forty-four to the b.",
+     "次数 2j + 1 处恰有 Aᵇ − (A − 1)ᵇ 个典范生成元，其中 A 为一个转移矩阵元。对七圈，A 为 1 和 45：型数为 1 + 45ᵇ − 44ᵇ。"
+    ],
+    [
+     "Two seven-cycles have type ninety, three have five thousand nine hundred forty-two. Glued at one vertex instead, they give two hundred two and thirty thousand three hundred two. These are different graphs, so the comparison proves no general trend.",
+     "两个七圈的型数是 90，三个是 5942。若改为在一个顶点处粘合，则得到 202 和 30302。这是不同的图，所以这个比较并不证明任何一般趋势。"
+    ]
+   ]
+  },
+  {
+   "id": "quotient",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now resolve by both endpoints. Each interior is an ordinary point, a shifted legal one, or an exceptional point counted by two binomials. For two seven-cycles in degree five, only the sector two, two has an exceptional point: forty-four plus one.",
+     "现在按两个端点细分。每个内部点要么是普通点，即平移后的合法点，要么是由两个二项式计数的例外点。对两个七圈，在次数五中，只有扇区 (2, 2) 有一个例外点：44 + 1。"
+    ],
+    [
+     "Squares must be taken sector by sector: fifteen thousand one hundred nineteen minus fifteen thousand thirty leaves eighty-nine, the whole degree-five quotient. In degree six the quotient has dimension two thousand fifty-three, but these are multiples, not new generators.",
+     "平方必须逐扇区取：15119 减去 15030 剩下 89，这就是次数五的全部商。在次数六，商的维数是 2053，但它们只是倍数，不是新的生成元。"
+    ]
+   ]
+  },
+  {
+   "id": "terminal",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One variable per independent set presents the ring. A path on n vertices has F of n plus two independent sets, so the edge family has F two k plus one to the b, plus two F two k to the b modes, two hundred ninety-seven for two seven-cycles.",
+     "每个独立集一个变量，给出这个环的表示。n 个顶点的路径有 F(n + 2) 个独立集，所以边族共有 F₂ₖ₊₁ᵇ + 2F₂ₖᵇ 个模式：对两个七圈是 297 个。"
+    ],
+    [
+     "Auslander-Buchsbaum gives length two hundred eighty-four, and the canonical module fixes the last free module: one shift of two ninety-four and eighty-nine of two ninety-two. These count summands, not dimensions of a physical state space or an index.",
+     "Auslander–Buchsbaum 给出长度 284，而典范模确定最后一个自由模：一个移位 294，以及 89 个移位 292。这些数的是直和项，不是物理态空间的维数，也不是指标。"
+    ]
+   ]
+  },
+  {
+   "id": "mixed",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now mix r five-cycles and s seven-cycles on one edge. Residual degrees differ, yet every branch has the same empty-edge count, and when it is zero, the largest layer still forces t or u above it, so one common row comes off.",
+     "现在在同一条边上混合 r 个五圈和 s 个七圈。剩余次数各不相同，但空边计数在每个分支上都一样；当它为零时，最大的层仍迫使 t 或 u 超过它，于是能取下一个公共行。"
+    ],
+    [
+     "So the type is one plus eight to the r, times forty-five to the s minus forty-four to the s: a five-cycle has eight private triples there. One of each gives type nine, length one hundred two, and last shifts one ten and one oh eight.",
+     "所以型数为 1 + 8ʳ(45ˢ − 44ˢ)：在那里，一个五圈有八个私有三元组。各取一个时，型数为 9，长度为 102，最后的移位是 110 和 108。"
+    ]
+   ]
+  },
+  {
+   "id": "short",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Any finite mixture works the same way, with one subtraction: at layer j, a branch with k at most j cannot be all j's, and the total cap removes a sum of squared binomials from the transfer count. For a five-cycle the count is j cubed.",
+     "任意有限混合都同样处理，只多减一项：在第 j 层，k ≤ j 的分支不可能全为 j，总量上限从转移计数中减去一组二项式平方之和。对五圈，这个计数是 j³。"
+    ],
+    [
+     "For a seven-cycle with a nine-cycle, the counts are forty-five, two hundred twenty-seven, and three hundred ninety, one less than three hundred ninety-one. The multiplicities are one, two seventy-one and three ninety: type six hundred sixty-two.",
+     "对一个七圈加一个九圈，计数是 45、227 和 390，比 391 少一。重数为 1、271 和 390：型数为 662。"
+    ]
+   ]
+  },
+  {
+   "id": "growth",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "As one branch grows, the counts follow the spectrum of a cosine matrix: eigenvalues one over two sine of half an angle, alternating in sign, with positive weights. No pole cancels, so the recurrence has order exactly two j minus one.",
+     "当一个分支变长，计数跟随一个余弦矩阵的谱：特征值为 1/(2 sin(θ/2))，符号交替，权重都为正。没有极点被消去，所以递推的阶恰为 2j − 1。"
+    ],
+    [
+     "Consecutive counts grow by the ratio rho one, one over four sine squared of pi over eight j minus two, about five point oh five at layer two; a layer is constant unless another branch is eligible.",
+     "相邻计数之比趋于 ρ₁ = 1/(4 sin²(π/(8j − 2)))，在第二层约为 5.05；除非另有分支符合条件，否则该层保持不变。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "One missing coordinate, a coupling that measures disagreement, three edge states, synchronized descent, one plus forty-five to the b minus forty-four to the b, an exact quotient, the last free module, mixed cycles, a short-branch subtraction and a growth rate.",
+     "一个缺失的坐标，一个度量不一致的耦合，三种边状态，同步下降，1 + 45ᵇ − 44ᵇ，一个精确的商，最后一个自由模，混合圈，一个短分支减项，以及一个增长率。"
+    ],
+    [
+     "Möbius inversion, maximal coupling and Auslander-Buchsbaum are classical, the gluing and canonical inputs are published, the path count is frozen in Lean, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "Möbius 反演、最大耦合与 Auslander–Buchsbaum 是经典工具，粘合与典范模的输入是已发表的结果，路径计数已在 Lean 中冻结，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
