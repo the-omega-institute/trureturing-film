@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Version thirty asked how one static whole holds observers and clocks. Version thirty-one splits prediction, recursion and geometry into separate theorems; version thirty-two attaches them to a native golden readout and predictive memory.",
+     "第三十版追问：一个静态整体如何容纳观察者与时钟。第三十一版把预测、递归与几何拆成各自独立的定理；第三十二版把它们接到一个原生黄金读口与预测记忆上。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric versions thirty-one and thirty-two: golden Cantor gates and predictive memory.",
+     "AURIC V31–V32：黄金康托门与预测记忆。"
+    ],
+    [
+     "An unknown ruler, a fractal of gates, a one-sided readout, and exactly N plus two states.",
+     "一把未知的尺子，一族分形的门，一个单侧读口，以及恰好 N + 2 个状态。"
+    ]
+   ]
+  },
+  {
+   "id": "scale",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Source contracts fix the second golden readout only up to c times the Born law plus noise, with mass c over x plus c, x being one over phi. Two exact basis readings force c to one; one is not enough.",
+     "源合同只把第二个黄金读口定到 c 乘 Born 律再加噪声，记录质量为 c/(x + c)，其中 x = 1/φ。两个精确的基读出迫使 c = 1；一个不够。"
+    ],
+    [
+     "A native third reader with five fixed continuations gives c one, mass x, new mass x cubed. With residuals below epsilon and margin h, one minus c is at most four epsilon over h x squared; without a margin, nothing uniform.",
+     "一个原生第三读者配上五个固定后续，给出 c = 1、质量 x、新质量 x³。若残差小于 ε、裕量为 h，则 1 − c ≤ 4ε/(hx²)；没有裕量，就没有统一的结论。"
+    ]
+   ]
+  },
+  {
+   "id": "ruler",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Chaining a noisy readout forgets a factor c per round, yet repeated reads of a persistent orthogonal label identify it with error at most thirteen over n c squared. Under full control, nonzero contrast separates states, constant five twelfths at rank five.",
+     "把有噪读口串联起来，每轮遗忘 c 倍；但对持久的正交标签重复读取，仍能辨认它，误差至多 13/(nc²)。在全控制下，非零对比度能分离各态，秩五时常数为 5/12。"
+    ],
+    [
+     "But state and ruler mix: control statistics see only c times rho minus the maximally mixed state, and averages. Making rho less pure while raising c changes nothing; this Fisher-null freedom is an interval of c.",
+     "但态与尺子会混在一起：控制统计只看得见 c(ρ − I/D) 和平均值。让 ρ 更混、同时提高 c，什么也不变；这份 Fisher 零方向的自由是 c 的一个区间。"
+    ]
+   ]
+  },
+  {
+   "id": "predict",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Square-loss prediction from records is a projection, yet a qubit example has a negative coefficient, one minus root one plus s squared, over two. It is positive exactly when the state commutes with the records, then a completely positive conditional expectation.",
+     "从记录出发的平方损失预测是一个投影，但一个 qubit 例子的系数为负：(1 − √(1 + s²))/2。它为正，当且仅当态与各记录对易，此时是完全正的条件期望。"
+    ],
+    [
+     "Allowing every future, the observer must keep exactly the state restricted to the recursive closure of future effects. It updates on its own; when futures span all thirteen-dimensional effects, a linear summary needs one hundred sixty-eight coordinates.",
+     "若允许一切未来，观察者必须保留的恰是态在未来效果递归闭包上的限制。它自行更新；当未来张成全部十三维效果时，线性摘要需要 168 个坐标。"
+    ]
+   ]
+  },
+  {
+   "id": "fisher",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Record information grows by orthogonal increments: each layer adds a score with zero conditional mean, so Fisher information adds its expected square, and a fixed coarse-graining loses exactly the expected conditional variance.",
+     "记录中的信息以正交增量增长：每一层都添上一个条件均值为零的得分，所以 Fisher 信息增加的是它的期望平方；固定粗化损失的恰是期望条件方差。"
+    ],
+    [
+     "For a persistent binary target the gap is exactly a constant times the expected q times one minus q. Identifying records reach only the label's information; for a qubit angle, one.",
+     "对持久的二元目标，缺口恰为一个常数乘以 q(1 − q) 的期望。辨认出标签的记录只取得标签本身的信息；对一个 qubit 角度，这个预算是一。"
+    ]
+   ]
+  },
+  {
+   "id": "cantor",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Let golden layers fail to commute: layer k turns by plus or minus c k about a prefix-chosen axis, weights shrinking by phi to the minus two. Programs sharing n bits give gates between point two six six and two times phi to the minus two n apart.",
+     "让黄金各层不对易：第 k 层绕前缀选定的轴转 ±c_k，权重按 φ⁻² 递减。共享前 n 位的两个程序，给出的门相距在 φ⁻²ⁿ 的 0.266 倍与 2 倍之间。"
+    ],
+    [
+     "So the gate image, projective image and Bell readout all have Hausdorff dimension log two over two log phi, about point seven two. First-bit separation matters: layers cancelling in pairs give only the identity.",
+     "所以门像、射影门像与 Bell 读出像的 Hausdorff 维数都是 log2/(2logφ)，约 0.72。首个不同位的分离必不可少：成对相消的层只给出恒等。"
+    ]
+   ]
+  },
+  {
+   "id": "geometry",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One Gram matrix carries metric and curvature: on the Bloch sphere, a quarter of d theta squared plus sine squared theta d phi squared, and half sine theta, with equality. A fixed readout gets Fisher information at most four g.",
+     "一个 Gram 矩阵同时承载度量与曲率：在 Bloch 球上分别为 (dθ² + sin²θ dφ²)/4 与 sinθ/2，约束取等号。固定读口的 Fisher 信息至多为 4g。"
+    ],
+    [
+     "Two orthogonal directions cannot both be read in full: their informations sum to at most one. With a Bell reference, one four-outcome readout gets full information on three gate axes and, given the prefix, determines the golden gate.",
+     "两个正交方向不能同时被完全读出：信息之和至多为一。但借助 Bell 参考，一个四结果读口能在三条门轴上取得全部信息；给定前缀时，它确定黄金门。"
+    ]
+   ]
+  },
+  {
+   "id": "clock",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Noncommuting layers make loops: the identity minus t s times the commutator, up to a cubic remainder; past the first layer, adjacent golden loops are strictly nontrivial. Records still grow: orthogonal clock labels stay root two apart.",
+     "不对易的层形成闭路：闭路等于恒等减去 ts 乘交换子，外加一个三阶余项；第一层之后，相邻黄金层的闭路严格非平凡。记录仍在增长：正交的时钟标签始终相距 √2。"
+    ],
+    [
+     "In the native eighty-nine-dimensional carrier, program, data and reference fit while two to the N plus two is at most sixty-four: prefixes up to four bits are realised by native words, to any accuracy, with one common phase.",
+     "在原生八十九维载体中，只要 2^(N+2) ≤ 64，程序、数据与参考就放得下；至多四位的前缀能由原生门字以任意精度、一个共同相位实现。"
+    ]
+   ]
+  },
+  {
+   "id": "onesided",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Read the native matrix as a one-sided golden instrument: M zero is root x E, M one is x E plus zeta to the minus three P. It is complete, matches the native port up to zeta squared, and a zero erases the protected weight.",
+     "把原生矩阵读成单侧黄金仪器：M₀ = √x E，M₁ = xE + ζ⁻³P。它是完备的，与原生读口只差相位 ζ²；一旦读出零，受保护的权重就被抹去。"
+    ],
+    [
+     "After n ones the mass is q zero plus one minus q zero times x to the two n, and the posterior climbs to one. The first zero, if it comes, waits on average exactly phi rounds.",
+     "连续 n 次读出一后，质量为 q₀ + (1 − q₀)x²ⁿ，后验升向一。第一次读出零——若它到来——平均恰好等待 φ 轮。"
+    ]
+   ]
+  },
+  {
+   "id": "conserve",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Conserving the pointer weight for every input means every Kraus operator commutes with P, so random mixing cannot hide leakage. Near conservation puts an exactly conserving isometry within square-root distance; a rotated readout shows this is sharp.",
+     "对每个输入都守恒指针权重，意味着每个 Kraus 算符都与 P 对易，所以随机混合藏不住泄漏。近守恒时，在平方根量级的距离内有一个精确守恒的等距；一个旋转读口说明这是锐的。"
+    ],
+    [
+     "Stability needs two budgets: summable mean drift, and an information error merely tending to zero; then the posterior polarises. With sine theta n equal one over n plus two, errors are unsummable but squares sum, so the pointer settles.",
+     "稳定需要两份预算：可求和的平均漂移，以及只需趋于零的信息误差。这样后验就会极化。取 sinθₙ = 1/(n + 2)，误差不可求和而平方可求和，所以指针稳定下来。"
+    ]
+   ]
+  },
+  {
+   "id": "memory",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "To predict the next outcome within epsilon after every history, a deterministic predictor needs exactly N epsilon plus two states, logarithmic in one over epsilon and independent of the time span; for zero error, no finite predictor exists.",
+     "要在每一段历史之后把下一结果预测到 ε 以内，确定性预测器恰需 N_ε + 2 个状态，对 1/ε 呈对数增长，且与时间跨度无关；若要零误差，则不存在有限状态的预测器。"
+    ],
+    [
+     "Other resources differ: depth n coherent records compress to a qubit, while an archive of all histories needs two to the n dimensions and cannot be reset for free. A clock only moves the counter.",
+     "其他资源各不相同：深度 n 的相干记录可压缩到一个 qubit；而保存全部历史的档案需要 2ⁿ 维，且不能免费重置。时钟只是把计数器挪了位置。"
+    ]
+   ]
+  },
+  {
+   "id": "dark",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now give the protected sector a tiny dark outcome with probability s. The readout still conserves P exactly, and over n rounds the record laws differ by at most q zero n s.",
+     "现在给受保护扇区一个概率为 s 的微小暗结果。读口仍精确守恒 P，n 轮之内记录律至多相差 q₀ns。"
+    ],
+    [
+     "Yet a finite predictor for all histories now exists only when epsilon is at least x minus s, over two: rare reverse evidence always swings the posterior back. Almost-sure selection does not buy finite memory.",
+     "然而此时，覆盖全部历史的有限预测器只在 ε ≥ (x − s)/2 时存在：稀有的反向证据总能把后验拉回。几乎必然的选支换不来有限记忆。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Calibrations fix the ruler, positivity needs commuting records, information adds orthogonally, golden gates form a fractal, a one-sided readout needs N plus two states, and a dark outcome breaks that bound.",
+     "校准确定尺子，正性需要对易的记录，信息正交地累加，黄金门构成分形，单侧读口需要 N + 2 个状态，而一个暗结果打破这个界。"
+    ],
+    [
+     "The native port, one-sided history law and memory theorem are frozen in Lean; Fisher geometry is published, source contracts come from the quantum continuation, the rest is argued in the volumes, and the finite computations were redone for this film.",
+     "原生读口、单侧历史律与记忆定理已在 Lean 中冻结；Fisher 几何是已发表的结果，源合同来自量子续卷，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
