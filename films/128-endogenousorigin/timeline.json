@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 19.478
+  },
+  {
+   "id": "title",
+   "start": 19.478,
+   "end": 35.829
+  },
+  {
+   "id": "fiber",
+   "start": 35.829,
+   "end": 66.4
+  },
+  {
+   "id": "origin",
+   "start": 66.4,
+   "end": 105.38
+  },
+  {
+   "id": "barrier",
+   "start": 105.38,
+   "end": 137.196
+  },
+  {
+   "id": "tunnel",
+   "start": 137.196,
+   "end": 172.664
+  },
+  {
+   "id": "pair",
+   "start": 172.664,
+   "end": 209.672
+  },
+  {
+   "id": "bridge",
+   "start": 209.672,
+   "end": 244.606
+  },
+  {
+   "id": "dark",
+   "start": 244.606,
+   "end": 279.101
+  },
+  {
+   "id": "recovery",
+   "start": 279.101,
+   "end": 314.518
+  },
+  {
+   "id": "phase",
+   "start": 314.518,
+   "end": 349.984
+  },
+  {
+   "id": "closure",
+   "start": 349.984,
+   "end": 386.563
+  },
+  {
+   "id": "finale",
+   "start": 386.563,
+   "end": 432.636
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 18.478,
+   "en": "An observer built from five modes cannot see its own origin from outside. What stays exact anyway: which relations a record pins down, when two mirror pictures look identical, and when something really tunnels between them?",
+   "zh": "一个由五个模式构成的观察者，无法从外部看见自己的原点。那么什么仍然精确？记录能确定哪些关系，两幅镜像图景何时完全相同，又何时真的能在两者之间隧穿？"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 20.678,
+   "end": 26.326,
+   "en": "Auric endogenous origin: mirror origins, relational tunnelling and hidden phases.",
+   "zh": "AURIC 内生原点：镜像原点、关系隧穿与隐藏相位。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 26.926,
+   "end": 34.429,
+   "en": "An uncertain point can sit inside exact relations, and what one reading merges, a later operation can bring back.",
+   "zh": "不确定的点可以处在精确的关系之中；一次读数合并掉的区别，后续操作可以把它带回来。"
+  },
+  {
+   "i": 3,
+   "scene": "fiber",
+   "start": 36.629,
+   "end": 49.005,
+   "en": "A record identifies a target exactly when the target is constant on every nonempty fibre of the record map. So a reading can pin down relations while the observer's full source stays open.",
+   "zh": "记录能唯一辨识一个目标，当且仅当该目标在记录映射的每个非空纤维上为常值。因此读数可以确定关系，而观察者的完整来源仍然未定。"
+  },
+  {
+   "i": 4,
+   "scene": "fiber",
+   "start": 49.605,
+   "end": 65.0,
+   "en": "Branch weights do not choose coherence: the even mixture of L and R and the plus state both give one half each, yet the swap observable reads zero and one. With shared noise, the difference of two readings stays exact however wide the noise.",
+   "zh": "分支权重选不出相干：L 与 R 的等权混合和 |+⟩ 态都给出各 1/2 的概率，但交换可观测量 X 的读数分别为 0 和 1。若两个读数共享同一噪声，它们的差无论噪声多宽都保持精确。"
+  },
+  {
+   "i": 5,
+   "scene": "origin",
+   "start": 67.2,
+   "end": 85.851,
+   "en": "Place the modes in space: an origin o, three fixed endpoints, and a diagonal point d equal to p one plus p three minus o. Nonzero orthogonal legs from o exist exactly when the endpoint triangle is acute, and then exactly two such origins exist.",
+   "zh": "把模式放进空间：原点 o、三个固定端点，以及对角点 d = p₁ + p₃ − o。从 o 出发的三条非零腿能两两正交，当且仅当端点三角形为锐角三角形，此时这样的原点恰有两个。"
+  },
+  {
+   "i": 6,
+   "scene": "origin",
+   "start": 86.451,
+   "end": 103.98,
+   "en": "They sit at H plus or minus h n, with H the orthocentre and h squared one over the sum of one over alpha i. Reflection swaps them, so both completions share all ten distances; only chirality separates them, surviving origin errors below h.",
+   "zh": "它们位于 H ± h n，其中 H 是垂心，h² = 1/Σ(1/αᵢ)。关于端点平面的反射交换二者，因此两个完成的十个距离全部相同；只有手性能区分它们，且原点误差小于 h 时手性不变。"
+  },
+  {
+   "i": 7,
+   "scene": "barrier",
+   "start": 106.18,
+   "end": 121.247,
+   "en": "Charge the violation as energy, k over two times the summed squared residuals. On the normal line this is three k over two times q squared minus h squared, squared: a quartic double well with barrier lambda h to the fourth.",
+   "zh": "把关系的违背记作能量：k/2 乘以残差平方和。在法向线上它等于 (3k/2)(q² − h²)²，是一个四次双井，势垒为 Λh⁴。"
+  },
+  {
+   "i": 8,
+   "scene": "barrier",
+   "start": 121.847,
+   "end": 135.796,
+   "en": "But that is not the true barrier. For three unit coordinate endpoints the normal midpoint costs k over six, while a path that swerves sideways never rises above k over eight, and no continuous path does better.",
+   "zh": "但这不是真正的势垒。以三个单位坐标点为端点时，法向中点的能量是 k/6，而侧向绕行的路径始终不超过 k/8，且没有任何连续路径能更低。"
+  },
+  {
+   "i": 9,
+   "scene": "tunnel",
+   "start": 137.996,
+   "end": 154.133,
+   "en": "Give the normal coordinate an effective mass and quantise it. If two pi squared h-bar squared over m lambda h to the sixth is below one hundred seventy-five over two hundred fifty-six, the lowest even and odd levels both lie below the barrier.",
+   "zh": "给法向坐标一个有效质量并量子化。若 2π²ħ²/(mΛh⁶) < 175/256，最低的偶态与奇态能级都位于势垒之下。"
+  },
+  {
+   "i": 10,
+   "scene": "tunnel",
+   "start": 154.733,
+   "end": 171.264,
+   "en": "Start in L, the even state minus the odd state over root two. The right-side probability is one half minus c cosine of delta E t over h-bar, with c strictly between zero and one half, and a nonzero current crosses the forbidden centre.",
+   "zh": "从 L = (φₑ − φₒ)/√2 出发。右侧概率为 1/2 − c·cos(ΔE t/ħ)，其中 0 < c < 1/2，并且有非零概率流穿过经典禁阻的中心。"
+  },
+  {
+   "i": 11,
+   "scene": "pair",
+   "start": 173.464,
+   "end": 190.179,
+   "en": "Now make the observer itself a quantum body, with a target and a potential of their separation only. The energy splits exactly into centre of mass and relative motion with reduced mass mu, so the relative state evolves alone, even for correlated parts.",
+   "zh": "现在让观察者本身成为量子物体，它与目标之间只有依赖相对位置的势。能量精确分解为质心运动与约化质量 μ 的相对运动，因此即使两部分相关，相对态也独立演化。"
+  },
+  {
+   "i": 12,
+   "scene": "pair",
+   "start": 190.779,
+   "end": 208.272,
+   "en": "With the relative state fixed, a wide centre-of-mass uncertainty leaves relative tunnelling untouched. Under a rectangular barrier the transmission is one over one plus V zero squared sinh squared kappa a, over four E times V zero minus E: never zero.",
+   "zh": "相对态固定时，再宽的质心不确定性也不改变相对隧穿。能量低于矩形势垒时，透射率为 T = [1 + V₀² sinh²(κa) / (4E(V₀ − E))]⁻¹，且永不为零。"
+  },
+  {
+   "i": 13,
+   "scene": "bridge",
+   "start": 210.472,
+   "end": 226.533,
+   "en": "With an added Hamiltonian, join the null and joint modes through two detuned bridges, modes one and three, with mode two as a leaf. Eliminating the interior exactly gives the boundary propagator f t of M and all five eigenvalues.",
+   "zh": "另给一个 Hamiltonian：空模式与联合模式经由两座失谐的桥（模式 1 与 3）相连，模式 2 是一片叶子。精确消去内部，得到边界传播子 f_t(M) 和全部五个本征值。"
+  },
+  {
+   "i": 14,
+   "scene": "bridge",
+   "start": 227.133,
+   "end": 243.206,
+   "en": "With no leaf and zero phase, set delta n to four J n over root two n plus one. At time T n, L moves completely to minus R, while the interior never holds more than two n plus one over two, n plus one squared.",
+   "zh": "无叶子、相位为零时，取 Δₙ = 4Jn/√(2n+1)。在时刻 Tₙ，L 完全迁移为 −R，而内部占据始终不超过 (2n+1)/(2(n+1)²)。"
+  },
+  {
+   "i": 15,
+   "scene": "dark",
+   "start": 245.406,
+   "end": 259.543,
+   "en": "At loop phase pi the two bridges cancel, and transfer from L to R is zero for all time. Phase zero has the same vertices and edge strengths, yet transfer starts at once: only the relative path phase differs.",
+   "zh": "回路相位为 π 时两座桥相消，L 到 R 的迁移在所有时间都为零。相位为零时顶点与边强度完全相同，迁移却立刻开始：不同的只是相对路径相位。"
+  },
+  {
+   "i": 16,
+   "scene": "dark",
+   "start": 260.143,
+   "end": 277.701,
+   "en": "Near the dark phase, with no leaf and delta above two J, any fixed window sees at most T squared J squared times phi minus pi squared, over h-bar squared. Yet over all time the best transfer stays above one minus four J squared over delta squared, squared.",
+   "zh": "在暗相位附近，无叶子且 Δ > 2J 时，任何固定时间窗内的迁移至多为 (TJ(φ − π)/ħ)²。但在全部时间上，最佳迁移始终不低于 (1 − 4J²/Δ²)²。"
+  },
+  {
+   "i": 17,
+   "scene": "recovery",
+   "start": 279.901,
+   "end": 296.623,
+   "en": "Next, a fixed qutrit channel acts n times, and the task is to restore the reading of the projector onto root p xi plus root one minus p e. The best worst-case error is the operator distance from that target to the effects still reachable.",
+   "zh": "接着，一个固定的 qutrit 通道作用 n 次，任务只有一个：恢复投影到 √p ξ + √(1−p) e 上的读数。最优最坏情形误差等于该目标到通道仍可达效果集的算子距离。"
+  },
+  {
+   "i": 18,
+   "scene": "recovery",
+   "start": 297.223,
+   "end": 313.118,
+   "en": "That distance changes by at most the gap between targets, the absolute difference of root p times one minus p prime and root p prime times one minus p. So even where the optimal certificate switches branch, the optimal error cannot jump.",
+   "zh": "这个距离的变化不超过两个目标之间的距离 |√(p(1−p′)) − √(p′(1−p))|。所以即使最优证书在某处切换分支，最优误差也不会跳变。"
+  },
+  {
+   "i": 19,
+   "scene": "phase",
+   "start": 315.318,
+   "end": 332.755,
+   "en": "From the uniform superposition of the five modes, N joint phase gates on mode thirteen keep all five probabilities at one fifth, yet set the relation coordinate zeta, psi zero psi thirteen over psi one psi three, to e to the minus i N theta.",
+   "zh": "从五个模式的均匀叠加出发。对模式 13 施加 N 次联合相位门，五个概率都保持 1/5，但关系坐标 ζ = ψ₀ψ₁₃/(ψ₁ψ₃) 变为 e^(−iNθ)。"
+  },
+  {
+   "i": 20,
+   "scene": "phase",
+   "start": 333.355,
+   "end": 348.584,
+   "en": "An endpoint pulse brings the phase back: the reading X becomes two fifths plus one fifth sine two alpha sine phi. With theta a quarter turn and alpha an eighth turn, the pulse reads two fifths after no gate and three fifths after one.",
+   "zh": "端点脉冲把相位带回读数：X = 2/5 + (1/5) sin 2α · sin φ。取 θ 为四分之一圈、α 为八分之一圈，未加相位门时脉冲后读数为 2/5，加一次后为 3/5。"
+  },
+  {
+   "i": 21,
+   "scene": "closure",
+   "start": 350.784,
+   "end": 368.554,
+   "en": "Current averages predict the next ones for every density matrix exactly when the operation keeps the span of I and the three occupation effects. A non-blind endpoint pulse breaks this: two explicit states agree now and later differ by two fifths sine squared two alpha.",
+   "zh": "对所有密度矩阵，当前三个均值能预测下一步均值，当且仅当操作保持 I 与三个占位效果张成的空间。非盲端点脉冲（sin 2α ≠ 0）打破这一点：两个显式态当前读数相同，之后相差 (2/5) sin² 2α。"
+  },
+  {
+   "i": 22,
+   "scene": "closure",
+   "start": 369.154,
+   "end": 385.163,
+   "en": "The same pattern appears twice more. A Bell pair keeps both local states at one half the identity while its x x correlation is cosine phi, and two four-band spectra reading two, two, two separate after a filter passing only the fourth band.",
+   "zh": "同样的结构还出现两次。Bell 对的两个局部态始终是 I/2，而 xx 关联等于 cos φ；两条四波段光谱的读数都是 (2, 2, 2)，经过只透过第四波段的滤光器后被区分开。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 387.563,
+   "end": 406.089,
+   "en": "Records pin relations, acute triangles give two mirror origins, the true barrier is k over eight, sub-barrier states carry current, relative tunnelling ignores shared position, bridges transfer or cancel, recovery cannot jump, and hidden phases return under the right pulse.",
+   "zh": "记录确定关系；锐角三角形给出两个镜像原点；真正的势垒是 k/8；势垒下的态携带概率流；相对隧穿不受共同位置影响；失谐桥或完全迁移、或相消；恢复误差不会跳变；隐藏相位在合适的脉冲下返回。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 406.689,
+   "end": 423.636,
+   "en": "The two-body separation, the rectangular barrier formula and the Bell correlations are classical tools, the rest is argued in the theory volume, and the eigenvalues, transfers, semidefinite programs and other finite computations were redone for this film.",
+   "zh": "两体分离、矩形势垒公式与 Bell 关联是经典工具，其余内容在理论卷中论证；本征值、迁移、半正定规划等有限计算都为本片重新完成。"
+  }
+ ],
+ "duration": 432.636
+}
