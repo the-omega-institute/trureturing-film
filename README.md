@@ -93,6 +93,7 @@ Release page.
 | 074 | [AURIC–E8 · COMPATIBLE EXTENSIONS AND OBSERVATION](films/074-e8extensions/) · AURIC–E8：相容扩张与观察理论 | 6:57 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 190 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-074-v1/TRURETURING_074_narrated_EN_subs_ZH-EN.mp4) |
 | 075 | [AURIC–LANGLANDS V · CUBIC SHALLOW TWIST COLLISION](films/075-langlandscubic/) · AURIC–Langlands 第五部：三次浅扭碰撞 | 4:45 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 130 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-075-v1/TRURETURING_075_narrated_EN_subs_ZH-EN.mp4) |
 | 076 | [AURIC QUANTUM PRINCIPLES I · FIVE MODES, COMPLEX STRUCTURE AND COHERENT RECORDS](films/076-qprinciples1/) · AURIC 量子原理 第一部：五模式、复结构与相干记录 | 7:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 207 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-076-v1/TRURETURING_076_narrated_EN_subs_ZH-EN.mp4) |
+| 077 | [AURIC QUANTUM PRINCIPLES II · GATE CONTRACTS, LOOP PHASES AND THE SQUARE LAW](films/077-qprinciples2/) · AURIC 量子原理 第二部：门合同、闭路相位与平方律 | 7:22 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 202 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-077-v1/TRURETURING_077_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
