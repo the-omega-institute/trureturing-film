@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part one set up the erased-history channel on a qutrit and asked how well one fixed decoder can undo it. Part two pins the third horizon exactly, finds every optimal decoder, follows them to zero, and counts finite certificates.",
+     "第一部在一个三能级系统上建立了擦除历史的信道，并问：一个固定的解码器能把它还原到什么程度。第二部精确求出第三个时间步的值，找出全部最优解码器，把它们一路延拓到零，并数清有限证书需要多少输入。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric erased-history recovery, part two: one root, one disk and finite certificates.",
+     "AURIC 擦除历史的终端恢复，第二部：一个根、一个圆盘与有限证书。"
+    ],
+    [
+     "Four polynomials fix the value, nine phases certify it, and every optimal decoder lies on one closed disk.",
+     "四个多项式确定这个值，九个相位为它作证，每个最优解码器都落在同一个闭圆盘上。"
+    ]
+   ]
+  },
+  {
+   "id": "setup",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "After three steps the actual channel is a fixed rotation of a simple map that keeps the first population, quarters the zero-one coherence, mixes the other two populations five to three, and erases the rest.",
+     "走过三步之后，实际信道是一个简单映射再加一个固定旋转：这个映射保留第一个布居，把 0–1 相干压缩到四分之一，把另外两个布居按五比三混合，并擦除其余部分。"
+    ],
+    [
+     "One decoder, fixed before the input and seeing only the terminal qutrit, must return every complex density, pure or mixed, within half trace distance. Undoing the rotation matches decoders one to one, so the third-horizon value is mu of one quarter.",
+     "一个解码器在输入之前就固定，只看到终端的三能级系统，却要在半迹距离下还原每一个复密度矩阵，无论纯态还是混合态。撤掉旋转使解码器一一对应，所以第三步的值就是 μ(1/4)。"
+    ]
+   ]
+  },
+  {
+   "id": "root",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The exact value is a root of four rational polynomials in the decoder parameter r, the value L and two populations: the error determinant N, together with its derivatives in p, x and r.",
+     "精确值是四个有理多项式的公共根，变量是解码器参数 r、值 L 和两个布居：误差行列式 N，以及它对 p、x、r 的导数。"
+    ],
+    [
+     "A forty-digit rational centre and a box of radius ten to the minus twenty hold exactly one root, by a contraction with Hessian sum thirty-four ninety-nine over sixteen. So mu three is L star, about zero point six one seven nine nine.",
+     "一个四十位的有理中心和半径 10⁻²⁰ 的盒子恰好包含一个根，这由 Hessian 系数和为 3499/16 的压缩映射保证。于是 μ₃ = L*，约为 0.61799。"
+    ]
+   ]
+  },
+  {
+   "id": "upper",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The attaining decoder keeps level zero, keeps level one with amplitude r star, and sends the rest into level two; any finite Kraus list whose adjoint products sum to the identity is a legal channel. On the three edges of the triangle, its error stays below three fifths.",
+     "达到这个值的解码器保留能级 0，以振幅 r* 保留能级 1，并把其余部分送进能级 2；任何伴随乘积之和为恒等的有限 Kraus 列都是合法信道。在三角形的三条边上，它的误差都低于五分之三。"
+    ],
+    [
+     "Inside, the error determinant is a cubic with a stationary zero at the contact. On every line through it the cubic is t squared times an affine factor, positive at both ends, so the error is at most L star for every complex pure input, and by convexity every mixed one.",
+     "在内部，误差行列式是一个三次多项式，在接触点处有驻定零点。沿每条穿过它的直线，这个三次式都是 t² 乘一个两端为正的仿射因子，所以对每个复纯态输入误差至多为 L*，再由凸性推到每个混合态。"
+    ]
+   ]
+  },
+  {
+   "id": "nine",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For the matching lower bound, take the contact input and its rank-one effect, and rotate both by nine diagonal phases made of cube roots of unity. Averaging gives a functional W on Choi matrices with just two off-diagonal entries.",
+     "为了得到匹配的下界，取接触点输入和它的秩一效应，用由三次单位根构成的九个对角相位同时旋转二者。取平均得到 Choi 矩阵上的一个泛函 W，它只有两个非对角元。"
+    ],
+    [
+     "The slack, I tensor Y minus W, is positive semidefinite, with smallest positive entry about one point three times ten to the minus four. So every complex decoder has error at least L star plus the nonnegative trace of S J.",
+     "松弛矩阵 S（I 与 Y 的张量积减去 W）是半正定的，最小的正元约为 1.3 × 10⁻⁴。所以每个复解码器的误差至少为 L* 加上非负的 Tr(SJ)。"
+    ]
+   ]
+  },
+  {
+   "id": "orbit",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Which inputs are worst for this decoder? Exactly the contact state with any phases on its second and third amplitudes, a torus of pure states. Every density of rank two or more, and every pure state on an edge, does strictly better.",
+     "对这个解码器，哪些输入最坏？恰好是接触点态，在第二、第三个振幅上带任意相位，构成纯态的一个二维环面。每个秩至少为二的密度矩阵、以及边上的每个纯态，误差都严格更小。"
+    ],
+    [
+     "And every optimal decoder, whatever its form, must keep its Choi matrix inside the kernel of S, spanned by zero-zero plus r star one-one, by two-one, and by two-two.",
+     "而且每个最优解码器，无论形式如何，其 Choi 矩阵都必须落在 S 的核里，这个核由 |00⟩ + r*|11⟩、|21⟩ 和 |22⟩ 张成。"
+    ]
+   ]
+  },
+  {
+   "id": "disk",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The support leaves two complex numbers, h and z, in an ellipsoid. Each of the nine phase scores is L minus two Gamma times the real part of h times a cube root of unity; three real parts summing to zero must all be nonnegative, so h vanishes.",
+     "这个支撑只剩下两个复数 h 和 z，落在一个椭球里。九个相位得分中的每一个都是 L − 2Γ·Re(h·三次单位根)；三个和为零的实部必须都非负，所以 h = 0。"
+    ],
+    [
+     "The optimal decoders are exactly one closed disk, z of modulus at most one: Choi rank three inside, two on the circle, never one. All share one recovered channel, are covariant and nonunital, and the disk lies in a four-dimensional exposed face without being a face.",
+     "最优解码器恰好构成一个闭圆盘 |z| ≤ 1：内部 Choi 秩为三，圆周上为二，从不为一。它们共享同一个恢复后的信道，全都协变且不保持恒等，这个圆盘位于一个四维暴露面之中，本身却不是面。"
+    ]
+   ]
+  },
+  {
+   "id": "branch",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now let the parameter q vary. At one quarter the Jacobian determinant is about one point six two nine five, so the contact root continues analytically, and the same certificates give the value and the whole disk nearby.",
+     "现在让参数 q 变化。在 q = 1/4 处 Jacobian 行列式约为 1.6295，所以接触点的根可以解析延拓，同样的证书在附近给出值和整个圆盘。"
+    ],
+    [
+     "Sixteen rational slabs cover q from one sixteenth to one quarter, and a scaled degree-eight chart runs down to zero, glued with exact positive gaps. So for every q above zero up to one quarter, mu of q is the continued root, with one closed disk of optimal decoders.",
+     "十六个有理条带覆盖 q 从 1/16 到 1/4，一个八次的缩放多项式图卡一直延伸到零，彼此以精确的正间隙拼接。于是对每个 0 < q ≤ 1/4，μ(q) 都是延拓得到的根 L(q)，最优解码器仍是一个闭圆盘。"
+    ]
+   ]
+  },
+  {
+   "id": "limits",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "As q goes to zero, r tends to one and the optimal decoders cluster on the disk at r equal one. The value expands as two thirds, minus two ninths q, plus four twenty-sevenths q squared.",
+     "当 q 趋于零时，r 趋于一，最优解码器聚集到 r = 1 处的圆盘上。值的展开是 2/3 − (2/9)q + (4/27)q²。"
+    ],
+    [
+     "The identity defect, one minus r squared, is q minus seven thirds q squared, so the gain below two thirds over that defect tends to two ninths, and over the displacement of the maximally mixed state, to two thirds.",
+     "恒等缺陷 1 − r² 等于 q − (7/3)q²，所以低于 2/3 的恢复增益除以这个缺陷趋于 2/9，除以最大混合态的位移则趋于 2/3。"
+    ]
+   ]
+  },
+  {
+   "id": "second",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Back to the second horizon, solved in part one at about zero point six zero six four five. Its twelve contact equalities, used one at a time, fix eight real coordinates: every optimizer has the same recovered channel, with freedom only in four complex numbers on the erased coherences.",
+     "回到第二个时间步，第一部已求出它的值约为 0.60645。十二个接触等式逐个使用，固定八个实坐标：每个最优解码器都给出同一个恢复信道，自由度只剩被擦除相干上的四个复数。"
+    ],
+    [
+     "The optimizers form a convex family of real dimension eight in a sixteen-dimensional exposed face, cut out by three scalar inequalities that keep every singular boundary. Only z two survives covariance, on a disk of radius root a times one minus c, and all are nonunital.",
+     "这些最优解构成一个实八维的凸族，位于一个十六维暴露面之中，由三个保留全部奇异边界的标量不等式刻画。协变性只留下 z₂，落在半径为 √(a(1 − c)) 的圆盘上；而且它们都不保持恒等。"
+    ]
+   ]
+  },
+  {
+   "id": "tasks",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Last, budgeted tasks, each an effect with an error budget, in polarity with legal decoders. Recovered channels fill an affine set of dimension forty at every finite horizon and sixteen at the limit, so every infeasible task family has an infeasible subfamily of at most forty-one, or seventeen.",
+     "最后是带预算的任务，每个任务是一个效应加一个误差预算，与合法解码器构成极性对应。恢复后的信道在每个有限时间步填满四十维的仿射集，在极限处是十六维，所以每个不可行的任务族都有一个至多四十一个任务（极限处十七个）的不可行子族。"
+    ],
+    [
+     "The same count gives an exact certificate for the full value from at most forty-one pure inputs; at the third horizon nine suffice. Eighteen symmetries leave eight representatives, which certify only the symmetric problem; a general decoder needs their orbit, up to one hundred forty-four states, since a representative can miss root three over two.",
+     "同样的计数给出完整值的精确证书，至多用四十一个纯态输入；在第三步九个就够了。十八个对称只留下八个代表元，但它们只证明对称问题；一般的解码器要用它们的整个轨道，至多一百四十四个态，因为单个代表元可能漏掉 √3/2 的误差。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "A rotated channel, one isolated root, a cubic chord above and nine phases below, a torus of worst inputs, one disk of decoders, a branch to zero, an eight-dimensional second-horizon fiber, and forty-one finite witnesses.",
+     "一个被旋转的信道，一个孤立的根，上方的三次弦与下方的九个相位，一个最坏输入的环面，一个解码器圆盘，一条延伸到零的分支，一个八维的第二步纤维，以及四十一个有限见证。"
+    ],
+    [
+     "The general Kraus channel law is frozen in Lean, Choi's theorem and the analytic implicit function theorem are classical, part one supplies the second-horizon root, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "一般的 Kraus 信道定律已在 Lean 中冻结，Choi 定理与解析隐函数定理是经典结果，第二步的根由第一部提供，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
