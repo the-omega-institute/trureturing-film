@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part one read a growing tree through its ordered leaves. Part two scrambles the labels, hides the field and at last the law, and asks how few actual calls on the same source recover each of them.",
+     "第一部通过有序的叶子读取一棵生长中的树。第二部打乱标签、隐藏场，最后连演化规律也隐藏起来，并追问：在同一个源上，最少需要多少次实际调用才能把它们一一恢复。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "RRO native leaf boundary, part two: scrambled labels, single reads and hidden laws.",
+     "RRO 原生叶边界获取第二部：乱序标签、单次读取与隐藏规律。"
+    ],
+    [
+     "Every recovery is earned by real calls on one growing source, and every count is paid on that same run.",
+     "每一次恢复都由同一个生长中的源上的真实调用换来，每一项计数都记在同一次运行的账上。"
+    ]
+   ]
+  },
+  {
+   "id": "marking",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with an unknown tree whose terminals carry arbitrary raw labels. Set every terminal to one, make one native edit, then read the old labels: only the moved label reads zero, because growth starts every fresh cell at zero.",
+     "从一棵未知的树开始，它的终端带有任意的原始标签。把每个终端置为一，做一次原生编辑，再读取旧标签：只有被移动的标签读到零，因为生长总把新单元初始化为零。"
+    ],
+    [
+     "A traversal edits each leaf once and earns both the entry labels and the current ones. On a three-leaf example this takes seven addressed calls, twelve reads and no tick, and gives the permutation two, four, three, five, one.",
+     "一次遍历对每片叶子各编辑一次，同时得到入口标签与当前标签。在一个三叶例子中，这需要七次寻址调用、十二次读取、零次 Tick，并得到置换 (2, 4, 3, 5, 1)。"
+    ]
+   ]
+  },
+  {
+   "id": "batch",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Reads can be batched. Split selected cones by a fixed binary table, and the zero pattern of each label is its column. Decoding works exactly when the L columns are distinct, which costs L times the ceiling of log two L reads.",
+     "读取可以成批进行。按一张固定的二进制表分裂选定的锥，每个标签的零模式就是它所在的列。解码成立当且仅当这 L 列两两不同，代价为 L·⌈log₂L⌉ 次读取。"
+    ],
+    [
+     "For eight labels that is twenty-four reads instead of at least sixty-four. An age schedule goes further: one final scan of L reads, where the label of cone i reads L minus i, paid for with L squared unit adds.",
+     "对八个标签，这是 24 次读取，而不是至少 64 次。年龄调度更进一步：最后只扫描一次，共 L 次读取，第 i 个锥的标签读到 L − i，代价是 L² 次单位加法。"
+    ]
+   ]
+  },
+  {
+   "id": "nulling",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now remove Reset and let the whole field be arbitrary and unknown. Marking still works, because without a tick the hidden interior never reaches the terminals. A window of terminal reads then rebuilds every vertex, because the leaves force the whole tree.",
+     "现在去掉 Reset，并让整个场任意且未知。标记仍然有效，因为没有 Tick，隐藏的内部值永远到不了终端。随后一个终端读取窗口重建每一个顶点，因为叶子能逼出整棵树。"
+    ],
+    [
+     "Reversed boundary controls then drive every vertex, the interior included, to exactly zero. With the saved old terminal values, the same kind of control instead puts the arbitrary entry field back on the old vertices of the grown tree.",
+     "随后，反向的边界控制把每一个顶点（包括内部顶点）精确地驱动到零。若保存了旧的终端值，同类控制还能把任意的入口场放回长大后的树的旧顶点上。"
+    ]
+   ]
+  },
+  {
+   "id": "oneread",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start from whole zero instead, and one read is enough for the entire scrambled binding. Splits give each label its own distance from a known appended anchor, and inputs weighted by powers of four to the D keep every walk count in its own digit.",
+     "若改从全零开始，一次读取就足以获得整个乱序绑定。分裂让每个标签到一个已知的追加锚点有各自的距离，而以 4^D 的幂加权的输入使每个游走计数各占一位数字。"
+    ],
+    [
+     "For a three-leaf tree the single reply has from two hundred twenty-six to two hundred thirty-five decimal digits and separates all six labellings. Zero reads can never work, because two labellings then give identical transcripts. So one is the exact minimum.",
+     "对一棵三叶树，这唯一的回复有 226 到 235 位十进制数字，能区分全部六种标签方式。零次读取永远不行，因为那时两种标签方式给出完全相同的记录。所以一次就是精确的最小值。"
+    ]
+   ]
+  },
+  {
+   "id": "mirror",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Mirror symmetry hides. Signed amplitudes on k twin cherries are invisible from the root at every time. One split inside each cherry breaks the mirror, and k root reads give a triangular matrix with diagonal two. Both k reads and k splits are necessary.",
+     "镜像对称会隐藏信息。k 个孪生樱桃上的带号振幅在任何时刻从根部都看不见。在每个樱桃内部做一次分裂便打破镜像，k 次根部读取给出一个对角线为 2 的三角矩阵。k 次读取与 k 次分裂都是必需的。"
+    ],
+    [
+     "At the first terminal, nine passive reads of an alternating field return only zeros. After one split and six ticks the same terminal reads one, and the whole field has entries eight, one, twenty-two, nine and seven.",
+     "在第一个终端，对一个交替场做九次被动读取，只得到零。一次分裂和六次 Tick 之后，同一终端读到一，整个场的非零分量为 8、1、22、9、7。"
+    ]
+   ]
+  },
+  {
+   "id": "digits",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Feed binary digits into the first terminal, one tick per digit. The whole field remembers every word exactly when the tree branches, four vertices at least, and two late reads, after one and two ticks, decode it by greedy subtraction.",
+     "把二进制数字逐位送入第一个终端，每位一次 Tick。整个场记住每一个字，当且仅当树有分支（至少四个顶点）；在第一、第二次 Tick 之后的两次迟到读取，用贪心减法即可解码。"
+    ],
+    [
+     "Ternary digits need five vertices. On the four-vertex path the words one zero zero zero zero zero one and zero zero two zero two zero zero leave the same whole field, while the five-vertex path decodes with weights one, four, thirteen, forty.",
+     "三进制数字需要五个顶点。在四顶点路径上，字 1000001 与 0020200 留下完全相同的整场；而五顶点路径用权重 1、4、13、40 即可解码。"
+    ]
+   ]
+  },
+  {
+   "id": "rank",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Growth cannot erase what the adjacency already holds. Native edits never change an old edge, and symmetry keeps the old image injective, so after any tick the surviving rank never drops below the rank of the entry adjacency.",
+     "生长抹不掉邻接矩阵已经携带的信息。原生编辑从不改变旧边，对称性保证旧的像保持单射，因此任何一次 Tick 之后，存活的秩都不会低于入口邻接矩阵的秩。"
+    ],
+    [
+     "That rank is twice the maximum matching, at least two L. So reporting, predicting or nulling an arbitrary unknown field needs at least that many successful reads, even with adaptive growth, and a geometry-only schedule attains exactly that many.",
+     "这个秩等于最大匹配数的两倍，至少为 2L。因此要报告、预测或清零一个任意的未知场，即使允许自适应生长，也至少需要这么多次成功读取；一个只依赖几何的调度恰好达到这个数。"
+    ]
+   ]
+  },
+  {
+   "id": "fourread",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On the seven-vertex tree with leaves beta, beta and alpha, every quaternary word is stored. The characteristic polynomial is z times q of z squared, with q equal to y cubed minus six y squared plus nine y minus three, and no nonzero polynomial with coefficients from minus three to three is divisible by q.",
+     "在叶子为 β、β、α 的七顶点树上，每一个四进制字都被存下。特征多项式为 z·q(z²)，其中 q = y³ − 6y² + 9y − 3，而系数在 −3 到 3 之间的非零多项式都不能被 q 整除。"
+    ],
+    [
+     "Yet every fixed passive schedule with three reads loses some history, because one coefficient parity is seen at most once. Four reads at two terminals, after three and four ticks, recover every word, so four is the exact minimum.",
+     "然而，任何只有三次读取的固定被动调度都会丢失某段历史，因为总有一种系数奇偶性最多只被看到一次。在两个终端、于第三和第四次 Tick 之后做四次读取，即可恢复每个字，所以四次就是精确的最小值。"
+    ]
+   ]
+  },
+  {
+   "id": "law",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now hide the law itself: unknown positive edge weights and an arbitrary diagonal. One free scan and one pulse per terminal earn the weights, the entry field and the advanced endpoint. For three terminals that is sixty ticks, three adds and one hundred ninety-two reads.",
+     "现在连规律本身也隐藏起来：未知的正边权与任意的对角线。一次自由扫描加上每个终端一次脉冲，就能得到这些权重、入口场以及推进后的端点。对三个终端，这需要 60 次 Tick、3 次加法和 192 次读取。"
+    ],
+    [
+     "For a known integer law, executing F equal to four I plus A, over eight, from the values M x already in hand costs exactly N minus the rank of M fresh reads. Its key step, that F minus every power of A is invertible, is a frozen Lean theorem.",
+     "对一个已知的整数规律，若手中已有 Mx 的值，执行 F = (4I + A)/8 恰好需要 N − rank M 次新的读取。其关键一步——F 减去 A 的任意次幂都可逆——是一条已冻结的 Lean 定理。"
+    ]
+   ]
+  },
+  {
+   "id": "protect",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "At that acquired endpoint a singular law has already pushed the kernel directions of the entry out of the field. Exactly d terminal adds, with d the kernel dimension and at most b minus one, write them back into the bare current field.",
+     "在那个已获取的端点，奇异的规律已经把入口的核方向从场中推了出去。恰好 d 次终端加法（d 为核的维数，至多 b − 1）就能把它们写回到裸的当前场中。"
+    ],
+    [
+     "Or protect first. One guard-only pass grows a fresh cell next to every old terminal before any number is read, and from then on every passive phase keeps the entry, because the kernel of B to the h times E is zero.",
+     "或者先加保护。在读取任何数值之前，一次只用守卫的遍历在每个旧终端旁长出一个新单元；从此以后每一个被动阶段都保留入口，因为 B^h·E 的核为零。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Fresh zeros earn scrambled labels, batches and ages cut reads, controls null or restore a hidden field, one packed read can suffice, growth breaks mirrors, branching stores digits, rank survives growth, four reads hear four digits, and hidden laws are paid for.",
+     "新的零换来乱序的标签，批量与年龄减少读取，控制把隐藏的场清零或复原，一次打包读取即可足够，生长打破镜像，分支存储数字，秩在生长中存活，四次读取听见四进制数字，隐藏的规律也有其代价。"
+    ],
+    [
+     "Kronecker packing, leaf forcing and the Perron comparison are published or classical inputs, one integrality lemma is frozen in Lean, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "Kronecker 打包、叶子逼迫与 Perron 比较是已发表或经典的输入，一条整性引理已在 Lean 中冻结，其余由理论卷论证，有限计算均为本片重新完成。"
+    ]
+   ]
+  }
+ ]
+}
