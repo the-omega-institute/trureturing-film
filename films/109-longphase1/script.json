@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Building on the native Green stability volume, a height diffuses between two absorbing walls while three winding phases turn along one height-dependent direction. Part one follows them for a long time: their spread, their Green field, their memory, and what one phase reveals.",
+     "在原生 Green 稳定性卷的基础上：一个高度在两道吸收壁之间扩散，三个缠绕相位沿着一个随高度变化的方向转动。第一部长时间追踪它们：它们的扩散、Green 场、记忆，以及一个相位能揭示什么。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "FIB-native long-time phase, part one: one direction, rank three and the height in the phase.",
+     "FIB 原生长时相位，第一部：一个方向、秩三与相位中的高度。"
+    ],
+    [
+     "At each instant the phases move along one line; over long times the wandering height spreads them over all three directions, and the record remembers the height.",
+     "每一瞬间相位只沿一条直线运动；长时间里，游走的高度把它们铺满全部三个方向，而记录记住了高度。"
+    ]
+   ]
+  },
+  {
+   "id": "tensor",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One noise drives the three phases along a vector c of the height. Averaging c c transpose against the squared ground state gives a tensor M, uniformly positive definite, kappa zero included, since c and its two derivatives are never coplanar.",
+     "一个噪声沿高度的向量 c 驱动三个相位。用基态的平方对 c cᵀ 取平均，得到张量 M；因为 c 与它的两阶导数从不共面，M 对 κ 一致正定，κ = 0 也包括在内。"
+    ],
+    [
+     "So the killed kernel, scaled by t to the three halves and e to the lambda t, tends to phi of k, phi of k prime, times a Gaussian of covariance two M, however kappa moves.",
+     "于是被杀灭的核乘以 t^(3/2) 与 e^(λt) 后，趋于 φ(k) φ(k′) 乘以协方差为 2M 的 Gaussian，无论 κ 如何变化。"
+    ]
+   ]
+  },
+  {
+   "id": "survive",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Killing is kept exact. Survival is a sine series, and two conditionings give two height laws: the ground-state process settles to phi squared, while survivors of a fixed horizon end in the Yaglom law, phi over its integral.",
+     "杀灭被精确记账。存活概率是一个正弦级数；两种条件化给出两种高度律：基态过程稳定于 φ²，而在固定时限内存活者的终点服从 Yaglom 律 φ/∫φ。"
+    ],
+    [
+     "Under either law the whole scaled phase path becomes Brownian motion of covariance two M, independent of the terminal height. Unconditioned, everything dies, with mean lifetime k minus l, times u minus k, over two epsilon squared.",
+     "在任一律下，整条缩放后的相位路径都趋于协方差为 2M 的 Brownian 运动，并与终点高度独立。若不加条件，一切终将死亡，平均寿命为 (k − l)(u − k)/(2ε²)。"
+    ]
+   ]
+  },
+  {
+   "id": "ranks",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Keep the ranks apart. At each instant the phase covariance has rank one and the full symbol rank two; only averaging over heights gives rank three. In the lifted coordinates, the determinant gains a factor kappa squared.",
+     "各种秩要分开。每一瞬间，相位协方差的秩为一，完整符号的秩为二；只有对高度取时间平均才得到秩三。在提升坐标中，行列式多出因子 κ²。"
+    ],
+    [
+     "On the actual zero leaf the third coordinate is frozen, so two phases move with a rank-two tensor, and the wrapped leaf mixes to phi phi over four pi squared. None of these ranks is a physical dimension.",
+     "在真实的零叶上第三个坐标被冻结，所以只有两个相位运动，张量的秩为二；缠绕的叶混合到 φφ/(4π²)。这些秩都不是物理维数。"
+    ]
+   ]
+  },
+  {
+   "id": "green",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Integrating over all times gives the threshold Green function: p times an anisotropic Yukawa law, e to the minus root m d, over four pi root det M d, up to p over r cubed, uniformly up to both walls.",
+     "对所有时间积分得到阈值 Green 函数：它等于 p 乘以各向异性 Yukawa 律 e^(−√m·d)/(4π√(det M)·d)，误差不超过 p/r³，并一致地延伸到两道壁。"
+    ],
+    [
+     "At distinct heights and coincident phases the native Green function is finite and positive, while the effective law has its pole there. So the projected pole is not a value, and small separations must keep the native finite part.",
+     "在高度不同而相位重合的点，原生 Green 函数有限且为正，而有效律在那里有极点。所以投影出的极点不是一个取值，小的间隔必须保留原生的有限部分。"
+    ]
+   ]
+  },
+  {
+   "id": "circle",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Restore the hidden circle, of length two pi over kappa. The response crosses over from the three-dimensional law to a two-dimensional K zero law, and the joint-point mixing coefficient is the Schur complement S, far below the entry for b squared.",
+     "恢复长度为 2π/κ 的隐藏圆。响应从三维律过渡到二维 K₀ 律，联合点混合系数是 Schur 补 S，远小于 b² 的对应分量。"
+    ],
+    [
+     "Zero mass then gives a logarithm: the compensated kernel decays like A over t, so the Green function diverges like A log one over m. If the circle opens as the mass vanishes, the extra tail can vanish, tend to a constant, or grow.",
+     "零质量时出现对数：补偿后的核按 A/t 衰减，因此 Green 函数按 A log(1/m) 发散。当质量趋零的同时圆被打开，额外的尾项可以消失、趋于常数，或者增长。"
+    ]
+   ]
+  },
+  {
+   "id": "covers",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Each geometry has its own infrared law. Without the threshold shift, the killed Green function has total mass equal to the mean lifetime and an exponentially small far field. On the real cover the ground-state process is transient.",
+     "每种几何都有自己的红外律。不做阈值平移时，被杀灭的 Green 函数总质量等于平均寿命，远场按指数变小。在实覆叠上，基态过程是暂留的。"
+    ],
+    [
+     "On the cylinder and the zero leaf it is recurrent with infinite invariant measure and a logarithmic divergence; on the fully wrapped torus it is positive recurrent, with pole one over eight pi cubed m. None of this selects a dimension.",
+     "在柱面和零叶上，它常返、不变测度无穷，并有对数发散；在完全缠绕的环面上它正常返，极点为 1/(8π³ m)。这些都不选定任何维数。"
+    ]
+   ]
+  },
+  {
+   "id": "memory",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Compress onto the ground height. The phase response u obeys an exact memory equation, minus a u plus a return integral from excited heights, with Laplace transform one over z plus a minus a self-energy.",
+     "压缩到基态高度上。相位响应 u 满足一个精确的记忆方程：−a u 加上来自激发高度的回返积分，其 Laplace 变换为 1/(z + a − Σ)，Σ 是自能。"
+    ],
+    [
+     "Only one line has no memory, the multiples of two, minus two, kappa, since two A minus two B plus kappa b is one. There u is exactly exponential; in every other direction u of two s exceeds u of s squared.",
+     "只有一条直线没有记忆，即 (2, −2, κ) 的倍数，因为 2A − 2B + κb = 1。在那里 u 恰好是指数函数；在其他所有方向上 u(2s) > u(s)²。"
+    ]
+   ]
+  },
+  {
+   "id": "quartic",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The leading departure from Gaussian is a native quartic coefficient, an inverse-generator energy that is nonnegative and vanishes exactly on that line. For the centered projection at kappa zero it has a closed value in powers of pi.",
+     "偏离 Gaussian 的主导项是原生四次系数：它是一个逆生成元能量，非负，并恰好在那条直线上为零。对 κ = 0 处的居中投影，它有一个关于 π 的幂的闭式值。"
+    ],
+    [
+     "In the band it enters with a minus sign, while the fourth cumulant grows like twenty-four times it times t. The stationary law differs from its Gaussian by exactly order one over T, uniformly in kappa.",
+     "在能带中它带负号出现，而四阶累积量按它的 24t 倍增长。平稳律与其 Gaussian 的差恰为 1/T 阶，对 κ 一致。"
+    ]
+   ]
+  },
+  {
+   "id": "observe",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now observe. The variance rate of the wrapped v phase is twice its squared coefficient, strictly increasing in height, so the continuous v record recovers the height causally at every positive time, though not at time zero.",
+     "现在来观测。缠绕相位 v 的方差率是其系数平方的两倍，随高度严格递增，所以连续的 v 记录在每个正时刻都能因果地恢复高度，但零时刻不能。"
+    ],
+    [
+     "Every real projection and integer character obeys one exact rule: a nonzero residue identifies height; otherwise the coefficient is affine and fails exactly when it changes sign inside the interval, as theta plus v does on the zero leaf.",
+     "每个实投影和整数特征标都服从同一条精确规则：留数非零就能识别高度；否则系数是仿射的，当且仅当它在区间内部变号时失败，比如零叶上的 θ + v。"
+    ]
+   ]
+  },
+  {
+   "id": "samples",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Finitely many wrapped samples are a different experiment. For every n the posterior of the final height keeps full support, and the best squared risk is of order exactly one over root n, uniformly in kappa.",
+     "有限个缠绕样本是另一个实验。对每个 n，终点高度的后验都保持完整支撑，最优平方风险恰为 1/√n 阶，并对 κ 一致。"
+    ],
+    [
+     "The upper bound uses only the last root n increments; the lower bound is a Bayesian information argument inside the same source. Simulating that estimator gives a slope close to minus one half.",
+     "上界只用最后 √n 个增量；下界是在同一来源内部的 Bayes 信息论证。模拟这个估计量，得到接近 −1/2 的斜率。"
+    ]
+   ]
+  },
+  {
+   "id": "calib",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Last, let kappa be unknown. Three nested variations of the v record recover its size and the shifted height, but changing kappa and K to minus kappa and K minus two kappa leaves the v coefficient exactly unchanged.",
+     "最后，让 κ 未知。对 v 记录做三层嵌套变差，可以恢复它的大小和平移后的高度；但把 (κ, K) 换成 (−κ, K − 2κ)，v 的系数完全不变。"
+    ],
+    [
+     "So at every fixed horizon the sign stays ambiguous with positive probability, and every estimator has risk at least r squared times an explicit constant. The infinite history resolves it, as does adding the theta or the D record.",
+     "所以在每个固定时限上，符号以正概率保持不确定，每个估计量的风险至少是 r² 乘以一个显式常数。无限长的历史能分辨它，再加上 θ 记录或 D 记录之一也能。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "One direction averages to rank three, two conditionings give two height laws, the Green field follows its cover, memory vanishes on one line, a quartic sets the one over T correction, and the v record gives height, not sign.",
+     "一个方向平均成秩三，两种条件化给出两种高度律，Green 场随覆叠而变，记忆只在一条直线上消失，四次系数给出 1/T 阶偏差，v 记录给出高度，而不给出符号。"
+    ],
+    [
+     "The martingale central limit theorem, the Doob transform, the recurrence criterion and the van Trees inequality are classical inputs, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "鞅中心极限定理、Doob 变换、常返判据和 van Trees 不等式是经典输入，其余在理论卷中论证，有限计算为本片重新完成。"
+    ]
+   ]
+  }
+ ]
+}
