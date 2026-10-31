@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Five modes share probability, and two controls move them: one shifts a height, the other turns the phases with height-dependent weights. Part one asks when attraction through the system's own Green field stays bounded below. The answer depends on which walls the fixed means touch.",
+     "五个模式共享概率，只有两个控制驱动它们：一个改变高度，另一个按依赖高度的权重转动相位。第一部追问：沿系统自身 Green 场的吸引何时保持下有界？答案取决于固定均值落在哪些壁上。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "FIB-native Green stability, part one: the double wall, periodic binding and the hidden circle.",
+     "FIB 原生 Green 稳定性第一部：双壁、周期束缚与隐藏圆。"
+    ],
+    [
+     "Off the walls it collapses, on both walls it can bind, and near them a hidden circle sets the price.",
+     "离开壁就塌缩，落在两壁上就能束缚，而在壁附近，一个隐藏圆决定代价。"
+    ]
+   ]
+  },
+  {
+   "id": "regimes",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The means fix four regimes. Off both walls the current rays form a five-dimensional leaf of homogeneous dimension eleven; on one wall, four and seven; on both walls, three and four. In every row the two controls have rank two.",
+     "均值决定四种情形。离开两壁时，当前射线构成五维叶，齐次维数为 11；只在一壁上是 4 与 7；同时在两壁上是 3 与 4。每一种情形里，两个控制的秩都是二。"
+    ],
+    [
+     "Kill the motion at two heights, keep the phases periodic, and fix one clock. The free operator then has a spectral gap, and its Green field is finite, positive and integrable, yet infinite at the source, because every dimension is at least four.",
+     "在两个高度处吸收，相位保持周期，固定同一个时钟。自由算子于是有谱隙，它的 Green 场有限、为正、可积，但在源点为无穷，因为每种情形的维数都至少为四。"
+    ]
+   ]
+  },
+  {
+   "id": "collapse",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now attract toward the source with that full Green field, at coupling g. Squeeze a normalized test state into a ball of size s in the privileged chart: its kinetic cost grows like s to the minus two.",
+     "现在用这个完整的 Green 场向源点吸引，耦合为 g。在特权坐标中把归一化试验态压进尺度为 s 的小球：它的动能代价按 s⁻² 增长。"
+    ],
+    [
+     "But the Green energy grows like s to the two minus Q: minus five on a single wall, minus nine off both. Attraction wins at every positive coupling, so there the energy is unbounded below.",
+     "但 Green 能量按 s^(2−Q) 增长：单壁上是 −5，离开两壁是 −9。对每个正耦合都是吸引占上风，所以那里的能量无下界。"
+    ]
+   ]
+  },
+  {
+   "id": "critical",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On both walls Q is four, so both energies scale like s to the minus two: the balance is critical. Near the source the fields become the Heisenberg pair, and the Green field is two r over epsilon squared times the Heisenberg one, plus a bounded part.",
+     "在两壁上 Q = 4，两种能量都按 s⁻² 缩放：平衡是临界的。在源点附近，两个场变成 Heisenberg 对，Green 场等于 Heisenberg 的 Green 函数乘以 2r/ε²，再加一个有界部分。"
+    ],
+    [
+     "A published Hardy inequality then bounds the attraction by the kinetic energy. With g equal to gamma epsilon squared and gamma below one over two r C H, the form is closed and bounded below with an attained minimum. Large gamma still collapses; the sharp threshold is open.",
+     "已发表的 Hardy 不等式于是用动能控制住吸引。取 g = γε²，且 γ < 1/(2rC_H)，这个形式是闭的、下有界的，最小值可以取到。γ 很大时仍会塌缩；精确阈值仍是开放问题。"
+    ]
+   ]
+  },
+  {
+   "id": "negative",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Globally, integrate the Green field over both phases: the result is exactly the one-dimensional tent function, divided by epsilon squared, and its total mass is the product of the two distances to the ends, over two epsilon squared.",
+     "从整体看，把 Green 场对两个相位积分：结果恰好是一维帐篷函数除以 ε²，总质量是源点到两端距离之积除以 2ε²。"
+    ],
+    [
+     "Take the lowest height mode, constant in phase. Its kinetic cost is epsilon squared pi squared over L squared, while its attraction stays gamma M over four pi squared. So for small epsilon the stable minimum is strictly negative.",
+     "取最低的高度模式，在相位上为常数。它的动能代价是 ε²π²/L²，吸引项却保持为 γM/(4π²)。所以 ε 足够小时，稳定的最小值严格为负。"
+    ]
+   ]
+  },
+  {
+   "id": "cover",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Unwrap both phases onto the plane, with the same fields, killing and clock. The single-source Green field decays at infinity, the attraction is at most g over g star times the kinetic energy, and the essential spectrum starts at lambda D.",
+     "把两个相位展开到平面上，场、吸收和时钟都不变。单源 Green 场在无穷远处衰减，吸引至多为动能的 g/g* 倍，本质谱从 λ_D 开始。"
+    ],
+    [
+     "A logarithmic cutoff costs only two pi over log R over a. So for every coupling below g star a bound state sits strictly below lambda D. It is attained, and no minimizing sequence loses mass to infinity.",
+     "对数截断的代价只有 2π/log(R/a)。所以对 g* 以下的每个耦合，都有一个束缚态严格位于 λ_D 之下。它可以取到，任何极小化序列都不会把质量丢到无穷远。"
+    ]
+   ]
+  },
+  {
+   "id": "exposure",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now move the means off the double wall by kappa. A hidden phase difference appears, driven at rate kappa times g of k. To expose a fixed angle chi, every lawful history needs variation at least chi over kappa M, and an explicit polygon of nine legs matches this up to a constant.",
+     "现在把均值移离双壁 κ。出现一个隐藏的相位差，以 κg(k) 的速率被驱动。要露出固定角 χ，每条合法历史的变差都至少为 χ/(κM)，一条显式的九段折线在差一个常数的意义下达到它。"
+    ],
+    [
+     "So kappa times the cost tends to chi H l over H minus l, and fixed-time energy grows like one over kappa squared. A bounded budget keeps the hidden circle below kappa M times that budget, while the exposed angle shifts the zero-two coherence by four root p zero Z, sine chi over two.",
+     "于是 κ 乘以代价趋于 χHl/(H − l)，固定时间的能量按 1/κ² 增长。有界预算把隐藏圆压在 κM 乘以预算之下；而露出的角度让 02 相干移动 4√(p₀Z) sin(χ/2)。"
+    ]
+   ]
+  },
+  {
+   "id": "excursion",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Drive the same two controls by Brownian noise, killed at both heights. The hidden phase becomes a time-changed Brownian motion, and the chance that it ever reaches chi before death lies between two constants over a hyperbolic cosine.",
+     "用布朗噪声驱动同样两个控制，并在两个高度处吸收。隐藏相位变成时间变换后的布朗运动，它在死亡前到达 χ 的概率，夹在两个常数除以双曲余弦之间。"
+    ],
+    [
+     "The rate is a Sturm–Liouville eigenvalue: kappa times log P tends to minus chi root lambda one, through both signs. This rare excursion is exactly the event that the zero-two coherence, normalized, leaves the three-coordinate section by sine chi over two.",
+     "速率由一个 Sturm–Liouville 本征值给出：κ log P 趋于 −χ√λ₁，两个符号都一样。这次罕见的偏离，恰好就是归一化后的 02 相干偏离三坐标截面达到 sin(χ/2) 的事件。"
+    ]
+   ]
+  },
+  {
+   "id": "smoothing",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Smooth the point source by a fixed time tau of free heat flow. The field becomes bounded, its source keeps the surviving charge S of tau, and at each kappa the energy has a finite attained minimum.",
+     "用一段固定时间 τ 的自由热流把点源抹平。场变得有界，源保留存活电荷 S(τ)，并且在每个 κ 上能量都有可取到的有限最小值。"
+    ],
+    [
+     "But not uniformly. On a hidden strip of width kappa the smoothed field has height one over kappa, so the minimum falls like minus g over kappa for every coupling. Normalizing the charge does not help; phase-independent states stay bounded.",
+     "但不一致。在宽度为 κ 的隐藏带上，抹平后的场高度为 1/κ，所以对每个耦合，最小值都按 −g/κ 下降。把电荷归一化也无济于事；与相位无关的态则保持有界。"
+    ]
+   ]
+  },
+  {
+   "id": "clock",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "So let the smoothing time depend on kappa. The hidden circle has a gap of order kappa squared, so it mixes only after times of order one over kappa squared, and the heat kernel carries an extra factor one plus one over kappa root t.",
+     "那就让抹平时间依赖于 κ。隐藏圆的谱隙是 κ² 阶，所以只有经过 1/κ² 阶的时间它才混合，热核也多带一个因子 1 + 1/(κ√t)。"
+    ],
+    [
+     "Raw charge is stable exactly when kappa root tau e to the lambda tau stays bounded below, so tau must grow like log one over kappa over lambda; unit charge needs kappa squared tau bounded below. At the raw boundary the surviving charge is only of order kappa root log one over kappa.",
+     "原始电荷稳定，当且仅当 κ√τ e^(λτ) 有正下界，所以 τ 须按 log(1/κ)/λ 增长；单位电荷则需要 κ²τ 有正下界。在原始电荷的边界上，存活电荷只有 κ√(log(1/κ)) 阶。"
+    ]
+   ]
+  },
+  {
+   "id": "traces",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Finally the heat traces. Near the wall, kappa times the trace tends to the resolved trace F, which at short times behaves like C seven over t to the seven halves: seven is the homogeneous dimension of the resolved cover.",
+     "最后看热迹。在壁附近，|κ| 乘以热迹趋于展开后的迹 F；短时间里它像 C₇/t^(7/2)：7 正是展开覆盖的齐次维数。"
+    ],
+    [
+     "At the mixing clock the compensated trace tends to the theta function of beta z. The zero leaf, the resolved cover and the frozen four-coordinate operator are different objects, and in all of them the controls keep rank two.",
+     "在混合时钟上，补偿后的热迹趋于 θ 函数 Θ_β(z)。零叶、展开覆盖和冻结的四坐标算子是不同的对象，而在所有这些对象里，控制的秩都还是二。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Off the walls attraction collapses, on both walls it is critical and can bind, also on the plane, and near the wall a hidden circle sets the costs, the rare excursions, the smoothing scales and the traces.",
+     "离开壁时吸引塌缩；在两壁上它是临界的，可以束缚，展开到平面上也一样；在壁附近，一个隐藏圆决定代价、罕见偏离、抹平尺度和热迹。"
+    ],
+    [
+     "The Hardy inequality and the KLMN theorem are published inputs, Brownian strip exit and Sturm–Liouville theory are classical, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "Hardy 不等式和 KLMN 定理是已发表的输入，布朗带状区域逃逸与 Sturm–Liouville 理论是经典工具，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
