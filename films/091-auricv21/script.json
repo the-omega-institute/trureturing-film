@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "This film continues the versioned Auric volumes: version twenty-one puts observers, programs, records and clocks inside one fixed quantum history; version twenty-two describes observation by relations between gate histories, and asks which quotients still predict.",
+     "本片延续 AURIC 版本系列：第二十一版把观察者、程序、记录与时钟放进一个固定的量子历史；第二十二版用门历史之间的关系描述观察，并追问哪些商仍能预测。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric versions twenty-one and twenty-two: static histories and observation quotients.",
+     "AURIC V21–V22：静态历史与观察商。"
+    ],
+    [
+     "Readings without order, a golden gate with order, and relations that rebuild the space they came from.",
+     "无先后的读数，有先后的黄金门，以及能重建自身来源空间的关系。"
+    ]
+   ]
+  },
+  {
+   "id": "atoms",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three binary readouts on five modes commute and generate an algebra with exactly five atoms, one per mode. A complete three-bit record identifies the mode, and the five response vectors span a square pyramid.",
+     "五个模式上的三个二值读出彼此对易，生成恰有五个原子的代数，每个模式一个。完整的三位记录能识别模式，五个响应向量张成一座方底金字塔。"
+    ],
+    [
+     "But three averages are not the state. Fixing X, Y and Z leaves one hidden coupling kappa, between max of zero and X plus Y minus R, and min of X and Y, while coherence stays unseen.",
+     "但三个均值并不是态。固定 X、Y、Z 之后，还剩一个隐藏耦合 κ，范围从 max(0, X + Y − R) 到 min(X, Y)；而相干始终看不见。"
+    ]
+   ]
+  },
+  {
+   "id": "order",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Order is irrelevant for every input exactly when two projections commute, provided the labelled records are kept. Averages can hide order: both dephasing orders give I over two, yet affirmative records give one half versus one quarter.",
+     "只要保留带标签的记录，两个投影的顺序对所有输入都无关，当且仅当它们对易。平均会掩盖顺序：两种去相干次序都给 I/2，肯定记录的概率却是 1/2 对 1/4。"
+    ],
+    [
+     "The native golden gate breaks this: the middle readout and its K conjugate overlap by phi to the minus two, so from the middle mode the orders give phi to the minus two and phi to the minus four, a gap of phi to the minus three.",
+     "原生黄金门打破了这一点：中位读出与它的 K 共轭重叠为 φ⁻²，所以从中位模式出发，两种顺序分别给出 φ⁻² 与 φ⁻⁴，相差 φ⁻³。"
+    ]
+   ]
+  },
+  {
+   "id": "program",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The basis can be a quantum program inside the observer. Three readouts sharing one controlled unitary commute exactly, even with a coherent or entangled program; separately approximated bases only stay within four times their difference.",
+     "基底可以是观察者内部的量子程序。共用同一个受控酉的三个读出精确对易，即使程序是相干的、或与数据纠缠；各自独立逼近的基底，只能被控制在两者差的四倍以内。"
+    ],
+    [
+     "Sharing matters even classically. Measure a maximally mixed bit twice in a random Z or X basis: reusing the choice gives two affirmatives with probability one half, redrawing gives three eighths. Distinct exact sharp programs must be orthogonal.",
+     "即使在经典层面，共享也重要。对一个最大混合比特，在随机选取的 Z 或 X 基下测两次：复用这次选择，两次肯定的概率为 1/2；每次重抽则为 3/8。不同的精确尖锐程序必须彼此正交。"
+    ]
+   ]
+  },
+  {
+   "id": "history",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Keeping every record makes growth an isometry; a direct limit holds the recursion as one fixed vector, so change must come from different slice effects. With clock weights pi sub t, history states are exactly the zeros of a propagation residual.",
+     "保留全部记录使增长成为等距；直接极限把整个递归容纳为一个固定向量，所以任何变化都只能来自不同切面的效果。取时钟权重 π_t，历史态恰是传播残差的零点。"
+    ],
+    [
+     "Clocks relate readable records. A coarse clock leaves a mixture; a global potential exists exactly when increments cancel around every closed walk, which a diamond graph can violate; ten golden gates return to identity, but not on a counting clock.",
+     "时钟关联的是可读记录。粗时钟留下混合态；全局钟势存在，当且仅当沿每条闭走的增量相互抵消，菱形图就可能违反；十次黄金门回到恒等，在计数时钟上却不是。"
+    ]
+   ]
+  },
+  {
+   "id": "paths",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Two prediction paths A and B to one endpoint: the least squared residual over that endpoint is half their squared gap, one minus the real overlap, and exactly twice the dark-port probability of an interferometer.",
+     "两条预测路径 A、B 指向同一端点：对共同端点求最小平方残差，得到两者之差平方的一半，即一减去重叠的实部，恰为干涉仪暗端口概率的两倍。"
+    ],
+    [
+     "A unit-length endpoint gives four times one minus root of one minus p instead. Paths differing by a global phase theta still interfere, p being sine squared of theta over two, and a diamond of unit edges halves the residual.",
+     "若端点必须是单位向量，最小值改为 4(1 − √(1 − p₋))。只差一个整体相位 θ 的两条路径仍会干涉，p₋ = sin²(θ/2)；由单位边组成的菱形把残差减半。"
+    ]
+   ]
+  },
+  {
+   "id": "six",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "How much must an observer remember? With the native gate at one address and the five-mode readout, future effects close on seven dimensions, so exactly six real numbers predict every allowed record: X, Y, Z, kappa and one complex coherence.",
+     "观察者必须记住多少？若只有同一地址上的原生门与五模式读出，未来效果闭合在七维空间上，因此恰好六个实数就能预测每个许可记录：X、Y、Z、κ，以及一个复相干。"
+    ],
+    [
+     "Allowing every basis change raises this to twenty-four. Since K to the tenth is one, nothing decreases strictly under K, and gates that keep the three readings for every input are diagonal, never universal.",
+     "若允许一切换基，这个数增至二十四。由于 K¹⁰ = I，没有任何函数在 K 下严格下降；对所有输入都保持三个读数的门必是对角的，永远不能普适。"
+    ]
+   ]
+  },
+  {
+   "id": "relative",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Version twenty-two compares a state history U with a basis history V. Readouts depend only on the relative gate V dagger U on the seed, yet the seed stays: overlaps are seed-independent only when that gate is a phase.",
+     "第二十二版比较态历史 U 与基底历史 V。读出只依赖作用于种子的相对门 V†U，但种子仍然留着：只有当相对门是一个相位时，重叠才与种子无关。"
+    ],
+    [
+     "A common final frame cancels, and relative gates classify those orbits exactly. A common past does not: one shared Hadamard turns overlap one into zero. A fixed next step descends to the quotient only when B dagger A is central.",
+     "共同的末端参考框可以消去，相对门恰好分类这些轨道。共同的过去却不能：共享的一个 Hadamard 就把重叠从 1 变为 0。固定的后接门要下降到商上，当且仅当 B†A 位于中心。"
+    ]
+   ]
+  },
+  {
+   "id": "quotients",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Quotients differ. A projection is a linear quotient, but conditioning forgets the rate: zero and plus give the same post-state with probabilities one and one half. Dephasing removes two off-diagonal units, but not their product.",
+     "各种商并不相同。投影是线性商，但条件化会丢掉发生率：|0⟩ 与 |+⟩ 给出相同的后态，概率却是 1 与 1/2。去相干消去两个非对角单位，却消不掉它们的乘积。"
+    ],
+    [
+     "Quotient the seed ray and the labelled basis, and exactly the probability simplex remains. Optimizing away column phases leaves the squared Hellinger form, two minus two times the sum of root p q; one global phase leaves more.",
+     "同时商去种子射线与带标签基底，剩下的恰是概率单纯形。把各列相位优化掉，剩下平方 Hellinger 形式 2 − 2Σ√(pq)；只允许一个整体相位时，剩余更多。"
+    ]
+   ]
+  },
+  {
+   "id": "bargmann",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Replace coordinates by relations. The overlap kernel of gate histories is positive and rebuilds the minimal Hilbert space up to unitary equivalence; a branching recursion needs every cross term conserved; conserving each total is not enough.",
+     "以关系取代坐标。门历史的重叠核是正的，它在酉等价意义下重建最小 Hilbert 空间；分支递归需要守恒每一个交叉项，只守恒每项的总量并不够。"
+    ],
+    [
+     "Pairwise probabilities are not enough. Seeds zero and two under powers of K share every pairwise probability, yet their Bargmann invariants are phi to the minus four times omega and its conjugate; a controlled cycle on three copies reads them.",
+     "两两概率也不够。以 |0⟩ 与 |2⟩ 为种子、施加 K 的各次幂，所有两两概率都相同，它们的 Bargmann 不变量却是 φ⁻⁴ω 与其共轭；三副本上的受控循环可以读出它们。"
+    ]
+   ]
+  },
+  {
+   "id": "future",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A summary must survive the next step. From seed two, K and K to the ninth give identical populations, yet one more K makes the middle probability phi to the minus four in one history and one in the other.",
+     "摘要必须经得住下一步。从种子 |2⟩ 出发，K 与 K⁹ 给出完全相同的人口；但再施加一次 K，中位概率在一个历史中为 φ⁻⁴，在另一个中为 1。"
+    ],
+    [
+     "The coarsest quotient that keeps current readings and is stable under every legal successor is the future-effect closure. One sample of a basis state is only an overlap probe: the swap test effect is identity plus sigma over two.",
+     "既保持当前读数、又在每个合法后继下稳定的最粗商，是未来效果闭包。基态的一个样本只是重叠探针：SWAP 测试的效果是 (I + σ)/2。"
+    ]
+   ]
+  },
+  {
+   "id": "mps",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A project matrix product witness has four levels, bond dimension three, and entries three fifths and four fifths. It is normalized, carries charges minus one, one, minus two and two, and its two-letter amplitudes determine any boundary.",
+     "项目中的一个矩阵乘积见证有四个物理能级、虚维数三，元素为 3/5 与 4/5。它是归一的，荷为 −1、1、−2、2，两字振幅唯一确定任意边界矩阵。"
+    ],
+    [
+     "Conjugating every tensor and the boundary by one invertible S leaves all sixteen amplitudes unchanged: the virtual reference cancels while the boundary survives. Squared moduli would lose it, because X and a phase times X agree.",
+     "用同一个可逆矩阵 S 共轭全部张量与边界，十六个振幅全都不变：虚参考被消去，边界却保留下来。只看模平方就会丢失它，因为 X 与带相位的 X 给出相同的值。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Five atoms and a hidden kappa, a golden order gap, shared programs, static histories and relational clocks, a dark port, six numbers, relative gates, quotients, Bargmann phases, futures that split, and a surviving boundary.",
+     "五个原子与隐藏的 κ，黄金顺序差，共享程序，静态历史与关系时钟，暗端口，六个数，相对门，各种商，Bargmann 相位，会分岔的未来，以及保留下来的边界。"
+    ],
+    [
+     "The matrix product witness is frozen in the project's Lean kernel; history states, program orthogonality, Bargmann invariants and the swap test are published inputs; the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+     "矩阵乘积见证已在项目的 Lean 内核中冻结；历史态、程序正交性、Bargmann 不变量与 SWAP 测试是已发表的输入；其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
