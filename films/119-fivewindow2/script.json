@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part one followed one five-window channel repeated in time. Part two lets the channel switch at every step, on a schedule fixed in advance, and asks what survives: a classical bit, an entangled pair, or an exact qubit.",
+     "第一部跟踪的是在时间中重复的一个五窗口通道。第二部让通道每一步都切换，切换表事先固定，并追问什么能留下：一个经典比特、一对纠缠，还是一个精确的量子位。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric five-window memory, part two: switched channels, a surviving bit and uniform erasure.",
+     "AURIC 五窗口记忆第二部：切换通道、存活的一位与一致遗忘。"
+    ],
+    [
+     "Two forgetting channels keep a bit together, a qubit is gone after three steps, and away from one half everything is erased.",
+     "两个遗忘的通道合起来保住一位，量子位三步之后消失，而离开二分之一，一切都被抹去。"
+    ]
+   ]
+  },
+  {
+   "id": "model",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Five windows, labelled zero zero zero through one zero one. A channel is allowed when, for every complex input, its output diagonal is the population matrix Q applied to the input diagonal: windows zero and one go to zero with weight r, and to three with weight eta.",
+     "五个窗口，标签从 000 到 101。一个通道称为允许的，是指对每个复输入，输出对角都等于人口矩阵 Q 作用于输入对角：窗口 0 和 1 以权重 r 走到 0，以权重 η 走到 3。"
+    ],
+    [
+     "The schedule is fixed before the input is chosen, and every step uses a fresh environment. Any block of steps then follows the product of its population matrices, and any three steps pull window two back to a strictly positive effect.",
+     "切换表在选定输入之前就已固定，每一步都使用新鲜环境。于是任何一段连续步骤都遵循其人口矩阵的乘积，任意三步都把窗口 2 拉回成一个严格正的效应。"
+    ]
+   ]
+  },
+  {
+   "id": "mixers",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Fix eta at one half. Take the canonical channel C and a sign flip S on window one. A applies C, then S; B applies S, then C. Both are allowed, with Choi rank two and the same population law.",
+     "固定 η = 1/2。取典范通道 C 和窗口 1 上的符号翻转 S。A 先作用 C 再作用 S；B 先作用 S 再作用 C。二者都是允许通道，Choi 秩为二，人口律相同。"
+    ],
+    [
+     "Repeated alone, each one forgets everything. On its three-dimensional output, A acts by a reflection and a signed three-cycle, whose only common fixed matrix is the identity. So A to the n converges to one reset, and so does B.",
+     "单独重复时，每一个都遗忘一切。在三维输出上，A 的作用是一个反射和一个带符号的三循环，二者唯一的公共不动矩阵是单位阵。所以 Aⁿ 收敛到唯一的重置，B 也一样。"
+    ]
+   ]
+  },
+  {
+   "id": "alternate",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now alternate them. Because S squared is the identity, B after A is exactly C squared, so the word A, B, A, B is C to the n, with one extra sign flip at odd times. The phase is public, not part of the label.",
+     "现在把它们交替起来。因为 S² 是单位，A 之后接 B 恰好等于 C²，所以字 A, B, A, B, … 就是 Cⁿ，奇数时刻多一次符号翻转。这个相位是公开的，不携带标签的任何部分。"
+    ],
+    [
+     "So a bit survives forever. Encode zero as the pure state P along s, and one as M, uniform on the rest of R. Both have populations one, one, two, one, one over six, yet a terminal projection reads them with zero error at every time.",
+     "于是一位信息永远存活。把 0 编码为沿 s 的纯态 P，把 1 编码为 R 中其余部分上的均匀态 M。二者的人口都是 (1, 1, 2, 1, 1)/6，但一个终端投影在每个时刻都能零误差地读出它们。"
+    ]
+   ]
+  },
+  {
+   "id": "limits",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The phase limits are explicit. For C, the limit T is C squared plus two C cubed, over three: measure the effect E, then prepare P or M. The gap shrinks by minus one half per step, within four thirds times two to the two minus n.",
+     "相位极限都是显式的。对 C，极限 T = (C² + 2C³)/3：先测效应 E，再制备 P 或 M。差距每步乘以 −1/2，菱形范数不超过 (4/3)·2^(2−n)。"
+    ],
+    [
+     "No reset ever comes close. At every time, every reset is at diamond distance at least one, and the limits sit at exactly one. An input outside R, the vector d, still sends two thirds of its weight into the P sector.",
+     "没有任何重置会靠近。每个时刻，每个重置的菱形距离都至少为一，极限恰好为一。R 之外的输入 d，仍把三分之二的权重送进 P 扇区。"
+    ]
+   ]
+  },
+  {
+   "id": "npt",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Entangle the input with a reference, s on one branch and w zero on the other. The coherence between the sectors shrinks by minus one half per step, yet the partial transpose keeps a negative eigenvalue, minus two to the minus n minus one, at every finite time.",
+     "把输入与一个参考系统纠缠：一支是 s，另一支是 w₀。两个扇区之间的相干每步乘以 −1/2，但部分转置在每个有限时刻都保留负特征值 −2^(−n−1)。"
+    ],
+    [
+     "So every finite output is entangled, while every phase limit measures and prepares, and breaks entanglement. A classical label, finite entanglement and an exact quantum code are three different things.",
+     "所以每个有限时刻的输出都是纠缠的，而每个相位极限都是测量后制备，会破坏纠缠。经典标签、有限纠缠与精确量子码是三件不同的事。"
+    ]
+   ]
+  },
+  {
+   "id": "qubit",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Can a qubit survive switching? No. For every fixed eta and every schedule, after three steps no terminal recovery returns a two-dimensional code exactly: the gauge ranks are forced to one, one, two, and the last channel would have to correct a plane that no allowed channel can.",
+     "量子位能在切换中存活吗？不能。对每个固定的 η 和每个切换表，三步之后没有任何终端恢复能精确还原一个二维码：规范秩被迫为 1, 1, 2，最后一个通道就得纠正一个平面，而没有允许通道做得到。"
+    ],
+    [
+     "Over the whole switching class, the best exact code dimensions are five, three, two, then one forever. The oldest-bit channel reaches three, then two, and so does the alternating pair.",
+     "在整个切换类上，最佳精确码维数是 5, 3, 2，之后永远是 1。最老比特通道依次达到 3 和 2，交替的一对也一样。"
+    ]
+   ]
+  },
+  {
+   "id": "cap",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For small eta, switching forgets everything. If window zero carries a fraction at least a, above one half, then all such states lie within trace distance four root a times one minus a; at one half or below, the diameter is two.",
+     "η 较小时，切换会遗忘一切。若窗口 0 承载的比例至少为 a 且 a > 1/2，则所有这样的态彼此的迹距离都在 4√(a(1 − a)) 以内；a ≤ 1/2 时直径为 2。"
+    ],
+    [
+     "Below eta equal five minus root seventeen, over four, about zero point two two, every block of N steps puts more than half the weight on window zero. So every schedule forgets, at rate kappa to the floor of n over N, with kappa below one.",
+     "当 η < (5 − √17)/4 ≈ 0.22 时，每一段 N 步都把超过一半的权重放到窗口 0 上。于是每个切换表都会遗忘，速率为 κ^⌊n/N⌋，且 κ < 1。"
+    ]
+   ]
+  },
+  {
+   "id": "erasure",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The second volume lets eta change at every step too, within a compact set K. If K avoids one half, there are N and q below one such that every word forgets: its distance to its own moving reset is at most ten q to the floor of n over N.",
+     "第二卷让 η 也每一步变化，取值于紧集 K。若 K 不含 1/2，就存在 N 与小于一的 q，使每个字都遗忘：它到自身移动重置的距离至多为 10·q^⌊n/N⌋。"
+    ],
+    [
+     "This is sharp: forgetting is uniform exactly when one half is not in K. The constants come only from compactness; the four-step merge of populations is only classical; and no word ever gets closer to a reset than the product of its etas.",
+     "这是尖锐的：遗忘一致成立，当且仅当 1/2 不在 K 中。常数只来自紧致性；四步人口合流只是经典的；任何字到重置的距离都不小于其各步 η 的乘积。"
+    ]
+   ]
+  },
+  {
+   "id": "witness",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Why one half? If no finite block contracted strictly, compactness would give one actual schedule carrying two orthogonal trajectories with the same moving populations. Their supports are pure and pure, mixed and mixed, or a pure line with a mixed partner.",
+     "为什么是 1/2？若没有任何有限块严格收缩，紧致性就会给出一个实际切换表，承载两条正交轨迹，且移动人口相同。它们的支撑只能是纯与纯、混与混，或一条纯线配一个混伴侣。"
+    ],
+    [
+     "Each case fails. Two pure lines contradict the positive three-step effect. Two mixed planes need a U shape, forcing eta one half, or a V shape, whose trace sets a positive term to zero. A pure line with a partner forces eta one half.",
+     "每种情形都不成立。两条纯线与三步正效应矛盾。两个混平面要么是 U 型，迫使 η = 1/2；要么是 V 型，其迹迫使一个正项为零。纯线加伴侣同样迫使 η = 1/2。"
+    ]
+   ]
+  },
+  {
+   "id": "nearhalf",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Away from one half, periodic schedules have a unique attracting orbit. For periods a and b, the phase-a populations are r squared s, a r s, b r, a r s, a squared s, over one minus a b. Even the pair zero point three, zero point seven forgets.",
+     "离开 1/2，周期切换表有唯一吸引轨道。对周期参数 a 与 b（r = 1 − a，s = 1 − b），相位 a 的人口为 (r²s, ars, br, ars, a²s)/(1 − ab)。即使是 0.3 与 0.7 这一对也会遗忘。"
+    ],
+    [
+     "Near one half, uniformity breaks. The family C eta deforms the canonical channel; at any fixed time, as eta approaches one half, P and M stay almost two apart, so no single rate covers a set whose closure contains one half.",
+     "靠近 1/2 时，一致性失效。族 C_η 是典范通道的形变；在任何固定时刻，当 η 趋于 1/2，P 与 M 的距离都保持接近 2，所以闭包含 1/2 的参数集上没有统一的速率。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Two forgetting channels keep a bit when alternated, finite entanglement survives while the limits break it, no qubit lasts three steps, and away from one half every switching schedule forgets uniformly.",
+     "两个遗忘的通道交替时保住一位；有限时刻的纠缠存活，而极限破坏它；没有量子位能撑过三步；离开 1/2，每个切换表都一致遗忘。"
+    ],
+    [
+     "Choi, Stinespring, Knill–Laflamme and the Dobrushin coefficient are classical tools named in the volumes, the rest is argued in the two theory volumes, and the finite computations were redone for this film.",
+     "Choi、Stinespring、Knill–Laflamme 与 Dobrushin 系数是卷中点名的经典工具，其余内容在两卷理论卷中论证，有限计算为本片重新完成。"
+    ]
+   ]
+  }
+ ]
+}
