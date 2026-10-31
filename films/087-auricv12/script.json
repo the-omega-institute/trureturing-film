@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "This film continues the versioned Auric volumes after version ten. Version twelve asks what finite, noisy readings can certify about the future; version fourteen asks when a probability acts like an existential quantifier, and what quantum records change.",
+     "本片接续 V10 之后的 AURIC 版本系列。第十二版追问：有限而带噪的读数能为未来证明什么；第十四版追问：概率何时像一个存在量词，量子记录又改变了什么。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric versions twelve to fourteen: finite resolution, existential quantifiers and quantum records.",
+     "AURIC V12–V14：有限分辨率、存在量词与量子记录。"
+    ],
+    [
+     "Finite tables, complete instruments, coarse records, and a golden gate that returns after ten steps.",
+     "有限表、完整仪器、粗记录，以及一枚十步后回到原态的黄金门。"
+    ]
+   ]
+  },
+  {
+   "id": "tables",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with finite readings. On a compact model family whose predictions separate parameters, any fit within eta of the best lies within two epsilon plus eta of the truth, and update errors grow at most linearly with word length.",
+     "先看有限读数。在紧致、且预测能区分参数的模型族上，任何与最优拟合相差不超过 η 的拟合，离真值都不超过 2ε + η；更新误差随字长至多线性增长。"
+    ],
+    [
+     "A perfect table can still miss the future. Process A always prints zero; process B prints L zeros, then a one. Every word up to length L agrees, the table has condition number one, and L plus one zeros separate them.",
+     "完美的表仍可能错过未来。过程 A 永远输出 0；过程 B 先输出 L 个 0，再输出一个 1。长度不超过 L 的字全部一致，表的条件数为一，而 L + 1 个 0 把两者分开。"
+    ]
+   ]
+  },
+  {
+   "id": "instr",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "An observation atom must be a complete instrument: outcome, post-state and record together. Two qubit instruments with equal effects and equal average channels can sit at distance one; coherent rejection reads the ring product of three rays.",
+     "观测原子必须是完整仪器：结果、后态与记录一起给出。两个 qubit 仪器效果相同、平均通道也相同，距离却可以是一；相干拒绝则能读出三条射线的环积。"
+    ],
+    [
+     "On the five-mode menu of unitaries, rank-one readouts and feedback, every Lüders flag channel is off by at least three sevenths; with exact effects the sharp value is three quarters, and the optimum in between is open. One ancilla bit realises it exactly.",
+     "在只有酉操作、秩一读出与反馈的五模菜单上，任何 Lüders 旗标通道的误差都至少为 3/7；效果精确时尖锐值为 3/4，二者之间的最优值仍未决。一个辅助比特就能精确实现它。"
+    ]
+   ]
+  },
+  {
+   "id": "budget",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Errors in a complete recursion add: after N adaptive calls, the distance is at most the initial one plus the per-call errors. Stopping with chance epsilon per call reaches one minus the N-th power of one minus epsilon; a coherent rotation grows like sine N theta.",
+     "完整递归中的误差会相加：N 次自适应调用后，距离至多为初始距离加上每次调用的误差。每次以概率 ε 停止，距离达到 1 − (1 − ε)ᴺ；相干旋转的距离按 sin(Nθ) 增长。"
+    ],
+    [
+     "Conditioning amplifies. If complete outputs are within delta, conditional states are within delta over the success probability, so a rare branch can turn a tiny total error into distance one. And closeness is not transitive: steps of epsilon join zero to one.",
+     "条件化会放大误差。若完整输出相差不超过 δ，条件态相差不超过 δ 除以成功概率，所以稀有分支能把极小的总误差变成距离一。近邻关系也不传递：步长 ε 的链把 0 和 1 连起来。"
+    ]
+   ]
+  },
+  {
+   "id": "ruler",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "When the ruler is uncertain too, a finite frame still certifies the instrument: the Choi norm controls the diamond norm within a factor d, and probability errors times dual-basis norms bound the error. A shrinking ruler separates orthogonal states by only epsilon.",
+     "当尺子本身也不准时，有限框架仍能核证仪器：Choi 范数在 d 倍以内控制 diamond 范数，概率误差乘以对偶基范数就给出误差上界。退化的尺子只以 ε 区分两个正交态。"
+    ],
+    [
+     "Finite tests give positivity only with a margin. The transpose is nonnegative on every product vector, yet its Choi matrix has eigenvalue minus one over d. A Choi matrix above minus nu is repaired by mixing in noise, to a channel within m d squared nu.",
+     "有限测试只能给出带余量的正性。转置在每个乘积向量上都非负，但它的 Choi 矩阵有特征值 −1/d。不低于 −ν 的 Choi 矩阵，混入噪声即可修复为通道，距离不超过 md²ν。"
+    ]
+   ]
+  },
+  {
+   "id": "limits",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Each swap of incomparable events costs at most kappa, yet appended records A B and B A are at distance one. Without compactness, levels that each have a source need not share one: take the minimum of x and n.",
+     "每次交换不可比事件至多花费 κ，但追加记录 AB 与 BA 的距离是一。没有紧性时，各层都有来源，却未必有共同来源：取 min(x, n)。"
+    ],
+    [
+     "For m copies of two pure states with overlap c, the best error is one minus the root of one minus c to the two m, over two. On the project's tree pairs the overlap tends to one, so the copies needed grow linearly.",
+     "两个重叠为 c 的纯态各给 m 份，最佳错误率是 (1 − √(1 − c²ᵐ))/2。在项目的树对上，重叠趋于一，所需份数线性增长。"
+    ]
+   ]
+  },
+  {
+   "id": "exists",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Version fourteen starts from a weighted quantifier. A probability is positive exactly when some world in the support satisfies the predicate, and one exactly when all do. Satisfiability becomes positive probability, but an estimate within half of two to the minus m cannot find one witness.",
+     "第十四版从带权量词出发。概率为正，当且仅当支撑中有某个世界满足谓词；概率为一，当且仅当所有世界都满足。可满足性变成正概率，但误差达到 2⁻ᵐ 一半的估计无法认出唯一的见证。"
+    ],
+    [
+     "Circuits add alternatives and multiply along paths in a semiring. Keeping only zero or nonzero is a homomorphism exactly when nonzero elements never sum or multiply to zero. Counts and nonnegative weights pass; complex amplitudes fail, because one plus minus one is zero.",
+     "电路在半环里对替代项相加、沿路径相乘。只记录“零或非零”是同态，当且仅当非零元相加或相乘都不会得零。计数和非负权都满足；复振幅不满足，因为 1 + (−1) = 0。"
+    ]
+   ]
+  },
+  {
+   "id": "saturate",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On the five modes, weights one, a, b, c and d a c fill the open simplex; the odds ratio d is a joint parameter the three single-position weights leave free, and the three-weight model is d equal one.",
+     "在五个模式上，权重 1, a, b, c, dac 填满开单纯形；优势比 d 是一个联合参数，三个单位置权重并不决定它，三权模型正是 d = 1。"
+    ],
+    [
+     "Now coarsen worlds into records. Existence over a fibre gives an upper value, universality a lower one; the probability lies between, and the defect adds along coarsenings. It vanishes exactly on unions of whole fibres, where the image of the complement is the complement of the image.",
+     "现在把世界粗化为记录。纤维上的存在给出上值，全称给出下值；概率夹在中间，缺陷沿粗化相加。缺陷为零恰好对应完整纤维的并，此时补集的像就是像的补集。"
+    ]
+   ]
+  },
+  {
+   "id": "support",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Quantum circuits add amplitudes, not records. Two Hadamards send zero to one along two paths of amplitude one half and minus one half, which cancel; measuring in between gives one half. Nonzero paths do not decide the probability.",
+     "量子电路相加的是振幅，不是记录。两个 Hadamard 门让 0 经两条路径到 1，振幅分别是 1/2 与 −1/2，相互抵消；若在中间测量，概率变成 1/2。非零路径并不决定概率。"
+    ],
+    [
+     "The right existence is geometric. A completely positive map sends the support of a state to the span of its Kraus images; sums join subspaces, composites compose, and a probability is positive exactly when that image is not orthogonal to the effect. Phases survive.",
+     "正确的存在语义是几何的。完全正映射把态的支撑送到各 Kraus 像的张成；映射相加对应子空间的并生成，复合对应复合；概率为正，当且仅当该像与效果不正交。相位也保留下来。"
+    ]
+   ]
+  },
+  {
+   "id": "golden",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the project's golden gate: K is zeta times the identity plus zeta minus one times a projection, with zeta e to the three pi i over five. Its eigenvalues are zeta and zeta squared, so K to the tenth is the identity.",
+     "再看项目的黄金门：K = ζ[I + (ζ − 1)P]，其中 ζ = e^(3πi/5)。它的特征值是 ζ 与 ζ²，所以 K¹⁰ = I。"
+    ],
+    [
+     "From zero zero zero, ten coherent steps give chance zero of reading zero one zero. Recording the basis after every step gives a chain with entries phi to the minus two and minus one, and then the chance is one minus phi to the minus thirty, over two.",
+     "从 000 出发，十步相干作用后读出 010 的概率为零。若每一步后都记录计算基，就得到一条元素为 φ⁻² 与 φ⁻¹ 的链，此时概率是 (1 − φ⁻³⁰)/2。"
+    ]
+   ]
+  },
+  {
+   "id": "gram",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Probabilities add for every choice of amplitudes exactly when the record Gram matrix is the identity. One copy only kills the real parts of the overlaps; two independent copies square them, so the imaginary parts must vanish too: Diósi's condition.",
+     "对任意振幅概率都可加，当且仅当记录的 Gram 矩阵是单位矩阵。单份只消去重叠的实部；两份独立副本把重叠平方，于是虚部也必须为零：这就是 Diósi 条件。"
+    ],
+    [
+     "A positive coherent kernel gives a Hilbert space, unique up to unitary, and a weight that is unitary-invariant, additive on orthogonal vectors and normalised must be the squared norm. Positivity matters: this kernel gives every event a nonnegative value, yet one combination minus two sevenths.",
+     "正相干核给出一个 Hilbert 空间，在酉变换下唯一；一个酉不变、对正交向量可加且归一的权重必为范数平方。正性必不可少：这个核给每个事件非负值，却给某个组合 −2/7。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Finite tables can miss the future, complete instruments keep what effects forget, errors add while rare branches amplify them, probability is a weighted quantifier, coarse records leave an exact defect, and the golden gate returns only when coherent.",
+     "有限表可能错过未来，完整仪器保留效果遗忘的信息，误差会相加、稀有分支会放大误差，概率是带权量词，粗记录留下精确的缺陷，黄金门只在相干时回到原态。"
+    ],
+    [
+     "The saturation equivalence is a frozen Lean theorem, the Diósi condition is a published input and two-state discrimination is classical, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+     "饱和等价是一条冻结的 Lean 定理，Diósi 条件是已发表的输入，二态区分是经典工具，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
