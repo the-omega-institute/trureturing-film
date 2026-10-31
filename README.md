@@ -142,6 +142,8 @@ Release page.
 | 123 | [AURIC TYPED BRIDGES I · THE HIDDEN SEAM AND THE BRIDGE LEDGER](films/123-typedbridges1/) · AURIC 类型化桥 第一部：隐藏缝与桥接账本 | 7:29 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 206 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-123-v1/TRURETURING_123_narrated_EN_subs_ZH-EN.mp4) |
 | 124 | [AURIC TYPED BRIDGES II · QUANTUM NETWORKS, HIDDEN MEMORY AND THE RH INTERFACE](films/124-typedbridges2/) · AURIC 类型化桥 第二部：量子网络、隐藏记忆与 RH 接口 | 7:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 203 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-124-v1/TRURETURING_124_narrated_EN_subs_ZH-EN.mp4) |
 | 125 | [AURIC CIRCULATION CONTROL I · ONE LOOP, A KL ACTION AND THE FOUR-CORNER SWAP](films/125-circulation1/) · AURIC 环流控制 第一部：一个环、KL 作用量与四角交换 | 7:28 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 206 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-125-v1/TRURETURING_125_narrated_EN_subs_ZH-EN.mp4) |
+| 126 | [AURIC CIRCULATION CONTROL II · INDEX CARRIERS, ODD RINGS AND SHARED ROOTS](films/126-circulation2/) · AURIC 环流控制 第二部：指标载体、奇环与共享根 | 7:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 205 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-126-v1/TRURETURING_126_narrated_EN_subs_ZH-EN.mp4) |
+| 127 | [AURIC CIRCULATION CONTROL III · THE MISSING COORDINATE, ONE SHARED EDGE AND THE FINAL MODULE](films/127-circulation3/) · AURIC 环流控制 第三部：缺失坐标、一条共享边与末端模 | 7:12 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 194 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-127-v1/TRURETURING_127_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
