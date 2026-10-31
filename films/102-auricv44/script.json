@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Versions forty-one and forty-two fixed normalisation, observer origins and three quantum axes. Version forty-four rebuilds interiors from boundaries and binary blocks; version forty-six asks why probabilities are squares, and how errors move.",
+     "第四十一、四十二版确定了归一化、观察原点和三条量子轴。第四十四版从边界和二元块重建内部；第四十六版追问概率为什么是平方，以及误差怎样移动。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric versions forty-four and forty-six: boundary atlases, squared probabilities and error geometry.",
+     "AURIC V44–V46：边界图册、平方概率与误差几何。"
+    ],
+    [
+     "A ball filled from its sphere, blocks that must agree, a square chosen by refinement, and errors that unitaries keep.",
+     "由球面填满的球体，必须相容的二元块，由细化选出的平方，以及酉演化保持的误差。"
+    ]
+   ]
+  },
+  {
+   "id": "fill",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Inverse stereographic projection lifts real coordinates onto a sphere in every dimension; any continuous positive radius on it fills a unique star body, homeomorphic to a ball, moving at most epsilon when the radius does.",
+     "逆立体投影在任意维数把实坐标提升到球面上；球面上任意连续正半径函数唯一地填出一个星形体，它与球同胚，半径变动 ε 时它的变动至多为 ε。"
+    ],
+    [
+     "For d levels the state body has dimension d squared minus one; its boundary is every rank-deficient state, reached from the centre at t equal one minus d lambda min. Pure states fill it only when d is two.",
+     "d 能级的态体维数是 d² − 1，它的边界恰是全部降秩态，从中心出发在 t = 1 − d·λ_min 处到达。纯态填满它，只在 d = 2 时成立。"
+    ]
+   ]
+  },
+  {
+   "id": "poisson",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Inside, use the Poisson kernel. Averaging a continuous field of boundary states gives the unique extension that is harmonic entry by entry, positive with unit trace, and never enlarges a uniform boundary error.",
+     "内部用 Poisson 核。对连续的边界态场求平均，得到唯一的延拓：逐矩阵元调和、正、迹为一，而且从不放大边界上的一致误差。"
+    ],
+    [
+     "Pure qubit boundary states fill the Bloch ball exactly: rho is one half of identity plus x dot sigma. The interior kernel is the boundary's common kernel, and radial steps compose: P r times P s is P r s.",
+     "纯量子比特边界态恰好填满 Bloch 球：ρ = (I + x·σ)/2。内部的核等于整个边界的公共核，径向步骤可以复合：P_r P_s = P_rs。"
+    ]
+   ]
+  },
+  {
+   "id": "inward",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Version twenty-four splits an operator into boundary and interior. Eliminating the interior leaves an effective boundary equation, and the interior norm becomes a boundary metric G, the identity minus K effective prime, never below the identity.",
+     "第二十四版把算符分成边界与内部。消去内部后得到有效边界方程，内部的范数变成边界度量 G = I − K_eff′，它从不低于单位算符。"
+    ],
+    [
+     "In several variables, iterated Cauchy integrals over the torus rebuild a function inward without enlarging errors. Outward fails: z over b to the N is at most a over b to the N inside radius a, yet equals one at b.",
+     "多复变量时，在环面上迭代 Cauchy 积分，可以向内重建函数而不放大误差。向外则失败：(z/b)ᴺ 在半径 a 以内至多为 (a/b)ᴺ，在 b 处却等于一。"
+    ]
+   ]
+  },
+  {
+   "id": "atlas",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For pure states, divide by one reference amplitude: the d minus one complex ratios, each a point on its own Bloch sphere, fix the state. Ratios on a graph come from one state exactly when every cycle multiplies to one.",
+     "对纯态，除以一个参考振幅：所得的 d − 1 个复比值，每个都是各自 Bloch 球上的一点，合起来确定这个态。图上给定的比值来自同一个态，当且仅当每个闭环的乘积都等于一。"
+    ],
+    [
+     "Mixed states unfold into all two-by-two principal blocks. Their sum minus d minus two copies of the diagonal rebuilds rho, the block masses add up to d minus one, and squared block errors bound the global error both ways.",
+     "混态展开为全部二阶主块。它们的和减去 d − 2 份对角部分即重建 ρ，各块质量之和为 d − 1，块误差平方和从两个方向控制整体误差。"
+    ]
+   ]
+  },
+  {
+   "id": "glue",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Local legality is not enough. One third of the matrix with ones on the diagonal and minus ones elsewhere has unit trace and positive two-by-two blocks, yet eigenvalue minus one third along all-ones, and its ratio cycle gives minus one.",
+     "局部合法并不够。对角为一、其余为 −1 的矩阵乘以 1/3，迹为一，每个二阶块都非负，但沿全一方向的本征值是 −1/3，它的比值闭环乘积为 −1。"
+    ],
+    [
+     "The global test is a singular Schur recursion: each new column must lie in the old block's range, with nonnegative remainder. For operator axes, a Bell state gives X squared plus Y squared plus Z squared three quarters, against S squared one quarter.",
+     "整体检验是奇异 Schur 递归：每一新列必须落在旧块的值域里，并且余项非负。对算子轴，Bell 态给出 X² + Y² + Z² = 3/4·I，而 S² = 1/4·I。"
+    ]
+   ]
+  },
+  {
+   "id": "code",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Coherent pair labels give an exact isometry. Decohere the labels and the output still determines rho, yet for d above two no quantum channel inverts it: two orthogonal inputs end at trace distance two over d minus one.",
+     "相干的成对标签给出精确的等距编码。把标签去相干后，输出仍然确定 ρ，但 d > 2 时没有量子通道能把它逆回来：两个正交输入的输出迹距离只有 2/(d − 1)。"
+    ],
+    [
+     "Nor can one point in three dimensions carry more: a two-sided Lipschitz map from k dimensions into three forces k at most three, while mixed states need d squared minus one. Each recursion step keeps its own margin.",
+     "三维中的一个点也承载不了更多：从 k 维到三维的双向 Lipschitz 映射迫使 k ≤ 3，而混态需要 d² − 1 个。每一步递归都要保留自己的稳定裕量。"
+    ]
+   ]
+  },
+  {
+   "id": "square",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Version forty-six turns to squares. Normalising alone cannot choose them: every power p divides out to a probability. Logarithms turn products into sums, so weights composing by multiplication are powers, r to the p.",
+     "第四十六版转向平方。仅靠归一化选不出平方：任何幂 p 除以总和后都是概率。对数把乘积变成和，所以按乘法复合的权重必定是幂 rᵖ。"
+    ],
+    [
+     "Split a branch into two orthogonal records and require an untouched outcome to keep its probability: the weight must be c r squared, no continuity assumed. In a three-branch example, that probability stays one half only at p equal two.",
+     "把一个分支细分成两个正交记录，并要求未被触动的结果保持概率不变：权重就必须是 c·r²，无需假设连续性。在一个三分支例子里，该概率只在 p = 2 时保持 1/2。"
+    ]
+   ]
+  },
+  {
+   "id": "native",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The native carrier has eighty-nine legal paths: nine positions, no two neighbours. In its full class of conserved continuous densities, the retained-read relation R holds exactly for the Born rule.",
+     "原生载体有 89 条合法路径：九个位置，任两个不相邻。在其完整的守恒连续密度类中，保留读关系 R 恰好对 Born 规则 |z_q|²/‖z‖² 成立。"
+    ],
+    [
+     "Both conditions carry weight: R alone allows every power p, but only p equal two conserves components. For two older non-Born families, two readout marginals agree exactly, yet the joint law differs by total variation sixteen epsilon H.",
+     "两组条件各自承重：仅有 R 时任何幂 p 都允许，但只有 p = 2 保持分量守恒。对两个较早的非 Born 族，两个读出边缘完全一致，联合律的总变差却相差 16εH。"
+    ]
+   ]
+  },
+  {
+   "id": "logbloch",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Write a qubit's amplitude ratio as e to the u plus i theta. Its Bloch vector is sech u cos theta, sech u sin theta, minus tanh u, and the log odds is exactly two u.",
+     "把量子比特的振幅比写成 e^(u + iθ)。它的 Bloch 向量是 (sech u·cos θ, sech u·sin θ, −tanh u)，对数赔率恰为 2u。"
+    ],
+    [
+     "Recursion passes the square along a tree: each log probability is twice the sum of the log edge moduli, so depth never turns two into two to the n. Identical records add amplitudes before squaring; orthogonal records add probabilities.",
+     "递归沿树传递平方：每个对数概率等于各边模长对数之和的两倍，所以深度不会把二变成 2ⁿ。相同的记录在平方前叠加振幅；正交的记录叠加概率。"
+    ]
+   ]
+  },
+  {
+   "id": "residual",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Errors start as residuals. Pairs with equal readings but different targets shrink only when a new reading cuts them; post-processing an old reading never does. A unitary can keep both the projection and its remainder as internal records.",
+     "误差先表现为残差。读数相同而目标不同的配对，只有新的读数才能切开；对旧读数做后处理永远做不到。一个酉算子可以把投影和余量都保留为内部记录。"
+    ],
+    [
+     "Nested explanation spaces give a square series: each step lowers the squared residual by exactly the squared increment, and the pieces add up to the total norm. Conditional expectations obey the same law for mean squared error.",
+     "嵌套的解释空间给出平方级数：每一步残差平方的下降量恰等于新增量的平方，各部分加起来就是总范数。条件期望对均方误差满足同一定律。"
+    ]
+   ]
+  },
+  {
+   "id": "drift",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A common unitary keeps an error's size exactly; faulty gates add at most their operator distances. Conditioning differs: two branches of mass eta differ by two eta before normalising, and by two after, however small eta is.",
+     "共同的酉演化精确保持误差大小，有偏差的门至多叠加各自的算子距离。条件化则不同：两个质量为 η 的分支，归一化前相差 2η，归一化后相差 2，无论 η 多小。"
+    ],
+    [
+     "A shrinking error can be a clock, minus log of e n over e zero, but time does not need one. Geodesics need not descend: from zero, the shortest path raises the loss sine squared s. The golden gate's tenth power is the identity, so no potential falls at every gate.",
+     "收缩的误差可以充当时钟 −log(e_n/e₀)，但时间并不需要它。测地线未必下降：从零出发的最短路径使损失 sin²s 增加。黄金门的十次方是恒等，所以没有势函数能在每一枚门上都严格下降。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "A sphere fills a body, boundaries fix interiors inward but not outward, blocks must agree around cycles, refinement chooses the square, and only new records reduce what unitaries preserve.",
+     "球面填满球体，边界向内而非向外确定内部，二元块必须沿闭环相容，细化选出平方，而酉演化保持的误差只有新记录才能减少。"
+    ],
+    [
+     "Poisson and Cauchy integrals are classical, the native Born selection comes from the project's third continuation volume, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+     "Poisson 与 Cauchy 积分是经典工具，原生的 Born 选择来自项目的续卷 III，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
