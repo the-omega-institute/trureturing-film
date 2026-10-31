@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Five modes of one Auric atom, and one question: when predictions stay compatible as they are continued, is their spectrum a wave? This film keeps the whole kernel of cross relations, follows the single loop phase, and asks which futures stay distinguishable.",
+     "一个 AURIC 原子的五个模式，一个问题：预测在接续中保持相容时，它们的谱是不是波？本片保留交叉关系的整个核，跟随唯一的环相位，并追问哪些未来仍可区分。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric predictive waves, part one: positive kernels, loop phases and locked futures.",
+     "AURIC 相容预测波第一部：正核、环相位与锁定的未来。"
+    ],
+    [
+     "Keep every cross relation and recursion becomes a wave of phases.",
+     "保留每一个交叉关系，递归就成为相位之波。"
+    ]
+   ]
+  },
+  {
+   "id": "spectrum",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A spectrum alone is not a wave: two Hamiltonians with eigenvalues plus and minus one give return probabilities one and cosine squared t. Signals can share a power spectrum and differ, though a full nonzero bispectrum fixes one up to a shift.",
+     "谱本身不是波：两个特征值都是 ±1 的 Hamilton 量，给出的返回概率分别是 1 和 cos²t。信号可以有相同的功率谱而彼此不同；不过完整且处处非零的双谱能把信号确定到一个平移。"
+    ],
+    [
+     "Compatible predictions need one positive kernel: overlaps of minus three quarters pass every pair, yet the three together have eigenvalue minus one half. A quarter-phase reference, copied m times, exposes any negative margin alpha with m of order log of k M over alpha.",
+     "相容的预测需要一个共同的正核：两两重叠为 −3/4 时每一对都通过，三个合在一起却有特征值 −1/2。一个四分之一相位参考复制 m 份，就能暴露任何负裕量 α，所需 m 为 log(kM/α) 量级。"
+    ]
+   ]
+  },
+  {
+   "id": "phases",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Why complex numbers? In a real plane of amplitudes, rotation invariance and additivity on orthogonal parts force the weight to be squared length; if chaining is bilinear with a unit and weights multiply, the second axis squares to minus one, giving the complex numbers.",
+     "为什么是复数？在一个实二维振幅平面上，旋转不变与正交部分可加迫使权重等于长度的平方；若串联是带单位元的双线性运算且权重相乘，第二根轴的平方必为 −1，于是平面就是复数。"
+    ],
+    [
+     "If a continuation conserves every cross relation, it is an isometry, unitary in finite dimension, and amplitudes become sums of phases. Conserving each norm is not enough: two orthogonal vectors sent to one vector keep their norms, yet their difference collapses to zero.",
+     "若接续保持每一个交叉关系，它就是一个等距，在有限维中是酉的，振幅成为相位之和。只保持每个范数不够：把两个正交向量送到同一个向量，范数都保住了，它们的差却塌缩为零。"
+    ]
+   ]
+  },
+  {
+   "id": "atom",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On the atom, single flips couple the five legal modes in a four-cycle with one leaf. The characteristic polynomial is lambda times lambda to the fourth minus five lambda squared plus two: frequencies zero, plus or minus omega plus and omega minus.",
+     "在原子上，单位置翻转把五个合法模式连成一个四环加一片叶。特征多项式是 λ(λ⁴ − 5λ² + 2)：频率为 0、±ω₊ 和 ±ω₋。"
+    ],
+    [
+     "From the empty mode the dark mode stays silent and four frequencies carry weight, so the cyclic space is four-dimensional. Their ratio is irrational: the state never returns exactly, yet returns arbitrarily closely, a quasi-periodic wave that never settles.",
+     "从空模式出发，暗模保持沉默，四个频率带有权重，所以循环空间是四维的。频率之比是无理数：态永远不会精确返回，却能任意接近地返回，这是一个永不停歇的准周期波。"
+    ]
+   ]
+  },
+  {
+   "id": "loop",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Allow complex edges. Gauge freedom removes every phase except one per independent loop, and this graph has one, phi, between the two paths from zero to thirteen. The transfer probability carries the factor two plus two cosine phi over nine plus eight cosine phi.",
+     "允许复的边耦合。规范自由消去除每个独立环一个相位以外的全部相位，这张图恰有一个，φ，即从 0 到 13 的两条路径之间的相位。转移概率带有因子 (2 + 2cosφ)/(9 + 8cosφ)。"
+    ],
+    [
+     "At phi equal to pi the two paths cancel, and zero never reaches thirteen at any time. Basis preparations, waits and readouts cannot tell phi from minus phi, but the superposition of thirteen and three starts with slope sine phi.",
+     "φ = π 时两条路径相消，0 在任何时刻都到不了 13。基态制备、等待与读出分辨不了 φ 与 −φ；但 13 与 3 的叠加态起始斜率为 sinφ。"
+    ]
+   ]
+  },
+  {
+   "id": "records",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For two equal paths with pure records overlapping by kappa, visibility is the modulus of kappa and distinguishability is root one minus kappa squared, so their squares sum to one; probabilities add at every phase exactly for orthogonal records.",
+     "两条等幅路径的纯记录重叠为 κ 时，可见度是 |κ|，可区分度是 √(1 − |κ|²)，两者平方和为一；只有记录正交时，概率才在每个相位上都相加。"
+    ],
+    [
+     "A fresh record each step multiplies every coherence by its overlap. Without a zero overlap, coherence vanishes exactly when the minus log overlaps sum to infinity: with overlaps e to the minus two to the minus k, every record differs, yet one over e survives.",
+     "每步写入一份新记录，每个相干项都乘上该记录的重叠。若没有零重叠，相干消失当且仅当 −log 重叠之和发散：重叠取 e^(−2^(−k)) 时，每份记录都不同，却仍有 1/e 的相干留存。"
+    ]
+   ]
+  },
+  {
+   "id": "square",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three stable readouts constrain two hidden endpoints: given full complex projections u and v, the endpoint overlap can be any point of one closed disk, centred at u dagger v with radius root of one minus u squared times one minus v squared.",
+     "三个稳定读出约束两个隐藏端点：给定完整的复投影 u 和 v，端点重叠可以是一个闭圆盘中的任意一点，圆心为 u†v，半径为 √((1 − ‖u‖²)(1 − ‖v‖²))。"
+    ],
+    [
+     "On the square each triangle leaves a disk for the diagonal, and completion exists exactly when the two disks meet; with four overlaps of size r and loop phase Phi, r squared times sine of Phi over two is at most one minus r squared.",
+     "在方环上，每个三角形给对角线留下一个圆盘，补全存在当且仅当两个圆盘相交；四条重叠模长都为 r、环相位为 Φ 时，r²|sin(Φ/2)| ≤ 1 − r²。"
+    ]
+   ]
+  },
+  {
+   "id": "lock",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On the project's actual five-dimensional instrument, two channels can sit at the largest distance, two, while after the erasing step their futures coincide. Three effects, holding on every unknown input, lock that successor exactly, for every complex input and finite reference.",
+     "在项目实际的五维仪器上，两个通道可以相距最大距离二，而经过擦除这一步后，它们的未来完全重合。三个在每个未知输入上成立的效果条件，精确锁定这个后继，对每个复输入和每个有限参考都成立。"
+    ],
+    [
+     "With effect error delta, the successor moves by at most the minimum of two and one hundred eighty-five root delta. Future effect spaces close within d squared minus r steps, and an observer's predictive identity is its class of realizable futures.",
+     "效果误差为 δ 时，后继的移动至多为 min{2, 185√δ}。未来效果空间在 d² − r 步内闭合；观察者的预测身份，就是它可实现未来的等价类。"
+    ]
+   ]
+  },
+  {
+   "id": "fiber",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Flip the sign of one phase: two worlds agree on every original effect at every depth, with error t squared, yet their successors differ by four t root one minus t squared. The best common reconstruction has risk half that; at t three fifths, twenty-four twenty-fifths.",
+     "翻转一个相位的符号：两个世界在每个深度的每个原效果上都一致，误差为 t²，它们的后继却相差 4t√(1 − t²)。最佳共同重建的风险是其一半；t = 3/5 时为 24/25。"
+    ],
+    [
+     "The full fiber reduces to three by three density matrices. At d of five over sixty-one the pure successors have one exact centre at radius sixty over sixty-one, yet a mixed world reaches beyond it, so the full radius is larger; the exact centre is open.",
+     "完整纤维约化为一组三阶密度矩阵。在 d = 5/61，纯后继有唯一的精确中心，半径为 60/61；但一个混合世界越过了它，所以完整半径更大；精确中心仍未确定。"
+    ]
+   ]
+  },
+  {
+   "id": "words",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The second volume keeps the branch labels. Repeating the instrument at a known angle theta, every history of length n has probability two to the minus n, and its yes event is a fixed qutrit effect: time words become linear data.",
+     "第二卷保留分支标签。以已知角度 θ 重复同一仪器，每条长度为 n 的历史总概率为 2^(−n)，其“是”事件是一个固定的 qutrit 效果：时间词变成线性数据。"
+    ],
+    [
+     "Eight words of length at most three, with the identity, span all nine Hermitian dimensions exactly when sine two theta is nonzero; their determinant is three to the eighth over two to the twenty-one, times sine to the seventh of two theta.",
+     "八个长度至多为三的词，连同恒等，张成全部九个 Hermite 维度，当且仅当 sin2θ ≠ 0；其行列式为 3^8/2^21 · sin^7(2θ)。"
+    ]
+   ]
+  },
+  {
+   "id": "residue",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Whenever sine two theta is nonzero, exact yes-responses of these words determine the successor: invert their nine by nine Gram matrix and the state, with the whole complex successor channel, is recovered for every compatible channel.",
+     "只要 sin2θ ≠ 0，这些词的精确“是”响应就决定后继：求它们九阶 Gram 矩阵的逆，就能对每个相容通道恢复状态，连同整个复后继通道。"
+    ],
+    [
+     "At multiples of pi over two the labels add exactly one number, the weight on vector a. The sign-flipped worlds still agree at distance four root of d times one minus d, and at fixed weight a five-dimensional open family shares all the data.",
+     "在 π/2 的整数倍处，标签只多给出一个数，即向量 a 上的权重。符号翻转的两个世界依然一致，相距 4√(d(1 − d))；固定这个权重后，一个五维开族共享全部数据。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Spectra need relations, positivity needs the joint kernel, conserved relations make phases, one loop phase darkens a mode, records decide interference, readouts leave disks, three effects lock a future, a sign flip leaves a gap, and labelled words pin the successor.",
+     "谱需要关系，正性需要联合核，守恒的关系造出相位，一个环相位让一个模式变暗，记录决定干涉，读出留下圆盘，三个效果锁定一个未来，一次符号翻转留下一个缺口，带标签的词钉住后继。"
+    ],
+    [
+     "The general closure of future effect spaces is a frozen Lean theorem, Kraus forms and channel norms are classical tools, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+     "未来效果空间的一般闭合是一条冻结的 Lean 定理，Kraus 形式与通道范数是经典工具，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
