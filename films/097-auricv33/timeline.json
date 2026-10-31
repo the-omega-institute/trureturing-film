@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 24.711
+  },
+  {
+   "id": "title",
+   "start": 24.711,
+   "end": 40.02
+  },
+  {
+   "id": "calib",
+   "start": 40.02,
+   "end": 74.858
+  },
+  {
+   "id": "clock",
+   "start": 74.858,
+   "end": 105.916
+  },
+  {
+   "id": "weak",
+   "start": 105.916,
+   "end": 142.679
+  },
+  {
+   "id": "cert",
+   "start": 142.679,
+   "end": 177.687
+  },
+  {
+   "id": "table",
+   "start": 177.687,
+   "end": 217.046
+  },
+  {
+   "id": "nest",
+   "start": 217.046,
+   "end": 253.662
+  },
+  {
+   "id": "window",
+   "start": 253.662,
+   "end": 288.523
+  },
+  {
+   "id": "limits",
+   "start": 288.523,
+   "end": 325.282
+  },
+  {
+   "id": "risk",
+   "start": 325.282,
+   "end": 365.476
+  },
+  {
+   "id": "clocks",
+   "start": 365.476,
+   "end": 401.452
+  },
+  {
+   "id": "finale",
+   "start": 401.452,
+   "end": 444.187
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 23.711,
+   "en": "Version thirty-two showed that no finite memory predicts a positive-support golden readout on every history. Versions thirty-three and thirty-four turn information gain into an internal clock and construct finite observers that stay reliable with high probability, even from an unknown start.",
+   "zh": "第三十二版证明，对正支持的黄金读口，没有任何有限记忆能在每一条历史上做出预测。第三十三、三十四版把信息增益变成一只内部的钟，并构造出以高概率保持可靠的有限观察者，即使初值未知也成立。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 25.911,
+   "end": 31.752,
+   "en": "Auric versions thirty-three and thirty-four: information clocks and robust finite observers.",
+   "zh": "AURIC V33–V34：信息钟与稳健有限观察者。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 32.352,
+   "end": 38.62,
+   "en": "An overlap clock, stopping certificates, a golden nesting, and finite tables for the whole future.",
+   "zh": "一只重叠钟，会停下的证书，一个黄金嵌套，以及覆盖整个未来的有限表。"
+  },
+  {
+   "i": 3,
+   "scene": "calib",
+   "start": 40.82,
+   "end": 56.799,
+   "en": "First, a project stability bound. With kappa naught equal to x over two, a continuous response on rays differs at two rays by at most phi times its four-point residual, plus twice its sup norm over kappa naught, times their distance.",
+   "zh": "先看项目的一个稳定界。取 κ₀ = x/2，射线上的连续响应在两条射线处的差，至多为 φ 乘以它的四点残差，再加上 2‖f‖∞/κ₀ 乘以两射线的距离。"
+  },
+  {
+   "i": 4,
+   "scene": "calib",
+   "start": 57.399,
+   "end": 73.458,
+   "en": "Single-round odds do not decide what comes next. A golden instrument and a measure-and-prepare instrument share the effects x E and x squared E plus P, yet the golden record polarizes, while the other flips between zero and one forever.",
+   "zh": "单轮概率并不决定之后发生什么。黄金仪器与一个测量后制备仪器共享效果 xE 与 x²E + P，但黄金记录会极化，另一个却永远在零和一之间来回跳动。"
+  },
+  {
+   "i": 5,
+   "scene": "clock",
+   "start": 75.658,
+   "end": 93.259,
+   "en": "A readout that leaves both sectors intact has overlap r, the sum of root a b. Its expected square-root impurity shrinks by exactly r each round, so polarization is almost sure exactly when the clock, minus log of the overlap product, runs to infinity.",
+   "zh": "保持两个扇区不变的读口有重叠 r，即 √(ab) 之和。它的平方根杂质期望每轮恰好乘以 r，所以几乎必然极化，当且仅当这只钟，即重叠乘积的 −log，趋于无穷。"
+  },
+  {
+   "i": 6,
+   "scene": "clock",
+   "start": 93.859,
+   "end": 104.516,
+   "en": "For the golden readout the overlap is x, so the clock ticks exactly log phi per round. Coherence shrinks by at most r, yet can vanish with no information gained.",
+   "zh": "黄金读口的重叠是 x，所以这只钟每轮恰好走 log φ。相干每轮至多乘以 r，但它可以消失而不带来任何信息。"
+  },
+  {
+   "i": 7,
+   "scene": "weak",
+   "start": 106.716,
+   "end": 124.537,
+   "en": "Weak readouts can stall. If the sectors give outcome zero with chances one minus g over two and one plus g over two, polarization is almost sure exactly when the sum of g squared diverges: g like one over n stalls, one over root n does not.",
+   "zh": "弱读口可能停滞。若两个扇区给出结果零的概率分别为 (1 − g)/2 与 (1 + g)/2，则几乎必然极化当且仅当 Σg² 发散：g 像 1/n 时停滞，像 1/√n 时则不会。"
+  },
+  {
+   "i": 8,
+   "scene": "weak",
+   "start": 125.137,
+   "end": 141.279,
+   "en": "Real instruments drift. If the drift is summable with total D star, the accumulated information diverges, and the instrument error is small relative to it, polarization still holds, and the chance of branch one stays within D star of q naught.",
+   "zh": "真实仪器会漂移。若漂移可求和、总量为 D*，累计信息发散，且仪器误差相对于它趋于零，极化依然成立，选中分支一的概率与 q₀ 相差不超过 D*。"
+  },
+  {
+   "i": 9,
+   "scene": "cert",
+   "start": 143.479,
+   "end": 160.809,
+   "en": "When may a checker declare a branch? At the first round where the certified posterior plus a computable drift tail drops to alpha. The branch is then wrong with chance at most alpha, and an opposite certificate later appears with chance at most alpha over one minus alpha.",
+   "zh": "检查器何时可以宣布一个分支？在认证后验加上可计算的漂移尾降到 α 的最早那一轮。此时该分支出错的概率至多为 α，以后出现相反证书的概率至多为 α/(1 − α)。"
+  },
+  {
+   "i": 10,
+   "scene": "cert",
+   "start": 161.409,
+   "end": 176.287,
+   "en": "Zero error is impossible when every history keeps weight in both sectors, but any alpha below one half works. The golden readout bounds the wait outright: from q naught one half with alpha one percent, five rounds always suffice.",
+   "zh": "当每条历史在两个扇区都保有权重时，零错误不可能，但任何小于二分之一的 α 都可以。黄金读口给出确定的等待上界：从 q₀ = 1/2 出发，α 取百分之一，五轮总是足够。"
+  },
+  {
+   "i": 11,
+   "scene": "table",
+   "start": 178.487,
+   "end": 197.887,
+   "en": "For the positive-support readout, a finite table keeps every future prediction within epsilon with chance at least one minus delta: count rounds and zeros to depth N, then freeze. With s one tenth, q naught one half, and five percent each, twenty-six levels and three hundred fifty-three states suffice.",
+   "zh": "对正支持读口，一张有限表能以至少 1 − δ 的概率让所有未来预测都落在 ε 之内：计数轮数与零的个数直到深度 N，然后冻结。取 s = 1/10、q₀ = 1/2，ε 与 δ 都取 5%，二十六层、三百五十三个状态就够了。"
+  },
+  {
+   "i": 12,
+   "scene": "table",
+   "start": 198.487,
+   "end": 215.646,
+   "en": "No contradiction with version thirty-two: it demands accuracy on every history, while here bad paths of mass delta are allowed. Any fixed-depth freeze needs N at least log of C naught squared over delta, over two log one over r, here four point four six.",
+   "zh": "这与第三十二版并不矛盾：那里要求在每条历史上都准确，这里允许总质量为 δ 的坏路径。任何固定深度的冻结都需要 N ≥ log(C₀²/δ)/(2 log(1/r))，这里是 4.46。"
+  },
+  {
+   "i": 13,
+   "scene": "nest",
+   "start": 217.846,
+   "end": 234.535,
+   "en": "Version thirty-four starts from a gap: the project's family g lambda, t plus lambda h, matches every anchor, pure successor and current supply contract, yet two members differ on an allowed event by gamma of x to the fourth times the gap between lambda and mu.",
+   "zh": "第三十四版从一个缺口出发：项目给出的族 g_λ = t + λh 吻合每个锚点、每个纯后继和每份现有供应合同，但两个成员在一个允许事件上相差 Γ(x⁴) 乘以 |λ − μ|。"
+  },
+  {
+   "i": 14,
+   "scene": "nest",
+   "start": 235.135,
+   "end": 252.262,
+   "en": "An added relation, golden nesting, g of x t equals g of x times g of t, closes it. With complementarity it forces g to be the identity, with no continuity assumed: the distance is at most phi cubed times the sum of the two defects.",
+   "zh": "再加一个关系，即黄金嵌套 g(xt) = g(x)g(t)，就能关闭缺口。与互补关系一起，它迫使 g 成为恒等函数，且无需连续性：到恒等的距离至多为 φ³ 乘以两缺陷之和。"
+  },
+  {
+   "i": 15,
+   "scene": "window",
+   "start": 254.462,
+   "end": 272.123,
+   "en": "Now an actual instrument within e n of the reference, failures and kept carrier included. Its drift is at most e n, window errors simply add, and counting zeros over L rounds misreads either sector with chance at most root two times r to the L.",
+   "zh": "现在考虑一个与参考读口相差至多 eₙ 的实际仪器，失败结果和保留的载体都计入。它的漂移至多为 eₙ，窗口内的误差直接相加；数 L 轮中零的个数，误判任一扇区的概率至多为 √2·r^L。"
+  },
+  {
+   "i": 16,
+   "scene": "window",
+   "start": 272.723,
+   "end": 287.123,
+   "en": "So wait m rounds, read L, and choose, never knowing the initial weight: the chance of ever straying by b is at most root two r to the L plus the error tail, over b. A computable tail makes it a finite program.",
+   "zh": "所以先等 m 轮，再读 L 轮，然后选择，始终不必知道初始权重：此后任一时刻偏离超过 b 的概率至多为 (√2·r^L + 误差尾)/b。可计算的尾界让它成为一个有限程序。"
+  },
+  {
+   "i": 17,
+   "scene": "limits",
+   "start": 289.323,
+   "end": 306.288,
+   "en": "Two conditions stay. Summable errors need not have a computable tail: paying two to the minus k minus two when machine k halts, a tail bound would decide halting. And vanishing errors do not freeze: swaps with chance one over n plus two recur forever.",
+   "zh": "有两个条件不能省。可求和的误差未必有可计算的尾：若在第 k 台机器停机时支付 2^(−k−2)，尾界就能判定停机问题。误差趋于零也不能冻结：以 1/(n + 2) 概率发生的交换会无穷次重现。"
+  },
+  {
+   "i": 18,
+   "scene": "limits",
+   "start": 306.888,
+   "end": 323.882,
+   "en": "Starting at time zero is different. If only an interval for q naught is known, no deterministic predictor beats g star times half its width at time zero. An exact prior interval keeps its logit width, so its width never exceeds tanh of D over four.",
+   "zh": "从零时刻开始是另一回事。若对 q₀ 只知道一个区间，任何确定性预测器在零时刻都做不到优于 g* 乘以区间半宽。精确的先验区间保持其 logit 宽度，所以它的宽度永远不超过 tanh(D/4)。"
+  },
+  {
+   "i": 19,
+   "scene": "risk",
+   "start": 326.082,
+   "end": 343.587,
+   "en": "The clock controls overlap, not the best decision. With prior overlap C, the Bayes error lies between one minus root of one minus four C squared, over two, and C itself, the classical affinity bounds, and at equal priors both ends are reached for every overlap.",
+   "zh": "钟控制重叠，不控制最优判决。带先验的重叠为 C 时，Bayes 错误率介于 (1−√(1−4C²))/2 与 C 之间，即经典亲和界；等先验时，两端对每个重叠值都可达到。"
+  },
+  {
+   "i": 20,
+   "scene": "risk",
+   "start": 344.187,
+   "end": 364.076,
+   "en": "The Lean kernel has frozen a related refutation: for a full-rank three by three pair, the ordered fidelity measurement's first ROC point is not optimal, as a projection along thirty-seven, two, minus three keeps one tenth false positives and gains eleven over thirteen thousand eight hundred twenty.",
+   "zh": "Lean 内核冻结了一个相关的反驳：对一对三阶满秩态，按序保真度测量的第一个 ROC 点并非最优，沿 (37, 2, −3) 的投影保持 1/10 的假阳性率，真阳性率提高 11/13820。"
+  },
+  {
+   "i": 21,
+   "scene": "clocks",
+   "start": 366.276,
+   "end": 384.151,
+   "en": "Small answers do not refund costs. In the typed cocycle family a two-valued static record suffices, yet faithful tracking has width N; at the actual-cut entry the answer needs two values, yet every correct run submits a word longer than n over two.",
+   "zh": "小答案不会退还成本。在 typed cocycle 族里，二值静态记录就已充分，但忠实跟踪的宽度为 N；在 actual-cut 入口，答案只需两个值，但每次正确执行都要提交长度超过 n/2 的字。"
+  },
+  {
+   "i": 22,
+   "scene": "clocks",
+   "start": 384.751,
+   "end": 400.052,
+   "en": "Clocks are separate contracts. The golden information clock reads n log phi, an execution clock adds native word lengths, and with fixed length L per round their ratio is log phi over L. Neither is yet physical proper time.",
+   "zh": "各种钟是彼此分开的合同。黄金信息钟读作 n log φ，执行钟累加原生字长；每轮字长固定为 L 时，两者之比为 log φ / L。两者都还不是物理固有时。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 402.452,
+   "end": 417.016,
+   "en": "Odds without successors, a log phi clock, a square-sum test, stopping certificates, a finite table, golden nesting, start-blind windows, two conditions, overlap versus decision, and costs that small answers keep.",
+   "zh": "没有后继的概率，log φ 的钟，平方和判据，会停下的证书，有限表，黄金嵌套，无视初值的窗口，两条不能省的条件，重叠与判决之别，以及小答案留下的成本。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 417.616,
+   "end": 435.187,
+   "en": "The affinity bounds are classical, the ROC refutation is a frozen Lean theorem, the stability bound, record family and cost results come from other project volumes, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+   "zh": "亲和界是经典结果，ROC 反驳是冻结的 Lean 定理，稳定界、记录律族与成本结果来自项目的其他卷，其余在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 444.187
+}
