@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Parts one and two built a five-dimensional instrument, a compatible set of qutrit states, and the joint records of every labelled time word. Volume five asks which classical, real and complex machines reproduce those records exactly, and what each must remember.",
+     "第一、二部建立了一个五维仪器、一个相容的 qutrit 态集合，以及每个带标签时间词的联合记录。第五卷追问：哪些经典、实数与复数机器能精确复现这些记录，各自必须记住什么。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric Predictive Waves, part three: positive realizations and real memory.",
+     "AURIC 相容预测波，第三部：正实现与实记忆。"
+    ],
+    [
+     "One native history, judged against every machine that claims to predict it.",
+     "同一个原生历史，对照每一台声称能预测它的机器。"
+    ]
+   ]
+  },
+  {
+   "id": "classical",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with classical machines: finitely many hidden states, nonnegative branches and one fixed yes or no effect. For every d and every fixed angle theta, an exact finite model exists exactly when theta is a multiple of pi over two.",
+     "先看经典机器：有限个隐藏状态、非负分支和一个固定的是/否效果。对每个 d 和每个固定角度 θ，精确的有限模型存在当且仅当 θ 是 π/2 的整数倍。"
+    ],
+    [
+     "Otherwise two strictly compatible worlds differ by a frequency that is not a root of unity, even at rational angles like pi over four, while a finite positive model only sustains roots of unity. Longer horizons then need more and more states.",
+     "否则，两个严格相容的世界之差含有一个不是单位根的频率，即使在 π/4 这样的有理角也如此；而有限正模型只能维持单位根频率。时间范围越长，所需状态就越多。"
+    ]
+   ]
+  },
+  {
+   "id": "triangle",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "At the exceptional angles the dynamics only permutes three responses, which add up to sigma, six plus three d, over eight. For d up to two thirds, three classical states suffice, and three is the minimum.",
+     "在例外角度，动力学只置换三个响应，它们之和为 Σ = (6 + 3d)/8。当 d ≤ 2/3 时，三个经典状态足够，且三是最小值。"
+    ],
+    [
+     "Above two thirds sigma exceeds one. A six-state model on the hexagonal section of the cube still works, and an explicit strictly mixed world rules out three. Whether four, five or six is the minimum remains open.",
+     "超过 2/3 后 Σ > 1。立方体的六边形截面给出一个仍然成立的六状态模型，而一个显式的严格混合世界排除了三状态。最小值是四、五还是六，仍未确定。"
+    ]
+   ]
+  },
+  {
+   "id": "disc",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now allow a real two-dimensional quantum model with arbitrary real Kraus branches. It exists exactly when every response point lies in a disc of radius mu, two plus d, over eight.",
+     "现在允许任意实 Kraus 分支的实二维量子模型。它存在当且仅当每个响应点都落在半径 μ = (2 + d)/8 的圆盘内。"
+    ],
+    [
+     "The extreme compatible states give a sharp threshold, d star, about zero point three one six. Up to d star the minimal real dimension is two. Above it, explicit compatible witnesses leave the disc, and the minimum is three.",
+     "极端相容态给出一个精确阈值 d*，约为 0.316。d ≤ d* 时最小实维数为二；超过它，显式的相容见证态落在圆盘之外，最小值为三。"
+    ]
+   ]
+  },
+  {
+   "id": "six",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "At every other angle the real answer is six. The identity and eight weighted word effects tell all states apart, and the compatible set is six-dimensional, so at least four dimensions are needed, while the standard realification reaches six.",
+     "在其余所有角度，实维数的答案是六。单位矩阵加八个加权词效果能区分所有态，而相容集合是六维的，所以至少需要四维；标准实化则达到六维。"
+    ],
+    [
+     "Four and five are excluded. The native words close up to a real SU two, any model of dimension at most five is forced to be orthogonal, and a pure compatible curve would make a degree-five polynomial equal one of degree three.",
+     "四维和五维被排除：原生词的闭包含一个真实的 SU(2)，任何维数不超过五的模型都被迫成为正交模型，而一条纯相容曲线会让一个五次多项式等于一个三次多项式。"
+    ]
+   ]
+  },
+  {
+   "id": "records",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Back to classical models with finite records. Matching every history up to depth H exactly needs at least H minus two states, and a four-by-four Hankel certificate shows that a small enough weighted error still forces four states.",
+     "回到有限记录下的经典模型。精确匹配深度 H 以内的全部历史至少需要 H − 2 个状态；一个 4×4 Hankel 证书表明，加权误差足够小时仍然迫使至少四个状态。"
+    ],
+    [
+     "For rational source data, a published lower bound on polynomial minima gives an explicit threshold for every state count. It is doubly exponential: at d two sevenths and theta pi over four, epsilon one is about ten to the minus fourteen million.",
+     "对有理源数据，一个已发表的多项式最小值下界给出每个状态数的显式阈值。它是双重指数的：在 d = 2/7、θ = π/4 时，ε₁ 约为 10^(−1.4×10⁷)。"
+    ]
+   ]
+  },
+  {
+   "id": "upper",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Near an exceptional angle, the same three-state model errs by at most two H times the sine of half the offset. At d one half, theta ten to the minus six and depth ten thousand that is one percent, against nine thousand nine hundred ninety-eight states for exact matching.",
+     "在例外角附近，同一个三状态模型的误差至多为 2H·|sin(δ/2)|。在 d = 1/2、θ = 10⁻⁶、深度 10000 时，这就是 1% 的误差，而精确匹配至少需要 9998 个状态。"
+    ],
+    [
+     "Even one constant state, answering yes with probability U d over two, keeps the error below one half at every depth. Whether a small fixed error forces unbounded memory remains open.",
+     "即使只有一个常数状态，以概率 U_d/2 回答“是”，也能在所有深度把误差保持在 1/2 以下。一个固定的小误差是否迫使记忆无界，仍未确定。"
+    ]
+   ]
+  },
+  {
+   "id": "filter",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now classify every complex three-dimensional model of the same records. Each one is a filter: one number p between d over two and one half reweights the singlet, up to a single unitary and one common complex conjugation.",
+     "现在对同一记录的所有复三维模型作分类。每一个都是一个滤波：一个介于 d/2 与 1/2 之间的数 p 重新加权单态，至多相差一个酉变换和一次共同的复共轭。"
+    ],
+    [
+     "The effect is always rank one, but its efficiency sweeps from one half plus the root of c times one minus c, up to one. At one special calibration the effects span only eight dimensions, yet positivity still removes the hidden offset.",
+     "效果始终是秩一，但其效率从 1/2 + √(c(1 − c)) 一直扫到 1。在一个特殊校准下，效果只张成八维，但正性仍消去了隐藏的偏移。"
+    ]
+   ]
+  },
+  {
+   "id": "spectra",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Same records, different states. At d one half one compatible mixed state has spectrum one half, one half when p is one quarter, but two thirds, one third when p is one half, so purity and entropy are not fixed.",
+     "同样的记录，不同的态。在 d = 1/2，一个相容混合态在 p = 1/4 时谱为 (1/2, 1/2)，在 p = 1/2 时却是 (2/3, 1/3)；纯度和熵不由预测决定。"
+    ],
+    [
+     "Two pure worlds are orthogonal under one calibration and overlap one third under another, so no channel maps the second pair onto the first. Within a calibration every history acts unitarily, yet erasing the label sends a pure state to eleven sixteenths, five sixteenths.",
+     "两个纯世界在一个校准下正交，在另一个校准下重叠为 1/3，所以没有信道能把后一对映到前一对。在固定校准内，每段历史都作用为酉变换；但擦除标签会把一个纯态送到谱 (11/16, 5/16)。"
+    ]
+   ]
+  },
+  {
+   "id": "control",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now drop the whole family and keep one pure preparation. Its native words span eight dimensions within depth seven, and any single control that mixes the singlet adds a ninth column and makes the closure all of P U three.",
+     "现在丢掉整个态族，只保留一个纯制备。它的原生词在深度七以内张成八维；任何一个混合单态的控制都会补上第九列，并使闭包成为整个 PU(3)。"
+    ],
+    [
+     "Then four nine-by-nine tables, three hundred twenty-four indexed numbers at depth at most twelve, force any complex competitor to equal the source up to one unitary or conjugation. A control that does not mix leaves a filtered rival with efficiency thirty-four thirty-fifths.",
+     "于是四张 9×9 表、共 324 个带索引的数、深度至多十二，迫使任何复竞争者在一个酉变换或共轭下等于源。若控制不混合，则留下一个效率为 34/35 的滤波竞争者。"
+    ]
+   ]
+  },
+  {
+   "id": "cone",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now let the competitor be any real ordered model of dimension at most nine: a closed cone with compact base, a positive effect and three positive maps. The same four tables force a linear map sending its cone onto the qutrit positive semidefinite cone.",
+     "现在让竞争者是任意维数不超过九的实有序模型：一个具有紧基的闭锥、一个正效果和三个正映射。同样的四张表迫使存在一个线性映射，把它的锥送到 qutrit 的半正定锥上。"
+    ],
+    [
+     "The proof squeezes the cone between the closed orbit of the state and the dual of the effect orbit, both equal to that cone. The conditions matter: a tenth unreachable direction, or an unclosed countable cone, escapes.",
+     "证明把这个锥夹在态轨道的闭包与效果轨道的对偶之间，二者都等于那个半正定锥。条件不可省：多一个永不到达的第十维，或一个未闭合的可数锥，就能逃逸。"
+    ]
+   ]
+  },
+  {
+   "id": "noise",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "With small table errors, one fixed source is stable: as the error goes to zero, the normalised base of the competitor approaches the qutrit density matrices, with constants from a finite orbit net.",
+     "表误差很小时，固定的源是稳定的：误差趋于零时，竞争者的归一化基趋近 qutrit 密度矩阵集合，常数来自一张有限轨道网。"
+    ],
+    [
+     "Exactness is lost, though. Depolarised polyhedral cones match every table within thirteen t yet never become the qutrit cone, and controls approaching non-mixing drive the table error to zero while the base stays one minus c, over two, away.",
+     "但精确性会丢失：去极化的多面锥以 13t 以内的误差匹配所有表，却永远不是 qutrit 锥；而趋向不混合的控制让表误差趋于零，基却始终相距 (1 − c)/2。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Classical memory is finite only at exceptional angles, real models need two, three or six dimensions, complex models are one-parameter filters, and one mixing control pins the source even among ordered cones, stably but not exactly under noise.",
+     "经典记忆只在例外角度有限；实模型需要二、三或六维；复模型是单参数滤波；一个混合控制即使在有序锥中也能钉住源，噪声下稳定但不精确。"
+    ],
+    [
+     "Realification, the Choi–Effros multiplication, Wigner's theorem and a polynomial-minimum bound are published inputs, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "实化、Choi–Effros 乘法、Wigner 定理与多项式最小值下界是已发表的输入，其余内容在理论卷中论证，有限计算已为本片重新完成。"
+    ]
+   ]
+  }
+ ]
+}
