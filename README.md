@@ -121,6 +121,7 @@ Release page.
 | 102 | [AURIC V44–V46 · BOUNDARY ATLASES, SQUARED PROBABILITIES AND ERROR GEOMETRY](films/102-auricv44/) · AURIC V44–V46：边界图册、平方概率与误差几何 | 7:29 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 208 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-102-v1/TRURETURING_102_narrated_EN_subs_ZH-EN.mp4) |
 | 103 | [AURIC V47–V48 · SQUARE WEIGHTS, PROMPT RISK AND CHIRAL THREE AXES](films/103-auricv47/) · AURIC V47–V48：平方权重、提示风险与手性三轴 | 7:29 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 210 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-103-v1/TRURETURING_103_narrated_EN_subs_ZH-EN.mp4) |
 | 104 | [AURIC V49–V50 · THE SQUARE LAW, RECURSIVE THREE AXES AND K-BONACCI LIMITS](films/104-auricv49/) · AURIC V49–V50：平方律、递归三轴与 K-bonacci 极限 | 7:16 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 198 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-104-v1/TRURETURING_104_narrated_EN_subs_ZH-EN.mp4) |
+| 107 | [FIB-NATIVE GREEN STABILITY II · SHARP COUPLING, CRITICAL CAPS AND COMMAND LAWS](films/107-greenstab2/) · FIB 原生 Green 稳定性 第二部：锐耦合、临界截断与指令律 | 7:25 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 216 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-107-v1/TRURETURING_107_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
