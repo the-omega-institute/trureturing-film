@@ -575,7 +575,7 @@ SCENES.coeff = S => {
     const q = Q(S, 0, 'Zoom into the pole at scale epsilon', 0.6) * f1;
     const p = cyl108(250, 480, 110, 300, q, { halo: 30, lab: false });
     const zx = 560, zy = 480, zs = 150 + 20 * Math.sin(t * 1.2);
-    box(p[0] - 20, p[1] - 20, 40, 40, C.gold, q, 2); line(p[0] + 20, p[1] - 20, zx - zs, zy - zs, C.gold, q * 0.6, 1.5); line(p[0] + 20, p[1] + 20, zx - zs, zy + zs, C.gold, q * 0.6, 1.5);
+    if (p) { box(p[0] - 20, p[1] - 20, 40, 40, C.gold, q, 2); line(p[0] + 20, p[1] - 20, zx - zs, zy - zs, C.gold, q * 0.6, 1.5); line(p[0] + 20, p[1] + 20, zx - zs, zy + zs, C.gold, q * 0.6, 1.5); }
     box(zx - zs, zy - zs, 2 * zs, 2 * zs, C.gold, q, 2, 'rgba(30,20,0,0.3)');
     for (let i = 1; i <= 3; i++) ell108(zx, zy, zs * 0.28 * i, zs * 0.12 * i * i * 0.35 + 6, C.cyan, q * 0.7, 1.5);
     dot(zx, zy, 10, 'g', q);
