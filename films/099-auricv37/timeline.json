@@ -1,0 +1,293 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 19.779
+  },
+  {
+   "id": "title",
+   "start": 19.779,
+   "end": 36.716
+  },
+  {
+   "id": "gram",
+   "start": 36.716,
+   "end": 69.607
+  },
+  {
+   "id": "ball",
+   "start": 69.607,
+   "end": 102.995
+  },
+  {
+   "id": "lift",
+   "start": 102.995,
+   "end": 133.366
+  },
+  {
+   "id": "golden",
+   "start": 133.366,
+   "end": 167.901
+  },
+  {
+   "id": "ladder",
+   "start": 167.901,
+   "end": 206.03
+  },
+  {
+   "id": "series",
+   "start": 206.03,
+   "end": 239.574
+  },
+  {
+   "id": "nostoch",
+   "start": 239.574,
+   "end": 273.12
+  },
+  {
+   "id": "choi",
+   "start": 273.12,
+   "end": 308.953
+  },
+  {
+   "id": "records",
+   "start": 308.953,
+   "end": 341.627
+  },
+  {
+   "id": "memory",
+   "start": 341.627,
+   "end": 374.015
+  },
+  {
+   "id": "rank",
+   "start": 374.015,
+   "end": 407.658
+  },
+  {
+   "id": "finale",
+   "start": 407.658,
+   "end": 446.919
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 18.779,
+   "en": "Version thirty-six recovered a missing moment from the other four, given a fixed cross ratio. Versions thirty-seven and thirty-eight make the same five modes carry a complete qubit, golden gates, quantum processes and their records.",
+   "zh": "第三十六版在固定交叉比下，从其余四个矩恢复缺失的一个。第三十七、三十八版让同样的五个模式承载一个完整的量子比特、黄金门、完整的量子过程及其记录。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 20.979,
+   "end": 27.503,
+   "en": "Auric versions thirty-seven and thirty-eight: binary relations, golden gates and complete processes.",
+   "zh": "AURIC V37–V38：二元关系、黄金门与完整过程。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 28.103,
+   "end": 35.316,
+   "en": "A ball inside the pyramid, one gate at two addresses, four inputs per process, and a margin for record weights.",
+   "zh": "金字塔里的一个球，两个地址上的同一枚门，每个过程四个输入，以及记录权重所需的余量。"
+  },
+  {
+   "i": 3,
+   "scene": "gram",
+   "start": 37.516,
+   "end": 52.923,
+   "en": "A binary relation is two vectors with squared norms a and b and overlap c. Every nonzero positive one is a scale plus a point of the Bloch ball, and two pairs differ by one unitary exactly when their Gram matrices agree.",
+   "zh": "二元关系是两个向量：范数平方 a、b，交叠 c。每个非零正关系都是一个尺度加上 Bloch 球中的一点；两对向量相差一个共同酉，当且仅当它们的 Gram 矩阵相同。"
+  },
+  {
+   "i": 4,
+   "scene": "gram",
+   "start": 53.523,
+   "end": 68.207,
+   "en": "With a context the three axes become operators, and the scalar ball rule fails: for the Bell state the squared axes sum to three quarters, the squared scale to one quarter. Pairwise positivity is not global positivity either.",
+   "zh": "带上下文时，三条轴变成算子，标量球的条件不再成立：对 Bell 态，三条轴的平方和为 3/4，尺度的平方只有 1/4。两两正也不等于整体正。"
+  },
+  {
+   "i": 5,
+   "scene": "ball",
+   "start": 70.407,
+   "end": 86.202,
+   "en": "The fixed code: five rank-one effects sum to the identity with gain nu, one over one plus two root three plus root eleven, about point one two nine. The three native means become u zero plus nu r: a ball inside the pyramid.",
+   "zh": "固定编码：五个秩一效果之和为恒等，增益 ν = 1/(1 + 2√3 + √11) ≈ 0.129。三个原生均值变为 u₀ + νr：金字塔内的一个球。"
+  },
+  {
+   "i": 6,
+   "scene": "ball",
+   "start": 86.802,
+   "end": 101.595,
+   "en": "Trace distance is the distance of means over two nu. Effect zero is three times effect twenty-five, so the five moments obey N minus X minus Y minus Z minus two kappa equals zero, and any four give the fifth.",
+   "zh": "迹距离等于均值之间的距离除以 2ν。效果 0 是效果 25 的三倍，所以五个矩满足 N − X − Y − Z − 2κ = 0，任意四个确定第五个。"
+  },
+  {
+   "i": 7,
+   "scene": "lift",
+   "start": 103.795,
+   "end": 116.528,
+   "en": "Every two-by-two unitary lifts faithfully to a five-mode unitary, J U J star plus the identity off the code, and on the means it is a rigid rotation of the ball about its centre.",
+   "zh": "每个 2×2 酉都忠实地提升为五模式酉：J U J* 加上码外的恒等；在均值上，它是球绕球心的刚性旋转。"
+  },
+  {
+   "i": 8,
+   "scene": "lift",
+   "start": 117.128,
+   "end": 131.966,
+   "en": "Five classical outcomes keep less. The two z states are at distance one, yet their outcome laws differ by only four nu, about point five one, so no channel inverts the readout. Internal records keep every branch coherent.",
+   "zh": "五个经典结果保留得更少。两个 z 态的距离是 1，它们的结果分布却只相差 4ν ≈ 0.51，所以没有通道能逆转这个读出。内部记录则让每个分支保持相干。"
+  },
+  {
+   "i": 9,
+   "scene": "golden",
+   "start": 134.166,
+   "end": 149.982,
+   "en": "The golden gate: K is zeta times the identity plus zeta minus one times P, with zeta e to the three pi i over five, a phase the braid relation allows. K to the fifth is a reflection, K to the tenth the identity.",
+   "zh": "黄金门：K = ζ[I + (ζ − 1)P]，ζ = e^(3πi/5)，是编织关系允许的相位。K⁵ 是一个反射，K¹⁰ 是恒等。"
+  },
+  {
+   "i": 10,
+   "scene": "golden",
+   "start": 150.582,
+   "end": 166.501,
+   "en": "Call it at two addresses. The two reflections have trace product four minus two root five, whose conjugate exceeds two, so their rotation has infinite order. The closure is every logical unitary whose determinant is a tenth root of unity.",
+   "zh": "在两个地址上调用它。两个反射之积的迹为 4 − 2√5，它的共轭大于 2，所以这个旋转的阶无穷。闭包是全部行列式为十次单位根的逻辑酉。"
+  },
+  {
+   "i": 11,
+   "scene": "ladder",
+   "start": 168.701,
+   "end": 185.918,
+   "en": "With four n plus two sites the legal strings span dimension F of four n minus one: two, thirteen, eighty-nine, six hundred ten. By the published Freedman–Larsen–Wang density theorem, native words approximate every encoded n-qubit unitary.",
+   "zh": "有 4n + 2 个位置时，合法串张成的维数是 F₄ₙ₋₁：2、13、89、610。由已发表的 Freedman–Larsen–Wang 稠密性定理，原生门字可逼近每个编码的 n 比特酉。"
+  },
+  {
+   "i": 12,
+   "scene": "ladder",
+   "start": 186.518,
+   "end": 204.63,
+   "en": "On the thirteen-dimensional carrier with seven addresses the closure contains SU thirteen, so words compile the three-axis code itself, with its phase exact. Leakage is at most epsilon squared, and p zero minus three p twenty-five stays within four epsilon.",
+   "zh": "在七个地址的十三维载体上，闭包包含 SU(13)，所以门字能编译这个三轴编码本身，码上相位精确保留。泄漏至多 ε²，p₀ − 3p₂₅ 保持在 4ε 以内。"
+  },
+  {
+   "i": 13,
+   "scene": "series",
+   "start": 206.83,
+   "end": 220.715,
+   "en": "Errors form a series. If gate j is within epsilon j of its target and the epsilons are summable, the relative gate A n star B n converges to a unitary, with tail at most the remaining sum.",
+   "zh": "误差构成级数。若第 j 个门与目标相差至多 εⱼ，且这些 ε 可求和，则相对门 Aₙ*Bₙ 收敛到一个酉，尾部至多为剩余的和。"
+  },
+  {
+   "i": 14,
+   "scene": "series",
+   "start": 221.315,
+   "end": 238.174,
+   "en": "Probability needs one more relation: program sequences approaching the same effect must have probabilities approaching each other. Then probability is additive on effects, and a frozen Lean theorem says it is the trace against exactly one density matrix.",
+   "zh": "概率还需要一个关系：趋于同一个效果的程序序列，其概率必须彼此趋近。于是概率在效果上可加，而一个冻结的 Lean 定理说明，它恰是对唯一一个密度矩阵的迹。"
+  },
+  {
+   "i": 15,
+   "scene": "nostoch",
+   "start": 240.374,
+   "end": 254.721,
+   "en": "Can the five probabilities update themselves through a fixed stochastic matrix? Only for scalar phases; then the feasible matrices form one family, mixing outcomes zero and twenty-five with t from zero to one third.",
+   "zh": "五个概率能否经由一个固定的随机矩阵自行更新？只有标量相位可以；此时可行矩阵构成一族，以 0 ≤ t ≤ 1/3 混合结果 0 与 25。"
+  },
+  {
+   "i": 16,
+   "scene": "nostoch",
+   "start": 255.321,
+   "end": 271.72,
+   "en": "For the golden phase gate, take three known pure targets. Every fixed stochastic matrix misses one of them by at least delta, root eleven nu over six, about point zero seven one. On the full ten-bit terminal the gap stays, minus the error budget.",
+   "zh": "对黄金相位门，取三个已知的纯目标。每个固定的随机矩阵至少在其中一个上偏差 δ = √11·ν/6 ≈ 0.071。在完整的十位终端上，这个差距扣除误差预算后依然存在。"
+  },
+  {
+   "i": 17,
+   "scene": "choi",
+   "start": 273.92,
+   "end": 291.164,
+   "en": "Version thirty-eight lifts the code to processes. A trace-preserving map acts on the moments as a five-by-five matrix that keeps the relation and composes exactly. It is completely positive exactly when its Choi matrix is, and shrinking the ball is not enough.",
+   "zh": "第三十八版把编码提升到过程。保迹映射在矩上作用为一个 5×5 矩阵，保持线性关系并精确复合。它完全正当且仅当其 Choi 矩阵正；只把球缩小是不够的。"
+  },
+  {
+   "i": 18,
+   "scene": "choi",
+   "start": 291.764,
+   "end": 307.553,
+   "en": "Four tetrahedral inputs give twelve means that determine the process; three inputs never suffice. The parameter error is an exact identity in the table error over four nu squared, and projecting onto valid processes keeps the bound.",
+   "zh": "四个四面体输入给出十二个均值，它们确定这个过程；三个输入永远不够。参数误差与表误差除以 4ν² 精确相等，把表投影到合法过程上仍保持这个界。"
+  },
+  {
+   "i": 19,
+   "scene": "records",
+   "start": 309.753,
+   "end": 325.734,
+   "en": "To keep the five readouts while storing r records, each readout sector needs rank at least r. Thirteen dimensions give ranks three, three, three, two, two, so two records; in eighty-nine, a twenty-path code keeps four on the same ten-bit terminal.",
+   "zh": "保留五个读口并存储 r 个记录，每个读口扇区的秩须至少为 r。十三维扇区秩为 3、3、3、2、2，只容两个记录；八十九维中，二十路径码在同一十位终端上保留四个。"
+  },
+  {
+   "i": 20,
+   "scene": "records",
+   "start": 326.334,
+   "end": 340.227,
+   "en": "A coherent record can always be undone. Once the record is a classical label, every input can be recovered exactly when each branch is a scaled unitary: K a star K a equals p a times the identity.",
+   "zh": "相干记录总可以撤销。一旦记录变成经典标签，所有输入都能恢复，当且仅当每个分支都是标量乘酉：Kₐ*Kₐ = pₐI。"
+  },
+  {
+   "i": 21,
+   "scene": "memory",
+   "start": 342.427,
+   "end": 356.393,
+   "en": "If a global unitary updates the system through its marginal alone, for every joint state, it is a product. A controlled-not fails: plus with zero ends mixed, plus with plus stays pure, from the same marginal.",
+   "zh": "若一个全局酉对所有联合态都只通过系统边缘更新系统，它必是乘积。受控非门就不行：|+⟩|0⟩ 末态是混态，|+⟩|+⟩ 仍是纯态，而边缘相同。"
+  },
+  {
+   "i": 22,
+   "scene": "memory",
+   "start": 356.993,
+   "end": 372.615,
+   "en": "A fixed finite memory cannot contract strictly forever: powers of the unitary return near the identity, and distinguishability comes back. Per step, the contraction factor is the norm of T, and errors add as a geometric series.",
+   "zh": "固定的有限记忆不能永远严格收缩：酉的幂会回到恒等附近，可区分性随之回来。每一步的收缩系数是 ‖T‖，误差按几何级数累加。"
+  },
+  {
+   "i": 23,
+   "scene": "rank",
+   "start": 374.815,
+   "end": 388.454,
+   "en": "If two settings' system relations differ by eta, each unknown weight lies within eta over four beta kappa of its target, with beta phi to the minus three halves and kappa the smallest Gram eigenvalue.",
+   "zh": "若两个设置的系统关系相差 η，则每个未知权重与目标相差至多 η/(4βκ)，其中 β = φ^(−3/2)，κ 是 Gram 矩阵的最小特征值。"
+  },
+  {
+   "i": 24,
+   "scene": "rank",
+   "start": 389.054,
+   "end": 406.258,
+   "en": "Kappa is the radial margin to the surface of the Auric ball. Without it no uniform bound exists: near rank one, the isolation error vanishes while a weight stays off by one half. With a linear continuity modulus, the error falls like eta to the one third.",
+   "zh": "κ 是到 AURIC 球面的径向余量。没有它就没有一致界：在秩一附近，隔离误差趋于零，而一个权重始终偏差 1/2。有了线性连续模，误差按 η^(1/3) 下降。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 408.658,
+   "end": 420.609,
+   "en": "Relations make a ball, unitaries rotate it, golden gates generate, errors sum, four inputs fix a process, records need rank, autonomy needs products, and weights need a margin.",
+   "zh": "关系构成一个球，酉旋转它，黄金门生成全部，误差可求和，四个输入确定过程，记录需要秩，自治需要乘积，权重需要余量。"
+  },
+  {
+   "i": 26,
+   "scene": "finale",
+   "start": 421.209,
+   "end": 437.919,
+   "en": "The Freedman–Larsen–Wang density theorem is a published input, the Choi–Kraus form is classical, the effect representation is a frozen Lean theorem, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+   "zh": "Freedman–Larsen–Wang 稠密性定理是已发表的输入，Choi–Kraus 形式是经典结果，效果表示是冻结的 Lean 定理，其余在理论卷中论证，有限计算为本片重做。"
+  }
+ ],
+ "duration": 446.919
+}
