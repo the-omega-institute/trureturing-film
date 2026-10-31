@@ -108,6 +108,7 @@ Release page.
 | 089 | [AURIC V17–V18 · QUANTUM PYTHAGORAS AND RECURSIVE GOLDEN GATES](films/089-auricv17/) · AURIC V17–V18：量子勾股与递归黄金门 | 7:30 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 207 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-089-v1/TRURETURING_089_narrated_EN_subs_ZH-EN.mp4) |
 | 090 | [AURIC V19–V20 · ARITHMETIC SPECTRA AND GOLDEN SELECTOR GATES](films/090-auricv19/) · AURIC V19–V20：算术谱与黄金选择门 | 7:28 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 204 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-090-v1/TRURETURING_090_narrated_EN_subs_ZH-EN.mp4) |
 | 091 | [AURIC V21–V22 · STATIC HISTORIES AND OBSERVATION QUOTIENTS](films/091-auricv21/) · AURIC V21–V22：静态历史与观察商 | 7:28 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 207 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-091-v1/TRURETURING_091_narrated_EN_subs_ZH-EN.mp4) |
+| 092 | [AURIC V23–V24 · MONOTILES, TRIANGLE CENTRES AND THE SQUARE LAW](films/092-auricv23/) · AURIC V23–V24：单原型瓦片、三角心与平方律 | 7:19 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 200 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-092-v1/TRURETURING_092_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
