@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Continuing the versioned Auric volumes: version twenty-three lifts the aperiodic hat tile into a unitary, measures its triangles and centres, and relaxes golden relations on a triangle complex; version twenty-four asks how two amplitudes and normalisation make three channels.",
+     "延续 AURIC 版本系列：第二十三版把非周期的帽子瓦片提升为酉变换，度量它的三角形与各种心，并在三角复形上松弛黄金关系；第二十四版追问：两个振幅加上归一化，怎样构成三个通道。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric versions twenty-three and twenty-four: monotiles, triangle centres and the square law.",
+     "AURIC V23–V24：单原型瓦片、三角心与平方律。"
+    ],
+    [
+     "A tile's projection becomes a gate, a triangle hides a normal in its orientation, and squares come from consistency.",
+     "瓦片的投影成为一扇门，三角形把法向藏在自己的朝向里，平方则来自相容性。"
+    ]
+   ]
+  },
+  {
+   "id": "lift",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Published work writes hat control points as x plus D x star, where D is a reflection with entries minus eleven, eleven and three root fifteen, over sixteen. Stacking x minus D x star beside it, over root two, gives an orthogonal four-by-four matrix of order eight.",
+     "已发表的工作把帽子瓦片的控制点写成 x + Dx*，其中 D 是一个反射，矩阵元为 −11、11 与 3√15，再除以 16。把 x − Dx* 并排放上并除以 √2，就得到一个阶为八的 4×4 正交矩阵。"
+    ],
+    [
+     "Pairing x with i x star, the one-qubit gate I minus i D over root two returns the hat reprojection, over root two, as its real part. But overlapping encoded states cannot be sorted into accept and reject deterministically by any single effect.",
+     "把 x 与 i·x* 配成复向量，单量子比特门 (I − iD)/√2 输出的实部，正是除以 √2 的帽子重投影。但彼此不正交的编码态，不能被任何单个效果确定地分成接受与拒绝。"
+    ]
+   ]
+  },
+  {
+   "id": "hat",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The hat of Smith, Myers, Kaplan and Goodman-Strauss has thirteen corners on a triangular lattice, perimeter eight plus six root three and area eight root three; eleven triangles tile it, with doubled lattice areas summing to thirty-two.",
+     "Smith、Myers、Kaplan 与 Goodman-Strauss 的帽子瓦片在三角格上有十三个角点，周长 8 + 6√3，面积 8√3；十一个三角形恰好铺满它，两倍格面积之和为 32。"
+    ],
+    [
+     "Triangles also choose weights: Dirichlet energy is a sum of cotangents, and flipping a diagonal changes it by t squared q Q over four s J L, so the Delaunay diagonal never has more energy.",
+     "三角形还决定权重：Dirichlet 能量是余切之和；翻转一条对角线，能量改变 t²qQ/(4sJL)，所以 Delaunay 对角线的能量从不更高。"
+    ]
+   ]
+  },
+  {
+   "id": "centres",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Each centre solves a different problem: the centroid minimises squared distances, the incentre maximises the nearest side, and circumcentre and orthocentre make two residual sums vanish. In hat triangle zero, four, six the circumcentre is five A minus seven B plus three C.",
+     "每一种心解的是不同的问题：重心使距离平方和最小，内心使到最近一边的距离最大，外心与垂心则使两组残差平方和为零。在帽子的三角形 0、4、6 中，外心是 5A − 7B + 3C。"
+    ],
+    [
+     "It and the orthocentre lie outside the whole hat, and projection need not commute with taking such centres. A diagonal three-mode readout reaches only the convex hull, so the centroid and incentre are realisable, these two are not.",
+     "它和垂心都落在整个帽子之外；而投影一般不与取这些心交换。对角的三模式读出只能到达凸包，所以重心与内心可以实现，这两种心不能。"
+    ]
+   ]
+  },
+  {
+   "id": "turns",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The native golden gate K has order ten, with K to the fifth equal to two P minus I, and the hat completion is no power of it. Yet the hat gate and its sixty-degree turn have product trace three halves.",
+     "原生黄金门 K 的阶为十，K⁵ = 2P − I；帽子的酉完成不是它的任何幂。然而帽子门与它转过 60° 的版本，乘积的迹是 3/2。"
+    ],
+    [
+     "Three halves is not an algebraic integer, so the product has infinite order; if both turns can be called, their words are dense in S U two. A lifted orbit over base period p, whose loop increment has order q, returns after p times q steps.",
+     "3/2 不是代数整数，所以乘积的阶无限；若两个朝向都可调用，它们的门字在 SU(2) 中稠密。基底周期为 p、闭路增量的阶为 q 时，提升后的轨道经过 p·q 步才返回。"
+    ]
+   ]
+  },
+  {
+   "id": "relax",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On a triangle complex, give every vertex five modes and every edge a unitary. The mismatch energy is gauge invariant, and eliminating hidden vertices is one Schur complement, the same in any order: recursion, variation and optimisation coincide.",
+     "在三角复形上，给每个顶点五个模式、每条边一个酉变换。失配能量是规范不变的；消去隐藏顶点就是一次 Schur 补，与消元次序无关：递归、变分与最优化在这里重合。"
+    ],
+    [
+     "With the golden gate, paths I and K to the fifth average to the projection P. A unit-weight triangle with transports I, I and K has least normalised energy two minus phi, one over phi squared, on a three-dimensional space.",
+     "配上黄金门，I 与 K⁵ 两条路径的平均正是投影 P。边权为一、输运为 I、I、K 的三角形，归一化后的最小能量是 2 − φ = 1/φ²，极小态构成三维空间。"
+    ]
+   ]
+  },
+  {
+   "id": "three",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Version twenty-four asks when two numbers and normalisation give a third. On the five modes, X plus Y plus Z equals one minus p zero plus p thirteen, so Z is only bounded, between zero and one minus the larger of X and Y.",
+     "第二十四版追问：两个数加上归一化，何时给出第三个数。在五个模式上，X + Y + Z = 1 − p₀ + p₁₃，所以 Z 只受约束：介于 0 与 1 − max(X, Y) 之间。"
+    ],
+    [
+     "Two complex amplitudes do give three real coordinates: after unit norm and the common phase, the Hopf map lands on the Bloch sphere. But two fixed coordinates leave the third up to sign, and the inverse is not Lipschitz at the rim.",
+     "两个复振幅确实给出三个实坐标：扣去单位范数与共同相位，Hopf 映射落到 Bloch 球面。但固定两个坐标后，第三个仍差符号，其逆在边缘处不是 Lipschitz 的。"
+    ]
+   ]
+  },
+  {
+   "id": "clifford",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Operators close where means cannot. Two anticommuting reflections A and B fix the third, C equals minus i A B, with Gram determinant one minus x squared minus y squared minus z squared; measuring A then B never reads z.",
+     "均值做不到的，算符可以闭合。两个反对易的反射 A、B 决定第三个：C = −iAB，Gram 行列式为 1 − x² − y² − z²；先测 A 再测 B，永远读不到 z。"
+    ],
+    [
+     "Three real anticommuting reflections build a complex structure, J equals A one A two A three, squaring to minus one, on at least four real dimensions. Five modes are odd, so a qubit placed inside is a cone, r squared at most w squared.",
+     "三个实的反对易反射构造出复结构：J = A₁A₂A₃，平方为 −1，至少需要四个实维数。五个模式是奇数维，所以放进其中的量子比特是一个锥：|r|² ≤ w²。"
+    ]
+   ]
+  },
+  {
+   "id": "trine",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now a three-output reader. A Fourier map sends two amplitudes to three, a j equals alpha plus omega to the minus j beta, over root three; the phased outputs close a triangle whose squared sides are the three probabilities.",
+     "现在看一个三输出的读口。Fourier 映射把两个振幅送到三个：a_j = (α + ω⁻ʲβ)/√3；乘上相位后的三个输出闭合成一个三角形，边长的平方就是三个概率。"
+    ],
+    [
+     "The plane coordinates follow, but the hidden normal sits in the triangle's orientation: r three equals minus four root three times the signed area. Any three-outcome qubit reader has two orthogonal states it cannot tell apart.",
+     "平面内的坐标随之确定，而隐藏的法向藏在三角形的朝向里：r₃ = −4√3 乘以有向面积。任何三结果的量子比特读口，都有两个它分辨不了的正交态。"
+    ]
+   ]
+  },
+  {
+   "id": "square",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Why squares? A non-negative calibration of squared amplitudes that sums to one over every three-way split is the identity, so probability is amplitude squared; two-way normalisation alone allows f of three quarters equal to nine tenths.",
+     "为什么是平方？振幅平方的非负标定若在每种三分细分上总和都为一，就只能是恒等函数，于是概率是振幅平方；仅有二分归一化，则允许 f(3/4) = 9/10。"
+    ],
+    [
+     "Golden gates have three frequencies, so quadratic readouts obey a four-time law: a three plus x squared a one equals a zero plus x squared a two. Held in every context it forces quadratic rules; a quartic rule breaks it by a multiple of x to the eighth.",
+     "黄金门只有三个频率，所以二次读出满足四时律：a₃ + x²a₁ = a₀ + x²a₂。若在每个上下文中都成立，它迫使规则为二次；一个四次规则会以 x⁸ 的倍数破坏它。"
+    ]
+   ]
+  },
+  {
+   "id": "metric",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Normalising inside a recursion loses scale: normalised merging is not associative, and after eliminating the interior the right boundary condition is g dagger G g equals one, with G the identity minus the derivative of the effective operator.",
+     "在递归中途归一化会丢掉尺度：归一化的合并不满足结合律；消去内部之后，正确的边界条件是 g†Gg = 1，其中 G 等于单位算符减去有效算符的导数。"
+    ],
+    [
+     "Finally, stability: a response that almost sums to one over every rotated trine lies within C epsilon to the two thirds of a Bloch response, with C about two point six, and the exponent two thirds cannot be improved.",
+     "最后是稳定性：若一个响应在每个转动后的三元组上几乎总和为一，它与某个 Bloch 响应的距离不超过 Cε^(2/3)，C 约为 2.6，而且指数 2/3 不能再改进。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "A hat projection completes to a unitary, centres solve different problems, two turns are universal, golden relaxation leaves one over phi squared, a triangle's orientation carries the normal, and squares, four-time laws and stability come from consistency.",
+     "帽子的投影可完成为酉变换，各种心解不同的问题，两个朝向足以普适，黄金松弛留下 1/φ²，三角形的朝向携带法向，而平方律、四时律与稳定性都来自相容性。"
+    ],
+    [
+     "The hat, its four-dimensional projection and the trine frame theorem are published inputs, Bloch and cotangent formulas are classical, one skew-orbit period is frozen in Lean, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+     "帽子瓦片、它的四维投影与 trine 框架函数定理是已发表的输入，Bloch 与余切公式是经典工具，一条斜积轨道周期已在 Lean 中冻结；其余在理论卷中论证，有限计算均为本片重做。"
+    ]
+   ]
+  }
+ ]
+}
