@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Read a bit stream with no two adjacent ones through a sliding three-bit window: only five windows are legal. Give each window a quantum state, and ask how much one fixed channel on five dimensions can remember.",
+     "用一个三比特的滑动窗口，去读一串没有两个相邻 1 的比特流：合法的窗口只有五个。给每个窗口一个量子态，然后问：五维空间上一个固定的信道，究竟能记住多少。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric five-window memory, part one: three steps, one half and six states.",
+     "AURIC 五窗口记忆，第一部：三步、二分之一与六个状态。"
+    ],
+    [
+     "For interior eta, no exact qubit survives step three, only one half lets a lift refuse to forget, and six classical states recover best.",
+     "对内部的 η，没有精确量子比特能活过第三步，只有二分之一处才有拒绝遗忘的提升，六个经典状态就能最优地恢复。"
+    ]
+   ]
+  },
+  {
+   "id": "windows",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Order the windows zero zero zero, one zero zero, zero one zero, zero zero one, one zero one. One step slides a-b-c to b-c-d. After a zero the next bit is one with probability eta; after a one it is forced to zero.",
+     "把窗口排成 000、100、010、001、101。走一步就是把 abc 滑成 bcd。前一位是 0 时，下一位以概率 η 为 1；前一位是 1 时，下一位必为 0。"
+    ],
+    [
+     "The stationary law is r squared, eta r, eta, eta r, eta squared, over one plus eta, and the kernel's fourth power is strictly positive. An allowed lift is any channel reproducing this population law on every complex input.",
+     "平稳窗口分布是 (r², ηr, η, ηr, η²)/(1 + η)，转移核的四次方严格为正。允许的提升，是在每个复输入上都重现这一布居律的任意信道。"
+    ]
+   ]
+  },
+  {
+   "id": "edges",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Positivity confines every lift to eight edges. Its isometry uses eight unit environment vectors, and only three pairs must be orthogonal; every other complex overlap is free. Windows zero zero one and one zero one always reset to zero one zero.",
+     "正定性把每个提升限制在八条边上。它的等距映射用到八个单位环境向量，只有三对必须正交，其余复内积全部自由。窗口 001 和 101 总是重置到 010。"
+    ],
+    [
+     "So the dual effects are the same for every lift. On an isometric code each rank-one output effect pulls back to rank at most one; hence one step keeps at most three exact dimensions, and two steps at most two.",
+     "因此每个提升的对偶效应都相同。在等距码上，每个秩一输出效应拉回后秩至多为一；由此一步至多保留三维精确记忆，两步至多两维。"
+    ]
+   ]
+  },
+  {
+   "id": "third",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Could a qubit survive three steps? Its syndrome ranks would have to be one, one, two, and after one fixed phase change its second-step image would be a fixed plane T, which must then be correctable after one more step.",
+     "量子比特能活过三步吗？它的症状秩必须是 1、1、2；经过一次固定的相位变换，它的第二步像必须是一个固定平面 T，而 T 还必须在再走一步后可纠正。"
+    ],
+    [
+     "Correcting T would give a three-Kraus channel a four-by-four Choi matrix of determinant r plus eta squared t one minus t, squared, over one plus r to the fourth, never zero. So every lift keeps one dimension from step three on.",
+     "纠正 T 会让一个只有三个 Kraus 算子的信道，拥有行列式为 [r + η²t(1 − t)]²/(1 + r)⁴ 的四乘四 Choi 矩阵，而它永不为零。所以从第三步起，每个提升只保留一维。"
+    ]
+   ]
+  },
+  {
+   "id": "canon",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One fixed lift attains every optimum: the oldest-bit lift, which hands the erased first bit to a fresh environment. It keeps three, then two dimensions, and at step three it measures and prepares, so its entanglement-breaking index is exactly three.",
+     "一个固定的提升达到全部最优值：最老比特提升，它把被擦掉的第一个比特交给一个新的环境。它先保留三维、再保留两维，第三步变成先测量后制备，所以它的纠缠破坏指数恰为三。"
+    ],
+    [
+     "Rotate each equal-row pair first. Same law, same basis outputs, same codes, yet a reference witness has determinant minus eta to the two n over four at every step: index infinity. The classical channel has index one.",
+     "先在每对等行窗口内做一次旋转。布居律相同、基态输出相同、码维数相同，但参考见证的行列式在每一步都是 −η²ⁿ/4：指数为无穷。经典信道的指数是一。"
+    ]
+   ]
+  },
+  {
+   "id": "mixing",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Mix any lift with the classical channel and the fourth power dominates a full reset, giving a faithful stationary state and a finite index. Yet at each fixed eta, mixtures with the rotated lift have finite indices beyond any bound.",
+     "把任意提升与经典信道混合，四次方就支配一个完全重置，于是得到忠实的平稳态和有限的指数。但在每个固定的 η 上，与旋转提升的混合，其有限指数可以超过任何界。"
+    ],
+    [
+     "The endpoints are separate models. At eta zero every lift resets by step three. At eta one a swap between zero one zero and one zero one survives forever, so the optima become five, three, two, two, two.",
+     "两个端点是各自独立的模型。η = 0 时每个提升到第三步就重置。η = 1 时，010 与 101 之间的交换量子比特永远存活，最优值变成 5、3、2、2、2。"
+    ]
+   ]
+  },
+  {
+   "id": "half",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "At eta one half a legal lift hides a classical memory. Two orthogonal stationary states have identical populations, one sixth, one sixth, one third, one sixth, one sixth, and a conserved effect tells them apart forever.",
+     "在 η = 1/2 处，一个合法提升藏着经典记忆。两个正交平稳态的布居完全相同：1/6、1/6、1/3、1/6、1/6；一个守恒效应永远能把它们区分开。"
+    ],
+    [
+     "Its powers converge to a measure-and-prepare limit that keeps the label, the distance halving at every step, and every reset stays at diamond distance at least one. Still, a reference witness stays NPT at every finite step.",
+     "它的幂收敛到一个保留标签的先测量后制备极限，距离每步减半，而它与任何重置的钻石距离都至少为一。尽管如此，参考见证在每个有限步都保持 NPT。"
+    ]
+   ]
+  },
+  {
+   "id": "slow",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Encode inside its three-dimensional image and exact codes shrink three, two, one: the genuine two-step error products span the fixed-state projector plus every operator on the plane orthogonal to it.",
+     "若只在它的三维像内编码，精确码维数依次为 3、2、1：真实的两步误差乘积张成不动态的投影，加上与之正交的平面上的全部算子。"
+    ],
+    [
+     "Mix in a fraction epsilon of the classical channel and it becomes quantum primitive, its stationary state above epsilon to the fourth over eight. But the hidden difference P minus M decays only as one minus epsilon to the n: no common rate exists.",
+     "混入比例为 ε 的经典信道，它就变成量子本原的，平稳态不小于 ε⁴/8。但隐藏的差 P − M 只以 (1 − ε)ⁿ 衰减：不存在共同的速率。"
+    ]
+   ]
+  },
+  {
+   "id": "family",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A selected family continues this lift to every eta. Its characteristic polynomial factors exactly, and its coherence root mu plus reaches one only at one half; elsewhere the unique stationary state has rank three and the source populations.",
+     "一个选定的族把这个提升延拓到每个 η。它的特征多项式可以精确分解，相干根 μ₊ 只在 1/2 处达到一；其余处唯一的平稳态秩为三，布居就是源的布居。"
+    ],
+    [
+     "The gap one minus mu plus closes quadratically in eta minus one half. At unit activity mu plus is about zero point nine eight five three. And by the classical mode, every lift decays no faster than eta to the n.",
+     "间隙 1 − μ₊ 按 (η − 1/2)² 二次闭合。单位活度时 μ₊ ≈ 0.9853。而且由经典模式，每个提升的衰减都不快于 ηⁿ。"
+    ]
+   ]
+  },
+  {
+   "id": "forget",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "If after N steps every state puts weight a above one half on one line, all outputs lie in a cap of diameter four root a one minus a, so the channel contracts and forgets, against every reference.",
+     "充分判据：若走 N 步后每个态在同一条线上的权重都至少为 a > 1/2，所有输出就落在直径为 4√(a(1 − a)) 的帽内，于是信道收缩并遗忘，对任何参考都成立。"
+    ],
+    [
+     "Population powers are exact, Q to the n is its limit plus minus eta to the n minus two times a fixed correction, so below five minus root seventeen over four, about point two two, every lift mixes at an explicit common rate.",
+     "布居的幂是精确的：Qⁿ 等于极限加上 (−η)ⁿ⁻² 乘一个固定的瞬态项。所以在 (5 − √17)/4 ≈ 0.22 以下，每个提升都以显式的共同速率混合。"
+    ]
+   ]
+  },
+  {
+   "id": "classify",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The full answer: for interior eta, some lift fails to relax exactly when eta is one half. The key step: a pure stationary line beside an orthogonal stationary support forces one minus beta, times one plus eta beta, to vanish.",
+     "完整答案：对内部的 η，存在不弛豫的提升，当且仅当 η = 1/2。关键一步：一条纯平稳线旁若还有正交的平稳支撑，就迫使 (1 − β)(1 + ηβ) 为零。"
+    ],
+    [
+     "Elsewhere every lift has a unique stationary state and forgets every complex input. On compact sets avoiding one half the bound is uniform, with horizon twenty-four, five squared minus one; near one half no common bound exists.",
+     "其余处每个提升都有唯一平稳态，并遗忘每个复输入。在避开 1/2 的紧集上界是一致的，时间跨度为 24 = 5² − 1；在 1/2 附近不存在共同的界。"
+    ]
+   ]
+  },
+  {
+   "id": "recover",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Finally, keep the measurement labels. A six-state classical controller tracks a permutation of three letters and applies one terminal unitary; the leftover error follows a two-term Schur recurrence and is optimal against every terminal recovery.",
+     "最后，保留测量标签。一个六状态的经典控制器追踪三个字母的置换，最后只施加一个幺正；剩余误差服从一个两项 Schur 递推，并且对所有终端恢复都是最优的。"
+    ],
+    [
+     "The optimal error is zero at one half and tends to four thirds elsewhere. Attaining it requires the visible record to determine the permutation, so the smallest alphabets are one, two, four, then six from step three on.",
+     "最优误差在 1/2 处为零，其余处趋于 4/3。要达到它，可见记录必须确定置换，所以最小字母表依次为 1、2、4，从第三步起为 6。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Exact qubits end at step three, one law carries indices one, three and infinity, one half hides a label that never fades, every other eta forgets, and six classical states attain the best recovery.",
+     "精确量子比特在第三步终结，同一布居律承载指数 1、3 与无穷，二分之一处藏着永不消退的标签，其余每个 η 都会遗忘，六个经典状态达到最优恢复。"
+    ],
+    [
+     "Choi, Stinespring, Knill and Laflamme, and the entanglement-breaking criterion are published inputs, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "Choi、Stinespring、Knill–Laflamme 与纠缠破坏判据是已发表的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
