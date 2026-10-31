@@ -96,6 +96,7 @@ Release page.
 | 077 | [AURIC QUANTUM PRINCIPLES II · GATE CONTRACTS, LOOP PHASES AND THE SQUARE LAW](films/077-qprinciples2/) · AURIC 量子原理 第二部：门合同、闭路相位与平方律 | 7:22 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 202 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-077-v1/TRURETURING_077_narrated_EN_subs_ZH-EN.mp4) |
 | 078 | [AURIC QUANTUM PRINCIPLES III · NATIVE PREDICTIVE RANK AND TERMINAL RESPONSE](films/078-qprinciples3/) · AURIC 量子原理 第三部：原生预测秩与终端响应 | 7:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 202 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-078-v1/TRURETURING_078_narrated_EN_subs_ZH-EN.mp4) |
 | 079 | [AURIC QUANTUM PRINCIPLES IV · CONSERVATION, READERS AND RECORD HISTORIES](films/079-qprinciples4/) · AURIC 量子原理 第四部：统计守恒、读器与记录历史 | 7:29 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 204 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-079-v1/TRURETURING_079_narrated_EN_subs_ZH-EN.mp4) |
+| 080 | [AURIC QUANTUM PRINCIPLES V · STATIC SLICES, RETURN RECORDS AND PHASE READOUTS](films/080-qprinciples5/) · AURIC 量子原理 第五部：静态切面、返回记录与相位读口 | 7:16 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 200 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-080-v1/TRURETURING_080_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
