@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 19.496
+  },
+  {
+   "id": "title",
+   "start": 19.496,
+   "end": 33.611
+  },
+  {
+   "id": "carrier",
+   "start": 33.611,
+   "end": 69.941
+  },
+  {
+   "id": "pfaff",
+   "start": 69.941,
+   "end": 108.32
+  },
+  {
+   "id": "paths",
+   "start": 108.32,
+   "end": 146.614
+  },
+  {
+   "id": "seam",
+   "start": 146.614,
+   "end": 186.351
+  },
+  {
+   "id": "canon",
+   "start": 186.351,
+   "end": 225.705
+  },
+  {
+   "id": "layers",
+   "start": 225.705,
+   "end": 263.591
+  },
+  {
+   "id": "split",
+   "start": 263.591,
+   "end": 301.343
+  },
+  {
+   "id": "root",
+   "start": 301.343,
+   "end": 335.194
+  },
+  {
+   "id": "action",
+   "start": 335.194,
+   "end": 373.206
+  },
+  {
+   "id": "separator",
+   "start": 373.206,
+   "end": 403.519
+  },
+  {
+   "id": "finale",
+   "start": 403.519,
+   "end": 447.408
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 18.496,
+   "en": "Part one followed one relation among five states through a loop, an action and a swap. Part two gives it an elliptic carrier, follows it to every length, then closes the seam into rings, where an odd cycle marks every count.",
+   "zh": "第一部沿着五个状态之间的一个关系，走过一个环、一个作用量和一次交换。第二部给它一个椭圆载体，把它推广到任意长度，再把接缝闭合成环；奇数长的环在每一个计数里都留下痕迹。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 20.696,
+   "end": 25.959,
+   "en": "Auric circulation control, part two: index carriers, odd rings and shared roots.",
+   "zh": "AURIC 环流控制 第二部：指标载体、奇环与共享根。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 26.559,
+   "end": 32.211,
+   "en": "One relation becomes a kernel, a resolution, a ring defect and a synchronized gluing.",
+   "zh": "一个关系变成一个核、一个分解、一个环缺陷和一次同步粘合。"
+  },
+  {
+   "i": 3,
+   "scene": "carrier",
+   "start": 34.411,
+   "end": 54.141,
+   "en": "Start with the four-corner relation, f equals z one z three minus z zero z thirteen, on complex projective four-space. Multiplication by f gives an elliptic Dolbeault complex whose kernel is exactly the degree m quotient, with index one, five, fourteen, thirty, fifty-five.",
+   "zh": "从四角关系 f = z₁z₃ − z₀z₁₃ 出发，放在复射影四维空间上。乘以 f 给出一个椭圆 Dolbeault 复形，它的核恰好是 m 次商空间，指标依次为 1、5、14、30、55。"
+  },
+  {
+   "i": 4,
+   "scene": "carrier",
+   "start": 54.741,
+   "end": 68.541,
+   "en": "The index alone sees less. Scale f to zero and the two kernels jump to thirty-five and five at degree three, yet their difference stays thirty. A smooth quadric keeps the count, but only part of the torus symmetry.",
+   "zh": "只看指标，看到的更少。把 f 缩放到零，三次时两个核跳到 35 和 5，差仍是 30。光滑二次超曲面保留这个计数，却只保留环面对称的一部分。"
+  },
+  {
+   "i": 5,
+   "scene": "pfaff",
+   "start": 70.741,
+   "end": 88.055,
+   "en": "Four positions give eight modes and five quadric relations. They are the signed Pfaffians of one five by five skew matrix, and its resolution of ranks one, five, five, one is exact over the integers and over every field, characteristic two included.",
+   "zh": "四个位置给出八个模式和五个二次关系。它们是一个 5×5 斜对称矩阵带符号的 Pfaff 式；秩为 1、5、5、1 的分解在整数上和每个域上都正合，包括特征二。"
+  },
+  {
+   "i": 6,
+   "scene": "pfaff",
+   "start": 88.655,
+   "end": 106.92,
+   "en": "Its strands count thirty-one, eighty-five, one hundred ninety and three hundred seventy-one, the index of a complex on projective seven-space. Set every relation map to zero at degree three: the index stays eighty-five, but the kernels become one hundred twenty-five and forty.",
+   "zh": "各次分量依次计数 31、85、190、371，即射影七维空间上一个复形的指标。在三次把所有关系映射置零：指标仍是 85，两个核却变成 125 和 40。"
+  },
+  {
+   "i": 7,
+   "scene": "paths",
+   "start": 109.12,
+   "end": 124.759,
+   "en": "On an open path of n positions the legal modes number F of n plus two, a count frozen in Lean. The mode algebra is Gorenstein: its interior is the whole semigroup, shifted by three copies and one at every position.",
+   "zh": "在 n 个位置的开路径上，合法模式共有 F(n+2) 个，这个计数已在 Lean 中冻结。模式代数是 Gorenstein 的：它的内部就是整个半群，平移三份副本、每个位置各一。"
+  },
+  {
+   "i": 8,
+   "scene": "paths",
+   "start": 125.359,
+   "end": 145.214,
+   "en": "So the resolution is self-dual and ends in one rank-one module; for four positions its shift is five copies with occupancies two, one, one, two. The numerators are palindromic, one, fourteen, thirty-one, fourteen, one at six positions, and the counts obey reciprocity with shift three.",
+   "zh": "于是分解是自对偶的，结尾是一个秩一模；四个位置时它的平移是五份副本、占据数 2、1、1、2。分子是回文的，六个位置时为 1、14、31、14、1，计数满足平移为三的互反律。"
+  },
+  {
+   "i": 9,
+   "scene": "seam",
+   "start": 147.415,
+   "end": 165.768,
+   "en": "Now let copies share one row set and record only how often each position is used. Two open pieces join through the matrix T, one when a plus b is at most m, of full rank m plus one: two three-position pieces sew to twenty-one observations, not the product twenty-five.",
+   "zh": "现在让副本共用同一组行，只记录每个位置被占用的次数。两段开路径经矩阵 T 连接（a + b ≤ m 时取 1），秩满为 m + 1：两段三位置的路径缝合后有 21 个观测，而不是乘积 25。"
+  },
+  {
+   "i": 10,
+   "scene": "seam",
+   "start": 166.368,
+   "end": 184.951,
+   "en": "Closing an odd ring adds one global limit, a total of at most k times m. The local trace then overcounts by zero, one, seven, twenty-nine and ninety-one on seven positions. At two copies the only extra tuple is all ones: two rows cannot color an odd ring.",
+   "zh": "闭合一个奇环要多加一个全局限制：总数至多为 k·m。于是局部迹在七个位置上依次多计 0、1、7、29、91。两份副本时，唯一多出的元组是全 1：两行无法给奇环着色。"
+  },
+  {
+   "i": 11,
+   "scene": "canon",
+   "start": 187.151,
+   "end": 204.347,
+   "en": "On seven positions that missing tuple reappears inside the algebra. The ring has twenty-nine modes, and its canonical module needs two generators, in degrees three and five. Their difference is exactly two copies with one at every position, the tuple with no lift.",
+   "zh": "在七个位置上，那个缺失的元组又出现在代数内部。环有 29 个模式，它的典范模需要两个生成元，次数为 3 和 5。二者之差恰好是两份副本、每个位置各一，正是那个无法提升的元组。"
+  },
+  {
+   "i": 12,
+   "scene": "canon",
+   "start": 204.947,
+   "end": 224.305,
+   "en": "The quotient between them lives on a linear face, projective six-space inside projective twenty-eight-space, and its index counts the extra interior points, one, seven, twenty-eight, eighty-four. The Hilbert numerator one, twenty-one, eighty-four, eighty-five, twenty-one, one is no longer palindromic.",
+   "zh": "二者之间的商位于一个线性面上，即射影二十八维空间里的射影六维空间；它的指标正好计数多出的内部点：1、7、28、84。Hilbert 分子 1、21、84、85、21、1 不再是回文的。"
+  },
+  {
+   "i": 13,
+   "scene": "layers",
+   "start": 226.505,
+   "end": 243.991,
+   "en": "An odd ring of two k plus one positions, k at least three, has k minus one canonical generators. Above the first, the layers are free over the face, and a mode acts by a face monomial times a lowering map N, nilpotent of order k minus two.",
+   "zh": "2k + 1 个位置的奇环（k ≥ 3）有 k − 1 个典范生成元。第一个之上的各层在面上是自由的；一个模式的作用是面单项式乘以下降映射 N，N 是 k − 2 阶幂零的。"
+  },
+  {
+   "i": 14,
+   "scene": "layers",
+   "start": 244.591,
+   "end": 262.191,
+   "en": "On nine positions a deficit-one mode sends layer three to layer two by y five y six y seven, a nonzero matrix whose square is zero. The layer counts are differences of trace errors at two degrees: one, nine, forty-six, one hundred seventy-four.",
+   "zh": "在九个位置上，一个亏量为一的模式以 y₅y₆y₇ 把第三层送到第二层；这个矩阵非零，平方却为零。各层计数是两个次数处迹误差之差：1、9、46、174。"
+  },
+  {
+   "i": 15,
+   "scene": "split",
+   "start": 264.391,
+   "end": 282.106,
+   "en": "The same generator degrees fix the end of the resolution. Its length is the number of modes minus n minus one, and its last module has k minus one summands: degrees twenty-six and twenty-four on seven positions, seventy-three, seventy-one and sixty-nine on nine.",
+   "zh": "同样的生成元次数决定了分解的末端。分解长度是模式数减去 n + 1，最后一个模有 k − 1 个直和项：七个位置时次数为 26 和 24，九个位置时为 73、71 和 69。"
+  },
+  {
+   "i": 16,
+   "scene": "split",
+   "start": 282.706,
+   "end": 299.943,
+   "en": "Restricted to the face, the layers become line bundles on projective two k space, with smooth index equal to the layer count. A split module with the same layers has every index equal, yet for k at least four it is not isomorphic: the index forgets the action.",
+   "zh": "限制到面上，各层成为射影 2k 维空间上的线丛，光滑指标等于层的计数。层完全相同的分裂模，所有指标都相等；但当 k ≥ 4 时它与原模不同构：指标忘掉了作用。"
+  },
+  {
+   "i": 17,
+   "scene": "root",
+   "start": 302.143,
+   "end": 317.103,
+   "en": "Now glue b odd rings at one shared root. Local arrays glue exactly when they share the degree and the root count, and a global interior point is a minimal generator exactly when at least one ring restricts to a local generator.",
+   "zh": "现在把 b 个奇环在一个共享根处粘起来。局部阵列恰在次数和根计数都相同时可以粘合；一个整体内部点是极小生成元，当且仅当至少有一个环限制为局部生成元。"
+  },
+  {
+   "i": 18,
+   "scene": "root",
+   "start": 317.703,
+   "end": 333.794,
+   "en": "On seven-cycles a transfer walk counts one hundred one local interior points of degree five, so the type is one plus one hundred one to the b, minus one hundred to the b: two, then two hundred two, not the product four, then thirty thousand three hundred two.",
+   "zh": "在七环上，一条转移路径数出五次的 101 个局部内部点，于是型为 1 + 101ᵇ − 100ᵇ：依次为 2，然后是 202 而不是乘积 4，再是 30302。"
+  },
+  {
+   "i": 19,
+   "scene": "action",
+   "start": 335.994,
+   "end": 354.058,
+   "en": "Each ring keeps its own deficit; a class dies only when every ring reaches k minus one. On two seven-cycles, modes x and y that are each short on one ring both act nonzero, every power of x acts nonzero, yet x y kills the whole quotient.",
+   "zh": "每个环保留自己的亏量；只有当每个环都达到 k − 1 时，一个类才消失。在两个七环上，各在一个环上欠缺的模式 x 和 y 都作用非零，x 的每个幂都作用非零，而 xy 却消灭整个商模。"
+  },
+  {
+   "i": 20,
+   "scene": "action",
+   "start": 354.658,
+   "end": 371.806,
+   "en": "The end of the resolution follows the generators. Two seven-cycles sharing a root have five hundred five modes and projective dimension four hundred ninety-one, and the last module has one summand of degree five hundred two and two hundred one of degree five hundred.",
+   "zh": "分解的末端由生成元决定。共享一个根的两个七环有 505 个模式，投射维数为 491；最后一个模有一个 502 次直和项和 201 个 500 次直和项。"
+  },
+  {
+   "i": 21,
+   "scene": "separator",
+   "start": 374.006,
+   "end": 386.524,
+   "en": "Finally, glue along any shared induced separator. A global array exists exactly when the branches can produce one common separator histogram, the number of rows showing each separator pattern.",
+   "zh": "最后，沿任意共享的诱导分隔子粘合。整体阵列存在，当且仅当各分支能给出同一个分隔子直方图，即显示每种分隔子模式的行数。"
+  },
+  {
+   "i": 22,
+   "scene": "separator",
+   "start": 387.124,
+   "end": 402.119,
+   "en": "Matching one-point totals always suffices exactly when the separator is complete. If two separator vertices are not adjacent, paths of lengths two and three put them in the same row and in opposite rows: an odd five-cycle, once more.",
+   "zh": "单点总数相配总是足够，当且仅当分隔子是完全图。若两个分隔子顶点不相邻，长度为二和三的路径分别把它们放进同一行和相反的两行：又是一个五元奇环。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 404.519,
+   "end": 420.299,
+   "en": "An elliptic carrier and its kernel, exact Pfaffian syzygies, self-dual paths, a seam matrix, the odd-ring defect, nilpotent layers, an index that forgets the action, synchronized roots, cyclewise deficits and the separator criterion.",
+   "zh": "一个带着核的椭圆载体，正合的 Pfaff 合冲，自对偶的路径，接缝矩阵，奇环缺陷，幂零的层，忘掉作用的指标，同步的根，逐环亏量，以及分隔子判据。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 420.899,
+   "end": 438.408,
+   "en": "Path-polytope reciprocity, Miyazaki's odd-cycle classification and stable-set gluing are published inputs, the Fibonacci count of path modes is frozen in Lean, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+   "zh": "路径多面体互反律、Miyazaki 的奇环分类与稳定集粘合是已发表的输入，路径模式的 Fibonacci 计数已在 Lean 中冻结，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 447.408
+}
