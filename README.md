@@ -133,6 +133,8 @@ Release page.
 | 114 | [FIB-NATIVE ATTRACTIVE BOUNDARY II · GREEN TAIL, BOUNDED COUNT AND THE WALL PHASE](films/114-attractive2/) · FIB 原生吸引边界响应 第二部：格林尾、有界计数与墙相位 | 7:26 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 226 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-114-v1/TRURETURING_114_narrated_EN_subs_ZH-EN.mp4) |
 | 115 | [FIB-NATIVE ATTRACTIVE BOUNDARY III · PHASE-ALIGNED GLUING, ZERO MODES AND COMPATIBILITY](films/115-attractive3/) · FIB 原生吸引边界响应 第三部：相位对齐粘合、零模与相容校正 | 6:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 176 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-115-v1/TRURETURING_115_narrated_EN_subs_ZH-EN.mp4) |
 | 116 | [AURIC ENVIRONMENT MEMORY I · SAME CHANNEL, SIX VALUES OR N BITS, AND THE ERASED HISTORY](films/116-envmemory1/) · AURIC 环境记录记忆 第一部：同一信道、六个值或 n 比特与被擦除的历史 | 7:12 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 195 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-116-v1/TRURETURING_116_narrated_EN_subs_ZH-EN.mp4) |
+| 117 | [AURIC ENVIRONMENT MEMORY II · EXACT TASK ERRORS AND MATCHING CERTIFICATES](films/117-envmemory2/) · AURIC 环境记录记忆 第二部：精确任务误差与匹配证书 | 7:08 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 192 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-117-v1/TRURETURING_117_narrated_EN_subs_ZH-EN.mp4) |
+| 119 | [AURIC FIVE-WINDOW MEMORY II · SWITCHED CHANNELS, A SURVIVING BIT AND UNIFORM ERASURE](films/119-fivewindow2/) · AURIC 五窗口记忆 第二部：切换通道、存活的一位与一致遗忘 | 7:01 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 189 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-119-v1/TRURETURING_119_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
