@@ -112,6 +112,7 @@ Release page.
 | 093 | [AURIC V25–V27 · GOLDEN TILINGS AND RIGID MIRRORS](films/093-auricv25/) · AURIC V25–V27：黄金铺砌与刚性镜像 | 7:24 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 201 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-093-v1/TRURETURING_093_narrated_EN_subs_ZH-EN.mp4) |
 | 094 | [AURIC V28 · BINARY READOUT, FULL-FRAME COMPATIBILITY AND THE E8 GOLDEN BRIDGE](films/094-auricv28/) · AURIC V28：二元读出、全框架相融与 E8 黄金门桥梁 | 7:29 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 205 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-094-v1/TRURETURING_094_narrated_EN_subs_ZH-EN.mp4) |
 | 095 | [AURIC V30–V31 · STATIC RECORDS, GOLDEN CLOCKS AND METRIC RECOVERY](films/095-auricv30/) · AURIC V30–V31：静态记录、黄金时钟与度规恢复 | 7:28 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 203 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-095-v1/TRURETURING_095_narrated_EN_subs_ZH-EN.mp4) |
+| 098 | [AURIC V35–V36 · THREE-AXIS ERRORS, FOUR-OF-FIVE RECOVERY AND ERROR SERIES](films/098-auricv35/) · AURIC V35–V36：三轴误差、四推一恢复与误差级数 | 7:15 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 199 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-098-v1/TRURETURING_098_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
