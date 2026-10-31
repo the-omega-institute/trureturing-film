@@ -1,0 +1,293 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 19.681
+  },
+  {
+   "id": "title",
+   "start": 19.681,
+   "end": 34.745
+  },
+  {
+   "id": "channel",
+   "start": 34.745,
+   "end": 69.324
+  },
+  {
+   "id": "sharp",
+   "start": 69.324,
+   "end": 98.802
+  },
+  {
+   "id": "certify",
+   "start": 98.802,
+   "end": 131.554
+  },
+  {
+   "id": "even",
+   "start": 131.554,
+   "end": 164.763
+  },
+  {
+   "id": "unital",
+   "start": 164.763,
+   "end": 194.099
+  },
+  {
+   "id": "tasks",
+   "start": 194.099,
+   "end": 228.691
+  },
+  {
+   "id": "noref",
+   "start": 228.691,
+   "end": 261.136
+  },
+  {
+   "id": "orbit",
+   "start": 261.136,
+   "end": 292.019
+  },
+  {
+   "id": "zero",
+   "start": 292.019,
+   "end": 324.072
+  },
+  {
+   "id": "exact2",
+   "start": 324.072,
+   "end": 358.818
+  },
+  {
+   "id": "slope",
+   "start": 358.818,
+   "end": 393.856
+  },
+  {
+   "id": "finale",
+   "start": 393.856,
+   "end": 442.132
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 18.681,
+   "en": "A qutrit passes through a fair chronological channel whose history is then erased; only the final qutrit reaches the decoder. How well can one terminal decoder recover the unknown input, horizon by horizon?",
+   "zh": "一个 qutrit 通过公平的按时序信道，随后其历史被擦除；只有最终的 qutrit 到达解码器。一个终端解码器逐个时域能把未知输入恢复到什么程度？"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 20.881,
+   "end": 27.283,
+   "en": "AURIC erased-history recovery, part one: sharp terminal decoders and the exact second horizon.",
+   "zh": "AURIC 擦除历史的终端恢复，第一部：锐利终端解码器与精确的二步时域。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 27.883,
+   "end": 33.345,
+   "en": "One decoder per horizon, tested with and without a reference, and bounded from both sides.",
+   "zh": "每个时域一个解码器，分别在有参考与无参考下检验，并从两侧给出界。"
+  },
+  {
+   "i": 3,
+   "scene": "channel",
+   "start": 35.545,
+   "end": 52.032,
+   "en": "In a fixed basis the n-step channel is a rotation U zero after a reduced map Phi s, with s equal to minus one half to the power n minus one; Phi s scales one coherence by s, erases the others and mixes two populations.",
+   "zh": "在固定基下，n 步信道是约化映射 Φ_s 之后再作旋转 U₀，其中 s = (−1/2)ⁿ⁻¹；Φ_s 把一个相干项乘以 s，抹去其余相干项，并混合两个布居。"
+  },
+  {
+   "i": 4,
+   "scene": "channel",
+   "start": 52.632,
+   "end": 67.924,
+   "en": "A decoder is one CPTP map per horizon on the terminal qutrit, scored by half the diamond distance to the identity. That a Kraus list whose adjoint products sum to the identity is a channel is a frozen Lean theorem.",
+   "zh": "解码器是每个时域一个、只作用于末端 qutrit 的 CPTP 映射，以到恒等映射的半钻石距离计分。伴随乘积之和为单位阵的 Kraus 列表构成一个信道，这是一条已冻结的 Lean 定理。"
+  },
+  {
+   "i": 5,
+   "scene": "sharp",
+   "start": 70.124,
+   "end": 83.365,
+   "en": "The exact errors are one half at horizon one, thirteen eighteenths at horizon three; at odd horizons the kept fraction is one plus s, times one plus two s, over five plus seven s.",
+   "zh": "精确误差：时域一为 1/2，时域三为 13/18；奇数时域的保留比例为 (1 + s)(1 + 2s)/(5 + 7s)。"
+  },
+  {
+   "i": 6,
+   "scene": "sharp",
+   "start": 83.965,
+   "end": 97.402,
+   "en": "Even horizons have other closed forms; the errors never decrease and climb to four fifths, the value of the limiting measure-and-prepare channel. At odd horizons, simply undoing the rotation is optimal.",
+   "zh": "偶数时域有另外的闭式；误差从不下降，并升到极限测量-制备信道的值 4/5。在奇数时域，直接撤销旋转就是最优解码。"
+  },
+  {
+   "i": 7,
+   "scene": "certify",
+   "start": 99.602,
+   "end": 117.581,
+   "en": "Each value has two certificates. A weighted entangled probe bounds every decoder from below; above, the recovered Choi block satisfies M p equals eta times the ones vector, so the recovered channel dominates eta times the identity completely positively.",
+   "zh": "每个值都有两份证书。带权纠缠探针从下方约束所有解码器；从上方，恢复后的 Choi 块满足 M p = η·1，因此恢复信道在完全正序下支配 η 倍的恒等映射。"
+  },
+  {
+   "i": 8,
+   "scene": "certify",
+   "start": 118.181,
+   "end": 130.154,
+   "en": "At horizon one the probe weights are one, two, three over six, giving exactly one half; the unweighted maximally entangled probe shows only root two over three, so the weights matter.",
+   "zh": "时域一的探针权重为 (1, 2, 3)/6，恰好给出 1/2；不加权的最大纠缠探针只显示 √2/3，所以权重不可省。"
+  },
+  {
+   "i": 9,
+   "scene": "even",
+   "start": 132.354,
+   "end": 148.476,
+   "en": "Horizon two is exceptional. Its decoder uses r star, the unique root between three tenths and one third of the equation two minus r, times one minus r squared squared, equals four r; the error is zero point seven zero eight one.",
+   "zh": "时域二是例外。其解码器用到 r*：方程 (2 − r)(1 − r²)² = 4r 在 3/10 与 1/3 之间的唯一根；误差为 0.7081。"
+  },
+  {
+   "i": 10,
+   "scene": "even",
+   "start": 149.076,
+   "end": 163.363,
+   "en": "Every later even horizon uses h, the square root of one plus t over one minus t, with t two to the one minus n; its Kraus parameters stay legal because a sextic stays above seventeen over forty-nine.",
+   "zh": "其后每个偶数时域用 h = √((1 + t)/(1 − t))，t = 2¹⁻ⁿ；其 Kraus 参数始终合法，因为一个六次多项式始终大于 17/49。"
+  },
+  {
+   "i": 11,
+   "scene": "unital",
+   "start": 165.563,
+   "end": 178.235,
+   "en": "Restrict to unital decoders, which fix the maximally mixed state. At horizon zero, at every odd horizon and in the limit nothing is lost: a unital decoder already attains the optimum.",
+   "zh": "限制为单位保持（unital）解码器，即固定最大混合态的解码器。在时域零、每个奇数时域与极限处毫无损失：已有单位保持解码器达到最优。"
+  },
+  {
+   "i": 12,
+   "scene": "unital",
+   "start": 178.835,
+   "end": 192.699,
+   "en": "At every finite even horizon the unital value is strictly larger, so every optimal decoder there is non-unital: at horizon two optimality forces z to vanish while unitality needs r star squared.",
+   "zh": "在每个有限偶数时域，单位保持的值严格更大，故那里的每个最优解码器都不保持单位：时域二上最优性迫使 z = 0，而单位保持要求 z = r*²。"
+  },
+  {
+   "i": 13,
+   "scene": "tasks",
+   "start": 194.899,
+   "end": 210.974,
+   "en": "Now score single tasks: the expectation error of one rank-one effect, worst over inputs. Each task alone has an exact optimum; for three chosen effects they are zero, one minus the absolute value of s over two, and one half.",
+   "zh": "现在给单个任务计分：一个秩一效应的期望误差，取最坏输入。每个任务单独都有精确最优值；对三个选定效应分别为 0、(1 − |s|)/2 与 1/2。"
+  },
+  {
+   "i": 14,
+   "scene": "tasks",
+   "start": 211.574,
+   "end": 227.291,
+   "en": "One decoder attains all rank-one optima at once only at horizons zero and one. From horizon two on, and in the limit, any decoder misses one of these three by more than one over two hundred fifty, though every pair is compatible.",
+   "zh": "只有在时域零和一，才有一个解码器同时达到所有秩一最优值。从时域二起直到极限，任何解码器都会在这三个任务之一上超出最优值 1/250 以上，而任意两个任务都可兼容。"
+  },
+  {
+   "i": 15,
+   "scene": "noref",
+   "start": 229.491,
+   "end": 244.197,
+   "en": "Without a reference, test only density inputs. A Fourier guessing game bounds every decoder below by two thirds minus two ninths of the absolute value of s, and two orthogonal states with one shared output give one half.",
+   "zh": "去掉参考系，只用密度矩阵输入检验。一个傅里叶猜测游戏给所有解码器下界 2/3 − 2|s|/9，两个输出相同的正交态给出下界 1/2。"
+  },
+  {
+   "i": 16,
+   "scene": "noref",
+   "start": 244.797,
+   "end": 259.736,
+   "en": "At horizon zero, horizon one and the limit the exact values are zero, one half and two thirds. With a reference the error is larger by more than two over eighty-seven from horizon two on, and by two fifteenths in the limit.",
+   "zh": "时域零、时域一与极限处的精确值为 0、1/2 与 2/3。带参考系时，从时域二起误差大出 2/87 以上，极限处大出 2/15。"
+  },
+  {
+   "i": 17,
+   "scene": "orbit",
+   "start": 261.936,
+   "end": 276.858,
+   "en": "On the whole orbit of uniform-modulus states, every phase included, the minimax is exact: F of q is one minus q plus the root of one minus q squared plus eight, over six, with q the absolute value of s.",
+   "zh": "在包含所有相位的整条等模态轨道上，极小极大值是精确的：F(q) = (1 − q + √((1 − q)² + 8))/6，其中 q = |s|。"
+  },
+  {
+   "i": 18,
+   "scene": "orbit",
+   "start": 277.459,
+   "end": 290.619,
+   "en": "So F of q bounds the full problem below, strictly above the Fourier bound for every nonzero s. Yet the matching orbit decoder errs by three quarters on a basis state at horizon two.",
+   "zh": "因此 F(q) 是完整问题的下界，并对每个非零 s 严格高于傅里叶界。但在时域二，与轨道匹配的解码器在一个基态上的误差为 3/4。"
+  },
+  {
+   "i": 19,
+   "scene": "zero",
+   "start": 292.819,
+   "end": 307.075,
+   "en": "In the limit, with no symmetry assumed, the optimal decoders are exactly the unital ones sending the zero state to the diagonal state v, one minus v over two, one minus v over two, with v from one third to one.",
+   "zh": "在极限处、不假设任何对称性，最优解码器恰为把零态送到对角态 (v, (1 − v)/2, (1 − v)/2) 的单位保持解码器，1/3 ≤ v ≤ 1。"
+  },
+  {
+   "i": 20,
+   "scene": "zero",
+   "start": 307.675,
+   "end": 322.672,
+   "en": "For v above one third the worst inputs are exactly those with population one third on the zero state. The set is convex but not a face, and every limit of optimal decoders, as the horizon grows, lies inside it.",
+   "zh": "当 v > 1/3 时，最坏输入恰是零态布居为 1/3 的那些态。该集合是凸的但不是面；随着时域增大，最优解码器的每个极限点都落在其中。"
+  },
+  {
+   "i": 21,
+   "scene": "exact2",
+   "start": 324.872,
+   "end": 341.283,
+   "en": "At horizon two the full no-reference value is exact: L star, zero point six zero six four four seven, the L coordinate of the unique root of eleven polynomial equations in a rational box of radius ten to the minus twenty.",
+   "zh": "时域二上完整的无参考值是精确的：L* = 0.606447，即半径 10⁻²⁰ 的有理盒中十一个多项式方程唯一根的 L 坐标。"
+  },
+  {
+   "i": 22,
+   "scene": "exact2",
+   "start": 341.883,
+   "end": 357.418,
+   "en": "A five-Kraus decoder has error at most L star on every input, reaching it on two contact orbits; twelve physical test states, in families weighted about point three four and point six six, bound every decoder below by the same number.",
+   "zh": "一个五 Kraus 解码器在每个输入上的误差至多为 L*，并在两条接触轨道上达到；十二个物理检验态分两族、权重约 0.34 与 0.66，给所有解码器同一个下界。"
+  },
+  {
+   "i": 23,
+   "scene": "slope",
+   "start": 359.618,
+   "end": 375.303,
+   "en": "On the negative branch one fixed decoder serves every even horizon: the reduced map at minus one half. Composed with Phi of minus q it gives Phi of q over two, so its error is exactly two thirds minus q over twelve.",
+   "zh": "在负分支上，一个固定解码器适用于所有偶数时域：约化映射 Φ_(−1/2)。它与 Φ_(−q) 复合得到 Φ_(q/2)，故误差恰为 2/3 − q/12。"
+  },
+  {
+   "i": 24,
+   "scene": "slope",
+   "start": 375.903,
+   "end": 392.456,
+   "en": "No decoder in the zero-optimal set does better. For small q, moving non-unital decoders do: the unrestricted coefficient is root two over nine, so the optimal error is two thirds minus root two over nine times q, up to smaller terms.",
+   "zh": "零最优集中没有解码器能做得更好。q 较小时，随 q 移动的非单位保持解码器可以：不受限的一阶系数为 √2/9，最优误差为 2/3 − (√2/9)q 再加更高阶的小量。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 394.856,
+   "end": 415.225,
+   "en": "One rotation after one reduced map; exact diamond values, a quintic root and matching certificates; non-unital optima at even horizons; three conflicting tasks; no-reference bounds and the phase orbit; the zero optimizer set; an exact second horizon; and a slope of root two over nine.",
+   "zh": "一个约化映射接一次旋转；精确钻石值、一个五次根与匹配证书；偶数时域的非单位保持最优；三个冲突任务；无参考界与相位轨道；零最优集；精确的二步时域；以及斜率 √2/9。"
+  },
+  {
+   "i": 26,
+   "scene": "finale",
+   "start": 415.825,
+   "end": 433.132,
+   "en": "The Kraus-channel step is a frozen general Lean theorem; Watrous's norm and Choi results and the cited discrimination and comparison frameworks are published inputs; the rest is argued in the theory volume, and the finite computations were redone for this film.",
+   "zh": "Kraus 信道这一步是已冻结的一般 Lean 定理；Watrous 的范数与 Choi 结果以及所引的判别与比较框架是已发表的输入；其余由理论卷论证，有限计算为本片重做。"
+  }
+ ],
+ "duration": 442.132
+}
