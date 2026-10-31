@@ -90,6 +90,9 @@ Release page.
 | 071 | [AURIC–LANGLANDS III · ACQUISITION, COVER AND CRITICAL DOMAIN](films/071-langlandscover/) · AURIC–Langlands 第三部：取得、覆盖与临界域 | 6:00 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 165 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-071-v1/TRURETURING_071_narrated_EN_subs_ZH-EN.mp4) |
 | 072 | [AURIC–LANGLANDS IV · DEGENERATION, RAMIFICATION AND STABLE RECOVERY](films/072-langlandsdegen/) · AURIC–Langlands 第四部：退化、分歧与稳定恢复 | 6:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 177 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-072-v1/TRURETURING_072_narrated_EN_subs_ZH-EN.mp4) |
 | 073 | [AURIC Ω VII · SO5 PATHS](films/073-omegapaths/) · AURIC Ω 第七部：SO₅ 路径、十四维恢复与 Hecke | 7:17 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 197 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-073-v1/TRURETURING_073_narrated_EN_subs_ZH-EN.mp4) |
+| 074 | [AURIC–E8 · COMPATIBLE EXTENSIONS AND OBSERVATION](films/074-e8extensions/) · AURIC–E8：相容扩张与观察理论 | 6:57 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 190 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-074-v1/TRURETURING_074_narrated_EN_subs_ZH-EN.mp4) |
+| 075 | [AURIC–LANGLANDS V · CUBIC SHALLOW TWIST COLLISION](films/075-langlandscubic/) · AURIC–Langlands 第五部：三次浅扭碰撞 | 4:45 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 130 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-075-v1/TRURETURING_075_narrated_EN_subs_ZH-EN.mp4) |
+| 076 | [AURIC QUANTUM PRINCIPLES I · FIVE MODES, COMPLEX STRUCTURE AND COHERENT RECORDS](films/076-qprinciples1/) · AURIC 量子原理 第一部：五模式、复结构与相干记录 | 7:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 207 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-076-v1/TRURETURING_076_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
