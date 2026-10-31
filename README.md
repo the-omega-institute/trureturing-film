@@ -124,6 +124,8 @@ Release page.
 | 105 | [AURIC V51–V52 · ANTIPODAL CONSTRAINTS, PHASE QUOTIENTS AND LOSSLESS RECURSION](films/105-auricv51/) · AURIC V51–V52：对跖约束、相位商与无损递归 | 7:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 203 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-105-v1/TRURETURING_105_narrated_EN_subs_ZH-EN.mp4) |
 | 106 | [FIB-NATIVE GREEN STABILITY I · THE DOUBLE WALL, PERIODIC BINDING AND THE HIDDEN CIRCLE](films/106-greenstab1/) · FIB 原生 Green 稳定性 第一部：双壁、周期束缚与隐藏圆 | 7:07 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 192 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-106-v1/TRURETURING_106_narrated_EN_subs_ZH-EN.mp4) |
 | 107 | [FIB-NATIVE GREEN STABILITY II · SHARP COUPLING, CRITICAL CAPS AND COMMAND LAWS](films/107-greenstab2/) · FIB 原生 Green 稳定性 第二部：锐耦合、临界截断与指令律 | 7:25 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 216 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-107-v1/TRURETURING_107_narrated_EN_subs_ZH-EN.mp4) |
+| 109 | [FIB-NATIVE LONG-TIME PHASE I · ONE DIRECTION, RANK THREE AND THE HEIGHT IN THE PHASE](films/109-longphase1/) · FIB 原生长时相位 第一部：一个方向、秩三与相位中的高度 | 7:22 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 202 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-109-v1/TRURETURING_109_narrated_EN_subs_ZH-EN.mp4) |
+| 110 | [FIB-NATIVE LONG-TIME PHASE II · WEAK BINDING, ENGEL THRESHOLD AND CRITICAL MODE](films/110-longphase2/) · FIB 原生长时相位 第二部：弱束缚、Engel 阈值与临界模 | 7:12 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 196 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-110-v1/TRURETURING_110_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
