@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Parts one and two grew a native tree of alpha and beta leaves and counted the terminal Reads that recover its rational field. Part three lets the observer grow the tree, leave leaves unread, and read through a serial clock.",
+     "第一、二部用 α 叶与 β 叶长出一棵原生树，并数出恢复其有理场所需的终端读取次数。第三部允许观察者让树生长、让某些叶不被读取，并通过串行时钟读取。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Recursive relational observation, native leaf boundary, part three: hidden modes, repairs and a serial clock.",
+     "递归关系观察·原生叶边界获取 第三部：隐藏模态、修复与串行时钟。"
+    ],
+    [
+     "Parity survives growth, a gcd hides modes, one birth repairs them, and a perfect matching makes Tick invertible.",
+     "奇偶性经得起生长，gcd 藏起模态，一次出生修复它们，完美匹配让 Tick 可逆。"
+    ]
+   ]
+  },
+  {
+   "id": "grade",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with depth parity. Every material edge changes depth by one and growth keeps old depths, so a Read at terminal f sees the entry term A to the k only when k matches depth f minus depth e minus the Tick count, modulo two.",
+     "先看深度奇偶。每条物质边让深度改变一，生长保留旧深度，所以终端 f 处的读取只有当 k ≡ |f| − |e| − T (mod 2) 时才能看见入口项 Aᵏe。"
+    ],
+    [
+     "So a binary word stored by Tick and Add still needs two late Reads, one of each effective parity, even if the receiver may grow the tree adaptively. Two Reads at the advanced field attain this.",
+     "因此由 Tick 与 Add 存入的二进制词仍需要两次后期读取，两种有效奇偶各一次，即使接收者可以自适应地让树生长。在推进后的场上两次读取即可达到。"
+    ]
+   ]
+  },
+  {
+   "id": "mark",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Next, the marked entrance. Marking an arbitrary attachment saves the overwritten leaf values and leaves b minus one unknown internal coordinates. A geometry-only choice of exactly b minus one Reads recovers them, and fewer never suffice.",
+     "接着看标记入口。标记一个任意接入时保存被覆写的叶值，只剩 b − 1 个未知的内部坐标。仅由几何决定、恰好 b − 1 次的读取就能恢复它们，更少则永远不够。"
+    ],
+    [
+     "Forward control then returns every old cell to its entry value with fresh cells at zero, with no Reset and no inverse Tick. Compared with the full window, this omits b times I plus one complete Read transactions.",
+     "随后前向控制让每个旧单元回到入口值，新单元为零，不用 Reset，也不用逆 Tick。与完整窗口相比，省去了 bI + 1 次完整的读取事务。"
+    ]
+   ]
+  },
+  {
+   "id": "divisor",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now keep the geometry fixed and leave two terminals unread. Let d be their path length and g the gcd of d plus two and one plus each attachment position. The hidden space has dimension g minus one, with eigenvalues two cosine q pi over g.",
+     "现在固定几何，让两个终端不被读取。设 d 是它们之间的路径长度，g = gcd(d + 2, 各挂接位置 j + 1)。隐藏空间的维数是 g − 1，本征值为 2cos(qπ/g)。"
+    ],
+    [
+     "So the entry field is recoverable exactly when g is one, and the advanced current field exactly when g is at most two, because the only hidden mode at g equal two is a zero mode.",
+     "所以入口场恰在 g = 1 时可恢复，推进后的当前场恰在 g ≤ 2 时可恢复，因为 g = 2 时唯一的隐藏模态是零模。"
+    ]
+   ]
+  },
+  {
+   "id": "quat",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Quaternary words on the seven-cell tree need more. A positive comparison vector grows by at most ninety-five over forty-eight per Tick, and its square is below four, so one graded Read always merges two digit strings.",
+     "七单元树上的四进制词需要更多读取。一个正的比较向量每次 Tick 至多增长 95/48 倍，其平方小于四，所以一次分级读取总会把两个数字串合并。"
+    ],
+    [
+     "Freezing rows one at a time, two words still collide after any three Reads, even with adaptive growth and Adds. Four Reads at epochs three and four on two leaves suffice, so four is the exact worst case.",
+     "逐行冻结后，任意三次读取之后仍有两个词相撞，即使允许自适应生长与 Add。在两个叶上、第三与第四时刻读四次就够了，所以四是精确的最坏情形。"
+    ]
+   ]
+  },
+  {
+   "id": "repair",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Return to two omitted labels, on every native tree. The divisor is always one, two or three. At two, promote an omitted deep alpha; at three, split the owner of an omitted deep beta. Either birth makes the divisor one.",
+     "回到两个被省略的标签，这次在每棵原生树上。除数总是一、二或三。为二时提升一个被省略的深层 α；为三时分裂一个被省略深层 β 的所有者。任一次出生都让除数变为一。"
+    ],
+    [
+     "So the fewest successful births are zero, one, one for the entry report and zero, zero, one for the current field. Births confined to readable cones, however many, never repair these defects.",
+     "因此最少的成功出生次数，对入口报告是 0、1、1，对当前场是 0、0、1。只限于可读锥内部的出生，无论多少次，都修复不了这些缺陷。"
+    ]
+   ]
+  },
+  {
+   "id": "mask",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "An inherited mask may hide any k labels. Replace each chosen masked leaf by a short native chain with two fresh readable labels; the allowed terminals then zero-force the whole grown tree, even leaving one mask unreplaced.",
+     "继承的掩码可以藏起任意 k 个标签。把每个选中的被掩叶换成一条带两个新可读标签的短原生链；这样允许的终端就能零强迫整棵生长后的树，哪怕留下一个掩码不换。"
+    ],
+    [
+     "That tree has at most N plus five times k minus one cells. Exactly N Reads report the entry, the least possible, and further Adds at allowed terminals return the old cells physically.",
+     "这棵树至多有 N + 5(k − 1) 个单元。恰好 N 次读取报告入口，这已是最少；再在允许的终端上做 Add，就能把旧单元按物理方式复原。"
+    ]
+   ]
+  },
+  {
+   "id": "fresh",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Or read fresh sensors only: grow one readable leaf beside each native leaf and read nothing else. One Tick copies every old terminal value into a sensor, so the record fixes the entry, and so does the current field after any number of Ticks.",
+     "或者只读新传感器：在每个原生叶旁长出一个可读叶，其余一概不读。一次 Tick 就把每个旧终端值抄进一个传感器，所以记录确定入口；无论之后经过多少次 Tick，当前场也确定入口。"
+    ],
+    [
+     "This holds on the zero-extended entrance, not on the whole grown space. On the tree with four beta leaves, a nonzero field is sent to zero by Tick and missed by every sensor.",
+     "这只在零延拓的入口上成立，而不是在整个生长后的空间上。在有四个 β 叶的树上，有一个非零场被 Tick 送到零，并且被每个传感器漏掉。"
+    ]
+   ]
+  },
+  {
+   "id": "cherry",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A guarded family makes the price exact. Each module has a cherry with both markers masked. Repairing any set J of cherries leaves a hidden space of dimension exactly twice the number of unrepaired cherries, with eigenvalues plus and minus one.",
+     "一个带守卫的族让代价精确。每个模块有一个樱桃，两个标记都被掩住。修复任意一组樱桃 J 后，隐藏空间的维数恰为未修复樱桃数的两倍 2(k − |J|)，本征值为 ±1。"
+    ],
+    [
+     "So every exact receiver splits each cherry, k splits and two k fresh cells on every transcript. With all k split, nine k plus one Reads and eleven k plus one Adds report and return the entry.",
+     "所以每个精确的接收者都必须分裂每个樱桃，在每条记录上都是 k 次分裂、2k 个新单元。k 个全部分裂后，9k + 1 次读取与 11k + 1 次 Add 报告并复原入口。"
+    ]
+   ]
+  },
+  {
+   "id": "clock",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now a serial clock: read the leaves one per Tick, then wait out a period L. For odd L the hidden part is the kernel of A that the leading leaf misses, so the current field is always determined.",
+     "现在看串行时钟：每次 Tick 读一个叶，然后等满周期 L。L 为奇数时，隐藏部分就是 A 的核中被首个读取的叶漏掉的部分，所以当前场总能确定。"
+    ],
+    [
+     "For even L, plus and minus lambda collide. On odd combs read in natural order with period b, half of all dimensions stay blind forever, though a later Read would see them. One extra Tick per cycle removes the blind sector.",
+     "L 为偶数时，+λ 与 −λ 相撞。在按自然顺序、周期 b 读取的奇数梳上，一半维数永远看不见，尽管之后的一次读取能看见它们。每个周期多一次 Tick，就消除这个盲区。"
+    ]
+   ]
+  },
+  {
+   "id": "complete",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Finally, make Tick itself invertible. A tree's adjacency determinant is plus or minus one exactly when it has a perfect matching. At a single leaf, a full matching costs alpha one promotion and beta nothing; leaving the root free costs alpha nothing and beta one of each.",
+     "最后，让 Tick 本身可逆。树的邻接行列式恰在有完美匹配时为 ±1。在单个叶上，完全匹配对 α 需要一次提升，对 β 无需代价；让根空出来，对 α 无需代价，对 β 需要提升与分裂各一次。"
+    ],
+    [
+     "A min-plus recursion over child cones gives the exact Pareto frontier for every tree. Balanced all-beta trees need k promotions and k splits, k being the Jacobsthal numbers one, one, three, five, eleven.",
+     "对子锥做 min-plus 递推，给出每棵树精确的 Pareto 前沿。平衡的全 β 树需要 k 次提升与 k 次分裂，k 是 Jacobsthal 数 1、1、3、5、11。"
+    ]
+   ]
+  },
+  {
+   "id": "views",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "After completion, Reads chosen from geometry alone recover the whole entry, and the actual current field is installed. Because B is invertible, the entry stays recoverable at every later epoch.",
+     "完成之后，仅由几何选出的读取恢复整个入口，并装入实际的当前场。由于 B 可逆，入口在之后每个时刻都仍可恢复。"
+    ],
+    [
+     "Space, Time, Boundary and Memory then recover one another on this image, and stay consistent through a fixed script of Ticks and shears, each shear adding a donor value at a terminal.",
+     "此时空间、时间、边界与记忆在这个像上互相恢复，并且在由 Tick 与剪切组成的固定脚本中保持一致，每次剪切把一个供体值加到一个终端上。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Parity survives growth, marking needs b minus one Reads, a gcd hides modes, quaternary words need four Reads, one birth repairs, masks are repaired, fresh sensors keep the entry, cherries set a price, a clock can alias, and matchings make Tick invertible.",
+     "奇偶性经得起生长，标记需要 b − 1 次读取，一个 gcd 藏起模态，四进制词需要四次读取，一次出生完成修复，掩码得到修复，新传感器保住入口，樱桃定出代价，时钟会混叠，而匹配让 Tick 可逆。"
+    ],
+    [
+     "The single-leaf repair costs are a frozen Lean declaration, zero forcing and the tree determinant are classical, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "单叶修复代价是一条冻结的 Lean 声明，零强迫与树的行列式是经典工具，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
