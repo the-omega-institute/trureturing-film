@@ -106,6 +106,8 @@ Release page.
 | 087 | [AURIC V12–V14 · FINITE RESOLUTION, EXISTENTIAL QUANTIFIERS AND QUANTUM RECORDS](films/087-auricv12/) · AURIC V12–V14：有限分辨率、存在量词与量子记录 | 7:30 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 205 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-087-v1/TRURETURING_087_narrated_EN_subs_ZH-EN.mp4) |
 | 088 | [AURIC V15–V16 · GOLDEN GATE ARITHMETIC AND VARIATIONAL PREDICTION](films/088-auricv15/) · AURIC V15–V16：黄金门的算术与变分预测 | 7:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 203 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-088-v1/TRURETURING_088_narrated_EN_subs_ZH-EN.mp4) |
 | 089 | [AURIC V17–V18 · QUANTUM PYTHAGORAS AND RECURSIVE GOLDEN GATES](films/089-auricv17/) · AURIC V17–V18：量子勾股与递归黄金门 | 7:30 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 207 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-089-v1/TRURETURING_089_narrated_EN_subs_ZH-EN.mp4) |
+| 090 | [AURIC V19–V20 · ARITHMETIC SPECTRA AND GOLDEN SELECTOR GATES](films/090-auricv19/) · AURIC V19–V20：算术谱与黄金选择门 | 7:28 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 204 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-090-v1/TRURETURING_090_narrated_EN_subs_ZH-EN.mp4) |
+| 091 | [AURIC V21–V22 · STATIC HISTORIES AND OBSERVATION QUOTIENTS](films/091-auricv21/) · AURIC V21–V22：静态历史与观察商 | 7:28 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 207 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-091-v1/TRURETURING_091_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
