@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part one set up the quantum principles of the Fibonacci atom. Part two asks what a truth table, a fixed reflection or a shared bus really supplies, how kernels on the source trees carry phase, and why no-signalling picks the square law.",
+     "第一部建立了 Fibonacci 原子的量子原理。第二部要问：真值表、固定反射或共享总线究竟供应了什么，来源树上的核怎样携带相位，以及为什么无信号会选出平方律。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric quantum principles, part two: gate contracts, loop phases and the square law.",
+     "AURIC 量子原理第二部：门合同、闭路相位与平方律。"
+    ],
+    [
+     "A ball of channels, three reflections, a phase that will not vanish, and a power fixed at two.",
+     "一个信道球，三枚反射，一个不会消失的相位，以及一个被固定为二的幂。"
+    ]
+   ]
+  },
+  {
+   "id": "nand",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with NAND. X on the target times a Toffoli is a three-bit permutation with square one that writes NAND and keeps the inputs; bare NAND, four inputs onto two outputs, cannot be unitary.",
+     "从 NAND 开始。目标位上的 X 乘以 Toffoli 是一个平方为一的三位置换，它写出 NAND 并保留输入；裸 NAND 把四个输入压到两个输出，不可能是酉的。"
+    ],
+    [
+     "Every channel with this truth table is one point z of the closed unit ball in C three: a bit flip with coherence equal to the length of z, entanglement breaking only at zero, with Kraus rank four inside and three on the sphere.",
+     "满足这张真值表的每个信道，恰好是 ℂ³ 闭单位球中的一点 z：一个相干因子等于 z 长度的比特翻转，只在 z = 0 时破坏纠缠，球内 Kraus 秩为四，球面上为三。"
+    ]
+   ]
+  },
+  {
+   "id": "reflect",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Next, gate sets. Powers of one fixed gate commute, and two fixed involutions only fill a circle and its mirror, so neither is dense. Three fixed qubit reflections, tilted by an irrational angle alpha, are dense in PU two.",
+     "接着是门集。一枚固定门的幂彼此交换，两枚固定对合只填满一个圆和它的镜像，所以都不稠密。三枚固定的单比特反射，以无理角 α 倾斜，在 PU(2) 中稠密。"
+    ],
+    [
+     "Exactness is another contract: every element of SU d is a product of at most two times d minus one rank-one reflections, but their directions depend on the target, so this is not a fixed program.",
+     "精确是另一种合同：SU(d) 的每个元素都是至多 2(d − 1) 个秩一反射的积，但反射方向依赖目标，所以这不是一个固定程序。"
+    ]
+   ]
+  },
+  {
+   "id": "bus",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A shared coherent record must be supplied. Give one bus qubit, a gate that flips it when Q holds on system A, and a gate that applies Z to it when R holds on system B.",
+     "共享的相干记录必须另行供应。给一个总线比特，一枚在系统 A 满足 Q 时翻转它的门，以及一枚在系统 B 满足 R 时对它作用 Z 的门。"
+    ],
+    [
+     "Then A B A B is exactly one minus two Q tensor R, with the bus untouched, even if it is unknown or entangled. Started at zero, three calls suffice, and the resulting gate entangles.",
+     "于是 ABAB 恰好等于 I − 2Q⊗R，总线不受影响，即使它是未知的或处于纠缠中。若总线从零开始，三次调用就够了，而且得到的门能产生纠缠。"
+    ]
+   ]
+  },
+  {
+   "id": "rigid",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now kernels on the source trees: all finite ordered binary trees in alpha and beta, with alpha sent to beta and beta to beta alpha. A Hermitian, transport invariant, exactly multiplicative kernel takes only the values zero and one.",
+     "现在看来源树上的核：α、β 上全部有限有序二叉树，运输把 α 送到 β、把 β 送到 ⟨β, α⟩。一个 Hermitian、运输不变、精确可乘的核只取零和一两个值。"
+    ],
+    [
+     "That is a frozen Lean theorem. A faithful such kernel is the delta kernel. Without exact multiplication, c plus one minus c delta is a valid kernel for every c in zero to one, with node value c, not c squared.",
+     "这是一条冻结的 Lean 定理。忠实的这种核就是 delta 核。没有精确乘法时，c + (1 − c)δ 对 [0, 1] 中每个 c 都是合法的核，节点上的值是 c 而不是 c²。"
+    ]
+   ]
+  },
+  {
+   "id": "drift",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Is this rigidity stable? Give every node with equal children a phase pi over five n. The multiplication defect stays below one over n, yet on a moving comb pair the kernel equals minus a n, at least four fifths away from zero and from one.",
+     "这种刚性稳定吗？给每个左右子树相等的节点一个相位 π/(5n)。乘法缺陷始终低于 1/n，但在一对移动的梳状树上核等于 −aₙ，与零和一的距离都至少是 4/5。"
+    ],
+    [
+     "Moduli do not rescue it. Weight by the symmetric difference of equal-child positions instead: the kernel is real and positive, its defect still below one over n, yet the same pair has value a n over e, between a quarter and a half.",
+     "取模长也救不回来。改用相等子树位置集的对称差加权：核是正实数，缺陷仍低于 1/n，但同一对树的核值是 aₙ/e，介于四分之一与二分之一之间。"
+    ]
+   ]
+  },
+  {
+   "id": "bargmann",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now colour each equal-child node by the parity of its subtree count, with three complex local vectors. Three moving combs close a Bargmann loop: a cubed times, b cubed times b plus i h, to the power five n.",
+     "现在按子树计数的奇偶给每个相等子树节点着色，并配上三个复局部向量。三棵移动梳状树闭合出一个 Bargmann 环：a³·[b³(b + ih)]⁵ⁿ。"
+    ],
+    [
+     "Its phase, five n arctangent of one over five n minus one, stays between one and five quarters, and its modulus above four fifths to the twenty-third, while the defect is below one over n. No vertex rephasing removes it.",
+     "它的相位 5n·arctan(1/(5n − 1)) 始终在 1 与 5/4 之间，模长始终大于 (4/5)²³，而缺陷低于 1/n。任何顶点重相位都消不掉它。"
+    ]
+   ]
+  },
+  {
+   "id": "records",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Can a reader see this phase? Take the real kernel, the modulus of the complex one. Under destructive queries that reset on failure, both models give the same complete record law for every adaptive strategy: each branch weight is a squared overlap.",
+     "读者能看到这个相位吗？取实核，即复核的模长。在失败即重置的破坏性查询下，对每个自适应策略，两个模型给出相同的完整记录律：每个分支权重都是重叠的模平方。"
+    ],
+    [
+     "Keep the rejection instead: a Lüders measurement on the second comb, then a query of the third. The minus-then-plus record differs by two times the loop modulus times one minus cosine theta, at least point zero zero five four.",
+     "改为保留拒绝支：先对第二棵梳状树作 Lüders 测量，再查询第三棵。“先负后正”记录相差 2|Bₙ|(1 − cos θₙ)，至少为 0.0054。"
+    ]
+   ]
+  },
+  {
+   "id": "fivemode",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The native five-mode menu cannot keep such rejections. With waiting, full rank-one readout, stopping and classical feedback, every branch that reads once has rank one, so the rejection part breaks entanglement.",
+     "原生五模菜单保不住这样的拒绝。只有等待、完整秩一读出、停止与经典反馈时，每条读过一次的分支秩都是一，所以拒绝部分破坏纠缠。"
+    ],
+    [
+     "Against the flag channel that keeps a four-dimensional rejection coherent, the half-diamond distance is at least the larger of w and three quarters of one minus w, with w the weight that never reads: never below three sevenths.",
+     "与保持四维拒绝子空间相干的旗标信道相比，半 diamond 距离至少是 w 与 ¾(1 − w) 中的较大者，其中 w 是从不读出的权重：永远不低于 3/7。"
+    ]
+   ]
+  },
+  {
+   "id": "convert",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Grafting and splitting trees from their states alone has a price. With exact flagged success, grafting two leaves succeeds with probability one minus a over one minus a root b, tending to two thirds; splitting tends to one half.",
+     "只凭态来嫁接或拆分树是有代价的。要求精确带旗标成功时，嫁接两片叶子的成功概率是 (1 − a)/(1 − a√b)，趋于 2/3；拆分则趋于 1/2。"
+    ],
+    [
+     "Allow errors and one common channel serves every tree, with error of order one over root n; at n equal one, between point zero four nine and point seven four four. Exact and approximate costs are different questions.",
+     "允许误差时，一条共同信道就能服务所有树，误差是 1/√n 阶；n = 1 时介于 0.049 与 0.744 之间。精确代价与近似代价是两个不同的问题。"
+    ]
+   ]
+  },
+  {
+   "id": "born",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the probability rule. Keep the golden gate K and complex amplitudes, but replace Born's square by a power p, normalised over all thirty-two words. Two K calls prepare a five-site source; Bob then waits or calls K once more.",
+     "现在看概率规则。保留黄金门 K 与复振幅，但把 Born 的平方换成幂 p，在全部 32 个字上归一化。两次调用 K 制备一个五站点来源；然后 Bob 要么等待，要么再调用一次 K。"
+    ],
+    [
+     "Alice's marginal shifts by a positive factor times X plus Y minus one, where X and Y are p-th powers of two moduli whose squares sum to one. It vanishes exactly at p equal two: no-signalling picks the square.",
+     "Alice 的边缘改变量是一个正因子乘以 X + Y − 1，其中 X、Y 是两个模长的 p 次幂，而这两个模长的平方和为一。它恰在 p = 2 时为零：无信号选出了平方。"
+    ]
+   ]
+  },
+  {
+   "id": "radial",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One test is not a derivation. A log-periodic response, r squared times one plus epsilon sine squared, matches both tables word for word, because every modulus there is a power of y; calling K three twice separates it.",
+     "一次检验不是推导。对数周期响应 r²(1 + ε sin²(…)) 逐字通过两张表，因为表中每个模长都是 y 的幂；连续调用两次 K₃ 就能把它区分出来。"
+    ],
+    [
+     "On the ten-site Fibonacci code, a common radial response is no-signalling for every finite preparation word exactly when f of r is r squared. No finite test suite fixed in advance certifies this, and on the code active swap symmetry gives the joint Born law.",
+     "在十站点 Fibonacci 码上，一个共同的径向响应对每个有限制备字都无信号，当且仅当 f(r) = r²。没有任何预先固定的有限检验套件能认证这一点；在码上，主动交换对称给出联合 Born 律。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "A truth table leaves a ball of channels, three reflections are dense, a bus returns, exact kernels are zero or one, a loop phase survives small defects, kept rejection sees it, native readout cannot, and no-signalling fixes the square.",
+     "真值表留下一个信道球，三枚反射稠密，总线原样返回，精确核只取零或一，闭路相位挺过小缺陷，保留拒绝看得见它而原生读出不能，无信号固定了平方。"
+    ],
+    [
+     "The zero-one rigidity is a frozen Lean theorem, Fibonacci braid density and the standard conversion and Schmidt bounds are published inputs, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "零一刚性是一条冻结的 Lean 定理，Fibonacci 编织稠密性以及标准的转换界与 Schmidt 界是已发表的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
