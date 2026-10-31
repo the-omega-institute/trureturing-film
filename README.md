@@ -138,6 +138,7 @@ Release page.
 | 119 | [AURIC FIVE-WINDOW MEMORY II · SWITCHED CHANNELS, A SURVIVING BIT AND UNIFORM ERASURE](films/119-fivewindow2/) · AURIC 五窗口记忆 第二部：切换通道、存活的一位与一致遗忘 | 7:01 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 189 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-119-v1/TRURETURING_119_narrated_EN_subs_ZH-EN.mp4) |
 | 120 | [AURIC FIVE-WINDOW MEMORY III · THE FOUR-PHASE CLASS AND THE HIDDEN PHASE](films/120-fivewindow3/) · AURIC 五窗口记忆 第三部：四相位类与隐藏相位 | 7:13 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 196 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-120-v1/TRURETURING_120_narrated_EN_subs_ZH-EN.mp4) |
 | 121 | [AURIC ERASED-HISTORY RECOVERY I · SHARP TERMINAL DECODERS AND THE EXACT SECOND HORIZON](films/121-erasedrecovery1/) · AURIC 擦除历史的终端恢复 第一部：锐利终端解码器与精确的二步时域 | 7:22 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 201 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-121-v1/TRURETURING_121_narrated_EN_subs_ZH-EN.mp4) |
+| 122 | [AURIC ERASED-HISTORY RECOVERY II · ONE ROOT, ONE DISK AND FINITE CERTIFICATES](films/122-erasedrecovery2/) · AURIC 擦除历史的终端恢复 第二部：一个根、一个圆盘与有限证书 | 7:22 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 202 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-122-v1/TRURETURING_122_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
