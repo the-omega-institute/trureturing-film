@@ -1,0 +1,26 @@
+{
+  "id": "104",
+  "title": "AURIC V49–V50 · THE SQUARE LAW, RECURSIVE THREE AXES AND K-BONACCI LIMITS",
+  "title_zh": "AURIC V49–V50 · 平方律、递归三轴与 K-bonacci 极限",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "da10294714",
+  "released": "2026-10-31",
+  "duration": "7:16",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_narrated_EN_subs_ZH-EN.mp4",
+    "music_only": "TRURETURING_music_only_subs_ZH-EN.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}

@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Version forty-eight asked where handedness enters three axes. Versions forty-nine and fifty ask which joint conditions force the square, how one binary relation becomes three axes again and again, and which constraints vanish as a K-bonacci order grows.",
+     "第四十八版追问手性在哪里进入三轴。第四十九、五十版追问：哪些联合条件迫使平方出现，一个二元关系怎样一次又一次变成三轴，以及 K-bonacci 阶数增长时，哪些约束真正消失。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric versions forty-nine and fifty: the square law, recursive three axes and K-bonacci limits.",
+     "AURIC V49–V50：平方律、递归三轴与 K-bonacci 极限。"
+    ],
+    [
+     "Merging, reciprocity and conservation pick the square, one binary interface repeats, and infinite order still keeps positivity.",
+     "合并、倒数与守恒选出平方，一个二元接口反复使用，而无限阶依然保持正性。"
+    ]
+   ]
+  },
+  {
+   "id": "select",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Log turns products into sums, so a continuous weight that respects multiplication is a power, r to the beta, and any beta gives legal odds. Additive merging of orthogonal pieces forces two to the beta over two to equal two.",
+     "log 把乘积变成和，所以尊重乘法的连续权重都是幂 r^β，而任何 β 都给出合法的赔率。要求正交部分可加地合并，就迫使 2^(β/2) = 2。"
+    ],
+    [
+     "A second route needs no continuity: put the two weights on the diagonal and the amplitude product off it. Positivity gives w of r at least r squared, the reciprocal gives the reverse, so w is r squared.",
+     "第二条路线不需要连续性：把两个权重放在对角线上，把振幅乘积放在对角线外。正性给出 w(r) ≥ r²，倒数给出反向不等式，所以 w 就是 r²。"
+    ]
+   ]
+  },
+  {
+   "id": "closure",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Take any nonnegative weight and its merging correction. If that correction is bilinear, the weight is a positive quadratic form, with no continuity assumed; for the norm to the beta it forces two to the beta to be four.",
+     "取任意非负权重及其合并修正。若这个修正是双线性的，该权重就是正二次型，无需假设连续性；对 ‖v‖^β，它迫使 2^β = 4。"
+    ],
+    [
+     "Quadratic weights also close at second order: on three fixed branches the third inclusion-exclusion term vanishes. A cubic weight on three equal unit inputs gives twenty-seven minus twenty-four plus three, which is six.",
+     "二次权重还在二阶闭合：在三个固定分支上，三阶容斥项为零。三次权重作用于三个相同的单位输入，给出 27 − 24 + 3 = 6。"
+    ]
+   ]
+  },
+  {
+   "id": "powers",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Lift two amplitudes to their m-th power features: there are m plus one, and inner products become m-th powers. For the square, a squared, root two a b, b squared: the cross feature completes the normalisation.",
+     "把两个振幅提升为 m 次幂特征：共有 m + 1 个，内积变成 m 次幂。对平方而言是 a²、√2ab、b²：交叉特征补全了归一化。"
+    ],
+    [
+     "Higher powers keep the coherent image two-dimensional, codimension m minus one. And squaring again is ambiguous: from one state, normalised matrix powers run to a pure state, while tensor Gram powers decay to the maximally mixed one.",
+     "更高次幂让相干像保持二维，余维为 m − 1。而“再平方”本身有歧义：从同一个态出发，归一化矩阵幂趋向纯态，而张量 Gram 幂衰减到最大混合态。"
+    ]
+   ]
+  },
+  {
+   "id": "bloch",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A positive two-by-two relation, divided by its trace, is a point of the Bloch ball: one minus its squared length is four determinant over trace squared, with heights the hyperbolic tangent and secant of half the log ratio.",
+     "二乘二正关系除以其迹，就是 Bloch 球中的一点：1 减去其长度平方等于 4 倍行列式除以迹的平方，高度是半个对数比的双曲正切与双曲正割。"
+    ],
+    [
+     "Limits stay in the ball, and pure limits stay pure. But normalising and taking limits need not commute: two to the minus j times the identity tends to zero, while its normalised form stays one half the identity.",
+     "极限留在球内，纯态的极限仍是纯态。但归一化与取极限未必交换：2^(−j)·I 趋于零，而它的归一化形式始终是 I/2。"
+    ]
+   ]
+  },
+  {
+   "id": "born",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "In the native source, eighty-nine configurations, an active block with x plus x squared equal to one, and drive three pi over five, ten calls return exactly. Returns and four-corner consistency force every unknown density into a power family.",
+     "在原生来源中，有八十九个配置、满足 x + x² = 1 的活动块，以及驱动 3π/5，使十次调用精确回返。回返与四角一致性迫使每个未知密度落入一个幂族。"
+    ],
+    [
+     "Then a blocked single site keeps its probability, so a to the beta plus k b to the beta must stay constant as the block moves. That happens only for k one and beta two: probability is amplitude squared.",
+     "随后，一个阻塞单点保持其概率不变，所以 |a|^β + k|b|^β 必须在块运动时保持恒定。这只在 k = 1、β = 2 时发生：概率就是振幅的平方。"
+    ]
+   ]
+  },
+  {
+   "id": "residual",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "With a positive contraction below q, one unitary splits each remainder into a released part and a smaller remainder. Squared norms add exactly per layer, and n plus one layers leave at most q to the n plus one.",
+     "给定小于 q 的正收缩，一个酉变换把每个余量分成释放部分与更小的余量。平方范数逐层精确相加，n + 1 层之后余量至多为 q^(n+1)。"
+    ],
+    [
+     "So two is the degree of the weight, n plus one the depth. Squaring amplitudes n to the minus a likewise gives zeta of two a plus i t over zeta of two a, in the same space.",
+     "所以二是权重的次数，n + 1 是深度。同样，把振幅 n^(−a) 平方后得到 ζ(2a + it)/ζ(2a)，载体仍是同一个空间。"
+    ]
+   ]
+  },
+  {
+   "id": "atlas",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One binary interface repeats without limit. On a binary tree, k positive probabilities correspond exactly to k minus one split ratios, points on a half meridian; leaves are products along paths, and one root mass restores the scale.",
+     "一个二元接口可以无限重复。在二叉树上，k 个正概率恰好对应 k − 1 个分割比例，即半子午线上的点；叶子是沿路径的乘积，一个根质量恢复尺度。"
+    ],
+    [
+     "Recursion never doubles the exponent: a leaf amplitude squared is the product of edge amplitudes squared, at any depth. For general quantum relations the three axes become operators, joined by coherence blocks.",
+     "递归从不让指数加倍：叶振幅的平方等于各边振幅平方的乘积，在任何深度都如此。对一般量子关系，三轴变成算子，并由相干块连接。"
+    ]
+   ]
+  },
+  {
+   "id": "kbonacci",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Binary words of length n with no k ones in a row number two to the n while n is below k, then each count sums the previous k. Yet predicting every future's legality needs linear memory of exactly k.",
+     "长度为 n、不含连续 k 个一的二进制词，在 n < k 时共有 2^n 个，此后每个计数是前 k 个之和。但要预测每个未来的合法性，需要恰好为 k 的线性记忆。"
+    ],
+    [
+     "Normalised, the history shape updates to one, p one up to p k minus one, over two minus p k, and the scale multiplies by that denominator. From any start, total variation shrinks by lambda k per step.",
+     "归一化后，历史形状更新为 (1, p₁, …, p_(k−1))/(2 − p_k)，尺度乘以同一个分母。从任意初值出发，总变差每步缩小 λ_k 倍。"
+    ]
+   ]
+  },
+  {
+   "id": "limit",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The growth root lambda two is the golden ratio, lambda k strictly increases, two minus lambda k equals lambda k to the minus k, and lambda k tends to two. The fixed point has weights lambda to the minus j.",
+     "增长根 λ₂ 是黄金比例，λ_k 严格递增，2 − λ_k = λ_k^(−k)，且 λ_k 趋于二。不动点的权重为 λ^(−j)。"
+    ],
+    [
+     "Its distance to the halving law, one half, one quarter, one eighth, is exactly two to the minus k, so after t steps every start lies within phi to the minus t plus two to the minus k.",
+     "它到二分律（1/2、1/4、1/8、…）的距离恰为 2^(−k)，所以 t 步之后，每个初值都在 φ^(−t) + 2^(−k) 之内。"
+    ]
+   ]
+  },
+  {
+   "id": "window",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "In a fixed window of length n, once k exceeds n every word is legal, but at k equal to n the all-ones word is still out. And the limits do not commute: fixed n gives one, fixed k gives zero.",
+     "在长度为 n 的固定窗口里，一旦 k > n，每个词都合法，但 k = n 时全一词仍被排除。而且两个极限不交换：固定 n 得一，固定 k 得零。"
+    ],
+    [
+     "In between, n over two to the k decides: at limit tau, fair words are legal with probability e to the minus tau over two. A frozen bound keeps the gap from e to the minus mu within min of one and mu, times k plus one over two to the k.",
+     "介于两者之间，由 n/2^k 决定：极限为 τ 时，公平词合法的概率是 e^(−τ/2)。一个冻结的界把它与 e^(−μ) 的差距控制在 min(1, μ)·(k + 1)/2^k 之内。"
+    ]
+   ]
+  },
+  {
+   "id": "spin",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Averaging m symmetric spins weakens noncommutativity: commutators shrink as two over m, the squares sum to one plus two over m, and the minimal total variance is two over m, reached by coherent states. The axes still have length at most one.",
+     "把 m 个对称自旋取平均会减弱非交换性：交换子按 2/m 缩小，平方和为 1 + 2/m，最小总方差为 2/m，由相干态达到。三轴的长度仍至多为一。"
+    ],
+    [
+     "Inside, readings hide more: below length one, states with the same three readings form a fibre of dimension m squared plus two m minus three. At m equal to two, two orthogonal states both read zero, with z-squared averages zero and one.",
+     "读数背后藏着更多：长度小于一时，三个读数相同的态构成维数为 m² + 2m − 3 的纤维。m = 2 时，两个正交态的读数都是零，而它们 X_z² 的平均值分别为零与一。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Merging and reciprocity pick the square, closure and cross features complete it, a native single site selects it, one binary atlas repeats it, and K-bonacci roots, windows and averaged spins show which constraints fade and which stay.",
+     "合并与倒数选出平方，闭合与交叉特征补全平方，原生单点选定平方，一张二元图册反复使用它；K-bonacci 增长根、窗口与平均自旋则表明哪些约束会消退、哪些会保留。"
+    ],
+    [
+     "The K-bonacci counts, growth roots and Poisson bound are frozen in Lean, the Bloch ball and Pauli algebra are classical tools, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+     "K-bonacci 计数、增长根与 Poisson 界已在 Lean 中冻结，Bloch 球与 Pauli 代数是经典工具，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
