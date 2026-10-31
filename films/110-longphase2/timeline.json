@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 19.262
+  },
+  {
+   "id": "title",
+   "start": 19.262,
+   "end": 36.803
+  },
+  {
+   "id": "field",
+   "start": 36.803,
+   "end": 71.226
+  },
+  {
+   "id": "coulomb",
+   "start": 71.226,
+   "end": 109.999
+  },
+  {
+   "id": "joint",
+   "start": 109.999,
+   "end": 143.166
+  },
+  {
+   "id": "engel",
+   "start": 143.166,
+   "end": 180.054
+  },
+  {
+   "id": "threshold",
+   "start": 180.054,
+   "end": 216.583
+  },
+  {
+   "id": "critical",
+   "start": 216.583,
+   "end": 251.204
+  },
+  {
+   "id": "observe",
+   "start": 251.204,
+   "end": 290.441
+  },
+  {
+   "id": "window",
+   "start": 290.441,
+   "end": 325.879
+  },
+  {
+   "id": "noloss",
+   "start": 325.879,
+   "end": 361.548
+  },
+  {
+   "id": "rayleigh",
+   "start": 361.548,
+   "end": 392.316
+  },
+  {
+   "id": "finale",
+   "start": 392.316,
+   "end": 431.981
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 18.262,
+   "en": "Part one found the native tensor M of the winding phases and a threshold Green field falling off like one over distance. Part two lets a state feel that field, and asks when it binds, how strongly, and in what shape.",
+   "zh": "第一部得到了绕数相位的原生张量 M，以及一个按距离倒数衰减的阈值 Green 场。第二部让一个态感受这个场，追问它何时被束缚、束缚多强、呈现什么形状。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 20.462,
+   "end": 26.774,
+   "en": "FIB-native long-time phase, part two: weak binding, the Engel threshold and the critical mode.",
+   "zh": "FIB 原生长时相位第二部：弱束缚、Engel 阈值与临界模。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 27.374,
+   "end": 35.403,
+   "en": "Weak coupling gives a Coulomb ground state, short cutoffs an Engel threshold, and at that threshold sits one positive mode.",
+   "zh": "弱耦合给出一个 Coulomb 基态，短截断给出一个 Engel 阈值，而阈值处有一个正的模。"
+  },
+  {
+   "i": 3,
+   "scene": "field",
+   "start": 37.603,
+   "end": 53.546,
+   "en": "Fix the source at height k zero and cut the threshold Green field at a positive time tau. It is bounded, and far away equals phi of k zero times phi of k, over four pi root det M times the anisotropic distance.",
+   "zh": "把源固定在高度 k₀，并在正时间 τ 处截断阈值 Green 场。这个场有界；在远处，它等于 φ(k₀)φ(k) 除以 4π√(det M) 与各向异性距离 d(q) 之积。"
+  },
+  {
+   "i": 4,
+   "scene": "field",
+   "start": 54.146,
+   "end": 69.826,
+   "en": "Its source carries two charges: the raw mass, which tends to one as tau shrinks, and the height-weighted charge, exactly phi of k zero. The multiplier is compact on the full native domain, so the essential spectrum is zero to infinity.",
+   "zh": "它的源带有两种荷：原始质量，τ 变小时趋于 1；以及按高度加权的荷，恰为 φ(k₀)。这个乘子在完整的原生定义域上是紧的，所以本质谱是 [0, ∞)。"
+  },
+  {
+   "i": 5,
+   "scene": "coulomb",
+   "start": 72.026,
+   "end": 88.856,
+   "en": "Now attract with coupling g. The energy is negative and attained for every g, and the energy over g squared tends to minus beta squared over four a, where beta is phi of k zero times the integral of phi cubed, over four pi root det M.",
+   "zh": "现在以耦合 g 施加吸引。对每个 g，能量为负且可以取到；而 g 趋于零时，能量除以 g² 趋于 −β²/(4a)，其中 β 等于 φ(k₀) 乘以 ∫φ³，再除以 4π√(det M)。"
+  },
+  {
+   "i": 6,
+   "scene": "coulomb",
+   "start": 89.456,
+   "end": 108.599,
+   "en": "This is the Coulomb operator with tensor M. A completed square gives its minimum, attained only by e to the minus rho d, with rho equal to beta over two a. Every near-minimizer, rescaled by g, converges to the ground height times this profile, up to one constant phase.",
+   "zh": "这是带张量 M 的 Coulomb 算子。配方给出它的最小值，只由 e^(−ρd) 取到，其中 ρ = β/(2a)。每个近似极小元按 g 缩放后，都收敛到基态高度乘以这个轮廓，只差一个常数相位。"
+  },
+  {
+   "i": 7,
+   "scene": "joint",
+   "start": 110.799,
+   "end": 126.185,
+   "en": "Now let the cutoff shrink with g, measured by chi, equal to g times tau to the minus three halves. If chi goes to zero, the Coulomb energy and profile survive: tau equal to g to the p works for every p below two thirds.",
+   "zh": "现在让截断随 g 一起缩小，用 χ = g·τ^(−3/2) 来度量。若 χ 趋于零，Coulomb 能量和轮廓都保留下来：对每个 p < 2/3，τ = g^p 都成立。"
+  },
+  {
+   "i": 8,
+   "scene": "joint",
+   "start": 126.785,
+   "end": 141.766,
+   "en": "If chi goes to infinity, admissible states squeezed into privileged scales at the source win: the energy has order minus g tau to the minus five halves and diverges, so the quadratic law fails for every p above two thirds.",
+   "zh": "若 χ 趋于无穷，被压进源点处特权尺度的可容许态胜出：能量的阶为 −g·τ^(−5/2) 并发散，所以对每个 p > 2/3，二次律都失效。"
+  },
+  {
+   "i": 9,
+   "scene": "engel",
+   "start": 143.966,
+   "end": 160.901,
+   "en": "In between, chi stays finite. Blow up the source chart by s, the square root of tau, with weights one, one, two, three and Jacobian j zero s to the seventh: the native fields become the Engel group's two fields, of homogeneous dimension seven.",
+   "zh": "两者之间，χ 保持有限。以 s = √τ 放大源点坐标卡，权重为 1、1、2、3，Jacobian 为 j₀s⁷：原生向量场变成 Engel 群的两个场，齐次维数为七。"
+  },
+  {
+   "i": 10,
+   "scene": "engel",
+   "start": 161.501,
+   "end": 178.654,
+   "en": "With a published local heat-kernel theorem and Gaussian bounds, the whole integrated field, including its infinite-time tail, converges uniformly to an Engel potential V. Native states of bounded energy then have compact local limits, with lost mass allowed.",
+   "zh": "借助已发表的局部热核定理和 Gaussian 界，整个积分场，连同它的无穷时间尾部，一致收敛到 Engel 势 V。于是能量有界的原生态都有紧的局部极限，并允许质量丢失。"
+  },
+  {
+   "i": 11,
+   "scene": "threshold",
+   "start": 180.854,
+   "end": 197.584,
+   "en": "On the Engel group binding has a threshold, chi c equal to a over C star; C star, the best ratio of potential to kinetic energy, is at most four c E over fifteen j zero, with c E the heat kernel at the origin at time one.",
+   "zh": "在 Engel 群上，束缚有一个阈值 χ_c = a/C*。其中 C* 是势能与动能之比的最优值，至多为 4c_E/(15j₀)，而 c_E 是时刻一在原点处的热核值。"
+  },
+  {
+   "i": 12,
+   "scene": "threshold",
+   "start": 198.184,
+   "end": 215.183,
+   "en": "Up to chi c the energy is zero; above it the bottom is simple, with a positive ground state. On every path with chi tending to chi zero, tau times the native energy converges to that energy, and above threshold near-minimizers converge to the ground state.",
+   "zh": "χ 不超过 χ_c 时能量为零；超过后，底部是简单的，基态为正。在 χ 趋于 χ₀ 的每一条路径上，τ 乘以原生能量都收敛到这个能量；在阈值之上，近似极小元都收敛到这个基态。"
+  },
+  {
+   "i": 13,
+   "scene": "critical",
+   "start": 217.383,
+   "end": 233.686,
+   "en": "At the threshold itself a zero-energy inverse is compact, so a critical mode Phi c is attained, positive and simple. Just above, the energy leaves zero linearly, minus mu c delta, with mu c the potential energy of that mode.",
+   "zh": "恰在阈值处，零能逆算子是紧的，所以临界模 Φ_c 可以取到，为正且简单。稍高于阈值时，能量线性地离开零：−μ_c δ，其中 μ_c 是该模的势能。"
+  },
+  {
+   "i": 14,
+   "scene": "critical",
+   "start": 234.286,
+   "end": 249.804,
+   "en": "At criticality the weak limits of native near-minimizers fill exactly the disk c times Phi c, with c at most one in modulus; every point is attained on every critical path, and the missing mass, one minus c squared, escapes.",
+   "zh": "在临界处，原生近似极小元的弱极限恰好填满圆盘 cΦ_c，|c| ≤ 1；在每条临界路径上每一点都能取到，而缺失的质量 1 − |c|² 逃逸到远处。"
+  },
+  {
+   "i": 15,
+   "scene": "observe",
+   "start": 252.004,
+   "end": 269.189,
+   "en": "Now forget the hidden real phase x. Free killed transport factorizes exactly through this observation, yet the threshold field integrated along a hidden line diverges like log R, while the tangent field's integral is finite: the limits do not commute.",
+   "zh": "现在忘掉隐藏的实相位 x。自由的带杀死输运经由这个观测精确分解；但阈值场沿隐藏直线的积分像 log R 一样发散，而切极限场的线积分有限：两个极限不可交换。"
+  },
+  {
+   "i": 16,
+   "scene": "observe",
+   "start": 269.789,
+   "end": 289.041,
+   "en": "The two transport fields and their brackets span four dimensions, so no three-dimensional slice is invariant. Two states with identical observed statistics differ in energy by a fixed gap at the microscopic scale, and one partial trace allows different quantum futures even at zero coupling.",
+   "zh": "两个输运场及其括号张成四维，所以没有不变的三维切片。观测统计完全相同的两个态，在微观尺度上能量相差一个固定的间隙；而同一个部分迹，即使在零耦合时也允许不同的量子未来。"
+  },
+  {
+   "i": 17,
+   "scene": "window",
+   "start": 291.241,
+   "end": 307.403,
+   "en": "An exact rational shear bounds the field error by s to the five sixths and the critical energy error by s to the two thirds. If the detuning delta beats s to the two thirds, the onset is minus mu c delta and ground states select Phi c.",
+   "zh": "一个精确的有理剪切把场误差控制在 s^(5/6) 以内，把临界能量误差控制在 s^(2/3) 以内。若失谐 δ 压过 s^(2/3)，起始律为 −μ_c δ，基态都选中 Φ_c。"
+  },
+  {
+   "i": 18,
+   "scene": "window",
+   "start": 308.003,
+   "end": 324.479,
+   "en": "Without such a window the uncentred law fails: the macroscopic Coulomb branch alone pushes the rescaled energy below minus c s to the eighth, so delta equal to s to the ninth is a counter-path. Between the two exponents the question stays open.",
+   "zh": "没有这样的窗口，非中心化的律就会失效：仅宏观 Coulomb 分支就把缩放后的能量压到 −c·s⁸ 以下，所以 δ = s⁹ 是一条反例路径。两个指数之间的情形仍然开放。"
+  },
+  {
+   "i": 19,
+   "scene": "noloss",
+   "start": 326.679,
+   "end": 343.715,
+   "en": "At criticality the ground states hide a scale. A compact microscopic charge forces native mass onto a distant shell of size one over root m, so if r s, the energy in units of s to the eighth, stays bounded, they stay away from the critical orbit.",
+   "zh": "恰在临界处，基态隐藏着一个尺度。紧致的微观荷迫使原生质量落到尺度为 1/√m 的远处壳层上；所以若以 s⁸ 为单位的能量 r_s 保持有界，基态就与临界轨道保持一段距离。"
+  },
+  {
+   "i": 20,
+   "scene": "noloss",
+   "start": 344.315,
+   "end": 360.148,
+   "en": "A global resolvent reconstruction proves the converse, so r s tends to infinity exactly when the ground states converge to the critical orbit. Whether r s actually tends to infinity for the fixed data is left undecided.",
+   "zh": "整体预解式重构证明了反方向，所以 r_s 趋于无穷，恰好等价于基态收敛到临界轨道。对固定数据，r_s 是否真的趋于无穷仍未判定。"
+  },
+  {
+   "i": 21,
+   "scene": "rayleigh",
+   "start": 362.348,
+   "end": 376.227,
+   "en": "The critical mode has a finite height moment, and the reflection that flips r and z fixes it. Expanding the complete field to second order in s, with error s to the five halves, the odd first-order terms cancel.",
+   "zh": "临界模的高度矩有限，翻转 r 与 z 的反射保持它不变。把完整场展开到 s 的二阶，误差为 s^(5/2)，奇的一阶项相互抵消。"
+  },
+  {
+   "i": 22,
+   "scene": "rayleigh",
+   "start": 376.827,
+   "end": 390.916,
+   "en": "An affine-amplitude trial then has energy over s squared tending to nu squared times a one minus A two, minus chi c J two, minus lambda times a plus chi c J t. Its sign is left undecided.",
+   "zh": "于是仿射振幅试验态的能量除以 s² 趋于 ν²{a(1 − A₂) − χ_c J₂} − λ{a + χ_c J_t}。这个系数的符号仍未判定。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 393.316,
+   "end": 409.363,
+   "en": "A fixed cutoff binds like a Coulomb atom, shrinking cutoffs keep or break that law, a finite ratio meets the Engel threshold and its critical mode, the observation hides an energy gap, and a window, a no-loss scale and a sign mark what remains.",
+   "zh": "固定截断像 Coulomb 原子一样束缚，收缩的截断保持或打破这条律，有限的比值遇到 Engel 阈值及其临界模，观测隐藏了一个能量间隙；而一个窗口、一个无损尺度和一个符号标出尚待解决的部分。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 409.963,
+   "end": 422.981,
+   "en": "Local heat-kernel asymptotics, Gaussian heat bounds and the group Young inequality are published inputs, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+   "zh": "局部热核渐近、Gaussian 热核界与群上的 Young 不等式是已发表的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 431.981
+}
