@@ -1,0 +1,293 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 17.999
+  },
+  {
+   "id": "title",
+   "start": 17.999,
+   "end": 32.457
+  },
+  {
+   "id": "gate",
+   "start": 32.457,
+   "end": 64.539
+  },
+  {
+   "id": "density",
+   "start": 64.539,
+   "end": 98.296
+  },
+  {
+   "id": "bridge",
+   "start": 98.296,
+   "end": 130.879
+  },
+  {
+   "id": "rational",
+   "start": 130.879,
+   "end": 166.339
+  },
+  {
+   "id": "parity",
+   "start": 166.339,
+   "end": 202.73
+  },
+  {
+   "id": "fiber",
+   "start": 202.73,
+   "end": 238.352
+  },
+  {
+   "id": "recursion",
+   "start": 238.352,
+   "end": 272.511
+  },
+  {
+   "id": "gibbs",
+   "start": 272.511,
+   "end": 308.048
+  },
+  {
+   "id": "golden",
+   "start": 308.048,
+   "end": 341.046
+  },
+  {
+   "id": "history",
+   "start": 341.046,
+   "end": 377.26
+  },
+  {
+   "id": "budget",
+   "start": 377.26,
+   "end": 409.474
+  },
+  {
+   "id": "finale",
+   "start": 409.474,
+   "end": 447.307
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 16.999,
+   "en": "This film continues the versioned Auric volumes: whether one fixed golden gate can act like NAND and where exactness stops, then when prediction, recursion, optimization and variation coincide.",
+   "zh": "本片延续 AURIC 版本系列：一个固定的黄金门能否像 NAND 那样工作、精确性止于何处；随后是预测、递归、最优化与变分何时重合。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 19.199,
+   "end": 24.849,
+   "en": "Auric versions fifteen and sixteen: golden gate arithmetic and variational prediction.",
+   "zh": "AURIC V15–V16：黄金门的算术与变分预测。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 25.449,
+   "end": 31.057,
+   "en": "One matrix approximates every gate, yet its exact words obey integers and parity.",
+   "zh": "一个矩阵可以逼近任意门，它的精确门字却服从整数与奇偶。"
+  },
+  {
+   "i": 3,
+   "scene": "gate",
+   "start": 33.257,
+   "end": 47.525,
+   "en": "The target is NAND. Its reversible version adds one plus a b to a target bit and squares to the identity, but compressing two input bits coherently into one output bit needs at least a three-dimensional environment.",
+   "zh": "目标是 NAND。它的可逆版本把 1⊕ab 加到目标位上，平方为恒等；但要把两个输入位相干地压缩成一个输出位，至少需要一个三维环境。"
+  },
+  {
+   "i": 4,
+   "scene": "gate",
+   "start": 48.125,
+   "end": 63.139,
+   "en": "The gate is one fixed matrix on three sites, built from a golden projection. Its tenth power is the identity, its fifth is a reflection, and braiding forces the phase e to the three pi i over five, or its conjugate.",
+   "zh": "这个门是作用在三个位置上的一个固定矩阵，由一个黄金投影构成。它的十次幂是恒等，五次幂是一个反射；编织关系迫使相位为 e^(3πi/5) 或其共轭。"
+  },
+  {
+   "i": 5,
+   "scene": "density",
+   "start": 65.339,
+   "end": 80.657,
+   "en": "Encode a qubit as one, zero, q, zero, one, zero, and call K at two neighbouring addresses. Their projections overlap by one over phi squared, and the product of their fifth powers has trace four minus two root five.",
+   "zh": "把一个量子比特编码为 1 0 q 0 1 0，在两个相邻地址上调用 K。两个投影的重叠为 1/φ²，两者五次幂之积的迹为 4 − 2√5。"
+  },
+  {
+   "i": 6,
+   "scene": "density",
+   "start": 81.257,
+   "end": 96.896,
+   "en": "Its conjugate exceeds two, so the rotation has infinite order, and the closure is every unitary whose determinant is a tenth root of unity. Squares suffice too, but reflections alone miss a phase gate by root of two minus root two.",
+   "zh": "它的共轭大于 2，所以这个转动是无限阶的；闭包恰为行列式是十次单位根的全部酉矩阵。平方门同样足够，但仅用反射，与相位门的误差至少为 √(2 − √2)。"
+  },
+  {
+   "i": 7,
+   "scene": "bridge",
+   "start": 99.096,
+   "end": 113.661,
+   "en": "For n qubits, use four n plus two sites in vacuum blocks. Every Fibonacci braid generator is then exactly K at one address, so the published braid density theorem gives universality, with nine calls per inverse.",
+   "zh": "对 n 个量子比特，用 4n+2 个位置排成真空块。这样每个 Fibonacci 编织生成元恰好就是某个地址上的 K，于是已发表的编织稠密定理给出普适性，每个逆门需九次调用。"
+  },
+  {
+   "i": 8,
+   "scene": "bridge",
+   "start": 114.261,
+   "end": 129.479,
+   "en": "Without the encoding, the bare chain conserves something: K commutes with every product n sub i times n sub i plus one, so adjacent pairs of ones survive every word, and a single bit flip stays at distance one from all of them.",
+   "zh": "没有编码时，裸链守恒某些量：K 与每个乘积 nᵢnᵢ₊₁ 对易，所以相邻的一对 1 在任何门字下都保持不变，单个比特翻转与所有门字的距离都是 1。"
+  },
+  {
+   "i": 9,
+   "scene": "rational",
+   "start": 131.679,
+   "end": 147.713,
+   "en": "Exactness is arithmetic. Every amplitude of a finite golden protocol is an algebraic integer, so is every complete event probability, and a rational one must be zero or one: no exact fair coin, Bell state or Hadamard.",
+   "zh": "精确性是算术问题。有限黄金协议的每个振幅都是代数整数，每个完整事件的概率也是；有理概率只能是 0 或 1：得不到精确的公平硬币、Bell 态或 Hadamard。"
+  },
+  {
+   "i": 10,
+   "scene": "rational",
+   "start": 148.313,
+   "end": 164.939,
+   "en": "Postselection changes this. Run K on two fresh blocks and keep only zero one or one zero: success is two over phi cubed, the kept bit is exactly fair, and stopping after M rounds leaves an abort of one minus s to the M.",
+   "zh": "后选择改变了这一点。在两个新制备的块上各运行一次 K，只保留 01 或 10：成功率为 2/φ³，保留下来的比特恰好公平；最多 M 轮就要保留中止概率 (1 − s)^M。"
+  },
+  {
+   "i": 11,
+   "scene": "parity",
+   "start": 167.139,
+   "end": 184.568,
+   "en": "Parity is stronger. Same-parity amplitudes lie in Z of zeta, opposite-parity ones in beta times Z of zeta, and the Galois map zeta to zeta cubed sends beta squared to minus phi, so a rational opposite-parity probability is zero.",
+   "zh": "奇偶给出更强的障碍。同奇偶振幅属于 ℤ[ζ]，异奇偶振幅属于 β·ℤ[ζ]；Galois 映射 ζ → ζ³ 把 β² 送到 −φ，所以有理的异奇偶概率只能是零。"
+  },
+  {
+   "i": 12,
+   "scene": "parity",
+   "start": 185.168,
+   "end": 201.33,
+   "en": "So no clean exact NOT, CNOT, Toffoli or reversible NAND in this encoding, even after discarding a fixed environment. And every finite word has invertible same-parity blocks: no state of definite parity is flipped completely.",
+   "zh": "因此这种编码中没有干净的精确 NOT、CNOT、Toffoli 或可逆 NAND，丢弃固定环境也不行；每个有限门字的同奇偶块都可逆，奇偶确定的态永不会被完全翻转。"
+  },
+  {
+   "i": 13,
+   "scene": "fiber",
+   "start": 203.53,
+   "end": 218.811,
+   "en": "Version sixteen starts on the five modes. Three readings leave a hidden coupling kappa in an interval: maximum entropy picks X Y over R, minimax the midpoint, one twenty-fifth against one tenth when X and Y are one fifth.",
+   "zh": "第十六版从五个模式开始。三个读数让隐藏的耦合量 κ 落在一个区间里：最大熵选 XY/R，minimax 选中点；当 X = Y = 1/5（Z = 0）时，两者分别是 1/25 与 1/10。"
+  },
+  {
+   "i": 14,
+   "scene": "fiber",
+   "start": 219.411,
+   "end": 236.952,
+   "en": "The gap is a Kullback-Leibler reserve. Mass-action relaxation toward kappa star is a gradient flow that saturates the energy-dissipation identity, yet its action exceeds the straight path's by the factor alpha T over two times coth of alpha T over two.",
+   "zh": "两者之差是一笔 KL 储备。向 κ* 的质量作用弛豫是一个梯度流，使能量耗散恒等式取等；但它的作用量比同端点的直线路径大，倍数为 (αT/2)·coth(αT/2)。"
+  },
+  {
+   "i": 15,
+   "scene": "recursion",
+   "start": 239.152,
+   "end": 254.957,
+   "en": "Recursion is not automatically descent. A contraction shrinks its residual by q squared per step, but x cubed minus three x plus three has a strict local minimum of squared residual at x equal one, value one half, solving nothing.",
+   "zh": "递归并不自动意味着下降。压缩映射每一步把残差缩小 q² 倍；但 x³ − 3x + 3 的平方残差在 x = 1 处有严格局部极小值 1/2，那里并不是解。"
+  },
+  {
+   "i": 16,
+   "scene": "recursion",
+   "start": 255.557,
+   "end": 271.111,
+   "en": "On a finite acyclic graph, four views agree: the Bellman recursion, the cheapest complete path, the cheapest unit flow and the best potential lower bound. A path with all reduced costs zero certifies its own global optimality.",
+   "zh": "在有限无环图上，四种视角一致：Bellman 递归、最便宜的完整路径、最便宜的单位流，以及最好的势函数下界。一条缩减代价全为零的路径，自己就证明了全局最优。"
+  },
+  {
+   "i": 17,
+   "scene": "gibbs",
+   "start": 273.311,
+   "end": 289.509,
+   "en": "Add a reference law and a temperature tau. Expected cost plus tau times relative entropy is minimized by the Gibbs path law; a soft Bellman recursion computes minus tau log Z, which returns to the Bellman optimum as tau goes to zero.",
+   "zh": "加入参考律与温度 τ。期望代价加 τ 倍相对熵，由 Gibbs 路径律取到最小；软 Bellman 递归算出 −τ log Z，当 τ → 0 时它回到 Bellman 最优值。"
+  },
+  {
+   "i": 18,
+   "scene": "gibbs",
+   "start": 290.109,
+   "end": 306.648,
+   "en": "Prediction from records is similar. Under one joint law, refining the records lowers the squared risk by exactly the squared change of the prediction, and following conditional expectations below one through a random tree reaches a leaf with no bad event.",
+   "zh": "从记录做预测也是如此。在同一个联合律下，细化记录使平方风险恰好下降预测变化量的平方；在随机树上沿着小于 1 的条件期望走下去，就能到达没有坏事件的叶子。"
+  },
+  {
+   "i": 19,
+   "scene": "golden",
+   "start": 308.848,
+   "end": 323.128,
+   "en": "Forbid two adjacent ones. Legal strings follow the Fibonacci recursion, they grow at the Perron root phi, and every stationary process on them has entropy rate at most log phi, about zero point four eight one.",
+   "zh": "禁止两个相邻的 1。合法串服从 Fibonacci 递归，以 Perron 根 φ 增长；其上的每个平稳过程，熵率至多为 log φ，约 0.481。"
+  },
+  {
+   "i": 20,
+   "scene": "golden",
+   "start": 323.728,
+   "end": 339.646,
+   "en": "Equality picks one Markov chain: after a zero, repeat it with probability one over phi, write a one with one over phi squared. Its three-site slice of the five modes is one, one over phi, one, one over phi, one over phi squared.",
+   "zh": "取等恰好选出一条 Markov 链：在 0 之后，以 1/φ 的概率再写 0，以 1/φ² 的概率写 1。它在五个模式上的三位切片正比于 (1, 1/φ, 1, 1/φ, 1/φ²)。"
+  },
+  {
+   "i": 21,
+   "scene": "history",
+   "start": 341.846,
+   "end": 357.918,
+   "en": "For coherent networks, prediction is the unique zero-residual completion, and a golden circuit is the zero-energy history state of a propagation Hamiltonian. Eliminating the inside of ten K gates leaves one tenth of the boundary mismatch.",
+   "zh": "对相干网络，预测就是唯一的零残差完成；一个黄金电路是传播 Hamiltonian 的零能历史态。消去十个 K 门内部的状态，剩下边界失配的十分之一。"
+  },
+  {
+   "i": 22,
+   "scene": "history",
+   "start": 358.518,
+   "end": 375.86,
+   "en": "But no single step descends. Because K to the tenth is the identity, any energy that never rises under K is constant. Real-time Schrödinger evolution is a saddle of the action; only normalized imaginary time lowers energy, at twice the variance.",
+   "zh": "但没有哪一步在下降：K¹⁰ = I，所以在 K 下从不上升的能量必为常数。实时间 Schrödinger 演化是作用量的鞍点；只有归一化虚时间以两倍方差的速率降低能量。"
+  },
+  {
+   "i": 23,
+   "scene": "budget",
+   "start": 378.06,
+   "end": 392.348,
+   "en": "Back to the gate as an optimizer. Let e sub L be the best error of words of length at most L for the logical NOT. It is positive, never increases, and tends to zero, so no finite word attains the infimum.",
+   "zh": "回到作为优化器的黄金门。令 e_L 为长度至多 L 的门字实现逻辑 NOT 的最佳误差。它总为正、从不增加、并趋于零，所以没有有限门字达到下确界。"
+  },
+  {
+   "i": 24,
+   "scene": "budget",
+   "start": 392.948,
+   "end": 408.074,
+   "en": "Parity makes this quantitative. With gamma equal to phi cubed plus root of phi to the sixth minus one, below nine, e sub L is at least root of two over one plus gamma to the L. How close real compilation comes is open.",
+   "zh": "奇偶使这一点定量化。令 Γ = φ³ + √(φ⁶ − 1)，它小于 9；则 e_L ≥ √(2/(1 + Γ^L))。实际编译能多接近这个下界，仍是开放问题。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 410.474,
+   "end": 423.344,
+   "en": "Two addresses, a dense circle, braiding blocks, integers against fair coins, parity against flips, two optima, Bellman and Gibbs, the golden spectrum, histories without descent, and an unattained infimum.",
+   "zh": "两个地址，一个稠密的圆，可编织的块，排斥公平硬币的整数，排斥翻转的奇偶，两种最优，Bellman 与 Gibbs，黄金谱，不下降的历史，以及无法达到的下确界。"
+  },
+  {
+   "i": 26,
+   "scene": "finale",
+   "start": 423.944,
+   "end": 438.307,
+   "en": "Fibonacci braid density, Parry's chain and the history state are published inputs, Bellman, Gibbs and Schrödinger are classical, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+   "zh": "Fibonacci 编织稠密性、Parry 链与历史态构造是已发表的输入，Bellman、Gibbs 与 Schrödinger 是经典结果，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 447.307
+}
