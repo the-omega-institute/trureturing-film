@@ -1,0 +1,251 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 19.963
+  },
+  {
+   "id": "title",
+   "start": 19.963,
+   "end": 38.561
+  },
+  {
+   "id": "source",
+   "start": 38.561,
+   "end": 70.886
+  },
+  {
+   "id": "gauge",
+   "start": 70.886,
+   "end": 105.218
+  },
+  {
+   "id": "tape",
+   "start": 105.218,
+   "end": 139.476
+  },
+  {
+   "id": "face",
+   "start": 139.476,
+   "end": 170.535
+  },
+  {
+   "id": "occupy",
+   "start": 170.535,
+   "end": 208.222
+  },
+  {
+   "id": "tube",
+   "start": 208.222,
+   "end": 245.227
+  },
+  {
+   "id": "attain",
+   "start": 245.227,
+   "end": 284.051
+  },
+  {
+   "id": "rebuild",
+   "start": 284.051,
+   "end": 321.071
+  },
+  {
+   "id": "fullheight",
+   "start": 321.071,
+   "end": 356.027
+  },
+  {
+   "id": "finale",
+   "start": 356.027,
+   "end": 400.15
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 18.963,
+   "en": "Part three bounded the chance that a winding history stays in a tube. Part four asks what it costs: the action that steers the three phases at a chosen velocity, and the entropy that keeps one phase reading in a square-root tube forever.",
+   "zh": "第三部估计了缠绕历史停留在管内的概率。第四部问代价：以给定速度操控三个相位所需的作用量，以及让一个相位读数永远留在平方根管内所需的熵。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 21.163,
+   "end": 26.707,
+   "en": "FIB-native long-time phase, part four: steering action and critical tube entropy.",
+   "zh": "FIB 原生长时相位，第四部：操控作用量与临界管熵。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 27.307,
+   "end": 37.161,
+   "en": "Steering costs a squared norm whose unit ball has a flat face, and one law chosen before any horizon attains exactly the critical tube coefficient.",
+   "zh": "操控的代价是一个范数的平方，其单位球有一个平坦面；而一条在任何时域之前选定的律，恰好达到临界管系数。"
+  },
+  {
+   "i": 3,
+   "scene": "source",
+   "start": 39.361,
+   "end": 54.187,
+   "en": "Fix the signed source: the coefficient c of k on the height interval, the ground-state weight phi squared, and the transport tensor M. The covector n, equal to two, minus two, one, reads exactly one on every c of k.",
+   "zh": "固定带符号的源：高度区间上的系数 c(k)、基态权重 φ²，以及输运张量 M。余向量 n = (2, −2, 1) 在每个 c(k) 上的读数恰为 1。"
+  },
+  {
+   "i": 4,
+   "scene": "source",
+   "start": 54.787,
+   "end": 69.486,
+   "en": "A command moves the height by a and the phases at rate c times b dot. Its action is a dot squared over epsilon squared plus b dot squared, integrated over the whole original clock, with holds and installation included.",
+   "zh": "一条指令让高度移动 a，让相位以速率 c 乘 ḃ 移动。其作用量是 ȧ²/ε² + ḃ² 在整个原始时钟上的积分，停留与安装时间都计入。"
+  },
+  {
+   "i": 5,
+   "scene": "gauge",
+   "start": 71.686,
+   "end": 86.614,
+   "en": "Let B be the convex hull of plus and minus c over the closed interval. Its gauge is a norm, and Cauchy–Schwarz over the whole clock shows that action per unit time is at least the squared gauge of the average velocity.",
+   "zh": "令 B 为闭区间上 ±c 的凸包。它的规范函数是一个范数；在整个时钟上用 Cauchy–Schwarz，可知单位时间作用量不小于平均速度规范的平方。"
+  },
+  {
+   "i": 6,
+   "scene": "gauge",
+   "start": 87.214,
+   "end": 103.817,
+   "en": "The bound is attained. Write the velocity with at most four signed atoms, and dwell at each height for a fraction of the time, at phase speed plus or minus the gauge. Unit velocity along theta uses three heights and costs two hundred forty-five point six.",
+   "zh": "这个下界可以达到。用至多四个带符号的原子写出速度，在每个高度停留一部分时间，相位速度为 ± 规范值。沿 θ 的单位速度用三个高度，代价为 245.6。"
+  },
+  {
+   "i": 7,
+   "scene": "tape",
+   "start": 106.017,
+   "end": 121.194,
+   "en": "The tape issues only rational data: heights k zero plus a rational, approached from inside, visited in increasing order, then a return to k zero. Travel costs at most sixteen here, and this design pays four point one.",
+   "zh": "磁带只发出有理数据：高度为 k₀ 加一个有理数，从内部逼近，按递增顺序访问，最后回到 k₀。这里行程代价至多为 16，这个设计付出 4.1。"
+  },
+  {
+   "i": 8,
+   "scene": "tape",
+   "start": 121.794,
+   "end": 138.076,
+   "en": "Holds and installation grow only like a power of log T, so their share of the clock vanishes. Velocity tends to the target and action per unit time to the squared gauge, along every large integer horizon; no exact endpoint is claimed.",
+   "zh": "停留与安装只按 log T 的幂增长，它们在时钟中的份额趋于零。沿每个足够大的整数时域，速度趋于目标，单位时间作用量趋于规范的平方；不声称精确终点。"
+  },
+  {
+   "i": 9,
+   "scene": "face",
+   "start": 140.276,
+   "end": 152.91,
+   "en": "Now compare with the transport covariance. Its ellipsoid lies inside B, and the plane where n reads one cuts B in the convex hull of the curve c itself: a flat face of dimension two.",
+   "zh": "现在与输运协方差比较。它的椭球位于 B 之内；n 读数为 1 的平面截 B 所得的，正是曲线 c 本身的凸包：一个二维的平坦面。"
+  },
+  {
+   "i": 10,
+   "scene": "face",
+   "start": 153.51,
+   "end": 169.135,
+   "en": "The two bodies touch only at plus and minus M n. So the squared gauge is at most w transposed M inverse w, with equality exactly on the line through M n. With a flat face, the squared gauge cannot be a quadratic form.",
+   "zh": "两个凸体只在 ±Mn 处接触。因此规范的平方不超过 wᵀM⁻¹w，等号恰在过 Mn 的直线上成立。有了平坦面，规范的平方不可能是二次型。"
+  },
+  {
+   "i": 11,
+   "scene": "occupy",
+   "start": 171.335,
+   "end": 186.374,
+   "en": "Now also require the time spent at each height to reproduce M, through the empirical Gram matrix of the whole history. The action becomes exactly w transposed M inverse w, and rational quadrature tapes attain it.",
+   "zh": "现在再要求在各高度上停留的时间通过整段历史的经验 Gram 矩阵重现 M。作用量就恰好变成 wᵀM⁻¹w，有理求积磁带可以达到它。"
+  },
+  {
+   "i": 12,
+   "scene": "occupy",
+   "start": 186.974,
+   "end": 206.822,
+   "en": "For unit velocity along theta the cost rises from two hundred forty-five to two thousand five hundred ninety-two. The convex design step is classical Elfving geometry. Neither action supplies the distance law that the observer geometry needs, and service energy stays a separate charge.",
+   "zh": "对沿 θ 的单位速度，代价从 245 升到 2592。凸设计这一步是经典的 Elfving 几何。两种作用量都不提供观察者几何所需的距离律，服务能量仍是单独的计费。"
+  },
+  {
+   "i": 13,
+   "scene": "tube",
+   "start": 209.022,
+   "end": 225.642,
+   "en": "Now entropy. Fix a unit vector e, let X be the phase displacement read along e, and m the ground-state mean of a squared. The tube asks that X stay within plus or minus r root one plus t at every real time, with the height alive forever.",
+   "zh": "现在看熵。固定单位向量 e，令 X 为沿 e 读出的相位位移，m 为 a² 的基态平均。管要求在每个实时刻 |X| < r√(1+t)，并且高度永远存活。"
+  },
+  {
+   "i": 14,
+   "scene": "tube",
+   "start": 226.242,
+   "end": 243.827,
+   "en": "The cost is the divergence of each finite prefix from the killed reference law. Part three showed it grows at least like lambda T plus nu log one plus T, with nu an Ornstein–Uhlenbeck Dirichlet eigenvalue. At r equal to root two m, nu is exactly one.",
+   "zh": "代价是每个有限前缀相对被杀死参考律的散度。第三部证明它至少按 λT + ν log(1+T) 增长，ν 是 Ornstein–Uhlenbeck 算子的 Dirichlet 特征值。当 r = √(2m) 时，ν 恰为 1。"
+  },
+  {
+   "i": 15,
+   "scene": "attain",
+   "start": 246.027,
+   "end": 263.37,
+   "en": "One law, chosen before any horizon, attains this. A bounded corrector and Azuma's inequality keep the random clock below two m t plus C times one plus t to the p minus one, on a height event of positive probability; condition the height on it.",
+   "zh": "一条在任何时域之前选定的律达到这个速率。有界校正子与 Azuma 不等式让随机时钟在正概率的高度事件上保持在 2mt + C((1+t)ᵖ − 1) 之下；把高度条件化到这个事件上。"
+  },
+  {
+   "i": 16,
+   "scene": "attain",
+   "start": 263.97,
+   "end": 282.651,
+   "en": "There a conditioned Ornstein–Uhlenbeck path, stretched and run on a logarithmic clock, stays strictly inside the tube. Its density is at most a constant times e to the lambda T plus nu s, so the divergence is at most lambda T plus nu log one plus T, plus a bounded term.",
+   "zh": "在那里，一条条件化的 Ornstein–Uhlenbeck 路径经过拉伸、在对数时钟上运行，严格留在管内。它的密度至多为常数乘 e^(λT + νs)，因此散度至多为 λT + ν log(1+T) 加一个有界项。"
+  },
+  {
+   "i": 17,
+   "scene": "rebuild",
+   "start": 284.851,
+   "end": 301.372,
+   "en": "The full three-phase vector is rebuilt from the height, that scalar path, and an independent Brownian motion filling the times where a vanishes. X equals the scalar path on the actual clock, so the strict tube holds at every original time, plateaus included.",
+   "zh": "完整的三相位向量由高度、那条标量路径，以及在 a 为零的时刻补位的独立 Brown 运动重建。X 等于实际时钟上的标量路径，因此严格管在每个原始时刻成立，平台段也不例外。"
+  },
+  {
+   "i": 18,
+   "scene": "rebuild",
+   "start": 301.972,
+   "end": 319.671,
+   "en": "Every member of the class pays at least minus log of the tube probability, and this one law pays at most lambda T plus nu log one plus T plus a constant. Both sides share the coefficient nu, so the infimum over the class has it too, for lower and upper limits alike.",
+   "zh": "类中每个成员至少付出管概率的 −log，而这一条律至多付出 λT + ν log(1+T) 加一个常数。两边共享系数 ν，因此类上的下确界也是 ν，下极限与上极限皆然。"
+  },
+  {
+   "i": 19,
+   "scene": "fullheight",
+   "start": 321.871,
+   "end": 338.788,
+   "en": "Conditioning changed the height law. To keep the entire height path, let the envelope constant be random: C of K, the smallest positive integer that works. Its mean is finite, because the corrector martingale over n to the p has an integrable supremum.",
+   "zh": "条件化改变了高度律。为了保留整条高度路径的律，让包络常数随机化：C(K) 是可行的最小正整数。它的均值有限，因为校正子鞅除以 nᵖ 后的上确界可积。"
+  },
+  {
+   "i": 20,
+   "scene": "fullheight",
+   "start": 339.388,
+   "end": 354.627,
+   "en": "The log-likelihood bound is linear in C, so only that first moment enters, and the mixture keeps the full height law with the same coefficient nu. C of K may read the future height path, so this is one law, not an adapted control.",
+   "zh": "对数似然界关于 C 是线性的，所以只用到一阶矩；这个混合保留完整的高度律，系数仍是 ν。C(K) 可以读取未来的高度路径，所以这是一条律，而不是适应的控制。"
+  },
+  {
+   "i": 21,
+   "scene": "finale",
+   "start": 357.027,
+   "end": 373.7,
+   "en": "Steering costs a squared gauge with a flat face, the ellipsoid touches it only along M n, occupation restores the quadratic form, and one horizon-free law, even one keeping the height path, attains the sharp coefficient nu beyond lambda T.",
+   "zh": "操控代价是带平坦面的规范平方，椭球只沿 Mn 与之接触，占据条件恢复二次型；一条与时域无关的律，即使保留高度路径，也在 λT 之外恰好达到精确系数 ν。"
+  },
+  {
+   "i": 22,
+   "scene": "finale",
+   "start": 374.3,
+   "end": 391.15,
+   "en": "Elfving geometry, Doob conditioning, Girsanov and Azuma are classical tools, the lower bound comes from part three, the rest is argued in the theory volumes, and the finite computations were redone for this film. This completes the four-part series.",
+   "zh": "Elfving 几何、Doob 条件化、Girsanov 与 Azuma 是经典工具，下界来自第三部，其余在理论卷中论证，有限计算为本片重新完成。四部曲到此完结。"
+  }
+ ],
+ "duration": 400.15
+}
