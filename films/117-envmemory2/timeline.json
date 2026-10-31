@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 23.155
+  },
+  {
+   "id": "title",
+   "start": 23.155,
+   "end": 37.556
+  },
+  {
+   "id": "obstruct",
+   "start": 37.556,
+   "end": 72.581
+  },
+  {
+   "id": "balanced",
+   "start": 72.581,
+   "end": 105.594
+  },
+  {
+   "id": "spectator",
+   "start": 105.594,
+   "end": 144.875
+  },
+  {
+   "id": "families",
+   "start": 144.875,
+   "end": 178.808
+  },
+  {
+   "id": "decoder",
+   "start": 178.808,
+   "end": 213.144
+  },
+  {
+   "id": "interior",
+   "start": 213.144,
+   "end": 251.515
+  },
+  {
+   "id": "repeated",
+   "start": 251.515,
+   "end": 288.221
+  },
+  {
+   "id": "simple",
+   "start": 288.221,
+   "end": 324.519
+  },
+  {
+   "id": "degrees",
+   "start": 324.519,
+   "end": 357.23
+  },
+  {
+   "id": "assembly",
+   "start": 357.23,
+   "end": 390.707
+  },
+  {
+   "id": "finale",
+   "start": 390.707,
+   "end": 428.482
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 22.155,
+   "en": "A qutrit passes through a fixed channel whose chronological record is erased, and one decoder must answer one yes-or-no task. Part one found the error floor and two boundary faces; part two finds the exact error for every rank-one task at every finite horizon.",
+   "zh": "一个 qutrit 穿过一个固定信道，其按时间顺序的记录被抹去，而一个解码器必须回答一个是非任务。第一部找到了误差下限和两个边界面；第二部求出每个秩一任务在每个有限时程上的精确误差。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 24.355,
+   "end": 29.84,
+   "en": "Auric environment memory, part two: exact task errors and matching certificates.",
+   "zh": "AURIC 环境记录记忆 第二部：精确任务误差与匹配证书。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 30.44,
+   "end": 36.156,
+   "en": "Every task gets an attaining effect, a lower witness that meets it, and one fixed decoder.",
+   "zh": "每个任务都得到一个达到最优的效应、一个与之相合的下界见证，以及一个固定的解码器。"
+  },
+  {
+   "i": 3,
+   "scene": "obstruct",
+   "start": 38.356,
+   "end": 53.643,
+   "en": "The channel pinches by W and then rotates by U zero, so n uses give F to the n. Take horizon six and the balanced task on xi plus e over root two. The constant effect one half already gives error one half.",
+   "zh": "信道先按 W 做 pinching，再用 U₀ 旋转，于是用 n 次就是 Fⁿ。取时程六和 (ξ + e)/√2 上的平衡任务。常数效应 I/2 已经给出误差 1/2。"
+  },
+  {
+   "i": 4,
+   "scene": "obstruct",
+   "start": 54.243,
+   "end": 71.181,
+   "en": "No projection does as well. Five more steps multiply coherence by minus one thirty-second, so an error of at most one half would put the trace between thirty-five and sixty-one thirty-seconds, strictly between one and two. But the trace is the integer rank.",
+   "zh": "没有任何投影能做到这样。后面五步把相干乘以 −1/32，所以误差若不超过 1/2，迹就会落在 35/32 与 61/32 之间，严格介于一和二之间。但迹等于整数秩。"
+  },
+  {
+   "i": 5,
+   "scene": "balanced",
+   "start": 73.381,
+   "end": 88.375,
+   "en": "Now the exact value of that balanced task at every horizon. With tau equal to two to the power one minus n, from horizon four on the error is the unique root between one minus tau over two and one half of a quartic in t.",
+   "zh": "现在给出这个平衡任务在每个时程上的精确值。令 τ = 2^(−(n−1))，从时程四起，误差是一个关于 t 的四次方程在 (1 − τ)/2 与 1/2 之间的唯一根。"
+  },
+  {
+   "i": 6,
+   "scene": "balanced",
+   "start": 88.975,
+   "end": 104.194,
+   "en": "Horizons two and three need degree-eight polynomials instead, giving point three one four four and point three eight nine three. Each value comes with an effect that attains it and a witness that meets it, and the error climbs toward one half.",
+   "zh": "时程二和三改用八次多项式，得到 0.3144 和 0.3893。每个值都配有一个达到它的效应和一个与之相合的见证，误差逐步升向 1/2。"
+  },
+  {
+   "i": 7,
+   "scene": "spectator",
+   "start": 106.394,
+   "end": 124.111,
+   "en": "Next, every population on the xi, e plane: the task vector root p xi plus root q e. Stationarity of a one-variable distance gives a quartic with exactly one admissible root y zero, and a residual t zero always below one half.",
+   "zh": "接着是 ξ、e 平面上的所有布居：任务向量为 √p ξ + √q e。一个单变量距离的驻点条件给出一个四次方程，它恰有一个可取的根 y₀，残差 t₀ 总小于 1/2。"
+  },
+  {
+   "i": 8,
+   "scene": "spectator",
+   "start": 124.711,
+   "end": 143.475,
+   "en": "When y zero is at most t zero, this pair is optimal: its residual and its witness meet at t zero, against every complex effect. At horizon three, for instance, this holds once p exceeds about point six eight. When the filter fails, four finite families take over.",
+   "zh": "当 y₀ ≤ t₀ 时，这一对就是最优的：它的残差和它的见证在 t₀ 处相合，对所有复效应都成立。例如在时程三，p 超过约 0.68 时就成立。条件不满足时，由四个有限族接手。"
+  },
+  {
+   "i": 9,
+   "scene": "families",
+   "start": 145.675,
+   "end": 162.257,
+   "en": "The families are called P, M, D and R. Their root equations are a quartic, a degree-eight polynomial, a quartic, and either degree eight or a quadratic, so at most twenty-four roots at even horizons, where s is negative, and eighteen at odd ones.",
+   "zh": "这些族称为 P、M、D 和 R。它们的根方程分别是四次、八次、四次，以及八次或二次，所以在偶数时程（s 为负）至多二十四个根，在奇数时程至多十八个。"
+  },
+  {
+   "i": 10,
+   "scene": "families",
+   "start": 162.857,
+   "end": 177.408,
+   "en": "Every root that passes its filters is certified on its own: a feasible effect, a witness of trace norm one, and equal primal and dual values. So retained roots never disagree; the fixed order only picks one pair.",
+   "zh": "每个通过筛选的根都各自得到证书：一个可行效应、一个迹范数为一的见证，以及相等的原始值与对偶值。所以保留下来的根从不冲突；固定的顺序只是选出其中一对。"
+  },
+  {
+   "i": 11,
+   "scene": "decoder",
+   "start": 179.608,
+   "end": 194.877,
+   "en": "Why is something always retained? An optimum and a supporting witness always exist, and a case analysis of their spectra places every optimum in the conditional pair or one of the four families, including endpoints and transitions.",
+   "zh": "为什么总有根被保留？最优解和支撑见证总是存在，而对它们的谱逐一分情形，就把每个最优解放进条件对或四个族之一，端点和过渡情形也都包括在内。"
+  },
+  {
+   "i": 12,
+   "scene": "decoder",
+   "start": 195.477,
+   "end": 211.744,
+   "en": "So for every p and every finite horizon the value is exact, and one measure-and-prepare decoder attains it: measure the effect B, then prepare the task state or an even mixture of its complement. The complementary task has the same value.",
+   "zh": "因此对每个 p 和每个有限时程，值都是精确的，而一个测量再制备的解码器就能达到它：测量效应 B，再制备任务态，或其补空间上的均匀混合。互补任务的值相同。"
+  },
+  {
+   "i": 13,
+   "scene": "interior",
+   "start": 213.944,
+   "end": 232.975,
+   "en": "Now the interior, where all three populations are positive and the floor test of part one fails. Every optimal residual then has spectrum minus t, h, t, with the floor k, the square root of r times one minus r, below t, t below one half, and h between zero and t.",
+   "zh": "现在进入内部：三个布居都为正，且第一部的下限判据不成立。此时每个最优残差的谱都是 (−t, h, t)，下限 k = √(r(1 − r)) < t < 1/2，且 0 ≤ h ≤ t。"
+  },
+  {
+   "i": 14,
+   "scene": "interior",
+   "start": 233.575,
+   "end": 250.115,
+   "en": "A real witness supports each optimum, with its positive part on the minus t eigenspace and its negative part on the plus t eigenspace. Two cases remain: repeated contact, where h equals t, and simple contact, where h is below t.",
+   "zh": "每个最优解都有一个实见证支撑：其正部落在 −t 本征空间上，负部落在 +t 本征空间上。剩下两种情形：重复接触，h = t；简单接触，h < t。"
+  },
+  {
+   "i": 15,
+   "scene": "repeated",
+   "start": 252.315,
+   "end": 269.29,
+   "en": "Repeated contact is finite: four root equations of degrees two, two, four and four, each with two signs, and at most two normal generators for the witness. Every accepted entry is a global optimum, and one exists whenever a repeated optimum does.",
+   "zh": "重复接触是有限的：四个根方程，次数分别为二、二、四、四，各带两个符号，见证至多用两个法向生成元。每个被接受的条目都是全局最优，只要存在重复接触的最优解，就有这样的条目。"
+  },
+  {
+   "i": 16,
+   "scene": "repeated",
+   "start": 269.89,
+   "end": 286.821,
+   "en": "An exact example: horizon three, p and q one thirty-second, r fifteen sixteenths. The error solves two thousand five hundred sixty t squared plus four hundred ninety-eight t minus five hundred eighty-nine equals zero, about point three nine two two.",
+   "zh": "一个精确的例子：时程三，p = q = 1/32，r = 15/16。误差满足 2560t² + 498t − 589 = 0，约为 0.3922。"
+  },
+  {
+   "i": 17,
+   "scene": "simple",
+   "start": 289.021,
+   "end": 304.996,
+   "en": "Simple contact really occurs. At horizon three take q star, the root of a quadratic near point zero seven four, and put a small weight rho on f. Every optimum then has h below t; recomputed, h stays near one eighth.",
+   "zh": "简单接触确实会出现。在时程三取 q*，即一个二次方程在 0.074 附近的根，再在 f 上放一个小权重 ρ。此时每个最优解都有 h < t；重算显示 h 停在 1/8 附近。"
+  },
+  {
+   "i": 18,
+   "scene": "simple",
+   "start": 305.596,
+   "end": 323.119,
+   "en": "For these tasks the volume enumerates projector faces and two reciprocal charts of a dual conic, then rebuilds the effect from each dual point and accepts it only after exact filters. Every support type is covered, so the simple-contact list is never empty.",
+   "zh": "对这类任务，理论卷枚举投影面和对偶二次曲线的两个互逆坐标卡，再从每个对偶点重建效应，只在通过精确筛选后才接受。每种支撑类型都被覆盖，所以简单接触的列表从不为空。"
+  },
+  {
+   "i": 19,
+   "scene": "degrees",
+   "start": 325.319,
+   "end": 339.842,
+   "en": "All of this is bounded in advance. The construction factors polynomials of total degree at most eleven and solves equations in one variable of degree at most one hundred four, with fewer than one hundred thousand candidates.",
+   "zh": "这一切都事先有界。构造只需分解总次数至多十一的多项式，并求解次数至多一百零四的一元方程，候选数少于十万。"
+  },
+  {
+   "i": 20,
+   "scene": "degrees",
+   "start": 340.442,
+   "end": 355.83,
+   "en": "The selected value has algebraic degree at most sixteen times seven hundred ninety-two times eleven factorial, about five times ten to the eleven. A fixed order takes the first accepted entry, and every choice gives the same value.",
+   "zh": "选出的值的代数次数至多为 16 × 792 × 11!，约为 5 × 10¹¹。固定的顺序取第一个被接受的条目，而任何选择都给出同一个值。"
+  },
+  {
+   "i": 21,
+   "scene": "assembly",
+   "start": 358.03,
+   "end": 375.227,
+   "en": "Finally the pieces combine. Horizons zero and one, the faces p zero and q zero, the family r zero, the floor region, repeated contact and simple contact cover every complex unit vector, every finite horizon and every instrument angle.",
+   "zh": "最后把各部分合起来。时程零和一、p = 0 与 q = 0 两个面、r = 0 族、下限区域、重复接触与简单接触，覆盖了每个复单位向量、每个有限时程和每个仪器角。"
+  },
+  {
+   "i": 22,
+   "scene": "assembly",
+   "start": 375.827,
+   "end": 389.307,
+   "en": "Each case returns the value, an attaining effect, a matching lower certificate and one same-qutrit decoder fixed for all inputs. Complements give the rank-two tasks, and the trivial tasks have error zero.",
+   "zh": "每种情形都给出值、一个达到它的效应、一个相合的下界证书，以及一个对所有输入固定、作用在同一 qutrit 上的解码器。取补给出秩二任务，平凡任务的误差为零。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 391.707,
+   "end": 407.411,
+   "en": "Projections fail at horizon six, the balanced task reduces to a quartic from horizon four, the xi, e plane closes with one quartic and four families, and the interior splits into repeated and simple contact, all of finite degree.",
+   "zh": "投影在时程六失效，平衡任务从时程四起归结为一个四次方程，ξ、e 平面由一个四次方程和四个族收尾，内部分为重复接触与简单接触，全部是有限次数。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 408.011,
+   "end": 419.482,
+   "en": "The observable-recovery framework of Bény, Kempf and Kribs is a published input, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+   "zh": "Bény、Kempf 与 Kribs 的可观测量恢复框架是已发表的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 428.482
+}
