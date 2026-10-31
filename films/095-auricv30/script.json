@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Continuing the Auric volumes: version thirty puts observers, programs, records and clocks inside one fixed state; version thirty-one asks when records stay stable, and when clock readings rebuild a metric.",
+     "延续 AURIC 版本系列：第三十版把观察者、程序、记录与时钟都放进同一个固定态；第三十一版追问记录何时保持稳定，钟读数又何时能重建度规。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric versions thirty and thirty-one: static records, golden clocks and metric recovery.",
+     "AURIC V30–V31：静态记录、黄金时钟与度规恢复。"
+    ],
+    [
+     "Records that settle, a golden Cantor spectrum, ticks that do not cancel, and ten readings for a metric.",
+     "会稳定下来的记录，黄金 Cantor 谱，不会相消的 tick，以及给出度规的十个读数。"
+    ]
+   ]
+  },
+  {
+   "id": "whole",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Everything sits in one normalised state on one algebra. Compatible internal states extend to it, GNS gives one cyclic vector, and if every internal unitary is allowed, that vector reaches every pure state.",
+     "一切都位于同一个代数上的一个归一态之中。相容的内部态延拓到它，GNS 给出一个循环向量；若允许全部内部酉，这个向量能到达每一个纯态。"
+    ],
+    [
+     "Quantifiers matter: a finite gate menu has countably many words for uncountably many rays. Growth stays inside: isometric steps keep one vector in the limit, and r to the n lasting histories need dimension r to the n.",
+     "量词很重要：有限门菜单只有可数多个门字，射线却不可数。增长留在内部：等距步骤在极限中保持同一个向量，而 rⁿ 条永久历史需要 rⁿ 维。"
+    ]
+   ]
+  },
+  {
+   "id": "records",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Keep nested commuting records and a target Z commuting with them. Its posterior q n is a martingale on the fixed law, and the mean square error of Z equals the mean of q n times one minus q n.",
+     "保留嵌套的对易记录，以及与它们对易的目标 Z。它的后验 q_n 是同一固定律上的鞅，而 Z 的均方误差恰等于 q_n(1 − q_n) 的均值。"
+    ],
+    [
+     "So the limit is zero or one exactly when the full record identifies Z. Commuting matters: for the state plus and its own projector, refining to the computational basis drops the value from one to one half.",
+     "所以极限只取零或一，当且仅当完整记录能辨认 Z。对易性很关键：对态 |+⟩ 和它自己的投影，细化到计算基后，条件值从 1 降到 1/2。"
+    ]
+   ]
+  },
+  {
+   "id": "square",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Automorphisms keep every algebraic relation while readings move: cos theta Z plus sin theta X squares to one, yet its value in zero is cos theta. The Peres–Mermin square has no global table of plus or minus ones.",
+     "自同构保持全部代数关系，读数却会移动：cosθ Z + sinθ X 的平方恒为 1，它在 |0⟩ 中的值却是 cosθ。Peres–Mermin 方阵则没有任何全局的 ±1 值表。"
+    ],
+    [
+     "Uncertainty lives in one fixed state: in plus y, delta X times delta Z equals one, the commutator bound. Rare conditions amplify: records of mass eta squared, operators root two eta apart, give orthogonal conditional states.",
+     "不确定性就存在于一个固定态中：在 |+y⟩ 中 ΔX·ΔZ = 1，恰为对易子界。稀有条件会放大差别：质量为 η² 的两个记录，算子相距只有 √2η，条件态却彼此正交。"
+    ]
+   ]
+  },
+  {
+   "id": "golden",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Parameters become programs; exact ones must be orthogonal, so d dimensions hold at most d unitaries. Golden weights, phi to the one minus two k, make the recursive gate converge within norm A times phi to the minus two n.",
+     "参数成为程序；精确的程序必须彼此正交，所以 d 维至多容纳 d 个酉。黄金权重 φ^(1−2k) 使递归门收敛，误差不超过 ‖A‖φ^(−2n)。"
+    ],
+    [
+     "The binary program has a fractal spectrum: K equals r K union one minus r plus r K, gap phi to the minus three, dimension log two over two log phi, about point seven two, every point spectrum, none an eigenvalue.",
+     "二进制程序给出分形谱：K = rK ∪ (1 − r + rK)，间隙 φ⁻³，维数 log2/(2logφ)，约 0.72。每个点都在谱中，却没有一个是本征值。"
+    ]
+   ]
+  },
+  {
+   "id": "clocks",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Clocks count recorded ticks, not word length: K to the tenth may be the identity, yet S tensor K to the tenth is S to the tenth. A clock potential exists exactly when every closed walk sums to zero.",
+     "时钟数的是被记录的 tick，不是词长：K¹⁰ 可以是恒等，但 S 与 K 的张量积的十次方等于 S¹⁰。钟势存在，当且仅当每条闭走的增量和为零。"
+    ],
+    [
+     "Histories can also be static. Weight label n by alpha n, squares summing to one: the history vectors are exactly the kernel of a positive constraint operator, and the labels have no first or last.",
+     "历史也可以是静态的。用平方和为一的 α_n 给标签 n 加权：历史向量恰好构成一个正约束算子的核，而标签既无第一个，也无最后一个。"
+    ]
+   ]
+  },
+  {
+   "id": "curvature",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "With unitary transports between internal contexts, consistent global states are exactly the vectors every loop fixes. One state does not force flatness: a triangle carrying the phase one, e to the i theta, fixes zero but turns one.",
+     "在内部情境之间配以酉运输，全局相容态恰是被每条回路固定的向量。一个态并不迫使平坦：带相位 diag(1, e^(iθ)) 的三角回路固定 |0⟩，却旋转 |1⟩。"
+    ],
+    [
+     "Resting clocks do not fix curvature: two metrics give each one d tau equals d t, yet one curves, a cos x, three at x zero. Given spatial relations, the lapse gives minus grad Phi minus Phi over c squared grad Phi.",
+     "静止的钟不决定曲率：两个度规都让每个静止钟 dτ = dt，其中一个却弯曲，曲率为 a·cos x，在 x = 0 处为 3。给定空间关系后，lapse 给出 −∇Φ − (Φ/c²)∇Φ。"
+    ]
+   ]
+  },
+  {
+   "id": "native",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The native golden port's readout squares to a, five plus root five over ten, giving likelihoods one plus or minus root a over two. In the eighty-nine dimensional carrier, finite native words reach it within delta, leaking at most delta squared.",
+     "原生黄金读口的读口算子平方为 a = (5 + √5)/10，给出似然 (1 ± √a)/2。在八十九维载体中，有限原生门字可在 δ 之内取得它，泄漏至多 δ²。"
+    ],
+    [
+     "Exactness meets a wall. Reduce word matrices modulo five, zeta to minus one: an odd controlled phase leaves the pattern one, one, one, minus one, determinant minus two, while every allowed A tensor B has determinant zero.",
+     "精确实现却遇到一道墙。把门字矩阵模五约化，ζ ↦ −1：奇次受控相位留下图样 1、1、1、−1，行列式为 −2，而每个允许的 A 与 B 的张量积，行列式都为零。"
+    ]
+   ]
+  },
+  {
+   "id": "branch",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Version thirty-one starts from the project's classification: the old branch reads Born, and the second reads c q plus d, with c equal to a times x over one minus a, and x equal to root five minus one over two.",
+     "第三十一版从项目的分类出发：旧分支读出 Born 律，第二分支读出 cq + d，其中 c = ax/(1 − a)，x = (√5 − 1)/2。"
+    ],
+    [
+     "Thirteen basis inputs fix the global error: Delta is t minus the smallest legal d j, between twelve thirteenths of t and t, with t one minus c; the golden mass defect is x cubed t over one minus x t.",
+     "于是十三个基输入决定全域误差：Δ = t − 最小的合法 d_j，介于 (12/13)t 与 t 之间，其中 t = 1 − c；黄金质量缺陷为 x³t/(1 − xt)。"
+    ]
+   ]
+  },
+  {
+   "id": "polarize",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now stability. Repeat an informative readout whose full instrument errors have finite sum E star. The actual pointer weight q n goes to zero or one almost surely, and the selection probability moves from q zero by at most E star.",
+     "再看稳定性。重复一个信息性读口，其完整仪器误差之和 E* 有限。实际指针权重 q_n 几乎必然趋于零或一，选择概率与 q₀ 之差至多为 E*。"
+    ],
+    [
+     "The proof follows the impurity q times one minus q: one-Lipschitz in trace distance, it falls each step by c star times its square, up to the step error. Golden likelihoods give c star four a, about two point nine.",
+     "证明跟踪杂质 q(1 − q)：它对迹距离是 1-Lipschitz 的，每一步下降 c* 乘以它的平方，误差项除外。黄金似然给出 c* = 4a，约为 2.9。"
+    ]
+   ]
+  },
+  {
+   "id": "errors",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The condition cannot be dropped. A fixed noise fraction lambda, however small, traps q strictly inside zero to one; rotations with sine squared theta n equal to one over n plus two vanish, yet flip the label forever.",
+     "这个条件不能省略。固定的噪声比例 λ 无论多小，都把 q 困在零与一之间；而 sin²θ_n = 1/(n + 2) 的旋转虽然趋于零，却让标签永远翻转。"
+    ],
+    [
+     "A golden schedule restores summability: refine step n to the ceiling of log C n times n plus one over delta, over two log phi, and the total stays below delta. A constant readout can still need two to the k states.",
+     "黄金调度恢复可求和性：第 n 步取精细度 ⌈log(Cn(n + 1)/δ)/(2logφ)⌉，总误差就保持在 δ 以下。即使读数恒定，也可能需要 2ᵏ 个状态。"
+    ]
+   ]
+  },
+  {
+   "id": "metric",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Finally geometry. If directions form a four-space and squared clock readings are minus g of v v, ten timelike probes around e zero, spread by epsilon, recover the metric exactly; fewer generally cannot.",
+     "最后是几何。若方向构成四维空间，平方钟读数为 −g(v, v)，那么围绕 e₀、以 ε 展开的十个类时探测就能精确恢复度规；更少的一般不行。"
+    ],
+    [
+     "Reading errors grow by about six over epsilon squared, and small errors keep the Lorentz signature. Finite ticks add L V cubed h plus two B zeta over h. A common light cone and common volume fix the metric at a point.",
+     "读数误差约放大 6/ε² 倍，足够小的误差保持 Lorentz 符号。有限 tick 再增加 LV³h + 2Bζ/h。共同的光锥加上共同的体积，在一点上完全确定度规。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "One state, settling records, moving readings, a golden Cantor spectrum, ticks and loops, clocks short of curvature, an odd-phase wall, sharp branch errors, polarization, and ten probes for a metric.",
+     "一个态，会稳定的记录，移动的读数，黄金 Cantor 谱，tick 与回路，不足以决定曲率的钟，奇相位之墙，锐利的分支误差，极化，以及恢复度规的十个探测。"
+    ],
+    [
+     "GNS, the Peres–Mermin square, no-programming and non-demolition convergence are published or classical inputs, the classification and native results come from other volumes, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+     "GNS、Peres–Mermin 方阵、不可编程定理与非破坏测量收敛是已发表或经典的输入，分类与原生结果来自其他卷，其余在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
