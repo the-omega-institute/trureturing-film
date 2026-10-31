@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 21.907
+  },
+  {
+   "id": "title",
+   "start": 21.907,
+   "end": 37.945
+  },
+  {
+   "id": "ball",
+   "start": 37.945,
+   "end": 75.279
+  },
+  {
+   "id": "pair",
+   "start": 75.279,
+   "end": 108.939
+  },
+  {
+   "id": "star",
+   "start": 108.939,
+   "end": 146.656
+  },
+  {
+   "id": "branches",
+   "start": 146.656,
+   "end": 183.608
+  },
+  {
+   "id": "window",
+   "start": 183.608,
+   "end": 217.28
+  },
+  {
+   "id": "certify",
+   "start": 217.28,
+   "end": 254.56
+  },
+  {
+   "id": "record",
+   "start": 254.56,
+   "end": 290.798
+  },
+  {
+   "id": "blind",
+   "start": 290.798,
+   "end": 329.59
+  },
+  {
+   "id": "moment",
+   "start": 329.59,
+   "end": 364.796
+  },
+  {
+   "id": "depth",
+   "start": 364.796,
+   "end": 403.487
+  },
+  {
+   "id": "finale",
+   "start": 403.487,
+   "end": 445.524
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 20.907,
+   "en": "Part one reduced every compatible channel to a fiber of qutrit successor states and left the exact worst-case risk open. Part two finds the smallest ball around that fiber on three exact branches, then asks how deep a labelled record must go.",
+   "zh": "第一部把每个相容通道都化为一族 qutrit 后继态构成的纤维，最坏风险的精确值留作未决。第二部在三个精确分支上求出包住这族纤维的最小球，再追问带标签的记录要多深才够。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 23.107,
+   "end": 27.501,
+   "en": "Auric predictive waves, part two: exact radii and record depth.",
+   "zh": "AURIC 相容预测波 第二部：精确半径与记录深度。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 28.101,
+   "end": 36.545,
+   "en": "One ball around every compatible world, three exact branches, one open window, and depth three before every direction is seen.",
+   "zh": "一个球包住每个相容世界，三个精确分支，一个未决窗口，记录要到深度三才能看见每个方向。"
+  },
+  {
+   "i": 3,
+   "scene": "ball",
+   "start": 38.745,
+   "end": 55.187,
+   "en": "Every channel that matches the full depth data leaves a successor state in one convex fiber, and every common reconstruction is a center. The diamond risk is exactly a trace distance, so the risk is the radius of the smallest ball around the fiber.",
+   "zh": "每个符合全部深度数据的通道都在同一个凸纤维里留下一个后继态，每个共同重建对应一个中心。diamond 风险恰好等于迹距离，所以风险就是包住整族纤维的最小球的半径。"
+  },
+  {
+   "i": 4,
+   "scene": "ball",
+   "start": 55.787,
+   "end": 73.879,
+   "en": "A traceless qutrit difference has trace norm twice its top eigenvalue, so radius two c means every state lies between sigma minus c I and sigma plus c I. For positive c two cubic determinants decide this exactly; at c equal zero they do not.",
+   "zh": "迹零的 qutrit 差的迹范数是其最大特征值的两倍，所以半径 2c 意味着每个态都夹在 σ − cI 与 σ + cI 之间。c > 0 时两个三次行列式恰好判定这一点；c = 0 时不行。"
+  },
+  {
+   "i": 5,
+   "scene": "pair",
+   "start": 76.079,
+   "end": 89.933,
+   "en": "For small d two pure worlds decide everything. They differ only in the sign of an imaginary g amplitude, their midpoint is the center, and they sit at trace distance four c, so no reconstruction can beat two c.",
+   "zh": "d 较小时，两个纯世界决定一切。它们只差 g 分量虚振幅的符号，中点就是中心，二者的迹距离为 4c，所以没有任何重建能低于 2c。"
+  },
+  {
+   "i": 6,
+   "scene": "pair",
+   "start": 90.533,
+   "end": 107.539,
+   "en": "On the other side, every compatible state keeps g population at least one minus five d, and a normalised cofactor matrix stays positive. So the radius two root of five d times one minus five d is exact, with a unique center, up to d star.",
+   "zh": "另一侧，每个相容态的 g 布居都至少为 1 − 5d，一个归一化余因子矩阵保持半正定。于是半径 2√(5d(1 − 5d)) 一直精确成立到 d*，最优中心唯一。"
+  },
+  {
+   "i": 7,
+   "scene": "star",
+   "start": 109.739,
+   "end": 127.085,
+   "en": "Where does that branch end? On the normalised source cap a cubic acquires a double root exactly once, at x star near point eight zero seven and u star near point seven zero two. That fixes d star, about point zero seven eight eight three, an algebraic number.",
+   "zh": "这一支在哪里结束？在归一化源帽上，一个三次式恰好只有一次出现二重根，位于 x* ≈ 0.807、u* ≈ 0.702。由此定出 d* ≈ 0.07883，一个实代数数。"
+  },
+  {
+   "i": 8,
+   "scene": "star",
+   "start": 127.685,
+   "end": 145.256,
+   "en": "At d star there are exactly four upper contacts, the two pure worlds and two mixed worlds with imaginary coherences, and two lower ones, the pure pair again. Just past it the mixed worlds break the upper side, so up to one tenth the radius strictly exceeds the pure-pair value.",
+   "zh": "在 d* 处恰有四个上接触：两个纯世界和两个带虚相干的混合世界；下接触有两个，仍是那对纯世界。刚越过 d*，混合世界就突破上侧，所以直到 1/10，半径都严格大于纯态对的值。"
+  },
+  {
+   "i": 9,
+   "scene": "branches",
+   "start": 147.456,
+   "end": 166.163,
+   "en": "Higher up, four pure contact worlds and one algebraic center formula give an exact branch from d high, about point two eight one, to d b, about point eight seven four. At forty-nine over ninety-two the parameter is one fifth and the radius is exactly twenty-eight over twenty-three.",
+   "zh": "再往上，四个纯接触世界加一个代数中心公式给出一条精确分支，从 d_high ≈ 0.281 到 d_b ≈ 0.874。在 d = 49/92 处参数为 1/5，半径恰为 28/23。"
+  },
+  {
+   "i": 10,
+   "scene": "branches",
+   "start": 166.763,
+   "end": 182.208,
+   "en": "Above d b one eigenmode of the center sits at its floor, and strict concavity leaves exactly one admissible root, with a rank-two center. Three exact branches now cover everything except the window from d star to d high.",
+   "zh": "d_b 以上，中心有一个本征模停在下限，严格凹性只留下唯一可容许的根，中心秩为二。三个精确分支覆盖了除 d* 到 d_high 窗口之外的全部参数。"
+  },
+  {
+   "i": 11,
+   "scene": "window",
+   "start": 184.408,
+   "end": 199.586,
+   "en": "Inside the window sits d equal five over sixty-one. The pure family alone has radius sixty over sixty-one, but four actual complex worlds, two of them mixed, prove the true radius exceeds point nine eight four zero four.",
+   "zh": "窗口里有 d = 5/61。仅看纯态族，半径是 60/61；但四个实际的复世界（其中两个是混合态）证明真实半径大于 0.98404。"
+  },
+  {
+   "i": 12,
+   "scene": "window",
+   "start": 200.186,
+   "end": 215.88,
+   "en": "An explicit center, checked with ten rational positive matrices, keeps it at most point nine eight five zero five six. Around this point the excess over the pure radius is at least one in five thousand, and the exact value is still open.",
+   "zh": "一个显式中心，用十个有理正定矩阵核验，把它压在 0.985056 以内。在这一点附近，超出纯态半径的量至少为五千分之一，而精确值仍然未决。"
+  },
+  {
+   "i": 13,
+   "scene": "certify",
+   "start": 218.08,
+   "end": 235.305,
+   "en": "For the window the volume builds exact tests. Each imaginary fiber is an ellipsoid, because the determinant of D plus i cross t is det D minus t transpose D t, and on each real face one multiplier gives a four by four matrix inequality.",
+   "zh": "面向这个窗口，理论卷建立了精确的检验。每条虚纤维都是椭球，因为 det(D + i·cross(t)) = det D − tᵀDt；在每个实面上，一个乘子就给出一个四阶矩阵不等式。"
+  },
+  {
+   "i": 14,
+   "scene": "certify",
+   "start": 235.905,
+   "end": 253.16,
+   "en": "A matching lower certificate needs at most six conjugate pairs of extreme contacts. Positivity certificates exist with a finite but towering degree bound, and completely positive extensions only suffice: a matrix-level example shows the gap in general.",
+   "zh": "匹配的下证书至多需要六对共轭的极端接触。正性证书存在，次数界有限却高得惊人；完全正延拓只是充分条件，一个矩阵层级的例子显示了一般情形下的差距。"
+  },
+  {
+   "i": 15,
+   "scene": "record",
+   "start": 255.36,
+   "end": 273.602,
+   "en": "Volume four keeps the labels. A known angle theta drives two gates; each history of length n carries weight two to the minus n and a final yes or no. Complete tables differ in total variation by the weighted sum of effect differences, and in diamond norm by twice that.",
+   "zh": "第四卷保留标签。已知角度 θ 驱动两枚门；每条长度为 n 的历史带权重 2⁻ⁿ，最后给出是或否。两张完整表的总变差等于效果差的加权和，diamond 距离是它的两倍。"
+  },
+  {
+   "i": 16,
+   "scene": "record",
+   "start": 274.202,
+   "end": 289.398,
+   "en": "Differences of compatible states fill a six-dimensional space, and every direction is realised by two strictly positive compatible states. So the condition number lambda N, trace distance over record distance, does not depend on d.",
+   "zh": "相容态之差填满一个六维空间，每个方向都由两个严格正的相容态实现。所以条件数 Λ_N，即迹距离与记录距离之比，与 d 无关。"
+  },
+  {
+   "i": 17,
+   "scene": "blind",
+   "start": 291.598,
+   "end": 307.068,
+   "en": "Shallow records are never enough. One direction, H T, is invisible on every history of length at most two, so lambda zero, one and two are infinite. At depth three it appears, with size nine sixteenths sine squared two theta.",
+   "zh": "浅记录永远不够。有一个方向 H_T，在所有长度不超过二的历史上都看不见，所以 Λ₀、Λ₁、Λ₂ 都是无穷。到深度三它才出现，大小为 (9/16) sin²(2θ)。"
+  },
+  {
+   "i": 18,
+   "scene": "blind",
+   "start": 307.668,
+   "end": 328.19,
+   "en": "A weighted parity inversion recovers all six coordinates at depth three, with determinant eighty-one over five hundred twelve times s to the fourth. So lambda three lies between four point two nine and five hundred fifty-seven, over s squared, and at the exceptional angles an imaginary direction stays blind forever.",
+   "zh": "加权奇偶反演在深度三恢复全部六个坐标，行列式为 (81/512)s⁴。于是 Λ₃ 介于 4.29/s² 与 557/s² 之间；而在例外角度上，一个虚方向永远看不见。"
+  },
+  {
+   "i": 19,
+   "scene": "moment",
+   "start": 330.39,
+   "end": 346.905,
+   "en": "For deep records the volume squares the problem. On the symmetric square the two gates average into a contraction on a thirty-six-dimensional operator space whose fixed space is spanned by exactly three sector projections, with a principal-angle gap of three eighths.",
+   "zh": "对深记录，理论卷把问题平方。在对称平方上，两枚门平均成三十六维算子空间上的一个收缩，其不动空间恰好由三个扇区投影张成，主角间隙为 3/8。"
+  },
+  {
+   "i": 20,
+   "scene": "moment",
+   "start": 347.505,
+   "end": 363.396,
+   "en": "That gives a resolvent bound of sixteen hundred over three s squared, a limiting second moment of at least one twenty-fourth of the squared Hilbert-Schmidt norm, and a record-distance bound that rises to one thirty-second of the trace distance as depth grows.",
+   "zh": "由此得到预解界 1600/(3s²)，极限二阶矩至少为 Hilbert–Schmidt 范数平方的 1/24，以及随深度增加而升到迹距离 1/32 的记录距离下界。"
+  },
+  {
+   "i": 21,
+   "scene": "depth",
+   "start": 365.596,
+   "end": 383.464,
+   "en": "Away from the exceptional angles the full-history condition number lies between four and thirty-two. Reaching it costs depth: the hidden imaginary component grows by at most three s squared per step, so any bound L needs depth at least sixteen over three L squared s squared.",
+   "zh": "离开例外角度，全历史条件数介于 4 与 32 之间。但要达到它得付出深度：隐藏的虚分量每步至多增长 3s²，所以任何界 L 都需要深度至少 16/(3L²s²)。"
+  },
+  {
+   "i": 22,
+   "scene": "depth",
+   "start": 384.064,
+   "end": 402.087,
+   "en": "Conversely, depth fifty-one thousand two hundred over s squared already keeps lambda N at most sixty-four. And if two compatible candidates fit the supplied tables within a combined error epsilon, their successors differ in diamond norm by at most lambda N times epsilon.",
+   "zh": "反过来，深度达到 51200/s² 就保证 Λ_N ≤ 64。若两个相容候选在合计误差 ε 内符合所给的表，它们的后继在 diamond 范数下至多相差 Λ_N·ε。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 404.487,
+   "end": 420.774,
+   "en": "Two pure worlds fix the radius up to d star, a mixed contact breaks it there, four pure contacts and one floor mode fix the upper branches, five over sixty-one is bracketed, and labelled records need depth three, then depth of order one over s squared.",
+   "zh": "两个纯世界把半径定到 d*，一个混合接触在那里打破它，四个纯接触和一个下限模定下上方的分支，5/61 被夹在一个区间里；带标签的记录需要深度三，再要 1/s² 量级的深度。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 421.374,
+   "end": 436.524,
+   "en": "Channel and duality tools, the S-lemma, the effective Positivstellensatz and random-unitary fixed points are published inputs, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+   "zh": "通道与对偶工具、S 引理、有效 Positivstellensatz 以及随机酉不动点是已发表的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 445.524
+}
