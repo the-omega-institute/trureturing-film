@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 21.879
+  },
+  {
+   "id": "title",
+   "start": 21.879,
+   "end": 36.377
+  },
+  {
+   "id": "glue",
+   "start": 36.377,
+   "end": 71.857
+  },
+  {
+   "id": "eight",
+   "start": 71.857,
+   "end": 102.842
+  },
+  {
+   "id": "grading",
+   "start": 102.842,
+   "end": 137.029
+  },
+  {
+   "id": "phase",
+   "start": 137.029,
+   "end": 170.949
+  },
+  {
+   "id": "lift",
+   "start": 170.949,
+   "end": 205.936
+  },
+  {
+   "id": "cells",
+   "start": 205.936,
+   "end": 238.421
+  },
+  {
+   "id": "control",
+   "start": 238.421,
+   "end": 278.197
+  },
+  {
+   "id": "golden",
+   "start": 278.197,
+   "end": 312.402
+  },
+  {
+   "id": "window",
+   "start": 312.402,
+   "end": 347.018
+  },
+  {
+   "id": "select",
+   "start": 347.018,
+   "end": 378.521
+  },
+  {
+   "id": "finale",
+   "start": 378.521,
+   "end": 417.017
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 20.879,
+   "en": "This standalone film takes the Auric observation framework to E8. Two five-mode interfaces each carry an A four lattice. Which integral extensions exist, which phases can an observer see, when do local data glue, and what can a golden readout recover?",
+   "zh": "这部独立的片子把 AURIC 观察框架带到 E8。两个五模式接口各带一个 A₄ 根格。有哪些积分扩张？观察者能看到哪些相位？局部数据何时能整体拼接？黄金读出又能恢复什么？"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 23.079,
+   "end": 26.682,
+   "en": "Auric E8: compatible extensions and observation.",
+   "zh": "AURIC–E8：相容扩张与观察理论。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 27.282,
+   "end": 34.977,
+   "en": "Integrality picks E8, one mod-five slope sets the phases and the lifts, and a window makes the golden readout stable.",
+   "zh": "积分性选出 E8，同一个模 5 斜率决定相位与提升，窗口让黄金读出稳定。"
+  },
+  {
+   "i": 3,
+   "scene": "glue",
+   "start": 37.177,
+   "end": 53.642,
+   "en": "Take two A four root lattices, orthogonal, at equal scale. Each has discriminant group F five, with pairing four a a prime over five. An integral extension lies between the lattice and its dual: an isotropic subspace of F five squared.",
+   "zh": "取两个 A₄ 根格，彼此正交、尺度相同。每个的判别群都是 F₅，配对为 4aa′/5。积分扩张夹在格与其对偶之间，也就是 F₅² 中的一个全迷向子空间。"
+  },
+  {
+   "i": 4,
+   "scene": "glue",
+   "start": 54.242,
+   "end": 70.457,
+   "en": "A nonzero glue vector needs a squared plus b squared to vanish mod five, so b over a, squared, is minus one, which is four. Exactly two lines survive, b equals plus or minus two a: two marked extensions of index five.",
+   "zh": "非零胶合向量要求 a² + b² ≡ 0 (mod 5)，于是 (b/a)² = −1 = 4。恰好剩下两条直线 b = ±2a：两种带标记的扩张，指数都是 5。"
+  },
+  {
+   "i": 5,
+   "scene": "eight",
+   "start": 72.657,
+   "end": 86.778,
+   "en": "Evenness and unimodularity come for free. Five times any new vector lies in the even lattice, and twenty-five is odd, so every norm is even; the determinant is twenty-five over five squared, which is one.",
+   "zh": "偶性与幺模性不必另设。任何新向量的五倍都落在偶格中，而 25 是奇数，所以所有范数都是偶数；行列式为 25/5² = 1。"
+  },
+  {
+   "i": 6,
+   "scene": "eight",
+   "start": 87.378,
+   "end": 101.442,
+   "en": "Count roots: forty from the two A fours and fifty in each of the four glue classes, two hundred forty in all. Rank-eight simply laced systems have seventy-two, one hundred twelve or two hundred forty roots, so this is E8.",
+   "zh": "数根：两个 A₄ 给出 40 个，四个胶合类各 50 个，共 240 个。秩八的单键根系只有 72、112、240 三种根数，所以这就是 E8。"
+  },
+  {
+   "i": 7,
+   "scene": "grading",
+   "start": 103.642,
+   "end": 120.663,
+   "en": "Choose the plus sign. The glue class grades E8 into five pieces: the local part sl five plus sl five, of dimension forty-eight, and four pieces of dimension fifty, such as V tensor wedge two W. Brackets add grades mod five.",
+   "zh": "选正号。胶合类把 E8 分成五个分级：局部部分 sl(5) ⊕ sl(5)，维数 48；以及四个 50 维的分级，例如 V 与 Λ²W 的张量积。括号把分级按模 5 相加。"
+  },
+  {
+   "i": 8,
+   "scene": "grading",
+   "start": 121.263,
+   "end": 135.629,
+   "en": "The central pair zeta to the a, zeta to the b acts on grade j by zeta to the j times a plus two b: trivial exactly when b is two a, the glue slope again. So each local projective pair has five lifts.",
+   "zh": "中心元对 (ζᵃ, ζᵇ) 在第 j 分级上乘以 ζ^(j(a+2b))：恰当 b = 2a 时平凡，又是胶合的斜率。所以每个局部射影对恰有五个提升。"
+  },
+  {
+   "i": 9,
+   "scene": "phase",
+   "start": 137.829,
+   "end": 153.395,
+   "en": "What can an observer see of these five phases? If every allowed effect is block diagonal in the grading, all five look identical; one cross-grade block, with all input states allowed, tells all five apart, because five is prime.",
+   "zh": "观察者能看到这五个相位中的什么？若所有允许的效果都对分级块对角，五个相位看起来完全相同；只要有一个跨分级块，并允许全部输入态，由于 5 是素数，五个相位就全部可区分。"
+  },
+  {
+   "i": 10,
+   "scene": "phase",
+   "start": 153.995,
+   "end": 169.549,
+   "en": "Telling apart is not reading in one shot. A probe with weights w j on the five grades succeeds at best one fifth of the square of the sum of root w j: one only for equal weights, at most two fifths on two grades.",
+   "zh": "可区分不等于一次读出。在五个分级上权重为 w_j 的探针，最优单次成功率为 (Σ√w_j)²/5：只有等权时才等于 1，只用两个分级时至多为 2/5。"
+  },
+  {
+   "i": 11,
+   "scene": "lift",
+   "start": 171.749,
+   "end": 187.02,
+   "en": "Now glue globally. Lifting projective data in PU five squared to the local group has obstruction o one plus two o two, in H two with F five coefficients: a lift exists exactly when o two is two o one.",
+   "zh": "现在做整体拼接。把 PU(5)² 中的射影数据提升到局部群，障碍为 o₁ + 2o₂，属于系数在 F₅ 中的 H²：恰当 o₂ = 2o₁ 时提升存在。"
+  },
+  {
+   "i": 12,
+   "scene": "lift",
+   "start": 187.62,
+   "end": 204.536,
+   "en": "On the torus, clock and shift matrices D and S commute up to zeta, D squared and S up to zeta squared. Neither lifts to SU five alone, yet the pair lifts, because zeta, zeta squared lies in the kernel; a trivial second factor blocks it.",
+   "zh": "在环面上，钟表矩阵 D 与移位矩阵 S 交换到差一个 ζ，D² 与 S 交换到差一个 ζ²。两者都不能单独提升到 SU(5)，合起来却可以，因为 (ζ, ζ²) 正在核里；若第二个因子平凡，提升就被挡住。"
+  },
+  {
+   "i": 13,
+   "scene": "cells",
+   "start": 206.736,
+   "end": 221.861,
+   "en": "On a finite two-complex with flat edge labels, pick any lifts: each face product is z to the eta f. Shifting edge phases by b adds delta b, so a closing lift exists exactly when eta's class vanishes in H two.",
+   "zh": "在带平坦边标签的有限二维复形上任取边的提升：每个面的乘积都是 z^(η_f)。把边相位移动 b 会加上 δb，所以让所有面闭合的提升存在，恰当 η 的类在 H² 中为零。"
+  },
+  {
+   "i": 14,
+   "scene": "cells",
+   "start": 222.461,
+   "end": 237.021,
+   "en": "The lifts then form an H one torsor, five to the b one on a connected graph. And defects can be read: the uniform probe, sent around a face and measured in the Fourier basis, returns eta f with probability one.",
+   "zh": "此时提升构成一个 H¹ 挠集，在连通图上共有 5^(b₁) 个。面缺陷也能读出：均匀探针绕一个面走一圈，再在 Fourier 基下测量，就以概率 1 给出 η_f。"
+  },
+  {
+   "i": 15,
+   "scene": "control",
+   "start": 239.221,
+   "end": 258.566,
+   "en": "Control next. Full local control plus one non-local continuous direction generates all of compact E8, two hundred forty-eight dimensions, as brackets walk the grades one, two, four, three. On the plain twenty-five dimensional product, the same recipe gives su twenty-five.",
+   "zh": "再看控制。完整的局部控制加上任意一个非局部连续方向，就生成整个紧 E8，共 248 维，因为括号沿分级 1、2、4、3 走遍。在普通的 25 维张量积上，同样的配方给出的是 su(25)。"
+  },
+  {
+   "i": 16,
+   "scene": "control",
+   "start": 259.166,
+   "end": 276.797,
+   "en": "A fixed generating menu has some uniform finite word length, not computed here. Yet almost every target needs at least two hundred forty-eight tunable pulses, or, with local gates free, five relation pulses, as four reach only two hundred forty-four dimensions.",
+   "zh": "能生成的固定有限菜单具有某个统一的有限词长，这里不计算其数值。即便如此，几乎每个目标都至少需要 248 个可调脉冲；若局部门免费，至少需要五次关系脉冲，因为四次只能达到 244 维。"
+  },
+  {
+   "i": 17,
+   "scene": "golden",
+   "start": 278.997,
+   "end": 295.492,
+   "en": "Now the golden readout, a plus phi b, on integer pairs. It is injective, yet its inverse is discontinuous everywhere: the Fibonacci pairs F n plus one, minus F n grow without bound while their readout, sigma to the n, shrinks to zero.",
+   "zh": "现在看整数对上的黄金读出 a + φb。它是单射，但逆映射处处不连续：Fibonacci 对 (F_(n+1), −F_n) 无界增长，读数 σⁿ 却缩到零。"
+  },
+  {
+   "i": 18,
+   "scene": "golden",
+   "start": 296.092,
+   "end": 311.002,
+   "en": "Bounded height H restores it: the smallest gap lies between one over two phi H and phi over two H, and noise must stay under half of it. Reading both conjugates, the gap is one, and the whole lattice decodes below one half.",
+   "zh": "限定高度 H 就能恢复：最小间隔介于 1/(2φH) 与 φ/(2H) 之间，噪声必须小于它的一半。同时读两个共轭时，间隔恰为 1，噪声小于 1/2 时整个格都能解码。"
+  },
+  {
+   "i": 19,
+   "scene": "window",
+   "start": 313.202,
+   "end": 328.992,
+   "en": "Or bound the hidden conjugate by a window with interior, of diameter D. Then distinct readouts differ by at least one over D, the inverse is Lipschitz, and the readouts form an aperiodic Delone set with finite local complexity.",
+   "zh": "也可以用一个内部非空、直径为 D 的窗口限制隐藏的共轭。这样不同读数之差至少为 1/D，逆映射是 Lipschitz 的，读数构成一个具有有限局部复杂性的非周期 Delone 集。"
+  },
+  {
+   "i": 20,
+   "scene": "window",
+   "start": 329.592,
+   "end": 345.618,
+   "en": "Golden refinement T sends a, b to b, a plus b, scaling the readout by phi and the conjugate by sigma, so the window times sigma squared gives the set times phi squared. T flips the sign of a squared plus a b minus b squared.",
+   "zh": "黄金细化 T 把 (a, b) 送到 (b, a + b)，读数乘以 φ，共轭乘以 σ，所以窗口乘以 σ² 时，点集乘以 φ²。T 使 a² + ab − b² 变号。"
+  },
+  {
+   "i": 21,
+   "scene": "select",
+   "start": 347.818,
+   "end": 360.934,
+   "en": "Now restore both marked gluings. With sign s, the joint obstruction is o one plus two s o two, so a flat lift exists for some sign exactly when o two is plus or minus two o one.",
+   "zh": "现在恢复两种带标记的胶合。符号为 s 时，联合障碍是 o₁ + 2s·o₂，所以某个符号下存在平坦提升，恰当 o₂ = ±2o₁。"
+  },
+  {
+   "i": 22,
+   "scene": "select",
+   "start": 361.534,
+   "end": 377.121,
+   "en": "If both vanish, both signs work. If either is nonzero and the condition holds, exactly one sign works: on a torus, eight of the twenty-five pairs select one sign, sixteen allow neither, and the clock and shift example selects plus.",
+   "zh": "若两者都为零，两种符号都可行。若有一个非零且条件成立，就恰好只有一种符号可行：在环面上，25 个对中有 8 个选定一种符号，16 个两种都不行，钟表与移位的例子选的是正号。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 379.521,
+   "end": 392.894,
+   "en": "Integrality picks two marked E8 lattices, one mod-five slope sets the phase, what an observer sees and when local data lift, one direction completes control, and a window steadies the golden readout.",
+   "zh": "积分性选出两个带标记的 E8 格，同一个模 5 斜率决定相位、观察者能看到什么以及局部数据何时能提升，一个方向补全控制，窗口让黄金读出稳定。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 393.494,
+   "end": 408.017,
+   "en": "The A D E classification, the Chevalley construction and uniform finite generation are classical inputs named in the volume, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+   "zh": "ADE 分类、Chevalley 构造与统一有限生成是卷中点名的经典输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 417.017
+}
