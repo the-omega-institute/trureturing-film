@@ -1,0 +1,293 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 19.106
+  },
+  {
+   "id": "title",
+   "start": 19.106,
+   "end": 34.375
+  },
+  {
+   "id": "pentagon",
+   "start": 34.375,
+   "end": 68.213
+  },
+  {
+   "id": "braid",
+   "start": 68.213,
+   "end": 102.88
+  },
+  {
+   "id": "control",
+   "start": 102.88,
+   "end": 134.849
+  },
+  {
+   "id": "cuts",
+   "start": 134.849,
+   "end": 169.926
+  },
+  {
+   "id": "trine",
+   "start": 169.926,
+   "end": 203.007
+  },
+  {
+   "id": "global",
+   "start": 203.007,
+   "end": 239.74
+  },
+  {
+   "id": "mirror",
+   "start": 239.74,
+   "end": 274.046
+  },
+  {
+   "id": "garside",
+   "start": 274.046,
+   "end": 306.53
+  },
+  {
+   "id": "chiral",
+   "start": 306.53,
+   "end": 336.24
+  },
+  {
+   "id": "gram",
+   "start": 336.24,
+   "end": 368.866
+  },
+  {
+   "id": "transpose",
+   "start": 368.866,
+   "end": 398.028
+  },
+  {
+   "id": "finale",
+   "start": 398.028,
+   "end": 443.606
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 18.106,
+   "en": "This film continues the versioned Auric volumes. Version twenty-five asks whether one quantum gate can tile a whole; version twenty-seven asks what a rigid mirror does to amplitudes and to native golden gates.",
+   "zh": "本片延续 AURIC 版本系列。第二十五版追问一种量子门能否铺满整体；第二十七版追问刚性镜像对振幅和原生黄金门做了什么。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 20.306,
+   "end": 25.461,
+   "en": "Auric versions twenty-five and twenty-seven: golden tilings and rigid mirrors.",
+   "zh": "AURIC V25–V27：黄金铺砌与刚性镜像。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 26.061,
+   "end": 32.975,
+   "en": "A pentagon fixes the golden matrix, twenty-eight calls build a mirror, and a phase survives every covering.",
+   "zh": "一个五边形确定黄金矩阵，二十八次调用造出一面镜子，而一个相位在每一种覆盖之后仍然留存。"
+  },
+  {
+   "i": 3,
+   "scene": "pentagon",
+   "start": 35.175,
+   "end": 51.09,
+   "en": "Powers of one gate commute, so repetition alone cannot cover everything. Version twenty-five adds tile types: Fibonacci fusion, where tau with tau gives one or tau, and a two-by-two recoupling matrix with positive entries r and s.",
+   "zh": "一枚门的幂彼此交换，所以单靠重复覆盖不了一切。第二十五版给瓦片加上类型：Fibonacci 融合，τ 与 τ 融合得到 1 或 τ，以及一个正元素为 r 和 s 的二乘二重组矩阵。"
+  },
+  {
+   "i": 4,
+   "scene": "pentagon",
+   "start": 51.69,
+   "end": 66.813,
+   "en": "One pentagon component forces r times r minus s squared to vanish, so r equals s squared; with unitarity, r squared plus s squared is one. The only solution is r equal to one over phi, s its square root.",
+   "zh": "五边形的一个分量迫使 r(r − s²) = 0，所以 r = s²；酉性再加上 r² + s² = 1。唯一的解是 r = 1/φ，s 是它的平方根。"
+  },
+  {
+   "i": 5,
+   "scene": "braid",
+   "start": 69.013,
+   "end": 85.333,
+   "en": "Weighted path projections obey the Temperley–Lieb relations, a general theorem frozen in the project's Lean kernel. For two golden projections, the braid relation then holds only at the phases e to the plus or minus three pi i over five.",
+   "zh": "带权路径投影满足 Temperley–Lieb 关系，这条一般定理已在项目的 Lean 内核中冻结。对两个黄金投影，编织关系只在相位 e^(±3πi/5) 处成立。"
+  },
+  {
+   "i": 6,
+   "scene": "braid",
+   "start": 85.933,
+   "end": 101.48,
+   "en": "This is the native gate K, and K to the tenth is the identity. Swapping the phase for an inner gate W keeps unitarity, but the braid survives only if W has spectrum in one, zeta and zeta bar; K itself fails.",
+   "zh": "这就是原生门 K，K¹⁰ = I。把相位换成内部门 W 仍保持酉性，但只有当 W 的谱落在 1、ζ、ζ* 之中时编织关系才保留；K 本身不满足。"
+  },
+  {
+   "i": 7,
+   "scene": "control",
+   "start": 103.68,
+   "end": 119.344,
+   "en": "On two overlapping addresses and a two-dimensional invariant sector, the normalised gates have trace of A B equal to one and trace of A B inverse equal to phi to the minus two, whose conjugate exceeds two, so they are dense in PU two.",
+   "zh": "在两个重叠地址和一个二维不变扇区上，归一化的门满足 Tr(AB) = 1、Tr(AB⁻¹) = φ⁻²，后者的共轭大于二，所以它们在 PU(2) 中稠密。"
+  },
+  {
+   "i": 8,
+   "scene": "control",
+   "start": 119.944,
+   "end": 133.449,
+   "en": "Control is not preparation. A dark vector h is killed by both projections, so every word only multiplies it by zeta: from zero zero, the weight phi to the minus three on h never leaves.",
+   "zh": "控制不等于制备。暗向量 h 被两个投影同时消去，所以任何门字都只给它乘上 ζ：从 |00⟩ 出发，h 上 φ⁻³ 的权重永远不会离开。"
+  },
+  {
+   "i": 9,
+   "scene": "cuts",
+   "start": 135.649,
+   "end": 152.417,
+   "en": "A static tensor reads as evolution only along unitary cuts. The identity's sideways cut has rank one, the native three-qubit gate has a cut of rank four out of eight, and a dual-unitary phase swap makes only seven hundred fifty gates on three qubits.",
+   "zh": "静态张量只有沿酉切面才能读作演化。恒等门的横向切面秩为一，原生三比特门有一个秩为八分之四的切面，而一个双酉的相位交换门在三比特上只生成七百五十个门。"
+  },
+  {
+   "i": 10,
+   "scene": "cuts",
+   "start": 153.017,
+   "end": 168.526,
+   "en": "Edges glue globally exactly when every closed loop from a root fixes the vector, and a hole can keep a loop nontrivial. Equal rays still interfere: a relative phase theta gives port probability one plus cosine theta, over two.",
+   "zh": "边恰好在每条从根出发的闭路都固定该向量时整体相容；一个孔可以让闭路保持非平凡。射线相同仍会干涉：相对相位 θ 给出端口概率 (1 + cos θ)/2。"
+  },
+  {
+   "i": 11,
+   "scene": "trine",
+   "start": 170.726,
+   "end": 185.923,
+   "en": "One trine readout sees only a disc. Three trines on orthogonal axes recover the whole Bloch vector: the squared probabilities sum to one plus r squared over three, and every squared distance shrinks by exactly a factor three.",
+   "zh": "一个 trine 读口只看到一张圆盘。三个正交轴上的 trine 恢复完整的 Bloch 向量：概率平方和为 1 + |r|²/3，每个距离平方都恰好缩小为三分之一。"
+  },
+  {
+   "i": 12,
+   "scene": "trine",
+   "start": 186.523,
+   "end": 201.607,
+   "en": "A seam remains: no continuous rule picks an amplitude for every pure state, since the two charts differ by a phase of winding minus one. Three states with pair probabilities one half still carry a loop value, one plus i over four.",
+   "zh": "仍有接缝：没有连续规则能为每个纯态选出振幅，因为两张图相差一个绕数为 −1 的相位。两两概率都是 1/2 的三个态，仍带有一个闭环值 (1 + i)/4。"
+  },
+  {
+   "i": 13,
+   "scene": "global",
+   "start": 203.807,
+   "end": 220.123,
+   "en": "The infinite whole is built from compatible finite regions, and matching overlaps are not enough: Bell pairs on A B and B C agree on B, yet no three-qubit state has both; a semidefinite search finds an error of at least one half.",
+   "zh": "无限整体由相容的有限区域构成，而重叠一致并不够：AB 与 BC 上的 Bell 对在 B 上一致，却没有三比特态同时具有二者；半正定搜索给出至少 1/2 的误差。"
+  },
+  {
+   "i": 14,
+   "scene": "global",
+   "start": 220.723,
+   "end": 238.34,
+   "en": "Global structure can protect information. If the B part fixes each configuration and the A statistics ignore the logical class, erasing A is exactly correctable. Equal statistics alone fail: Phi plus and Psi plus leave a cross term X over two.",
+   "zh": "整体结构可以保护信息。若 B 部分确定每个配置，而 A 的统计与逻辑类无关，擦除 A 就能精确纠正。只有统计相同不够：Φ⁺ 与 Ψ⁺ 留下交叉项 X/2。"
+  },
+  {
+   "i": 15,
+   "scene": "mirror",
+   "start": 240.54,
+   "end": 256.774,
+   "en": "Version twenty-seven separates the plane of the tiles, the amplitudes and the Bloch ball. A reflection two P minus I is unitary, but on the Bloch ball it is a half turn; conjugating amplitudes is the true mirror, with determinant minus one.",
+   "zh": "第二十七版区分瓦片所在的平面、振幅和 Bloch 球。反射 2P − I 是酉的，但在 Bloch 球上它是半周旋转；共轭振幅才是真正的镜像，行列式为 −1。"
+  },
+  {
+   "i": 16,
+   "scene": "mirror",
+   "start": 257.374,
+   "end": 272.646,
+   "en": "The native gate hides an exact reflection: K to the fifth is two P minus I. Two such reflections give only the real orthogonal group, root of two minus root two from a quarter phase; the complex phase gives all of PU two.",
+   "zh": "原生门里藏着一个精确反射：K⁵ = 2P − I。两个这样的反射只生成实正交群，离四分之一相位门的距离为 √(2 − √2)；复相位才给出整个 PU(2)。"
+  },
+  {
+   "i": 17,
+   "scene": "garside",
+   "start": 274.846,
+   "end": 291.262,
+   "en": "On the native thirteen-dimensional sector, reversing the middle sites is a mirror S sending K j to K six minus j. A Garside half twist builds it from twenty-eight forward calls, exact up to a global phase, here four pi over five.",
+   "zh": "在原生十三维扇区上，反转中间各位是一面镜子 S，把 K_j 送到 K_(6−j)。Garside 半扭转用二十八次正向调用造出它，精确到一个整体相位，这里是 4π/5。"
+  },
+  {
+   "i": 18,
+   "scene": "garside",
+   "start": 291.862,
+   "end": 305.13,
+   "en": "Known programs mirror too: replace every call by nine calls of the same gate, in the same order, and you get the complex conjugate matrix. The inverse program is different, because it reverses the order.",
+   "zh": "已知程序也能镜像：把每次调用换成同一门的九次调用、次序不变，得到的就是复共轭矩阵。逆程序则不同，因为它反转了次序。"
+  },
+  {
+   "i": 19,
+   "scene": "chiral",
+   "start": 307.33,
+   "end": 319.855,
+   "en": "The boundary gate K zero has eigenvalue zeta eight times and zeta squared five times. Because eight and five differ, no change of frame turns K into a phase times its inverse.",
+   "zh": "边界门 K₀ 的本征值 ζ 重数为八，ζ² 重数为五。因为八与五不同，没有任何换框能把 K 变成一个相位乘以它的逆。"
+  },
+  {
+   "i": 20,
+   "scene": "chiral",
+   "start": 320.455,
+   "end": 334.84,
+   "en": "The gap is exact: every unitary conjugate stays at least two sine of three pi over twenty, about point nine one, from every phase times K inverse. In two dimensions, with one against one, such a frame exists.",
+   "zh": "这个间隙是精确的：每个酉共轭到任何相位乘 K⁻¹ 的距离都至少为 2sin(3π/20)，约 0.91。在二维中，一对一的重数平衡允许这样的换框。"
+  },
+  {
+   "i": 21,
+   "scene": "gram",
+   "start": 337.04,
+   "end": 353.207,
+   "en": "Non-orthogonal readouts are described by their complex Gram matrix. Equal Gram matrices give one unitary between the families, a theorem frozen in the project's Lean kernel; with a phase per state, overlap moduli and loop products must agree.",
+   "zh": "非正交读口由复 Gram 矩阵描述。Gram 矩阵相同就有一个酉算子连接两族向量，这条定理已在项目的 Lean 内核中冻结；允许每个态各带相位时，重叠模和每个闭环乘积都必须一致。"
+  },
+  {
+   "i": 22,
+   "scene": "gram",
+   "start": 353.807,
+   "end": 367.466,
+   "en": "Zero, plus and plus i have pair probabilities one half, and so do their conjugates, but the loop products are one plus i over four and one minus i over four: no unitary maps one triple to the other.",
+   "zh": "|0⟩、|+⟩、|+i⟩ 两两概率都是 1/2，它们的共轭也是，但闭环乘积分别为 (1 + i)/4 与 (1 − i)/4：没有酉算子能把一组映到另一组。"
+  },
+  {
+   "i": 23,
+   "scene": "transpose",
+   "start": 369.666,
+   "end": 381.535,
+   "en": "Conjugating every unknown state is not a channel: on half of a maximally entangled pair, the transpose gives the swap over d, which has eigenvalue minus one over d.",
+   "zh": "对每个未知态做共轭不是量子信道：作用在最大纠缠对的一半上，转置给出 F/d，即交换算子除以 d，它有本征值 −1/d。"
+  },
+  {
+   "i": 24,
+   "scene": "transpose",
+   "start": 382.135,
+   "end": 396.628,
+   "en": "The best channel adds noise: transpose plus identity, over d plus one, gives fidelity two over d plus one on every pure state, and nothing beats it on average. For a qubit the mirror shrinks the Bloch ball to one third.",
+   "zh": "最优信道要加噪声：(转置 + 恒等)/(d + 1)，在每个纯态上保真度为 2/(d + 1)，平均意义下没有信道更好。对量子比特，镜像必须把 Bloch 球缩到三分之一。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 399.028,
+   "end": 415.736,
+   "en": "A pentagon fixes the golden matrix, braids fix the phase, two addresses give control, cuts, loops and trines keep their data, pieces make the whole, and a mirror is a reflection, twenty-eight calls, an eight-five obstruction, a loop test and a noisy transpose.",
+   "zh": "一个五边形确定黄金矩阵，编织确定相位，两个地址给出控制，切面、闭环与 trine 保留各自的数据，相容的片段构成整体；而镜像是一个反射、二十八次调用、一个八对五的障碍、一个闭环判据和一个带噪声的转置。"
+  },
+  {
+   "i": 26,
+   "scene": "finale",
+   "start": 416.336,
+   "end": 434.606,
+   "en": "The path relations and the Gram criterion are frozen in the project's Lean kernel; Hopf, Garside, braid-group density and the optimal transpose are classical or published inputs; the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+   "zh": "路径关系与 Gram 判据已在项目的 Lean 内核中冻结；Hopf、Garside、编织群表示的稠密性与最优转置是经典或已发表的输入；其余结论在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 443.606
+}
