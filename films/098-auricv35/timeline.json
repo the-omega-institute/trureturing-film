@@ -1,0 +1,293 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 20.313
+  },
+  {
+   "id": "title",
+   "start": 20.313,
+   "end": 34.811
+  },
+  {
+   "id": "bloch",
+   "start": 34.811,
+   "end": 68.431
+  },
+  {
+   "id": "hidden",
+   "start": 68.431,
+   "end": 98.143
+  },
+  {
+   "id": "gates",
+   "start": 98.143,
+   "end": 127.853
+  },
+  {
+   "id": "drift",
+   "start": 127.853,
+   "end": 158.795
+  },
+  {
+   "id": "syndrome",
+   "start": 158.795,
+   "end": 192.218
+  },
+  {
+   "id": "stabilize",
+   "start": 192.218,
+   "end": 229.14
+  },
+  {
+   "id": "basis",
+   "start": 229.14,
+   "end": 263.864
+  },
+  {
+   "id": "chi",
+   "start": 263.864,
+   "end": 298.063
+  },
+  {
+   "id": "closure",
+   "start": 298.063,
+   "end": 330.615
+  },
+  {
+   "id": "series",
+   "start": 330.615,
+   "end": 363.432
+  },
+  {
+   "id": "history",
+   "start": 363.432,
+   "end": 396.873
+  },
+  {
+   "id": "finale",
+   "start": 396.873,
+   "end": 434.672
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 19.313,
+   "en": "Continuing the Auric volumes: version thirty-five asks how errors live on three stable axes, and when unitary steps stay stable; version thirty-six asks when four mode readings recover a fifth, and when errors sum as a series.",
+   "zh": "延续 AURIC 版本系列：第三十五版追问误差怎样落在三条稳定轴上，以及酉步骤何时保持稳定；第三十六版追问四个模式读数何时能恢复第五个，以及误差何时形成级数。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 21.513,
+   "end": 28.016,
+   "en": "Auric versions thirty-five and thirty-six: three-axis errors, four-of-five recovery and error series.",
+   "zh": "AURIC V35–V36：三轴误差、四推一恢复与误差级数。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 28.616,
+   "end": 33.411,
+   "en": "Keep an error's size, close its axes, park it in a syndrome, and sum the rest.",
+   "zh": "保留误差的大小，让它的轴闭合，把它安置在综合征里，其余的求和成级数。"
+  },
+  {
+   "i": 3,
+   "scene": "bloch",
+   "start": 35.611,
+   "end": 51.254,
+   "en": "Two strengths and one complex relation, positive together, are exactly a total N plus a point of the Bloch ball: one minus r squared is four times the determinant over N squared. Normalising away N hides an error's size.",
+   "zh": "两个强度加一个复关系，合起来为正时，恰好等价于一个总量 N 加 Bloch 球中的一点：1 − |r|² 等于 4 det G / N²。把 N 归一化掉，就藏起了误差的大小。"
+  },
+  {
+   "i": 4,
+   "scene": "bloch",
+   "start": 51.854,
+   "end": 67.031,
+   "en": "Two anticommuting sharp readouts A and B generate a third axis, C equals minus i A B, and every state's three squared expectations sum to at most one. On a qubit, trace distance is half the gap between axis vectors.",
+   "zh": "两个反对易的锐读出 A、B 生成第三条轴 C = −iAB，任何态的三个期望平方和都不超过一。在量子比特上，迹距离恰是两轴向量之差的一半。"
+  },
+  {
+   "i": 5,
+   "scene": "hidden",
+   "start": 69.231,
+   "end": 83.449,
+   "en": "The pyramid's own occupancy readouts commute, so they are not Pauli axes. Two states with the same readings, one half, one half, zero, can lie at distance one, and strictly positive ones at one minus epsilon.",
+   "zh": "金字塔自身的占据读口彼此对易，所以它们不是 Pauli 轴。读数同为 (½, ½, 0) 的两个态，距离可以是一；限定严格正时，距离仍可达 1 − ε。"
+  },
+  {
+   "i": 6,
+   "scene": "hidden",
+   "start": 84.049,
+   "end": 96.743,
+   "en": "On all five modes an anticommuting sharp pair is impossible, since it needs even dimension. Three axes predict every future reading exactly when the dual channel maps their algebra into itself.",
+   "zh": "在完整五模式上不存在反对易的锐轴对，因为它要求偶数维。三条轴能预测全部未来读数，当且仅当对偶通道把它们的代数映入自身。"
+  },
+  {
+   "i": 7,
+   "scene": "gates",
+   "start": 98.943,
+   "end": 109.612,
+   "en": "A relative gate error is a unit quaternion, a times identity minus i b dot sigma, and the worst pure-state distance it causes is exactly the length of b.",
+   "zh": "相对门误差是一个单位四元数 aI − i b·σ，它对纯态造成的最坏距离恰好是 |b|。"
+  },
+  {
+   "i": 8,
+   "scene": "gates",
+   "start": 110.212,
+   "end": 126.453,
+   "en": "Two rotations about anticommuting axes give exactly the quaternions with a times b C equal to b A times b B. The third component records order: swapping the factors flips its sign, and the products differ by two sine alpha sine beta.",
+   "zh": "绕两条反对易轴的两次旋转，恰好给出满足 a·b_C = b_A·b_B 的四元数。第三分量记录次序：交换两因子会翻转它的符号，两个乘积相差 2|sin α sin β|。"
+  },
+  {
+   "i": 9,
+   "scene": "drift",
+   "start": 128.653,
+   "end": 144.701,
+   "en": "Unitarity alone does not keep relative errors small. A step error epsilon of pi over two N drifts the state by sine n epsilon, reaching distance one at step N; summable step errors instead bound the relative gate by their sum.",
+   "zh": "单靠酉性不能让相对误差保持很小。单步误差 ε = π/(2N) 使态漂移 |sin nε|，第 N 步达到距离一；而单步误差可求和时，相对门的偏差不超过它们的总和。"
+  },
+  {
+   "i": 10,
+   "scene": "drift",
+   "start": 145.301,
+   "end": 157.395,
+   "en": "And a channel that keeps two sharp logical axes exactly, for every input, must commute with them, so on a bare qubit it is the identity. Correctable errors need somewhere else to live.",
+   "zh": "而对所有输入都精确保持两条锐逻辑轴的通道，必须与它们对易，所以在裸量子比特上它就是恒等。可纠正的误差需要别的安身之处。"
+  },
+  {
+   "i": 11,
+   "scene": "syndrome",
+   "start": 159.595,
+   "end": 174.373,
+   "en": "One channel can be undone exactly when every product of its error operators is a scalar; this Knill–Laflamme criterion is frozen in Lean. A family needs one common recovery, so cross products must be scalars too.",
+   "zh": "一个通道能被精确撤销，当且仅当它的误差算子两两乘积都是标量；这条 Knill-Laflamme 判据已在 Lean 中冻结。一整族误差需要同一个恢复，所以跨误差乘积也必须是标量。"
+  },
+  {
+   "i": 12,
+   "scene": "syndrome",
+   "start": 174.972,
+   "end": 190.818,
+   "en": "Each orthonormal error is an isometric copy of the qubit, so two r is at most five: the syndrome has dimension at most two. Every error acts as W of X tensor tau; the syndrome varies, every logical reading stays.",
+   "zh": "每个正交归一误差都是量子比特的等距副本，所以 2r ≤ 5：综合征维数至多为二。每个误差都作用为 W(X 与 τ 的张量积)W*；综合征在变，全部逻辑读数保持不变。"
+  },
+  {
+   "i": 13,
+   "scene": "stabilize",
+   "start": 193.018,
+   "end": 209.873,
+   "en": "On that frame, mix the identity with a syndrome reset. The logical state never moves, while the syndrome axes approach their target as kappa to the n. Kept content needs a summable drift budget; correctable directions only need vanishing residual errors.",
+   "zh": "在这个标架上，把恒等与综合征重置混合。逻辑态始终不动，综合征三轴以 κⁿ 逼近目标。要保存的内容需要可求和的漂移预算；可纠正的方向只需残余误差趋于零。"
+  },
+  {
+   "i": 14,
+   "scene": "stabilize",
+   "start": 210.473,
+   "end": 227.74,
+   "en": "The project's commuting idempotent CZX windows give a rate: with m windows, the evolution is within one minus, one minus e to the minus t, to the m, of its limit, at most m e to the minus t; the frozen limit keeps a symmetric term.",
+   "zh": "项目中两两交换且幂等的 CZX 窗口给出速率：有 m 个窗口时，演化与其极限的距离不超过 1 − (1 − e⁻ᵗ)ᵐ ≤ m e⁻ᵗ；已冻结的极限保留了一个对称项。"
+  },
+  {
+   "i": 15,
+   "scene": "basis",
+   "start": 229.94,
+   "end": 245.955,
+   "en": "Version thirty-six reads the five modes as functions: one, the occupancies x, y, z and the joint relation x y form a basis. With the total known, any four masses give the fifth, but a sum check cannot locate a wrong reading.",
+   "zh": "第三十六版把五个模式读作函数：常数一、占据 x、y、z 与联合关系 xy 组成一组基。总量已知时，任意四个质量给出第五个，但总和检查无法定位哪个读数出了错。"
+  },
+  {
+   "i": 16,
+   "scene": "basis",
+   "start": 246.555,
+   "end": 262.464,
+   "en": "For five unnormalised moments, fix the cross ratio of the base corners. At ratio one, N minus Z, times K, equals X Y, and any four moments of one scale determine the fifth; normalised ratios alone lose the total.",
+   "zh": "对五个未归一的矩，固定底面四角的交叉比。比值为一时 (N − Z)K = XY，同一尺度的任意四个矩决定第五个；只有归一化比值则会丢掉总量。"
+  },
+  {
+   "i": 17,
+   "scene": "chi",
+   "start": 264.664,
+   "end": 279.503,
+   "en": "Fix the three axes and let the joint mass move. The log cross ratio chi is a bijection onto the real line, the frozen mixed-coordinate chart, and its slope is at least sixteen over w, where w is one minus Z.",
+   "zh": "固定三条轴，让联合质量变化。对数交叉比 χ 是到整条实轴的双射，即已冻结的混合坐标图；它的斜率至少为 16/w，其中 w = 1 − Z。"
+  },
+  {
+   "i": 18,
+   "scene": "chi",
+   "start": 280.103,
+   "end": 296.663,
+   "en": "The sharp bound: two laws on one fibre differ in total variation by at most w times tanh of their chi difference over eight, with equality attained. From the maximum-entropy law, chi zero, it is w over two times tanh of chi over four.",
+   "zh": "锐界：同一纤维上两个分布的总变差至多为 w·tanh(|Δχ|/8)，且等号可以达到。相对于最大熵分布（χ = 0），界为 (w/2)·tanh(|χ|/4)。"
+  },
+  {
+   "i": 19,
+   "scene": "closure",
+   "start": 298.863,
+   "end": 313.535,
+   "en": "Recursion first needs closure: the next three means depend only on the current ones exactly when the update's images satisfy the four-corner identity, phi zero plus phi twenty-five equals phi two plus phi five.",
+   "zh": "递归首先需要闭合：下一步的三个均值只依赖当前三个均值，当且仅当更新的像满足四角恒等式 Φ₀ + Φ₂₅ = Φ₂ + Φ₅。"
+  },
+  {
+   "i": 20,
+   "scene": "closure",
+   "start": 314.135,
+   "end": 329.215,
+   "en": "Results and errors also form a positive relation: the relative error squared is one minus r z, over two times one plus r x. But a steady normalised direction can hide a cancelling error that grows without bound.",
+   "zh": "结果与误差也组成一个正关系：相对误差平方等于 (1 − r_z)/(2(1 + r_x))。但一个稳定的归一方向，可以藏住一个相互抵消、无界增长的误差。"
+  },
+  {
+   "i": 21,
+   "scene": "series",
+   "start": 331.415,
+   "end": 344.986,
+   "en": "If the target solves x equals b plus A x, with A contracting by q, the computable defect r gives the unknown error exactly as the sum of A to the j times r, at most r over one minus q.",
+   "zh": "若目标满足 x = b + Ax，且 A 以 q 收缩，那么可计算的关系缺陷 r 恰好把未知误差写成 Σ Aʲ r，其范数至多为 ‖r‖/(1 − q)。"
+  },
+  {
+   "i": 22,
+   "scene": "series",
+   "start": 345.586,
+   "end": 362.032,
+   "en": "With varying rates, the residual vanishes exactly when the sum of one minus kappa n diverges; kappa n of n plus one over n plus two gives one over n plus one. Yet injected errors c over n plus two leave residual c.",
+   "zh": "收缩率变化时，残余趋于零当且仅当 Σ(1 − κₙ) 发散；κₙ = (n + 1)/(n + 2) 给出乘积 1/(n + 1)。但注入误差 c/(n + 2) 仍会留下残余 c。"
+  },
+  {
+   "i": 23,
+   "scene": "history",
+   "start": 364.232,
+   "end": 379.259,
+   "en": "The project's own histories form a series: F of three L plus two of length L, so one, five, twenty-one, eighty-nine. Weights t to the L normalise exactly when t is below root five minus two, with an exact tail.",
+   "zh": "项目自身的历史构成一个级数：长度 L 的历史有 F(3L+2) 个，即 1、5、21、89。权重 t^L 可归一化当且仅当 t < √5 − 2，且尾部误差有精确公式。"
+  },
+  {
+   "i": 24,
+   "scene": "history",
+   "start": 379.859,
+   "end": 395.473,
+   "en": "Errors must also be readable. For a norm-compact family of signed errors, one finite joint readout keeps every total variation within epsilon; for all point differences on an infinite space, no fixed finite readout suffices.",
+   "zh": "误差还必须可读。对范数紧的有符号误差族，同一个有限联合读出把每个总变差都保持在 ε 以内；而对无限空间上全部点差，任何固定的有限读出都不够。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 397.873,
+   "end": 410.571,
+   "en": "A total and a ball, closed axes, quaternion gates, drift and budgets, a syndrome of at most two, contraction, four-of-five, a sharp tanh bound, closure, error series and finite readouts.",
+   "zh": "总量与球，闭合的轴，四元数门，漂移与预算，至多二维的综合征，收缩，四推一，锐利的 tanh 界，闭合，误差级数，以及有限读出。"
+  },
+  {
+   "i": 26,
+   "scene": "finale",
+   "start": 411.171,
+   "end": 425.672,
+   "en": "The exact-recovery criterion, the mixed-coordinate chart, the CZX limit and the finite-readout theorem are frozen in Lean, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+   "zh": "精确恢复判据、混合坐标图、CZX 极限与有限读出定理已在 Lean 中冻结，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 434.672
+}
