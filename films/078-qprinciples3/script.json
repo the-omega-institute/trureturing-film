@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "The previous volume closed on ten sites, seven fixed golden gates and one starting string. Part three keeps them all, takes the whole thirteen-dimensional sector they preserve, and asks what forces the readout to be Born.",
+     "上一卷结束于十个站点、七个固定的黄金门和一个初始串。第三部全部保留，取这些门保持的整个十三维扇区，追问是什么迫使读出成为 Born 规则。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric quantum principles, part three: native predictive rank and terminal response.",
+     "AURIC 量子原理第三部：原生预测秩与终端响应。"
+    ],
+    [
+     "Thirteen paths, a rank bound, a four-time relation, and records that still need a rule.",
+     "十三条路径，一个秩界，一个四时关系，以及仍需一条规则的记录。"
+    ]
+   ]
+  },
+  {
+   "id": "sector",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with the carrier. The seven gates preserve exactly thirteen strings: one zero, then five free sites with no two neighbours both one, then zero one zero. They are the vacuum paths of eight Fibonacci anyons.",
+     "先看载体。七个门恰好保持十三个串：1 0，接五个自由站点、任意两个相邻站点不同时为 1，再接 0 1 0。它们就是八个 Fibonacci 任意子的真空路径。"
+    ],
+    [
+     "Each gate is a common phase, e to the i pi over five, times a Jones braid generator at q equal e to the two pi i over five. By a published density theorem, gate words are dense in P U thirteen.",
+     "每个门都是同一个相位 e^(iπ/5) 乘以 q = e^(2πi/5) 处的一个 Jones 编织生成元。由一个已发表的稠密性定理，门字在 PU(13) 中稠密。"
+    ]
+   ]
+  },
+  {
+   "id": "rank",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the readout. Set every preparation word against every continuation and label: the rank of this native matrix is the dimension of a ray-function space, built from irreducible blocks of size one, one hundred sixty-eight, eight thousand one hundred twelve, and up.",
+     "再看读出。把每个制备字与每个接续字和标签排成矩阵。这个原生矩阵的秩等于一个射线函数空间的维数，该空间由大小为 1、168、8112 等的不可约块组成。"
+    ],
+    [
+     "So for a continuous readout, if the rank is below eight thousand one hundred thirteen and the thirteen basis states read deterministically, every label follows Born. The Born matrix has rank exactly one hundred sixty-nine, while the uncalibrated uniform readout has rank one.",
+     "所以，对连续的读出，若秩小于 8113，且十三个基态的读数是确定的，每个标签都服从 Born 规则。Born 矩阵的秩恰为 169；未经标定的均匀读出秩为 1。"
+    ]
+   ]
+  },
+  {
+   "id": "unbounded",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "But the carrier does not supply that bound. Add lambda times q u q v to label u and subtract it from v: the rank becomes eight thousand two hundred eighty-one, ninety-one squared, and higher powers of q u push it past every bound.",
+     "但载体并不供应这个秩界。在标签 u 上加 λq_u q_v，并从 v 上减去它：秩变为 8281，即 91²；q_u 的更高次幂把秩推过任何界。"
+    ],
+    [
+     "Every old calibration still holds, and the readout stays within lambda over four of Born in total variation. No finite word reaches that supremum: squared amplitudes are algebraic integers, so none equals one half.",
+     "原有的标定全都保持，读出与 Born 的总变差距离始终在 λ/4 以内。没有有限字能达到这个上确界：振幅的模平方是代数整数，没有一个等于 1/2。"
+    ]
+   ]
+  },
+  {
+   "id": "clock",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A second route uses time. Gate zero has eigenvalue zeta on eight paths and zeta squared on five. Quadratic readouts see only one, zeta and its inverse; every higher harmonic block contains zeta squared.",
+     "第二条路线用时间。门 0 在八条路径上的本征值为 ζ，在五条路径上为 ζ²。二次读出只看到 1、ζ 和 ζ⁻¹；每个更高次的调和块都含有 ζ²。"
+    ],
+    [
+     "So, over all contexts, these are equivalent: the ten-step average at zeta squared vanishes; a three, plus x squared a one, equals a zero, plus x squared a two; the readout is a quadratic form. With calibration this is Born, with no rank assumed.",
+     "因此，在全部上下文上，三个条件等价：ζ² 处的十步平均为零；a₃ + x²a₁ = a₀ + x²a₂；读出是一个二次型。再加上标定就是 Born 规则，无需假设秩。"
+    ]
+   ]
+  },
+  {
+   "id": "witness",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One short program refutes every quartic model. Call gates three and one, then gate zero t times, then gate one, and read label u. The return factor d t runs x to the fourth, x squared, one, x squared.",
+     "一个短程序反驳每个四次模型。先调用门 3 和门 1，再调用门 0 共 t 次，然后门 1，读标签 u。回返因子 d_t 依次为 x⁴、x²、1、x²。"
+    ],
+    [
+     "Born passes both tests exactly. The quartic model leaves a ten-step residual of size lambda x to the ninth, and a four-time residual of minus lambda, one plus two x, x to the eighth, with at most twelve and six calls.",
+     "Born 规则精确通过两项检验。四次模型留下大小为 λx⁹ 的十步残差，以及 −λ(1 + 2x)x⁸ 的四时残差，所用调用分别不超过十二次和六次。"
+    ]
+   ]
+  },
+  {
+   "id": "stable",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The relation is stable. If the four-time residual is at most epsilon in every context, the readout stays within omega of epsilon of Born, a bound built from epsilon and its square root, tending to zero.",
+     "这个关系是稳定的。若四时残差在每个上下文中都不超过 ε，读出与 Born 规则的偏差就不超过 ω(ε)；这个界由 ε 及其平方根构成，并趋于零。"
+    ],
+    [
+     "The square root is sharp: a thresholded, slightly rotated detector has residual below fifty-two over two hundred forty-three theta squared, yet deviation at least theta over sixteen. The best deviation over root epsilon lies between one and root phi.",
+     "平方根是锐的：一个取阈值、略微旋转的探测器，残差小于 (52/243)θ²，偏差却至少为 θ/16。最优偏差与 √ε 之比介于 1 和 √φ 之间。"
+    ]
+   ]
+  },
+  {
+   "id": "weights",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Can one preparation hold both time averages? Yes: a fixed isometry and one record rotation read record zero or one with weights a and b, five plus or minus root five over ten, whose product is one fifth.",
+     "一个制备能否同时容纳两组时间平均？可以：一个固定等距加一个记录旋转，以权重 a 和 b 读出记录 0 或 1，a、b = (5 ± √5)/10，乘积为 1/5。"
+    ],
+    [
+     "But no finite circuit of golden gates has an event of probability exactly a or b: such probabilities are algebraic integers, and a and b are not. Postselection needs a division, and copying the time label to an archive gives three fifths and two fifths.",
+     "但黄金门的有限线路没有概率恰为 a 或 b 的事件：这类概率是代数整数，而 a、b 不是。后选择需要一次除法；把时间标签复制进档案，得到的则是 3/5 和 2/5。"
+    ]
+   ]
+  },
+  {
+   "id": "finite",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Finite data never certify this. For any finite list of rays and contexts, some non-Born polynomial readout of finite rank agrees exactly at every query and keeps every calibration.",
+     "有限数据永远无法认证这一点。对任意有限的射线与上下文清单，都存在一个非 Born、有限秩的多项式读出，它在每个查询处精确相符，并保持所有标定。"
+    ],
+    [
+     "Yet on one program, gate one, then gate zero t times, then a fixed word, its deviation, four-time residual and total variation all exceed one thirty-second, however many queries were made.",
+     "然而在一个程序上，即门 1、门 0 共 t 次、再接一个固定字，它的偏差、四时残差和总变差都超过 1/32，无论查询了多少次。"
+    ]
+   ]
+  },
+  {
+   "id": "vacuum",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "To build records natively, pay four more anyons. The carrier grows to eighty-nine paths: a twenty-six-dimensional code plus sixty-three paths of leakage. Fixed finite words then approximate the preparation and both readers over all programs.",
+     "要原生地造出记录，需另付四个任意子。载体扩大为 89 条路径：26 维的码，外加 63 条泄漏路径。固定的有限字随后在全部程序上逼近制备与两个读者。"
+    ],
+    [
+     "One step stays out of reach. Reduce modulo the prime over five, zeta to minus one and x to two: each gate becomes a transposition, each finite word a permutation of twelve objects, and none gives the odd controlled phase on the whole code.",
+     "有一步始终够不到。在 5 上方的素理想处约化，ζ 变成 −1，x 变成 2：每个门成为一个对换，每个有限字成为十二个对象的一个置换，而没有一个置换能在整个码上给出奇次受控相位。"
+    ]
+   ]
+  },
+  {
+   "id": "records",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "With unknown record weights, a ready anchor, setting isolation and calibration still force the old readout to be Born, with weight a at most x, while the second record reads c times Born plus a constant, c equal a x over one minus a.",
+     "记录权重未知时，ready 锚、设置隔离与标定仍迫使旧读出成为 Born，权重 a 至多为 x；第二个记录读出 c 倍 Born 加一个常数，c = ax/(1 − a)。"
+    ],
+    [
+     "One more call of gate nine adds a third reader, and five fixed continuations close everything: c is one, both records read Born, and the record masses are x and x squared twice, then x cubed and one minus x cubed.",
+     "再调用一次门 9，加入第三个读者，五个固定接续便把一切闭合：c = 1，两个记录都读出 Born，记录质量两次为 x 与 x²，再一次为 x³ 与 1 − x³。"
+    ]
+   ]
+  },
+  {
+   "id": "effects",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The record rule is still free. Adding lambda times a polynomial vanishing at six golden nodes keeps every contract, yet two programs with one signature, x to the fourth times identity, differ by lambda gamma, about two times ten to the minus eight.",
+     "记录规则仍然自由。加上 λ 乘一个在六个黄金节点处为零的多项式，保持所有合同；但两个签名相同、都等于 x⁴ 乘恒等的程序，概率相差 λΓ，约为 2 × 10⁻⁸。"
+    ],
+    [
+     "Three fixed label groups, of five hundred twelve, two hundred fifty-six and two hundred fifty-six, reach every three-outcome effect. If equal signatures give equal probabilities, a positive additive effect assignment is a trace against one density matrix, here v v star.",
+     "三个固定标签组（512、256、256 个标签）可达到任意三结果效果。若相同签名给出相同概率，正的可加效果赋值就是对唯一密度矩阵取迹，这里是 |v⟩⟨v|。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Thirteen paths carry dense gates, low rank or four times force Born, quartic models stay close yet high in rank, the square root is sharp, exact weights and odd phases stay out of reach, and records still need a rule.",
+     "十三条路径承载稠密的门；低秩或四时关系迫使 Born 规则；四次模型贴近而秩很高；平方根是锐的；精确权重与奇次相位够不到；记录仍需一条规则。"
+    ],
+    [
+     "Jones density and the ray-function classification are published inputs, the effect-density theorem is frozen in Lean, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "Jones 稠密性与射线函数分类是已发表的输入，效果密度定理已在 Lean 中冻结，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
