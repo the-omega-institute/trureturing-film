@@ -1,0 +1,293 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 21.923
+  },
+  {
+   "id": "title",
+   "start": 21.923,
+   "end": 38.719
+  },
+  {
+   "id": "charge",
+   "start": 38.719,
+   "end": 70.18
+  },
+  {
+   "id": "robin",
+   "start": 70.18,
+   "end": 107.278
+  },
+  {
+   "id": "squares",
+   "start": 107.278,
+   "end": 140.663
+  },
+  {
+   "id": "cayley",
+   "start": 140.663,
+   "end": 174.074
+  },
+  {
+   "id": "spectrum",
+   "start": 174.074,
+   "end": 207.514
+  },
+  {
+   "id": "suffice",
+   "start": 207.514,
+   "end": 244.249
+  },
+  {
+   "id": "blocks",
+   "start": 244.249,
+   "end": 275.335
+  },
+  {
+   "id": "selector",
+   "start": 275.335,
+   "end": 307.664
+  },
+  {
+   "id": "compile",
+   "start": 307.664,
+   "end": 337.393
+  },
+  {
+   "id": "variation",
+   "start": 337.393,
+   "end": 372.435
+  },
+  {
+   "id": "records",
+   "start": 372.435,
+   "end": 406.153
+  },
+  {
+   "id": "finale",
+   "start": 406.153,
+   "end": 448.422
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 20.923,
+   "en": "This film continues the versioned Auric volumes. Version nineteen asks how sums, products, logarithms and squares reach the Riemann hypothesis; version twenty returns to one fixed golden gate and lets it cancel its own errors recursively.",
+   "zh": "本片延续 AURIC 版本系列。第十九版追问加法、乘法、对数与平方怎样触及黎曼猜想；第二十版回到一个固定的黄金门，让它递归地消去自身的误差。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 23.123,
+   "end": 28.539,
+   "en": "Auric versions nineteen and twenty: arithmetic spectra and golden selector gates.",
+   "zh": "AURIC V19–V20：算术谱与黄金选择门。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 29.139,
+   "end": 37.319,
+   "en": "Sums, products and squares restate the hypothesis without proving it, and one golden gate compiles what cancels its own errors.",
+   "zh": "加、乘与平方能重述该猜想而不证明它；一个黄金门能编译出消去自身误差的门字。"
+  },
+  {
+   "i": 3,
+   "scene": "charge",
+   "start": 39.519,
+   "end": 52.509,
+   "en": "Start with the five modes, valued one, two, three, five and seven, and average the logarithm. Along a fiber where every visible mean is fixed, this readout still moves, with slope log of seven tenths.",
+   "zh": "从五个模式开始，赋值 1、2、3、5、7，再对对数取平均。在所有可见均值都固定的纤维上，这个读出仍然会变，斜率是 log(7/10)。"
+  },
+  {
+   "i": 4,
+   "scene": "charge",
+   "start": 53.109,
+   "end": 68.78,
+   "en": "The charge vanishes exactly when w zero times w thirteen equals w one times w three. Adding the blocks two and five gives seven, multiplying gives ten, and for integer counts the two completions are ten and seven.",
+   "zh": "当且仅当 w₀w₁₃ = w₁w₃ 时这个荷才消失。把块 2 和 5 相加得 7，相乘得 10；换成整数计数，两种完成恰好是 10 和 7。"
+  },
+  {
+   "i": 5,
+   "scene": "robin",
+   "start": 70.98,
+   "end": 85.906,
+   "en": "Logarithms turn products into sums of lengths, and Euler's product separates the primes. Draw an integer with probability n to the minus sigma over zeta of sigma: its prime exponents are independent geometric variables.",
+   "zh": "对数把乘积变成长度之和，Euler 积把各个素数分开。以概率 n^(−σ)/ζ(σ) 抽取一个整数：它的各素数指数是独立的几何随机变量。"
+  },
+  {
+   "i": 6,
+   "scene": "robin",
+   "start": 86.506,
+   "end": 105.878,
+   "en": "Divisor sums are squares: sigma of n over n averages a prime-phase polynomial squared, two for six with independent phases, two plus two over root six with a shared phase. Robin's criterion makes the hypothesis one bound on these averages beyond five thousand and forty.",
+   "zh": "约数和是平方：σ(n)/n 是素数相位多项式平方的平均；对 6，独立相位给 2，共用一个相位给 2 + 2/√6。Robin 判据把该猜想变成这些平均在 5040 以后的一个统一上界。"
+  },
+  {
+   "i": 7,
+   "scene": "squares",
+   "start": 108.078,
+   "end": 123.236,
+   "en": "Why one half? Prime characters are orthonormal, so the sum of n to the minus a, times chi of n, has square norm zeta of two a, finite exactly when a exceeds one half. Yet a norm-one sum can reach root N at one point.",
+   "zh": "为什么是 1/2？素数字符正交归一，所以 Σ n^(−a) χₙ 的平方范数是 ζ(2a)：当且仅当 a > 1/2 时有限。但范数为一的和在指定点上仍可达到 √N。"
+  },
+  {
+   "i": 8,
+   "scene": "squares",
+   "start": 123.836,
+   "end": 139.263,
+   "en": "A true pointer overlap gives zeta of sigma plus i t over zeta of sigma, at least two fifths at sigma two. But Born squares double the exponent: amplitudes n to the minus a read zeta of two a plus i t.",
+   "zh": "真正的指针重叠给出 ζ(σ + it)/ζ(σ)，在 σ = 2 时不低于 2/5。但 Born 平方使指数加倍：振幅 n^(−a) 读出的是 ζ(2a + it)。"
+  },
+  {
+   "i": 9,
+   "scene": "cayley",
+   "start": 141.463,
+   "end": 157.256,
+   "en": "Map each zero rho to z equals one minus one over rho: z is on the unit circle exactly when rho is on the critical line. Symmetry and positivity do not force this; a symmetric function can have four zeros off the line.",
+   "zh": "把每个零点 ρ 映到 z = 1 − 1/ρ。那么 z 在单位圆上，当且仅当 ρ 在临界线上。对称与正性推不出这一点：一个对称函数可以有四个离线零点。"
+  },
+  {
+   "i": 10,
+   "scene": "cayley",
+   "start": 157.856,
+   "end": 172.674,
+   "en": "Put z on the joint mode of a five-mode state: the four-corner log odds becomes two log of the size of z, so the critical line kills the classical correlation, yet entanglement stays, one over root one plus four t squared.",
+   "zh": "把 z 放在一个五模式态的联合模式上：四角对数几率变成 2log|z|，所以临界线使经典关联消失，而纠缠仍然保留：1/√(1 + 4t²)。"
+  },
+  {
+   "i": 11,
+   "scene": "spectrum",
+   "start": 174.874,
+   "end": 189.557,
+   "en": "Closed paths have Euler products too. On the Fibonacci graph each primitive loop has poles on the unit circle, yet the whole product, one over one minus u minus u squared, has poles at one over phi and minus phi.",
+   "zh": "闭路也有 Euler 积。在 Fibonacci 图上，每个本原闭路的极点都在单位圆上，但整体乘积 1/(1 − u − u²) 的极点却在 1/φ 和 −φ。"
+  },
+  {
+   "i": 12,
+   "scene": "spectrum",
+   "start": 190.157,
+   "end": 206.114,
+   "en": "Recursive gates stay finite. From omega, the controlled lift keeps only one and omega; the squaring lift visits omega, omega squared, and the fourth, eighth and sixth powers, then repeats. Five phases cannot hold infinitely many zeros.",
+   "zh": "递归门停在有限处。从 ω 出发，受控提升只保留 1 和 ω；平方提升依次走过 ω、ω²、ω⁴、ω⁸、ω⁶，然后重复。五个相位装不下无穷多个零点。"
+  },
+  {
+   "i": 13,
+   "scene": "suffice",
+   "start": 208.314,
+   "end": 226.473,
+   "en": "Two conditions would suffice. If determinants of self-adjoint matrices converge to xi uniformly on compact sets, Hurwitz's theorem gives the hypothesis; small gate errors do not, because e to the i over N times the identity keeps determinant e to the i.",
+   "zh": "有两个条件足以推出该猜想。若自伴矩阵的行列式在紧集上一致收敛到 ξ，Hurwitz 定理即给出该猜想；小的门误差做不到，因为 e^(i/N) 乘 N 阶单位阵的行列式始终是 e^i。"
+  },
+  {
+   "i": 14,
+   "scene": "suffice",
+   "start": 227.073,
+   "end": 242.849,
+   "en": "Or cancellation: if the Möbius sum up to x is at most a constant times x to the one half plus epsilon, for every epsilon, the hypothesis follows. Neither premise is proved; below a hundred thousand the sum stays within root x.",
+   "zh": "或者靠抵消：若 Möbius 函数到 x 的和（Mertens 和）对每个 ε 都不超过常数乘 x^(1/2+ε)，该猜想即成立。两个前提都未被证明；在十万以内，这个和一直落在 ±√x 之内。"
+  },
+  {
+   "i": 15,
+   "scene": "blocks",
+   "start": 245.049,
+   "end": 259.072,
+   "en": "Version twenty calls the golden gate at two addresses of one qubit code, A and B, each of order ten. The blocks D, A inverse B, and E, B A inverse, take ten native calls each and have determinant one.",
+   "zh": "第二十版在同一个单比特码的两个地址上调用黄金门，得到 A 和 B，二者都是十阶。组合块 D = A⁻¹B 与 E = BA⁻¹ 各用十次原生调用，行列式为一。"
+  },
+  {
+   "i": 16,
+   "scene": "blocks",
+   "start": 259.672,
+   "end": 273.935,
+   "en": "The trace of D is phi to the minus two, whose conjugate exceeds two, so D has infinite order; with E it is dense in SU two. And the phase is fixed: T stays two sine pi over eighty from the native closure.",
+   "zh": "D 的迹是 φ⁻²，其共轭大于二，所以 D 是无限阶的，并与 E 一起在 SU(2) 中稠密。相位也被固定：T 门到原生闭包的距离保持为 2sin(π/80)。"
+  },
+  {
+   "i": 17,
+   "scene": "selector",
+   "start": 276.135,
+   "end": 291.125,
+   "en": "Now one fixed two-qubit gate: a select bit in zero applies A to the data, in one applies B. With computational-basis helper bits and calls on any ordered pair, its circuits are dense in every register's unitaries.",
+   "zh": "再看一个固定的两比特门：选择位为 0 时对数据作用 A，为 1 时作用 B。只要有计算基辅助位，并可作用于任意有序比特对，它的电路就在任意寄存器的酉群中稠密。"
+  },
+  {
+   "i": 18,
+   "scene": "selector",
+   "start": 291.725,
+   "end": 306.264,
+   "en": "It entangles: plus, one becomes a state with concurrence phi to the minus one half. It also sits exactly inside one five-mode atom, on four native words, but that encoding cannot be split across physical wires.",
+   "zh": "它会产生纠缠：|+⟩|1⟩ 变成 concurrence 为 φ^(−1/2) 的态。它还精确地藏在一个五模式原子里，落在四个原生词上，但这个编码无法按物理导线拆开。"
+  },
+  {
+   "i": 19,
+   "scene": "compile",
+   "start": 308.464,
+   "end": 323.494,
+   "en": "Inverses cancel errors. Any residual Delta in SU two is exactly a commutator of two factors within root d of the identity; compile both with the same alphabet, and their exact inverses cancel the leading error.",
+   "zh": "逆用来抵消误差。SU(2) 中任意残差 Δ 都恰是两个因子的交换子，二者到恒等的距离不超过 √d。用同一字母表编译这两个因子，它们的精确逆会消去主阶误差。"
+  },
+  {
+   "i": 20,
+   "scene": "compile",
+   "start": 324.094,
+   "end": 335.993,
+   "en": "So each level obeys epsilon next at most six epsilon to the three halves: from a net below one thirty-sixth the error falls doubly exponentially, while words grow five-fold per level.",
+   "zh": "于是每一层满足 εₙ₊₁ ≤ 6εₙ^(3/2)：从误差低于 1/36 的初始网出发，误差双指数下降，而门字每层增长五倍。"
+  },
+  {
+   "i": 21,
+   "scene": "variation",
+   "start": 338.193,
+   "end": 354.135,
+   "en": "Prediction as variation: over all intermediate matrices, a word's least residual action is its boundary error squared over L plus one. Padding with K to the tenth drives the raw action to zero, so that factor is required.",
+   "zh": "预测即变分：对所有中间矩阵取最小，一个字的残差作用量等于其边界误差平方除以 L + 1。插入 K¹⁰ 会让原始作用量趋于零，所以这个因子必不可少。"
+  },
+  {
+   "i": 22,
+   "scene": "variation",
+   "start": 354.735,
+   "end": 371.035,
+   "en": "Add a positive cost per call: the Bellman equation has one solution, and optimal words cost at most four over eta. Without cost, even the identity alone solves it with zero. As eta shrinks, optimal cost grows without bound.",
+   "zh": "给每次调用加上正成本：Bellman 方程只有一个解，最优字的成本至多为 4/η。没有成本时，连只有恒等的菜单也以零解满足它。η 变小时，最优成本无界增长。"
+  },
+  {
+   "i": 23,
+   "scene": "records",
+   "start": 373.235,
+   "end": 389.751,
+   "en": "NAND read from an epsilon-close word errs with probability at most epsilon squared. Discard the program register, and the channel is unitary only if all weighted programs agree up to phase; no finite processor stores every gate exactly.",
+   "zh": "从误差为 ε 的门字读出 NAND，出错概率至多为 ε²。丢掉程序寄存器后，通道只有在所有带权程序仅差整体相位时才是酉的；任何有限处理器都无法精确存下所有门。"
+  },
+  {
+   "i": 24,
+   "scene": "records",
+   "start": 390.351,
+   "end": 404.753,
+   "en": "If the target is uncertain, the best risk is at least one minus the top eigenvalue of the posterior Choi matrix: one half for I or i X at equal odds, however rich the gates. Budgets need at most two words.",
+   "zh": "若目标本身不确定，最优风险至少是一减去后验 Choi 矩阵的最大本征值：I 或 iX 各占一半时为 1/2，门再丰富也一样。成本预算下的最优至多混合两个字。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 407.153,
+   "end": 423.129,
+   "en": "A hidden charge, squares for Robin, a threshold at one half, a doubling pointer, a Cayley circle, repeating phases, two sufficient conditions, two golden blocks, a selector gate, a recursive compiler, a normalized action, and limits on learning.",
+   "zh": "一个隐藏荷，Robin 的平方，1/2 的阈值，指数加倍的指针，Cayley 圆，循环的相位，两个充分条件，两个黄金块，一个选择门，递归编译器，归一化的作用量，以及可学内容的界限。"
+  },
+  {
+   "i": 26,
+   "scene": "finale",
+   "start": 423.729,
+   "end": 439.422,
+   "en": "Euler's product, Robin's criterion, Hurwitz's theorem, Solovay–Kitaev and the no-programming theorem are published or classical inputs, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+   "zh": "Euler 积、Robin 判据、Hurwitz 定理、Solovay–Kitaev 与不可编程定理是已发表或经典的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 448.422
+}
