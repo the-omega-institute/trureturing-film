@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "After versions thirty-seven and thirty-eight, version thirty-nine finds how far unknown record masses amplify errors and closes the future in finite depth; version forty tracks how dropped relations come back.",
+     "继第三十七、三十八版之后，第三十九版求出未知记录质量会把误差放大多少，并让未来在有限深度内闭合；第四十版追踪被丢掉的关系怎样返回。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric versions thirty-nine and forty: sharp settings, future closure and hidden memory.",
+     "AURIC V39–V40：锐利设置、未来闭合与隐藏记忆。"
+    ],
+    [
+     "Two settings, then three; a closing future; and a memory that returns.",
+     "两个设置，然后三个；会闭合的未来；以及会回来的记忆。"
+    ]
+   ]
+  },
+  {
+   "id": "plane",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Send one coherent input through two record settings with unknown masses. The error lies in the plane of two successor differences, each of squared length the determinant of G over p, and their Gram matrix gives the exact error ellipse and optimal constants.",
+     "让同一个相干输入通过两个记录质量未知的设置。误差落在两个后继差张成的平面里，每个的长度平方为 det G / p，它们的 Gram 矩阵给出精确的误差椭圆和最优常数。"
+    ],
+    [
+     "One projection per weight is enough: the part of the first difference orthogonal to the second reads minus delta zero over C zero, cancelling the other unknown, so two events identify both weights.",
+     "每个权重只需一个投影：第一个差中与第二个正交的部分读出 −δ₀/C₀，消去另一个未知量，于是两个事件分别识别出两个权重。"
+    ]
+   ]
+  },
+  {
+   "id": "sharp",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For the golden pair, the identity and B, the worst amplification is one over kappa, the input's smallest eigenvalue: an explicit family keeps the mass error fixed while the residual shrinks like kappa.",
+     "对黄金设置对——恒等与 B——最坏放大率是 1/κ，κ 为输入的最小特征值：一个显式族让质量偏差保持不变，而残差像 κ 一样缩小。"
+    ],
+    [
+     "Add a third native setting, B squared: the three record axes are independent, with an explicit golden constant c zero, and the amplification drops to one over root kappa, an order that a balanced family shows cannot improve.",
+     "加入第三个原生设置 B²：三条记录轴线性独立，带有显式的黄金常数 c₀，放大率降到 1/√κ，一个平衡族表明这个阶不能再改进。"
+    ]
+   ]
+  },
+  {
+   "id": "bridge",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Across the rank-one boundary this gives a square-root rate: approaching a rank-one target with masses moving at most L tau, the mass error is at most L plus one over root two c zero, times root epsilon, plus epsilon.",
+     "跨过秩一边界，这给出平方根速率：逼近一个秩一目标、质量变化至多 Lτ 时，质量误差至多为 (L + 1/√(2c₀))√ε + ε。"
+    ],
+    [
+     "The square root is sharp: with the same L, record rules drifting as b minus L tau stay within budget yet miss the target by a constant times root epsilon.",
+     "平方根是锐利的：在同一个 L 下，按 b − Lτ 漂移的记录规则始终在预算之内，目标却偏离一个常数乘 √ε。"
+    ]
+   ]
+  },
+  {
+   "id": "closure",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the future. Keep adding what one more native call can reveal; once a step adds nothing, the chain stops for good, within D squared minus dim V zero steps: one hundred fifty-six on the thirteen-dimensional carrier.",
+     "现在看未来。不断加入再多一次原生调用所能揭示的方向；一旦某一步不再新增，链就永久停止，步数不超过 D² − dim V₀：在十三维载体上是 156。"
+    ],
+    [
+     "On the eighty-nine-dimensional carrier, fifty-five Fibonacci prefixes, thirty-four of rank two and twenty-one of rank one, bound the depth by seven thousand eight hundred sixty-six. Once closed, unitary words act on kept relations as exact isometries.",
+     "在八十九维载体上，55 个 Fibonacci 前缀——34 个秩二、21 个秩一——给出深度上界 7866。一旦闭合，酉门字在保留的关系上精确等距地作用。"
+    ]
+   ]
+  },
+  {
+   "id": "gram",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Basis effects among future words have a Gram matrix that is the exact metric: outcomes of every future word, of any length, differ by at most root D over two root alpha times the readout error. But a rotation closes in one step while alpha tends to zero.",
+     "在未来门字中选取的基效果，其 Gram 矩阵就是精确度量：任意长度的每个未来门字，结果之差至多为读数误差的 √D/(2√α) 倍。但一个旋转一步就闭合，α 却趋于零。"
+    ],
+    [
+     "On the golden seed this is concrete: the histories K-three v and K-three inverse v agree on every current terminal, with probabilities x and x squared, yet one more call gives x to the fourth versus one.",
+     "在黄金种子上这是具体的：历史 K₃v 与 K₃⁻¹v 在当前全部终端上都一致，概率为 x 与 x²；再调用一次，却给出 x⁴ 对 1。"
+    ]
+   ]
+  },
+  {
+   "id": "energy",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Datko's theorem, frozen in Lean: a strongly continuous contraction semigroup on a real Banach space has finite squared orbit energy for every vector exactly when it decays exponentially. Discretely, finite energy means P solves T transpose P T equals P minus I, or spectral radius below one.",
+     "Datko 定理已在 Lean 中冻结：实 Banach 空间上的强连续收缩半群，当且仅当它指数衰减时，每个向量的平方轨道能量都有限。离散情形下，能量有限等价于 P 满足 TᵀPT = P − I，或谱半径小于一。"
+    ],
+    [
+     "One step need not shrink: a legal channel sending z to x has norm one, yet T squared is zero, with P diagonal one, one, two. Rotations by one over j converge input by input, never uniformly: a gap of root two remains.",
+     "一步不必收缩：一个把 z 送到 x 的合法通道范数为一，但 T² = 0，P = diag(1, 1, 2)。按 1/j 旋转的乘积逐个输入收敛，却不一致收敛：始终留下 √2 的差距。"
+    ]
+   ]
+  },
+  {
+   "id": "encode",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Version forty asks how dropped relations return. To shrink residual mass y in mode five to beta y, each state can be rotated, but no common unitary works for all y: overlaps with the y equal zero state would have to grow.",
+     "第四十版追问被丢掉的关系怎样返回。要把模式五中的剩余质量 y 缩为 βy，每个态都能单独旋转，但没有一个共同的酉对所有 y 都成立：与 y = 0 态的重叠必须变大。"
+    ],
+    [
+     "A common two-Kraus channel does it, moving one minus beta of mode five into mode two and keeping the history in an internal record: the final channel needs two record dimensions, all first-transfer times n plus one, and an unreset record returns cosine squared n theta.",
+     "一个共同的二 Kraus 通道可以做到：把模式五的 1 − β 移入模式二，并把历史留在内部记录里——最终通道只需二维记录，全部首次转移时刻需要 n + 1 维，而不复位的记录返回 cos²(nθ)。"
+    ]
+   ]
+  },
+  {
+   "id": "kernel",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Compress an orthogonal evolution to a visible subspace, and the dropped part returns through an exact memory kernel, B, D to the k, C: leave, linger, come back. In finite dimensions it vanishes exactly when the subspace is invariant, and h plus one steps decide.",
+     "把正交演化压缩到一个可见子空间上，被丢掉的部分会通过精确记忆核 BD₀ᵏC 返回：离开，停留，再回来。在有限维中，核为零当且仅当该子空间不变，而 h + 1 步就足以判定。"
+    ],
+    [
+     "For a near-closed word of length L, hidden error grows like L ell, the return like L, L minus one, over two, ell squared; a rotation attains both. At theta pi over two N the truth reaches zero, while the prediction stays near one.",
+     "对长度为 L 的近闭合门字，隐藏误差按 Lℓ 增长，返回项按 L(L − 1)ℓ²/2 增长；一个旋转同时达到这两个阶。取 θ = π/(2N) 时，真实值降到零，预测却仍接近一。"
+    ]
+   ]
+  },
+  {
+   "id": "gap",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The fixed golden menu has no such escape: its symmetric gap gamma is positive, so every proper visible subspace leaks under some native gate by at least gamma over two in squared norm, and no nontrivial linear summary closes, even approximately.",
+     "固定的黄金菜单没有这样的退路：它的对称间隙 γ 为正，所以每个真可见子空间在某个原生门下的泄漏平方至少为 γ/2，任何非平凡的线性摘要都不闭合，近似也不行。"
+    ],
+    [
+     "Each native gate returns after ten steps, K to the tenth is the identity, so one period separates truth from the memoryless prediction by at least gamma over four; if the seed's orbit is dense, some finite preparation word shows it in a current readout.",
+     "每个原生门十步后复原，K¹⁰ = I，于是一个周期就让真实值与无记忆预测至少相差 γ/4；若原生种子的轨道稠密，某个有限制备门字会在当前读数中显示出这一差距。"
+    ]
+   ]
+  },
+  {
+   "id": "cycle",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Channels share the rigidity. If a global unitary has period q and a system channel reproduces its q-step process, the channel is unitary; with diamond error epsilon, its contraction factor is at least one minus epsilon, to the power one over q.",
+     "通道也有同样的刚性。若整体酉有周期 q，而一个系统通道复现了它的 q 步过程，该通道就是酉的；若 diamond 误差为 ε，其收缩系数至少为 (1 − ε)^(1/q)。"
+    ],
+    [
+     "Nor can finite noisy evidence certify exact closure: with reports off by up to epsilon, a protocol stopping after lengths up to H is fooled by any small angle with H squared theta squared over four at most epsilon.",
+     "有限的带噪证据也无法认证精确闭合：若报告至多偏差 ε，一个在长度至多 H 后停止的协议会被任何满足 H²θ²/4 ≤ ε 的小角度骗过。"
+    ]
+   ]
+  },
+  {
+   "id": "ten",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Last, the full golden cycle of ten record settings: the cross products of the ten axes have exact second moments, eigenvalues sixty x to the ninth and twenty x cubed.",
+     "最后，看黄金块完整的十个记录设置：十条轴的叉积有精确的二阶矩，特征值为 60x⁹ 与 20x³。"
+    ],
+    [
+     "A weighted energy gives the best constant: the base mass error is at most E over two root of d, times sixty x to the ninth plus eighty d x cubed, with d the input determinant. An explicit input attains it; the order stays one over root kappa.",
+     "加权能量随即给出最优常数：基准质量偏差至多为 E/(2√(d(60x⁹ + 80dx³)))，其中 d 是输入的行列式。一个显式输入达到它；阶仍是 1/√κ。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Errors live in a plane, a third setting buys a square root, the future closes in finite depth, energy decides decay, dropped relations return through an exact kernel, the golden menu leaks, and ten settings keep the root kappa order.",
+     "误差落在一个平面里，第三个设置换来平方根，未来在有限深度内闭合，能量决定衰减，被丢掉的关系经精确核返回，黄金菜单必然泄漏，十个设置保持 √κ 阶。"
+    ],
+    [
+     "Datko's theorem is frozen in Lean, the Lyapunov criterion is classical, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+     "Datko 定理已在 Lean 中冻结，Lyapunov 判据是经典结果，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
