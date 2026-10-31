@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part one counted the bound states of an attractive boundary on the Heisenberg group to leading logarithmic order. Part two follows the heat source into its tail, bounds the counting error, and builds the waves that carry the phase.",
+     "第一部在 Heisenberg 群上数出了吸引边界的束缚态，精确到对数主阶。第二部沿热源一直追到尾部，把计数误差限制为有界，并构造出承载相位的波。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Fib-native attractive boundary, part two: the Green tail, the bounded count and the wall phase.",
+     "FIB 原生吸引边界响应第二部：格林尾、有界计数与墙相位。"
+    ],
+    [
+     "One square-law error, one bounded count, one negative channel, and one phase shared by every small energy.",
+     "一个平方律误差，一个有界计数，一个负通道，以及所有小能量共用的一个相位。"
+    ]
+   ]
+  },
+  {
+   "id": "marginal",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "With central noise epsilon, integrate the heat column over all time and every omitted coordinate. On the whole gauge sphere, axis points included, this complete marginal is within C n epsilon squared of the scale-free profile q n over two pi.",
+     "在中心噪声 ε 下，把热核列对全部时间和所有省略坐标积分。在整个规范球面上（包括两个轴点），这个完整边缘与无标度剖面 q_n/(2π) 之差不超过 C_n ε²。"
+    ],
+    [
+     "The proof shifts the Fourier contour into the pole-free strip. For n equal two and alpha equal pi over four, epsilon two is one over root two pi and C two is seven point one six; the recomputed error is about epsilon squared over two, largest on the axis.",
+     "证明把 Fourier 积分路径平移进无极点的带内。取 n = 2、α = π/4，得 ε₂ = 1/√(2π)，C₂ ≈ 7.16；重新计算的误差约为 ε²/2，在轴上最大。"
+    ]
+   ]
+  },
+  {
+   "id": "tail",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Exact scaling turns this into a tail. Beyond gauge radius one over epsilon n, the true marginal differs from the homogeneous one by at most C n over R to the fourth, so the log-cylinder multiplier B n decays like e to the minus two ell.",
+     "精确伸缩把它变成尾部估计。规范半径超过 1/ε_n 后，真实边缘与齐次边缘之差至多为 C_n/R⁴，所以在对数柱面上乘子 B_n 按 e^(−2ℓ) 衰减。"
+    ],
+    [
+     "So the potential correction is a bounded form in every Fourier mode, even against any polynomial weight, and section twenty-five shows its longitudinal derivative is at most twice the same bound, through both axis points.",
+     "于是势的修正在每个 Fourier 模式中都是有界形式，乘上任意多项式权也仍可积；第二十五节证明它的纵向导数至多是同一界的两倍，包括两个轴点。"
+    ]
+   ]
+  },
+  {
+   "id": "count",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Section twenty-one sets the counting boundary. Part one gives L log one over E bound states below minus E, plus a smaller term. Is that remainder bounded? Potential decay alone cannot decide, because the central derivative, the interfaces and the soft wall E e to the two ell remain.",
+     "第二十一节划定计数的边界。第一部给出低于 −E 的束缚态有 L log(1/E) 个，再加一个更小的项。这个余项是否有界？仅靠势的衰减无法判定，因为中心导数、界面和软墙 E e^(2ℓ) 都还在。"
+    ],
+    [
+     "Hassell and Marshall bound such remainders for Euclidean inverse-square potentials, but this operator differs, so their theorem is only a comparison. The task reduces to two cylinder counts, periodic P and Dirichlet D.",
+     "Hassell 与 Marshall 对欧氏空间的逆平方势证明了这类余项有界，但这里的算子不同，所以他们的定理只是对照。问题化为两个柱面计数：周期计数 P 与 Dirichlet 计数 D。"
+    ]
+   ]
+  },
+  {
+   "id": "seam",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On a log cylinder of length T, the Dirichlet count never exceeds the periodic one, and section twenty-two bounds the loss by a fixed integer. Periodic negative vectors are cut at the seam through a finite common range controlled by their own negative energy, so no gap is assumed.",
+     "在长度为 T 的对数柱面上，Dirichlet 计数从不超过周期计数，第二十二节把两者之差限制在一个固定整数内。周期负向量经由一个由自身负能量控制的有限公共值域在接缝处切开，因此不需要假设谱隙。"
+    ],
+    [
+     "So D of T is d T plus a bounded error, and the j-th threshold lies within a constant of j over d. For n equal two and coupling g equal eight, the two staircases differ by zero or one.",
+     "于是 D(T) = dT + O(1)，第 j 个阈值与 j/d 只差一个常数。对 n = 2、耦合 g = 8，两条阶梯之差为零或一。"
+    ]
+   ]
+  },
+  {
+   "id": "transfer",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Section twenty-three moves this to the actual operator. Localized observations, weighted by strict energy, show that two exponential ends add only a bounded index, so its count differs from D at one half log one over E by at most a constant.",
+     "第二十三节把它搬到实际算子上。用严格能量加权的局部观测表明，两个指数型端部只增加有界的指标，所以它的计数与 D(½ log(1/E)) 之差至多是一个常数。"
+    ],
+    [
+     "Hence N of E is L log one over E plus a bounded error, which answers the remainder question, and the depths obey log one over epsilon j equals j over L plus a bounded term. Here one over L is eight point four four.",
+     "因此 N(E) = L log(1/E) + O(1)，余项问题得到回答；各深度满足 log(1/ε_j) = j/L + O(1)。这里 1/L ≈ 8.44。"
+    ]
+   ]
+  },
+  {
+   "id": "channel",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Just above the critical coupling only angular mode zero is negative, at frequencies below s, so d is s over pi and L is s over two pi. For n equal two the threshold is five point two three; at g equal eight, inside our computed isolation range, s is zero point seven four four.",
+     "刚越过临界耦合时，只有角向模式零为负，且频率低于 s，所以 d = s/π，L = s/(2π)。对 n = 2，阈值约为 5.23；在 g = 8（位于我们算出的隔离范围内），s ≈ 0.744。"
+    ],
+    [
+     "Its angular profile psi is positive and even, with finite positive limits at both endpoints and zero flux, derived rather than imposed. Outside the axisymmetric, z-even sector only finitely many negative eigenvalues remain, so the ladder lives in that sector.",
+     "它的角向剖面 ψ 为正且为偶函数，在两个端点都有有限的正极限，通量为零，这些是推导出来的，而不是强加的。在轴对称、关于 z 为偶的扇区之外只剩有限多个负本征值，所以能级阶梯就落在这一个扇区里。"
+    ]
+   ]
+  },
+  {
+   "id": "outgoing",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Section twenty-five builds a wave in the actual exterior. It solves the exact equation, with complete source, central derivative and physical mass, and on the log cylinder it approaches e to the i s ell times psi, with outgoing coefficient exactly one.",
+     "第二十五节在实际外区构造了一个波。它满足精确方程，包含完整热源、中心导数和物理质量；在对数柱面上它趋于 e^(isℓ) ψ，出射系数恰好为一。"
+    ],
+    [
+     "The whole complementary block stays coercive in its central graph norm, the scalar block is inverted through its Fourier multiplier, and the remaining couplings form a small Neumann series. A difference-quotient argument then gives both strong slice limits.",
+     "整个补空间块在其中心图范数下保持强制，标量块通过它的 Fourier 乘子求逆，其余耦合构成一个小的 Neumann 级数。再用差商论证得到两个强切片极限。"
+    ]
+   ]
+  },
+  {
+   "id": "core",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Section twenty-six joins these waves to the regular core through the pole. On oppositely weighted spaces the global form map is Fredholm of index minus one, so its range misses exactly one direction beyond the decaying kernel.",
+     "第二十六节把这些波穿过极点接到正则核心上。在相反加权的空间上，整体形式映射是指标为 −1 的 Fredholm 映射，所以除衰减核之外，它的值域恰好少一个方向。"
+    ],
+    [
+     "Both exterior residuals annihilate every decaying zero mode, so some nonzero mix of outgoing and incoming waves is compatible. The result is a real global standing wave, two times the real part of b e to the i s ell, times psi, with b nonzero.",
+     "两个外区残差都零化每一个衰减零模，所以出射波与入射波的某个非零组合是相容的。结果是一个实的整体驻波，形如 2Re(b e^(isℓ)) ψ，其中 b ≠ 0。"
+    ]
+   ]
+  },
+  {
+   "id": "wall",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For each positive energy E a Fredholm alternative gives an exact solution on a fixed exterior with every physical tail. In the variable x equal ell minus T E, the energy becomes a wall, e to the two x, with the unweighted angular mass.",
+     "对每个正能量 E，Fredholm 二择一在固定外区上给出带全部物理尾部的精确解。在变量 x = ℓ − T_E 下，能量项变成一堵墙 e^(2x)，角向质量不加权。"
+    ],
+    [
+     "Theorem twenty-eight point two solves this coupled wall: one real standing solution, two times the real part of beta e to the i s x, times psi, with beta of modulus one. In our example beta has phase one point five four three radians.",
+     "定理 28.2 解出了这堵耦合墙：一个实驻波解 2Re(β e^(isx)) ψ，其中 |β| = 1。在我们的例子中，β 的相位约为 1.543 弧度。"
+    ]
+   ]
+  },
+  {
+   "id": "family",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Shifting the wall profile by T E gives an approximate family for the actual equation, with a residual of order e to the minus K. Section thirty removes it with a uniform real right inverse on oppositely weighted spaces; the correction decays like e to the minus delta T.",
+     "把墙剖面平移 T_E，得到实际方程的一个近似解族，残差为 e^(−K) 阶。第三十节在相反加权的空间上用一致的实右逆把它消去；修正项按 e^(−δT) 衰减。"
+    ],
+    [
+     "The result is one exact family on one exterior for every small E, with the same beta at every energy and overlap error tending to zero between K and T E minus K. The eigenvalue phase limit itself still needs a core connection and remains open.",
+     "结果是在同一个外区上、对每个小 E 都成立的一个精确解族，所有能量共用同一个 β，并且在 K 与 T_E − K 之间重叠误差趋于零。本征值相位极限本身仍需要与核心的连接，仍是开放的。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "A square-law Green error, a bounded seam, a bounded count, one isolated channel, an outgoing wave, a standing core wave, a coupled wall, and one exact family with one phase.",
+     "平方律的格林误差，有界的接缝，有界的计数，一个孤立通道，一个出射波，一个核心驻波，一堵耦合墙，以及共用一个相位的一个精确解族。"
+    ],
+    [
+     "The heat-kernel formulas and the Hassell–Marshall comparison are published, the functional-analytic tools are classical, the rest is argued in the theory volume, and the numbers for n equal two were recomputed for this film.",
+     "热核公式和 Hassell–Marshall 对照是已发表的结果，泛函分析工具是经典的，其余结论在理论卷中论证，n = 2 的数值都为本片重新计算过。"
+    ]
+   ]
+  }
+ ]
+}
