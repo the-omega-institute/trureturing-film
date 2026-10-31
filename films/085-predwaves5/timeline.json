@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 22.13
+  },
+  {
+   "id": "title",
+   "start": 22.13,
+   "end": 35.341
+  },
+  {
+   "id": "profile",
+   "start": 35.341,
+   "end": 71.556
+  },
+  {
+   "id": "window",
+   "start": 71.556,
+   "end": 108.453
+  },
+  {
+   "id": "entry",
+   "start": 108.453,
+   "end": 141.207
+  },
+  {
+   "id": "tangent",
+   "start": 141.207,
+   "end": 179.678
+  },
+  {
+   "id": "cutoff",
+   "start": 179.678,
+   "end": 217.594
+  },
+  {
+   "id": "reflect",
+   "start": 217.594,
+   "end": 253.464
+  },
+  {
+   "id": "disk",
+   "start": 253.464,
+   "end": 291.35
+  },
+  {
+   "id": "order3",
+   "start": 291.35,
+   "end": 328.468
+  },
+  {
+   "id": "type3",
+   "start": 328.468,
+   "end": 368.357
+  },
+  {
+   "id": "phase",
+   "start": 368.357,
+   "end": 403.334
+  },
+  {
+   "id": "finale",
+   "start": 403.334,
+   "end": 449.533
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 21.13,
+   "en": "Volume six showed that one allowed source recovers its retention and hidden return vector h from raw laws, except for one reflected pair at zero retention. Volume seven measures that recovery at every anchor in the ball, and when the mirror image enters.",
+   "zh": "第六卷证明：一个许可源可以从原始概率律恢复保留参数与隐藏返回向量 h，唯一例外是零保留处的一对反射点。第七卷对球内每个锚点度量这种恢复，并精确回答镜像何时进入。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 23.33,
+   "end": 28.497,
+   "en": "Auric Predictive Waves, part five: reflected thresholds and certified gaps.",
+   "zh": "AURIC 相容预测波，第五部：反射阈值与认证间隙。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 29.097,
+   "end": 33.941,
+   "en": "One fixed source, one mirror image, and exact numbers for when it can be reached.",
+   "zh": "一个固定的源、一个镜像，以及它何时可达的精确数字。"
+  },
+  {
+   "i": 3,
+   "scene": "profile",
+   "start": 36.141,
+   "end": 52.606,
+   "en": "One scalar profile governs everything. With A the anchor's real axial part and eta its transverse part, q of r is r times eta plus the distance from r to two A; R of delta is the largest r up to two with q at most delta.",
+   "zh": "一切由一个标量轮廓决定。设 A 为锚点的实轴向分量、η 为其横向分量，令 q(r) = r(η + |r − 2A|)，R(δ) 为 [0, 2] 中满足 q ≤ δ 的最大 r。"
+  },
+  {
+   "i": 4,
+   "scene": "profile",
+   "start": 53.206,
+   "end": 70.156,
+   "en": "R has three exact branches. When eta is positive and below two A, it jumps at delta equal two A eta, from eta to the reflected distance two A, and it reaches the cap two exactly at delta equal two times eta plus two minus two A.",
+   "zh": "R 有三段精确公式。当 0 < η < 2A 时，它在 δ = 2Aη 处跳跃：从 η 跳到反射距离 2A；并且恰在 δ ≥ 2(η + 2 − 2A) 时达到上限 2。"
+  },
+  {
+   "i": 5,
+   "scene": "window",
+   "start": 72.356,
+   "end": 88.799,
+   "en": "Both original moduli, finite and all-history, lie between one over root five times R at k epsilon and R at capital K epsilon, for every small error, with source constants uniform over every anchor in the closed ball, sphere included.",
+   "zh": "两个原始模（有限解码与全历史）都夹在 (1/√5)·R(kε) 与 R(Kε) 之间，对一切小误差成立，源常数对闭球内每个锚点一致，包括球面。"
+  },
+  {
+   "i": 6,
+   "scene": "window",
+   "start": 89.399,
+   "end": 107.053,
+   "en": "Below two A eta over capital K the modulus grows linearly, like epsilon over eta plus two A; above two A eta over k it is comparable to A plus epsilon over eta plus root epsilon. Only the window between is left to the profile.",
+   "zh": "在 2Aη/K 以下，模线性增长，量级为 ε/(η + 2A)；在 2Aη/k 以上，它与 A + ε/(η + √ε) 同阶。只有两者之间的窗口交给轮廓本身。"
+  },
+  {
+   "i": 7,
+   "scene": "entry",
+   "start": 109.253,
+   "end": 123.791,
+   "en": "On the reflection side of the ball, the smallest raw error with nonzero retention is a threshold mu, between alpha A eta and beta A eta. Below mu the modulus is at most L eta; above mu it is at least A.",
+   "zh": "在球的反射一侧，非零保留下的最小原始误差是一个阈值 μ，满足 αAη ≤ μ ≤ βAη。μ 以下模至多为 Lη；μ 以上模至少为 A。"
+  },
+  {
+   "i": 8,
+   "scene": "entry",
+   "start": 124.391,
+   "end": 139.807,
+   "en": "So no family continuous in the error matches the modulus up to fixed factors for all anchors. For anchors e over two plus eta times f, with eta going to zero, the thresholds shrink to zero, and that jump cannot be followed.",
+   "zh": "因此，不存在关于误差连续的函数族能在固定倍数内同时刻画所有锚点的模。取锚点 e/2 + ηf 且 η → 0，阈值收缩到零，这个跳跃无法被连续函数跟随。"
+  },
+  {
+   "i": 9,
+   "scene": "tangent",
+   "start": 142.007,
+   "end": 160.199,
+   "en": "Zoom in at scale eta: alternatives minus A times e plus eta times z, retention eta times g. Raw errors become eta times a convex norm of eight real variables, up to eta squared. Its minimum m allows retention; n forbids it.",
+   "zh": "在 η 尺度上放大：备选为 −Ae + ηz，保留为 ηg。原始误差变成 η 乘以一个八个实变量的凸范数，误差为 η² 阶。其最小值 m 允许保留，n 则禁止保留。"
+  },
+  {
+   "i": 10,
+   "scene": "tangent",
+   "start": 160.799,
+   "end": 178.278,
+   "en": "If n exceeds m by Delta, every minimiser at the threshold keeps retention of order eta, so the punctured endpoint is reached. A certificate suffices: signed rows cancelling all six completion columns bound n below, and one trial bounds m above.",
+   "zh": "若 n 比 m 至少大 Δ，阈值处每个极小点都保留 η 阶的保留量，于是打孔端点可达。一个证书就够：带符号的行在六个补全列上相消，给出 n 的下界；一个试探点给出 m 的上界。"
+  },
+  {
+   "i": 11,
+   "scene": "cutoff",
+   "start": 180.478,
+   "end": 196.453,
+   "en": "Each native label halves a row's weight, so the full-history error equals its restriction to at most K labels. Runs of N are never damped, but the closure of their powers is a torus cut out by integer relations, so the error is semialgebraic.",
+   "zh": "每个原生标签使一行的权重减半，因此全历史误差等于其在至多 K 个标签上的限制。N 的连续运行从不衰减，但其幂的闭包是由整数关系切出的环面，所以误差是半代数的。"
+  },
+  {
+   "i": 12,
+   "scene": "cutoff",
+   "start": 197.053,
+   "end": 216.194,
+   "en": "So for small eta exactly one endpoint type holds: one, no minimiser keeps retention; two, both kinds coexist; three, every minimiser is punctured. Positive retention radii grow like eta to a rational power at least one; positive tied gaps, at least two.",
+   "zh": "于是对小 η，恰有一种端点类型成立：一，没有极小点保留；二，两类并存；三，每个极小点都被打孔。正的保留半径按 η 的有理幂增长，指数 ≥ 1；切向持平时的正间隙指数 ≥ 2。"
+  },
+  {
+   "i": 13,
+   "scene": "reflect",
+   "start": 218.394,
+   "end": 234.703,
+   "en": "The gap is closed by the source's own reflection W. If epsilon N is its distance from the closure of the powers of N, the full gap is at most C ref times epsilon N; at zero, averaging each point with its mirror gives m equal to n.",
+   "zh": "使间隙闭合的是源自身的反射 W。设 ε_N 为 W 到 N 的幂闭包的距离，则全间隙至多为 C_ref·ε_N。当 ε_N = 0 时，把每个点与其镜像平均，得到 m = n。"
+  },
+  {
+   "i": 14,
+   "scene": "reflect",
+   "start": 235.303,
+   "end": 252.064,
+   "en": "An explicit family does this: N equals Pi minus two u u dagger plus sigma i e e dagger squares to W, has order four, and still mixes. Its full tangent gap is zero; the nonlinear gap is only bounded by two E eta squared.",
+   "zh": "一个显式族实现了这一点：N = Π − 2uu† + σi ee† 满足 N² = W，阶为四，且仍然混合。其全切向间隙为零，而非线性间隙只被 2Eη² 界住。"
+  },
+  {
+   "i": 15,
+   "scene": "disk",
+   "start": 254.264,
+   "end": 272.594,
+   "en": "Mirror averages of raw residuals are actual laws only at the fixed points: zero retention, h equal to plus or minus A times e plus eta zeta times f, with zeta on the unit circle. Inside, they mix two actual laws but fit no single completion.",
+   "zh": "原始残差的镜像平均只在不动点处是实际概率律：零保留，且 h = ±Ae + ηζf，ζ 在单位圆上。在内部，它们是两个实际律的混合，却不属于任何单一补全。"
+  },
+  {
+   "i": 16,
+   "scene": "disk",
+   "start": 273.194,
+   "end": 289.95,
+   "en": "The decoded matrix has rank two, determinant A squared eta squared times one minus the modulus of zeta squared, and the distance to the whole image has that order. A concrete complex member with nine actual prefix columns meets every condition.",
+   "zh": "解码矩阵秩为二，行列式为 A²η²(1 − |ζ|²)，因此到整个像集的距离也是这个量级。一个具体的复成员，带九个实际前缀列，满足全部条件。"
+  },
+  {
+   "i": 17,
+   "scene": "order3",
+   "start": 292.15,
+   "end": 308.37,
+   "en": "Now an order-three source at d one half, theta pi over four: N turns two directions by cube roots of unity and fixes e. Its nine prefix columns are independent, and the one hundred seventeen rows of length at most two have rank thirty-four.",
+   "zh": "现在取一个三阶源，d = 1/2，θ = π/4。N 以三次单位根转动两个方向并固定 e。九个前缀列线性无关，长度至多为二的 117 行秩为 34。"
+  },
+  {
+   "i": 18,
+   "scene": "order3",
+   "start": 308.97,
+   "end": 327.068,
+   "en": "Seven signed rows with positive weights cancel every completion column and give n at least one hundred sixty-three over four thousand. A rational complex trial keeps every residual below eight hundred thirteen over twenty thousand, so the finite gap is at least one ten-thousandth.",
+   "zh": "七个带正权的带符号行消去所有补全列，给出 n ≥ 163/4000。一个有理复试探点使所有残差低于 813/20000，所以有限间隙至少为 1/10000。"
+  },
+  {
+   "i": 19,
+   "scene": "type3",
+   "start": 329.268,
+   "end": 347.16,
+   "en": "Every constant is explicit, giving a positive interval up to about three times ten to the minus thirty-three. There the finite nonlinear thresholds differ by at least eta over twenty thousand, and every minimiser keeps retention between two multiples of eta: type three.",
+   "zh": "每个常数都是显式的，给出一个正区间，上限约为 3 × 10⁻³³。在其上，非线性有限阈值之差至少为 η/20000，每个极小点的保留量夹在 η 的两个倍数之间：第三类。"
+  },
+  {
+   "i": 20,
+   "scene": "type3",
+   "start": 347.76,
+   "end": 366.957,
+   "en": "Over all histories, N cubed is the identity, so seven hundred seventy-seven reduced histories with at most three labels, plus a damped tail, suffice: n exceeds one hundred eighty-nine over four thousand ninety-six, m stays below twenty-three over five hundred twelve, type three again.",
+   "zh": "对全部历史，N³ = I，于是 777 条至多三个标签的约化历史加上一个衰减尾部就足够：n > 189/4096，m < 23/512，再次是第三类。"
+  },
+  {
+   "i": 21,
+   "scene": "phase",
+   "start": 369.157,
+   "end": 383.439,
+   "en": "Last, add a phase on e: N sub t is N zero on the plane and e to the i t on e. For small t the finite gap stays at least one twenty-thousandth, but the full gap is at most three halves C times t.",
+   "zh": "最后在 e 上加一个相位：N_t 在平面上等于 N₀，在 e 上为 e^(it)。对小 t，有限间隙仍至少为 1/20000，但全间隙至多为 (3/2)C|t|。"
+  },
+  {
+   "i": 22,
+   "scene": "phase",
+   "start": 384.039,
+   "end": 401.934,
+   "en": "At t equal plus or minus pi over three q, three q calls of N sub t are exactly the reflection and the full gap vanishes; at zero it exceeds three over four thousand ninety-six. So the optimised full threshold jumps, already for one fixed pair.",
+   "zh": "在 t = ±π/(3q) 处，3q 次调用 N_t 恰好等于反射，全间隙为零；而在 t = 0 处它大于 3/4096。所以优化后的全阈值发生跳跃，一对固定的假设就已显示它。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 404.334,
+   "end": 420.655,
+   "en": "A jumping profile, a threshold no continuous family follows, certified tangent gaps, a closing reflection, an unreachable disk, and an order-three source of type three whose full threshold jumps under a phase. This completes the five-part series.",
+   "zh": "一个跳跃的轮廓、一个连续函数族无法跟随的阈值、经认证的切向间隙、使其闭合的反射、一个不可达的圆盘，以及一个第三类的三阶源，其全阈值在相位下跳跃。五部系列至此完成。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 421.255,
+   "end": 440.533,
+   "en": "Observability pairing, phase-retrieval lifting, Chebyshev duality, real algebraic geometry and symmetry averaging are published inputs, the torus closure of powers is a frozen Lean theorem, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+   "zh": "可观测配对、相位恢复提升、切比雪夫对偶、实代数几何与对称平均是已发表的输入，幂的环面闭包是一个冻结的 Lean 定理，其余在理论卷中论证，有限计算为本片重新完成。"
+  }
+ ],
+ "duration": 449.533
+}
