@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Three sites on a path, with no two neighbours both occupied, leave five legal modes. This film asks which added principles turn that small atom into a complex quantum system, and exactly which quantum rule each principle buys.",
+     "一条路径上的三个位置，相邻两位不能同时占据，留下五个合法模式。本片要问：加上哪些原则，才能把这个小原子变成复量子系统；每条原则又恰好换来哪一条量子规则。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric Quantum Principles, part one: five modes, complex structure and coherent records.",
+     "AURIC 量子原理第一部：五模式、复结构与相干记录。"
+    ],
+    [
+     "Six stated conditions build one complex five-dimensional model, and explicit counter-models mark what the conditions add.",
+     "六条明确条件构建出一个复五维模型，显式反模型标出这些条件添加了什么。"
+    ]
+   ]
+  },
+  {
+   "id": "atom",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with the atom: empty, one, two, three, and the pair one and three, with project labels two, three, five and two-five. A label is only a name; it fixes no length, probability or gate angle.",
+     "先看原子：空、一、二、三，以及一与三同时占据，项目标签依次为 [2]、[3]、[5]、[2,5]。标签只是名字，不指定长度、概率或门角度。"
+    ],
+    [
+     "Five modes do not choose a theory: a classical simplex keeps recursion, records and a static history without phase, and real quantum theory adds squares and rotations. Classical, real and complex states need four, fourteen and twenty-four real parameters.",
+     "五个模式并不选定理论：经典单纯形保留递归、记录与静态历史，却没有相位；实量子论再加上平方律与旋转。经典、实、复三种态分别需要 4、14、24 个实参数。"
+    ]
+   ]
+  },
+  {
+   "id": "corner",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Every readout is a constant, three single-site terms and one corner term J f x y, with J f equal to f thirteen minus f one minus f three plus f zero. For labels two, three, five, joint value seven gives J zero; ten, the product, gives three.",
+     "每个读出都是常数、三个单位置项与一个四角项 J_f·xy 之和，其中 J_f = f₁₃ − f₁ − f₃ + f₀。取标签 2、3、5 时，联合值 7 给出 J = 0；联合值取乘积 10，给出 J = 3。"
+    ],
+    [
+     "The three occupation means leave one number hidden, the joint probability kappa, free between the maximum of zero and X plus Y plus Z minus one, and the minimum of X and Y. Means fix an expectation exactly when J f is zero.",
+     "三个占据均值恰好遗漏一个数：联合概率 κ，它在 max(0, X+Y+Z−1) 与 min(X, Y) 之间自由变化。三均值确定一个期望值，当且仅当 J_f = 0。"
+    ]
+   ]
+  },
+  {
+   "id": "clifford",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Complex numbers enter through composition. If directions multiply by the Clifford rule, a b plus b a equals twice their inner product, then omega equals u v n squares to minus one, is central, and the axes generate two by two complex matrices.",
+     "复数经由复合进入。若方向按 Clifford 规则相乘，ab + ba = 2⟨a, b⟩，则 ω = uvn 的平方为 −1 且居于中心，三条轴生成 2×2 复矩阵代数。"
+    ],
+    [
+     "Transport that unit through five matrix units and fifty real elements form exactly M five of C, one shared i on every mode. Odd dimension blocks shortcuts: no real five by five matrix squares to minus one, and no two invertible ones anticommute.",
+     "把这个虚单位经五个矩阵单位运输，五十个实元素恰好构成 M₅(ℂ)，每个模式共用同一个 i。奇数维堵住了捷径：没有 5×5 实矩阵的平方为 −1，也没有两个可逆的 5×5 矩阵反交换。"
+    ]
+   ]
+  },
+  {
+   "id": "born",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Probabilities come next. A valuation additive on every effect, not only on the five mode projections, must be the Born rule: mu of E equals the trace of rho E for a density matrix rho, and continuity comes for free.",
+     "接着是概率。一个在全部效果上可加的赋值（不只在五个模式投影上）必然是 Born 规则：μ(E) = tr(ρE)，ρ 为密度矩阵，连续性自动成立。"
+    ],
+    [
+     "Frames alone are not enough. On a qubit, let mu of P n be one plus n z cubed, over two. Every orthonormal frame has a fitting state, yet at n z one half it gives nine sixteenths, where the standard axes force three quarters.",
+     "只在标架上相容并不够。在量子位上令 μ(P_n) = (1 + n_z³)/2。每个正交标架都有一个拟合态，但在 n_z = 1/2 处它给出 9/16，而标准三轴迫使的值是 3/4。"
+    ]
+   ]
+  },
+  {
+   "id": "kernel",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Recursion turns linear when a positive kernel is conserved across all branches, cross terms included; then keeping the outcome is an isometry. Equal branches can still differ in record phase: one later test gives one, or zero.",
+     "当一个正核在全部分支上守恒（包括交叉项），递归就变为线性，保留结果记录是一个等距。普通分支相同时，记录相位仍可不同：同一个后续测试给出 1 或 0。"
+    ],
+    [
+     "References force complete positivity. Transposition keeps every single state positive, but on half of a maximally entangled pair it gives the swap over two, with eigenvalue minus one half. And a process with a legal inverse process must be unitary.",
+     "参考系统迫使完全正性。转置使每个单系统态保持正，但作用在最大纠缠对的一半上，得到交换算子除以二，本征值为 −1/2。而一个具有合法逆过程的过程必然是酉的。"
+    ]
+   ]
+  },
+  {
+   "id": "witness",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the project's own wait, U of t equals e to the minus i t K. Wait twice; or wait, read all five modes, forget the result, and wait again. Halfway, the populations are identical.",
+     "现在看项目自己的等待 U(t) = e^(−itK)。等待两次；或者等待、读出全部五个模式、忘掉结果，再等待一次。中途两者的人口完全相同。"
+    ],
+    [
+     "Yet for small t the return to empty differs: one minus twelve t squared without the read, one minus six t squared with it. Five populations still miss what a native future test needs; this refutes that summary, not every classical model with extra hidden state.",
+     "但 t 很小时，回到空模式的概率不同：不读出时为 1 − 12t²，读出后为 1 − 6t²。五项人口仍会遗漏原生后续测试所需的关系；这反驳的是该人口摘要，而不是所有带额外隐藏状态的经典模型。"
+    ]
+   ]
+  },
+  {
+   "id": "control",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three independent flips, R one, R two and R three, reach exactly D S O five D dagger, rotations in a fixed phase frame. The pyramid's Hodge-dual swap lies outside, and every native wait, read and stop protocol stays at least one half away.",
+     "三个独立翻转 R₁、R₂、R₃ 恰好到达 D·SO(5)·D†，即固定相位帧中的旋转。金字塔的 Hodge 对偶交换在此群之外；每个由原生等待、读出与停止组成的协议，与它的距离至少为 1/2。"
+    ],
+    [
+     "One fixed phase gate, S star, e to the i pi P thirteen over two, unlocks the rest: with R one and R three, all of S U four on the base; adding R two, all of S U five. The words are the unitaries with determinant a fourth root of unity.",
+     "一个固定相位门 S* = e^(iπP₁₃/2) 打开其余一切：与 R₁、R₃ 一起，得到底面上的全部 SU(4)；再加 R₂，得到全部 SU(5)。有限字恰好是行列式为四次单位根的酉矩阵。"
+    ]
+   ]
+  },
+  {
+   "id": "phase",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Under the gate e to the minus i t f, the relation phase, theta zero plus theta thirteen minus theta one minus theta three, advances by t J f while no population moves. On the base, the gate is a product exactly when t J f is a multiple of two pi.",
+     "在门 e^(−it·diag f) 下，关系相位 θ₀ + θ₁₃ − θ₁ − θ₃ 以 tJ_f 增长，而人口一个也不动。在底面上，该门是乘积门当且仅当 tJ_f 是 2π 的整数倍。"
+    ],
+    [
+     "So probabilities can stand still while the relation changes: one minus sign gives a maximally entangled base state, every mode still at one quarter. A fixed reference pulse R one of alpha reads the phase: N x shifts by sine two alpha sine theta over five.",
+     "所以概率可以不动而关系改变：一个负号就给出最大纠缠的底面态，每个模式仍是 1/4。固定参考脉冲 R₁(α) 读出相位：N_x 移动 sin 2α · sin θ / 5。"
+    ]
+   ]
+  },
+  {
+   "id": "seam",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Two atoms side by side are not automatically a tensor product. Adjacent three-site windows allow only twenty-one of the twenty-five mode pairs, so they cannot hold C five tensor C five isometrically. One separator site, set to zero, restores a full isometric code.",
+     "两个并排的原子并不自动构成张量积。相邻的两个三位窗口在 25 个模式对中只允许 21 个，因此无法等距容纳两个 ℂ⁵ 的张量积。中间加一个置零的分隔位，就恢复完整的等距编码。"
+    ],
+    [
+     "Composition also separates complex from real. Complex local product effects fix every joint state. Real ones cannot: the states one plus or minus epsilon J zero tensor J zero, over four, agree on every real local product, yet read plus and minus epsilon on that tensor.",
+     "复合也区分复与实。复的局部乘积效果确定每个联合态。实的做不到：两个态 (I ± εT)/4（T 为 J₀ 与 J₀ 的张量积）在每个实局部乘积上一致，却在这个张量上分别读出 +ε 与 −ε。"
+    ]
+   ]
+  },
+  {
+   "id": "mirror",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Finally, what settles. Wait, read all five modes, and repeat. The state averaged over past results forgets: its distance to uniform is at most eta to the n minus one, with eta below two thirds for wait two thirds, and below twenty-three fiftieths for wait one.",
+     "最后看什么会稳定。等待、读出全部五个模式，如此反复。对已读结果取平均的态会遗忘：它到均匀态的迹距离至多为 η^(n−1)；等待 2/3 时 η < 2/3，等待 1 时 η < 23/50。"
+    ],
+    [
+     "But the full history keeps its first difference forever: two initial states stay exactly as far apart in record space as their first reads. And the label never freezes; with probability one it keeps changing. The margin settles, the past stays, the present moves.",
+     "但完整历史永远保留最初的差别：两个初态在记录空间中的距离，恰好等于它们首读分布的距离。标签也永不定格，读数以概率一持续变化。边缘趋稳，过去仍在，当下在动。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Five modes need added principles, a corner hides from three means, Clifford composition gives one i, full effects force Born, references force complete positivity, a native wait beats populations, one fixed phase reaches every unitary, the corner entangles, seams need a separator, and margins settle while records move.",
+     "五个模式需要附加原则，一个四角躲过三均值，Clifford 复合给出同一个 i，全效果迫出 Born 规则，参考系统迫出完全正性，原生等待胜过人口摘要，一个固定相位到达全部酉矩阵，四角产生纠缠，接缝需要分隔位，边缘趋稳而记录在动。"
+    ],
+    [
+     "Busch's effect theorem, Choi–Kraus and the Clifford–Pauli correspondence are published or classical inputs, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "Busch 效果定理、Choi–Kraus 表示与 Clifford–Pauli 对应是已发表或经典的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
