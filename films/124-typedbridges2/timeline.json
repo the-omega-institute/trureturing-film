@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 19.715
+  },
+  {
+   "id": "title",
+   "start": 19.715,
+   "end": 36.234
+  },
+  {
+   "id": "sector",
+   "start": 36.234,
+   "end": 73.662
+  },
+  {
+   "id": "holonomy",
+   "start": 73.662,
+   "end": 105.706
+  },
+  {
+   "id": "curvature",
+   "start": 105.706,
+   "end": 141.749
+  },
+  {
+   "id": "budget",
+   "start": 141.749,
+   "end": 176.044
+  },
+  {
+   "id": "closure",
+   "start": 176.044,
+   "end": 212.675
+  },
+  {
+   "id": "memory",
+   "start": 212.675,
+   "end": 252.937
+  },
+  {
+   "id": "levels",
+   "start": 252.937,
+   "end": 290.271
+  },
+  {
+   "id": "triplets",
+   "start": 290.271,
+   "end": 330.138
+  },
+  {
+   "id": "mirror",
+   "start": 330.138,
+   "end": 370.691
+  },
+  {
+   "id": "clock",
+   "start": 370.691,
+   "end": 407.76
+  },
+  {
+   "id": "finale",
+   "start": 407.76,
+   "end": 446.777
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 18.715,
+   "en": "Part one built typed bridges on the five-state pyramid. Part two carries them into quantum networks, curvature, hidden memory, prime triplets and the interface with the Riemann hypothesis, marking every bridge still missing.",
+   "zh": "第一部在五态金字塔上搭建了类型化桥。第二部把这些桥带进量子网络、曲率、隐藏记忆、素数三胞胎以及与黎曼假设的接口，并标出每一座仍然缺失的桥。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 20.915,
+   "end": 26.482,
+   "en": "Auric Typed Bridges, part two: quantum networks, hidden memory and the RH interface.",
+   "zh": "AURIC 类型化桥第二部：量子网络、隐藏记忆与 RH 接口。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 27.082,
+   "end": 34.834,
+   "en": "Channels only blur, curvature cannot stop collapse, compression leaves memory, and the road to RH is still conditional.",
+   "zh": "信道只会模糊，曲率挡不住塌缩，压缩会留下记忆，而通往 RH 的路仍是条件性的。"
+  },
+  {
+   "i": 3,
+   "scene": "sector",
+   "start": 37.034,
+   "end": 53.701,
+   "en": "Put the five probabilities on the diagonal of a density matrix: each stochastic readout lifts to a completely positive, trace-preserving channel acting exactly as the kernel, and the hidden seam becomes a diagonal, traceless Hermitian direction D.",
+   "zh": "把五个概率放到密度矩阵的对角线上：每个随机读出都提升为一个完全正、保迹的信道，作用恰与该核相同；隐藏接缝变成一个对角、迹为零的 Hermite 方向 D。"
+  },
+  {
+   "i": 4,
+   "scene": "sector",
+   "start": 54.301,
+   "end": 72.262,
+   "en": "On a triangle network of three independent edge sources and three local node channels, every output is a probability law, and classical triangle-local laws form its diagonal subclass. Only this inclusion is proved, not a triangle lift for every five-state law.",
+   "zh": "在由三个独立边源和三个局部节点信道组成的三角网络上，每个输出都是概率律，而经典 triangle-local 律是其中的对角子类。证明的只是这个包含关系，并没有给每个五态律都找到三角提升。"
+  },
+  {
+   "i": 5,
+   "scene": "holonomy",
+   "start": 74.462,
+   "end": 89.872,
+   "en": "Channels only blur. Applied at every node, a channel never raises the trace-norm Dirichlet energy of a quantum graph field, and around a closed loop the holonomy defect is at most the sum of each edge's distance from the identity.",
+   "zh": "信道只会模糊。在每个节点上施加同一信道，量子图场的迹范数 Dirichlet 能量不会升高；沿一条闭环，holonomy 缺陷至多是各边到恒等映射的距离之和。"
+  },
+  {
+   "i": 6,
+   "scene": "holonomy",
+   "start": 90.472,
+   "end": 104.306,
+   "en": "Effective resistance gives a visible geometry: its square root is a metric, and raising an edge weight never increases it. No rule yet assigns weights to channels, so reading this as gravity remains a bridge.",
+   "zh": "有效电阻给出可见的几何：它的平方根是度量，增大任何边权都不会让它变大。目前还没有从信道指定边权的规则，所以把它读作引力仍只是一座桥。"
+  },
+  {
+   "i": 7,
+   "scene": "curvature",
+   "start": 106.506,
+   "end": 123.853,
+   "en": "Curvature is a finite certificate. If gamma two is at least K times gamma at every vertex, the spectral gap is at least K, energy decays like e to the minus two K t, and resistance is at most one over mu u plus one over mu v, over K.",
+   "zh": "曲率是一张有限证书。若每个顶点上都有 Γ₂ ≥ K·Γ，则谱隙至少为 K，能量按 e^(−2Kt) 衰减，有效电阻至多为 (1/μ_u + 1/μ_v)/K。"
+  },
+  {
+   "i": 8,
+   "scene": "curvature",
+   "start": 124.453,
+   "end": 140.349,
+   "en": "A limit needs four separate layers: compactness, Mosco convergence, vanishing jumps and stable gradient bounds. A two-point space keeps curvature two while shrinking to a point, and complete graphs keep gap one while their limit stays nonlocal.",
+   "zh": "取极限需要四个独立的层次：紧性、Mosco 收敛、跳跃消失和梯度界的稳定。两点空间保持曲率 2，却塌缩成一点；完全图保持谱隙 1，极限却仍是非局部的。"
+  },
+  {
+   "i": 9,
+   "scene": "budget",
+   "start": 142.549,
+   "end": 160.266,
+   "en": "On the diagonal, quantum and classical Fisher information agree. The symmetric logarithmic derivative is d over p, so the quantum Fisher information along the seam is the sum of one over p for states zero, two, five and twenty-five, and independent nodes add.",
+   "zh": "在对角扇区，量子与经典 Fisher 信息一致。对称对数导数是 d/p，所以沿接缝的量子 Fisher 信息就是状态 0、2、5、25 上 1/p 之和，独立节点直接相加。"
+  },
+  {
+   "i": 10,
+   "scene": "budget",
+   "start": 160.866,
+   "end": 174.644,
+   "en": "Every channel contracts it, even when the output is no longer diagonal. A triangle network may rearrange what its three sources carry, or hide it in coherences, but its output never holds more than their sum.",
+   "zh": "每个信道都会收缩它，即使输出已不再是对角的。三角网络可以重排三个源携带的信息，或把它藏进相干项，但输出永远不会多于三者之和。"
+  },
+  {
+   "i": 11,
+   "scene": "closure",
+   "start": 176.844,
+   "end": 193.474,
+   "en": "Escape has a ledger. Coarse-graining loses relative information and never gains it. On the base of the pyramid the loss is one minus Z times a relative entropy, which vanishes exactly when one minus Z times kappa equals X Y.",
+   "zh": "逃逸有账本。粗粒化只会损失相对信息，不会增加。在金字塔底面，损失是 (1 − Z) 乘以一个相对熵，它恰在 (1 − Z)κ = XY 时为零。"
+  },
+  {
+   "i": 12,
+   "scene": "closure",
+   "start": 194.074,
+   "end": 211.275,
+   "en": "Prediction is stricter. The coarsest state keeping every future observation is a greatest fixed point. Two laws in one fibre differ after a word w by kappa minus kappa prime times O A sub w d; for one generator, the first n powers decide.",
+   "zh": "预测更严格。保留全部未来观测的最粗状态是一个最大不动点。同一纤维中的两个律在词 w 之后相差 (κ − κ′)·O A_w d；对单个生成元，前 n 个幂就能判定。"
+  },
+  {
+   "i": 13,
+   "scene": "memory",
+   "start": 213.475,
+   "end": 232.474,
+   "en": "Compression leaves memory. Two compressed steps minus one compressed step squared is exactly the part of the flow that leaves the visible functions and returns; it grows like t squared times the norm of I minus P, L f, squared, and vanishes for all f exactly when the readout is lumpable.",
+   "zh": "压缩会留下记忆。两步压缩减去一步压缩的平方，恰好是流中离开可见函数又返回的那一部分。它按 t² 乘以 ‖(I − P)Lf‖² 增长；它对每个 f 都为零，当且仅当读出可聚合（lumpable）。"
+  },
+  {
+   "i": 14,
+   "scene": "memory",
+   "start": 233.074,
+   "end": 251.537,
+   "en": "On the divisor box of five thousand and forty, sixty sources fold onto forty-eight positions. Seven and ten share a position, but only seven steps to the target, at rate one fifth. Their fibre alone adds twenty-one over thirty-four thousand two hundred fifty-five: hidden memory.",
+   "zh": "在 5040 的因子盒上，60 个源折叠到 48 个位置。7 与 10 共享一个位置，但只有 7 能以速率 1/5 走到目标。仅这一纤维就贡献 21/34255：这是隐藏的记忆。"
+  },
+  {
+   "i": 15,
+   "scene": "levels",
+   "start": 253.737,
+   "end": 267.9,
+   "en": "Energy levels are curvature in the Fisher metric: at a critical point the Hessian of a potential is self-adjoint for the Fisher inner product, and its eigenvalues are the local levels, the decay rates of a Fisher gradient flow.",
+   "zh": "能级是 Fisher 度量下的曲率：在临界点，势的 Hessian 是关于 Fisher 内积的自伴算子，它的特征值就是局部能级，也是 Fisher 梯度流各模态的衰减率。"
+  },
+  {
+   "i": 16,
+   "scene": "levels",
+   "start": 268.5,
+   "end": 288.871,
+   "en": "Swapping two and five splits the tangent space into three even directions and one odd, and the seam is even. The potential kappa o over two, times p two minus p five squared, has one level, two kappa o r. The Fibonacci matrix has spectrum phi and minus one over phi, without Euler factors.",
+   "zh": "交换 2 与 5 的镜像把切空间分成三个偶方向和一个奇方向，接缝是偶的。势 (κₒ/2)(p₂ − p₅)² 只有一个能级 2κₒr。Fibonacci 矩阵的谱是 φ 与 −1/φ，但其中没有 Euler 因子。"
+  },
+  {
+   "i": 17,
+   "scene": "triplets",
+   "start": 291.071,
+   "end": 310.024,
+   "en": "Prime triplets enter as a local field. For the pattern zero, two, six, admissible residues modulo ell form a projection of trace one minus nu over ell, with nu one, two, then three; these traces multiply into the Hardy–Littlewood constant, whose triplet count stays conjectural.",
+   "zh": "素数三胞胎以局部场的形式进入。对模式 0、2、6，模 ℓ 的可容许剩余类构成一个投影，归一化迹为 1 − ν/ℓ，ν 依次为 1、2，之后为 3；这些迹相乘得到 Hardy–Littlewood 常数，而三胞胎计数本身仍是猜想。"
+  },
+  {
+   "i": 18,
+   "scene": "triplets",
+   "start": 310.624,
+   "end": 328.738,
+   "en": "Removing what pairs explain leaves an irreducible three-body potential: minus log two at two, log four thirds at three, and a tail of order ell to the minus three, as the ell to the minus two terms cancel. It is a local field, not spacetime curvature or zeta zeros.",
+   "zh": "去掉成对约束能解释的部分，剩下不可约的三体势：在 2 处为 −log 2，在 3 处为 log(4/3)，尾项为 ℓ⁻³ 阶，因为 ℓ⁻² 项恰好抵消。它是局部场，既不是时空曲率，也不是 zeta 零点。"
+  },
+  {
+   "i": 19,
+   "scene": "mirror",
+   "start": 330.938,
+   "end": 348.287,
+   "en": "The five-state laws form a four-dimensional pyramid over a tetrahedron. The readout maps it onto a square pyramid, with kappa running along the segment above each point, between two triangulations of the base; the mirror swapping two and five fixes a tetrahedral slice.",
+   "zh": "五态律构成一个以四面体为底的四维金字塔；读出把它映到三维方金字塔，κ 沿每点上方的线段移动，介于底面的两种三角剖分之间。交换 2 与 5 的镜像固定一个四面体切片。"
+  },
+  {
+   "i": 20,
+   "scene": "mirror",
+   "start": 348.887,
+   "end": 369.291,
+   "en": "On the Riemann side, a zero lies on the critical line exactly when one minus one over rho lies on the unit circle, and a published equivalence makes RH a vanishing Poisson-weighted defect. An equivariant map from zeros to five-state laws would make RH mean landing in the slice; none is built.",
+   "zh": "在黎曼一侧，零点在临界线上，当且仅当 1 − 1/ρ 落在单位圆上；一个已发表的等价式把 RH 写成 Poisson 加权缺陷的消失。若有从零点到五态律的等变映射，RH 就等于落进这个切片；这样的映射尚未构造。"
+  },
+  {
+   "i": 21,
+   "scene": "clock",
+   "start": 371.491,
+   "end": 388.557,
+   "en": "Space and time come out of one network. The static response b transpose L plus b changes with the capacities by minus the sum of c e prime times the squared edge current, so capacities lost to local dissipation raise the response.",
+   "zh": "空间与时间来自同一个网络。静态响应 bᵀL⁺b 随边容量变化，其导数是 −Σ c′ₑ 乘以边电流的平方；因此因局部耗散而下降的容量会抬高响应。"
+  },
+  {
+   "i": 22,
+   "scene": "clock",
+   "start": 389.157,
+   "end": 406.36,
+   "en": "Time is the relative-entropy ledger: tau equals D of rho zero to sigma minus D of rho t to sigma. It never decreases and adds over steps; a coherent part commuting with sigma leaves it still. Parameter time and entropy time are different clocks.",
+   "zh": "时间是相对熵账本：τ = D(ρ₀‖σ) − D(ρₜ‖σ)。它从不减少、逐步可加；与 σ 对易的相干部分让它停住不动。参数时间与熵时间是两只不同的钟。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 408.76,
+   "end": 422.449,
+   "en": "So channels blur, loops are budgeted, curvature bounds gaps but not collapse, Fisher information cannot grow, compression leaves memory, triplets keep a three-body tail, and RH waits behind a map not yet built.",
+   "zh": "所以：信道会模糊，闭环有预算，曲率能界住谱隙却挡不住塌缩，Fisher 信息不会增长，压缩留下记忆，三胞胎保留三体尾项，而 RH 还等在一个尚未构造的映射之后。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 423.049,
+   "end": 437.777,
+   "en": "The two-step compression identity and the divisor box count are Lean-checked, the Poisson defect equivalence is a published input, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+   "zh": "两步压缩恒等式与因子盒计数经过 Lean 检查，Poisson 缺陷等价式是已发表的输入，其余在理论卷中论证，有限计算为本片重新做过。"
+  }
+ ],
+ "duration": 446.777
+}
