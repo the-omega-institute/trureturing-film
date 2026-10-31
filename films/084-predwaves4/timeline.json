@@ -1,0 +1,293 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 20.186
+  },
+  {
+   "id": "title",
+   "start": 20.186,
+   "end": 34.825
+  },
+  {
+   "id": "worlds",
+   "start": 34.825,
+   "end": 66.952
+  },
+  {
+   "id": "filter",
+   "start": 66.952,
+   "end": 100.577
+  },
+  {
+   "id": "memory",
+   "start": 100.577,
+   "end": 133.119
+  },
+  {
+   "id": "permute",
+   "start": 133.119,
+   "end": 168.955
+  },
+  {
+   "id": "quotient",
+   "start": 168.955,
+   "end": 204.022
+  },
+  {
+   "id": "distance",
+   "start": 204.022,
+   "end": 233.939
+  },
+  {
+   "id": "stopping",
+   "start": 233.939,
+   "end": 265.547
+  },
+  {
+   "id": "anchor",
+   "start": 265.547,
+   "end": 298.496
+  },
+  {
+   "id": "entangle",
+   "start": 298.496,
+   "end": 332.054
+  },
+  {
+   "id": "return",
+   "start": 332.054,
+   "end": 367.202
+  },
+  {
+   "id": "identify",
+   "start": 367.202,
+   "end": 403.775
+  },
+  {
+   "id": "finale",
+   "start": 403.775,
+   "end": 447.051
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 19.186,
+   "en": "Earlier parts built the instrument, its compatible qutrit states and their complete records. Part four lets a classical imitator err a fixed amount, counts its memory, then asks what stopping, an anchor and a returned record certify.",
+   "zh": "前几部建立了仪器、它的相容 qutrit 态以及它们的完整记录。第四部允许经典模仿者有一个固定误差，计算它的记忆，再追问停止规则、一个锚和回返的记录能认证什么。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 21.386,
+   "end": 26.785,
+   "en": "Auric predictive waves, part four: fixed error, finite memory and the returned record.",
+   "zh": "AURIC 相容预测波，第四部：固定误差、有限记忆与回返记录。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 27.385,
+   "end": 33.425,
+   "en": "One fixed source, tested by every finite record, every stopping rule and one record sent back.",
+   "zh": "同一个固定的源，接受每个有限记录、每条停止规则和一次送回的记录的检验。"
+  },
+  {
+   "i": 3,
+   "scene": "worlds",
+   "start": 35.625,
+   "end": 50.474,
+   "en": "Two compatible worlds, rho star plus or minus t delta, with eta equal to d times one minus d over one hundred, are strictly positive, and t over four exceeds d times one minus d over thirty-two hundred.",
+   "zh": "两个相容世界 ρ*±tΔ，其中 η=d(1−d)/100，都严格正定，并且 t/4>d(1−d)/3200。"
+  },
+  {
+   "i": 4,
+   "scene": "worlds",
+   "start": 51.074,
+   "end": 65.552,
+   "en": "Their records differ by two t, times two to the minus n, times b of h, the imaginary part of a two-by-two word entry. Over the actual fair words, the averaged second moment of b tends to exactly one quarter.",
+   "zh": "它们的记录相差 2t·2⁻ⁿ·b(h)，b 是一个二阶词矩阵元的虚部。在实际的公平词上，b 的二阶矩的平均恰好趋于 1/4。"
+  },
+  {
+   "i": 5,
+   "scene": "filter",
+   "start": 67.752,
+   "end": 83.283,
+   "en": "On every recurrent class of a finite comparator that writes every word, a Jensen equality and a finite coset cover leave no fixed vector. But a legal four-state cycle writing only zeros keeps an average correlation of three eighths.",
+   "zh": "在有限比较器的每个能写出所有词的常返类上，一个 Jensen 等式和有限陪集覆盖排除了不动向量。但一个只写零的合法四态循环，保留了 3/8 的平均相关。"
+  },
+  {
+   "i": 6,
+   "scene": "filter",
+   "start": 83.883,
+   "end": 99.177,
+   "en": "So filter the suffix, scoring a record only when its last m labels contain every length-L word: every comparator's signed correlation then averages to zero, while the target keeps at least four t times one quarter minus delta.",
+   "zh": "于是对后缀过滤，只有当最后 m 个标签包含每个长度为 L 的词时才计分：每个比较器的带符号相关的平均于是为零，而目标至少保留 4t·(1/4 − δ)。"
+  },
+  {
+   "i": 7,
+   "scene": "memory",
+   "start": 101.377,
+   "end": 116.006,
+   "en": "This is a fixed error floor: at every nonexceptional angle, every finite comparator with any two preparations has depth-averaged total variation, from the two complete record laws, of lower limit at least t over four.",
+   "zh": "这就是固定误差的地板：在每个非例外角度，每个带任意两个制备的有限比较器，与两条完整记录律之间的深度平均全变差，其下极限至少为 t/4。"
+  },
+  {
+   "i": 8,
+   "scene": "memory",
+   "start": 116.606,
+   "end": 131.719,
+   "en": "So below the error d times one minus d over thirty-two hundred, matching every endpoint up to horizon H needs a number of states tending to infinity, yet each finite horizon is matched exactly by a tree of hidden bits.",
+   "zh": "所以误差低于 d(1−d)/3200 时，匹配到视野 H 为止的每个终点所需的状态数趋于无穷，但每个有限视野都能被一棵隐藏比特树精确匹配。"
+  },
+  {
+   "i": 9,
+   "scene": "permute",
+   "start": 133.919,
+   "end": 151.055,
+   "en": "One pure preparation, one mixing control N: a reversible comparator uses three permutations. Every finite prefix-closed set of words has an exact one with as many states as words: forty for depth three, and nearly eight hundred thousand for depth twelve.",
+   "zh": "一个纯制备、一个混合控制 N：可逆比较器使用三个置换。每个有限前缀闭的词集都有一个精确的比较器，状态数等于词数：深度三是 40 个，深度十二近八十万个。"
+  },
+  {
+   "i": 10,
+   "scene": "permute",
+   "start": 151.655,
+   "end": 167.555,
+   "en": "No finite one matches every word, since the readouts are dense in the unit interval while finitely many permutations give finitely many values. Yet Malcev's theorem gives each finite word set a finite model keeping every group identity.",
+   "zh": "但没有一个有限比较器能匹配全部词，因为读数在单位区间中稠密，而有限个置换只给出有限多个值。不过 Malcev 定理为每个有限词集给出一个保留全部群恒等式的有限模型。"
+  },
+  {
+   "i": 11,
+   "scene": "quotient",
+   "start": 169.755,
+   "end": 185.376,
+   "en": "If a model matching the four tables has every reachable difference its nine rows miss invisible to all futures, its prediction quotient is exactly nine-dimensional and every word matches, as in countable and continuous reversible models.",
+   "zh": "若一个匹配四张表的模型，其九行漏掉的每个可达差对所有未来都不可见，它的预测商就恰为九维，每个词都匹配，可数与连续的可逆模型正是如此。"
+  },
+  {
+   "i": 12,
+   "scene": "quotient",
+   "start": 185.976,
+   "end": 202.622,
+   "en": "The stronger hidden equalities fail on every measurable space: the induced event effects must commute with the sharp terminal, leaving five dimensions to separate nine. In both infinite models one explicit residual is nonzero while every future reads zero.",
+   "zh": "更强的隐藏等式在任何可测空间上都不成立：事件效果必须与尖锐终端交换，只剩五维去分开九维。两个无限模型中，一条显式残差非零，而所有未来读数为零。"
+  },
+  {
+   "i": 13,
+   "scene": "distance",
+   "start": 204.822,
+   "end": 220.285,
+   "en": "Keep a fixed schedule's full record, accepting outcomes with any coefficients from zero to one. For every installed N, a rank-one projection P N has a witness, two P N minus I, scoring at most three quarters on all such effects.",
+   "zh": "保留固定时序的完整记录，并以零到一之间的任意系数接受结果。对每个已安装的 N，都有一个秩一投影 P_N，它的见证 2P_N − I 在每个这样的效果上得分至多 3/4。"
+  },
+  {
+   "i": 14,
+   "scene": "distance",
+   "start": 220.885,
+   "end": 232.539,
+   "en": "The witness has trace norm three, so every bounded complete-record effect stays at least one twelfth from P N, although the closed cone of all record effects is the whole positive cone.",
+   "zh": "见证的迹范数为三，所以每个有界的完整记录效果离 P_N 至少 1/12，尽管全部记录效果的闭锥就是整个正锥。"
+  },
+  {
+   "i": 15,
+   "scene": "stopping",
+   "start": 234.739,
+   "end": 249.81,
+   "en": "Add one permission: stopping on past labels. One fixed sweep, the same for every target, then has stopping tables bringing the unconditioned effect within any epsilon of any rank-one projection, with every timeout and mismatch kept.",
+   "zh": "增加一项权限：凭过去的标签停止。于是同一条固定扫掠，对所有目标都相同，就有停止表把不条件化的效果带到任意秩一投影的 ε 之内，所有超时与失配都保留。"
+  },
+  {
+   "i": 16,
+   "scene": "stopping",
+   "start": 250.41,
+   "end": 264.147,
+   "en": "No call budget works uniformly for controls near the identity. And relabelling one binary terminal into three outcomes scores at most two thirds, so some outcome stays a third away from any sharp three-outcome measurement.",
+   "zh": "对接近恒等的控制，没有统一的调用预算。把一个二元终端重标记为三个结果，得分至多 2/3，所以离任何尖锐三结果测量总有一个结果相差至少 1/3。"
+  },
+  {
+   "i": 17,
+   "scene": "anchor",
+   "start": 266.347,
+   "end": 281.856,
+   "en": "Now access the emitted record. Among complete repeatable lifts, retention is one number gamma in the unit disk, and a fixed Hadamard readout gives one plus omega d real gamma, over two, with omega d two minus d over four.",
+   "zh": "现在访问出射记录。在完整可重复的提升中，保留只是单位圆盘中的一个数 γ，一个固定的 Hadamard 读口给出 (1 + ω_d Re γ)/2，其中 ω_d = (2 − d)/4。"
+  },
+  {
+   "i": 18,
+   "scene": "anchor",
+   "start": 282.456,
+   "end": 297.096,
+   "en": "So the single anchor, six minus d over eight, holds exactly when gamma is one, and that fixes every coherent cross block, history and untouched reference. Dephasing gives one half on this readout, yet the same native records.",
+   "zh": "所以单个锚 (6 − d)/8 恰在 γ = 1 时成立，它固定了每个相干交叉块、每段历史和每个未触动的参考。退相干在这个读口上给出 1/2，原记录却完全相同。"
+  },
+  {
+   "i": 19,
+   "scene": "entangle",
+   "start": 299.296,
+   "end": 313.789,
+   "en": "Run blocks of four native calls and one N, keeping the records coherent. The marginal contracts to the maximally mixed state exactly when N mixes, so system and records approach maximal entanglement, entropy log three.",
+   "zh": "运行由四次原生调用和一次 N 组成的块，并相干地保留记录。当且仅当 N 混合时，边缘收缩到最大混合态，于是系统与记录趋于最大纠缠，熵趋于 log 3。"
+  },
+  {
+   "i": 20,
+   "scene": "entangle",
+   "start": 314.389,
+   "end": 330.654,
+   "en": "The rate is pinned by the commutator: with delta the squared commutator of N and the xi projection, delta over eight is at most one minus r squared, at most three halves delta. Dephased records give the same marginals but stay separable.",
+   "zh": "收缩率由交换子钉住：设 δ 为 N 与 ξ 投影交换子的平方范数，则 δ/8 ≤ 1 − r² ≤ (3/2)δ。退相干的记录给出相同的边缘，却始终可分。"
+  },
+  {
+   "i": 21,
+   "scene": "return",
+   "start": 332.854,
+   "end": 349.599,
+   "en": "Next, return the emitted record once through the same interaction, completed to a fixed ten-dimensional unitary. The terminal sees the completion only through one vector h in the unit ball, and every completion leaks at least a two-dimensional input space entirely.",
+   "zh": "接着，把出射记录经同一个交互送回一次，交互被补全为一个固定的十维酉。终端只通过单位球中的一个向量 h 看见补全；每个补全都让至少二维的输入空间完全泄漏。"
+  },
+  {
+   "i": 22,
+   "scene": "return",
+   "start": 350.199,
+   "end": 365.802,
+   "en": "No completion hides retention: some prefix and history of length at most seventeen separate any two gammas. One explicit completion gives one twelfth against seven forty-eighths at d two thirds, but equal masses at d two sevenths.",
+   "zh": "没有补全能藏住保留：某个前缀与某段长度至多十七的历史总能分开任意两个 γ。一个显式补全在 d = 2/3 时给出 1/12 对 7/48，但在 d = 2/7 时两个质量相等。"
+  },
+  {
+   "i": 23,
+   "scene": "identify",
+   "start": 368.002,
+   "end": 385.293,
+   "en": "Compare two devices with unknown, different completions: the full unconditioned return laws always determine gamma, and at zero retention they confuse exactly the reflected pairs, x plus i y times t and minus x plus i y times t.",
+   "zh": "比较两台补全未知且不同的装置：完整的不条件化回返律总能确定 γ，而在零保留时，它们恰好混淆反射对 (x + iy)t 与 (−x + iy)t。"
+  },
+  {
+   "i": 24,
+   "scene": "identify",
+   "start": 385.893,
+   "end": 402.375,
+   "en": "Finitely many rows give two-sided bounds, the best inverse constant for h grows like one over retention, and at zero retention the error modulus is order epsilon off the line of t, but order root epsilon on its imaginary multiples.",
+   "zh": "有限多行给出双边界；h 的最佳反演常数按保留的倒数增长；在零保留处，误差模量在 t 所在复直线之外是 ε 阶，在 t 的纯虚倍数处是 √ε 阶。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 404.775,
+   "end": 422.423,
+   "en": "A fixed error forces growing memory, permutations never match all words, futures fix the quotient while hidden closure fails, bounded records miss by a twelfth until stopping, an anchor fixes coherence that becomes entanglement, and one return reveals retention.",
+   "zh": "固定误差迫使记忆增长；置换永远匹配不了全部词；未来固定预测商，而隐藏闭合失败；有界记录差 1/12，直到允许停止；一个锚固定了化为纠缠的相干；一次回返揭示保留。"
+  },
+  {
+   "i": 26,
+   "scene": "finale",
+   "start": 423.023,
+   "end": 438.051,
+   "en": "The three-outcome bound and the commutator bound are frozen in Lean, Malcev's theorem and the cited measurement results are published inputs, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+   "zh": "三结果界与交换子界已在 Lean 中冻结；Malcev 定理和所引的测量结果是已发表的输入；其余在理论卷中论证，有限计算已为本片重新完成。"
+  }
+ ],
+ "duration": 447.051
+}
