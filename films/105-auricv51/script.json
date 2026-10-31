@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Version fifty repeated one binary interface. Versions fifty-one and fifty-two ask what an exactly vanishing constraint selects, what survives when a common phase is divided out, and what recursion keeps without loss.",
+     "第五十版反复使用同一个二元接口。第五十一、五十二版追问：一个严格为零的约束选出什么，模去共同相位后还剩下什么，递归又能无损地保留什么。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric versions fifty-one and fifty-two: antipodal constraints, phase quotients and lossless recursion.",
+     "AURIC V51–V52：对跖约束、相位商与无损递归。"
+    ],
+    [
+     "A constraint and its solution sit opposite on one sphere, phase leaves only squares, and descriptions encode again.",
+     "约束与它的解位于同一球面的两端，相位只留下平方，而描述可以再次编码。"
+    ]
+   ]
+  },
+  {
+   "id": "kernel",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with a positive constraint, a weighted sum of squared linear residuals. It vanishes exactly on the common kernel, and a density state has zero penalty exactly when its support lies in that kernel.",
+     "先看一个正约束：线性残差平方的加权和。它恰在共同核上为零；一个密度态罚值为零，当且仅当它的支撑落在这个核内。"
+    ],
+    [
+     "So a one-dimensional kernel selects one pure state, while a larger kernel admits mixtures. Positivity and zero level both matter: norm squared equal to one is a sphere, and three zero Pauli means give the maximally mixed state.",
+     "所以一维核选出唯一的纯态，更大的核还允许混态。正性和零水平缺一不可：范数平方等于一是一张球面，而三个 Pauli 均值都为零给出的是最大混态。"
+    ]
+   ]
+  },
+  {
+   "id": "antipode",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On a qubit, a nonzero positive constraint has a zero-penalty state exactly when it has rank one. Normalised, it is itself a pure state, and the unique solution is one minus it, the antipodal point.",
+     "在一个量子比特上，非零正约束有零罚态，当且仅当它秩一。归一化后它本身就是纯态，唯一的解是 I 减去它，也就是对跖点。"
+    ],
+    [
+     "Any state's squared trace distance to the solution is the penalty minus a quarter of one minus r squared, exact for pure inputs. On unknown states the flip is not completely positive: a Bell pair gets eigenvalue minus one half.",
+     "任意态到解的迹距离平方，等于罚值减去 (1 − ‖r‖²)/4，纯态输入时恰等于罚值。但作用在未知态上，这个翻转不是完全正的：Bell 对会得到特征值 −1/2。"
+    ]
+   ]
+  },
+  {
+   "id": "native",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The native code sends a qubit into five AURIC modes through five rank-one effects summing to the identity. Every state obeys N minus X minus Y minus Z minus two kappa equals zero; pure states also lie on a sphere of radius nu.",
+     "原生编码通过五个和为单位元的秩一效果，把一个量子比特送进五个 AURIC 模式。每个态都满足 N − X − Y − Z − 2κ = 0；纯态还落在半径为 ν 的球面上。"
+    ],
+    [
+     "In these three native means the antipodal duality becomes a point reflection through the centre u zero, and the same isometry lifts every qubit unitary coherently, as J U J dagger plus the complement.",
+     "在这三个原生均值里，对跖对偶变成以中心 u₀ 为心的点反射；同一个等距映射还把每个量子比特酉门相干地提升上去：J U J† 加上互补部分。"
+    ]
+   ]
+  },
+  {
+   "id": "code",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A constraint's description can itself be encoded. Put an anchor one before the data and normalise: the result is pure, and every coefficient returns as a ratio to the anchor entry, so finite towers decode layer by layer.",
+     "约束的描述本身也可以编码。在数据前放一个锚 1 再归一化：结果是纯态，每个系数都作为与锚元素的比值取回，所以有限层的塔可以逐层解码。"
+    ],
+    [
+     "Countable data are squashed and weighted by powers of one half. Truncating after M terms moves the code by at most two to the minus M over root three, yet recovering the j-th coordinate costs a factor like two to the j.",
+     "可数数据先压缩，再乘以 1/2 的幂作权重。截断到前 M 项时，编码的移动至多为 2^(−M)/√3；但取回第 j 个坐标的代价因子按 2ʲ 增长。"
+    ]
+   ]
+  },
+  {
+   "id": "atlas",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A state in dimension d is rebuilt from all its two-by-two principal blocks, with masses adding to d minus one. Pure blocks can still conflict: three pure blocks with trace one give eigenvalue minus one third, since phases must close around cycles.",
+     "d 维的态可由全部二阶主块重建，各块质量之和为 d − 1。纯块之间仍可能冲突：三个主块都纯、迹为一，却有特征值 −1/3，因为相位沿闭路的乘积必须为一。"
+    ],
+    [
+     "One more relation is decided by a Schur remainder: the rank grows exactly when it is positive. A pure state also rebuilds from an ordered binary tree, where s nonzero leaves need s minus one nodes and two s minus two numbers.",
+     "再加一条关系由 Schur 余量判定：余量为正时秩恰好增加。纯态还能由一棵有序二叉树重建：s 个非零叶子需要 s − 1 个节点和 2s − 2 个实数。"
+    ]
+   ]
+  },
+  {
+   "id": "history",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Zero propagation residual forces every clock slot to be the evolved first slot, a frozen Lean theorem of the project. A start constraint then leaves one history state, with residual gap at least one over N squared.",
+     "传播残差为零迫使每个时钟槽都是第一个槽演化后的结果，这是项目在 Lean 中冻结的定理。再加起点约束，就只剩下唯一的历史态，残差谱隙至少为 1/N²。"
+    ],
+    [
+     "A gap delta bounds the distance to the selected state by the root of penalty over delta, here N times the root penalty. Infinite weighted histories stay unique and pure, but their local residual has no gap, and pure GHZ states can converge locally to a mixture.",
+     "谱隙 δ 使到所选态的距离不超过 √(罚值/δ)，这里即 N 倍罚值平方根。无限加权历史仍唯一且纯，但局部残差无谱隙；纯 GHZ 态还能在局部收敛到混态。"
+    ]
+   ]
+  },
+  {
+   "id": "hopf",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Dividing out a common phase is the lossless step. Two complex amplitudes become three real coordinates whose length is the total weight, and normalised pure states form a sphere. Only the common phase is lost.",
+     "模去共同相位才是无损的一步。两个复振幅变成三个实坐标，其长度就是总权重；归一化的纯态构成一张球面。丢掉的只有共同相位。"
+    ],
+    [
+     "A flat disc needs a hemisphere flag, since zero and one share their first two axes, and no continuous injective chart into the plane exists. With the larger amplitude as denominator, chart distance is within a factor two of trace distance.",
+     "平面圆盘需要一个半球标记，因为 |0⟩ 与 |1⟩ 的前两轴相同；而且不存在到平面的连续单射坐标图。以模较大的振幅作分母，图上距离与迹距离相差不超过两倍。"
+    ]
+   ]
+  },
+  {
+   "id": "square",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Why squares? Every power of a residual has the same zero set, but only the square is a fixed positive operator's expectation: scaling by c gives c to the q on one side, c squared on the other.",
+     "为什么是平方？残差的任何幂都有相同的零集，但只有平方是一个固定正算子的期望：乘以 c 时，一边按 |c|^q 缩放，另一边按 |c|²。"
+    ],
+    [
+     "Phase sharpens this. A polynomial is phase-invariant exactly when every monomial is balanced, so all invariants are generated by the quadratics z i times z j bar, the lowest degree, with d squared real generators needed.",
+     "相位使这一点更加锐利。多项式相位不变，当且仅当每个单项式都平衡；所以全部不变量都由二次量 zᵢ z*ⱼ 生成，这是最低次数，并且需要 d² 个实生成元。"
+    ]
+   ]
+  },
+  {
+   "id": "born",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Probability needs more. A nonnegative radial weight adding over orthogonal pieces is a constant times the squared norm, and an additive readout on all effects is a trace against a density matrix, giving Born's square for pure sources.",
+     "概率还需要更多条件。在正交分量上可加的非负径向权重，是平方范数的常数倍；在全部效果上可加的读出，是与密度矩阵的迹配对，对纯源给出 Born 平方律。"
+    ],
+    [
+     "Matching three axes is not enough: the cubic rule, one plus n z cubed over two, gives one effect nine sixteenths through one decomposition and three quarters through another. Orthogonal internal records then carry exactly the squared branch norms.",
+     "只与三条轴吻合是不够的：三次规则 (1 + n_z³)/2 让同一个效果在一种分解下得 9/16，在另一种分解下得 3/4。正交的内部记录则恰好携带各分支范数的平方。"
+    ]
+   ]
+  },
+  {
+   "id": "compress",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Purity, rank and parameters differ. Rank r density matrices in dimension d have two d r minus r squared minus one parameters, so a qutrit pure state has four, and the nearest rank-m state lies at the eigenvalue tail sum.",
+     "纯性、秩与参数个数各不相同。d 维中秩为 r 的密度矩阵有 2dr − r² − 1 个参数，所以 qutrit 纯态有四个；最近的秩 m 态，距离恰为特征值的尾部之和。"
+    ],
+    [
+     "Lossless physical compression depends on the whole family: an r-dimensional support needs r dimensions, and a family of pure states needs the dimension of its linear span, though each member has rank one.",
+     "物理上的无损压缩取决于整个态族：r 维支撑需要 r 维，而一族纯态需要其线性张成的维数，尽管每个成员都是秩一。"
+    ]
+   ]
+  },
+  {
+   "id": "kbonacci",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "K-bonacci acquisition. Each legal window of length k plus one acts as a rank-one endpoint operator, frozen in Lean. Two windows per preparation read C j ell j and C j ell j minus one; k minus one preparations rebuild c ell transpose.",
+     "K-bonacci 取得。长度 k + 1 的合法窗口都作用为秩一端点算子，已在 Lean 中冻结。每次制备两个窗口，读出 C_j ℓ_j 与 C_j ℓ_(j−1)；k − 1 次制备重建 c ℓᵀ。"
+    ],
+    [
+     "That needs two k minus two windows and three k minus three, or two k minus one, paid reads: the sharp worst case. Over its trace the relation is an oblique projection; a positive diagonal similarity makes it pure, keeping two k minus one numbers.",
+     "这需要 2k − 2 个窗口，以及 3k − 3 或 2k − 1 次付费读数：这是尖锐的最坏情形。除以迹后关系是斜投影；一个正对角相似把它变成纯态，并保留 2k − 1 个数。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "A rank-one constraint picks its antipode, native modes reflect it, anchors encode again, blocks glue, a gap stabilises histories, phase leaves squares, additivity picks Born, and K-bonacci windows rebuild a relation.",
+     "秩一约束选出对跖点，原生模式把它反射，锚再次编码，二阶块彼此粘合，谱隙让历史稳定，相位只留下平方，可加性选出 Born 律，K-bonacci 窗口重建关系。"
+    ],
+    [
+     "The propagation kernel and the K-bonacci endpoint operators are frozen in Lean, the domain invariance theorem is a classical tool, the rest is argued in the two theory volumes, and the finite computations were redone for this film.",
+     "传播核与 K-bonacci 端点算子已在 Lean 中冻结，区域不变性定理是经典工具，其余结论在两卷理论中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
