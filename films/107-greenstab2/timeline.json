@@ -1,0 +1,272 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 22.502
+  },
+  {
+   "id": "title",
+   "start": 22.502,
+   "end": 38.456
+  },
+  {
+   "id": "walls",
+   "start": 38.456,
+   "end": 76.788
+  },
+  {
+   "id": "weak",
+   "start": 76.788,
+   "end": 113.556
+  },
+  {
+   "id": "angle",
+   "start": 113.556,
+   "end": 151.877
+  },
+  {
+   "id": "sharp",
+   "start": 151.877,
+   "end": 184.388
+  },
+  {
+   "id": "cap",
+   "start": 184.388,
+   "end": 220.804
+  },
+  {
+   "id": "core",
+   "start": 220.804,
+   "end": 259.859
+  },
+  {
+   "id": "pencil",
+   "start": 259.859,
+   "end": 296.591
+  },
+  {
+   "id": "thresholds",
+   "start": 296.591,
+   "end": 331.58
+  },
+  {
+   "id": "resonance",
+   "start": 331.58,
+   "end": 368.238
+  },
+  {
+   "id": "commands",
+   "start": 368.238,
+   "end": 406.457
+  },
+  {
+   "id": "finale",
+   "start": 406.457,
+   "end": 444.511
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 21.502,
+   "en": "Part one showed that off the double wall every positive coupling collapses, and found a stable regime for a constant-density family. Part two keeps the same source, killed cylinder and full Green field, and lets the density and the covariance be any smooth positive choice.",
+   "zh": "第一部表明：离开双壁时，每个正耦合都会坍缩，并为一个常密度族找到了稳定区间。第二部保留同一个源、同一个杀死边界的柱体和完整的 Green 场，而让密度与协方差取任意光滑、正定的选择。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 23.702,
+   "end": 29.614,
+   "en": "FIB native Green stability, part two: sharp coupling, critical caps and command laws.",
+   "zh": "FIB 原生 Green 稳定性第二部：锐耦合、临界截断与指令律。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 30.214,
+   "end": 37.056,
+   "en": "One angular eigenvalue fixes the threshold, and everything near it is measured in powers of a logarithm.",
+   "zh": "一个角向本征值决定阈值，阈值附近的一切都按对数的幂来度量。"
+  },
+  {
+   "i": 3,
+   "scene": "walls",
+   "start": 39.256,
+   "end": 57.994,
+   "en": "Fix the killed cylinder, its phase torus and one interior source, then choose any smooth positive density and any smooth positive definite covariance. The question is whether the full Green form, kinetic energy minus g times the Green attraction, stays stable for small coupling g.",
+   "zh": "固定杀死边界的柱体、它的相位环面和一个内部源，然后任取光滑正密度和光滑正定协方差。问题是：完整的 Green 形式，即动能减去 g 倍 Green 吸引，对小耦合 g 是否稳定。"
+  },
+  {
+   "i": 4,
+   "scene": "walls",
+   "start": 58.594,
+   "end": 75.388,
+   "en": "It does, exactly when both native walls hold. Then the leaf is a step-two contact system with volume exponent four. On one wall the exponent is seven, off both it is eleven, and dilated tests push the energy to minus infinity at every coupling.",
+   "zh": "当且仅当两道原生壁都成立时才稳定。此时叶层是二步接触系统，体积指数为 4。只在一道壁上指数为 7，两道都不在时为 11，伸缩试验态在每个耦合下都把能量推向 −∞。"
+  },
+  {
+   "i": 5,
+   "scene": "weak",
+   "start": 77.588,
+   "end": 95.331,
+   "en": "Near the source, freeze the coefficients. A graded change of frame turns the frozen operator into the standard Heisenberg sublaplacian, so the Green field is at most a constant times the inverse squared gauge, and the published Hardy inequality bounds it by the kinetic energy.",
+   "zh": "在源附近冻结系数。一个分级的标架变换把冻结算子变成标准 Heisenberg 次拉普拉斯算子，于是 Green 场至多是常数乘以规范的负二次幂，已发表的 Hardy 不等式再用动能控制它。"
+  },
+  {
+   "i": 6,
+   "scene": "weak",
+   "start": 95.931,
+   "end": 112.156,
+   "en": "By the KLMN theorem, every coupling below g minus is closed and semibounded on the unchanged domain, with compact resolvent and an attained minimum. Above a finite g plus, normalized annular states collapse the energy.",
+   "zh": "由 KLMN 定理，每个小于 g₋ 的耦合在不变的定义域上都是闭的、下有界的，预解式紧，最小值可达。超过一个有限的 g₊，归一化的环形态使能量坍缩。"
+  },
+  {
+   "i": 7,
+   "scene": "angle",
+   "start": 114.356,
+   "end": 133.144,
+   "en": "The exact threshold comes from one angular problem on the gauge sphere: minus four times the derivative of cosine times the derivative, plus cosine, with natural endpoint conditions. Its ground state phi is positive and smooth, with simple lowest eigenvalue lambda zero.",
+   "zh": "精确阈值来自规范球面上的一个角向问题：−4(cos a · b′)′ + cos a · b，取自然端点条件。它的基态 φ 正且光滑，最低本征值 λ₀ 是单的。"
+  },
+  {
+   "i": 8,
+   "scene": "angle",
+   "start": 133.744,
+   "end": 150.477,
+   "en": "Recomputed, lambda zero is zero point six two five seven, just below the constant-trial value two over pi. It is the sharp Hardy constant over every mode, and the critical coupling g c is two pi times m zero times lambda zero.",
+   "zh": "重新计算得 λ₀ = 0.6257，略低于常数试验函数给出的 2/π。它是对所有模式都成立的锐 Hardy 常数，临界耦合 g_c = 2π m₀ λ₀。"
+  },
+  {
+   "i": 9,
+   "scene": "sharp",
+   "start": 152.677,
+   "end": 167.925,
+   "en": "That coupling is sharp for every smooth model. Below it, the form is closed on the given domain with an attained minimum; above it, normalized states collapse. At equality, the form is semibounded and closable, but not closed.",
+   "zh": "这个耦合对每个光滑模型都是锐的。低于它，形式在给定的定义域上是闭的，最小值可达；高于它，归一化态坍缩。恰在临界处，形式下有界且可闭，但不是闭的。"
+  },
+  {
+   "i": 10,
+   "scene": "sharp",
+   "start": 168.525,
+   "end": 182.988,
+   "en": "Its closure adds states that behave like phi over R near the source, outside the given domain, and the critical minimum is attained only there. The boundary depends on the source only through rho times the determinant of A there.",
+   "zh": "它的闭包加入在源附近形如 φ/R 的态，这些态在给定的定义域之外，临界最小值只在那里取到。这条边界对源的依赖只通过源点处的 ρ 乘以 det A。"
+  },
+  {
+   "i": 11,
+   "scene": "cap",
+   "start": 185.188,
+   "end": 200.257,
+   "en": "Now cap the Green field at its value on the gauge sphere of radius epsilon. The capped operators converge to the completed one in norm resolvent sense, and their ground energies decrease strictly to the critical energy E star.",
+   "zh": "现在把 Green 场截断在半径为 ε 的规范球面上的取值。截断算子按范数预解意义收敛到完备化算子，它们的基态能量严格递减到临界能量 E_*。"
+  },
+  {
+   "i": 12,
+   "scene": "cap",
+   "start": 200.857,
+   "end": 219.404,
+   "en": "The gap closes like one over L, the logarithm of b over epsilon, with constant a star squared times pi m zero C over two. Across the growing annulus the state ramps linearly from zero to its source trace a star, while kinetic and attraction costs both grow like L.",
+   "zh": "能隙按 1/L 闭合，L = log(b/ε)，常数为 a_*² π m₀ C/2。在不断增长的环区上，态从零线性爬升到源迹 a_*，而动能与吸引代价都按 L 增长。"
+  },
+  {
+   "i": 13,
+   "scene": "core",
+   "start": 221.604,
+   "end": 240.75,
+   "en": "Inside the cap, the rescaled state converges to a single profile Z: the unique positive, source-regular solution with logarithmic coefficient one. Its ratio to the ground profile grows like log R plus kappa cap, and recomputed, kappa cap is one point three five.",
+   "zh": "在截断区内部，重标度后的态收敛到唯一的剖面 Z：唯一的正的、源处正则、对数系数为一的解。它与基态剖面之比按 log R + κ_cap 增长，重新计算得 κ_cap = 1.35。"
+  },
+  {
+   "i": 14,
+   "scene": "core",
+   "start": 241.35,
+   "end": 258.459,
+   "en": "Its flux and dilation identities check numerically to eight digits. The gap between raw and capped attraction is only of order one over L squared. Scaling the density by c leaves every energy unchanged and divides each attraction cost by c.",
+   "zh": "它的通量恒等式和伸缩恒等式数值核对到八位有效数字。原始吸引与截断吸引之差只有 1/L² 阶。把密度乘以 c，所有能量不变，每个吸引代价除以 c。"
+  },
+  {
+   "i": 15,
+   "scene": "pencil",
+   "start": 260.659,
+   "end": 278.304,
+   "en": "Next, tilt the coupling to g c times one plus lambda over L squared. The lowest eigenvalue of S plus z times cosine has slope C over M at zero, and every nonzero angular sector keeps a gap of at least two root two minus two, above lambda zero.",
+   "zh": "接着把耦合调成 g_c(1 + λ/L²)。S + z cos a 的最低本征值在零点的斜率为 C/M，每个非零角向扇区都保持至少 2√2 − 2 的能隙，高于 λ₀。"
+  },
+  {
+   "i": 16,
+   "scene": "pencil",
+   "start": 278.904,
+   "end": 295.191,
+   "en": "So only a double root at zero survives, with solutions phi and t phi. The source boundary has defect numbers one and one: two traces, a constant and a logarithmic coefficient, and every self-adjoint realization is a line through them.",
+   "zh": "于是只剩下零点处的二重根，对应解 φ 和 tφ。源边界的亏指数为 (1,1)：两个迹，一个常数系数和一个对数系数，每个自伴实现都是它们张成平面中的一条线。"
+  },
+  {
+   "i": 17,
+   "scene": "thresholds",
+   "start": 297.391,
+   "end": 310.478,
+   "en": "The collapse threshold is lambda D, pi squared over alpha, where alpha is lambda zero M over C; recomputed, lambda D is nine point six nine. At or below it, the ground energies stay bounded.",
+   "zh": "坍缩阈值是 λ_D = π²/α，其中 α = λ₀M/C；重新计算得 λ_D = 9.69。在它以下或恰好等于它时，基态能量保持有界。"
+  },
+  {
+   "i": 18,
+   "scene": "thresholds",
+   "start": 311.078,
+   "end": 330.18,
+   "en": "Above it they fall to minus infinity like epsilon to the power two pi over mu, minus two, with mu the square root of alpha lambda. The state concentrates onto W infinity, the unique positive decaying profile with norm squared k over two, joined to the cap by half a sine wave.",
+   "zh": "超过它，能量像 ε 的 (2π/μ − 2) 次幂那样趋于 −∞，其中 μ = √(αλ)。态集中到 W_∞ 上，即唯一的正衰减剖面，范数平方为 k/2，并由半个正弦波与截断核相接。"
+  },
+  {
+   "i": 19,
+   "scene": "resonance",
+   "start": 332.38,
+   "end": 348.787,
+   "en": "At a quarter of that threshold, lambda Z, the leading term can cancel. The energy shift is minus lambda Z times a finite part S b over L squared, minus B three over L cubed, and S b changes with the reference radius b.",
+   "zh": "在这个阈值的四分之一处，即 λ_Z，主项可以抵消。能量偏移为 −λ_Z S_b/L² − B₃/L³，而 S_b 随参考半径 b 变化。"
+  },
+  {
+   "i": 20,
+   "scene": "resonance",
+   "start": 349.387,
+   "end": 366.838,
+   "en": "At the balance radius the L squared term vanishes, but B three stays positive because the pencil bends downward: its second derivative is minus two Q over M, with Q recomputed as zero point zero three nine. The separate costs still grow linearly in L.",
+   "zh": "在平衡半径处 1/L² 项消失，但 B₃ 仍为正，因为束曲线向下弯：它的二阶导数为 −2Q/M，重新计算得 Q ≈ 0.039。各项代价仍随 L 线性增长。"
+  },
+  {
+   "i": 21,
+   "scene": "commands",
+   "start": 369.038,
+   "end": 387.376,
+   "en": "Finally, finite commands build the whole Green field. Each cell of mesh one over n squared uses two fair signs, a drift step and a square-root step, and the exact chord area; n cubed cells in all. The laws converge to the diffusion of the same operator, area drift included.",
+   "zh": "最后，有限指令生成整个 Green 场。每个网格步长为 1/n² 的单元用两个公平符号、一个漂移步和一个平方根步，再加上精确的弦面积，共 n³ 个单元。这些分布收敛到同一算子的扩散，面积漂移也包括在内。"
+  },
+  {
+   "i": 22,
+   "scene": "commands",
+   "start": 387.976,
+   "end": 405.057,
+   "en": "Their lifetimes have a geometric tail, uniform in the mesh, a statement frozen in Lean. So the expected occupation converges to the full unit-source Green field; in the simulation, the mean lifetime approaches the exact value two as n grows.",
+   "zh": "它们的寿命具有对网格一致的几何尾，这一陈述已在 Lean 中冻结。于是期望占据时间收敛到完整的单位源 Green 场；模拟中，平均寿命随 n 增大趋于精确值 2。"
+  },
+  {
+   "i": 23,
+   "scene": "finale",
+   "start": 407.457,
+   "end": 422.767,
+   "en": "Both walls decide stability, one angular eigenvalue fixes the sharp coupling, the cap closes its gap like one over a logarithm, two profiles and one pencil set the thresholds, and finite commands generate the Green field.",
+   "zh": "两道壁决定稳定性，一个角向本征值决定锐耦合，截断以对数倒数的速度闭合能隙，两个剖面和一个束决定阈值，有限指令生成 Green 场。"
+  },
+  {
+   "i": 24,
+   "scene": "finale",
+   "start": 423.367,
+   "end": 435.511,
+   "en": "The Hardy and heat kernel estimates are published inputs, the lifetime tail is frozen in Lean, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+   "zh": "Hardy 估计与热核估计是已发表的输入，寿命尾已在 Lean 中冻结，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 444.511
+}
