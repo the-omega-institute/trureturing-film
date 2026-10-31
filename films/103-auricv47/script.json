@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Version forty-six followed logarithms, squared probabilities and error geometry. Versions forty-seven and forty-eight ask which extra relations select the square, what a prompt can and cannot fix, and where handedness enters three axes.",
+     "第四十六版追踪了对数、平方概率与误差几何。第四十七、四十八版追问：哪些额外关系选出平方，提示能改善什么、不能改善什么，手性又从哪里进入三轴。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric versions forty-seven and forty-eight: square weights, prompt risk and chiral three axes.",
+     "AURIC V47–V48：平方权重、提示风险与手性三轴。"
+    ],
+    [
+     "Phase and orthogonal pieces pick the square, information and mismatch split the risk, three axes carry orientation.",
+     "相位与正交分解选出平方，信息与失配拆分风险，三轴则携带定向。"
+    ]
+   ]
+  },
+  {
+   "id": "scalars",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "One relation calculus runs on many scalars: or and and give existence, counting gives witnesses, reals give mass, complex numbers give amplitudes. Support keeps only existence: one half, one half looks like nine tenths, one tenth.",
+     "同一套关系演算可跑在多种标量上：“或”“且”给出存在，计数给出见证数，实数给出质量，复数给出振幅。支撑只记存在：(½, ½) 与 (9/10, 1/10) 看来相同。"
+    ],
+    [
+     "No map from complex numbers to non-negative reals keeps sums and products: zero would be one plus h of minus one. Normalising keeps every power: on root three over two and one half, squares give three quarters, fourth powers nine tenths.",
+     "不存在从复数到非负实数、同时保持加法与乘法的映射：否则 0 = 1 + h(−1) ≥ 1。归一化也保留每一个幂：在 (√3/2, ½) 上，平方给出 3/4，四次方给出 9/10。"
+    ]
+   ]
+  },
+  {
+   "id": "square",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On a complex space of dimension at least two, a non-negative weight on all vectors that ignores global phase, adds over orthogonal pieces and equals one on a unit vector is exactly the squared norm, with no continuity assumed.",
+     "在至少复二维的空间上，定义于全部向量的非负权重若不感知整体相位、对正交分解可加、在某个单位向量上取一，就恰是范数的平方，无须假设连续性。"
+    ],
+    [
+     "Two orthogonal unit vectors decide: if the weight were norm to the r, two to the r over two would equal two, so r is two. In real space, rotation invariance alone allows every power; orthogonal additivity forces the square.",
+     "两个正交单位向量就足以裁决：若权重是范数的 r 次方，则 2^(r/2) = 2，所以 r = 2。在实空间中，仅有旋转不变性允许任意幂；正交可加性才逼出平方。"
+    ]
+   ]
+  },
+  {
+   "id": "modes",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For the five native windows, three axis means and the joint mean kappa recover all five probabilities. With x and y one half and z zero, kappa ranges from zero to one half: identical axes, opposite relations.",
+     "对五个原生窗口，三个轴均值与联合均值 κ 恢复全部五个概率。当 x = y = ½、z = 0 时，κ 可在 0 到 ½ 之间任取：轴读数完全相同，关系却正好相反。"
+    ],
+    [
+     "A summary predicts exactly when the target is constant on each fibre; otherwise one of two merged points errs by at least half their distance. Pair margins can miss a relation too: the parity law has uniform pairs, yet parity mean eta.",
+     "摘要能精确预测当且仅当目标在每个纤维上为常值；否则被合并的两点必有一个误差不小于距离之半。两两边缘也会漏关系：奇偶分布边缘均匀，奇偶均值却为 η。"
+    ]
+   ]
+  },
+  {
+   "id": "softmax",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "In standard attention, scaling query weights by c and key weights by one over c changes no output, while the parameter norm grows without bound. Softmax of s equals softmax of t exactly when s minus t is constant.",
+     "在标准注意力中，把查询权重乘以 c、键权重乘以 1/c，任何输出都不变，而参数范数可以无界增长。softmax(s) = softmax(t) 当且仅当 s − t 是常向量。"
+    ],
+    [
+     "So softmax matches logits modulo constants with the open simplex, and a non-negative orthogonal matrix with unit row sums is a permutation. In the white-box model, training off the joint window leaves its coefficient free.",
+     "所以 softmax 把模去常数的 logits 与开单纯形一一对应；非负、行和为一的正交矩阵只能是置换矩阵。在白盒模型中，避开联合窗口的训练使其系数不受约束。"
+    ]
+   ]
+  },
+  {
+   "id": "prompt",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Fix old context X, prompt Z and target Y. Log risk is conditional entropy plus mismatch, so the change in risk is minus the information Z adds about Y given X, plus the change in mismatch.",
+     "固定旧上下文 X、提示 Z 与目标 Y。对数风险等于条件熵加失配，所以风险的变化等于负的条件互信息 I(Y; Z | X)，再加上失配的变化。"
+    ],
+    [
+     "A perfect prompt can still hurt: with a fair bit, Z equal to Y, and a model giving the right answer only epsilon, risk rises from log two to minus log epsilon. A restatement adds no information.",
+     "完全准确的提示也可能有害：Y 是公平比特、Z = Y，而模型只给正确答案概率 ε，风险就从 log 2 升到 −log ε。重述不增加任何信息。"
+    ]
+   ]
+  },
+  {
+   "id": "fisher",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Near a positive law, KL divergence is half epsilon squared times the Fisher form. For the five modes, the chart two root p lands on the radius-two sphere and pulls back exactly the Fisher form; that is frozen in Lean.",
+     "在正分布附近，KL 散度等于 ε²/2 乘以 Fisher 二次型。对五个模式，坐标图 2√p 落在半径为二的球面上，并恰好拉回 Fisher 型；这一情形已在 Lean 中冻结。"
+    ],
+    [
+     "Among power lifts, only the square root has a fixed Fisher ratio, one quarter. With phases, the Fubini–Study metric is a quarter Fisher plus the phase variance; for a qubit, a quarter of the round sphere.",
+     "在幂提升 p^(1/r) 中，只有平方根具有固定的 Fisher 比例 1/4。加入相位后，Fubini-Study 度量是 1/4 Fisher 加相位方差；对量子比特，即圆球度量的 1/4。"
+    ]
+   ]
+  },
+  {
+   "id": "three",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "In real dimension at least two, a nonzero trilinear response invariant under every rotation exists only in dimension three: a multiple of the volume form, with vector part a multiple of the cross product.",
+     "在至少二维的实空间上，对全部旋转不变的非零三线性响应只存在于三维，在那里它是体积形式的倍数，其向量部分是叉积的倍数。"
+    ],
+    [
+     "An oriented plane with a metric has exactly one positive quarter turn J. In three dimensions, n cross v squares to minus one only on the plane normal to n; no odd dimension has any J squaring to minus one.",
+     "带度量的定向平面恰有一个正向四分之一转 J。在三维中，n × v 只在与 n 垂直的平面上平方为 −1；任何奇数维都没有平方为 −1 的 J。"
+    ]
+   ]
+  },
+  {
+   "id": "clifford",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A rotation-respecting unital product on scalars plus three-vectors has scalar part s t minus a x dot y, vector part with b x cross y, and is associative exactly when a equals b squared: for nonzero b, the quaternions.",
+     "与旋转相容的“标量加三维向量”含幺乘法，标量部分是 st − a x·y，向量部分含 b x × y；它满足结合律当且仅当 a = b²，b ≠ 0 时即为四元数。"
+    ],
+    [
+     "In three-axis Clifford algebra, the volume element iota is a central square root of minus one, and x y is x dot y plus iota x cross y: two by two complex matrices. Half-angle rotors make a full turn minus one.",
+     "在三轴 Clifford 代数中，体积元 ι 是居于中心的 −1 的平方根，xy = x·y + ι(x × y)：这正是二阶复矩阵代数。半角旋子使转满一周变成 −1。"
+    ]
+   ]
+  },
+  {
+   "id": "readout",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A rotation-invariant convex state set is a ball. A yes-no readout that respects mixing, with one on n and zero on minus n, must be one plus n dot r, over two: cosine squared of half the angle.",
+     "旋转不变的凸状态集是一个球。保持混合、在 n 上取一、在 −n 上取零的是非读出，必为 (1 + n·r)/2：即半角的余弦平方 cos²(θ/2)。"
+    ],
+    [
+     "Calibration alone fails: one plus the cube, over two, gives nine sixteenths at half n, not three quarters. For Pauli readouts, V A V B minus C squared minus D squared equals one minus r squared, times a cross b squared.",
+     "仅有两端标定不够：(1 + (n·r)³)/2 在 n/2 处给出 9/16，而不是 3/4。对 Pauli 读出，V_A V_B − C² − D² 等于 (1 − |r|²) 乘以 |a × b|²。"
+    ]
+   ]
+  },
+  {
+   "id": "cycle",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Pair probabilities see only dot products; the three-state loop also sees a dot b cross c, an oriented volume. Zero, plus and plus i, and their conjugates, have every pair probability one half, yet loops one plus or minus i, over four.",
+     "两两概率只看见点积；三态闭环还看见 a·(b × c)，即有向体积。|0⟩、|+⟩、|+i⟩ 与它们的复共轭，两两概率全部为 ½，闭环却是 (1 ± i)/4。"
+    ],
+    [
+     "Quarter turns glue along a graph exactly when every closed walk has an even number of orientation flips, leaving two global choices; phases still circulate. The pyramid skeleton has four independent loops, the native coupling graph one.",
+     "四分之一转能沿图拼接，当且仅当每条闭行走翻转定向的次数为偶数，此时恰有两种全局选择；相位仍可流转。金字塔骨架有四个独立回路，原生耦合图只有一个。"
+    ]
+   ]
+  },
+  {
+   "id": "bell",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Conjugation flips one Bloch axis and keeps every single-qubit probability. But transposing half a Bell pair gives half the swap, eigenvalue minus one half, so a Bloch map in O three is a legal channel exactly when it is a rotation.",
+     "复共轭翻转 Bloch 球一个轴，单比特概率都不变。但转置 Bell 对的一半得到交换算子之半，本征值 −½；故 O(3) 中的 Bloch 映射是合法信道当且仅当它是旋转。"
+    ],
+    [
+     "One qubit does not fix the rest: allow only mixtures of products, and nothing is entangled, every joint statistic is local. The Müller–Masanes reconstruction needs further postulates on composites to reach two qubits.",
+     "单个量子比特不决定其余：只允许积态混合，就没有纠缠，联合统计都是局域的。Müller-Masanes 重构需要复合系统的额外公设，才得到两个量子比特。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Support forgets values, phase and orthogonal pieces pick the square, fibres bound error, softmax is a quotient, prompts split into information and mismatch, Fisher meets the square root, and three axes give volume, spin, half angles, loops and Bell limits.",
+     "支撑忘掉数值，相位与正交选出平方，纤维限定误差，softmax 是商，提示分为信息与失配，Fisher 对应平方根；三轴给出体积、旋量、半角、闭环与 Bell 限制。"
+    ],
+    [
+     "The five-mode square-root chart is frozen in Lean, the Müller–Masanes reconstruction and the attention architecture are published inputs, the rest is argued in the two theory volumes, and the finite computations were redone for this film.",
+     "五模式平方根坐标图已在 Lean 中冻结，Müller-Masanes 重构与注意力架构是已发表的输入，其余结论在两卷理论中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
