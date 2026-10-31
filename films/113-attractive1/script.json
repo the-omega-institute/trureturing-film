@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Take a slab of heights times a two-torus of phases, put one source pole inside, and let it attract through its own killed Green field. Building on the Green stability volumes, this part asks what happens at the lower boundary.",
+     "取一段高度区间与一个相位二维环面的乘积，在内部放一个源极点，让它通过自身的杀死 Green 场产生吸引。本片建立在 Green 稳定性诸卷之上，问的是：下边界上会发生什么。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "FIB-native attractive boundary, part one: pole recovery, exact thresholds and the logarithmic count.",
+     "FIB 原生吸引边界响应，第一部：极点恢复、精确阈值与对数计数。"
+    ],
+    [
+     "The response stays positive up to the exact critical coupling, five numbers recover the pole, and past the retained threshold eigenvalues pile up logarithmically.",
+     "响应一直保持正定，直到精确的临界耦合；五个数恢复极点；越过保留阈值后，本征值按对数方式堆积。"
+    ]
+   ]
+  },
+  {
+   "id": "response",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Shift the attractive form by one fixed amount and it is closed and positive, uniformly in noise and coupling. Its lower trace space is exactly the free one, and the least energy with given trace is attained, between a fixed fraction of the free response and the free response.",
+     "把吸引形式平移一个固定量，它就是闭的、正定的，并且对噪声和耦合一致。它的下迹空间恰好是自由情形的迹空间；给定迹的最小能量可以取到，并夹在自由响应的固定倍数与自由响应本身之间。"
+    ],
+    [
+     "The inverse response is compact, so its best finite rank is an eigenvalue count. For error eta the rank grows like eta to the minus three at zero noise, and like one over epsilon eta squared below the crossover eta equals epsilon.",
+     "逆响应是紧算子，所以最优有限秩就是本征值计数。误差为 η 时，零噪声下秩按 η⁻³ 增长；在交叉点 η = ε 之下，按 1/(ε η²) 增长。"
+    ]
+   ]
+  },
+  {
+   "id": "seam",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The mixed resolvent is the killed resolvent plus one boundary term, P C P star, with the attractive Poisson lift P bounded on plain L two. Its free part has norm at most root of h over three, so a finite-rank C costs at most p A squared times its error.",
+     "混合预解式等于杀死预解式加上一个边界项 P C P*，吸引 Poisson 提升 P 在普通 L² 上有界。其自由部分的范数不超过 √(h/3)，所以把 C 换成有限秩映射，代价至多是 p_A² 乘以它的误差。"
+    ],
+    [
+     "Cut the cylinder once, at a height away from the pole, and keep the parent potential on both slabs. The joined inverse is the cut inverse plus one seam term, and keeping seam eigenvalues above eta leaves error at most a fixed constant times eta.",
+     "在远离极点的某个高度把柱体切开一次，两块上都保留母势。连接后的逆等于切开后的逆加一个接缝项；只保留大于 η 的接缝本征值，误差至多是一个固定常数乘以 η。"
+    ]
+   ]
+  },
+  {
+   "id": "pole",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now let the pole move. Its height y, two phases, an attractive gain a and the variance v are five unknowns. For small coupling kappa the boundary form stays coercive, and its derivative in kappa exists, also at zero noise.",
+     "现在让极点移动。它的高度 y、两个相位、吸引增益 a 与方差 v 共五个未知量。耦合 κ 很小时边界形式保持强制，它对 κ 的导数存在，零噪声时也是如此。"
+    ],
+    [
+     "Each mode coefficient is a over four pi squared, times the phase of the pole, times a positive integral of a Green kernel against two Poisson profiles. The zero mode gives a times H of y over four pi squared.",
+     "每个模的系数等于 a/(4π²) 乘以极点的相位，再乘以一个 Green 核对两条 Poisson 剖面的正积分。零模给出 a·H(y)/(4π²)。"
+    ]
+   ]
+  },
+  {
+   "id": "inverse",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Five coefficients invert in triangular order. One free mode energy gives v, the ratio at two shifts gives y because it strictly decreases, then the gain, then both phases. In our example, a pole at height zero point one two comes back to ten digits.",
+     "五个系数按三角次序反解：一个自由模能量给出 v；两个平移下的比值严格递减，于是给出 y；然后是增益，最后是两个相位。在我们的例子中，高度 0.12 的极点被恢复到十位有效数字。"
+    ],
+    [
+     "The inverse is two-sided Lipschitz on compact sets, down to zero variance. With finite coupling kappa and coefficient error eta, a nearest-image decoder lands within a constant times kappa plus eta over kappa plus eta.",
+     "在紧集上，这个逆是双边 Lipschitz 的，一直到零方差。耦合 κ 有限、系数误差为 η 时，最近像解码器的误差不超过常数乘以 κ + η/κ + η。"
+    ]
+   ]
+  },
+  {
+   "id": "threshold",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Where does positivity stop? On the whole group, the unit-noise energy is at least two pi lambda zero times the mass weighted by the full Green field. The proof orders the exact Mehler heat columns, unit noise below zero noise, in every mode.",
+     "正定性在哪里终止？在整个群上，单位噪声的能量至少是 2πλ₀ 乘以完整 Green 场加权的质量。证明把精确的 Mehler 热核列排序：每个模上，单位噪声的列都不超过零噪声的列。"
+    ],
+    [
+     "So the two thresholds coincide: g star equals g c, two pi m zero lambda zero, with lambda zero about zero point six two five seven. The response theory holds up to and including g c. Above it, no fixed shift stays positive as noise shrinks.",
+     "于是两个阈值重合：g* = g_c = 2π m₀ λ₀，其中 λ₀ ≈ 0.6257。响应理论一直成立到 g_c，包括 g_c 本身。越过它，没有任何固定平移能在噪声变小时保持正定。"
+    ]
+   ]
+  },
+  {
+   "id": "contact",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now put the source on a higher contact group of horizontal rank two n, and keep three coordinates. The kept heat densities carry an extra factor, a hyperbolic secant power, so they form no semigroup, and the retained field is no multiple of the native one.",
+     "现在把源放到水平秩为 2n 的高阶接触群上，只保留三个坐标。保留下来的热密度多出一个双曲正割幂因子，因此不构成半群，保留场也不是原生场的倍数。"
+    ],
+    [
+     "For n equal two the retained field is an arc tangent formula. Against the native field its ratio is one on the central axis but two over pi on the horizontal axis. Meanwhile the full own field collapses at every positive coupling.",
+     "n = 2 时，保留场是一个反正切公式。与原生场相比，它在中心轴上的比值为 1，在水平轴上却是 2/π。与此同时，完整的自身场在每个正耦合下都会塌缩。"
+    ]
+   ]
+  },
+  {
+   "id": "central",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Back to the native whole-group quotient. Subtracting the sharp term leaves at least the full central energy: T one minus K W is at least the squared norm of Z u, for every state, with no symmetry assumed.",
+     "回到原生整群商。减去锐项之后，至少还剩下完整的中心能量：对每个态都有 T₁ − K·W ≥ ‖Z u‖²，不需要任何对称假设。"
+    ],
+    [
+     "That coefficient one cannot be raised: dilating a product test keeps its central energy fixed while its horizontal energy shrinks like s squared. Since Z u vanishes only at zero, the sharp constant K is never attained.",
+     "系数 1 不能再提高：对乘积型试验函数作伸缩，中心能量保持不变，而水平能量按 s² 缩小。由于 Z u 只在 u = 0 时为零，锐常数 K 永远取不到。"
+    ]
+   ]
+  },
+  {
+   "id": "gap",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On the gauge sphere the retained field is the native one times an angular weight q n, one at the axis and smaller elsewhere. So mu n lies strictly above lambda zero: for n equal two, two pi mu two is five point two three, against K, three point nine three.",
+     "在规范球面上，保留场等于原生场乘以一个角向权 qₙ：在轴上为 1，其余处更小。因此 μₙ 严格大于 λ₀：n = 2 时，2πμ₂ ≈ 5.23，而 K ≈ 3.93。"
+    ],
+    [
+     "Annular trials approach two pi mu n from above, and a remainder term shows that no state attains it. So the retained form is nonnegative exactly for couplings up to two pi mu n.",
+     "环形试验函数从上方逼近 2πμₙ，余项又说明没有任何态取到它。所以保留形式恰好在耦合不超过 2πμₙ 时非负。"
+    ]
+   ]
+  },
+  {
+   "id": "noise",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Add central noise of any size epsilon. The same constant two pi mu n stays exact, with remainder at least epsilon squared times the central energy, and again it is never attained.",
+     "加入任意大小 ε 的中心噪声。同一个常数 2πμₙ 仍然精确，余项至少是 ε² 乘以中心能量，并且同样取不到。"
+    ],
+    [
+     "Above it, at fixed noise, the form is still closed and bounded below. Its essential spectrum is zero to infinity, and separated annular trials give infinitely many negative eigenvalues, accumulating only at zero.",
+     "越过它，在固定噪声下，形式仍是闭的且下有界。本质谱是 [0, ∞)，彼此分离的环形试验函数给出无穷多个负本征值，只在零处聚积。"
+    ]
+   ]
+  },
+  {
+   "id": "count",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "How many lie below minus E? At least a constant times log of one over E, from trials spaced geometrically in scale, and at most e squared times an affine function of that log, from a Cwikel Lieb Rozenblum bound with heat diagonal one over sixteen t squared.",
+     "有多少个低于 −E？至少是常数乘以 log(1/E)，来自按尺度几何间隔的试验函数；至多是 e² 乘以该对数的一个仿射函数，来自热核对角为 1/(16t²) 的 Cwikel–Lieb–Rozenblum 界。"
+    ],
+    [
+     "Under the stated analytic hypotheses the limit exists: the count grows like L times log of one over E, with L given by an angular phase integral. For n equal two and g equal eight, one branch is negative and L is about zero point one one eight.",
+     "在所述解析假设下极限存在：计数按 L·log(1/E) 增长，L 由一个角向相空间积分给出。n = 2、g = 8 时只有一支为负，L ≈ 0.118。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Positive shifted response and rank laws, one seam, a five-number pole inverse, the exact threshold, retained contact fields, sharp remainders, the constant two pi mu n at every noise, and a logarithmic count.",
+     "平移后的正响应与秩律、一道接缝、五个数的极点反演、精确阈值、保留接触场、锐余项、在任意噪声下都精确的常数 2πμₙ，以及对数计数。"
+    ],
+    [
+     "The Mehler formula and the form methods are classical, the Cwikel Lieb Rozenblum bound is a published input, the rest is argued in the theory volume, the sphere error continues in part two, and the finite computations were redone for this film.",
+     "Mehler 公式与形式方法是经典工具，Cwikel–Lieb–Rozenblum 界是已发表的输入，其余内容在理论卷中论证，球面误差在第二部继续，有限计算已为本片重做。"
+    ]
+   ]
+  }
+ ]
+}
