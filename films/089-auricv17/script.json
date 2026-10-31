@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Continuing the versioned Auric volumes: version seventeen turns sums and products into logarithms, triangles and squared amplitudes; version eighteen asks when a triangulation is a measurement, and when a phase inside a gate becomes a gate.",
+     "延续 AURIC 版本系列：第十七版把加法与乘法化为对数、三角形与振幅平方；第十八版追问：三角剖分何时是一次测量，门里的相位何时自己成为一扇门。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric versions seventeen and eighteen: quantum Pythagoras and recursive golden gates.",
+     "AURIC V17–V18：量子勾股与递归黄金门。"
+    ],
+    [
+     "One hidden ratio with a log and a phase, two triangulations, and a gate inside a gate.",
+     "一个带着对数与相位的隐藏比值，两种三角剖分，以及门中之门。"
+    ]
+   ]
+  },
+  {
+   "id": "logs",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Start with sum and product. The logarithm is a semiring isomorphism: multiplication becomes addition, addition becomes log-sum-exp, so three, four, five reads two log five equals two log three, log-plus, two log four.",
+     "先看加法与乘法。对数是半环同构：乘法变成加法，加法变成 log-sum-exp，于是 3、4、5 写成 2 log 5 = (2 log 3) ⊕ (2 log 4)。"
+    ],
+    [
+     "Squared length does the same for vectors, adding on direct sums and multiplying on tensor products; with unitary invariance, orthogonal additivity and unit weight one, the squared norm is the only such weight.",
+     "向量的长度平方也是如此：在直和上相加，在张量积上相乘；若要求酉不变、对正交向量可加、单位向量权重为一，这样的权重只能是范数平方。"
+    ]
+   ]
+  },
+  {
+   "id": "pyramid",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the five modes, as corners of a pyramid, satisfy exactly one affine relation: v zero plus v thirteen equals v one plus v three. Of their ten triangles nine are right; left, middle, right is equilateral.",
+     "再看五个模式：作为一座金字塔的顶点，它们恰有一条仿射关系 v₀ + v₁₃ = v₁ + v₃。十个三角形中九个是直角三角形；左、中、右构成等边三角形。"
+    ],
+    [
+     "Fixing the three occupation means leaves one segment along that relation, with hidden coupling kappa. Its coordinate is eta, the log of the four-corner ratio, which vanishes exactly when the ends are independent given an empty middle.",
+     "固定三个占位均值，只剩沿这条关系的一条线段，参数是隐藏的联合量 κ。它的坐标是四角比的对数 η；η = 0 恰好表示中位为空时两端独立。"
+    ]
+   ]
+  },
+  {
+   "id": "pythag",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On the segment, entropy has slope eta and is strictly concave, peaking at kappa star, X Y over R. Toward any target without hidden coupling, divergence is Pythagorean: one hidden correlation plus three visible readout mismatches.",
+     "在线段上，熵的斜率是 η 且严格凹，在 κ* = XY/R 处取最大。对任何没有隐藏关联的目标，散度满足勾股分解：一项隐藏关联加三项可见读出失配。"
+    ],
+    [
+     "The quantum version adds a layer: quantum relative entropy to such a diagonal reference is record-basis coherence, plus hidden correlation, plus visible mismatch, all non-negative, so the maximum quantum entropy state is diagonal p star.",
+     "量子版本多一层：相对这样的对角参考态，量子相对熵等于记录基相干，加上隐藏关联，再加上可见失配，三项都非负，所以最大量子熵态就是对角的 p*。"
+    ]
+   ]
+  },
+  {
+   "id": "areas",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Orthogonality needs a chosen geometry. Under p star, three readout directions and one interaction direction are orthonormal, so every variance is a sum of four squares; the hidden part alone gives Pearson's chi squared.",
+     "正交性需要选定的几何。在 p* 下，三个读出方向与一个交互方向两两正交且归一，所以每个方差都是四个平方之和；仅隐藏部分就给出 Pearson χ²。"
+    ],
+    [
+     "Areas add as squares too: a covariance determinant is a weighted sum of squared simplex volumes. So two posterior means that both move while staying uncorrelated need three record outcomes, and three suffice, with area one eighth.",
+     "面积也按平方相加：协方差行列式是单纯形体积平方的加权和。因此，两个后验均值都要变化且保持不相关，需要三个记录结果，而三个也足够，面积为 1/8。"
+    ]
+   ]
+  },
+  {
+   "id": "core",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now the core theorem. With complex amplitudes, the four-corner ratio Omega has log eta over two plus i Phi; with the middle empty, C squared is proportional to sinh squared of eta over four plus sine squared of Phi over two.",
+     "现在是核心定理。取复振幅，四角比 Ω 的对数为 η/2 + iΦ；中位为空时，C² 正比于 sinh²(η/4) + sin²(Φ/2)。"
+    ],
+    [
+     "The ends are separable only when kappa is X Y over R and Phi is zero, and C squared plus Bloch length squared is one. Two states with all probabilities one fifth differ by one sign: product versus maximally entangled.",
+     "所以两端可分，当且仅当 κ = XY/R 且 Φ = 0；并且 C² 加 Bloch 长度的平方等于一。两个概率全为 1/5 的态只差一个符号：一个是乘积态，一个最大纠缠。"
+    ]
+   ]
+  },
+  {
+   "id": "golden",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Fusion, tau times tau equals one plus tau, makes the weight phi, and one over phi squared plus one over phi is one: a golden right triangle. Projection gates with overlap lambda braid exactly when four lambda sine squared of half the phase is one.",
+     "τ 与 τ 融合为 1⊕τ，使重量为 φ，且 1/φ² + 1/φ = 1：一个黄金直角三角。重叠为 λ 的投影门，恰在 4λ sin²(θ/2) = 1 时满足编织关系。"
+    ],
+    [
+     "So lambda is at least one quarter. At the golden overlap the phase is e to the three pi i over five, keeping a state with weight one over phi squared. The gate returns at power ten; recorded each step, it relaxes to uniform.",
+     "所以 λ ≥ 1/4。在黄金重叠处，相位为 e^(±3πi/5)，基态以权重 1/φ² 保持。门的第十次幂回到恒等；若每一步都记录，概率则趋于均匀。"
+    ]
+   ]
+  },
+  {
+   "id": "collapse",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Version eighteen returns to the segment: diagonal zero to thirteen completes to the upper endpoint, the other to the lower. The rule is not affine, so no fixed channel performs it; channels keeping all three readouts only change phases.",
+     "第十八版回到这条线段：对角线 0–13 完成到上端点，另一条完成到下端点。这个规则不是仿射的，所以没有固定通道能执行它；保持三个读出的通道只能改变相位。"
+    ],
+    [
+     "An instrument can. Calibrated to a known source, two diagonal Kraus operators return the two endpoints, each keeping the three means; on the balanced base, one fixed even-odd measurement realises both triangulations, with probability two kappa.",
+     "仪器可以。按已知来源标定，两个对角 Kraus 算子给出两个端点，各自保持三个均值；在平衡底面上，一次固定的偶奇测量实现两种剖分，概率为 2κ。"
+    ]
+   ]
+  },
+  {
+   "id": "lifts",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Inside a gate, giving each edge of a kernel its own unitary keeps columns normalised, but an isometry also needs a cross-column condition. A golden block still squares to the identity with a unitary W off the diagonal.",
+     "在门的内部，给核的每条边配一个酉算符，可以保持各列归一，但等距还需要跨列条件。黄金块在非对角位置放入酉算符 W 后，平方仍是恒等。"
+    ],
+    [
+     "A phase lifts two ways: controlled, W only on P, or whole, W off P and W squared on P. Only the controlled lift composes for every pair, and a global phase of W becomes a visible relative phase.",
+     "相位有两种提升：受控提升，只在 P 上作用 W；整门提升，P 外为 W、P 上为 W²。只有受控提升对任意一对门都可复合；W 的整体相位会变成可见的相对相位。"
+    ]
+   ]
+  },
+  {
+   "id": "braid",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Which inner gates keep the braid? With a shared operator W, it holds exactly when W minus I times W plus lambda W minus I squared vanishes, so at the golden overlap every eigenvalue is one, zeta or zeta bar.",
+     "哪些内部门保持编织？共用同一个算符 W 时，编织恰在 (W − I)[W + λ(W − I)²] = 0 时成立，所以在黄金重叠下，每个本征值都是 1、ζ 或其共轭 ζ*。"
+    ],
+    [
+     "So the whole golden gate cannot be substituted into itself: its eigenvalue zeta squared is not allowed, though the lift stays unitary. The controlled recursion closes: W n is I plus zeta minus one times all control projections.",
+     "所以整个黄金门不能代入自身：它的本征值 ζ² 不被允许，尽管该提升仍是酉的。受控递归则闭合：Wₙ = I + (ζ − 1)Eₙ，Eₙ 是全部控制投影的乘积。"
+    ]
+   ]
+  },
+  {
+   "id": "hull",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "When does an inner gate become a record? Tracing it out multiplies the parent's coherence by m, the trace of sigma W, and full decoherence is possible exactly when zero lies in the convex hull of the spectrum.",
+     "内部门何时变成记录？对它取偏迹，会把父系统的相干乘以 m = Tr(σW)；完全去相干可能实现，当且仅当零位于谱的凸包之中。"
+    ],
+    [
+     "No two of one, zeta and zeta bar are opposite, so a golden record needs all three, with unique weights one over phi cubed and one over phi squared twice; one coupling records only for lambda from one quarter to one half.",
+     "1、ζ、ζ* 中任意两个都不对径，所以黄金记录需要全部三个，唯一的权重为 1/φ³、1/φ²、1/φ²；一次耦合只在 1/4 ≤ λ ≤ 1/2 时能形成记录。"
+    ]
+   ]
+  },
+  {
+   "id": "revival",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Does the recursion settle? With fresh records coherence shrinks by the product of overlaps, vanishing exactly when the sum of minus log moduli diverges; reusing one record gives overlap zeta to the n plus zeta to the two n, over two.",
+     "递归会定格吗？每次用新记录，相干按各次重叠之积缩小，当且仅当 −log|mⱼ| 之和发散时消失；若复用同一个记录，重叠为 (ζⁿ + ζ²ⁿ)/2。"
+    ],
+    [
+     "At the fifth use it is zero, pointers orthogonal; at the tenth it is one, the coupling back to the identity. The gates never converge in norm, each step moves by phi, yet a fixed observer's prediction settles.",
+     "第五次时它为零，指针正交；第十次时它为一，耦合回到恒等。这些门在范数下不收敛，每一步都移动 φ，但固定观察者的预测会定格。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Logarithms turn products into sums, five modes leave one hidden ratio, divergence and entanglement split into squares, fusion gives a golden triangle, instruments turn triangulations into measurements, and inner gates braid on three phases.",
+     "对数把乘积变成和，五个模式留下一个隐藏比值，散度与纠缠分解为平方之和，融合给出黄金三角，仪器把三角剖分变成测量，内部门只在三个相位上编织。"
+    ],
+    [
+     "Information projection, Cauchy-Binet, concurrence, Fibonacci fusion and quantum instruments are published or classical inputs, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+     "信息投影、Cauchy–Binet、concurrence、Fibonacci 融合与量子仪器是已发表或经典的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
