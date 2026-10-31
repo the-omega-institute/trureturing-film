@@ -115,6 +115,7 @@ Release page.
 | 096 | [AURIC V31–V32 · GOLDEN CANTOR GATES AND PREDICTIVE MEMORY](films/096-auricv32/) · AURIC V31–V32：黄金康托门与预测记忆 | 7:28 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 202 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-096-v1/TRURETURING_096_narrated_EN_subs_ZH-EN.mp4) |
 | 097 | [AURIC V33–V34 · INFORMATION CLOCKS AND ROBUST FINITE OBSERVERS](films/097-auricv33/) · AURIC V33–V34：信息钟与稳健有限观察者 | 7:24 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 202 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-097-v1/TRURETURING_097_narrated_EN_subs_ZH-EN.mp4) |
 | 098 | [AURIC V35–V36 · THREE-AXIS ERRORS, FOUR-OF-FIVE RECOVERY AND ERROR SERIES](films/098-auricv35/) · AURIC V35–V36：三轴误差、四推一恢复与误差级数 | 7:15 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 199 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-098-v1/TRURETURING_098_narrated_EN_subs_ZH-EN.mp4) |
+| 099 | [AURIC V37–V38 · BINARY RELATIONS, GOLDEN GATES AND COMPLETE PROCESSES](films/099-auricv37/) · AURIC V37–V38：二元关系、黄金门与完整过程 | 7:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 207 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-099-v1/TRURETURING_099_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
