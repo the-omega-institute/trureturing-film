@@ -1,0 +1,26 @@
+{
+  "id": "101",
+  "title": "AURIC V41–V42 · UNITS, OBSERVER ORIGINS AND THE RELATION F[13]",
+  "title_zh": "AURIC V41–V42 · 单位元、观察者原点与关系 F[13]",
+  "subject": "https://github.com/the-omega-institute/trureturing",
+  "subject_commit": "fd77822991",
+  "released": "2026-10-31",
+  "duration": "7:21",
+  "resolution": "1920x1080@30",
+  "style": "holographic high-dimensional spacetime geometry · hacker",
+  "narration": {
+    "language": "en",
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "voice": "af_heart"
+  },
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "outputs": {
+    "narrated": "TRURETURING_narrated_EN_subs_ZH-EN.mp4",
+    "music_only": "TRURETURING_music_only_subs_ZH-EN.mp4",
+    "cover": "cover.jpg",
+    "note": "build outputs, not committed"
+  }
+}

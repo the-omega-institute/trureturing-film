@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Version forty followed what a fixed visible window forgets. Versions forty-one and forty-two ask what normalisation actually fixes, where an observer sits as an origin, and how the joint mode F thirteen ties two ends together as a relation.",
+     "第四十版追踪了一个固定可见窗口会遗忘什么。第四十一、四十二版追问：归一化究竟固定了什么，观察者作为原点坐在哪里，以及联合模式 F[13] 怎样作为关系把两端连在一起。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric versions forty-one and forty-two: units, observer origins and the relation F thirteen.",
+     "AURIC V41–V42：单位元、观察者原点与关系 F[13]。"
+    ],
+    [
+     "Normalise on the unit, keep the mass, centre the observer, and let one relation bind two ends.",
+     "在单位元上归一化，保留质量，标定观察者的中心，再让一个关系把两端绑在一起。"
+    ]
+   ]
+  },
+  {
+   "id": "events",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Take the five modes: null, one, two, three and the joint mode thirteen. Their five events sum to the constant one, but the null event is not one. Normalisation is the state's value on the unit; the null probability is information.",
+     "取五个模式：空、1、2、3 与联合模式 13。五个事件之和是常数一，但空事件不是一。归一化是状态在单位元上的取值；空窗概率本身是信息。"
+    ],
+    [
+     "Mass, three axis means and the joint probability kappa are complete coordinates. With the axes fixed, kappa still ranges over an interval: half null plus half joint, and half one plus half three, read exactly the same axes.",
+     "总质量、三个轴均值与联合概率 κ 是完整坐标。固定三轴后，κ 仍在一个区间内变动：½ 空加 ½ 联合，与 ½ 模式 1 加 ½ 模式 3，读出完全相同的三轴。"
+    ]
+   ]
+  },
+  {
+   "id": "three",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Three linear readouts can determine every state of a finite algebra exactly when the squared block sizes sum to at most four. A complete state space of exactly three dimensions is a qubit or four classical events.",
+     "三个线性读出能确定有限代数的全部态，当且仅当各块维数的平方和至多为四。恰为三维的完整态空间只有两种：一个量子比特，或四个经典事件。"
+    ],
+    [
+     "The means of two classical signs and their product fill a tetrahedron: a squared plus b squared plus c squared is four times the summed squared probabilities, minus one, at most three. The qubit's extreme points are a whole sphere of radius one.",
+     "两个经典符号及其乘积的均值填满一个四面体：a² + b² + c² 等于概率平方和的四倍减一，至多为三。量子比特的极点则是半径为一的整个球面。"
+    ]
+   ]
+  },
+  {
+   "id": "origin",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For a positive two by two matrix with total s, s squared minus the squared homogeneous Bloch vector is four times the determinant. The slice s equals one is normalisation, where the squared radius is twice the purity minus one.",
+     "对总量为 s 的二阶正矩阵，s² 减去齐次 Bloch 向量的平方等于行列式的四倍。截面 s = 1 就是归一化，在那里半径平方等于纯度的两倍减一。"
+    ],
+    [
+     "Put an observer's reference state at the origin, and the radius needs a centre and a metric. Relative to the reference state zero, the maximally mixed state sits at distance one, yet its purity is only one half.",
+     "把观察者的参考态放在原点，半径就需要中心和度量。相对参考态 |0⟩，完全混合态的相对距离是一，而它的纯度只有 ½。"
+    ]
+   ]
+  },
+  {
+   "id": "budget",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Inside one pure whole, zero tensor a plus one tensor b, imbalance, coherence and the Gram gap satisfy P squared plus V squared plus G squared equals one: the squared radius lost is exactly the Gram gap of the two records.",
+     "在一个纯的整体 |0⟩ 与 a 的张量积加 |1⟩ 与 b 的张量积之内，不平衡、相干与 Gram 余量满足 P² + V² + G² = 1：丢失的半径平方恰好是两条记录的 Gram 余量。"
+    ],
+    [
+     "For the five modes, purity is one fifth plus a positive definite quadratic form in X, Y, Z and kappa, plus twice the coherences. Two laws with equal axes have purities one half and one quarter.",
+     "对五个模式，纯度等于 1/5 加上 X、Y、Z、κ 的一个正定二次式，再加两倍的相干项。三轴相同的两个分布，纯度分别是 ½ 与 ¼。"
+    ]
+   ]
+  },
+  {
+   "id": "renorm",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Dividing by a branch mass is stable only away from zero mass: the normalised distance is at most two delta over the larger mass. Through recursion, one minus the squared radius scales by squared determinants over squared masses.",
+     "除以分支质量只在远离零质量处稳定：归一化后的距离至多为 2δ 除以较大的质量。递归中，1 − |r|² 按行列式平方除以质量平方相乘。"
+    ],
+    [
+     "Keeping pure states pure is not unitarity. The matrix with diagonal one and epsilon does it, yet tilts orthogonal inputs to overlap one minus epsilon squared over one plus epsilon squared. A channel preserving every state's radius is unitary.",
+     "保持纯态为纯不等于酉性。对角元为 1 与 ε 的矩阵就做到了这一点，却把正交输入扭成重叠 (1 − ε²)/(1 + ε²)。保持每个态半径的通道才是酉的。"
+    ]
+   ]
+  },
+  {
+   "id": "fiber",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Version forty-two reads F thirteen as a relation: the joint event is xi times eta, the product of the two end occupancies. A task needs as many extra readouts as its target span adds; for the five modes, exactly one.",
+     "第四十二版把 F[13] 读作关系：联合事件是 ξη，即两个端点占位的乘积。一个任务需要的附加读数，等于目标张成增加的维数；对五个模式，恰好是一个。"
+    ],
+    [
+     "With fixed axes, kappa spans a fibre of width w, and a target f is uncertain by J of f times w over two. Two xi plus five eta plus three zeta has J zero, yet its square has J twenty.",
+     "固定三轴后，κ 张成宽度为 w 的纤维，目标 f 的不确定度是 |J_f| w/2。2ξ + 5η + 3ζ 的 J 为零，而它的平方的 J 是 20。"
+    ]
+   ]
+  },
+  {
+   "id": "odds",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On the base, the two by two table has determinant delta. The independent completion, kappa star equals X Y over r, has maximal entropy; any other law falls short by r times the conditional mutual information, at distance two delta over r.",
+     "在底面上，二阶表的行列式为 Δ。独立补全 κ* = XY/r 熵最大；其他分布的熵差为 r 乘以条件互信息，距离为 2|Δ|/r。"
+    ],
+    [
+     "A finite log-odds theta picks exactly one law. Kappa moves at rate at most r over sixteen, so total variation is at most r over eight times the change in theta, and that constant is sharp at the centre.",
+     "有限的对数赔率 θ 恰好选出一个分布。κ 的变化率至多为 r/16，所以总变差至多为 r/8 乘以 θ 的变化，这个常数在中心处是尖锐的。"
+    ]
+   ]
+  },
+  {
+   "id": "graph",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Relations can come from inside. In a hard-core graph, eliminating the interior turns the odds into four partition functions: a vertex touching both ends gives one plus lambda, while an edge whose ends touch one side each gives less than one.",
+     "关系可以来自内部。在 hard-core 图中消去内部，赔率就变成四个配分函数之比：同时邻接两端的一个顶点给出 1 + λ，而两端各接一侧的一条边给出小于一的赔率。"
+    ],
+    [
+     "Separate interior blocks multiply their odds, so log-odds add like a series, and the completed laws converge within r over eight times the tail. In our recomputed example, longer paths give alternating Fibonacci terms.",
+     "互不相连的内部块赔率相乘，于是对数赔率像级数一样相加，补全后的分布收敛，误差在 r/8 乘以尾和之内。在本片重算的例子中，越来越长的路径给出正负交替的 Fibonacci 项。"
+    ]
+   ]
+  },
+  {
+   "id": "reflect",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "In a quantum interface, the two ends are reflections A and B, and the relation is their product: A B equals S plus i C, a unitary. For every state, its squared mean plus the variances of S and C is exactly one.",
+     "在量子接口中，两端是反射 A 与 B，关系是它们的乘积：AB = S + iC，是一个酉算子。对每个态，它的均值模平方加上 S 与 C 的方差恰好等于一。"
+    ],
+    [
+     "Fixing the angle c, three readings fill an exact ellipsoid with a cross term, and each reading triple rebuilds one qubit state. Errors scale between one over root one plus c and one over root one minus c.",
+     "固定夹角 c，三个读数填满一个带交叉项的精确椭球，每组读数唯一重构一个量子比特态。误差的放大因子介于 1/√(1 + |c|) 与 1/√(1 − |c|) 之间。"
+    ]
+   ]
+  },
+  {
+   "id": "cycle",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On a tree, consistent edge couplings glue into one normalised Markov law, with error at most the edge errors plus degree-weighted node errors. Yet equal pair margins can still hide a triple relation tau.",
+     "在树上，相容的边耦合拼接成一个归一化的 Markov 全局律，误差至多为各边误差加上按度数加权的节点误差。但两点边缘相同，仍可藏着一个三元关系 τ。"
+    ],
+    [
+     "A triangle needs more. Three perfectly opposite pairs are each legal, but no joint law exists. The smallest uniform repair is two thirds, which lands at minus one third on every edge.",
+     "三角形需要更多。三对完全反相关的边各自合法，却不存在共同的全局律。最小的逐边修复幅度是 2/3，落在每条边都为 −1/3 的点上。"
+    ]
+   ]
+  },
+  {
+   "id": "future",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Which relations must be kept? Those that change an allowed future. In the native terminal source, the event's effects span six hundred nine dimensions, six hundred ten with the unit, and five times twenty-one minus eight times thirteen is one.",
+     "哪些关系必须保留？恰是那些会改变允许未来的关系。在原生终端来源中，该事件的效果空间是 609 维，加上单位元为 610 维，而 5 × 21 − 8 × 13 = 1。"
+    ],
+    [
+     "On the real prefix seventy-eight, weights x cubed, x squared and x squared, with x the inverse golden ratio, leave one invisible direction: mass moving between the twin twenty-one blocks changes no allowed future.",
+     "在实际前缀 78 上，权重为 x³、x²、x²，其中 x 是黄金比的倒数，留下一个不可见方向：质量在两个同步的 21 维块之间移动，不改变任何允许未来。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "The unit normalises, three numbers suffice only for a qubit or four events, observers need a centre, masses and coherences fill exact budgets, a relation narrows a fibre, graphs and reflections build it, and futures decide what to keep.",
+     "单位元负责归一化，三个数只对量子比特或四个事件足够，观察者需要中心，质量与相干填满精确的预算，关系收窄纤维，图与反射生成关系，而未来决定保留什么。"
+    ],
+    [
+     "The log-odds chart is frozen in Lean, the Bloch sphere, Pauli algebra, Gram positivity and tree Markov gluing are classical tools, the rest is argued in the two theory volumes, and the finite computations were redone for this film.",
+     "对数赔率坐标图已在 Lean 中冻结，Bloch 球、Pauli 代数、Gram 正性与树上 Markov 拼接是经典工具，其余结论在两卷理论中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
