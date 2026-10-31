@@ -129,6 +129,8 @@ Release page.
 | 110 | [FIB-NATIVE LONG-TIME PHASE II · WEAK BINDING, ENGEL THRESHOLD AND CRITICAL MODE](films/110-longphase2/) · FIB 原生长时相位 第二部：弱束缚、Engel 阈值与临界模 | 7:12 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 196 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-110-v1/TRURETURING_110_narrated_EN_subs_ZH-EN.mp4) |
 | 111 | [FIB-NATIVE LONG-TIME PHASE III · QUANTITATIVE RATES AND THE PRICE OF CONFINEMENT](films/111-longphase3/) · FIB 原生长时相位 第三部：定量速率与约束的代价 | 7:09 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 198 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-111-v1/TRURETURING_111_narrated_EN_subs_ZH-EN.mp4) |
 | 112 | [FIB-NATIVE LONG-TIME PHASE IV · STEERING ACTION AND CRITICAL TUBE ENTROPY](films/112-longphase4/) · FIB 原生长时相位 第四部：操控作用量与临界管熵 | 6:40 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 187 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-112-v1/TRURETURING_112_narrated_EN_subs_ZH-EN.mp4) |
+| 113 | [FIB-NATIVE ATTRACTIVE BOUNDARY I · POLE RECOVERY, EXACT THRESHOLDS AND THE LOGARITHMIC COUNT](films/113-attractive1/) · FIB 原生吸引边界响应 第一部：极点恢复、精确阈值与对数计数 | 7:11 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 194 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-113-v1/TRURETURING_113_narrated_EN_subs_ZH-EN.mp4) |
+| 115 | [FIB-NATIVE ATTRACTIVE BOUNDARY III · PHASE-ALIGNED GLUING, ZERO MODES AND COMPATIBILITY](films/115-attractive3/) · FIB 原生吸引边界响应 第三部：相位对齐粘合、零模与相容校正 | 6:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 176 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-115-v1/TRURETURING_115_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
