@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Part one asked when attraction through an operator's own Green field stays bounded below on the double wall. Part three adds an independent central noise of size epsilon, which makes the operator fully elliptic, and follows what survives as the noise is removed.",
+     "第一部追问：在双壁上，经由算子自身 Green 场的吸引何时保持下有界。第三部加入一个大小为 ε 的独立中心噪声，使算子完全椭圆，并追踪噪声撤去时还剩下什么。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "FIB-native Green stability, part three: central noise and the negative ladder.",
+     "FIB 原生 Green 稳定性第三部：中心噪声与负谱阶梯。"
+    ],
+    [
+     "Each fixed noise is stable, the noiseless limit is not, and above one threshold negative levels climb toward zero.",
+     "每个固定噪声都稳定，无噪声极限却不稳定；越过一个阈值，负能级向零攀升。"
+    ]
+   ]
+  },
+  {
+   "id": "noise",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Keep the double-wall source of part one, killed at two height walls. A central noise nu enters the area, and its size epsilon makes the generator elliptic. The unit-source Green field has mass k-o minus l, times u minus k-o, over two.",
+     "保留第一部的双壁源，在两道高度壁上杀死。中心噪声 ν 进入面积项，其大小 ε 使生成元成为椭圆的。单位源 Green 场的总质量为 (kₒ − l)(u − kₒ)/2。"
+    ],
+    [
+     "Near the pole an exact Heisenberg chart carries density one over two r. There the field is comparable to one over d times epsilon plus d: a Coulomb law below the noise scale, and an inverse-square law above it.",
+     "在极点附近，一个精确的 Heisenberg 坐标卡的密度为 1/(2r)。在那里场与 1/(d(ε + d)) 可比：噪声尺度以下是 Coulomb 律，以上是平方反比律。"
+    ]
+   ]
+  },
+  {
+   "id": "rate",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "At each fixed noise the attractive form is closed on the free domain for every coupling, with compact resolvent and an attained minimum. The key bound is C over epsilon root a.",
+     "在每个固定噪声下，吸引形式 T − gV 对每个耦合都在自由定义域上闭，预解式紧，最小值可取到。关键界是 C/(ε√a)。"
+    ],
+    [
+     "Removing the noise is different. Above the horizontal coupling g-c, pi lambda-zero over r, the minimum lies between two negative multiples of one over epsilon squared: elliptic at every noise, yet not uniformly stable.",
+     "撤去噪声则不同。当耦合超过水平阈值 g_c = πλ₀/r 时，最小值夹在 1/ε² 的两个负倍数之间：每个噪声下都是椭圆的，却不一致稳定。"
+    ]
+   ]
+  },
+  {
+   "id": "cotton",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Could a flat three-dimensional readout reproduce this law exactly? A constant-diffusion match, even with a positive retiming factor and arbitrary drifts, forces the kinetic metric to be conformally flat.",
+     "能否用一个平坦的三维读出精确复现这个律？任何常扩散匹配，即使允许正的时间重标因子和任意漂移，都迫使动力学度量共形平坦。"
+    ],
+    [
+     "But that metric is Nil geometry, and its Cotton tensor is minus epsilon to the minus three, never zero. So no exact Euclidean distance readout exists, and an all-start killed response on the same clock would force the same forbidden identity.",
+     "但这个度量是 Nil 几何，它的 Cotton 张量等于 −ε⁻³，从不为零。所以不存在精确的欧氏距离读出；同一时钟下全起点的杀死响应也会推出同一个被禁止的恒等式。"
+    ]
+   ]
+  },
+  {
+   "id": "cap",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Command tracking transfers bounded occupation, and in the limit the full Green occupation. Path convergence alone cannot carry the singular field: a lawful hold at the pole makes the uncapped occupation infinite, although the field is square integrable.",
+     "命令跟踪能传递有界占用，极限下给出完整 Green 占用。仅靠路径收敛带不过奇异场：在极点合法停留一段，无截断占用就为无穷，尽管场平方可积。"
+    ],
+    [
+     "With a field cap B, the paid execution's exponential weight approaches the exact Feynman–Kac response at the pole. Taking eta equal to c over B cubed gives error of order one over B, with order B to the seventh reads.",
+     "给场加上截断 B，付费执行的指数权重逼近极点处精确的 Feynman–Kac 响应。取 η = c/B³，误差为 1/B 量级，读取次数为 B⁷ 量级。"
+    ]
+   ]
+  },
+  {
+   "id": "coeff",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Zoom into the pole at scale epsilon. The native minimum, times epsilon squared, converges to the bottom e of one unit-noise problem on the Heisenberg group, at coupling two r g, with a bounded lower remainder.",
+     "以 ε 为尺度放大极点。原生最小值乘以 ε² 收敛到Heisenberg 群上一个单位噪声问题的底 e，耦合为 2rg，下方余项有界。"
+    ],
+    [
+     "So the native energy is uniformly bounded below exactly when g is at most g-star, and the companion boundary-response volume identifies g-star with g-c. Above it the bottom is negative, and near-minimizers concentrate at the pole.",
+     "所以原生能量一致下有界，当且仅当 g ≤ g*；配套的边界响应卷证明 g* = g_c。越过它，底为负，近极小态集中到极点。"
+    ]
+   ]
+  },
+  {
+   "id": "occupy",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The self-field occupation, the integral of Gamma squared, is finite at each noise. As the noise is removed it grows like the logarithm of one over epsilon, with coefficient one over eight m-zero, which is r over four.",
+     "自场占用，即 Γ² 的积分，在每个噪声下有限。噪声撤去时它像 log(1/ε) 一样增长，系数为 1/(8m₀)，也就是 r/4。"
+    ],
+    [
+     "The coefficient comes from the gauge ball, of volume pi squared over eight. Each logarithmic shell of R to the minus four carries pi squared over two, and one over four pi squared times that is one eighth.",
+     "这个系数来自规范球，其体积为 π²/8。R⁻⁴ 在每个对数壳层上贡献 π²/2，再乘以 1/(4π²)，恰为 1/8。"
+    ]
+   ]
+  },
+  {
+   "id": "profile",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Above g-c the unit problem has a unique positive ground state h-g, simple and isolated, with a coercive gap. The native minimum then equals e-g over epsilon squared, up to a bounded error.",
+     "越过 g_c，单位问题有唯一的正基态 h_g，它是单重的、孤立的，并有强制的能隙。于是原生最小值等于 e_g/ε²，误差有界。"
+    ],
+    [
+     "Every near-minimizer, rescaled at the pole, converges to h-g up to one constant phase, with squared error at most C times its defect plus epsilon squared. No mass is lost, and both energy coefficients converge.",
+     "每个近极小态在极点处重标后，都在差一个常相位的意义下收敛到 h_g，平方误差至多为 C 乘以（亏量加 ε²）。没有质量丢失，两个能量系数都收敛。"
+    ]
+   ]
+  },
+  {
+   "id": "chord",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On that profile the global kinetic distance is exactly epsilon times the unit distance. Four points at distance t give a signed sum of squared distances near two thirds t to the fourth; any Hilbert space gives at most zero.",
+     "在这个轮廓上，整体动力学距离恰为 ε 乘以单位距离。距离为 t 的四个点给出平方距离的带符号和，约为 (2/3)t⁴；任何 Hilbert 空间给出的和都不超过零。"
+    ],
+    [
+     "So every Hilbert chord readout keeps an average pair error of at least root c-zero times epsilon, and a constant map achieves order epsilon. Deleting vanishing mass keeps this floor, and a window smaller than epsilon holds vanishing mass.",
+     "所以每个 Hilbert 弦读出的平均成对误差至少为 √c₀·ε，而常值映射就能达到 ε 量级。删去趋于零的质量不改变这个下界；比 ε 更小的窗口只含趋于零的质量。"
+    ]
+   ]
+  },
+  {
+   "id": "seam",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now cut the cylinder at a seam. For every Fourier mode, turning points included, the two-sided flux is comparable to one plus root s plus the phase shift plus root n over r plus epsilon n over r.",
+     "现在在一条缝处切开柱面。对每个 Fourier 模式（包括有转向点的模式），双侧通量都与 1 + √s + 相位平移 + √(n/r) + εn/r 可比。"
+    ],
+    [
+     "The best rank approximating the seam inverse within eta is of order one over eta squared times eta plus epsilon: eta to the minus three without noise, one over epsilon eta squared below it. One lower face obeys the same law, even at zero noise.",
+     "在误差 η 内逼近缝逆算子的最优秩量级为 1/(η²(η + ε))：无噪声时为 η⁻³，噪声尺度以下为 1/(εη²)。单独一个下面也服从同样的律，在零噪声时也成立。"
+    ]
+   ]
+  },
+  {
+   "id": "onset",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "The continuation follows the coupling. Above gamma-c, two pi lambda-zero, the unit bottom e of gamma is continuously differentiable and strictly concave, with slope minus the potential energy of the positive ground state.",
+     "续卷追踪耦合。越过 γ_c = 2πλ₀，单位底 e(γ) 连续可微且严格凹，其斜率等于正基态势能的相反数。"
+    ],
+    [
+     "At onset the energy is little-o of gamma minus gamma-c, so the joined curve is C one, and the ground states escape: they converge weakly to zero and leave every compact set, though each keeps unit norm.",
+     "在起始处能量为 o(γ − γ_c)，所以拼接后的曲线是 C¹ 的；基态则逃逸：弱收敛到零，离开每个紧集，尽管各自范数仍为一。"
+    ]
+   ]
+  },
+  {
+   "id": "ladder",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For each supercritical gamma there are infinitely many negative eigenvalues rising to zero. Dilating one annular witness by powers of L gives separated negative directions, so the count below minus t grows at least like the logarithm of one over t.",
+     "对每个超临界的 γ，都有无穷多个负特征值向零上升。把一个环形见证按 L 的幂次伸缩，得到彼此分离的负方向，所以低于 −t 的个数至少像 log(1/t) 一样增长。"
+    ],
+    [
+     "Every fixed level transfers to the native cylinder with a bounded remainder, the native negative count grows at least like the logarithm of one over epsilon, and the ground gap closes as gamma decreases to gamma-c.",
+     "每个固定能级都以有界余项迁移到原生柱面上；原生负能级个数至少像 log(1/ε) 一样增长；当 γ 降到 γ_c 时，基态能隙闭合。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Each fixed noise is stable, removing it costs one over epsilon squared, flat readouts fail, capped responses converge, one threshold decides, occupation grows logarithmically, the profile is universal, chords keep a floor, seams obey a rank law, and a ladder climbs to zero.",
+     "固定噪声都稳定，撤去的代价是 1/ε²；平坦读出失败，截断响应收敛，一个阈值决定一切，占用对数增长，轮廓普适，弦有下界，缝有秩律，负能级攀向零。"
+    ],
+    [
+     "The heat bounds, KLMN, the Cotton criterion, Feynman–Kac, boundary pairs and the distance expansion are published inputs, the rest is argued in the theory volumes, and the finite computations were redone for this film, completing the three-part series.",
+     "热核界、KLMN、Cotton 判据、Feynman–Kac、边界对和距离展开是已发表的输入，其余结论在理论卷中论证，有限计算都为本片重新做过；三部曲到此完结。"
+    ]
+   ]
+  }
+ ]
+}
