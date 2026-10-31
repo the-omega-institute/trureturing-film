@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "A finite tree shows only its leaves. Through them you may reset the field, add a pulse, tick the hidden law, hold, or read one number. What do five such commands recover, and exactly where does recovery stop?",
+     "一棵有限树只露出它的叶。通过叶，你可以重置场、加一个脉冲、让隐藏的定律走一拍、保持，或读出一个数。这五条命令能恢复什么？恢复又恰好在哪里停止？"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "RRO native leaf boundary, part one: first arrivals, ordered roots and the hidden leaf.",
+     "RRO 原生叶边界获取，第一部：首达、有序根与隐藏的叶。"
+    ],
+    [
+     "Pulse one leaf, wait for the first nonzero reply, and the tree begins to describe itself.",
+     "给一片叶一个脉冲，等第一个非零回复，树便开始描述它自己。"
+    ]
+   ]
+  },
+  {
+   "id": "arrival",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Take a finite tree whose leaves are the only ports, with positive links and any signed diagonal. Pulse one leaf and tick: each other leaf reads exactly zero until the tick count reaches its distance, then the product of the edge weights, which nothing cancels.",
+     "取一棵有限树，叶是唯一的端口，连边系数为正，对角可以是任意有符号的数。给一片叶加脉冲并走拍：其余每片叶都恰好读到零，直到拍数达到它的距离，此时读到路径上边权的乘积，没有任何东西能把它抵消。"
+    ],
+    [
+     "Stop each trial once every leaf has answered. Then b trials give the whole leaf distance matrix with no size known in advance; here four leaves cost twenty-two ticks and one hundred and four reads.",
+     "每次试验在所有叶都回应后就停止。于是 b 次试验给出整个叶距离矩阵，事先不需要知道规模；这里四片叶共用 22 拍和 104 次读取。"
+    ]
+   ]
+  },
+  {
+   "id": "metric",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Leaf distances rebuild the whole tree, degree-two vertices included. For each leaf pair and each step along their path, a median formula gives that vertex's distance vector; keep the distinct vectors and join those at sup distance one.",
+     "叶距离能重建整棵树，包括所有二度顶点。对每一对叶及其路径上的每一步，中位点公式给出该顶点的距离向量；保留互不相同的向量，并把上确界距离为一的两个向量连起来。"
+    ],
+    [
+     "Here thirty-two candidates collapse to nine vertices, five of them non-leaves. No leaf path is longer than that count plus one, and here the longest is exactly six.",
+     "这里 32 个候选收缩为 9 个顶点，其中 5 个不是叶。叶之间的路径都不超过这个数加一，这里最长的恰好是 6。"
+    ]
+   ]
+  },
+  {
+   "id": "infect",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Next the coefficients. From the leaves, a marked vertex with exactly one unmarked neighbour marks it, sweeping the tree in five steps, and each step isolates one new link from a residual: the infection method of Burgarth and Maruyama.",
+     "接着求系数。从叶出发，恰有一个未标记邻居的已标记顶点就标记这个邻居，五步扫遍整棵树；每一步都从一个残差中分离出一条新连边：这是 Burgarth 与 Maruyama 的感染方法。"
+    ],
+    [
+     "With b more trials read through epoch two I plus one, here eleven, the leaf moments give every diagonal and link exactly, one rational square root per step. Repeated eigenvalues do no harm: the unit star, with zero twice, is recovered too.",
+     "再做 b 次试验，读到第 2I + 1 拍，这里是 11，叶矩就精确给出每个对角元和每条连边，每一步只需一次有理平方根。重复特征值不碍事：零出现两次的单位星图也同样被恢复。"
+    ]
+   ]
+  },
+  {
+   "id": "window",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "With the law known, any current field can be read without a reset: read all leaves, tick five times, and these twenty-four readings recover the starting field exactly, so the predictor starts at the advanced cut.",
+     "定律已知后，任何当前场都能不经重置读出：读遍所有叶，走五拍，这 24 个读数就精确恢复起始场，于是预测器从推进后的截点开始。"
+    ],
+    [
+     "Exact widths still grow. On the three-leaf star with diagonal one half and links one sixteenth, e one minus e two has eigenvalue one half, so leaf one reads two to the minus k, from a strict contraction.",
+     "精确位宽仍会增长。在对角为 1/2、连边为 1/16 的三叶星图上，e₁ − e₂ 的特征值为 1/2，于是叶一读到 2⁻ᵏ，而这是一个严格压缩。"
+    ]
+   ]
+  },
+  {
+   "id": "twins",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now drop one leaf from the roster. Star one has b visible leaves and one hidden leaf, all links one over eight times b plus one; star two splits the hidden leaf in two, with three fifths and four fifths of that link.",
+     "现在从名册里去掉一片叶。星图一有 b 片可见叶和一片隐藏叶，所有连边都是 a = 1/(8(b + 1))；星图二把隐藏叶分成两片，连边分别是这个值的 3/5 和 4/5。"
+    ],
+    [
+     "Sending the hidden leaf to three fifths of one plus four fifths of the other intertwines the laws, so every visible reply agrees for every policy. Both are strict contractions, of orders b plus two and b plus three.",
+     "把隐藏叶映到其中一片的 3/5 加另一片的 4/5，就交织了两个定律，所以对任何策略，每个可见回复都一致。两者都是严格压缩，阶数却分别是 b + 2 和 b + 3。"
+    ]
+   ]
+  },
+  {
+   "id": "root",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A second installation: the birth-typed LAB trees, where alpha is a terminal, beta carries one left marker, and every left-ending leaf is beta. The unrooted material tree, with its terminals in order, fixes the original root and the whole ordered term.",
+     "第二种安装：带出生类型的 LAB 树。α 是一个端点，β 带一个左标记，每个以左结尾的叶都是 β。无根的物质树加上按序排列的端点，就确定了原始的根和整个有序项。"
+    ],
+    [
+     "So, on the unit-adjacency field, L pulse trials earn tree, size and law at once. For beta with beta-alpha, three trials take fourteen ticks and fifty-one reads, and of three degree-two candidates only the true root parses.",
+     "所以在单位邻接场上，L 次脉冲试验一次性得到树、规模和定律。对 ⟨β,⟨β,α⟩⟩，三次试验用 14 拍和 51 次读取；三个二度候选中只有真正的根能解析成功。"
+    ]
+   ]
+  },
+  {
+   "id": "load",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Both hypotheses carry weight. Without the terminal order, beta with beta-alpha and beta-alpha with beta answer every field experiment alike, yet a split at address L is allowed in one and refused in the other.",
+     "两个假设都承重。没有端点顺序时，⟨β,⟨β,α⟩⟩ 与 ⟨⟨β,α⟩,β⟩ 对每个场实验的回答都相同，但地址 L 上的分裂在一个里被允许，在另一个里被拒绝。"
+    ],
+    [
+     "Without birth typing, one six-vertex tree with terminals c, d, e is both beta-alpha with alpha and alpha with alpha-beta, rooted at different vertices. And two growth words reaching the same term are never told apart.",
+     "没有出生类型时，同一棵端点为 c、d、e 的六顶点树既是 ⟨⟨β,α⟩,α⟩，又是 ⟨α,⟨α,β⟩⟩，根在不同顶点。而到达同一个项的两个生长词永远无法区分。"
+    ]
+   ]
+  },
+  {
+   "id": "sparse",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "On these ordered trees, two L minus three onsets suffice: distances from the first terminal to the rest, and between consecutive terminals. Half of a i plus a i plus one minus c i is where neighbouring paths part, and gluing unit paths rebuilds the tree.",
+     "在这些有序树上，2L − 3 个起始时刻就够了：从第一个端点到其余端点的距离，以及相邻端点之间的距离。(aᵢ + aᵢ₊₁ − cᵢ)/2 就是相邻路径分开的深度，把单位路径粘起来便重建了树。"
+    ],
+    [
+     "Each edge is crossed twice around the terminal cycle, so the onsets sum to twice N minus one. On a comb with m branches this takes six m minus two ticks, against quadratic ticks, and quadratic reads against cubic.",
+     "沿端点环每条边恰被经过两次，所以这些起始时刻之和为 2(N − 1)。在有 m 个分支的梳状树上只需 6m − 2 拍，而完整方案需要二次的拍数；读取也是二次对三次。"
+    ]
+   ]
+  },
+  {
+   "id": "age",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now a nonzero phase. After a pulse at terminal one and k ticks, its reading counts closed walks: zero at odd ages, then one, one, and strictly increasing at even ages. So two consecutive readings fix every age from two on; ages one and three collide.",
+     "现在看非零相位。在端点一加脉冲并走 k 拍后，它的读数计数闭合游走：奇数龄为零，偶数龄依次为 1、1，之后严格递增。所以两个相邻读数确定从 2 起的每个年龄；年龄 1 和 3 会相撞。"
+    ],
+    [
+     "A late observer with no clock needs read, tick, read, hold to install the predictor at the true age plus one. A single snapshot of all terminals fixes the age on the tail exactly when terminals meet both colour classes.",
+     "没有时钟的迟到观察者只需读、走拍、读、保持，就能在真实年龄加一处安装预测器。所有端点的一次快照能在尾段确定年龄，当且仅当端点落在两种颜色类中。"
+    ]
+   ]
+  },
+  {
+   "id": "hidden",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Back to unit trees, now with exactly one leaf missing from the roster. The visible leaves span a hull; the rest is one pendant path of unknown length ell at an unknown hull vertex v, invisible to every visible distance.",
+     "回到单位树，现在名册里恰好缺一片叶。可见叶张成一个包；其余部分是挂在未知包顶点 v 上、长度 ℓ 未知的一条悬挂路径，任何可见距离都看不到它。"
+    ],
+    [
+     "The same last pulse finds it. Against the hull's walk counts, the first excess at leaf j comes at d star plus d j plus two, locating v; against a formal ray, the first deficit comes at twice d star plus ell plus one, giving ell.",
+     "同一个最后的脉冲找到了它。与包的游走计数相比，叶 j 处的第一次超出发生在 d* + dⱼ + 2，由此定位 v；与一条形式射线相比，第一次不足发生在 2(d* + ℓ + 1)，由此得到 ℓ。"
+    ]
+   ]
+  },
+  {
+   "id": "onemore",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "With one leaf missing, the visible leaves still force the whole tree, because a stalled forest would need two endpoints but has one. Integer polynomials then read any later field from a passive window.",
+     "缺一片叶时，可见叶仍能强制整棵树，因为一个停滞的森林需要两个端点，却只有一个。随后整数多项式就能从一个被动窗口读出任何后来的场。"
+    ],
+    [
+     "Two missing leaves break this. On a unit star the difference of the hidden pair is invisible and dies at the first tick, so two different fields give identical service for every policy.",
+     "缺两片叶就不成立了。在单位星图上，两片隐藏叶之差不可见，并在第一拍就消失，所以两个不同的场对任何策略都给出完全相同的服务。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Arrivals give distances, distances the tree, forcing the law, a window the field, ordered terminals the root, onsets and two reads geometry and age; weighted, one hidden leaf hides the order, but on unit trees it is found, and two can hide a field.",
+     "首达给出距离，距离给出树，强制给出定律，窗口给出场，有序端点给出根，起始时刻和两次读取给出几何与年龄；带权时一片隐藏叶能藏住阶数，但在单位树上它会被找到，而两片能藏住一个场。"
+    ],
+    [
+     "Tree metrics, the infection residual and walk counting are published or classical inputs, root rigidity is a frozen Lean theorem, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "树度量、感染残差与游走计数是已发表或经典的输入，根的刚性是一个冻结的 Lean 定理，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
