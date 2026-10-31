@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "Parts one and two showed that at one half, and only there, five-window channels can refuse to forget. Part three names every such channel, then hides the final phase and asks what one readout still recovers.",
+     "第一、二部表明：在二分之一处、且只在那里，五窗口通道可以拒绝遗忘。第三部列出所有这样的通道，再把终端相位藏起来，追问一次读出还能取回什么。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric five-window memory, part three: the four-phase class and the hidden phase.",
+     "AURIC 五窗口记忆第三部：四相位类与隐藏相位。"
+    ],
+    [
+     "Four phases decide which channels remember; one surviving number decides what a blind readout can tell.",
+     "四个相位决定哪些通道记得住；一个幸存的数决定盲读出还能分辨什么。"
+    ]
+   ]
+  },
+  {
+   "id": "gram",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Fix eta at one half. An allowed channel moves populations by Q on every complex input, using eight environment vectors in one environment. Only three pairs must be orthogonal; all other overlaps, complex phases included, are free within one positive Gram.",
+     "固定 η = 1/2。允许通道对每个复输入都按 Q 搬运人口，在同一个环境里使用八个环境向量。只有三对必须正交；其余重叠，包括复相位，都可在一个半正定 Gram 矩阵内自由取值。"
+    ],
+    [
+     "The canonical list uses an orthonormal pair and its balanced sum. The template allows four free phases: the whole Gram must equal the canonical one entry by entry, up to edge phases built from those four. Checking moduli alone is not enough.",
+     "典范向量组使用一对正交单位向量及其均衡和。模板允许四个自由相位：整个 Gram 矩阵必须逐项等于典范 Gram 矩阵，只差由这四个相位构成的边相位。只检查模长是不够的。"
+    ]
+   ]
+  },
+  {
+   "id": "line",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Two lemmas drive the proof. No two orthogonal planes can carry stationary states or swap into each other: the vector V u would have to lie in two orthogonal target lines at once, though it has norm one.",
+     "证明靠两条引理。两个正交平面不可能承载平稳态，也不可能互相交换：否则向量 Vu 必须同时落在两条正交的目标直线上，可它的范数是一。"
+    ],
+    [
+     "And a pure stationary line beside an orthogonal stationary state fixes all eight vectors. The last freedom is one phase beta, with one half, one minus beta, one plus beta over two, equal to zero; on the unit circle, beta is one.",
+     "另一条：一条纯平稳直线，旁边再有一个正交的平稳态，就确定全部八个向量。最后的自由只是一个相位 β，满足 ½(1 − β)(1 + β/2) = 0；在单位圆上只能 β = 1。"
+    ]
+   ]
+  },
+  {
+   "id": "classify",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For every actual complex Gram at one half, five statements are equivalent: the channel fails to mix; it has two stationary states; a pure one and an orthogonal one; it is a diagonal conjugate of the canonical channel; its Gram fits the template.",
+     "对二分之一处每一个实际复 Gram 矩阵，下面五条等价：通道不混合；它有两个平稳态；它有一个纯平稳态和一个正交的平稳态；它是典范通道的对角共轭；它的 Gram 矩阵符合模板。"
+    ],
+    [
+     "So the remembering class is exactly a four-phase orbit, with Gram rank two and a three-dimensional stationary support. Every other Gram mixes: rank above two forces mixing, but rank two alone is not enough. Two hundred eighty sampled Grams all mixed.",
+     "所以记得住的类恰好是一条四相位轨道，Gram 秩为二，平稳支撑为三维。其余每个 Gram 矩阵都混合：秩大于二必定混合，但仅有秩二并不够。抽样的 280 个 Gram 矩阵全都混合。"
+    ]
+   ]
+  },
+  {
+   "id": "limit",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Up to gauge, every remembering lift has one full-input limit: measure E, P plus two thirds along d, then prepare P or M. The gap is multiplied by minus one half each step, and the fixed observables do not form an algebra.",
+     "在规范意义下，每个记得住的提升都有同一个全输入极限：测量 E（P 加上沿 d 的三分之二），再制备 P 或 M。与极限的差每步乘以 −1/2，而不动可观测量并不构成代数。"
+    ],
+    [
+     "Each keeps a permanent classical label, yet every finite power keeps some entanglement, with partial-transpose eigenvalue minus two to the minus n minus one. The largest exact codes after zero, one, two and three steps have dimensions five, three, two and one.",
+     "每一个都保有永久的经典标签，而每个有限次幂仍保留一些纠缠，部分转置有特征值 −2^(−n−1)。零、一、二、三步后的最大精确码维数依次为 5、3、2、1。"
+    ]
+   ]
+  },
+  {
+   "id": "rank",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Give all four vector pairs the same orthonormal pair: the Gram is legal with rank two, yet its characteristic polynomial is t to the twenty-one, times t minus one, t plus one half, and t squared minus one half, so it mixes.",
+     "让四对向量都取同一对正交单位向量：这个 Gram 矩阵合法、秩为二，但特征多项式是 t²¹(t − 1)(t + 1/2)(t² − 1/2)，所以它混合。"
+    ],
+    [
+     "Complex phases matter: the phases one, i, one, one, one give a remembering Gram with overlap i over root two between alpha zero and gamma zero, while the rank-eight identity Gram mixes. Both keep one population law, which cannot see the memory.",
+     "复相位很要紧：相位 (1, i, 1, 1, 1) 给出一个记得住的 Gram 矩阵，α₀ 与 γ₀ 的重叠为 i/√2；秩为八的单位 Gram 矩阵则混合。两者服从同一条人口律，这条律看不见记忆。"
+    ]
+   ]
+  },
+  {
+   "id": "hidden",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now hide the phase. Part two's schedule A, B, A, B, starting from A, has one limit for even stopping and one for odd. Encode a fair bit and read once: a public parity gives zero error; hidden, the worst case is three minus root five, over eight.",
+     "现在把相位藏起来。第二部的调度 A、B、A、B 从 A 开始，偶数停止和奇数停止各有一个极限。编码一个均匀的位并读出一次：奇偶公开时错误为零；隐藏时，最坏错误为 (3 − √5)/8。"
+    ],
+    [
+     "On the limit, each input leaves one number, t, the expectation of E, and the output is M plus t times D in either phase. So the best codes are P, where t is one, against any state on the three-dimensional kernel of E.",
+     "在极限上，每个输入只留下一个数 t，即 E 的期望值；在任一相位，输出都是 M_j + t D_j。所以最优编码是 t = 1 的 P，对上 E 的三维核上的任意态。"
+    ]
+   ]
+  },
+  {
+   "id": "spectrum",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "For a random phase with known probability theta, the readout faces D theta, with eigenvalues one plus or minus delta, over four, minus one half, and two zeros; delta is the square root of five plus four times the square of two theta minus one.",
+     "若相位随机且概率 θ 已知，读出面对的是 D_θ，特征值为 (1 ± δ)/4、−1/2 和两个 0；δ = √(5 + 4(2θ − 1)²)。"
+    ],
+    [
+     "The Helstrom rule gives the exact error, three minus delta, over eight, reached by one rank-one projection. It vanishes where the phase is certain and peaks only at the fair coin, at three minus root five over eight, about nine and a half percent.",
+     "Helstrom 规则给出精确错误 (3 − δ)/8，由一个秩一投影达到。它在相位确定时为零，只在公平硬币处取最大值 (3 − √5)/8，约 9.5%。"
+    ]
+   ]
+  },
+  {
+   "id": "saddle",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Against a worst-case phase, compare the two signals of a readout, the trace of F times D in each phase. The smaller is at most their mean, the fair-coin signal, which never exceeds lambda star, one plus root five over four.",
+     "面对最坏相位，比较一个读出的两个信号，即每个相位下 F 与 D 之积的迹。较小者不超过两者的均值，也就是公平硬币下的信号，而它从不超过 λ* = (1 + √5)/4。"
+    ],
+    [
+     "One projection reaches it. The sign flip S fixes F star, so both phases see exactly lambda star, under every phase law: a direct saddle point, with the fair coin the unique least favourable law. Thousands of sampled readouts stay below that line.",
+     "一个投影就能达到。符号翻转 S 固定 F*，所以在任何相位律下，两个相位看到的都恰好是 λ*：一个直接的鞍点，公平硬币是唯一最不利的律。数千个抽样读出都落在这条线以下。"
+    ]
+   ]
+  },
+  {
+   "id": "zero",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Zero error is impossible once both phases can occur: the label-zero output of one phase and the label-one output of the other overlap by one ninth, and for a random phase the average outputs overlap by two theta, one minus theta, over nine.",
+     "只要两个相位都可能出现，零错误就不可能：一个相位的标签零输出与另一个相位的标签一输出重叠为 1/9；相位随机时，两个平均输出的重叠为 2θ(1 − θ)/9。"
+    ],
+    [
+     "Still, t stays readable. With F star, outcome zero has the same probability in both phases: one minus two over root five, over six, plus lambda star times t. The best code reads the bit with probability five plus root five over eight.",
+     "但 t 仍然读得出。用 F*，结果零在两个相位下的概率相同：(1 − 2/√5)/6 + λ*·t。最优编码读对这一位的概率为 (5 + √5)/8。"
+    ]
+   ]
+  },
+  {
+   "id": "finite",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "At finite times the actual schedule sends P and M exactly to the phase j states, so F star keeps the same worst-case error at all stopping times, and the finite optimum over all codes lies within half of epsilon n below it.",
+     "在有限时刻，实际调度把 P 和 M 恰好送到相位 j 的态，所以 F* 在所有停止时刻都保持同样的最坏错误；对所有编码取最优，有限最优值落在它下方 ε_n/2 以内。"
+    ],
+    [
+     "With epsilon n four thirds times two to the two minus n, the finite worst-case optimum is positive once both stopping times reach five; exact small-time values stay open. A blind readout pays one fixed measurement; a public phase costs a parity label.",
+     "由于 ε_n = (4/3)·2^(2 − n)，两个停止时刻都达到 5 时，有限最坏最优值为正；小时刻的精确值仍未确定。盲读出只付出一次固定测量；公开相位则要付出一个奇偶标签。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Four phases name every remembering channel at one half, orthogonal planes cannot carry it, rank two is not enough, and the limit measures E; hiding the phase leaves one number, read by one symmetric projection with error three minus root five over eight.",
+     "四个相位列出二分之一处所有记得住的通道，正交平面承载不了记忆，仅有秩二不够，极限测量 E；藏起相位后只剩一个数，由一个对称投影读出，错误为 (3 − √5)/8。"
+    ],
+    [
+     "The mixing and cycle lemmas, information-preserving structures and the Knill–Laflamme criterion are published inputs, the Helstrom rule is a classical tool, the rest is argued in the theory volumes, and the finite computations were redone for this film.",
+     "混合与循环引理、信息保持结构以及 Knill–Laflamme 判据是已发表的输入，Helstrom 规则是经典工具，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
