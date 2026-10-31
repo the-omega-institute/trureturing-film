@@ -1,0 +1,212 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "After version twenty-seven's complex phases, version twenty-eight asks what a two-outcome readout carries, when consistency over every rotated frame forces the square law, and how a qubit inside E8 meets the golden gate.",
+     "继第二十七版的复相位之后，第二十八版追问：一个二结果读出携带什么；在所有旋转框架上的相容，何时迫使平方律；以及 E8 内部的一个量子比特，怎样与黄金门相接。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Auric version twenty-eight: binary readout, full-frame compatibility and the E8 golden bridge.",
+     "AURIC V28：二元读出、全框架相融与 E8 黄金门桥梁。"
+    ],
+    [
+     "Consistency over every frame gives the square law; five phases square a golden gate.",
+     "在所有框架上的相容给出平方律；五种相位给出黄金门的平方。"
+    ]
+   ]
+  },
+  {
+   "id": "relative",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Prepare with gate A, measure in gate B's basis: probabilities depend only on B dagger A, so a common left factor cancels. A two-state readout still leaks, into eleven spare dimensions natively and two hundred forty-six in E8.",
+     "用门 A 制备，在门 B 的基底中测量：概率只依赖 B†A，所以共同的左因子会消去。二态读出仍会泄漏：在原生空间里漏向其余十一维，在 E8 中漏向其余二百四十六维。"
+    ],
+    [
+     "Two amplitudes modulo normalisation and common phase leave a sphere, with probability one plus r dot n over two. Two coordinates of a pure state leave the third's sign open; the Pauli variances sum to three minus r squared.",
+     "两个振幅经归一化并去掉共同相位后，剩下一个球面，概率为 (1 + r·n)/2。纯态的两个坐标仍不能确定第三个坐标的符号；三个 Pauli 方差之和为 3 − |r|²。"
+    ]
+   ]
+  },
+  {
+   "id": "frames",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Strengthen the three-axis intuition: one continuous, rotation-covariant response, calibrated on its own direction, whose centred squares sum to one on every orthonormal frame. That forces probability one plus m dot n over two, the Born angle law.",
+     "把三轴直觉加强：一个连续、旋转协变、在自身方向上标定的响应，在每个正交归一框架上的中心化平方和都为一。这就迫使概率为 (1 + m·n)/2，即 Born 角度律。"
+    ],
+    [
+     "Weaker conditions fail: the cubic response keeps every symmetry, yet its frame sum falls to one ninth; and balls of every dimension carry binary responses, so binarity cannot select three.",
+     "更弱的条件不够：三次响应 (1 + (m·n)³)/2 保留全部对称性，但它的框架平方和会降到 1/9；任意维数的球都承载二元响应，所以仅凭二元性选不出三维。"
+    ]
+   ]
+  },
+  {
+   "id": "clifford",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "What does select three? In Krumm and Müller's published ball-bit framework, with composites, local tomography and a connected reversible group, interacting reversible gates exist only for balls of dimension three.",
+     "那么什么能选出三维？在 Krumm 与 Müller 已发表的球比特框架中，给定复合、局部层析与连通的可逆群，真正相互作用的可逆门只在球的维数为三时存在。"
+    ],
+    [
+     "Where does i come from? Three real self-adjoint involutions that pairwise anticommute have a product J squaring to minus one and commuting with all three, so the real dimension is four m; an irreducible piece is one complex qubit.",
+     "i 从何而来？三个两两反对易的实自伴对合，其乘积 J 平方为 −1，并与三者都对易，于是实维数为 4m；不可约的部分就是一个复量子比特。"
+    ]
+   ]
+  },
+  {
+   "id": "effects",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Probabilities and updates are separate obligations. A positive, normalised, additive weight on all effects is a trace against a density operator: Busch's form of Gleason's theorem, valid even in dimension two.",
+     "概率与更新是两个独立的义务。定义在全部效果上的正的、归一且可加的权重，必为对某个密度算子的迹：这是 Busch 形式的 Gleason 定理，在二维也成立。"
+    ],
+    [
+     "One projective measurement allows different updates: Lüders keeps state one, a reset sends it to zero, with identical probabilities. Order matters: P x after P z sends zero to plus over root two, the reverse to zero over two.",
+     "同一个投影测量允许不同的更新：Lüders 更新保留态 1，重置把它送到 0，而概率完全相同。次序也要紧：先 P_z 后 P_x 把 |0⟩ 送到 |+⟩/√2，反过来则送到 |0⟩/2。"
+    ]
+   ]
+  },
+  {
+   "id": "gram",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A transition table comes from one qubit exactly when two q minus one is positive semidefinite of rank at most three. Pairwise feasibility is not enough: four labels at one half give the identity, rank four.",
+     "一张转移表来自同一个量子比特，恰当且仅当 2q − 1 半正定且秩至多为三。逐对可行不够：四个标签两两取 1/2 给出单位阵，秩为四。"
+    ],
+    [
+     "AURIC's three occupation ports commute: their means hide an interval for kappa, and on any qubit they stay jointly measurable, never three sharp Pauli axes. Three unsharp axes are jointly measurable exactly when squared sharpnesses sum to at most one.",
+     "AURIC 的三个占据读口彼此对易：它们的均值藏着 κ 的一个区间；在任意量子比特上它们仍联合可测，绝不是三个尖锐 Pauli 轴。三个不尖锐轴联合可测，恰当且仅当锐度平方和至多为一。"
+    ]
+   ]
+  },
+  {
+   "id": "binary",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "A witness domain makes any relation binary, but the witness carries the joint information. Three-bit even parity has full pairwise projections, yet binary Boolean constraints, even with Boolean helpers, cannot express it.",
+     "见证域能把任何关系二元化，但见证携带了联合信息。三比特偶奇偶关系的两两投影都是满的；布尔二元约束即使加上布尔辅助变量也表达不了它。"
+    ],
+    [
+     "Two GHZ states are orthogonal yet share all two-body marginals. Any finite measurement compiles into a binary tree of depth log two of N, rounded up, but dimension stays: an isometry into a qubit needs dimension at most two.",
+     "两个 GHZ 态彼此正交，却有完全相同的两体边缘。任意有限测量都可编译为深度为 log₂N（向上取整）的二叉树，但维数保留：等距嵌入量子比特要求维数至多为二。"
+    ]
+   ]
+  },
+  {
+   "id": "rootcode",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Two A four lattices glue in exactly two strict integral ways, both E8, graded forty-eight plus four fifties. A glue root alpha and a root beta with pairing minus one make beta and beta plus alpha a qubit across two grades.",
+     "两个 A₄ 格恰有两种严格积分胶合，都是 E8，分级为 48 加四个 50。胶合根 α 与根 β 配对为 −1，使 β 与 β + α 成为一个跨越两个分级的量子比特。"
+    ],
+    [
+     "On this code the grading phase acts as one and omega, and its cube is omega squared times the golden gate squared. But the gate has projective order ten, every phase power an order dividing five, so the phase never gives it.",
+     "在这个码上，分级相位作用为 1 与 ω，它的立方等于 ω² 乘以黄金门的平方。但黄金门的射影阶是十，而相位的每个幂的射影阶都整除五，所以相位永远给不出它。"
+    ]
+   ]
+  },
+  {
+   "id": "braid",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Braiding fixes the second gate: golden gates on rank-one projections P and Q satisfy the braid relation exactly when the trace of P Q is one over phi squared, about point three eight two.",
+     "编织确定第二个门：作用在秩一投影 P、Q 上的黄金门满足编织关系，恰当且仅当 tr(PQ) = 1/φ²，约为 0.382。"
+    ],
+    [
+     "In SU two each normalised gate has order twenty, yet their fifth powers multiply to trace minus four plus two root five, with a conjugate below minus two, so the pair is dense. Pairs on the eight simple roots give sixteen gates generating compact E8.",
+     "在 SU(2) 中每个归一化的门阶为二十，但它们五次幂之积的迹为 −4 + 2√5，其共轭小于 −2，所以这一对门稠密。在八个简单根上各放一对，得到生成紧 E8 的十六个门。"
+    ]
+   ]
+  },
+  {
+   "id": "limits",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Binary recursion adds no information: five phase states on the qubit code are identified with probability at most two fifths, attained, and no finite binary recursion beats it. A five-dimensional coherent source allows perfect discrimination by a depth-three tree.",
+     "二元递归不增加信息：量子比特码上的五个相位态，识别概率至多为 2/5 且可达，任何有限二元递归都超不过它。五维相干来源则允许用深度为三的二叉树完美区分。"
+    ],
+    [
+     "A finite menu has countably many words, so it cannot exactly cover E8, and every continuous homomorphism between native PU thirteen and E8 is trivial: rank twelve exceeds eight, and two hundred forty-eight exceeds one sixty-eight.",
+     "有限菜单只有可数个字，不能精确覆盖 E8；原生 PU(13) 与 E8 之间的每个连续同态都是平凡的：秩十二大于八，而 248 大于 168。"
+    ]
+   ]
+  },
+  {
+   "id": "stability",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Global consistency is not finite calibration. Square-root stability is sharp: for each theta some valid response has four-time residual at most fifty-two over two hundred forty-three theta squared, yet Born deviation at least theta over sixteen.",
+     "全域相容不等于有限标定。平方根稳定性是锐的：对每个 θ，都有合法响应的四时残差至多为 (52/243)θ²，而 Born 偏差至少为 θ/16。"
+    ],
+    [
+     "Finite checks leave a fixed gap: for any finite queries and four-time contexts, some continuous response matches Born on all of them, keeps every basis calibration, yet misses by over one thirty-second on another actual context.",
+     "有限核对留下固定间隙：对任意有限的查询与四时上下文集合，总有连续响应在其上与 Born 律完全一致、保留全部基标定，却在另一个实际上下文上偏差超过 1/32。"
+    ]
+   ]
+  },
+  {
+   "id": "support",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Uncertainty lives in joint support. Read m plus root two n twice with equal-range noise: opposite noise lets the average recover every source; parallel noise defeats any finite label, as sources grow quadratically and room linearly.",
+     "不确定性藏在联合支撑里。用同样幅度的噪声把 m + √2n 读两次：噪声相反时，平均值恢复每个来源；噪声平行时，任何有限标签都不够，因为来源按平方增长，容量只按线性增长。"
+    ],
+    [
+     "Binary incidence still blocks global assignments: with an odd number of contexts, each mode in two, every context's occupation is even. For Kurzynski's eighteen modes and nine contexts, an assignment exists exactly when n is even.",
+     "二元 incidence 仍会阻止全局赋值：上下文个数为奇数、每个模式恰属两个上下文时，每个上下文的占据数都是偶数。对 Kurzynski 的十八模式、九上下文，赋值存在恰当且仅当 n 为偶数。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "A relative gate and a sphere, a square law forced by every frame, anticommutation for i, Gram rank three, a root qubit in E8, the braid angle and sixteen gates, two fifths, sharp stability and parity, in one conditional model.",
+     "相对门与球面，所有框架迫使的平方律，给出 i 的反对易，Gram 秩三，E8 中的根量子比特，编织角与十六个门，2/5，锐的稳定性与奇偶性，全部容纳在一个条件模型中。"
+    ],
+    [
+     "The Kurzynski parity theorem is frozen in Lean; Gleason, Krumm–Müller, joint measurability and binary trees are published inputs; the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "Kurzynski 奇偶定理已在 Lean 中冻结；Gleason、Krumm–Müller、联合可测性与二叉树结果是已发表的输入；其余结论在理论卷中论证，有限计算都为本片重新做过。"
+    ]
+   ]
+  }
+ ]
+}
