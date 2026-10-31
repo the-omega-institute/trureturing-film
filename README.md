@@ -103,6 +103,9 @@ Release page.
 | 084 | [AURIC PREDICTIVE WAVES IV · FIXED ERROR, FINITE MEMORY AND THE RETURNED RECORD](films/084-predwaves4/) · AURIC 相容预测波 第四部：固定误差、有限记忆与回返记录 | 7:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 207 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-084-v1/TRURETURING_084_narrated_EN_subs_ZH-EN.mp4) |
 | 085 | [AURIC PREDICTIVE WAVES V · REFLECTED THRESHOLDS AND CERTIFIED GAPS](films/085-predwaves5/) · AURIC 相容预测波 第五部：反射阈值与认证间隙 | 7:30 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 204 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-085-v1/TRURETURING_085_narrated_EN_subs_ZH-EN.mp4) |
 | 086 | [AURIC V10 · COHERENT RELATIONS AND RECURSIVE OBSERVATION](films/086-auricv10/) · AURIC V10：相干关系与递归观测 | 7:29 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 205 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-086-v1/TRURETURING_086_narrated_EN_subs_ZH-EN.mp4) |
+| 087 | [AURIC V12–V14 · FINITE RESOLUTION, EXISTENTIAL QUANTIFIERS AND QUANTUM RECORDS](films/087-auricv12/) · AURIC V12–V14：有限分辨率、存在量词与量子记录 | 7:30 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 205 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-087-v1/TRURETURING_087_narrated_EN_subs_ZH-EN.mp4) |
+| 088 | [AURIC V15–V16 · GOLDEN GATE ARITHMETIC AND VARIATIONAL PREDICTION](films/088-auricv15/) · AURIC V15–V16：黄金门的算术与变分预测 | 7:27 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 203 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-088-v1/TRURETURING_088_narrated_EN_subs_ZH-EN.mp4) |
+| 089 | [AURIC V17–V18 · QUANTUM PYTHAGORAS AND RECURSIVE GOLDEN GATES](films/089-auricv17/) · AURIC V17–V18：量子勾股与递归黄金门 | 7:30 | EN (AI) / music-only | ZH + EN | [⬇ 1080p · 207 MB](https://github.com/the-omega-institute/trureturing-film/releases/download/film-089-v1/TRURETURING_089_narrated_EN_subs_ZH-EN.mp4) |
 
 ## Layout · 结构
 
