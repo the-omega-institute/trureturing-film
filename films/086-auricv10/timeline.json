@@ -1,0 +1,293 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 20.794
+  },
+  {
+   "id": "title",
+   "start": 20.794,
+   "end": 34.608
+  },
+  {
+   "id": "fiber",
+   "start": 34.608,
+   "end": 67.872
+  },
+  {
+   "id": "kernel",
+   "start": 67.872,
+   "end": 104.83
+  },
+  {
+   "id": "born",
+   "start": 104.83,
+   "end": 139.429
+  },
+  {
+   "id": "instrument",
+   "start": 139.429,
+   "end": 174.263
+  },
+  {
+   "id": "network",
+   "start": 174.263,
+   "end": 206.174
+  },
+  {
+   "id": "records",
+   "start": 206.174,
+   "end": 238.072
+  },
+  {
+   "id": "future",
+   "start": 238.072,
+   "end": 272.682
+  },
+  {
+   "id": "recursion",
+   "start": 272.682,
+   "end": 305.66
+  },
+  {
+   "id": "mirrors",
+   "start": 305.66,
+   "end": 339.62
+  },
+  {
+   "id": "compile",
+   "start": 339.62,
+   "end": 374.495
+  },
+  {
+   "id": "observe",
+   "start": 374.495,
+   "end": 410.15
+  },
+  {
+   "id": "finale",
+   "start": 410.15,
+   "end": 448.861
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 19.794,
+   "en": "This is the first film on the versioned Auric volumes. Version ten builds one typed theory: relations and coherent kernels, Hilbert spaces and probability, record networks, and lastly the future quotient and computation by reflection.",
+   "zh": "这是 AURIC 版本系列的第一部影片。第十版构建了一套有类型的理论：关系与相干核，Hilbert 空间与概率，记录网络，最后是未来商与反射计算。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 21.994,
+   "end": 26.405,
+   "en": "Auric version ten: coherent relations and recursive observation.",
+   "zh": "AURIC V10：相干关系与递归观测。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 27.005,
+   "end": 33.208,
+   "en": "Five modes, one hidden coupling, three mirrors, and one phase address that makes every state visible.",
+   "zh": "五个模式，一个隐藏的联合量，三面镜子，以及一个让每个态都可见的相位地址。"
+  },
+  {
+   "i": 3,
+   "scene": "fiber",
+   "start": 35.408,
+   "end": 49.232,
+   "en": "Words with no adjacent ones are counted by Fibonacci numbers; at length three they are the five modes. Fixing three occupation means still leaves one sliding direction, set by kappa, the weight of mode one-three.",
+   "zh": "没有两个相邻 1 的字由 Fibonacci 数计数；长度为三时正是五个模式。固定三个占据均值后，仍留下一个滑动方向，由 κ 决定，即模式 13 的权重。"
+  },
+  {
+   "i": 4,
+   "scene": "fiber",
+   "start": 49.832,
+   "end": 66.472,
+   "en": "A response is fixed by those means exactly when its joint coefficient J vanishes. For five quantum modes near the uniform state, with means two fifths, two fifths, one fifth, twenty-one real directions stay invisible: kappa and twenty coherences.",
+   "zh": "一个响应由这些均值决定，当且仅当它的联合系数 J 为零。在五个量子模式上，在均匀态附近、均值取 2/5、2/5、1/5 时，仍有二十一个实方向不可见：κ 与二十个相干方向。"
+  },
+  {
+   "i": 5,
+   "scene": "kernel",
+   "start": 68.672,
+   "end": 86.25,
+   "en": "Coherence enters as a positive kernel: divide out null vectors and labels become vectors with the kernel as inner products, in dimension equal to its rank, unique up to unitary. Pairwise consistency is not enough; this kernel has eigenvalue minus one.",
+   "zh": "相干以正定核的形式进入。商去零模之后，标签变成向量，其内积就是核，维数等于核的秩，并在酉变换下唯一。两两相容还不够；这个核有特征值 −1。"
+  },
+  {
+   "i": 6,
+   "scene": "kernel",
+   "start": 86.85,
+   "end": 103.43,
+   "en": "A complex structure needs a metric and orientation on a real plane; odd dimensions have none, as the determinant of J would square to minus one. Kernel-preserving refinements glue into one Hilbert limit, and lifted readouts keep an outside outcome.",
+   "zh": "复结构需要实平面上的度量与定向；奇数维没有复结构，因为 (det J)² 会等于 −1。保核的细化拼成唯一的 Hilbert 直极限，提升后的读出要保留一个外部结果。"
+  },
+  {
+   "i": 7,
+   "scene": "born",
+   "start": 105.63,
+   "end": 121.061,
+   "en": "Probability is a separate input: a normalised weight on effects, additive whenever two effects fit under the identity, is the trace against one unique density operator; a pure preparation gives the squared modulus of the inner product.",
+   "zh": "概率是另一项输入。一个定义在全部效果上的归一权重，只要两个效果之和不超过单位就可加，那么它就是对唯一密度算子取迹；纯制备时，它给出内积模的平方。"
+  },
+  {
+   "i": 8,
+   "scene": "born",
+   "start": 121.661,
+   "end": 138.029,
+   "en": "Five modes alone do not select quantum theory: a classical chain on the same Fibonacci tree, for any p between zero and one, has consistent probabilities, positive kernels, a Hilbert limit and a recursive predictor, with commuting readouts.",
+   "zh": "仅有五个模式并不能选出量子理论。同一棵 Fibonacci 树上的经典链，p 取 0 与 1 之间任意值，都有相容的概率、正定核、Hilbert 极限和递归预测者，而所有读出仍彼此交换。"
+  },
+  {
+   "i": 9,
+   "scene": "instrument",
+   "start": 140.229,
+   "end": 156.076,
+   "en": "An observation atom is an instrument, not just an effect. Complete positivity means a positive Choi matrix and a Kraus form, with smallest environment the Choi rank. Identity and reset share the effect identity yet leave different states.",
+   "zh": "观测原子是一个仪器，而不只是一个效果。完全正性等价于 Choi 矩阵半正定以及 Kraus 形式，最小环境维数等于 Choi 秩。恒等通道与重置通道有相同的效果 I，留下的态却不同。"
+  },
+  {
+   "i": 10,
+   "scene": "instrument",
+   "start": 156.676,
+   "end": 172.863,
+   "en": "Quantum lifts of a classical function are positive matrices with identity blocks on the fibres. For NAND, a vector z of norm at most one remains: four environment dimensions, or three when z has norm one, giving a perfect logical qubit.",
+   "zh": "经典函数的量子延拓就是在各纤维上为单位块的半正定矩阵。对 NAND（纤维大小三和一），剩下一个范数不超过一的向量 z：环境需要四维；当 z 的范数为一时只需三维，并给出一个完美的逻辑 qubit。"
+  },
+  {
+   "i": 11,
+   "scene": "network",
+   "start": 175.063,
+   "end": 189.468,
+   "en": "A static network needs no clock: every topological order of a typed acyclic network gives the same channel, while operations on one wire keep their order. Edge phases up to gauge are fixed by loop holonomies.",
+   "zh": "静态网络不需要时钟。有类型无环网络的任意拓扑排序都给出同一个通道，同一条线上的操作仍保持次序。边相位在规范意义下由闭环 holonomy 决定。"
+  },
+  {
+   "i": 12,
+   "scene": "network",
+   "start": 190.068,
+   "end": 204.774,
+   "en": "The five-mode graph has five edges on five vertices, so one loop. With one fixed phase per site its holonomy is always one; a second phase direction at one site adds a relative phase no gauge removes.",
+   "zh": "五模式图有五条边、五个顶点，所以只有一个闭环。每个位置固定一个相位时，它的 holonomy 恒为一。在某个位置加入第二个相位方向，会带来一个任何规范都消不掉的相对相位。"
+  },
+  {
+   "i": 13,
+   "scene": "records",
+   "start": 206.974,
+   "end": 221.965,
+   "en": "From mode zero, arrival at one-three starts as t to the fourth over four, times A squared plus B squared plus two A B cosine phi. Conjugating the Hamiltonian changes no such reading, so phi and minus phi look alike.",
+   "zh": "从模式 0 出发，到达 13 的概率起始为 t⁴/4 · (A² + B² + 2AB cos Φ)。把 Hamiltonian 取复共轭，这类读出都不改变，所以 Φ 与 −Φ 看起来一样。"
+  },
+  {
+   "i": 14,
+   "scene": "records",
+   "start": 222.565,
+   "end": 236.672,
+   "en": "A path record with overlap gamma scales the fringe: two settings read the product h gamma, with visibility proportional to its size. A hidden record gives the intended gate exactly when every Gram entry is one.",
+   "zh": "重叠为 γ 的路径记录会缩放干涉条纹：两次设置读出乘积 hγ，可见度与 |γ| 成正比。隐藏的记录恰好在每个 Gram 元素都为一时，才精确给出指定的门。"
+  },
+  {
+   "i": 15,
+   "scene": "future",
+   "start": 238.872,
+   "end": 253.414,
+   "en": "An observer holds only what future tests can tell apart. Pull terminal effects back through every allowed word: the span stops within d squared minus r zero steps, and two states are equivalent exactly when they agree on it.",
+   "zh": "观察者只掌握未来测试能区分的东西。把终端效果沿每个允许的字拉回：张成空间在 d² − r₀ 步之内停止增长；两个态等价，当且仅当它们在这个空间上取值相同。"
+  },
+  {
+   "i": 16,
+   "scene": "future",
+   "start": 254.014,
+   "end": 271.282,
+   "en": "The quotient updates linearly with r minus one affine coordinates; a k-dimensional quantum memory needs k squared at least r. Moving state, ruler and controls together changes nothing, and a joint unknown is not two averages: one versus one half.",
+   "zh": "这个商按线性规则自我更新，需要 r − 1 个仿射坐标；k 维量子记忆需要 k² ≥ r。把状态、尺子和控制一起换帧不改变任何读出；共同的未知也不等于两个平均：一对一半。"
+  },
+  {
+   "i": 17,
+   "scene": "recursion",
+   "start": 273.482,
+   "end": 285.873,
+   "en": "Complete instruments make prefix probabilities consistent, defining one measure on infinite record histories, and the prediction of a fixed question converges in mean square to the best the records allow.",
+   "zh": "完整仪器使前缀概率相容，从而在无限记录历史上定义唯一的测度；对一个固定问题的预测在均方意义下收敛到记录所允许的最佳预测。"
+  },
+  {
+   "i": 18,
+   "scene": "recursion",
+   "start": 286.473,
+   "end": 304.26,
+   "en": "Flipping with X never settles. A contraction by lambda below one settles: with step errors epsilon, the distance ends at most epsilon over one minus lambda. Postselection on probability at least eta can inflate an error delta to two delta over eta.",
+   "zh": "永远用 X 翻转就不会稳定。收缩系数 λ < 1 的映射会稳定：每步误差为 ε 时，到固定态的距离最终至多为 ε/(1 − λ)。以至少 η 的概率后选择，误差 δ 可能被放大到至多 2δ/η。"
+  },
+  {
+   "i": 19,
+   "scene": "mirrors",
+   "start": 306.46,
+   "end": 323.852,
+   "en": "Two reflections at angle theta rotate by two theta, but powers of one gate commute and two fixed involutions never fill the unitaries. Three reflections, Z and two tilted by an irrational alpha toward X and Y, are dense; three is the minimum.",
+   "zh": "夹角为 θ 的两次反射给出 2θ 的旋转。但一个门的幂彼此交换，两个固定对合也填不满酉群。三个反射——Z，以及以角 α（α/π 为无理数）分别倾向 X 和 Y 的两个——生成稠密群，而三是最少数目。"
+  },
+  {
+   "i": 20,
+   "scene": "mirrors",
+   "start": 324.452,
+   "end": 338.22,
+   "en": "Natively, a pi pulse on the middle site sends zero zero zero to the helper and back with a minus sign: on the code, the gate minus one, one, one, one. Two pulses on each side make it C Z.",
+   "zh": "原生地，中位上的 π 脉冲把 000 送到辅助模式再带回来，并留下一个负号：在代码上就是 diag(−1, 1, 1, 1)。两侧各加两个脉冲，就把它变成 CZ。"
+  },
+  {
+   "i": 21,
+   "scene": "compile",
+   "start": 340.42,
+   "end": 356.75,
+   "en": "With every phase zero, controlled Y costs seven pulses and three make a swap. One Y address then compiles any known circuit, forty-two pulses per unit of distance plus five per C Z; without it, the plus state stays at least one half away.",
+   "zh": "所有相位为零时，受控 Y 需要七个脉冲，三个受控 Y 组成一次交换。再加一个 Y 地址就能编译任何已知电路，每单位距离四十二个脉冲，每个 CZ 再加五个；没有它，加态始终相差至少 1/2 的迹距离。"
+  },
+  {
+   "i": 22,
+   "scene": "compile",
+   "start": 357.35,
+   "end": 373.096,
+   "en": "On one atom, three zero-phase rotations generate only a twisted copy of SO five. A fourth-order phase on mode one-three completes the control: all unitaries with determinant a fourth root of unity, so every unitary channel.",
+   "zh": "在单个五模式原子上，三个零相位旋转只生成 SO(5) 的一个扭转副本。在模式 13 上加一个四阶相位就补全了控制：得到所有行列式为四次单位根的酉矩阵，从而得到每个五维酉通道。"
+  },
+  {
+   "i": 23,
+   "scene": "observe",
+   "start": 375.296,
+   "end": 392.138,
+   "en": "Order matters: pulse two then pulse one sends mode zero to mode two, the reverse to mode one. The address also changes what an observer sees: zero-phase menus reach at most d times d plus one over two directions, the address all d squared.",
+   "zh": "次序很重要：先脉冲 2 再脉冲 1，把模式 0 送到模式 2；反过来的次序则送到模式 1。相位地址还改变观察者能看到的东西：零相位菜单至多达到 d(d + 1)/2 个方向，加上这个地址则是全部 d² 个。"
+  },
+  {
+   "i": 24,
+   "scene": "observe",
+   "start": 392.738,
+   "end": 408.75,
+   "en": "Reporting a rational parameter exactly needs at least k minus d exact queries; finitely many noisy ones never suffice, and a countable snapshot cannot restore a forgotten noise sample. Full root identification remains open.",
+   "zh": "要精确报告一个有理参数，至少需要 k − d 次精确查询；有限次带噪查询永远不够，可数快照也无法恢复已遗忘的噪声样本。完整的原根识别仍未解决。"
+  },
+  {
+   "i": 25,
+   "scene": "finale",
+   "start": 411.15,
+   "end": 424.676,
+   "en": "A hidden kappa, kernels as vectors, effects as densities, instruments with records, clockless networks, loop phases, the future quotient, settling predictions, three mirrors, one phase address, and the price of exactness.",
+   "zh": "隐藏的 κ，变成向量的核，变成密度算子的效果，带记录的仪器，无时钟的网络，闭环相位，未来商，趋于稳定的预测，三面镜子，一个相位地址，以及精确知识的代价。"
+  },
+  {
+   "i": 26,
+   "scene": "finale",
+   "start": 425.276,
+   "end": 439.861,
+   "en": "The effect form of Gleason's theorem, the Choi and Stinespring forms and the elementary-gate decompositions are published inputs, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+   "zh": "效果版 Gleason 定理、Choi 与 Stinespring 表示以及基本门分解是已发表的输入，其余结论在理论卷中论证，有限计算都为本片重新做过。"
+  }
+ ],
+ "duration": 448.861
+}
