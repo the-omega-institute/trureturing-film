@@ -1,0 +1,197 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "scenes": [
+  {
+   "id": "open",
+   "lead": 4.0,
+   "tail": 1.0,
+   "lines": [
+    [
+     "The first two parts found the native phase tensor and let a state bind to its Green field. Part three returns to the moving native process: how fast its long-time laws arrive, and what it costs to keep a whole history narrow.",
+     "前两部找到了原生相位张量，并让一个态束缚在它的 Green 场上。第三部回到运动着的原生过程本身：它的长时极限律以多快的速度到来，以及让一整段历史保持狭窄要付出多少代价。"
+    ]
+   ]
+  },
+  {
+   "id": "title",
+   "lead": 1.2,
+   "tail": 1.4,
+   "lines": [
+    [
+     "FIB-native long-time phase, part three: quantitative rates and the price of confinement.",
+     "FIB 原生长时相位第三部：定量速率与约束的代价。"
+    ],
+    [
+     "The limit laws arrive at explicit rates, and every narrowing of a path has a sharp price in relative entropy.",
+     "极限律以明确的速率到来；而把路径收窄的每一种方式，都有一个以相对熵计量的精确价格。"
+    ]
+   ]
+  },
+  {
+   "id": "rates",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Keep the native process: a height diffusing in an interval and killed at both ends, and three phases driven by its coefficient c. Two exact laws are used: the ground-state law Q, and survival up to exactly the horizon.",
+     "保留原生过程：高度在一个区间内扩散，在两端被杀死；三个相位由它的系数 c 驱动。这里使用两个精确的律：基态律 Q，以及恰好存活到终点时刻的律。"
+    ],
+    [
+     "Under both, the rescaled phase path with its terminal height is within log squared T over root T of Brownian motion with tensor M, in path transport. The joint endpoint is within one over T, plus a height error decaying at rate three lambda.",
+     "在这两个律下，缩放后的相位路径连同终点高度，在路径输运距离下与张量为 M 的 Brownian 运动相差至多 (log T)²/√T。联合终点相差至多 1/T，另加一个以速率 3λ 衰减的高度误差。"
+    ]
+   ]
+  },
+  {
+   "id": "coupling",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Why these rates? A bounded corrector makes every coefficient average over a window of length L fluctuate only on the scale root L. Then a dyadic tree of Gaussian bridges couples the actual path to Brownian motion.",
+     "这些速率从何而来？一个有界的校正子使得每个系数在长度为 L 的时间窗上的平均值，只在 √L 的尺度上涨落。然后用一棵由 Gauss 桥构成的二进树，把实际路径与 Brownian 运动耦合起来。"
+    ],
+    [
+     "Each node's error obeys a square-root comparison: the gap of square roots is at most the gap of matrices, over root lambda min. Log T levels cost the logarithm; a signed cancellation with the terminal height gives one over T.",
+     "每个节点的误差服从一个平方根比较：平方根之差至多为矩阵之差除以 √λ_min。log T 层带来对数损失；与终点高度之间的带号抵消则给出 1/T。"
+    ]
+   ]
+  },
+  {
+   "id": "signs",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "In the signed source coordinates the third phase is multiplied by kappa, so the tensor becomes M hat, with determinant kappa squared det M. The collapsed zero-parameter target is close in transport, within kappa plus the change in M, yet at total variation distance one.",
+     "在带号的源坐标中，第三个相位乘以 κ，于是张量变成 M̂，其行列式为 κ²·det M。坍缩到零参数的目标律在输运距离下很近，误差不超过 κ 加上 M 的变化量，但它们的全变差距离恰为 1。"
+    ],
+    [
+     "Without conditioning, the live endpoint measure, times e to the lambda tau, approaches phi of k times phi of y times the Gaussian, a measure of mass phi of k times J. Stopped phases instead shrink like one over root T: the mean exit time is at most L squared over eight epsilon squared.",
+     "不加条件时，存活终点测度乘以 e^(λτ) 后趋于 φ(k)φ(y) 乘以 Gauss 密度，这个测度的总质量是 φ(k)·J。停止的相位则以 1/√T 的速率收缩：平均逃逸时间至多为 L²/(8ε²)。"
+    ]
+   ]
+  },
+  {
+   "id": "band",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now confine a whole history: the phase displacement along a chosen unit normal must stay within R up to time T, given survival. Conditionally it is a time-changed Brownian motion, so the classical interval series applies, with leading coefficient four over pi.",
+     "现在约束一整段历史：在给定存活的条件下，相位位移沿一个选定单位法向的分量，在时刻 T 之前始终不超出 R。在条件下它是一个时间变换后的 Brownian 运动，因此经典的区间级数适用，首项系数为 4/π。"
+    ],
+    [
+     "The exponent is T times the height band at frequency pi h over two R, minus lambda, so minus log p grows like pi squared over four, times e M hat e, times T over R squared. Along the primitive normal the band is exactly quadratic.",
+     "指数等于 T 乘以频率 πh/(2R) 处的高度能带减去 λ，所以 −log p 的增长相当于 π²/4 乘以 eᵀM̂e 再乘以 T/R²。沿本原法向，能带恰好是二次的。"
+    ]
+   ]
+  },
+  {
+   "id": "frontier",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "What is the least relative entropy that makes confinement likely? With confidence r, the minimum is minus log survival plus the binary divergence of r from p, attained by mixing the two conditioned laws.",
+     "要让约束以较大概率发生，最少需要多少相对熵？在置信度为 r 时，最小值等于 −log（存活概率）加上 r 相对于 p 的二元散度，并由两个条件律的混合取到。"
+    ],
+    [
+     "So a bounded excess makes confinement improbable. Yet conditioning on a slab of radius T to the quarter keeps the entropy rate at lambda while flattening every prefix onto a plane: the rate alone cannot select three directions.",
+     "所以有界的额外代价会让约束变得不太可能。然而，以半径 T^(1/4) 的平板作条件，熵率仍保持为 λ，同时把每一段前缀都压平到一个平面上：仅凭熵率无法选出三个方向。"
+    ]
+   ]
+  },
+  {
+   "id": "feedback",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Now restrict to persistent feedback, fixed in advance: a height amplitude psi equal to phi times f, and a phase current w. The exact likelihood gives the rate lambda, plus the weighted energy of f, plus a quarter of w squared averaged over psi squared.",
+     "现在限制为事先固定的持续反馈：高度振幅 ψ = φf，以及相位流 w。精确的似然给出速率：λ，加上 f 的加权能量，再加上 w² 在 ψ² 下平均值的四分之一。"
+    ],
+    [
+     "Equality holds only for the ground-state law. Centred by its own mean current, every controlled path still tends to Brownian motion, and the current's corrector only adds a positive semidefinite tensor, so it cannot cancel the phase noise.",
+     "等号只对基态律成立。以自身的平均流居中后，每条受控路径仍趋于 Brownian 运动；而相位流的校正子只会增加一个半正定张量，所以它无法抵消相位噪声。"
+    ]
+   ]
+  },
+  {
+   "id": "weak",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "With budget B, the least transport that feedback can leave in a direction has an exact dual form: the supremum over s of the band minus lambda minus B, over s, attained by one positive eigenfunction. The primitive directions keep one ninth at every budget.",
+     "在预算 B 下，反馈在某个方向上所能留下的最小输运，有一个精确的对偶形式：对 s 取能带减去 λ 再减去 B、再除以 s 的上确界，并由一个正的本征函数取到。本原方向在任何预算下都保持 1/9。"
+    ],
+    [
+     "The weakest direction decays like one over one plus B, squared, from both sides. The matching family concentrates the amplitude where the coefficient curve touches its normal to second order, so every finite budget keeps all three directions.",
+     "最弱方向从上下两侧都按 1/(1 + B)² 衰减。与之匹配的一族控制，把振幅集中在系数曲线与其法平面二阶相切的地方；所以每一个有限预算都保留全部三个方向。"
+    ]
+   ]
+  },
+  {
+   "id": "circle",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Let the feedback read the wrapped primitive character alpha, whose coefficient is exactly one. A circle policy f costs its energy J of f, and the tensor lies between d f times M hat and M hat, where d f inverts the mean of f to the minus two.",
+     "让反馈读取卷绕的本原特征 α，它的系数恰好等于 1。一个圆周策略 f 的代价是它的能量 J(f)；张量介于 d_f·M̂ 与 M̂ 之间，其中 d_f 是 f⁻² 平均值的倒数。"
+    ],
+    [
+     "The sharp boundary is one quarter: the weakest ratio is the larger of one minus four B and zero, attained by f squared equal to one plus r cosine alpha. At B equal one tenth, r is zero point eight and the ratio three fifths.",
+     "精确的边界是四分之一：最弱比值等于 1 − 4B 与 0 中较大者，由 f² = 1 + r·cos α 取到。当 B = 1/10 时，r = 0.8，比值为 3/5。"
+    ]
+   ]
+  },
+  {
+   "id": "tubes",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Let the envelope grow like r times one plus t to the alpha, alpha below one half. One consistent cosine law stays inside forever, and its extra entropy grows like T to the one minus two alpha, with the same sharp constant as the best in the class.",
+     "让包络按 r(1 + t)^α 增长，其中 α < 1/2。一个相容的余弦律永远留在包络之内，它的额外熵按 T^(1−2α) 增长，常数与这一类中最优者相同，且是精确的。"
+    ],
+    [
+     "At the critical square-root tube, the probability decays only like a power of T, whose exponent nu is the principal Dirichlet eigenvalue of an Ornstein–Uhlenbeck operator. For m one ninth and r root two over three, nu is exactly one.",
+     "在临界的平方根管道中，概率只按 T 的幂次衰减，其指数 ν 是一个 Ornstein–Uhlenbeck 算子的主 Dirichlet 本征值。当 m = 1/9、r = √2/3 时，ν 恰好等于 1。"
+    ]
+   ]
+  },
+  {
+   "id": "lattice",
+   "lead": 0.8,
+   "tail": 1.4,
+   "lines": [
+    [
+     "Finally, can finite records produce this transport? A lazy killed walk table, rounded to B bits, chooses height steps, and one fair sign per cell moves the phases along c. Every prefix is lawful and stays inside the interval.",
+     "最后，有限的记录能产生这种输运吗？一张惰性被杀随机游走的转移表，舍入到 B 位，用来选择高度步；每个单元再用一个公平的符号，让相位沿 c 移动。每一段前缀都合法，并且停留在区间之内。"
+    ],
+    [
+     "With mesh one over n, n to the fourth cells and about eight log n bits, the paths tend to Brownian motion with M hat. Yet the finite law is singular: its relative entropy is infinite.",
+     "取网格 1/n、n⁴ 个单元、大约 8·log n 位，路径趋于以 M̂ 为张量的 Brownian 运动。然而这个有限律是奇异的：它的相对熵为无穷大。"
+    ]
+   ]
+  },
+  {
+   "id": "finale",
+   "lead": 1.0,
+   "tail": 9.0,
+   "lines": [
+    [
+     "Rates of log squared over root T and one over T, an exact confinement band, a binary entropy frontier, feedback that keeps three directions, a quarter threshold, growing and critical tubes, and lawful finite records.",
+     "(log T)²/√T 与 1/T 的速率，精确的约束能带，二元熵前沿，保留三个方向的反馈，四分之一阈值，增长的与临界的管道，以及合法的有限记录。"
+    ],
+    [
+     "The martingale limit theorem, the entropy variational principle, the circle inequalities and the Lifson–Jackson formula are published inputs, the rest is argued in the theory volume, and the finite computations were redone for this film.",
+     "鞅极限定理、熵变分原理、圆周不等式和 Lifson–Jackson 公式是已发表的输入；其余内容在理论卷中论证；有限计算为本片重新完成。"
+    ]
+   ]
+  }
+ ]
+}
