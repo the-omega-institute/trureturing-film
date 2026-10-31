@@ -1,0 +1,251 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0.0,
+   "end": 21.307
+  },
+  {
+   "id": "title",
+   "start": 21.307,
+   "end": 37.928
+  },
+  {
+   "id": "setup",
+   "start": 37.928,
+   "end": 70.749
+  },
+  {
+   "id": "waves",
+   "start": 70.749,
+   "end": 104.65
+  },
+  {
+   "id": "glue",
+   "start": 104.65,
+   "end": 138.538
+  },
+  {
+   "id": "rate",
+   "start": 138.538,
+   "end": 174.675
+  },
+  {
+   "id": "moments",
+   "start": 174.675,
+   "end": 209.477
+  },
+  {
+   "id": "modes",
+   "start": 209.477,
+   "end": 243.194
+  },
+  {
+   "id": "gram",
+   "start": 243.194,
+   "end": 276.131
+  },
+  {
+   "id": "correct",
+   "start": 276.131,
+   "end": 309.986
+  },
+  {
+   "id": "target",
+   "start": 309.986,
+   "end": 343.664
+  },
+  {
+   "id": "finale",
+   "start": 343.664,
+   "end": 387.107
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "scene": "open",
+   "start": 4.0,
+   "end": 20.307,
+   "en": "Parts one and two built the attractive boundary response, isolated one angular channel, and supplied a core solution and an exterior family. Part three glues them inside the native operator domain and measures how small the leftover residual becomes.",
+   "zh": "第一、二部建立了吸引边界响应，隔离出单一角通道，并给出了核心解与外部解族。第三部在原生算子域内把它们粘合起来，并测量剩下的残差到底有多小。"
+  },
+  {
+   "i": 1,
+   "scene": "title",
+   "start": 22.507,
+   "end": 29.055,
+   "en": "FIB-native attractive boundary, part three: phase-aligned gluing, zero modes and compatibility.",
+   "zh": "FIB 原生吸引边界响应，第三部：相位对齐粘合、零模与相容校正。"
+  },
+  {
+   "i": 2,
+   "scene": "title",
+   "start": 29.655,
+   "end": 36.528,
+   "en": "Two standing waves, one phase, a ladder of energies, and a residual that is small, but not yet small enough.",
+   "zh": "两条驻波，一个相位，一架能量阶梯，以及一个已经很小、但还不够小的残差。"
+  },
+  {
+   "i": 3,
+   "scene": "setup",
+   "start": 38.728,
+   "end": 54.833,
+   "en": "Keep everything native: the fields U, V and Z, the full source P, raw Lebesgue measure, and the Friedrichs operator A, pole included. In gauge coordinates, four times the mass of f is the integral of e to the two ell times its slice mass.",
+   "zh": "一切保持原生：场 U、V、Z，完整源 P，原始 Lebesgue 测度，以及包含极点的完整 Friedrichs 算子 A。在规范坐标中，f 的质量的四倍等于 e^(2ℓ) 乘以切片质量的积分。"
+  },
+  {
+   "i": 4,
+   "scene": "setup",
+   "start": 55.433,
+   "end": 69.349,
+   "en": "Far out, P is e to the minus two ell times q n over two pi, plus order e to the minus four ell. Our sample: n equal two, threshold lambda two equal to five point two three, and g equal to eight.",
+   "zh": "在远处，P 等于 e^(−2ℓ) 乘 q_n/2π，再加 e^(−4ℓ) 阶的误差。我们的样例取 n = 2，此时阈值 λ₂ = 5.23，并取 g = 8。"
+  },
+  {
+   "i": 5,
+   "scene": "waves",
+   "start": 71.549,
+   "end": 86.967,
+   "en": "From part two, the core solution f zero runs through the pole, and its slices approach the standing wave two real part of b e to the i s ell, times psi; the exterior family F E approaches the same wave, shifted by T E.",
+   "zh": "来自第二部：核心解 f₀ 穿过极点，其切片趋于驻波 2Re(b e^(isℓ)) ψ；外部解族 F_E 趋于同一驻波，但平移了 T_E。"
+  },
+  {
+   "i": 6,
+   "scene": "waves",
+   "start": 87.567,
+   "end": 103.25,
+   "en": "Align the phases: choose T j, spaced by pi over s, so that a sign c j makes c j beta e to the minus i s T j exactly b. The energies then form a ladder, D align times e to the minus j over L.",
+   "zh": "对齐相位：选取间隔为 π/s 的 T_j，使符号 c_j 满足 c_j β e^(−isT_j) 恰好等于 b。于是能量构成一架阶梯：D_align e^(−j/L)。"
+  },
+  {
+   "i": 7,
+   "scene": "glue",
+   "start": 105.45,
+   "end": 120.34,
+   "en": "Cut the core off past ell equal to M j and hand over to the exterior wave. The glued vector h j is nonzero, lies in the native operator domain, and its norm grows at least like E j to the minus one half.",
+   "zh": "在 ℓ = M_j 之后切掉核心解，交给外部驻波。粘合向量 h_j 非零，属于原生算子域，其范数至少按 E_j^(−1/2) 增长。"
+  },
+  {
+   "i": 8,
+   "scene": "glue",
+   "start": 120.94,
+   "end": 137.138,
+   "en": "The residual is exact, E j times the cut core minus commutators on one strip, and relative to E j times the norm it is at most C times e to the M minus T, plus e to the T minus M times the slice mismatch Delta j.",
+   "zh": "残差是精确恒等式：E_j 乘以截断后的核心解，减去只存在于一条带上的交换子项；相对于 E_j 乘范数，它至多为 C(e^(M−T) + e^(T−M) Δ_j)，Δ_j 是切片失配。"
+  },
+  {
+   "i": 9,
+   "scene": "rate",
+   "start": 139.338,
+   "end": 154.912,
+   "en": "Take M j equal to theta times T j, with theta between zero and one. Then the residual over the norm is little o of E j to the one plus theta over two, at every large level; theta one half gives three quarters.",
+   "zh": "取 M_j = θT_j，0 < θ < 1。则残差与范数之比在每个足够大的层级上都是 o(E_j^((1+θ)/2))。θ = 1/2 给出四分之三次方。"
+  },
+  {
+   "i": 10,
+   "scene": "rate",
+   "start": 155.512,
+   "end": 173.275,
+   "en": "That exponent stays below one, so the relative error is not small and no negative eigenvalue is located. Delta j little o of e to the M minus T would suffice. Whether one half log one over epsilon j, minus j over two L, converges is open.",
+   "zh": "这个指数始终小于 1，所以误差相对于 E_j 并不小，也没有定位任何负本征值。若 Δ_j = o(e^(M−T)) 则足够。½ log(1/ε_j) − j/2L 是否收敛仍未解决。"
+  },
+  {
+   "i": 11,
+   "scene": "moments",
+   "start": 175.475,
+   "end": 190.956,
+   "en": "Now fix the inner cutoff. The vector U E, a fixed cutoff of F E, lies in the domain, E times its squared norm stays bounded, and an Agmon weight controls its far tail. Its residual C E lives on one annulus.",
+   "zh": "现在固定内截断。向量 U_E 是 F_E 的固定截断，属于算子域，E 乘其范数平方保持有界，Agmon 权重控制其远端尾部。它的残差 C_E 只存在于一个固定环带上。"
+  },
+  {
+   "i": 12,
+   "scene": "moments",
+   "start": 191.556,
+   "end": 208.077,
+   "en": "The sector cokernel Z is K plus the line through f zero. On K, C E pairs to order e to the minus d T; on f zero, to minus s times the imaginary part of beta bar b e to the i s T, which vanishes on the ladder.",
+   "zh": "扇区余核 Z 等于 K 加上 f₀ 张成的直线。C_E 与 K 的配对为 e^(−dT) 阶；与 f₀ 的配对为 −s Im(β* b e^(isT))，它在阶梯上恰好为零。"
+  },
+  {
+   "i": 13,
+   "scene": "modes",
+   "start": 210.277,
+   "end": 225.601,
+   "en": "Which weighted solutions are physical? Every element of K splits into slow tails, e to the minus nu ell, for each angular exponent nu up to one, plus a remainder with full graph control. True zero modes are those with no slow tail.",
+   "zh": "哪些加权解是物理的？K 的每个元素都分解为慢尾 e^(−νℓ)，对应每个不超过 1 的角指数 ν，再加上具有完整图范数控制的余项。真零模恰是没有慢尾的那些。"
+  },
+  {
+   "i": 14,
+   "scene": "modes",
+   "start": 226.201,
+   "end": 241.794,
+   "en": "Slow tails with nu below one make the ball mass grow like e to the two minus two nu times T, and at nu equal one like T. Our sample's first exponent is four point seven, so the slow set is empty: K is all true zero modes.",
+   "zh": "ν < 1 的慢尾使球内质量按 e^((2−2ν)T) 增长；ν = 1 时按 T 增长。样例的第一个指数是 4.7，所以慢集合为空：K 全由真零模构成。"
+  },
+  {
+   "i": 15,
+   "scene": "gram",
+   "start": 243.994,
+   "end": 259.959,
+   "en": "Truncate at radius e to the T and rescale each element by its own growth. The mass matrix then converges to three positive blocks, true zero, power and logarithmic, with vanishing cross terms and every angular cross pairing kept.",
+   "zh": "在半径 e^T 处截断，并按各元素自身的增长率缩放。质量矩阵收敛到三个正定块：真零块、幂块与对数块，块间交叉项消失，角交叉配对全部保留。"
+  },
+  {
+   "i": 16,
+   "scene": "gram",
+   "start": 260.559,
+   "end": 274.731,
+   "en": "Project the exterior vector off the true zero modes. The projection is little o of E to the minus one half, and E times the squared norm of what remains tends to the wall mass m W, which is strictly positive.",
+   "zh": "把外部向量投影掉真零模。投影是 o(E^(−1/2))，剩余部分的 E 倍范数平方趋于壁质量 m_W，它严格为正。"
+  },
+  {
+   "i": 17,
+   "scene": "correct",
+   "start": 276.931,
+   "end": 293.309,
+   "en": "Each slow resonance enters the residual at scale E to the nu over two, with limit a wall moment J nu. Inverting the finite mass matrix gives a compact corrector h E, of norm order E to the minus one half, cancelling every pairing with K.",
+   "zh": "每个慢共振以尺度 E^(ν/2) 进入残差，极限是壁矩 J_ν。求逆有限质量矩阵给出一个紧支撑校正项 h_E，范数为 E^(−1/2) 阶，并精确消去与 K 的全部配对。"
+  },
+  {
+   "i": 18,
+   "scene": "correct",
+   "start": 293.909,
+   "end": 308.586,
+   "en": "With the corrector the mass stays above half of m W, leaving one scalar phase, the real part of b Lambda e to the i s T. On the ladder D comp e to the minus j over L, every pairing with Z tends to zero.",
+   "zh": "加入校正项后，质量保持在 m_W 的一半以上，只剩一个标量相位：Re(bΛ e^(isT))。在阶梯 D_comp e^(−j/L) 上，与 Z 的所有配对都趋于零。"
+  },
+  {
+   "i": 19,
+   "scene": "target",
+   "start": 310.786,
+   "end": 324.808,
+   "en": "What is still missing is a norm bound. The residual with the corrector is orthogonal to all of K, but nothing yet makes it little o of root E, and the finite matrix is not an effective Schur complement of A plus E.",
+   "zh": "仍然缺少的是范数估计。加入校正项后的残差与整个 K 正交，但还没有任何结论使它成为 o(√E)，有限矩阵也不是 A + E 的有效 Schur 补。"
+  },
+  {
+   "i": 20,
+   "scene": "target",
+   "start": 325.408,
+   "end": 342.264,
+   "en": "So the target stays open: on one fixed ladder D e to the minus j over L, a nonzero domain vector at every large level whose residual, relative to E j times its norm, tends to zero, with no interval shrunk and no resonance excluded.",
+   "zh": "所以目标仍未解决：在一架固定阶梯 D e^(−j/L) 上，每个足够大的层级都要有一个非零域向量，其残差相对于 E_j 乘范数趋于零，且不缩小区间、不排除共振。"
+  },
+  {
+   "i": 21,
+   "scene": "finale",
+   "start": 344.664,
+   "end": 360.736,
+   "en": "Part three aligned two standing waves, glued them in the native domain with residual little o of E to the three quarters, paired the fixed-cutoff residual with the sector cokernel, sorted weighted solutions by slow tails, and cancelled every kernel pairing.",
+   "zh": "第三部对齐了两条驻波，在原生域内粘合，残差为 o(E^(3/4))；把固定截断残差与扇区余核配对；按慢尾对加权解分类；并消去了全部核配对。"
+  },
+  {
+   "i": 22,
+   "scene": "finale",
+   "start": 361.336,
+   "end": 378.107,
+   "en": "Kato's representation theorem, the Caccioppoli argument and Agmon weights are classical tools; the rest is argued in the theory volume, the last step is open, and the sample computations were redone for this film. This completes the three-part series.",
+   "zh": "Kato 表示定理、Caccioppoli 论证与 Agmon 权重是经典工具；其余内容在理论卷中论证，最后一步仍未解决，样例计算为本片重做。三部曲至此完成。"
+  }
+ ],
+ "duration": 387.107
+}
