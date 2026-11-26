@@ -11,6 +11,10 @@ Lean theorems under `D5/S3/{Weil,Zeros,Analytic,Arith}`.
 
 一部 5 分 7 秒的黎曼猜想专题：证明机器围绕它建了什么，又精确地停在哪里。项目没有证明黎曼猜想。
 
+Levent Alpöge’s Lean proof appeared after the revision covered by this film. The recommended source for reading and building the proof of classical RH and Dirichlet GRH is [lsernau/grh-lean](https://github.com/lsernau/grh-lean).
+
+影片以所引修订版为截点，早于 Levent Alpöge 的 Lean 证明。阅读和构建经典黎曼猜想与狄利克雷广义黎曼猜想的证明，首选 [lsernau/grh-lean](https://github.com/lsernau/grh-lean)。
+
 ## Outputs · 产物
 
 Rendered films are published as GitHub [Releases](../../../../releases) (tag `film-010-<version>`)
@@ -18,7 +22,7 @@ by `.github/workflows/release-film.yml`; nothing rendered is committed.
 
 ## What the film does not claim · 不主张
 
-- RH is **not proved**. The two hearts are open: `theorem o5_independence` still ends in `sorry`,
+- At the film’s source revision, the two hearts are open: `theorem o5_independence` still ends in `sorry`,
   and `o6WeilPositivityStatement` is only stated (`D5/X_Frontier/Hearts.lean` l.66, l.101).
 - The criteria (Weil, Li, Robin, Cayley form) are **classical mathematics**; what is new here is
   their kernel formalization. Robin's theorem (RH ⟺ σ(n) < e^γ n log log n for n > 5040) itself is
