@@ -11,9 +11,9 @@ Lean theorems under `D5/S3/{Weil,Zeros,Analytic,Arith}`.
 
 一部 5 分 7 秒的黎曼猜想专题：证明机器围绕它建了什么，又精确地停在哪里。项目没有证明黎曼猜想。
 
-Levent Alpöge’s Lean proof appeared after the revision covered by this film. The recommended source for reading and building the proof of classical RH and Dirichlet GRH is [lsernau/grh-lean](https://github.com/lsernau/grh-lean).
+Levent Alpöge’s Lean proof appeared after the revision covered by this film. The current primary repository for reading and building the proof of classical RH and Dirichlet GRH is [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis). The original replay archive remains in [the-omega-institute/riemann-hypothesis](https://github.com/the-omega-institute/riemann-hypothesis).
 
-影片以所引修订版为截点，早于 Levent Alpöge 的 Lean 证明。阅读和构建经典黎曼猜想与狄利克雷广义黎曼猜想的证明，首选 [lsernau/grh-lean](https://github.com/lsernau/grh-lean)。
+影片以所引修订版为截点，早于 Levent Alpöge 的 Lean 证明。阅读和构建经典黎曼猜想与狄利克雷广义黎曼猜想的证明，首选 [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)。原版复现记录保留在 [the-omega-institute/riemann-hypothesis](https://github.com/the-omega-institute/riemann-hypothesis)。
 
 ## Outputs · 产物
 
